@@ -1,0 +1,72 @@
+//Custom styles for theme
+
+
+//Alerts
+
+@each $color, $value in $theme-colors {
+    .alert-#{$color} {
+      color: $black;
+     box-shadow: $box-shadow-sm;
+    }
+  
+    .alert-icon.alert-#{$color} {
+      padding:0;  
+      position: relative;
+      display: flex;
+      .icon {
+          font-size: $font-size-lg;
+          color: $white;
+          background-color: theme-color-level($color, -2);
+          width:50px;
+      }
+      .message{
+          padding: $alert-padding-y $alert-padding-x;
+          flex: 1;
+      }
+      }
+  
+      .alert-icon.alert-dismissible .message{
+          padding: $alert-padding-y 4rem $alert-padding-y $alert-padding-x;
+      }
+  }
+  
+  .alert-icon-border {
+      background-color: $white;
+  }
+  
+  //Cards
+  
+  .card {
+      box-shadow: $box-shadow-sm;
+  }
+  
+  .card-header, .card-footer {
+      background: transparent;
+      margin: 0 $card-spacer-x;
+      padding: $card-spacer-y 0;
+  }
+  
+  a .card {
+      text-decoration: none;
+  }
+  
+  //Menus
+  
+  a.dropdown-item {
+      text-decoration: none;
+  }
+  
+  .dropdown-divider {
+      margin:0;
+  }
+  
+  //Helper Classes
+  
+  .bd-example {
+      position: relative;
+  }
+  
+  .bd-example>.dropdown-menu:first-child {
+      position: static;
+      display: block;
+  }
