@@ -1,6 +1,6 @@
 # modified gatsby-starter-default
-The default Gatsby starter project modified for testing.
 
+The <a href="https://github.com/gatsbyjs/gatsby-starter-default">default Gatsby starter project</a> modified to generate a design system.
 
 ## Install
 
