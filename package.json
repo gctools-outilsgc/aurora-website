@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "gh-pages": "^1.2.0",
+    "loader-utils": "^1.1.0",
     "prettier": "^1.12.0"
   },
   "repository": {

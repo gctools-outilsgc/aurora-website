@@ -1,8 +1,8 @@
 ---
 path: "/component/badges"
-date: "2017-11-07"
 title: "My first badge post"
 ---
+
 
 # Badges
 
@@ -12,6 +12,7 @@ When coding badges, the alternative text that will be read by screen readers sho
 
 Badges in this design system appear as follows:
 
+<Header />
 ![](./badges.png)
 
 Rectangle with a width of **28px** and height of **19px**. Border radius of **8px**. Background colour of \#4D5D6C. Text colour of \#FFFFFF. Text is centred within the rectangle.

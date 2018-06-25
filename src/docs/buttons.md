@@ -1,6 +1,5 @@
 ---
 path: "/component/buttons"
-date: "2017-11-07"
 title: "My first button post"
 ---
 

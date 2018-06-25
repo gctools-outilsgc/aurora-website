@@ -4,8 +4,7 @@ import { Jumbotron, Button } from 'reactstrap';
 const Component = () => (
   <div>
   <Jumbotron>
-    <h1 className="display-3">Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+    <h1 className="display-3">Hi from the components page</h1>
     <hr className="my-2" />
     <Link to="/">Go back to the homepage</Link>
     
