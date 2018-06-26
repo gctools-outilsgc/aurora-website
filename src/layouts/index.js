@@ -2,9 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import Header from '../components/header'
-//import './index.css'
+import Header from '../components/header';
+import SideNav from '../components/sidenav';
+
 import '../utils/custom.scss'
+
 
 const Layout = ({ children, data }) => (
   <div>
@@ -16,8 +18,14 @@ const Layout = ({ children, data }) => (
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
+
     <div class="container-fluid">
-      {children()}
+      <div class="row">
+        <SideNav />
+        <div class="col-sm">
+          {children()}
+        </div>
+      </div>
     </div>
   </div>
 )

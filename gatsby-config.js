@@ -1,11 +1,12 @@
 module.exports = {
   pathPrefix: '/gatsby-testing',
   siteMetadata: {
-    title: 'Carlenseum',
+    title: 'DCD Design System',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    `gatsby-transformer-remark`,
+    'gatsby-plugin-mdx',
+    'gatsby-transformer-remark',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -19,6 +20,7 @@ module.exports = {
         precision: 10,
       },
     },
+    
    
   ],
 }

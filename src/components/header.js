@@ -10,30 +10,31 @@ import {
 const Header = ({ siteTitle }) => (
     <div class="container-fluid">
         <Navbar dark color="primary" expand="md" >
-            
-             <Link to="/" class="navbar-brand"> {siteTitle} </Link>
+
+            <Link to="/" class="navbar-brand"> {siteTitle} </Link>
             <div class="navbar-collapse " id="navbarSupportedContent">
-                <Nav  navbar >
+                <Nav navbar >
                     <NavItem>
-                    <Link to="/" class="nav-link">Overview</Link>
+                        <Link to="/" class="nav-link">Overview</Link>
                     </NavItem>
                     <NavItem>
-                    <Link to="/" class="nav-link" >Identity</Link>
+                        <Link to="/" class="nav-link" >Identity</Link>
                     </NavItem>
                     <NavItem >
-                    <Link to="/component" class="nav-link" >Components</Link>
+                        <Link to="/component" class="nav-link" >Components</Link>
                     </NavItem>
                     <NavItem >
-                    <Link to="/" class="nav-link" >Content</Link>
+                        <Link to="/" class="nav-link" >Content</Link>
                     </NavItem>
                     <NavItem >
-                    <Link to="/" class="nav-link" >Data</Link>
+                        <Link to="/" class="nav-link" >Data</Link>
                     </NavItem>
                 </Nav>
             </div>
 
         </Navbar>
+       
+
     </div>
 )
-
 export default Header

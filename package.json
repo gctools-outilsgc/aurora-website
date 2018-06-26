@@ -7,6 +7,7 @@
     "bootstrap": "^4.1.1",
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",
+    "gatsby-plugin-mdx": "^1.0.1",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-sass": "^1.0.26",
     "gatsby-source-filesystem": "^1.5.39",
@@ -28,6 +29,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@mdx-js/loader": "^0.11.0",
+    "@mdx-js/mdx": "^0.10.1",
     "gh-pages": "^1.2.0",
     "loader-utils": "^1.1.0",
     "prettier": "^1.12.0"

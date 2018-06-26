@@ -1,9 +1,5 @@
----
-path: "/component/badges"
-title: "My first badge post"
----
-
-
+import Header from '../../components/header'
+import { Badge } from 'reactstrap'
 # Badges
 
 Badges are used to show notifications and other alerts related to a particular element. Badges do not stand alone, but are combined with text, icons or buttons to show a change or action related to that feature. For example, a badge beside your Inbox link to show the number of unread emails.
@@ -12,8 +8,7 @@ When coding badges, the alternative text that will be read by screen readers sho
 
 Badges in this design system appear as follows:
 
-<Header />
-![](./badges.png)
+<Badge color="secondary">New</Badge>
 
 Rectangle with a width of **28px** and height of **19px**. Border radius of **8px**. Background colour of \#4D5D6C. Text colour of \#FFFFFF. Text is centred within the rectangle.
 
