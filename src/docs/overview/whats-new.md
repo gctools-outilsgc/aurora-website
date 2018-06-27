@@ -1,3 +1,7 @@
+---
+path: "/overview/whats-new"
+---
+
 # What's New
 
 Latest updates to the \#GCDigital Design System.

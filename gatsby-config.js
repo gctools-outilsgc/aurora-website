@@ -1,9 +1,10 @@
 module.exports = {
-  pathPrefix: '/gatsby-testing',
+  pathPrefix: `/gatsby-testing`,
   siteMetadata: {
-    title: 'DCD Design System',
+    title: 'Maple',
   },
   plugins: [
+    
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-mdx',
     'gatsby-transformer-remark',
@@ -15,12 +16,11 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-sass',
+      resolve: `gatsby-plugin-sass`,
       options: {
-        precision: 10,
+        precision: 10
       },
     },
-    
-   
   ],
+  
 }

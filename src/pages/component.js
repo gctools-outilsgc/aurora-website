@@ -1,16 +1,14 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import { Jumbotron, Button } from 'reactstrap';
-import SideNav from '../components/sidenav';
-const Component = () => (
-  <div>
-  <Jumbotron>
-    <h1 className="display-3">Hi from the components page</h1>
-    <hr className="my-2" />
+import { Link } from 'gatsby'
+
+import Layout from '../components/layout'
+
+const SecondPage = () => (
+  <Layout>
+    <h1>Hi from the second page</h1>
+    <p>Welcome to page 2</p>
     <Link to="/">Go back to the homepage</Link>
-    
-    </Jumbotron>
-  </div>
+  </Layout>
 )
 
-export default Component
+export default SecondPage

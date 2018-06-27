@@ -5,17 +5,18 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "bootstrap": "^4.1.1",
-    "gatsby": "^1.9.247",
-    "gatsby-link": "^1.6.40",
+    "gatsby": "next",
     "gatsby-plugin-mdx": "^1.0.1",
-    "gatsby-plugin-react-helmet": "^2.0.10",
-    "gatsby-plugin-sass": "^1.0.26",
+    "gatsby-plugin-react-helmet": "next",
+    "gatsby-plugin-sass": "next",
     "gatsby-source-filesystem": "^1.5.39",
     "gatsby-transformer-remark": "^1.7.44",
+    "node-sass": "^4.9.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
-    "reactstrap": "^6.1.0"
+    "reactstrap": "^6.1.0",
+    "rehype-react": "^3.0.2"
   },
   "keywords": [
     "gatsby"
@@ -25,12 +26,12 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
-    "@mdx-js/loader": "^0.11.0",
-    "@mdx-js/mdx": "^0.10.1",
+    "@mdx-js/loader": "^0.12.0",
+    "@mdx-js/mdx": "^0.12.0",
     "gh-pages": "^1.2.0",
     "loader-utils": "^1.1.0",
     "prettier": "^1.12.0"
