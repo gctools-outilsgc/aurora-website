@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/gatsby-testing`,
+  pathPrefix: `/design-system-code`,
   siteMetadata: {
     title: 'Maple',
     langs: ['en', 'fr'],

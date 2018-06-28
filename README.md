@@ -1,6 +1,6 @@
 # Design-System-code
 
-The site generator for the design system.
+The site generator for the design system. You can see its current build at <a href="https://gctools-outilsgc.github.io/design-system-code/"> https://gctools-outilsgc.github.io/design-system-code/ </a>
 
 ## Install
 
