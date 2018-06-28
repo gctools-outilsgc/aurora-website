@@ -1,7 +1,7 @@
-import React from "react"
-import SideNav from "../components/sidenav"
-import Layout from "../components/layout"
-import rehypeReact from "rehype-react"
+import React from 'react'
+import SideNav from '../components/sidenav'
+import Layout from '../components/layout'
+import rehypeReact from 'rehype-react'
 import { Badge } from 'reactstrap'
 
 export default function Template({
@@ -11,22 +11,14 @@ export default function Template({
   const { frontmatter, html, htmlAst } = markdownRemark
   const renderAst = new rehypeReact({
     createElement: React.createElement,
-    components: { "badge": Badge },
+    components: { badge: Badge },
   }).Compiler
   return (
     <Layout>
-
       <div class="row">
         <SideNav />
 
-
-        <div class="col-sm">
-          {
-            renderAst(htmlAst)
-          }
-        </div>
-
-
+        <div class="col-sm">{renderAst(htmlAst)}</div>
       </div>
     </Layout>
   )

@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { StaticQuery } from "gatsby"
+import { StaticQuery } from 'gatsby'
 
 import Header from './header'
 import '../utils/custom.scss'
@@ -27,9 +27,7 @@ const Layout = ({ children, data }) => (
           ]}
         />
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div class="container-fluid">
-          {children}
-        </div>
+        <div class="container-fluid">{children}</div>
       </>
     )}
   />

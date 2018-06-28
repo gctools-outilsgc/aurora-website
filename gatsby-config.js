@@ -4,9 +4,10 @@ module.exports = {
     title: 'Maple',
   },
   plugins: [
-    
+
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-mdx',
+    'gatsby-plugin-eslint',
     'gatsby-transformer-remark',
     {
       resolve: 'gatsby-source-filesystem',
@@ -21,6 +22,13 @@ module.exports = {
         precision: 10
       },
     },
+    {
+      resolve: 'gatsby-plugin-i18n',
+      options: {
+        langKeyDefault: 'en',
+        useLangKeyLayout: false
+      },
+    }
   ],
-  
+
 }

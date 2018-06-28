@@ -1,39 +1,43 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import {
-  Navbar,
-  Nav,
-  NavItem,
-} from 'reactstrap'
+import { Navbar, Nav, NavItem, Button, ButtonGroup } from 'reactstrap'
 
 const Header = ({ siteTitle }) => (
   <div class="container-fluid">
-    <Navbar dark color="primary" expand="md" >
-
-      <Link to="/" class="navbar-brand"> {siteTitle} </Link>
-      <div class="navbar-collapse " id="navbarSupportedContent">
-        <Nav navbar >
+    <Navbar dark color="primary" expand="md">
+      <Link to="/" className="navbar-brand">
+        {' '}
+        {siteTitle}{' '}
+      </Link>
+      <div className="navbar-collapse ">
+        <Nav navbar>
           <NavItem>
-            <Link to="/" class="nav-link">Overview</Link>
+            <Link to="/overview/whats-new" class="nav-link">
+              Overview
+            </Link>
           </NavItem>
           <NavItem>
-            <Link to="/" class="nav-link" >Identity</Link>
+            <Link to="/" class="nav-link">
+              Identity
+            </Link>
           </NavItem>
-          <NavItem >
-            <Link to="/component" class="nav-link" >Components</Link>
+          <NavItem>
+            <Link to="/component/badges" class="nav-link">
+              Components
+            </Link>
           </NavItem>
-          <NavItem >
-            <Link to="/" class="nav-link" >Content</Link>
-          </NavItem>
-          <NavItem >
-            <Link to="/" class="nav-link" >Data</Link>
+          <NavItem>
+            <Link to="/" className="nav-link">
+              Content
+            </Link>
           </NavItem>
         </Nav>
       </div>
-
+      <ButtonGroup className="mr-auto">
+            <Button>EN</Button>
+            <Button>FR</Button>
+          </ButtonGroup>
     </Navbar>
-
-
   </div>
 )
 

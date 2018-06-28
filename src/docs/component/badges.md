@@ -1,6 +1,5 @@
 ---
 path: "/component/badges"
-
 ---
 # Badges
 
