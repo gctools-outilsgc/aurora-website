@@ -1,11 +1,15 @@
 module.exports = {
-  pathPrefix: '/gatsby-testing',
+  pathPrefix: `/gatsby-testing`,
   siteMetadata: {
-    title: 'DCD Design System',
+    title: 'Maple',
+    langs: ['en', 'fr'],
+    defaultLangKey: 'en'
   },
   plugins: [
+
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-mdx',
+  
+    'gatsby-plugin-eslint',
     'gatsby-transformer-remark',
     {
       resolve: 'gatsby-source-filesystem',
@@ -15,12 +19,18 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-sass',
+      resolve: `gatsby-plugin-sass`,
       options: {
-        precision: 10,
+        precision: 10
       },
     },
-    
-   
+    {
+      resolve: 'gatsby-plugin-i18n',
+      options: {
+        langKeyDefault: 'en',
+        useLangKeyLayout: false
+      },
+    }
   ],
+
 }

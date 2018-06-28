@@ -1,22 +1,21 @@
-# modified gatsby-starter-default
+# Design-System-code
 
-The <a href="https://github.com/gatsbyjs/gatsby-starter-default">default Gatsby starter project</a> modified to generate a design system.
+The site generator for the design system.
 
 ## Install
 
-Make sure that you have the Gatsby CLI program installed:
+Download this repo and move into it, then run:
 ```sh
-npm install --global gatsby-cli
+yarn
 ```
 
-And run from your CLI:
+To start your local dev env:
 ```sh
-gatsby new gatsby-example-site
+yarn run develop
 ```
+## Deploy
 
-Then you can run it by:
+to push your site to gh-pages:
 ```sh
-cd gatsby-example-site
-gatsby develop
+yarn run deploy
 ```
-
