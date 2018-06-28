@@ -1,15 +1,16 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { Navbar, Nav, NavItem, Button, ButtonGroup } from 'reactstrap'
+import SelectLanguage from './SelectLanguage'
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, lang }) => (
   <div class="container-fluid">
     <Navbar dark color="primary" expand="md">
       <Link to="/" className="navbar-brand">
         {' '}
         {siteTitle}{' '}
       </Link>
-      <div className="navbar-collapse ">
+      <div className="navbar-collapse">
         <Nav navbar>
           <NavItem>
             <Link to="/overview/whats-new" class="nav-link">

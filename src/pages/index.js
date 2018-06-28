@@ -19,7 +19,7 @@ const IndexPage = () => (
       <Jumbotron>
         <h1 className="display-3">Welcome to Maple!</h1>
         <p className="lead">
-          For some reason I cannot reproduce the font seen on reactstrap.
+          Subtitle.
         </p>
         <hr className="my-2" />
         <p>

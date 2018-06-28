@@ -2,11 +2,13 @@ module.exports = {
   pathPrefix: `/gatsby-testing`,
   siteMetadata: {
     title: 'Maple',
+    langs: ['en', 'fr'],
+    defaultLangKey: 'en'
   },
   plugins: [
 
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-mdx',
+  
     'gatsby-plugin-eslint',
     'gatsby-transformer-remark',
     {

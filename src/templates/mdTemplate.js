@@ -3,7 +3,7 @@ import SideNav from '../components/sidenav'
 import Layout from '../components/layout'
 import rehypeReact from 'rehype-react'
 import { Badge } from 'reactstrap'
-
+import { StaticQuery,graphql } from 'gatsby'
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {

@@ -1,26 +1,21 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# Design-System-code
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+The site generator for the design system.
 
 ## Install
 
-Make sure that you have the Gatsby CLI program installed:
+Download this repo and move into it, then run:
 ```sh
-npm install --global gatsby-cli
+yarn
 ```
 
-And run from your CLI:
+To start your local dev env:
 ```sh
-gatsby new gatsby-example-site
+yarn run develop
 ```
-
-Then you can run it by:
-```sh
-cd gatsby-example-site
-gatsby develop
-```
-
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+to push your site to gh-pages:
+```sh
+yarn run deploy
+```
