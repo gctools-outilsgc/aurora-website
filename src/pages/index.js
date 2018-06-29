@@ -1,17 +1,15 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
 
 import {
   Jumbotron,
   Button,
   Card,
-  CardImg,
   CardText,
   CardBody,
   CardTitle,
-  CardSubtitle,
-} from 'reactstrap'
-import Layout from '../components/layout'
+  CardSubtitle
+} from 'reactstrap';
+import Layout from '../components/Layout';
 
 const IndexPage = () => (
   <Layout>
@@ -23,21 +21,19 @@ const IndexPage = () => (
         </p>
         <hr className="my-2" />
         <p>
-          It uses utility classes for typgraphy and spacing to space content out
-          within the larger container.
+          Making this one line
         </p>
         <p className="lead">
           <Button color="primary">Get started!</Button>
         </p>
       </Jumbotron>
-      <div class="row">
+      <div className="row">
         <Card className="col">
           <CardBody>
             <CardTitle>Designers</CardTitle>
             <CardSubtitle>Card subtitle</CardSubtitle>
             <CardText>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              One Line
             </CardText>
             <Button>Button</Button>
           </CardBody>
@@ -48,8 +44,7 @@ const IndexPage = () => (
             <CardTitle>Developers</CardTitle>
             <CardSubtitle>Card subtitle</CardSubtitle>
             <CardText>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              One Line for testing
             </CardText>
             <Button>Button</Button>
           </CardBody>
@@ -60,8 +55,7 @@ const IndexPage = () => (
             <CardTitle>Writers</CardTitle>
             <CardSubtitle>Card subtitle</CardSubtitle>
             <CardText>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Making this one line
             </CardText>
             <Button>Button</Button>
           </CardBody>
@@ -69,6 +63,6 @@ const IndexPage = () => (
       </div>
     </div>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

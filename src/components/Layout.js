@@ -1,10 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
-import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n';
-import Header from './header'
-import '../utils/custom.scss'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
+import { StaticQuery, graphql } from 'gatsby';
+import Header from './Header';
+import '../utils/custom.scss';
 
 
 const Layout = ({ children, data, location }) => (
@@ -31,15 +30,15 @@ const Layout = ({ children, data, location }) => (
           ]}
         />
         <Header siteTitle={data.site.siteMetadata.title} lang={data.site.siteMetadata} />
-        <div class="container-fluid">{children}</div>
+        <div className="container-fluid">{children}</div>
       </>
     )}
   />
 
-)
+);
 
 Layout.propTypes = {
   children: PropTypes.element.isRequired,
-}
+};
 
-export default Layout
+export default Layout;

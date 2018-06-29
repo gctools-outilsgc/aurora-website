@@ -1,12 +1,12 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import { Navbar, Nav, NavItem, Button, ButtonGroup } from 'reactstrap'
-import SelectLanguage from './SelectLanguage'
+import React from 'react';
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import { Navbar, Nav, NavItem, Button, ButtonGroup } from 'reactstrap';
 
-const Header = ({ siteTitle, lang }) => (
-  <div class="container-fluid">
+const Header = ({ siteTitle }) => (
+  <div className="container-fluid">
     <Navbar dark color="primary" expand="md">
-      <Link to="/" className="navbar-brand">
+      <Link to="/#!" className="navbar-brand">
         {' '}
         {siteTitle}{' '}
       </Link>
@@ -18,7 +18,7 @@ const Header = ({ siteTitle, lang }) => (
             </Link>
           </NavItem>
           <NavItem>
-            <Link to="/" class="nav-link">
+            <Link to="/#!" class="nav-link">
               Identity
             </Link>
           </NavItem>
@@ -28,18 +28,26 @@ const Header = ({ siteTitle, lang }) => (
             </Link>
           </NavItem>
           <NavItem>
-            <Link to="/" className="nav-link">
+            <Link to="/#!" className="nav-link">
               Content
             </Link>
           </NavItem>
         </Nav>
       </div>
       <ButtonGroup className="mr-auto">
-            <Button>EN</Button>
-            <Button>FR</Button>
-          </ButtonGroup>
+        <Button>EN</Button>
+        <Button>FR</Button>
+      </ButtonGroup>
     </Navbar>
   </div>
-)
+);
 
-export default Header
+Header.propTypes = {
+  siteTitle: PropTypes.string,
+};
+
+Header.defaultProps = {
+  siteTitle: 'Maple',
+};
+
+export default Header;
