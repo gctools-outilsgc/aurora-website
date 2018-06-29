@@ -1,9 +1,10 @@
 import React from 'react';
-import SideNav from '../components/Sidenav';
-import Layout from '../components/Layout';
 import rehypeReact from 'rehype-react';
 import { Badge } from 'reactstrap';
-import { StaticQuery, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
+
+import SideNav from '../components/Sidenav';
+import Layout from '../components/Layout';
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
