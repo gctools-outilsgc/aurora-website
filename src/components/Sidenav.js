@@ -1,18 +1,14 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
+import PropTypes from 'prop-types';
 
 import {
-  Navbar,
   Nav,
-  NavItem,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItems,
-} from 'reactstrap'
+  NavItem
+} from 'reactstrap';
 
 const SideNav = ({ data }) => (
-  <div class="col-sm-auto">
+  <div className="col-sm-auto">
     <Nav vertical navbar justify>
       <NavItem>
         <Link to="/component/badges" class="nav-link">
@@ -41,5 +37,14 @@ const SideNav = ({ data }) => (
       </NavItem>
     </Nav>
   </div>
-)
-export default SideNav
+);
+
+SideNav.propTypes = {
+  data: PropTypes.string,
+};
+
+SideNav.defaultProps = {
+  data: 'Data',
+};
+
+export default SideNav;

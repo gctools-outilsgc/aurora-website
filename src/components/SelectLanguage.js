@@ -1,22 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Link} from 'gatsby';
+import { Link } from 'gatsby';
 
 const SelectLanguage = (props) => {
   const links = props.langs.map(lang =>
-    <Link to={lang.link} key={lang.langKey} >
+    (<Link to={lang.link} key={lang.langKey} >
       <li selected={lang.selected}>
         {lang.langKey}
       </li>
-    </Link>
-  );
+    </Link>));
 
   return (
     <section>
       <header style={{
-        color: 'white'
-      }}>
-        <FormattedMessage id="selectLanguage" />
+        color: 'white',
+      }}
+      >
+        <div id="selectLanguage" />
       </header>
       <ul>
         {links}
@@ -26,7 +26,7 @@ const SelectLanguage = (props) => {
 };
 
 SelectLanguage.propTypes = {
-  langs: PropTypes.array
+  langs: PropTypes.array,
 };
 
 export default SelectLanguage;
