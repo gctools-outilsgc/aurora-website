@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
-import { Navbar, Nav, NavItem, Button, ButtonGroup } from 'reactstrap';
+import { Navbar, Nav, NavItem } from 'reactstrap';
+import LanguageSelector from '@gctools-components/language-selector'
+import LocalizedComponent
+  from '@gctools-components/react-i18n-translation-webpack';
 
 const Header = ({ siteTitle }) => (
   <div className="container-fluid">
@@ -14,30 +17,29 @@ const Header = ({ siteTitle }) => (
         <Nav navbar>
           <NavItem>
             <Link to="/overview/whats-new" class="nav-link">
-              Overview
+             {__('Overview')} 
             </Link>
           </NavItem>
           <NavItem>
             <Link to="/#!" class="nav-link">
-              Identity
+              {__('Identity')} 
             </Link>
           </NavItem>
           <NavItem>
             <Link to="/component/badges" class="nav-link">
-              Components
+              {__('Components')} 
             </Link>
           </NavItem>
           <NavItem>
             <Link to="/#!" className="nav-link">
-              Content
+              {__('Content')} 
             </Link>
           </NavItem>
         </Nav>
       </div>
-      <ButtonGroup className="mr-auto">
-        <Button>EN</Button>
-        <Button>FR</Button>
-      </ButtonGroup>
+      
+        <LanguageSelector />
+
     </Navbar>
   </div>
 );
@@ -50,4 +52,4 @@ Header.defaultProps = {
   siteTitle: 'Maple',
 };
 
-export default Header;
+export default LocalizedComponent(Header);

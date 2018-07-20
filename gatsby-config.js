@@ -1,7 +1,7 @@
 module.exports = {
   pathPrefix: `/design-system-code`,
   siteMetadata: {
-    title: 'Maple',
+    title: 'Aurora',
     langs: ['en', 'fr'],
     defaultLangKey: 'en'
   },

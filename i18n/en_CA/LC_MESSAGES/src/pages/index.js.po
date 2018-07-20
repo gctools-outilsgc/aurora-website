@@ -1,0 +1,40 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-07-20 11:02-0700\n"
+"PO-Revision-Date: 2018-07-20 10:33-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_CA\n"
+"Language-Team: en_CA <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: 46:24 src/pages/index.js
+msgid "Developers"
+msgstr ""
+
+#: 35:24 src/pages/index.js
+msgid "Designers"
+msgstr ""
+
+#: 57:24 src/pages/index.js
+msgid "Writers"
+msgstr ""
+
+#: 68:24 src/pages/index.js
+msgid "Data Scientists"
+msgstr ""
+
+#: 79:24 src/pages/index.js
+msgid "Partners"
+msgstr ""
+
+#: 20:35 src/pages/index.js
+msgid "Welcome"
+msgstr "Welcome to Aurora!"
+

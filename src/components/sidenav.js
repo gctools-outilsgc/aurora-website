@@ -1,23 +1,24 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import PropTypes from 'prop-types';
-
+import LocalizedComponent
+  from '@gctools-components/react-i18n-translation-webpack';
 import {
   Nav,
   NavItem
 } from 'reactstrap';
 
-const SideNav = ({ data }) => (
+const Sidenav = (props) => (
   <div className="col-sm-auto">
     <Nav vertical navbar justify>
       <NavItem>
         <Link to="/component/badges" class="nav-link">
-          badges
+          Badges
         </Link>
       </NavItem>
       <NavItem>
-        <Link to="/" class="nav-link">
-          Identity
+        <Link to="/component/search" class="nav-link">
+          Search
         </Link>
       </NavItem>
       <NavItem>
@@ -39,12 +40,12 @@ const SideNav = ({ data }) => (
   </div>
 );
 
-SideNav.propTypes = {
+Sidenav.propTypes = {
   data: PropTypes.string,
 };
 
-SideNav.defaultProps = {
+Sidenav.defaultProps = {
   data: 'Data',
 };
 
-export default SideNav;
+export default LocalizedComponent(Sidenav);

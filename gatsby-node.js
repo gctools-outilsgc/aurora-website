@@ -39,3 +39,16 @@
      })
    })
  }
+
+ const I18nTranslationWebpackPlugin =
+  require('@gctools-components/i18n-translation-webpack-plugin');
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    plugins: [
+      new I18nTranslationWebpackPlugin({
+        extract_text_exclude: /node_modules|.cache/,
+        localizer_window: 'localizer',
+      }),
+    ],
+  });
+};

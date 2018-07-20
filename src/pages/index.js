@@ -9,13 +9,15 @@ import {
   CardTitle,
   CardSubtitle
 } from 'reactstrap';
-import Layout from '../components/Layout';
+import Layout from '../components/layout';
+import LocalizedComponent
+  from '@gctools-components/react-i18n-translation-webpack';
 
 const IndexPage = () => (
   <Layout>
     <div>
       <Jumbotron>
-        <h1 className="display-3">Welcome to Maple!</h1>
+        <h1 className="display-3">{__('Welcome')}</h1>
         <p className="lead">
           Subtitle.
         </p>
@@ -30,7 +32,7 @@ const IndexPage = () => (
       <div className="row">
         <Card className="col">
           <CardBody>
-            <CardTitle>Designers</CardTitle>
+            <CardTitle>{__('Designers')}</CardTitle>
             <CardSubtitle>Card subtitle</CardSubtitle>
             <CardText>
               One Line
@@ -41,7 +43,7 @@ const IndexPage = () => (
 
         <Card className="col">
           <CardBody>
-            <CardTitle>Developers</CardTitle>
+            <CardTitle>{__('Developers')}</CardTitle>
             <CardSubtitle>Card subtitle</CardSubtitle>
             <CardText>
               One Line for testing
@@ -52,10 +54,32 @@ const IndexPage = () => (
 
         <Card className="col">
           <CardBody>
-            <CardTitle>Writers</CardTitle>
+            <CardTitle>{__('Writers')}</CardTitle>
             <CardSubtitle>Card subtitle</CardSubtitle>
             <CardText>
               Making this one line
+            </CardText>
+            <Button>Button</Button>
+          </CardBody>
+        </Card>
+        
+        <Card className="col">
+          <CardBody>
+            <CardTitle>{__('Data Scientists')}</CardTitle>
+            <CardSubtitle>Card subtitle</CardSubtitle>
+            <CardText>
+              One Line
+            </CardText>
+            <Button>Button</Button>
+          </CardBody>
+        </Card>
+
+        <Card className="col">
+          <CardBody>
+            <CardTitle>{__('Partners')}</CardTitle>
+            <CardSubtitle>Card subtitle</CardSubtitle>
+            <CardText>
+              One Line
             </CardText>
             <Button>Button</Button>
           </CardBody>
@@ -65,4 +89,4 @@ const IndexPage = () => (
   </Layout>
 );
 
-export default IndexPage;
+export default LocalizedComponent(IndexPage);
