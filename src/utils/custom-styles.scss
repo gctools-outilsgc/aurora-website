@@ -28,7 +28,7 @@
       .alert-icon.alert-dismissible .message{
           padding: $alert-padding-y 4rem $alert-padding-y $alert-padding-x;
       }
-  }
+}
   
   .alert-icon-border {
       background-color: $white;
@@ -69,4 +69,8 @@
   .bd-example>.dropdown-menu:first-child {
       position: static;
       display: block;
+  }
+
+  body { 
+    padding-top: 75px; 
   }

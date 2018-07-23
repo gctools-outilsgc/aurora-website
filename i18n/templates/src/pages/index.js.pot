@@ -6,75 +6,27 @@ msgstr ""
 "Content-Type : text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding : 8bit\n"
 
-#: src/pages/index.js 46:24
-msgid "Developers"
+#: src/pages/index.js 25:37
+msgid "Welcome"
 msgstr ""
 
-#: src/pages/index.js 35:24
+#: src/pages/index.js 42:24
 msgid "Designers"
 msgstr ""
 
-#: src/pages/index.js 57:24
+#: src/pages/index.js 54:24
+msgid "Developers"
+msgstr ""
+
+#: src/pages/index.js 66:24
 msgid "Writers"
 msgstr ""
 
-#: src/pages/index.js 68:24
+#: src/pages/index.js 78:24
 msgid "Data Scientists"
 msgstr ""
 
-#: src/pages/index.js 79:24
-msgid "Partners"
-msgstr ""
-
-#: src/pages/index.js 20:35
-msgid "Welcome to Aurora!"
-msgstr ""
-
-#: src/pages/index.js 20:35
-msgid "Ddesigners"
-msgstr ""
-
-#: src/pages/index.js 20:35
-msgid "Welcome to Aurora!Ddesigners"
-msgstr ""
-
-#: src/pages/index.js 20:35
-msgid "dddddDdesigners"
-msgstr ""
-
-#: src/pages/index.js 20:35
-msgid "dddddddddDdesigners"
-msgstr ""
-
-#: src/pages/index.js 20:35
-msgid "dddddd dddDd esigners"
-msgstr ""
-
-#: src/pages/index.js 20:35
-msgid "Welcome dddDd esigners"
-msgstr ""
-
-#: src/pages/index.js 20:35
-msgid "Welcome to dddDd esigners"
-msgstr ""
-
-#: src/pages/index.js 20:35
-msgid "Welcome to Aurora dddDd esigners"
-msgstr ""
-
-#: src/pages/index.js 20:35
-msgid "Welcome to Aurora! dddDd esigners"
-msgstr ""
-
-#: src/pages/index.js 20:35
-msgid "W!elcome to Aurora dddDd esigners"
-msgstr ""
-
-#: src/pages/index.js 20:35
-msgid "Welcome to Aurora"
-msgstr ""
-
-#: src/pages/index.js 20:35
-msgid "Welcome"
+#: src/pages/index.js 90:24
+msgid "Contributors"
 msgstr ""
 

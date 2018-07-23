@@ -30,7 +30,7 @@ const Layout = ({ children, data, location }) => (
           ]}
         />
         <Header siteTitle={data.site.siteMetadata.title} lang={data.site.siteMetadata} />
-        <div className="container-fluid">{children}</div>
+        <div>{children}</div>
       </>
     )}
   />

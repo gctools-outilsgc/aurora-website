@@ -8,8 +8,8 @@ module.exports = {
   plugins: [
 
     'gatsby-plugin-react-helmet',
-  
-    'gatsby-plugin-eslint',
+
+    // 'gatsby-plugin-eslint', STILL INSTALLED
     'gatsby-transformer-remark',
     {
       resolve: 'gatsby-source-filesystem',
@@ -18,6 +18,7 @@ module.exports = {
         name: `markdown-pages`,
       },
     },
+    
     {
       resolve: `gatsby-plugin-sass`,
       options: {
@@ -30,6 +31,18 @@ module.exports = {
         langKeyDefault: 'en',
         useLangKeyLayout: false
       },
+    },
+
+    // Image processing plugins
+
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `img`,
+        path: `${__dirname}/src/img/`
+      }
     }
   ],
 
