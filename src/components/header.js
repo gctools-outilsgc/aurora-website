@@ -7,7 +7,7 @@ import LocalizedComponent
   from '@gctools-components/react-i18n-translation-webpack';
 
 const Header = ({ siteTitle }) => (
-  <div>
+  <div className="container-fluid">
     <Navbar dark color="primary" expand="md" fixed="top">
       <Link to="/#!" className="navbar-brand">
         {' '}
@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => (
           </NavItem>
         </Nav>
       </div>
-      
+        
         <LanguageSelector />
 
     </Navbar>
@@ -49,7 +49,7 @@ Header.propTypes = {
 };
 
 Header.defaultProps = {
-  siteTitle: 'Maple',
+  siteTitle: 'Aurora',
 };
 
 export default LocalizedComponent(Header);

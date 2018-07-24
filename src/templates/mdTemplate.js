@@ -5,12 +5,14 @@ import { graphql } from 'gatsby';
 
 import Sidenav from '../components/sidenav';
 import Layout from '../components/layout';
+import LocalizedComponent
+  from '@gctools-components/react-i18n-translation-webpack';
 
-export default function Template({
+const Template = ({
   data, // this prop will be injected by the GraphQL query below.
-}) {
-  const { markdownRemark } = data; // data.markdownRemark holds our post data
-  const { frontmatter, html, htmlAst } = markdownRemark;
+}) => {
+  const { eng, fr } = data; // data.markdownRemark holds our post data
+  // const { frontmatter, html, htmlAst } = eng;
   const renderAst = new rehypeReact({
     createElement: React.createElement,
     components: { badge: Badge },
@@ -19,20 +21,32 @@ export default function Template({
     <Layout>
       <div className="row">
         <Sidenav />
-
-        <div className="col-sm">{renderAst(htmlAst)}</div>
+        {(localizer.lang === "en_CA") ?
+          <div className="col-sm">{renderAst(eng.htmlAst)}</div>:
+          <div className="col-sm">{renderAst(fr.htmlAst)}</div>
+      }
       </div>
     </Layout>
   );
 }
 
+export default LocalizedComponent(Template);
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+    eng:markdownRemark(frontmatter: { path: { eq: $path }, lang: {eq: "en"} }) {
       html
       htmlAst
       frontmatter {
         path
+        lang
+      }
+    }
+    fr:markdownRemark(frontmatter: { path: { eq: $path }, lang: {eq: "fr"} }) {
+      html
+      htmlAst
+      frontmatter {
+        path
+        lang
       }
     }
   }

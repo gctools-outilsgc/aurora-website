@@ -20,6 +20,7 @@
            node {
              frontmatter {
                path
+               lang
              }
            }
          }

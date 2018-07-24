@@ -1,5 +1,6 @@
 ---
 path: "/overview/whats-new"
+lang: "en"
 ---
 
 # What's New

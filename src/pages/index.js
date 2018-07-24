@@ -14,13 +14,13 @@ import Layout from '../components/layout';
 import LocalizedComponent
   from '@gctools-components/react-i18n-translation-webpack';
 import Img from "gatsby-image"
-import { StaticQuery, graphql } from 'gatsby';
+import { StaticQuery, graphql, push, replace } from 'gatsby';
 const IndexPage = ({ data }) => (
 
   <Layout>
-    <div>
-      <Card inverse>
-        <Img sizes={data.aurora.childImageSharp.sizes} />
+    
+      <Card inverse className="no-container" >
+        <Img fluid={data.aurora.childImageSharp.fluid} />
         <CardImgOverlay className="no-borders">
           <h1 className="display-3">{__('Welcome')}</h1>
           <p className="lead">
@@ -31,71 +31,72 @@ const IndexPage = ({ data }) => (
             Making this one line
         </p>
           <p className="lead">
-            <Button color="primary">Get started!</Button>
+            <Button color="primary" onClick={() => replace('/component')}>Get started!</Button>
           </p>
         </CardImgOverlay>
       </Card>
-      <div className="row">
-        <Card className="col text-center">
-          <Img fluid={data.eye.childImageSharp.fluid} />
-          <CardBody>
-            <CardTitle>{__('Designers')}</CardTitle>
-            <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>
-              One Line
+    
+    <div className="row">
+      <Card className="col text-center">
+        <Img fluid={data.eye.childImageSharp.fluid} />
+        <CardBody>
+          <CardTitle>{__('Designers')}</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>
+            One Line
             </CardText>
-            <Button>Button</Button>
-          </CardBody>
-        </Card>
-        <Card className="col text-center">
-          <Img fluid={data.gears.childImageSharp.fluid} />
-          <CardBody>
-            <CardTitle>{__('Developers')}</CardTitle>
-            <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>
-              One Line for testing
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
+      <Card className="col text-center">
+        <Img fluid={data.gears.childImageSharp.fluid} />
+        <CardBody>
+          <CardTitle>{__('Developers')}</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>
+            One Line for testing
             </CardText>
-            <Button>Button</Button>
-          </CardBody>
-        </Card>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
 
-        <Card className="col text-center">
-          <Img fluid={data.pen.childImageSharp.fluid} />
-          <CardBody>
-            <CardTitle>{__('Writers')}</CardTitle>
-            <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>
-              Making this one line
+      <Card className="col text-center">
+        <Img fluid={data.pen.childImageSharp.fluid} />
+        <CardBody>
+          <CardTitle>{__('Writers')}</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>
+            Making this one line
             </CardText>
-            <Button>Button</Button>
-          </CardBody>
-        </Card>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
 
-        <Card className="col text-center">
-          <Img fluid={data.pie.childImageSharp.fluid} />
-          <CardBody>
-            <CardTitle>{__('Data Scientists')}</CardTitle>
-            <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>
-              One Line
+      <Card className="col text-center">
+        <Img fluid={data.pie.childImageSharp.fluid} />
+        <CardBody>
+          <CardTitle>{__('Data Scientists')}</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>
+            One Line
             </CardText>
-            <Button>Button</Button>
-          </CardBody>
-        </Card>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
 
-        <Card className="col text-center">
-          <Img fluid={data.contributors.childImageSharp.fluid} />
-          <CardBody>
-            <CardTitle>{__('Contributors')}</CardTitle>
-            <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>
-              One Line
+      <Card className="col text-center">
+        <Img fluid={data.contributors.childImageSharp.fluid} />
+        <CardBody>
+          <CardTitle>{__('Contributors')}</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>
+            One Line
             </CardText>
-            <Button>Button</Button>
-          </CardBody>
-        </Card>
-      </div>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
     </div>
+
   </Layout>
 
 );
@@ -143,8 +144,8 @@ query {
   }
   aurora:file(relativePath: { regex: "/aurora/" }) {
     childImageSharp {
-      sizes(maxWidth: 1920 ) {
-        ...GatsbyImageSharpSizes
+      fluid(maxWidth: 1920 ) {
+        ...GatsbyImageSharpFluid
       }
     }
   }

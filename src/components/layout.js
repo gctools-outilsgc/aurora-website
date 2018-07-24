@@ -29,8 +29,8 @@ const Layout = ({ children, data, location }) => (
             { name: 'keywords', content: 'sample, something' },
           ]}
         />
-        <Header siteTitle={data.site.siteMetadata.title} lang={data.site.siteMetadata} />
-        <div>{children}</div>
+        <Header siteTitle={data.site.siteMetadata.title}/>
+        <div className="container-fluid">{children}</div>
       </>
     )}
   />
