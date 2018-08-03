@@ -1,1 +1,0 @@
-{"errors":[{"message":"Cannot read property 'id' of undefined","locations":[{"line":2,"column":3}],"path":["headerImage"]}],"data":{"headerImage":null}}
