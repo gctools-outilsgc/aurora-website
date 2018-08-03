@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import { Link, StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import LocalizedComponent
   from '@gctools-components/react-i18n-translation-webpack';
@@ -8,44 +8,112 @@ import {
   NavItem
 } from 'reactstrap';
 
+
 const Sidenav = (props) => (
-  <div className="col-sm-auto">
-    <Nav vertical navbar justify>
-      <NavItem>
-        <Link to="/component/badges" class="nav-link">
-          Badges
-        </Link>
-      </NavItem>
-      <NavItem>
-        <Link to="/component/search" class="nav-link">
-          Search
-        </Link>
-      </NavItem>
-      <NavItem>
-        <Link to="/component/" class="nav-link">
-          Components
-        </Link>
-      </NavItem>
-      <NavItem>
-        <Link to="/" class="nav-link">
-          Content
-        </Link>
-      </NavItem>
-      <NavItem>
-        <Link to="/" class="nav-link">
-          Data
-        </Link>
-      </NavItem>
-    </Nav>
-  </div>
+  <StaticQuery query={graphql`
+  query{
+    component:allMarkdownRemark(filter: {frontmatter: {path: {regex: "/component/"}}}) {
+      totalCount
+        edges{
+          node {
+            frontmatter {
+              title
+              path
+              lang
+            }
+          }
+      }
+    }
+    overview:allMarkdownRemark(filter: {frontmatter: {path: {regex: "/overview/"}}}) {
+      totalCount
+        edges{
+          node {
+            frontmatter {
+              title
+              path
+              lang
+            }
+          }
+      }
+    }
+    content:allMarkdownRemark(filter: {frontmatter: {path: {regex: "/content/"}}}) {
+      totalCount
+        edges{
+          node {
+            frontmatter {
+              title
+              path
+              lang
+            }
+          }
+      }
+    }
+    identity:allMarkdownRemark(filter: {frontmatter: {path: {regex: "/identity/"}}}) {
+      totalCount
+        edges{
+          node {
+            frontmatter {
+              title
+              path
+              lang
+            }
+          }
+      }
+    }
+    data:allMarkdownRemark(filter: {frontmatter: {path: {regex: "/data/"}}}) {
+      totalCount
+        edges{
+          node {
+            frontmatter {
+              title
+              path
+              lang
+            }
+          }
+      }
+    }
+  }
+    `}
+    render={data => (
+      <div className="col-sm-auto">
+        <Nav vertical navbar justify>
+          {
+           
+            data[props.path.split("/")[1]].edges.map((edges) => {
+              if ((localizer.lang === "en_CA") && (edges.node.frontmatter.lang === "en"))
+                return (
+                  <NavItem>
+                    <Link to={edges.node.frontmatter.path} class="nav-link">
+                      {edges.node.frontmatter.title}
+                    </Link>
+
+                  </NavItem>
+                );
+              else
+                if((localizer.lang === "fr_CA") && (edges.node.frontmatter.lang === "fr"))
+                return (
+                  <NavItem>
+                    <Link to={edges.node.frontmatter.path} class="nav-link">
+                      {edges.node.frontmatter.title}
+                    </Link>
+
+                  </NavItem>)
+            }
+            )
+          }
+        </Nav>
+      </div>
+    )}
+  />
 );
 
-Sidenav.propTypes = {
+/* Sidenav.propTypes = {
   data: PropTypes.string,
 };
 
 Sidenav.defaultProps = {
   data: 'Data',
-};
+}; */
 
 export default LocalizedComponent(Sidenav);
+

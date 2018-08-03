@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-07-24 07:42-0700\n"
+"POT-Creation-Date: 2018-07-24 11:01-0700\n"
 "PO-Revision-Date: 2018-07-20 10:33-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr_CA\n"
@@ -18,23 +18,23 @@ msgstr ""
 msgid "Welcome"
 msgstr "Bienvenue chez Aurora!"
 
-#: 42:24 src/pages/index.js
+#: 43:22 src/pages/index.js
 msgid "Designers"
 msgstr "Concepteurs"
 
-#: 53:24 src/pages/index.js
+#: 54:22 src/pages/index.js
 msgid "Developers"
 msgstr "Développeurs"
 
-#: 65:24 src/pages/index.js
+#: 66:22 src/pages/index.js
 msgid "Writers"
 msgstr "Écrivain(e)s"
 
-#: 77:24 src/pages/index.js
+#: 78:22 src/pages/index.js
 msgid "Data Scientists"
 msgstr "Scientifiques de(s) données"
 
-#: 89:24 src/pages/index.js
+#: 90:22 src/pages/index.js
 msgid "Contributors"
 msgstr "Contributeurs"
 

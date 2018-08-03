@@ -12,7 +12,7 @@ const Template = ({
   data, // this prop will be injected by the GraphQL query below.
 }) => {
   const { eng, fr } = data; // data.markdownRemark holds our post data
-  // const { frontmatter, html, htmlAst } = eng;
+  const { frontmatter:{ path } } = eng;
   const renderAst = new rehypeReact({
     createElement: React.createElement,
     components: { badge: Badge },
@@ -20,7 +20,7 @@ const Template = ({
   return (
     <Layout>
       <div className="row">
-        <Sidenav />
+        <Sidenav path={path} />
         {(localizer.lang === "en_CA") ?
           <div className="col-sm">{renderAst(eng.htmlAst)}</div>:
           <div className="col-sm">{renderAst(fr.htmlAst)}</div>

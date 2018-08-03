@@ -1,7 +1,7 @@
 ---
 path: "/overview/whats-new"
-lang: "en"
-title: "What's new?"
+lang: "fr"
+title: "Quoi de neuf?"
 ---
 
 # What's New

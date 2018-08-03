@@ -1,6 +1,7 @@
 ---
 path: "/component/search"
 lang: "en"
+title: "Search"
 ---
 # Search
 

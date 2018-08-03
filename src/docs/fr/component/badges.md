@@ -1,6 +1,7 @@
 ---
 path: "/component/badges"
 lang: "fr"
+title: "Badges"
 ---
 # Badges
 
