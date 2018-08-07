@@ -12,9 +12,9 @@ La Division de la collaboration numérique (DCN) utilise deux familles de police
 [Rubik](https://fonts.google.com/specimen/Rubik) est utilisé pour les titres et les en-têtes, tandis que [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) est utilisé pour le texte des sous-en-têtes, des boutons et des paragraphes. 
 
 **Rubik**
-![Rubik Font](../../../img/Rubik_image.PNG)
+![Rubik Font](../../../img/examples/Rubik_image.PNG)
 **Nunito Sans**
-![Nunito Sans Font](../../../img/Nunito_Sans_font.PNG)
+![Nunito Sans Font](../../../img/examples/Nunito_Sans_font.PNG)
 
 ### Choix des polices
 
