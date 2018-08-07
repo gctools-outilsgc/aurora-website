@@ -8,30 +8,30 @@ module.exports = {
   plugins: [
 
     'gatsby-plugin-react-helmet',
-
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     // 'gatsby-plugin-eslint', STILL INSTALLED
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/docs/`,
+        name: `markdown-pages`,
+      },
+    },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugin: [
+        plugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 590,
+              maxWidth: 740,
             },
           },
-        ]
-      }
-
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/src/docs`,
-        name: `markdown-pages`,
+        ],
       },
     },
 
@@ -51,8 +51,7 @@ module.exports = {
 
     // Image processing plugins
 
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    
     {
       resolve: `gatsby-source-filesystem`,
       options: {

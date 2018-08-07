@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
             </Link>
           </NavItem>
           <NavItem>
-            <Link to="/#!" className="nav-link">
+            <Link to="/content/typography" className="nav-link">
               {__('Content')} 
             </Link>
           </NavItem>

@@ -13,7 +13,6 @@ Badges in this design system appear as follows:
 
 <badge color="secondary">New</badge>
 
-<img src="../../../img/aurora_banner.jpg" >
-
+</br>
 Rectangle with a width of **28px** and height of **19px**. Border radius of **8px**. Background colour of \#4D5D6C. Text colour of \#FFFFFF. Text is centred within the rectangle.
 
