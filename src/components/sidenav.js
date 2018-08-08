@@ -5,14 +5,22 @@ import LocalizedComponent
   from '@gctools-components/react-i18n-translation-webpack';
 import {
   Nav,
-  NavItem
+  NavItem,
+  UncontrolledCollapse,
 } from 'reactstrap';
 
 
 const Sidenav = (props) => (
   <StaticQuery query={graphql`
   query{
-    component:allMarkdownRemark(filter: {frontmatter: {path: {regex: "/component/"}}}) {
+    component:allMarkdownRemark(
+      filter: {
+        frontmatter: {path: {regex: "/component/"}}
+      },
+      sort:{
+        fields:[frontmatter___num]
+      }
+    ){
       totalCount
         edges{
           node {
@@ -20,11 +28,19 @@ const Sidenav = (props) => (
               title
               path
               lang
+              num
             }
           }
       }
     }
-    overview:allMarkdownRemark(filter: {frontmatter: {path: {regex: "/overview/"}}}) {
+    overview:allMarkdownRemark(
+      filter: 
+        {frontmatter: {path: {regex: "/overview/"}}
+      },
+      sort:{
+        fields:[frontmatter___num]
+      }
+    ){
       totalCount
         edges{
           node {
@@ -32,11 +48,19 @@ const Sidenav = (props) => (
               title
               path
               lang
+              num
             }
           }
       }
     }
-    content:allMarkdownRemark(filter: {frontmatter: {path: {regex: "/content/"}}}) {
+    content:allMarkdownRemark(
+      filter: 
+      {frontmatter: {path: {regex: "/content/"}}
+      },
+      sort:{
+        fields:[frontmatter___num]
+      }
+    ) {
       totalCount
         edges{
           node {
@@ -44,11 +68,19 @@ const Sidenav = (props) => (
               title
               path
               lang
+              num
             }
           }
       }
     }
-    identity:allMarkdownRemark(filter: {frontmatter: {path: {regex: "/identity/"}}}) {
+    identity:allMarkdownRemark(
+      filter: {
+        frontmatter: {path: {regex: "/identity/"}}
+      },
+      sort:{
+        fields:[frontmatter___num]
+      }
+    ) {
       totalCount
         edges{
           node {
@@ -56,11 +88,19 @@ const Sidenav = (props) => (
               title
               path
               lang
+              num
             }
           }
       }
     }
-    data:allMarkdownRemark(filter: {frontmatter: {path: {regex: "/data/"}}}) {
+    data:allMarkdownRemark(
+      filter: {
+        frontmatter: {path: {regex: "/data/"}}
+      },
+      sort:{
+        fields:[frontmatter___num]
+      }
+    ){
       totalCount
         edges{
           node {
@@ -68,6 +108,7 @@ const Sidenav = (props) => (
               title
               path
               lang
+              num
             }
           }
       }
@@ -76,9 +117,8 @@ const Sidenav = (props) => (
     `}
     render={data => (
       <div className="col-sm-auto">
-        <Nav vertical navbar justify>
+        <Nav vertical pills justify>
           {
-           
             data[props.path.split("/")[1]].edges.map((edges) => {
               if ((localizer.lang === "en_CA") && (edges.node.frontmatter.lang === "en"))
                 return (
@@ -86,18 +126,17 @@ const Sidenav = (props) => (
                     <Link to={edges.node.frontmatter.path} class="nav-link">
                       {edges.node.frontmatter.title}
                     </Link>
-
                   </NavItem>
                 );
               else
-                if((localizer.lang === "fr_CA") && (edges.node.frontmatter.lang === "fr"))
-                return (
-                  <NavItem>
-                    <Link to={edges.node.frontmatter.path} class="nav-link">
-                      {edges.node.frontmatter.title}
-                    </Link>
+                if ((localizer.lang === "fr_CA") && (edges.node.frontmatter.lang === "fr"))
+                  return (
+                    <NavItem>
+                      <Link to={edges.node.frontmatter.path} class="nav-link">
+                        {edges.node.frontmatter.title}
+                      </Link>
 
-                  </NavItem>)
+                    </NavItem>);
             }
             )
           }

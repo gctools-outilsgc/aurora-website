@@ -2,6 +2,7 @@
 path: "/content/typography"
 lang: "en"
 title: "Typography"
+num: 1
 ---
 # Typography
 

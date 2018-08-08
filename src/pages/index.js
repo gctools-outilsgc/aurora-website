@@ -18,24 +18,24 @@ import { StaticQuery, graphql, push, replace } from 'gatsby';
 const IndexPage = ({ data }) => (
 
   <Layout>
-    
-      <Card inverse className="no-container" >
-        <Img fluid={data.aurora.childImageSharp.fluid} />
-        <CardImgOverlay className="no-borders">
-          <h1 className="display-3">{__('Welcome')}</h1>
-          <p className="lead">
-            Subtitle.
+
+    <Card inverse className="no-container" >
+      <Img fluid={data.aurora.childImageSharp.fluid} />
+      <CardImgOverlay className="no-borders">
+        <h1 className="display-3">{__('Welcome')}</h1>
+        <p className="lead">
+          Subtitle.
         </p>
-          <hr className="my-2" />
-          <p>
-            Making this one line
+        <hr className="my-2" />
+        <p>
+          Making this one line
         </p>
-          <p className="lead">
-            <Button color="primary" onClick={() => replace('/component')}>Get started!</Button>
-          </p>
-        </CardImgOverlay>
-      </Card>
-    
+        <p className="lead">
+          <Button color="primary" onClick={() => replace('/component')}>Get started!</Button>
+        </p>
+      </CardImgOverlay>
+    </Card>
+
     <div className="row">
       <Card className="col text-center">
         <Img fluid={data.eye.childImageSharp.fluid} />

@@ -20,6 +20,7 @@
               path
               lang
               title
+              num
             }
           }
         }

@@ -2,6 +2,7 @@
 path: "/component/search"
 lang: "en"
 title: "Search"
+num: 3
 ---
 # Search
 

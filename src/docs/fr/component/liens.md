@@ -2,6 +2,7 @@
 path: "/component/link"
 lang: "fr"
 title: "Liens"
+num: 2
 ---
 
 # Liens

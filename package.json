@@ -12,7 +12,6 @@
     "gatsby-plugin-react-helmet": "next",
     "gatsby-plugin-sass": "next",
     "gatsby-plugin-sharp": "next",
-    "gatsby-remark-copy-linked-files": "next",
     "gatsby-remark-images": "next",
     "gatsby-source-filesystem": "next",
     "gatsby-transformer-remark": "next",
@@ -28,6 +27,7 @@
   },
   "license": "MIT",
   "scripts": {
+    "clear": "rm -rf .cache/*",
     "build": "gatsby build",
     "develop": "gatsby develop -H 0.0.0.0",
     "format": "prettier --write 'src/**/*.js'",

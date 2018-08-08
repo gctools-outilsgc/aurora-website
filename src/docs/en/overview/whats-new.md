@@ -2,6 +2,7 @@
 path: "/overview/whats-new"
 lang: "en"
 title: "What's new?"
+num: 1
 ---
 
 # What's New

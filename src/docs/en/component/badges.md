@@ -2,6 +2,7 @@
 path: "/component/badges"
 lang: "en"
 title: "Badges"
+num: 1
 ---
 # Badges
 

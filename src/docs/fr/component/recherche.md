@@ -2,6 +2,7 @@
 path: "/component/search"
 lang: "fr"
 title: "Barre de Recherche"
+num: 3
 ---
 # Recherche
 
