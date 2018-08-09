@@ -1,5 +1,5 @@
 ---
-path: "/component/search"
+path: "/component/naviguation/search"
 lang: "en"
 title: "Search"
 num: 3

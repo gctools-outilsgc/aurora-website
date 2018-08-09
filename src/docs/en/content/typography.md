@@ -1,5 +1,5 @@
 ---
-path: "/content/typography"
+path: "/content/visuals/typography"
 lang: "en"
 title: "Typography"
 num: 1

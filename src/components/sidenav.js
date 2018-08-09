@@ -6,15 +6,50 @@ import LocalizedComponent
 import {
   Nav,
   NavItem,
-  UncontrolledCollapse,
 } from 'reactstrap';
-
+import Subnav from './subnav';
 
 class Sidenav extends Component {
   constructor(props) {
     super(props);
+    this.subSecDivider = this.subSecDivider.bind(this);
   }
+
+  subSecDivider(data) {
+
+    let subSecEng = [];
+    let subSecFr = [];
+    let subName = "";
+    let subGroup = [];
+    data[this.props.path.split("/")[1]].edges.forEach((edges) => {
+      if ((localizer.lang === "en_CA") && (edges.node.frontmatter.lang === "en"))
+        subSecEng.push(
+          <NavItem>
+            <Link to={edges.node.frontmatter.path} class="nav-link">
+              {edges.node.frontmatter.title}
+            </Link>
+          </NavItem>);
+      else
+        if ((localizer.lang === "fr_CA") && (edges.node.frontmatter.lang === "fr"))
+          subSecFr.push({
+            path: edges.node.frontmatter.path,
+            title: edges.node.frontmatter.title,
+          });
+    });
+    return (localizer.lang === "en_CA") ?
+      <Subnav files={subSecEng} name="SubSection" />
+      : subSecFr.map((entry) =>
+        <NavItem>
+          <Link to={entry.path} class="nav-link">
+            {entry.title}
+          </Link>
+        </NavItem>
+      )
+      ;
+  }
+
   render() {
+
     return (
 
       <StaticQuery query={graphql`
@@ -122,7 +157,7 @@ class Sidenav extends Component {
         }
     `}
         render={data => (
-          <div className="col-sm-auto">
+          <div className="col-1">
             <Nav vertical pills justify>
               {
                 data[this.props.path.split("/")[1]].edges.map((edges) => {
@@ -146,6 +181,7 @@ class Sidenav extends Component {
                 )
               }
             </Nav>
+            {this.subSecDivider(data)}
           </div>
         )}
       />

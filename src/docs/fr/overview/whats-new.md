@@ -1,5 +1,5 @@
 ---
-path: "/overview/whats-new"
+path: "/overview/about/whats-new"
 lang: "fr"
 title: "Quoi de neuf?"
 num: 1

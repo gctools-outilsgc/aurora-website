@@ -1,5 +1,5 @@
 ---
-path: "/component/search"
+path: "/component/naviguation/search"
 lang: "fr"
 title: "Barre de Recherche"
 num: 3

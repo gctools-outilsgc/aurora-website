@@ -1,5 +1,5 @@
 ---
-path: "/component/link"
+path: "/component/naviguation/link"
 lang: "fr"
 title: "Liens"
 num: 2

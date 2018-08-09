@@ -1,5 +1,5 @@
 ---
-path: "/component/badges"
+path: "/component/standard/badges"
 lang: "en"
 title: "Badges"
 num: 1
