@@ -10,7 +10,6 @@ import {
 import LanguageSelector from '@gctools-components/language-selector'
 import LocalizedComponent
   from '@gctools-components/react-i18n-translation-webpack';
-  import Search from './Search';
 
 const Header = ({ siteTitle }) => (
   <div className="container-fluid">
@@ -43,7 +42,7 @@ const Header = ({ siteTitle }) => (
           </NavItem>
         </Nav>
       </div>
-      <Search classNames={'link_bold'}/>
+
       <LanguageSelector />
 
     </Navbar>
