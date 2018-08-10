@@ -3,7 +3,7 @@ path: "/overview/research-and-best-practices"
 subnav: "Resources/Ressources"
 num: 2
 lang: "en"
-title: "Research and Best Practices"
+title: "Research and best practices"
 ---
 
 # Research and Best Practices

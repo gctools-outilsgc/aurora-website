@@ -3,7 +3,7 @@ path: "/overview/inclusive-design"
 subnav: "Resources/Ressources"
 num: 1
 lang: "en"
-title: "Inclusive Design"
+title: "Inclusive design"
 ---
 
 # Inclusive Design
