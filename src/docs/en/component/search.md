@@ -1,10 +1,11 @@
 ---
 path: "/component/search"
-subnav: "naviguation/naviguation"
-num: 3
+subnav: "Navigation/Navigation"
+num: 8
 lang: "en"
 title: "Search"
 ---
+
 # Search
 
 Search bars help the user find relevant content within your site or application. Search bars are a universal feature that is expected on most sites, particularly ones with large amounts of content.
@@ -17,17 +18,8 @@ There are two style options for search:
 
 **Option 1**
 
-
-
-Text field with a padding of **12px.** On the right of the field there is a search icon that serves as an action button. The icon is sized at **1.2 em** and coloured with **\(\#666666\)**
+Text field with a padding of 12px. On the right of the field there is a search icon that serves as an action button. The icon is sized at 1.2 em and coloured with \(\#666666\)
 
 **Option 2**
 
-
-
-The same as option 1 with a border radius of **17px**. 
-
-
-
-
-
+The same as option 1 with a border radius of 17px.
