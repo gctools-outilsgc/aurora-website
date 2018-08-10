@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link, StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import LocalizedComponent
@@ -9,50 +9,9 @@ import {
 } from 'reactstrap';
 import Subnav from './subnav';
 
-class Sidenav extends Component {
-  constructor(props) {
-    super(props);
-    this.subSecDivider = this.subSecDivider.bind(this);
-  }
+const Sidenav = (props) => (
 
-  subSecDivider(data) {
-
-    let subSecEng = [];
-    let subSecFr = [];
-    let subName = "";
-    let subGroup = [];
-    data[this.props.path.split("/")[1]].edges.forEach((edges) => {
-      if ((localizer.lang === "en_CA") && (edges.node.frontmatter.lang === "en"))
-        subSecEng.push(
-          <NavItem>
-            <Link to={edges.node.frontmatter.path} class="nav-link">
-              {edges.node.frontmatter.title}
-            </Link>
-          </NavItem>);
-      else
-        if ((localizer.lang === "fr_CA") && (edges.node.frontmatter.lang === "fr"))
-          subSecFr.push({
-            path: edges.node.frontmatter.path,
-            title: edges.node.frontmatter.title,
-          });
-    });
-    return (localizer.lang === "en_CA") ?
-      <Subnav files={subSecEng} name="SubSection" />
-      : subSecFr.map((entry) =>
-        <NavItem>
-          <Link to={entry.path} class="nav-link">
-            {entry.title}
-          </Link>
-        </NavItem>
-      )
-      ;
-  }
-
-  render() {
-
-    return (
-
-      <StaticQuery query={graphql`
+  <StaticQuery query={graphql`
         query{
           component:allMarkdownRemark(
             filter: {
@@ -156,41 +115,63 @@ class Sidenav extends Component {
           }
         }
     `}
-        render={data => (
-          <div className="col-1">
-            <Nav vertical pills justify>
-              {
-                data[this.props.path.split("/")[1]].edges.map((edges) => {
-                  if ((localizer.lang === "en_CA") && (edges.node.frontmatter.lang === "en"))
+    render={(data) => {
+
+      let subSecEng = [];
+      let subSecFr = [];
+      let subName = "";
+      let subGroup = [];
+      data[props.path.split("/")[1]].edges.forEach((edges) => {
+        if ((localizer.lang === "en_CA") && (edges.node.frontmatter.lang === "en"))
+          subSecEng.push(
+            <NavItem>
+              <Link to={edges.node.frontmatter.path} class="nav-link">
+                {edges.node.frontmatter.title}
+              </Link>
+            </NavItem>);
+        else
+          if ((localizer.lang === "fr_CA") && (edges.node.frontmatter.lang === "fr"))
+            subSecEng.push(
+              <NavItem>
+                <Link to={edges.node.frontmatter.path} class="nav-link">
+                  {edges.node.frontmatter.title}
+                </Link>
+              </NavItem>);
+      });
+
+      return (
+        <div className="col-1">
+          <Nav vertical pills justify>
+            {
+              data[props.path.split("/")[1]].edges.map((edges) => {
+                if ((localizer.lang === "en_CA") && (edges.node.frontmatter.lang === "en"))
+                  return (
+                    <NavItem>
+                      <Link to={edges.node.frontmatter.path} class="nav-link">
+                        {edges.node.frontmatter.title}
+                      </Link>
+                    </NavItem>
+                  );
+                else
+                  if ((localizer.lang === "fr_CA") && (edges.node.frontmatter.lang === "fr"))
                     return (
                       <NavItem>
                         <Link to={edges.node.frontmatter.path} class="nav-link">
                           {edges.node.frontmatter.title}
                         </Link>
-                      </NavItem>
-                    );
-                  else
-                    if ((localizer.lang === "fr_CA") && (edges.node.frontmatter.lang === "fr"))
-                      return (
-                        <NavItem>
-                          <Link to={edges.node.frontmatter.path} class="nav-link">
-                            {edges.node.frontmatter.title}
-                          </Link>
-                        </NavItem>);
-                }
-                )
+                      </NavItem>);
               }
-            </Nav>
-            {this.subSecDivider(data)}
-          </div>
-        )}
-      />
-    )
-  }
-}
-;
-
-
+              )
+            }
+          </Nav>
+          {(localizer.lang === "en_CA") ?
+            <Subnav files={subSecEng} name="SubSection" />
+            : <Subnav files={subSecFr} name="SubSection" />}
+        </div>
+      )
+    }}
+  />
+);
 
 export default LocalizedComponent(Sidenav);
 

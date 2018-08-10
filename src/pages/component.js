@@ -1,10 +1,9 @@
 import React from 'react';
 import { Button } from 'reactstrap';
 import { Link } from 'gatsby';
-import Layout from '../components/layout';
 import LocalizedComponent
   from '@gctools-components/react-i18n-translation-webpack';
-import MapsLocalConvenienceStore from 'material-ui/SvgIcon';
+import Layout from '../components/layout';
 
 
 const SecondPage = () => (
