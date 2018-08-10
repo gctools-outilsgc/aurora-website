@@ -42,8 +42,8 @@ title: "Badges"
 ---
 ```
 - The `path` should be the **same** for both english and french file.
-- The `subnav` is the `english`/`french` name of the subnaviguation cluster. It should be the same in both files.
-- The `num` represent the order in which a document appears in the side naviguation of that section. It should be the same in both files.
+- The `subnav` is the `english`/`french` name of the subnaviguation cluster. It should be the **same** in both files.
+- The `num` represent the order in which a document appears in the side naviguation of that section. It should be the **same** in both files.
 - The `lang` should be either `en` or `fr`. 
 - The `title` will be added in the side naviguation of the section. It should be in french in the french file.
 
