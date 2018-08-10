@@ -1,8 +1,9 @@
 ---
-path: "/component/naviguation/link"
+path: "/component/link"
+sub: "naviguation/naviguation"
+num: 2
 lang: "en"
 title: "Links"
-num: 2
 ---
 # Links
 

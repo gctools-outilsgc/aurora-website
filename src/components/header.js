@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
       <div className="navbar-collapse">
         <Nav navbar>
           <NavItem>
-            <Link to="/overview/about/whats-new" class="nav-link">
+            <Link to="/overview/whats-new" class="nav-link">
               {__('Overview')}
             </Link>
           </NavItem>
@@ -31,12 +31,12 @@ const Header = ({ siteTitle }) => (
             </Link>
           </NavItem>
           <NavItem>
-            <Link to="/component/standard/badges" class="nav-link">
+            <Link to="/component/badges" class="nav-link">
               {__('Components')}
             </Link>
           </NavItem>
           <NavItem>
-            <Link to="/content/visuals/typography" className="nav-link">
+            <Link to="/content/typography" className="nav-link">
               {__('Content')}
             </Link>
           </NavItem>

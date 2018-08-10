@@ -1,8 +1,9 @@
 ---
-path: "/content/visuals/typography"
+path: "/content/typography"
+subnav: "Visuals/Visuels"
+num: 1
 lang: "fr"
 title: "Typographie"
-num: 1
 ---
 # Typographie
 

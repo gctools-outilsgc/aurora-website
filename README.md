@@ -25,7 +25,7 @@ yarn run deploy
 
 ### Adding Documentation
 
-To add documentation in the form of markdown files, you need to add the markdown files for both languages in the section of your choice:  
+To add documentation in the form of markdown files, you need to add the markdown files for **both languages** in the section of your choice:  
 ```
 src/docs/en/{yourSection}/yourEnglishFile.md   
 
@@ -35,12 +35,16 @@ At the top of the file, you will need to add a small section that provides conte
 ```
 ---
 path: "/component/badges"
+subnav: "standard/standard"
+num: 1
 lang: "en"
 title: "Badges"
 ---
 ```
 - The `path` should be the **same** for both english and french file.
-- The `lang` should be either `en` or `fr` 
+- The `subnav` is the `english`/`french` name of the subnaviguation cluster. It should be the same in both files.
+- The `num` represent the order in which a document appears in the side naviguation of that section. It should be the same in both files.
+- The `lang` should be either `en` or `fr`. 
 - The `title` will be added in the side naviguation of the section. It should be in french in the french file.
 
 Now the file should be processed by Gatsby and should appear at the `path` specified in both frontmatters.  

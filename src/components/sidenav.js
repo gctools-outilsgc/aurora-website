@@ -29,6 +29,7 @@ const Sidenav = (props) => (
                     path
                     lang
                     num
+                    subnav
                   }
                 }
             }
@@ -49,6 +50,7 @@ const Sidenav = (props) => (
                     path
                     lang
                     num
+                    subnav
                   }
                 }
             }
@@ -69,6 +71,7 @@ const Sidenav = (props) => (
                     path
                     lang
                     num
+                    subnav
                   }
                 }
             }
@@ -89,6 +92,7 @@ const Sidenav = (props) => (
                     path
                     lang
                     num
+                    subnav
                   }
                 }
             }
@@ -109,6 +113,7 @@ const Sidenav = (props) => (
                     path
                     lang
                     num
+                    subnav
                   }
                 }
             }

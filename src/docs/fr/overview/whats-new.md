@@ -1,10 +1,10 @@
 ---
-path: "/overview/about/whats-new"
+path: "/overview/whats-new"
+subnav: "About/À notre sujet"
+num: 1
 lang: "fr"
 title: "Quoi de neuf?"
-num: 1
 ---
-
 # What's New
 
 Latest updates to the \#GCDigital Design System.
