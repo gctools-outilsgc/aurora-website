@@ -1,7 +1,6 @@
 ---
 path: "/overview/inclusive-design"
-subnav: "Resources/Ressources"
-num: 1
+subnav: "2/Resources/Ressources/1"
 lang: "en"
 title: "Inclusive design"
 ---

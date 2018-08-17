@@ -35,15 +35,13 @@ At the top of the file, you will need to add a small section that provides conte
 ```
 ---
 path: "/component/badges"
-subnav: "standard/standard"
-num: 1
+subnav: "1/Standard/Standard/2"
 lang: "en"
 title: "Badges"
 ---
 ```
 - The `path` should be the **same** for both english and french file.
-- The `subnav` is the `english`/`french` name of the subnaviguation cluster. It should be the **same** in both files.
-- The `num` represent the order in which a document appears in the side naviguation of that section. It should be the **same** in both files.
+- The `subnav` is the `order_of_the_subnav`/`subnav_english_name`/`subnav_french_name`/`order_in_the_subnav`. It should be the **same** in both files.
 - The `lang` should be either `en` or `fr`. 
 - The `title` will be added in the side naviguation of the section. It should be in french in the french file.
 

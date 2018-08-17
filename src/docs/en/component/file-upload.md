@@ -1,7 +1,6 @@
 ---
 path: "/component/file-upload"
-subnav: "Forms/Formulaires"
-num: 4
+subnav: "4/Forms/Formulaires/4"
 lang: "en"
 title: "File upload"
 ---

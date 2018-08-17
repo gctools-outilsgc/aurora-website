@@ -18,7 +18,7 @@ const Sidenav = (props) => (
               frontmatter: {path: {regex: "/\/component\//"}}
             },
             sort:{
-              fields:[frontmatter___subnav, frontmatter___num]
+              fields:[frontmatter___subnav]
             }
           ){
             totalCount
@@ -28,7 +28,6 @@ const Sidenav = (props) => (
                     title
                     path
                     lang
-                    num
                     subnav
                   }
                 }
@@ -39,7 +38,7 @@ const Sidenav = (props) => (
               {frontmatter: {path: {regex: "/\/overview\//"}}
             },
             sort:{
-              fields:[frontmatter___subnav, frontmatter___num]
+              fields:[frontmatter___subnav]
             }
           ){
             totalCount
@@ -49,7 +48,6 @@ const Sidenav = (props) => (
                     title
                     path
                     lang
-                    num
                     subnav
                   }
                 }
@@ -60,7 +58,7 @@ const Sidenav = (props) => (
             {frontmatter: {path: {regex: "/\/content\//"}}
             },
             sort:{
-              fields:[frontmatter___subnav, frontmatter___num]
+              fields:[frontmatter___subnav]
             }
           ) {
             totalCount
@@ -70,7 +68,6 @@ const Sidenav = (props) => (
                     title
                     path
                     lang
-                    num
                     subnav
                   }
                 }
@@ -81,7 +78,7 @@ const Sidenav = (props) => (
               frontmatter: {path: {regex: "/\/identity\//"}}
             },
             sort:{
-              fields:[frontmatter___subnav, frontmatter___num]
+              fields:[frontmatter___subnav]
             }
           ) {
             totalCount
@@ -91,7 +88,6 @@ const Sidenav = (props) => (
                     title
                     path
                     lang
-                    num
                     subnav
                   }
                 }
@@ -102,7 +98,7 @@ const Sidenav = (props) => (
               frontmatter: {path: {regex: "/\/data\//"}}
             },
             sort:{
-              fields:[frontmatter___subnav, frontmatter___num]
+              fields:[frontmatter___subnav]
             }
           ){
             totalCount
@@ -112,7 +108,6 @@ const Sidenav = (props) => (
                     title
                     path
                     lang
-                    num
                     subnav
                   }
                 }
@@ -122,24 +117,36 @@ const Sidenav = (props) => (
     `}
     render={(data) => {
 
-      let subName = "";
+      let subNameEn = "";
+      let subNameFr = "";
       let subGroup = [];
       let subPieces = [];
       data[props.path.split("/")[1]].edges.forEach((edges) => {
-        if (edges.node.frontmatter.subnav !== subName) {
-          if (subName !== "") {
+        if (edges.node.frontmatter.subnav.split("/")[1] !== subNameEn) {
+          if (subNameEn !== "") {
             subPieces.push(
-              <Subnav files={subGroup} name={subName} path={props.path} />
+              <Subnav
+                files={subGroup}
+                nameEn={subNameEn}
+                nameFr={subNameFr}
+                path={props.path}
+              />
             );
           }
           subGroup = [];
-          subName = edges.node.frontmatter.subnav;
+          subNameEn = edges.node.frontmatter.subnav.split("/")[1];
+          subNameFr = edges.node.frontmatter.subnav.split("/")[2];
         }
         subGroup.push(edges);
       });
       if (subGroup.push.length !== 0) {
         subPieces.push(
-          <Subnav files={subGroup} name={subName} path={props.path} />
+          <Subnav
+            files={subGroup}
+            nameEn={subNameEn}
+            nameFr={subNameFr}
+            path={props.path}
+          />
         );
       }
       return (

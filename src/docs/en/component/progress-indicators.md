@@ -1,7 +1,6 @@
 ---
 path: "/component/progress-indicators"
-subnav: "Forms/Formulaires"
-num: 5
+subnav: "4/Forms/Formulaires/5"
 lang: "en"
 title: "Progress indicators"
 ---

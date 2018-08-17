@@ -1,6 +1,6 @@
 ---
 path: "/overview/research-and-best-practices"
-subnav: "Resources/Ressources"
+subnav: "2/Resources/Ressources/2"
 num: 2
 lang: "en"
 title: "Research and best practices"

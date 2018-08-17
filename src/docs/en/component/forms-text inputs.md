@@ -1,7 +1,6 @@
 ---
 path: "/component/forms-text-inputs"
-subnav: "Forms/Formulaires"
-num: 6
+subnav: "4/Forms/Formulaires/6"
 lang: "en"
 title: "Text inputs"
 ---

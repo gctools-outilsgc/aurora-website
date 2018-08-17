@@ -1,7 +1,6 @@
 ---
 path: "/component/comments"
-subnav: "Standard/Standard"
-num: 5
+subnav: "1/Standard/Standard/5"
 lang: "en"
 title: "Comments"
 ---

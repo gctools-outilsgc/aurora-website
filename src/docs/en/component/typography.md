@@ -1,7 +1,6 @@
 ---
 path: "/component/typography"
-subnav: "Visuals/Visuels"
-num: 11
+subnav: "2/Visuals/Visuels/3"
 lang: "en"
 title: "Typography"
 ---

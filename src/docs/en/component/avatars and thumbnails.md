@@ -1,7 +1,6 @@
 ---
 path: "/component/avatars-and-thumbnails"
-subnav: "Standard/Standard"
-num: 1
+subnav: "1/Standard/Standard/1"
 lang: "en"
 title: "Avatars and thumbnails"
 ---

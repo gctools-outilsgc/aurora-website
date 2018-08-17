@@ -1,14 +1,14 @@
 ---
 path: "/component/menus"
-subnav: "Navigation/Navigation"
-num: 6
+subnav: "3/Navigation/Navigation/6"
 lang: "en"
 title: "Menus"
 ---
 
 # Menus
 
-Menus are used to display lists of choices the user can select. Menus can be used for lists of actions, as well as a form of navigation.
+
+Menus are used to display lists of choices the user can select. Menus can be used for lists of actions, as well as a form of navigation.
 
 ## Best Practices
 

@@ -1,7 +1,6 @@
 ---
 path: "/component/tooltips"
-subnav: "Standard/Standard"
-num: 10
+subnav: "1/Standard/Standard/10"
 lang: "en"
 title: "Tooltips"
 ---

@@ -1,7 +1,6 @@
 ---
 path: "/component/nav-breadcrumbs"
-subnav: "Navigation/Navigation"
-num: 1
+subnav: "3/Navigation/Navigation/1"
 lang: "en"
 title: "Breadcrumbs"
 ---

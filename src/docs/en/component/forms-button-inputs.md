@@ -1,7 +1,6 @@
 ---
 path: "/component/forms-buttons-inputs"
-subnav: "Forms/Formulaires"
-num: 2
+subnav: "4/Forms/Formulaires/2"
 lang: "en"
 title: "Button inputs"
 ---

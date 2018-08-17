@@ -1,7 +1,6 @@
 ---
 path: "/overview/blogs"
-subnav: "Community/Communauté"
-num: 1
+subnav: "4/Community/Communauté/1"
 lang: "en"
 title: "Blogs"
 ---

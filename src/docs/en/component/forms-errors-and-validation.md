@@ -1,7 +1,6 @@
 ---
 path: "/component/forms-errors-and-validation"
-subnav: "Forms/Formulaires"
-num: 3
+subnav: "4/Forms/Formulaires/3"
 lang: "en"
 title: "Errors and validation"
 ---

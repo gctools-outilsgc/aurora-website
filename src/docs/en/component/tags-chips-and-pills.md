@@ -1,7 +1,6 @@
 ---
 path: "/component/tags-chips-and-pills"
-subnav: "Standard/Standard"
-num: 9
+subnav: "1/Standard/Standard/9"
 lang: "en"
 title: "Tags, chips and pills"
 ---

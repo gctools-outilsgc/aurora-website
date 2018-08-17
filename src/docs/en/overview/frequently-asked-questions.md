@@ -1,7 +1,6 @@
 ---
 path: "/overview/frequently-asked-questions"
-subnav: "About/À notre sujet"
-num: 3
+subnav: "1/About/À notre sujet/3"
 lang: "en"
 title: "Frequently asked questions"
 ---

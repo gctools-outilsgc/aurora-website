@@ -38,19 +38,24 @@ class Subnav extends React.Component {
 	render() {
 		const {
 			files,
-			name,
+			nameEn,
+			nameFr,
 			path } = this.props;
-		console.log(name);
+
+		const sortedFiles = files.sort((a, b) =>
+			parseInt(a.node.frontmatter.subnav.split('/')[3], 10) - parseInt(b.node.frontmatter.subnav.split('/')[3], 10))
+			;
+		console.log(sortedFiles);
 		return (
 			<ListGroup>
 				<ListGroupItem onClick={this.toggle} className="dropdown-toggle">
-					{(localizer.lang === "en_CA") ? name.split("/")[0] : name.split("/")[1]}
+					{(localizer.lang === "en_CA") ? nameEn : nameFr}
 				</ListGroupItem>
 				<Collapse isOpen={this.state.dropdownOpen}>
-					{files.map((edges) => {
+					{sortedFiles.map((edges) => {
 						if ((localizer.lang === "en_CA") && (edges.node.frontmatter.lang === "en"))
 							return (
-								<ListGroupItem active={path === edges.node.frontmatter.path} style={{"margin-left": "2rem"}}>
+								<ListGroupItem active={path === edges.node.frontmatter.path} style={{ "margin-left": "2rem" }}>
 									<Link
 										to={edges.node.frontmatter.path}
 										activeStyle={{

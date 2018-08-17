@@ -1,7 +1,6 @@
 ---
 path: "/component/nav-back-to-top"
-subnav: "Navigation/Navigation"
-num: 2
+subnav: "3/Navigation/Navigation/2"
 lang: "en"
 title: "Back to Top"
 ---

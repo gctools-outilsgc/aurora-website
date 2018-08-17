@@ -1,7 +1,6 @@
 ---
 path: "/component/pagination-scrolling"
-subnav: "Navigation/Navigation"
-num: 7
+subnav: "3/Navigation/Navigation/7"
 lang: "en"
 title: "Pagination and Scrolling"
 ---

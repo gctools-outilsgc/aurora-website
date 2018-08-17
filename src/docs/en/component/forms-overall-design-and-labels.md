@@ -1,7 +1,6 @@
 ---
 path: "/component/forms-overall-design-and-labels"
-subnav: "Forms/Formulaires"
-num: 1
+subnav: "4/Forms/Formulaires/1"
 lang: "en"
 title: "Form Design and Labels"
 ---
