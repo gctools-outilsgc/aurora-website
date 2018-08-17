@@ -1,7 +1,7 @@
 ---
-path: "/content/typography"
+path: "/component/typography"
 subnav: "Visuals/Visuels"
-num: 1
+num: 11
 lang: "fr"
 title: "Typographie"
 ---

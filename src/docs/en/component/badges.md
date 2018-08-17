@@ -1,6 +1,6 @@
 ---
 path: "/component/badges"
-subnav: "standard/standard"
+subnav: "Standard/Standard"
 num: 2
 lang: "en"
 title: "Badges"

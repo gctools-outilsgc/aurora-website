@@ -1,11 +1,10 @@
 ---
-path: "/component/link"
-subnav: "naviguation/naviguation"
-num: 2
+path: "/component/links"
+subnav: "Navigation/Navigation"
+num: 5
 lang: "fr"
 title: "Liens"
 ---
-
 # Liens
 
 ## Quand utiliser un lien

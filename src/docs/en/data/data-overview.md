@@ -1,5 +1,5 @@
 ---
-path: "/data/overview"
+path: "/data/data-overview"
 num: 1
 lang: "en"
 title: "Overview"

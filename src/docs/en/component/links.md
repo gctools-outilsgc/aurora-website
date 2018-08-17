@@ -1,6 +1,6 @@
 ---
 path: "/component/links"
-sub: "Navigation/Navigation"
+subnav: "Navigation/Navigation"
 num: 5
 lang: "en"
 title: "Links"

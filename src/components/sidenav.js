@@ -15,10 +15,10 @@ const Sidenav = (props) => (
         query{
           component:allMarkdownRemark(
             filter: {
-              frontmatter: {path: {regex: "/component/"}}
+              frontmatter: {path: {regex: "/\/component\//"}}
             },
             sort:{
-              fields:[frontmatter___num]
+              fields:[frontmatter___subnav, frontmatter___num]
             }
           ){
             totalCount
@@ -36,10 +36,10 @@ const Sidenav = (props) => (
           }
           overview:allMarkdownRemark(
             filter: 
-              {frontmatter: {path: {regex: "/overview/"}}
+              {frontmatter: {path: {regex: "/\/overview\//"}}
             },
             sort:{
-              fields:[frontmatter___num]
+              fields:[frontmatter___subnav, frontmatter___num]
             }
           ){
             totalCount
@@ -57,10 +57,10 @@ const Sidenav = (props) => (
           }
           content:allMarkdownRemark(
             filter: 
-            {frontmatter: {path: {regex: "/content/"}}
+            {frontmatter: {path: {regex: "/\/content\//"}}
             },
             sort:{
-              fields:[frontmatter___num]
+              fields:[frontmatter___subnav, frontmatter___num]
             }
           ) {
             totalCount
@@ -78,10 +78,10 @@ const Sidenav = (props) => (
           }
           identity:allMarkdownRemark(
             filter: {
-              frontmatter: {path: {regex: "/identity/"}}
+              frontmatter: {path: {regex: "/\/identity\//"}}
             },
             sort:{
-              fields:[frontmatter___num]
+              fields:[frontmatter___subnav, frontmatter___num]
             }
           ) {
             totalCount
@@ -99,10 +99,10 @@ const Sidenav = (props) => (
           }
           data:allMarkdownRemark(
             filter: {
-              frontmatter: {path: {regex: "/data/"}}
+              frontmatter: {path: {regex: "/\/data\//"}}
             },
             sort:{
-              fields:[frontmatter___num]
+              fields:[frontmatter___subnav, frontmatter___num]
             }
           ){
             totalCount
@@ -122,32 +122,30 @@ const Sidenav = (props) => (
     `}
     render={(data) => {
 
-      let subSecEng = [];
-      let subSecFr = [];
       let subName = "";
       let subGroup = [];
+      let subPieces = [];
       data[props.path.split("/")[1]].edges.forEach((edges) => {
-        if ((localizer.lang === "en_CA") && (edges.node.frontmatter.lang === "en"))
-          subSecEng.push(
-            <NavItem>
-              <Link to={edges.node.frontmatter.path} class="nav-link">
-                {edges.node.frontmatter.title}
-              </Link>
-            </NavItem>);
-        else
-          if ((localizer.lang === "fr_CA") && (edges.node.frontmatter.lang === "fr"))
-            subSecEng.push(
-              <NavItem>
-                <Link to={edges.node.frontmatter.path} class="nav-link">
-                  {edges.node.frontmatter.title}
-                </Link>
-              </NavItem>);
+        if (edges.node.frontmatter.subnav !== subName) {
+          if (subName !== "") {
+            subPieces.push(
+              <Subnav files={subGroup} name={subName} path={props.path} />
+            );
+          }
+          subGroup = [];
+          subName = edges.node.frontmatter.subnav;
+        }
+        subGroup.push(edges);
       });
-
+      if (subGroup.push.length !== 0) {
+        subPieces.push(
+          <Subnav files={subGroup} name={subName} path={props.path} />
+        );
+      }
       return (
-        <div className="col-1">
-          <Nav vertical pills justify>
-            {
+        <div>
+          <Nav vertical>
+            {/*  {
               data[props.path.split("/")[1]].edges.map((edges) => {
                 if ((localizer.lang === "en_CA") && (edges.node.frontmatter.lang === "en"))
                   return (
@@ -167,11 +165,9 @@ const Sidenav = (props) => (
                       </NavItem>);
               }
               )
-            }
+            } */}
+            {subPieces}
           </Nav>
-          {(localizer.lang === "en_CA") ?
-            <Subnav files={subSecEng} name="SubSection" />
-            : <Subnav files={subSecFr} name="SubSection" />}
         </div>
       )
     }}

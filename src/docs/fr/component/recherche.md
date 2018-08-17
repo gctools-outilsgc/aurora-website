@@ -1,7 +1,7 @@
 ---
 path: "/component/search"
-subnav: "naviguation/naviguation"
-num: 3
+subnav: "Navigation/Navigation"
+num: 8
 lang: "fr"
 title: "Barre de Recherche"
 ---

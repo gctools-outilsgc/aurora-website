@@ -1,7 +1,7 @@
 ---
 path: "/overview/whats-new"
 subnav: "About/À notre sujet"
-num: 1
+num: 2
 lang: "fr"
 title: "Quoi de neuf?"
 ---

@@ -74,3 +74,12 @@
   body { 
     padding-top: 75px; 
   }
+
+  .list-group-item {
+    position: relative;
+    display: block;
+    padding: 0.50rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 0px solid rgba(0, 0, 0, 0.125);
+}
