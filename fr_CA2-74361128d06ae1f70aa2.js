@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{494:function(e,s){e.exports={domain:"messages",locale_data:{messages:{"":{domain:"messages",plural_forms:"nplurals=2; plural=(n > 1)",lang:"fr_CA"},Welcome:["Bienvenue chez Aurora!"],Designers:["Concepteurs"],Developers:["Développeurs"],Writers:["Écrivain(e)s"],"Data Scientists":["Scientifiques de(s) données"],Contributors:["Contributeurs"]}}}}}]);
+//# sourceMappingURL=fr_CA2-74361128d06ae1f70aa2.js.map
