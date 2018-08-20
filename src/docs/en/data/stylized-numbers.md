@@ -1,6 +1,6 @@
 ---
 path: "/data/stylized numbers"
-num: 7
+subnav: "1/DataSection1/DataSection1/7"
 lang: "en"
 title: "Stylized numbers"
 ---

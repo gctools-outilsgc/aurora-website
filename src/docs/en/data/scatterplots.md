@@ -1,6 +1,6 @@
 ---
 path: "/data/scatterplots"
-num: 6
+subnav: "1/DataSection1/DataSection1/6"
 lang: "en"
 title: "Scatterplots"
 ---

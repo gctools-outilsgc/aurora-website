@@ -76,4 +76,4 @@ class Subnav extends React.Component {
 		);
 	}
 }
-export default LocalizedComponent(Subnav);
+export default Subnav;

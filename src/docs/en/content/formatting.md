@@ -1,6 +1,6 @@
 ---
 path: "/content/formatting"
-num: 3
+subnav: "1/ContentSection1/ContentSection1/2"
 lang: "en"
 title: "Formatting"
 ---

@@ -1,6 +1,6 @@
 ---
 path: "/data/choosing-visualizations"
-num: 2
+subnav: "1/DataSection1/DataSection1/2"
 lang: "en"
 title: "Choosing visualizations"
 ---

@@ -1,6 +1,6 @@
 ---
 path: "/data/legends-and-tooltips"
-num: 4
+subnav: "1/DataSection1/DataSection1/4"
 lang: "en"
 title: "Legends and tooltips"
 ---

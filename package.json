@@ -36,6 +36,7 @@
     "deploy": "rm -rf .cache/* && gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
+    "babel-preset-es2017": "^6.24.1",
     "eslint": "^5.0.1",
     "eslint-loader": "^2.0.0",
     "eslint-plugin-import": "^2.13.0",
