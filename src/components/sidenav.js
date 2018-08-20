@@ -152,27 +152,6 @@ const Sidenav = (props) => (
       return (
         <div>
           <Nav vertical>
-            {/*  {
-              data[props.path.split("/")[1]].edges.map((edges) => {
-                if ((localizer.lang === "en_CA") && (edges.node.frontmatter.lang === "en"))
-                  return (
-                    <NavItem>
-                      <Link to={edges.node.frontmatter.path} class="nav-link">
-                        {edges.node.frontmatter.title}
-                      </Link>
-                    </NavItem>
-                  );
-                else
-                  if ((localizer.lang === "fr_CA") && (edges.node.frontmatter.lang === "fr"))
-                    return (
-                      <NavItem>
-                        <Link to={edges.node.frontmatter.path} class="nav-link">
-                          {edges.node.frontmatter.title}
-                        </Link>
-                      </NavItem>);
-              }
-              )
-            } */}
             {subPieces}
           </Nav>
         </div>

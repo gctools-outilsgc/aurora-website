@@ -45,7 +45,7 @@ class Subnav extends React.Component {
 		const sortedFiles = files.sort((a, b) =>
 			parseInt(a.node.frontmatter.subnav.split('/')[3], 10) - parseInt(b.node.frontmatter.subnav.split('/')[3], 10))
 			;
-		console.log(sortedFiles);
+		//console.log(sortedFiles);
 		return (
 			<ListGroup>
 				<ListGroupItem onClick={this.toggle} className="dropdown-toggle">
@@ -58,7 +58,7 @@ class Subnav extends React.Component {
 							((localizer.lang === "fr_CA") && (edges.node.frontmatter.lang === "fr"))
 						)
 							return (
-								<ListGroupItem active={path === edges.node.frontmatter.path} style={{ "margin-left": "2rem" }}>
+								<ListGroupItem active={path === edges.node.frontmatter.path} style={{ "padding-left": "2rem" }}>
 									<Link
 										to={edges.node.frontmatter.path}
 										activeStyle={{
