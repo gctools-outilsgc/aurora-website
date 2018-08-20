@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Language : en\n"
+"Plural-Forms : nplurals=2; plural=(n != 1);\n"
+"MIME-Version : 1.0\n"
+"Content-Type : text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding : 8bit\n"
+
+#: src/pages/index.js 25:37
+msgid "Welcome"
+msgstr ""
+
+#: src/pages/index.js 43:22
+msgid "Designers"
+msgstr ""
+
+#: src/pages/index.js 54:22
+msgid "Developers"
+msgstr ""
+
+#: src/pages/index.js 66:22
+msgid "Writers"
+msgstr ""
+
+#: src/pages/index.js 78:22
+msgid "Data Scientists"
+msgstr ""
+
+#: src/pages/index.js 90:22
+msgid "Contributors"
+msgstr ""
+
