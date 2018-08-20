@@ -1,0 +1,32 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-07-24 11:01-0700\n"
+"PO-Revision-Date: 2018-07-20 10:25-0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_CA\n"
+"Language-Team: en_CA <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: 20:14 src/components/header.js
+msgid "Overview"
+msgstr ""
+
+#: 25:15 src/components/header.js
+msgid "Identity"
+msgstr ""
+
+#: 30:15 src/components/header.js
+msgid "Components"
+msgstr ""
+
+#: 35:15 src/components/header.js
+msgid "Content"
+msgstr ""
+
