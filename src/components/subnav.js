@@ -53,7 +53,10 @@ class Subnav extends React.Component {
 				</ListGroupItem>
 				<Collapse isOpen={this.state.dropdownOpen}>
 					{sortedFiles.map((edges) => {
-						if ((localizer.lang === "en_CA") && (edges.node.frontmatter.lang === "en"))
+						if (
+							((localizer.lang === "en_CA") && (edges.node.frontmatter.lang === "en")) ||
+							((localizer.lang === "fr_CA") && (edges.node.frontmatter.lang === "fr"))
+						)
 							return (
 								<ListGroupItem active={path === edges.node.frontmatter.path} style={{ "margin-left": "2rem" }}>
 									<Link
@@ -66,20 +69,6 @@ class Subnav extends React.Component {
 									</Link>
 								</ListGroupItem>
 							);
-						else
-							if ((localizer.lang === "fr_CA") && (edges.node.frontmatter.lang === "fr"))
-								return (
-									<ListGroupItem active={path === edges.node.frontmatter.path}>
-										<Link
-											to={edges.node.frontmatter.path}
-											activeStyle={{
-												color: "white",
-											}}
-										>
-											{edges.node.frontmatter.title}
-										</Link>
-									</ListGroupItem>
-								);
 					})
 					}
 				</Collapse>
