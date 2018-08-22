@@ -1,6 +1,6 @@
 ---
 path: "/content/glossary"
-subnav: "1/ContentSection1/ContentSection1/3"
+subnav: "1/Content/Contenu/3"
 lang: "en"
 title: "Glossary"
 ---

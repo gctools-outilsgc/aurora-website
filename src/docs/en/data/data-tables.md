@@ -1,6 +1,6 @@
 ---
 path: "/data/tables"
-subnav: "1/DataSection1/DataSection1/8"
+subnav: "1/Data/Données/8"
 lang: "en"
 title: "Tables"
 ---

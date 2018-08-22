@@ -1,6 +1,6 @@
 ---
 path: "/component/icons"
-subnav: "2/Visuals/Visuels/2"
+subnav: "1/Visuals/Visuels/2"
 lang: "en"
 title: "Icons"
 ---

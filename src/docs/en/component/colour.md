@@ -1,6 +1,6 @@
 ---
 path: "/component/colour"
-subnav: "2/Visuals/Visuels/1"
+subnav: "1/Visuals/Visuels/1"
 lang: "en"
 title: "Colour"
 ---

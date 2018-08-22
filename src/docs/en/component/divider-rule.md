@@ -1,6 +1,6 @@
 ---
 path: "/component/divider-rule"
-subnav: "1/Standard/Standard/6"
+subnav: "2/Standard/Standard/6"
 lang: "en"
 title: "Divider/Rule"
 ---

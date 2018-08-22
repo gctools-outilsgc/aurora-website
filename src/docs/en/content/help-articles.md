@@ -1,6 +1,6 @@
 ---
 path: "/content/help-articles"
-subnav: "1/ContentSection1/ContentSection1/4"
+subnav: "1/Content/Contenu/4"
 lang: "en"
 title: "Help articles"
 ---

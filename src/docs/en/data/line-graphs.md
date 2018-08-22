@@ -1,6 +1,6 @@
 ---
 path: "/data/line-graphs"
-subnav: "1/DataSection1/DataSection1/5"
+subnav: "1/Data/Données/5"
 lang: "en"
 title: "Line graphs"
 ---

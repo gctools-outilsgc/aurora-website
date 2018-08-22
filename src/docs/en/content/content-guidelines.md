@@ -1,6 +1,6 @@
 ---
 path: "/content/content-guidelines"
-subnav: "1/ContentSection1/ContentSection1/1"
+subnav: "1/Content/Contenu/1"
 lang: "en"
 title: "Content guidelines"
 ---
