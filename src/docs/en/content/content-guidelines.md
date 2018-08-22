@@ -17,7 +17,7 @@ Plain language is achieved through several techniques:
 
 * **Use the active voice.** Active voice means that the subject does the action, rather than the subject being acted upon. The active voice is closer to the way we talk, and is more dynamic and easy to read. Active voice typically follows the structure of - the subject (noun) action (verb) what/where (object). Example: The dog (subject/noun) fetched (action/verb) the ball (object). One good rule is to remember that things don't happen to people, people DO things.
 
-* **Use words appropriate for the situtaion and user.** Write clearly using the simplest words which say what you mean. Only use jargon if you know that your reader will understand. Avoid buzzwords or words that only make sense to a very specific audience.
+* **Use words appropriate for the situation and user.** Write clearly using the simplest words which say what you mean. Only use jargon if you know that your reader will understand. Avoid buzzwords or words that only make sense to a very specific audience.
 
 * **Avoid nominalizations.** Nominalizations are abstract nouns formed from verbs. For example "discuss" (verb) vs. "discussion" (nominalization). Nominalizations make sentences passive, vague and harder to read.
 

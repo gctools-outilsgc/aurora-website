@@ -2,7 +2,7 @@
 path: "/component/drawers-and-accordions"
 subnav: "3/Navigation/Navigation/3"
 lang: "en"
-title: "Drawers and Accordians"
+title: "Drawers and Accordions"
 ---
 
 # Drawers and Accordions
