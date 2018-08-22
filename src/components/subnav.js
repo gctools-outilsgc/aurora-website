@@ -48,7 +48,7 @@ class Subnav extends React.Component {
 		//console.log(sortedFiles);
 		return (
 			<ListGroup>
-				<ListGroupItem onClick={this.toggle} className="dropdown-toggle">
+				<ListGroupItem onClick={this.toggle} className="dropdown-toggle" style={{"border": "0px"}}>
 					{(localizer.lang === "en_CA") ? nameEn : nameFr}
 				</ListGroupItem>
 				<Collapse isOpen={this.state.dropdownOpen}>
@@ -58,7 +58,7 @@ class Subnav extends React.Component {
 							((localizer.lang === "fr_CA") && (edges.node.frontmatter.lang === "fr"))
 						)
 							return (
-								<ListGroupItem active={path === edges.node.frontmatter.path} style={{ "padding-left": "2rem" }}>
+								<ListGroupItem active={path === edges.node.frontmatter.path} style={{ "padding-left": "2rem",  "border": "0px" }}>
 									<Link
 										to={edges.node.frontmatter.path}
 										activeStyle={{

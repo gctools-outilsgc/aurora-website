@@ -47,7 +47,7 @@ exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
     plugins: [
       new I18nTranslationWebpackPlugin({
-        extract_text_exclude: /node_modules|.cache/,
+        extract_text_exclude: /node_modules|.cache|components\/search/,
         localizer_window: 'localizer',
       }),
     ],
