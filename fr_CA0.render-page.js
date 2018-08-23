@@ -8,7 +8,7 @@ exports.modules = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = {"domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural_forms":"nplurals=2; plural=(n > 1)","lang":"fr_CA"},"Overview":["Aperçu"],"Identity":["Identité"],"Components":["Composants"],"Content":["Contenu"]}}}
+module.exports = {"domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural_forms":"nplurals=2; plural=(n > 1)","lang":"fr_CA"},"Overview":["Aperçu"],"Identity":["Identité"],"Components":["Composants"],"Content":["Contenu"],"PageHeader":[""]}}}
 
 /***/ })
 

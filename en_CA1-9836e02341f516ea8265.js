@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{351:function(a,s){a.exports={domain:"messages",locale_data:{messages:{"":{domain:"messages",plural_forms:"nplurals=2; plural=(n != 1)",lang:"en_CA"},LanguageSwitcher:[""]}}}}}]);
+//# sourceMappingURL=en_CA1-9836e02341f516ea8265.js.map
