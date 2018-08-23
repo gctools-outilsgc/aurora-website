@@ -5,7 +5,8 @@
  */
 
 // You can delete this file if you're not using it
-const path = require("path")
+const path = require("path");
+const fs = require("fs-extra");
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
@@ -47,9 +48,17 @@ exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
     plugins: [
       new I18nTranslationWebpackPlugin({
-        extract_text_exclude: /node_modules|.cache|components\/search/,
+        extract_text_exclude: /node_modules|.cache|components\/search|components\/i18n/,
         localizer_window: 'localizer',
       }),
     ],
   });
+};
+
+exports.onPostBuild = () => {
+  console.log("Copying locales");
+  fs.copySync(
+    path.join(__dirname, "/src/locales"),
+    path.join(__dirname, "/public/locales")
+  );
 };
