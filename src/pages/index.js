@@ -1,7 +1,6 @@
 import React from 'react';
 
 import {
-  Jumbotron,
   Button,
   Card,
   CardText,
@@ -104,6 +103,8 @@ const IndexPage = ({ data }) => (
 
 
 export default LocalizedComponent(IndexPage);
+
+//Fetches all images using the image plugin
 
 export const query = graphql`
 query {

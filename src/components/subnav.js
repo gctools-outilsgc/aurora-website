@@ -1,20 +1,9 @@
-import React, { Component } from 'react';
-import { Link, StaticQuery, graphql } from 'gatsby';
+import React from 'react';
+import { Link } from 'gatsby';
 import LocalizedComponent
 	from '@gctools-components/react-i18n-translation-webpack';
 import {
-	Nav,
-	Navbar,
-	NavItem,
-	NavbarBrand,
-	NavbarToggler,
-	UncontrolledCollapse,
-	Button,
 	Collapse,
-	Dropdown,
-	DropdownToggle,
-	DropdownMenu,
-	DropdownItem,
 	ListGroup,
 	ListGroupItem
 } from 'reactstrap';
@@ -45,7 +34,6 @@ class Subnav extends React.Component {
 		const sortedFiles = files.sort((a, b) =>
 			parseInt(a.node.frontmatter.subnav.split('/')[3], 10) - parseInt(b.node.frontmatter.subnav.split('/')[3], 10))
 			;
-		//console.log(sortedFiles);
 		return (
 			<ListGroup>
 				<ListGroupItem onClick={this.toggle} className="dropdown-toggle" style={{"border": "0px"}}>

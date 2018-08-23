@@ -6,7 +6,7 @@ import Header from './header';
 import '../utils/custom.scss';
 import { Container } from 'reactstrap';
 
-const Layout = ({ children, data, location }) => (
+const Layout = ({ children }) => (
 
   <StaticQuery
     query={graphql`

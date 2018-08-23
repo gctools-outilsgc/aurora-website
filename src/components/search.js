@@ -1,21 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
 import {
-    Nav,
-    Navbar,
-    NavItem,
-    NavbarBrand,
-    NavbarToggler,
-    UncontrolledCollapse,
-    Button,
-    Collapse,
     Dropdown,
     DropdownToggle,
     DropdownMenu,
-    DropdownItem,
     Input,
     Col,
-    ListGroup,
     ListGroupItem
 } from 'reactstrap';
 
@@ -86,7 +76,6 @@ export default class Search extends Component {
             this.term(query + "~2");
         }); */
         const results = lunrIndex.index.search(`${query}^100 ${query}*^10 ${query}~2`);
-        console.log(results);
         return results.map(({ ref }) => lunrIndex.store[ref]);
     }
 

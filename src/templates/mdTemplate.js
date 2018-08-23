@@ -12,11 +12,11 @@ import { Container, Row, Col } from 'reactstrap';
 const Template = ({
   data, // this prop will be injected by the GraphQL query below.
 }) => {
-  const { eng, fr } = data; // data.markdownRemark holds our post data
+  const { eng, fr } = data;
   const { frontmatter: { path } } = eng;
   const renderAst = new rehypeReact({
     createElement: React.createElement,
-    components: { badge: Badge },
+    components: { badge: Badge }, //Allows in-markdown render of the Badge component from reactstrap
   }).Compiler;
   return (
     <Layout>
