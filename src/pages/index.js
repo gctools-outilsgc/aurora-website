@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { StaticQuery, graphql, push, replace } from 'gatsby';
 import {
   Button,
   Card,
@@ -10,18 +10,16 @@ import {
   CardSubtitle
 } from 'reactstrap';
 import Layout from '../components/layout';
-import LocalizedComponent
-  from '@gctools-components/react-i18n-translation-webpack';
 import Img from "gatsby-image"
-import { StaticQuery, graphql, push, replace } from 'gatsby';
-const IndexPage = ({ data }) => (
+import { translate } from "react-i18next";
+const IndexPage = ({ data, t, i18n }) => (
 
   <Layout>
 
     <Card inverse className="no-container" >
       <Img fluid={data.aurora.childImageSharp.fluid} />
       <CardImgOverlay className="no-borders">
-        <h1 className="display-3">{__('Welcome')}</h1>
+        <h1 className="display-3">{t("Welcome")}</h1>
         <p className="lead">
           Subtitle.
         </p>
@@ -39,7 +37,7 @@ const IndexPage = ({ data }) => (
       <Card className="col text-center">
         <Img fluid={data.eye.childImageSharp.fluid} />
         <CardBody>
-          <CardTitle>{__('Designers')}</CardTitle>
+          <CardTitle>{t("Designers")}</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>
             One Line
@@ -50,7 +48,7 @@ const IndexPage = ({ data }) => (
       <Card className="col text-center">
         <Img fluid={data.gears.childImageSharp.fluid} />
         <CardBody>
-          <CardTitle>{__('Developers')}</CardTitle>
+          <CardTitle>{t("Developers")}</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>
             One Line for testing
@@ -62,7 +60,7 @@ const IndexPage = ({ data }) => (
       <Card className="col text-center">
         <Img fluid={data.pen.childImageSharp.fluid} />
         <CardBody>
-          <CardTitle>{__('Writers')}</CardTitle>
+          <CardTitle>{t("Writers")}</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>
             Making this one line
@@ -74,7 +72,7 @@ const IndexPage = ({ data }) => (
       <Card className="col text-center">
         <Img fluid={data.pie.childImageSharp.fluid} />
         <CardBody>
-          <CardTitle>{__('Data Scientists')}</CardTitle>
+          <CardTitle>{t("Data Scientists")}</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>
             One Line
@@ -86,7 +84,7 @@ const IndexPage = ({ data }) => (
       <Card className="col text-center">
         <Img fluid={data.contributors.childImageSharp.fluid} />
         <CardBody>
-          <CardTitle>{__('Contributors')}</CardTitle>
+          <CardTitle>{t("Contributors")}</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>
             One Line
@@ -102,7 +100,7 @@ const IndexPage = ({ data }) => (
 
 
 
-export default LocalizedComponent(IndexPage);
+export default translate("FrontPage")(IndexPage);
 
 //Fetches all images using the image plugin
 

@@ -1,13 +1,11 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import LocalizedComponent
-	from '@gctools-components/react-i18n-translation-webpack';
 import {
 	Collapse,
 	ListGroup,
 	ListGroupItem
 } from 'reactstrap';
-
+import { translate } from "react-i18next";
 
 class Subnav extends React.Component {
 	constructor(props) {
@@ -29,7 +27,8 @@ class Subnav extends React.Component {
 			files,
 			nameEn,
 			nameFr,
-			path } = this.props;
+			path,
+			i18n, } = this.props;
 
 		const sortedFiles = files.sort((a, b) =>
 			parseInt(a.node.frontmatter.subnav.split('/')[3], 10) - parseInt(b.node.frontmatter.subnav.split('/')[3], 10))
@@ -37,13 +36,13 @@ class Subnav extends React.Component {
 		return (
 			<ListGroup>
 				<ListGroupItem onClick={this.toggle} className="dropdown-toggle" style={{"border": "0px"}}>
-					{(localizer.lang === "en_CA") ? nameEn : nameFr}
+					{(i18n.language === "en") ? nameEn : nameFr}
 				</ListGroupItem>
 				<Collapse isOpen={this.state.dropdownOpen}>
 					{sortedFiles.map((edges) => {
 						if (
-							((localizer.lang === "en_CA") && (edges.node.frontmatter.lang === "en")) ||
-							((localizer.lang === "fr_CA") && (edges.node.frontmatter.lang === "fr"))
+							((i18n.language === "en") && (edges.node.frontmatter.lang === "en")) ||
+							((i18n.language === "fr") && (edges.node.frontmatter.lang === "fr"))
 						)
 							return (
 								<ListGroupItem active={path === edges.node.frontmatter.path} style={{ "padding-left": "2rem",  "border": "0px" }}>
@@ -64,4 +63,4 @@ class Subnav extends React.Component {
 		);
 	}
 }
-export default Subnav;
+export default translate("default")(Subnav);

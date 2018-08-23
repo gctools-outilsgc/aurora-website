@@ -42,19 +42,6 @@ exports.createPages = ({ graphql, actions }) => {
     })
 };
 
-const I18nTranslationWebpackPlugin =
-  require('@gctools-components/i18n-translation-webpack-plugin');
-exports.onCreateWebpackConfig = ({ actions }) => {
-  actions.setWebpackConfig({
-    plugins: [
-      new I18nTranslationWebpackPlugin({
-        extract_text_exclude: /node_modules|.cache|components\/search|components\/i18n/,
-        localizer_window: 'localizer',
-      }),
-    ],
-  });
-};
-
 exports.onPostBuild = () => {
   console.log("Copying locales");
   fs.copySync(

@@ -1,9 +1,6 @@
 {
   "dependencies": {
     "@gctools-components/eslint-config": "^1.1.3",
-    "@gctools-components/i18n-translation-webpack-plugin": "^2.0.1",
-    "@gctools-components/language-selector": "^1.1.5",
-    "@gctools-components/react-i18n-translation-webpack": "^1.1.4",
     "bootstrap": "^4.1.1",
     "gatsby": "2.0.0-beta.59",
     "gatsby-image": "next",

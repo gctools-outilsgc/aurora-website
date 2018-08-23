@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import Header from './header';
 import '../utils/custom.scss';
 import { Container } from 'reactstrap';
-
+import '../components/i18n';
 const Layout = ({ children }) => (
 
   <StaticQuery

@@ -8,11 +8,9 @@ import {
   Container,
 } from 'reactstrap';
 import Search from './search'
-import LanguageSelector from '@gctools-components/language-selector'
-import LocalizedComponent
-  from '@gctools-components/react-i18n-translation-webpack';
-
-const Header = ({ siteTitle }) => (
+import LanguageSwitch from './languageSwitch';
+import { translate } from "react-i18next";
+const Header = ({ siteTitle, t, i18n }) => (
   <Container fluid>
     <Navbar dark color="primary" expand="md" fixed="top">
       <Link to="/#!" className="navbar-brand">
@@ -23,32 +21,31 @@ const Header = ({ siteTitle }) => (
         <Nav navbar>
           <NavItem>
             <Link to="/overview/whats-new" className="nav-link">
-              {__('Overview')}
+              {t("Overview")}
             </Link>
           </NavItem>
           <NavItem>
             <Link to="/#!" className="nav-link">
-              {__('Identity')}
+              {t("Identity")}
             </Link>
           </NavItem>
           <NavItem>
             <Link to="/component/badges" className="nav-link">
-              {__('Components')}
+              {t("Component")}
             </Link>
           </NavItem>
           <NavItem>
             <Link to="/content/content-guidelines" className="nav-link">
-              {__('Content')}
+              {t("Content")}
             </Link>
           </NavItem>
         </Nav>
       </div>
       <Search
-        lng={(localizer.lang === "en_CA") ? "en" : "fr"}
-        placeholder={(localizer.lang === "en_CA") ? "Search" : "Chercher"}
+        lng={(i18n.language === "en") ? "en" : "fr"}
+        placeholder={(i18n.language === "en") ? "Search" : "Chercher"}
       />
-      <LanguageSelector />
-
+      <LanguageSwitch />
     </Navbar>
   </Container>
 );
@@ -61,4 +58,4 @@ Header.defaultProps = {
   siteTitle: 'Aurora',
 };
 
-export default LocalizedComponent(Header);
+export default translate("PageHeader")(Header);
