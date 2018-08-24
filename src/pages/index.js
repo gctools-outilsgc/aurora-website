@@ -11,7 +11,6 @@ import {
   Jumbotron
 } from 'reactstrap';
 import Layout from '../components/layout';
-import SplashTitle from '../components/SplashTitle';
 import Img from "gatsby-image"
 import { translate } from "react-i18next";
 const IndexPage = ({ data, t, i18n }) => (
