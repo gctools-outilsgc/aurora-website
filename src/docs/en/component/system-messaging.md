@@ -1,6 +1,6 @@
 ---
 path: "/component/system-messaging"
-subnav: "1/Standard/Standard/8"
+subnav: "2/Standard/Standard/8"
 lang: "en"
 title: "System messaging"
 ---

@@ -1,6 +1,6 @@
 ---
 path: "/content/system-vocabulary"
-subnav: "1/ContentSection1/ContentSection1/5"
+subnav: "1/Content/Contenu/5"
 lang: "en"
 title: "System vocabulary"
 ---

@@ -1,24 +1,11 @@
-import React, { Component } from 'react';
-import { Link, StaticQuery, graphql } from 'gatsby';
-import LocalizedComponent
-	from '@gctools-components/react-i18n-translation-webpack';
+import React from 'react';
+import { Link } from 'gatsby';
 import {
-	Nav,
-	Navbar,
-	NavItem,
-	NavbarBrand,
-	NavbarToggler,
-	UncontrolledCollapse,
-	Button,
 	Collapse,
-	Dropdown,
-	DropdownToggle,
-	DropdownMenu,
-	DropdownItem,
 	ListGroup,
 	ListGroupItem
 } from 'reactstrap';
-
+import { translate } from "react-i18next";
 
 class Subnav extends React.Component {
 	constructor(props) {
@@ -40,25 +27,25 @@ class Subnav extends React.Component {
 			files,
 			nameEn,
 			nameFr,
-			path } = this.props;
+			path,
+			i18n, } = this.props;
 
 		const sortedFiles = files.sort((a, b) =>
 			parseInt(a.node.frontmatter.subnav.split('/')[3], 10) - parseInt(b.node.frontmatter.subnav.split('/')[3], 10))
 			;
-		//console.log(sortedFiles);
 		return (
 			<ListGroup>
-				<ListGroupItem onClick={this.toggle} className="dropdown-toggle">
-					{(localizer.lang === "en_CA") ? nameEn : nameFr}
+				<ListGroupItem onClick={this.toggle} className="dropdown-toggle" style={{"border": "0px"}}>
+					{(i18n.language === "en") ? nameEn : nameFr}
 				</ListGroupItem>
 				<Collapse isOpen={this.state.dropdownOpen}>
 					{sortedFiles.map((edges) => {
 						if (
-							((localizer.lang === "en_CA") && (edges.node.frontmatter.lang === "en")) ||
-							((localizer.lang === "fr_CA") && (edges.node.frontmatter.lang === "fr"))
+							((i18n.language === "en") && (edges.node.frontmatter.lang === "en")) ||
+							((i18n.language === "fr") && (edges.node.frontmatter.lang === "fr"))
 						)
 							return (
-								<ListGroupItem active={path === edges.node.frontmatter.path} style={{ "padding-left": "2rem" }}>
+								<ListGroupItem active={path === edges.node.frontmatter.path} style={{ "padding-left": "2rem",  "border": "0px" }}>
 									<Link
 										to={edges.node.frontmatter.path}
 										activeStyle={{
@@ -76,4 +63,4 @@ class Subnav extends React.Component {
 		);
 	}
 }
-export default Subnav;
+export default translate("default")(Subnav);

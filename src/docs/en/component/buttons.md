@@ -1,6 +1,6 @@
 ---
 path: "/component/buttons"
-subnav: "1/Standard/Standard/3"
+subnav: "2/Standard/Standard/3"
 lang: "en"
 title: "Buttons"
 ---

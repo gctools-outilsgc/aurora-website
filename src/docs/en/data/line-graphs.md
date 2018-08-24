@@ -1,6 +1,6 @@
 ---
 path: "/data/line-graphs"
-subnav: "1/DataSection1/DataSection1/5"
+subnav: "1/Data/Données/5"
 lang: "en"
 title: "Line graphs"
 ---
@@ -11,7 +11,7 @@ title: "Line graphs"
 
 ![Timeline Line Graph](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/line%20graph.png)
 
-Run charts are a type of line graph that are used to show changes in data over time. The time value should always be represented on the x-axis. Do not have more than three data sets shown the the graph, as your graph will become hard to read and process.
+Run charts are a type of line graph that are used to show changes in data over time. The time value should always be represented on the x-axis. Do not have more than three data sets shown in the graph, as your graph will become hard to read and process.
 
 A useful feature to add to your run chart is the ability for users to zoom in and out to particular points of time represented on your graph.
 

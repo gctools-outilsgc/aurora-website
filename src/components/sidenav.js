@@ -1,13 +1,10 @@
 import React from 'react';
-import { Link, StaticQuery, graphql } from 'gatsby';
-import PropTypes from 'prop-types';
-import LocalizedComponent
-  from '@gctools-components/react-i18n-translation-webpack';
+import { StaticQuery, graphql } from 'gatsby';
 import {
   Nav,
-  NavItem,
 } from 'reactstrap';
 import Subnav from './subnav';
+import { translate } from "react-i18next";
 
 const Sidenav = (props) => (
 
@@ -160,5 +157,5 @@ const Sidenav = (props) => (
   />
 );
 
-export default LocalizedComponent(Sidenav);
+export default translate("default")(Sidenav);
 

@@ -1,6 +1,6 @@
 ---
 path: "/component/grids-and-spacing"
-subnav: "1/Standard/Standard/7"
+subnav: "2/Standard/Standard/7"
 lang: "en"
 title: "Grids and Spacing"
 ---

@@ -5,8 +5,9 @@ import { StaticQuery, graphql } from 'gatsby';
 import Header from './header';
 import '../utils/custom.scss';
 import { Container } from 'reactstrap';
+import '../components/i18n';
 
-const Layout = ({ children, data, location }) => (
+const Layout = ({ children }) => (
 
   <StaticQuery
     query={graphql`
@@ -14,8 +15,6 @@ const Layout = ({ children, data, location }) => (
         site {
           siteMetadata {
             title
-            langs
-            defaultLangKey
           }
         }
       }

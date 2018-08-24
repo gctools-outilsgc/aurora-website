@@ -1,6 +1,6 @@
 ---
 path: "/data/choosing-visualizations"
-subnav: "1/DataSection1/DataSection1/2"
+subnav: "1/Data/Données/2"
 lang: "en"
 title: "Choosing visualizations"
 ---
@@ -46,6 +46,6 @@ Line graphs are ideal if you have a continuous data set and wish to show trends 
 
 ![Scatterplot](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/scatterplot.png)
 
-Scatterplots are the best form of distribution analysis. They are best used with large data sets and to show correlations or relationships between non-time variables. Scatterplots are only effective if there are enough to data points to to strongly indicate a correlation \(or lack thereof\), generally, the more data points a scatterplot has, the better.
+Scatterplots are the best form of distribution analysis. They are best used with large data sets and to show correlations or relationships between non-time variables. Scatterplots are only effective if there are enough to data points to strongly indicate a correlation \(or lack thereof\), generally, the more data points a scatterplot has, the better.
 
 Scatterplots may also help to identify outliers or anomaly cases in your data set.

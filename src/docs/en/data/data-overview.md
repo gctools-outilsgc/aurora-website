@@ -1,6 +1,6 @@
 ---
 path: "/data/data-overview"
-subnav: "1/DataSection1/DataSection1/1"
+subnav: "1/Data/Données/1"
 lang: "en"
 title: "Overview"
 ---
@@ -41,7 +41,7 @@ For quantitative labels, the unit of measurement should be included in the label
 
 ### Data Increments
 
-Qualitative data values should be labelled in a logical way, such as consecutive months. For quantitative values, they should be labelled using round numbers or decimals that fit the data range. Always include an additional increment greater than the datset. For quantitative values, axes should always start at 0.When using decimals, round to a maximum of two decimal points whenever possible.
+Qualitative data values should be labelled in a logical way, such as consecutive months. For quantitative values, they should be labelled using round numbers or decimals that fit the data range. Always include an additional increment greater than the dataset. For quantitative values, axes should always start at 0.When using decimals, round to a maximum of two decimal points whenever possible.
 
 In some visualizations with many axis points, skipping labels is an effective way to reduce visual clutter. Axis ticks should be separated with sufficient space to clearly read each label. Intervals between labels should always be consistent.
 

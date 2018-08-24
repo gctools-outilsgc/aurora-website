@@ -1,6 +1,6 @@
 ---
 path: "/data/column-and-bar-graphs"
-subnav: "1/DataSection1/DataSection1/3"
+subnav: "1/Data/Données/3"
 lang: "en"
 title: "Column and bar graphs"
 ---

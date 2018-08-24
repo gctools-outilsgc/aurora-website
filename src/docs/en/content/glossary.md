@@ -1,6 +1,6 @@
 ---
 path: "/content/glossary"
-subnav: "1/ContentSection1/ContentSection1/3"
+subnav: "1/Content/Contenu/3"
 lang: "en"
 title: "Glossary"
 ---
@@ -16,7 +16,7 @@ Accessibility is the practice of designing products that are usable to all users
 Artificial intelligence is a branch of computer science that refers to the simulation of intelligent behaviour in computers. Artificial intelligence is meant to solve cognitive problems such as learning, problem solving, and pattern recognition. The term artificial intelligence can apply to any device that perceives its environment and takes actions that maximize its chance of successfully reaching defined goals.
 
 ## Architecture
-app,network, information, site, front-end, back-end
+app, network, information, site, front-end, back-end
 
 ## Availability
 
@@ -54,7 +54,7 @@ User experience is the overall experience of using a product. It is a broader co
 
 ## Utility
 
-Utility refers to whether or not a product provides the features needed by definied users. If the product or system provides all the features required for users to meet their goals, it has a high level of utility.
+Utility refers to whether or not a product provides the features needed by defined users. If the product or system provides all the features required for users to meet their goals, it has a high level of utility.
 
 ## Wireframe
 

@@ -1,6 +1,6 @@
 ---
 path: "/component/cards"
-subnav: "1/Standard/Standard/4"
+subnav: "2/Standard/Standard/4"
 lang: "en"
 title: "Cards"
 ---

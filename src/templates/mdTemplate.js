@@ -5,18 +5,16 @@ import { graphql } from 'gatsby';
 
 import Sidenav from '../components/sidenav';
 import Layout from '../components/layout';
-import LocalizedComponent
-  from '@gctools-components/react-i18n-translation-webpack';
 import { Container, Row, Col } from 'reactstrap';
-
+import { translate } from "react-i18next";
 const Template = ({
   data, // this prop will be injected by the GraphQL query below.
-}) => {
-  const { eng, fr } = data; // data.markdownRemark holds our post data
+i18n }) => {
+  const { eng, fr } = data;
   const { frontmatter: { path } } = eng;
   const renderAst = new rehypeReact({
     createElement: React.createElement,
-    components: { badge: Badge },
+    components: { badge: Badge }, //Allows in-markdown render of the Badge component from reactstrap
   }).Compiler;
   return (
     <Layout>
@@ -25,7 +23,7 @@ const Template = ({
           <Sidenav path={path} />
         </Col>
         <Col>
-          {(localizer.lang === "en_CA") ?
+          {(i18n.language === "en" || fr === null) ?
             <div className="col-sm">{renderAst(eng.htmlAst)}</div> :
             <div className="col-sm">{renderAst(fr.htmlAst)}</div>
           }
@@ -35,7 +33,7 @@ const Template = ({
   );
 }
 
-export default LocalizedComponent(Template);
+export default translate("default")(Template);
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     eng:markdownRemark(frontmatter: { path: { eq: $path }, lang: {eq: "en"} }) {

@@ -5,14 +5,13 @@ import {
   Navbar,
   Nav,
   NavItem,
-  NavbarBrand
+  Container,
 } from 'reactstrap';
-import LanguageSelector from '@gctools-components/language-selector'
-import LocalizedComponent
-  from '@gctools-components/react-i18n-translation-webpack';
-
-const Header = ({ siteTitle }) => (
-  <div className="container-fluid">
+import Search from './search'
+import LanguageSwitch from './languageSwitch';
+import { translate } from "react-i18next";
+const Header = ({ siteTitle, t, i18n }) => (
+  <Container fluid>
     <Navbar dark color="primary" expand="md" fixed="top">
       <Link to="/#!" className="navbar-brand">
         {' '}
@@ -21,32 +20,34 @@ const Header = ({ siteTitle }) => (
       <div className="navbar-collapse">
         <Nav navbar>
           <NavItem>
-            <Link to="/overview/whats-new" class="nav-link">
-              {__('Overview')}
+            <Link to="/overview/whats-new" className="nav-link">
+              {t("Overview")}
             </Link>
           </NavItem>
           <NavItem>
-            <Link to="/#!" class="nav-link">
-              {__('Identity')}
+            <Link to="/#!" className="nav-link">
+              {t("Identity")}
             </Link>
           </NavItem>
           <NavItem>
-            <Link to="/component/badges" class="nav-link">
-              {__('Components')}
+            <Link to="/component/badges" className="nav-link">
+              {t("Component")}
             </Link>
           </NavItem>
           <NavItem>
             <Link to="/content/content-guidelines" className="nav-link">
-              {__('Content')}
+              {t("Content")}
             </Link>
           </NavItem>
         </Nav>
       </div>
-
-      <LanguageSelector />
-
+      <Search
+        lng={(i18n.language === "en") ? "en" : "fr"}
+        placeholder={(i18n.language === "en") ? "Search" : "Chercher"}
+      />
+      <LanguageSwitch />
     </Navbar>
-  </div>
+  </Container>
 );
 
 Header.propTypes = {
@@ -57,4 +58,4 @@ Header.defaultProps = {
   siteTitle: 'Aurora',
 };
 
-export default LocalizedComponent(Header);
+export default translate("PageHeader")(Header);
