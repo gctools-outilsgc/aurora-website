@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import classNames from "classnames";
+import { Button } from 'reactstrap';
 import { translate } from "react-i18next";
 
 class LanguageSwitcher extends Component {
@@ -15,36 +15,38 @@ class LanguageSwitcher extends Component {
     this.setState({ language: nextProps.i18n.language });
   }
 
-  handleChangeLanguage(lng) {
+  handleChangeLanguage() {
     const { i18n } = this.props;
-    i18n.changeLanguage(lng);
+    if (this.state.language == "en") {
+      i18n.changeLanguage("fr");
+    } else {
+      i18n.changeLanguage("en");
+    }
   }
 
-  renderLanguageChoice({ code, label }) {
-    const buttonClass = classNames("LanguageSwitcher__button", {
-      "LanguageSwitcher__button--selected": this.state.language === code,
-    });
+  renderLanguageChoice() {
+
+    if (this.state.language == "en")
+      var lang = "FR";
+    else 
+      var lang = "EN";
 
     return (
-      <button
-        key={code}
-        className={buttonClass}
-        onClick={() => this.handleChangeLanguage(code)}
+      <Button
+        className="languageSwitcherButton"
+        onClick={this.handleChangeLanguage}
+        size="lg"
+        style={ {"font-weight": "550"} }
       >
-        {label}
-      </button>
+      {lang}
+      </Button>
     );
   }
 
   render() {
-    const languages = [
-      { code: "en", label: "English" },
-      { code: "fr", label: "Français" },
-    ];
-
     return (
       <div className="LanguageSwitcher">
-        {languages.map(language => this.renderLanguageChoice(language))}
+        {this.renderLanguageChoice(this.state.language)}
       </div>
     );
   }
