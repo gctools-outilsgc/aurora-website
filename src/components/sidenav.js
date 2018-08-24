@@ -1,9 +1,7 @@
 import React from 'react';
-import { Link, StaticQuery, graphql } from 'gatsby';
-import PropTypes from 'prop-types';
+import { StaticQuery, graphql } from 'gatsby';
 import {
   Nav,
-  NavItem,
 } from 'reactstrap';
 import Subnav from './subnav';
 import { translate } from "react-i18next";

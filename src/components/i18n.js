@@ -8,6 +8,14 @@ i18n
   .use(LanguageDetector)
   .use(reactI18nextModule) // if not using I18nextProvider
   .init({
+    backend: {      // for all available options read the backend's repository readme file
+      loadPath: (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') ?
+        '/locales/{{lng}}/{{ns}}.json'
+        :
+        '/design-system-code/locales/{{lng}}/{{ns}}.json'
+    }
+    ,
+    lng: "en", 
     fallbackLng: 'en',
     debug: true,
     interpolation: {

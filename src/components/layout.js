@@ -6,6 +6,7 @@ import Header from './header';
 import '../utils/custom.scss';
 import { Container } from 'reactstrap';
 import '../components/i18n';
+
 const Layout = ({ children }) => (
 
   <StaticQuery
@@ -14,8 +15,6 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
-            langs
-            defaultLangKey
           }
         }
       }
