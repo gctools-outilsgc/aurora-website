@@ -5,20 +5,42 @@ import {
   Navbar,
   Nav,
   NavItem,
-  Container,
+  NavLink
 } from 'reactstrap';
 import Search from './search'
 import LanguageSwitch from './languageSwitch';
 import { translate } from "react-i18next";
+import fip from "../img/sig-alt-en.png";
+import logo from "../img/aurora_logo.png";
 const Header = ({ siteTitle, t, i18n }) => (
-  <Container fluid>
-    <Navbar dark color="primary" expand="md" fixed="top">
+  <div className="fixed-top bg-white shadow-sm">
+  <div>
+    <div style={{height:'50px', padding:'10px'}}>
+      <img src={fip} alt="FIP"/>
+      <div className="float-right">
+          <span className="float-left mr-3">
+            <Search
+              lng={(i18n.language === "en") ? "en" : "fr"}
+              placeholder={(i18n.language === "en") ? "Search" : "Chercher"}
+            />
+          </span>
+          <span className="float-right">
+            <LanguageSwitch />
+          </span>
+        </div>
+    </div>
+  </div>
+  <div>
+    <Navbar light color="white" expand="md">
       <Link to="/#!" className="navbar-brand">
-        {' '}
-        {siteTitle}{' '}
+        <img src={logo} alt="Logo" className="align-text-bottom" style={{width:'30px'}} />
+        <span className="h2">
+          {' '}
+          {siteTitle}{' '}
+        </span>
       </Link>
       <div className="navbar-collapse">
-        <Nav navbar>
+        <Nav navbar className="mx-auto">
           <NavItem>
             <Link to="/overview/whats-new" className="nav-link">
               {t("Overview")}
@@ -41,13 +63,18 @@ const Header = ({ siteTitle, t, i18n }) => (
           </NavItem>
         </Nav>
       </div>
-      <Search
-        lng={(i18n.language === "en") ? "en" : "fr"}
-        placeholder={(i18n.language === "en") ? "Search" : "Chercher"}
-      />
-      <LanguageSwitch />
+        <Nav className="ml-auto" navbar>
+          <NavItem>
+            <NavLink href="#!">GH</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="#!">DWNLD</NavLink>
+          </NavItem>
+        </Nav>
     </Navbar>
-  </Container>
+  </div>
+
+  </div>
 );
 
 Header.propTypes = {

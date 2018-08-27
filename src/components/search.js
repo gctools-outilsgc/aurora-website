@@ -5,7 +5,6 @@ import {
     DropdownToggle,
     DropdownMenu,
     Input,
-    Col,
     ListGroupItem
 } from 'reactstrap';
 
@@ -23,7 +22,7 @@ export default class Search extends Component {
 
     render() {
         return (
-            <Col xs="3">
+            <div className="search-form search-form-round" style={{width:'300px'}}>
                 <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
                     <DropdownToggle
                         tag={Input}
@@ -47,7 +46,7 @@ export default class Search extends Component {
                         }
                     </DropdownMenu>
                 </Dropdown>
-            </Col>
+            </div>
         )
     }
 
