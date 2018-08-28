@@ -61,6 +61,11 @@ const Header = ({ siteTitle, t, i18n }) => (
               {t("Content")}
             </Link>
           </NavItem>
+          <NavItem>
+            <Link to="/data/data-overview" className="nav-link">
+              {t("Data")}
+            </Link>
+          </NavItem>
         </Nav>
       </div>
         <Nav className="ml-auto" navbar>
