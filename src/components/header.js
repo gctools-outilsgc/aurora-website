@@ -18,7 +18,7 @@ const Header = ({ siteTitle, t, i18n }) => (
     <div style={{height:'50px', padding:'10px'}}>
       <img src={fip} alt="FIP"/>
       <div className="float-right">
-          <span className="float-left mr-3">
+          <span className="float-left mr-3 d-none d-md-block">
             <Search
               lng={(i18n.language === "en") ? "en" : "fr"}
               placeholder={(i18n.language === "en") ? "Search" : "Chercher"}
@@ -31,10 +31,10 @@ const Header = ({ siteTitle, t, i18n }) => (
     </div>
   </div>
   <div>
-    <Navbar light color="white" expand="md">
-      <Link to="/#!" className="navbar-brand">
-        <img src={logo} alt="Logo" className="align-text-bottom" style={{width:'30px'}} />
-        <span className="h2">
+    <Navbar light color="white" expand>
+      <Link to="/#!" className="text-dark">
+        <img src={logo} alt="Logo" className="float-left" style={{width:'30px', margin:'5px'}} />
+        <span className="h2 d-none d-md-block float-left">
           {' '}
           {siteTitle}{' '}
         </span>
@@ -69,10 +69,10 @@ const Header = ({ siteTitle, t, i18n }) => (
         </Nav>
       </div>
         <Nav className="ml-auto" navbar>
-          <NavItem>
+          <NavItem className="d-none d-md-block">
             <NavLink href="#!">GH</NavLink>
           </NavItem>
-          <NavItem>
+          <NavItem className="d-none d-md-block">
             <NavLink href="#!">DWNLD</NavLink>
           </NavItem>
         </Nav>
