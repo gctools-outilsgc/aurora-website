@@ -280,9 +280,46 @@ a.dropdown-item {
 
   body { 
     padding-top: 50px; 
+    font-family: 'Rubik', sans-serif;
   }
 
   /* .list-group-item {
       border: 0px solid rgba(0, 0, 0, 0.125);
 } */
 
+/* ADDED FOR DS*/
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.highlight {
+    color: #467B8D;
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: none;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.btn {
+    font-weight: 600!important;
+    font-family: 'Nunito', sans-serif;
+}
+
+.ext-links div {
+    display: inline;
+}
+
+a.ext-link-text {
+    display: inline;
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+    vertical-align: middle;
+    font-family: 'Nunito', sans-serif;
+}
