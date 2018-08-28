@@ -1,0 +1,24 @@
+#listGroupItem{ //#h5?
+    color: black !important;
+    background-color:#F2F7F7 !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    letter-spacing: .5px;
+    font-size: 1.125em;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    #link{
+        width: 100%;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 5px;
+    }
+}
+.active#listGroupItem{
+    margin-left: 40px;
+    background-color: #467B8D !important;
+    padding-left: 10px !important;
+    border-radius: 0px;
+}
