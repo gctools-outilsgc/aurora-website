@@ -47,6 +47,6 @@ exports.onPostBuild = () => {
   fs.copySync(
     path.join(__dirname, "/src/locales"),
     path.join(__dirname, "/public/locales"),
-    path.join(__dirname, "/src/img")
+    /*path.join(__dirname, "/src/img")*/
   );
 };
