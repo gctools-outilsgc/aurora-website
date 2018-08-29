@@ -36,7 +36,7 @@ class Subnav extends React.Component {
 			;
 		return (
 			<ListGroup>
-				<ListGroupItem onClick={this.toggle} className="dropdown-toggle" style={{"border": "0px", "font-size":"1.3125em", "font-family": "'Rubik', sans-serif", "margin-top": "5px", "margin-bottom": "5px"}} id='listGroupItem'>
+				<ListGroupItem onClick={this.toggle} className="dropdown-toggle" style={{"border": "0px", "font-size":"1.3125em", "font-family": "'Nunito Sans', sans-serif", "margin-top": "5px", "margin-bottom": "5px", "font-weight": "600"}} id='listGroupItem'>
 					{(i18n.language === "en") ? nameEn : nameFr}
 				</ListGroupItem>
 				<Collapse isOpen={this.state.dropdownOpen}>
