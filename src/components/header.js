@@ -7,7 +7,7 @@ import {
   NavItem,
   Container,
 } from 'reactstrap';
-import Search from './search'
+import Search from './search';
 import LanguageSwitch from './languageSwitch';
 import { translate } from "react-i18next";
 const Header = ({ siteTitle, t, i18n }) => (
@@ -37,6 +37,11 @@ const Header = ({ siteTitle, t, i18n }) => (
           <NavItem>
             <Link to="/content/content-guidelines" className="nav-link">
               {t("Content")}
+            </Link>
+          </NavItem>
+          <NavItem>
+            <Link to="/content/data/data-overview" className="nav-link">
+              {t("Data")}
             </Link>
           </NavItem>
         </Nav>
