@@ -18,20 +18,20 @@ We have created other sample colour palettes that you may wish to use in your ow
 #### Aurora Borealis
 
 
-Hex codes \(left to right\): \#000A3D, \#467B8D, \#5DC1BE, \#55C0A3, \#ADE18D
+Hex codes \(left to right\): <badge style="background-color: #000A3D">#000A3D</badge> <badge style="background-color: #467B8D">#467B8D</badge> <badge style="background-color: #5DC1BE">#5DC1BE</badge> <badge style="background-color: #55C0A3">#55C0A3</badge> <badge style="background-color: #ADE18D; color: black">#ADE18D</badge>
 
 #### Blue Complimentary
 
 
-Hex codes \(left to right\): \#0D467D, \#137991, \#6DD2DA, \#FF9F40, \#FEC04F
+Hex codes \(left to right\): <badge style="background-color: #0D467D">#0D467D</badge> <badge style="background-color: #137991">#137991</badge> <badge style="background-color: #6DD2DA">#6DD2DA</badge> <badge style="background-color: #FF9F40">#FF9F40</badge> <badge style="background-color: #FEC04F; color: black">#FEC04F</badge>
 
 #### Triad
 
-Hex codes \(left to right\): \#7E0C33, \#024571, \#5DC1BE, \#F6CF22, \#EDDB7C
+Hex codes \(left to right\): <badge style="background-color: #7E0C33">#7E0C33</badge> <badge style="background-color: #024571">#024571</badge> <badge style="background-color: #5DC1BE">#5DC1BE</badge> <badge style="background-color: #F6CF22F">#F6CF22</badge> <badge style="background-color: #EDDB7C; color: black">#EDDB7C</badge>
 
 #### Green and Blue
 
-Hex codes \(left to right\): \#0278A4, \#4E474, \#83C3F2, \#C9DF61, \#C1D699
+Hex codes \(left to right\): <badge style="background-color: #0278A4">#0278A4</badge> <badge style="background-color: #4E474">#4E474</badge> <badge style="background-color: #83C3F2">#83C3F2</badge> <badge style="background-color: #C9DF61; color: black">#C9DF61</badge> <badge style="background-color: #C1D699; color: black">#C1D699</badge>
 
 ### Applying Your Own Palettes
 
@@ -50,15 +50,15 @@ Throughout the design system, documentation about elements will specify which co
 
 The palette used in this system is titled **Thunder and Lightning** and uses the following hex codes:
 
-\#002D42 \(with white text\)
+<badge style="background-color: #002D42">#002D42</badge> \(with white text\)
 
-\#4D5D6C \(with white text\)
+<badge style="background-color: #4D5D6C">#4D5D6C</badge> \(with white text\)
 
-\#96A8B2 \(with black text\)
+<badge style="background-color: #96A8B2; color: black">#96A8B2</badge> \(with black text\)
 
-\#CECECE \(with black text\)
+<badge style="background-color: #CECECE; color: black">#CECECE</badge> \(with black text\)
 
-\#FEC04F \(with black text\)
+<badge style="background-color: #FEC04F; color: black">#FEC04F</badge> \(with black text\)
 
 
 ### Text Colours
@@ -72,7 +72,7 @@ Please see [_Typography_](/typography.md) for more information about using text 
 
 _**\(include a do/don't image\)**_
 
-**Hex code**: \#252525
+**Hex code**: <badge style="background-color: #252525">#252525</badge>
 
 #### White Text
 
@@ -82,7 +82,7 @@ Please see [_Typography_ ](/typography.md)for more information about using text 
 
 _**\(include a do/don't image\)**_
 
-**Hex code**: \#FFFFFF
+**Hex code**: <badge style="background-color: #FFFFFF; color: black">#FFFFFF</badge>
 
 #### Muted Text
 
@@ -90,22 +90,22 @@ Muted text is used for secondary text elements such as captions, placeholder tex
 
 Please see [_Typography_](/typography.md) for more information about using text colour.
 
-**Hex code**: \#666666
+**Hex code**: <badge style="background-color: #666666">#666666</badge>
 
 ### Colour Themes
 
 #### Light Theme
 
-By default, most applications will follow the light theme. This theme includes various shades of white for different background/foreground levels. For the majority of applications #FAFAFA is a good shade to use as a background colour, with white (#FFFFFF) as the container or card colour.         ****
+By default, most applications will follow the light theme. This theme includes various shades of white for different background/foreground levels. For the majority of applications #FAFAFA is a good shade to use as a background colour, with white (#FFFFFF) as the container or card colour.
 
-Hex codes: \#CCCCCC, \#F5F5F5, \#FAFAFA, \#FFFFF       ****
+Hex codes: <badge style="background-color: #CCCCCC; color: black">#CCCCCC</badge> <badge style="background-color: #F5F5F5; color: black">#F5F5F5</badge> <badge style="background-color: #FAFAFA; color: black">#FAFAFA</badge> <badge style="background-color: #FFFFF">#FFFFF</badge>
 
 
 #### Dark Theme
 
 Some applications may wish to also incorporate a dark theme. This theme includes various shades of black and grey for different background/foreground levels.
 
-Hex codes: \#000000, \#212121, \#303030, \#424242
+Hex codes: <badge style="background-color: #000000">#000000</badge> <badge style="background-color: #212121">#212121</badge> <badge style="background-color: #303030">#303030</badge> <badge style="background-color: #424242">#424242</badge>
 
 
 ### System Alerts and Messaging
@@ -122,11 +122,11 @@ _**Error colours are used to indicate system failures and malfunctions.**_
 
 **Error hex codes:**  
 
-•    \#923534
+•    <badge style="background-color: #923534">#923534</badge>
 
-•    \#D3080C
+•    <badge style="background-color: #D3080C">#D3080C</badge>
 
-•    \#F3E9E8
+•    <badge style="background-color: #F3E9E8; color: black">#F3E9E8</badge>
 
 
 #### Warning Colours
@@ -135,11 +135,11 @@ _**Warning colours are used for notices that require the user’s acknowledgemen
 
 **Warning hex codes:**  
 
-•    \#66512C
+•    <badge style="background-color: #66512C">#66512C</badge>
 
-•    \#FF9900
+•    <badge style="background-color: #FF9900">#FF9900</badge>
 
-•    \#F9F4D4
+•    <badge style="background-color: #F9F4D4; color: black">#F9F4D4</badge>
 
 #### Success Colours
 
@@ -147,11 +147,11 @@ _**Success colours are used when confirming that the user’s input was successf
 
 **Success hex codes:**
 
-•    \#2B542C
+•    <badge style="background-color: #2B542C">#2B542C</badge>
 
-•    \#278400
+•    <badge style="background-color: #278400">#278400</badge>
 
-•    \#D8EECA
+•    <badge style="background-color: #D8EECA; color: black">#D8EECA</badge>
 
 #### Info Colours
 
@@ -159,8 +159,8 @@ _**Info colours are used when providing additional information and notes to the 
 
 **Info hex codes:**  
 
-•    \#245269
+•    <badge style="background-color: #245269">#245269</badge>
 
-•    \#269ABC
+•    <badge style="background-color: #269ABC">#269ABC</badge>
 
-•    \#D7FAFF
+•    <badge style="background-color: #D7FAFF; color: black">#D7FAFF</badge>

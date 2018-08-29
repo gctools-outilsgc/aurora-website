@@ -13,7 +13,9 @@ Design systems notifications in descending level of severity:
 
 ### Error
 
-![](.gitbook/assets/individual-notification-error.jpg)
+<alert color="danger">
+    Error: You have done something wrong
+</alert>
 
 Error notifications are used for system failures and user errors.
 
@@ -21,7 +23,9 @@ Error example: “Your password must contain at least 8 characters.”
 
 ### Warning
 
-![](.gitbook/assets/individual-notification-warning2.png)
+<alert color="warning">
+    Warning: You are about to make a mistake
+</alert>
 
 Warning notifications are used for notices of potential future errors.
 
@@ -29,7 +33,9 @@ Warning example: “Caps lock is on which may cause you to enter your password i
 
 ### Information
 
-![](.gitbook/assets/individual-notification-info2.png)
+<alert color="info">
+    Information: This may be useful to you
+</alert>
 
 Information notifications are used to provide additional information and notes to the user which they may find helpful in context.
 
@@ -37,7 +43,9 @@ Information example: “You can change your password in settings.”
 
 ### Success
 
-![](.gitbook/assets/individual-notification-success.jpg)
+<alert color="success">
+    Success: You just did something and it worked
+</alert>
 
 Success notifications are used to confirm that a task was completed successfully.
 
@@ -57,13 +65,13 @@ A drop shadow is used to show the user that the notification can be closed by cl
 
 The colours used for notifications are from the design system’s palette.
 
-Hex colour for error notifications: \#D3080C
+Hex colour for error notifications: <badge style="background-color: #D3080C">#D3080C</badge>
 
-Hex colour for warning notifications: \#FF9900
+Hex colour for warning notifications: <badge style="background-color: #FF9900">#FF9900</badge>
 
-Hex colour for information notifications: \#269ABC
+Hex colour for information notifications: <badge style="background-color: #269ABC">#269ABC</badge>
 
-Hex colour for success notifications: \#278400
+Hex colour for success notifications: <badge style="background-color: #278400">#278400</badge>
 
 ### **Position**
 
