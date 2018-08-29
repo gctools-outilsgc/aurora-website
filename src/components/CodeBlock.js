@@ -1,8 +1,9 @@
 import React from 'react';
-import { Button, ButtonGroup } from 'reactstrap';
+import { Button, ButtonGroup, Row, Col } from 'reactstrap';
 import 'prismjs';
 import 'prismjs/components/prism-jsx';
 import 'prismjs/themes/prism.css';
+import './CodeBlock.css';
 import { PrismCode } from 'react-prism';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
@@ -11,7 +12,7 @@ class CodeBlock extends React.Component {
         super(props);
 
         this.state = {
-            output: "html",
+            output: (this.props.defaultOutput === undefined || this.props.defaultOutput === "html") ? "html" : "react",
             copied: "COPY CODE"
         }
 
@@ -34,40 +35,40 @@ class CodeBlock extends React.Component {
 
     render() {
         return (
-            <div className="codeblock row" style={ {"background-color": "white"} }>
-                <div className="col-md-9">
+            <Row className="codeblock" style={ {"background-color": "white"} }>
+                <Col md="9">
                     <ButtonGroup className="float-left">
                         <Button 
                             onClick={ () => this.changeOutput("html") } 
-                            style={ {"background-color": "white"} }
+                            style={ (this.state.output === "html") ? {"background-color": "white", "border-bottom-color": "#5DC1BE"} :  {"background-color": "white"} }
                             color="default"
                         >
                             HTML
                         </Button>
                         <Button 
                             onClick={ () => this.changeOutput("react") } 
-                            style={ {"background-color": "white"} }
+                            style={ (!(this.state.output === "html")) ? {"background-color": "white", "border-bottom-color": "#5DC1BE"} :  {"background-color": "white"} }
                             color="default"
                         >
                             REACT
                         </Button>
                     </ButtonGroup>
-                </div>
-                <div className="col-md-3">
+                </Col>
+                <Col md="3">
                     <CopyToClipboard text={ (this.state.output === "html") ? this.props.html : this.props.react }>
                         <Button onClick={ this.copy } style={ {"background-color": "white", "color": "black"} } className="float-right">
                             { this.state.copied }
                         </Button>
                     </CopyToClipboard>
-                </div>
-                <div className="col-md-12">
+                </Col>
+                <Col md="12">
                     <pre>
                         <PrismCode className={ (this.state.output === "html") ? "language-html" : "language-jsx" }>
                             {(this.state.output === "html") ? this.props.html : this.props.react }
                         </PrismCode>
                     </pre>
-                </div>
-            </div>
+                </Col>
+            </Row>
         );
     }
 }
