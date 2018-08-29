@@ -22,7 +22,7 @@ class CodeBlock extends React.Component {
     }
 
     copy() {
-        this.setState({copied: this.props.t("Copied!")});
+        this.setState({copied: "Copied!"});
     }
 
     changeOutput(value) {
