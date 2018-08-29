@@ -6,6 +6,7 @@ import 'prismjs/themes/prism.css';
 import './CodeBlock.css';
 import { PrismCode } from 'react-prism';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
+import PropTypes from 'prop-types';
 
 class CodeBlock extends React.Component {
     constructor(props) {
@@ -72,5 +73,11 @@ class CodeBlock extends React.Component {
         );
     }
 }
+
+CodeBlock.propTypes = {
+    output: PropTypes.string,
+    html: PropTypes.string,
+    react: PropTypes.string
+};
 
 export default CodeBlock;
