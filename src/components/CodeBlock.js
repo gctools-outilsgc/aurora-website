@@ -3,10 +3,10 @@ import { Button, ButtonGroup, Row, Col } from 'reactstrap';
 import 'prismjs';
 import 'prismjs/components/prism-jsx';
 import 'prismjs/themes/prism.css';
-import './CodeBlock.css';
 import { PrismCode } from 'react-prism';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import PropTypes from 'prop-types';
+import { translate } from "react-i18next";
 
 class CodeBlock extends React.Component {
     constructor(props) {
@@ -22,13 +22,13 @@ class CodeBlock extends React.Component {
     }
 
     copy() {
-        this.setState({copied: "Copied!"});
+        this.setState({copied: this.props.t("Copied!")});
     }
 
     changeOutput(value) {
         if (this.state.output !== value) {
             this.setState({output: value});
-            if ( this.state.copied === "Copied!" ) {
+            if ( this.state.copied === "Copied!") {
                 this.setState({copied: "COPY CODE"});
             }
         }
@@ -58,7 +58,7 @@ class CodeBlock extends React.Component {
                 <Col md="3">
                     <CopyToClipboard text={ (this.state.output === "html") ? this.props.html : this.props.react }>
                         <Button onClick={ this.copy } style={ {"background-color": "white", "color": "black"} } className="float-right">
-                            { this.state.copied }
+                            { this.props.t(this.state.copied) }
                         </Button>
                     </CopyToClipboard>
                 </Col>
@@ -75,9 +75,9 @@ class CodeBlock extends React.Component {
 }
 
 CodeBlock.propTypes = {
-    output: PropTypes.string,
+    defaultOutput: PropTypes.string,
     html: PropTypes.string,
     react: PropTypes.string
 };
 
-export default CodeBlock;
+export default translate("CodeBlock")(CodeBlock);
