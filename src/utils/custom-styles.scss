@@ -369,6 +369,16 @@ a.dropdown-item {
     }
 
     body { 
-        padding-top: 120px; 
+        padding-top: 110px; 
+    }
+
+    .nav-site {
+        .nav-link {
+            padding: 8px 16px;
+            
+        }
+        .nav-link.active {
+            background-color: transparent !important;
+        }
     }
     

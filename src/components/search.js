@@ -24,9 +24,13 @@ export default class Search extends Component {
         return (
             <div className="search-form search-form-round" style={{width:'300px'}}>
                 <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+                    <label for="search" className="sr-only">
+                        {this.props.placeholder}
+                    </label>
                     <DropdownToggle
                         tag={Input}
                         type="text"
+                        id="search"
                         value={this.state.query}
                         onChange={this.search}
                         placeholder={this.props.placeholder}

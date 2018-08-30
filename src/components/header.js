@@ -31,7 +31,7 @@ const Header = ({ siteTitle, t, i18n }) => (
     </div>
   </div>
   <div>
-    <Navbar light color="white" expand>
+    <Navbar color="white" expand style={{paddingBottom:'0'}}>
       <Link to="/#!" className="text-dark">
         <img src={logo} alt="Logo" className="float-left" style={{width:'30px', margin:'5px'}} />
         <span className="h2 d-none d-md-block float-left">
@@ -40,7 +40,7 @@ const Header = ({ siteTitle, t, i18n }) => (
         </span>
       </Link>
       <div className="navbar-collapse">
-        <Nav navbar className="mx-auto">
+        <Nav tabs className="mx-auto nav-site" style={{borderBottom:'none'}}>
           <NavItem>
             <Link to="/overview/whats-new" className="nav-link">
               {t("Overview")}
@@ -52,7 +52,7 @@ const Header = ({ siteTitle, t, i18n }) => (
             </Link>
           </NavItem>
           <NavItem>
-            <Link to="/component/badges" className="nav-link">
+            <Link to="/component/badges" className="nav-link active">
               {t("Component")}
             </Link>
           </NavItem>
