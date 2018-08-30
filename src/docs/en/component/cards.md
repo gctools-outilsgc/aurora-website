@@ -23,7 +23,7 @@ If multiple cards are placed on a page, they should be placed 16px apart on all 
         <cardbody>
         <cardtitle>Example Card</cardtitle>
         <hr />
-        <img src="https://yt3.ggpht.com/a-/ACSszfEbdtkOd9P1y-uljH_k64qzPPSdMvymt3mkmQ=s900-mo-c-c0xffffffff-rj-k-no" style="width: 150px; margin-bottom: 15px;" />
+        <img src="https://yt3.ggpht.com/a-/ACSszfEbdtkOd9P1y-uljH_k64qzPPSdMvymt3mkmQ=s900-mo-c-c0xffffffff-rj-k-no" style="width: 150px; margin-bottom: 15px;" alt="GCTools logo"/>
         <button outline className="col text-center" style="maxWidth: 300px;" block>Button in a card</button>
         </cardbody>
     </card>
@@ -70,7 +70,7 @@ Image cards use the basic card template but include an image above the header.
         <cardbody>
         <cardtitle>Example Image</cardtitle>
         <hr />
-        <img src="https://yt3.ggpht.com/a-/ACSszfEbdtkOd9P1y-uljH_k64qzPPSdMvymt3mkmQ=s900-mo-c-c0xffffffff-rj-k-no" style="width: 150px; margin-bottom: 15px;" />
+        <img src="https://yt3.ggpht.com/a-/ACSszfEbdtkOd9P1y-uljH_k64qzPPSdMvymt3mkmQ=s900-mo-c-c0xffffffff-rj-k-no" style="width: 150px; margin-bottom: 15px;" alt="GCTools logo" />
         <cardtext>This card contains an image</cardtext>
         </cardbody>
     </card>
@@ -123,7 +123,7 @@ Cards can technically include any number of component combinations. Using the ba
         <cardbody>
         <cardtitle>Complex Card 2</cardtitle>
         <hr />
-        <img src="https://yt3.ggpht.com/a-/ACSszfEbdtkOd9P1y-uljH_k64qzPPSdMvymt3mkmQ=s900-mo-c-c0xffffffff-rj-k-no" style="width: 150px; margin-bottom: 15px;" />
+        <img src="https://yt3.ggpht.com/a-/ACSszfEbdtkOd9P1y-uljH_k64qzPPSdMvymt3mkmQ=s900-mo-c-c0xffffffff-rj-k-no" style="width: 150px; margin-bottom: 15px;" alt="GCTools logo"/>
         <button outline className="col text-center" style="maxWidth: 300px;" block>Log in</button>
         </cardbody>
     </card>
