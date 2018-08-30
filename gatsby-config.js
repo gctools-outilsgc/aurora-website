@@ -6,6 +6,15 @@ module.exports = {
     defaultLangKey: 'en'
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Rubik\:400,500`,
+          `Nunito sans\:300,400,600,700` // you can also specify font weights and styles
+        ]
+      }
+    },
 
     'gatsby-plugin-react-helmet',
     `gatsby-transformer-sharp`,
