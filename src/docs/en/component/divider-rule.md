@@ -6,6 +6,7 @@ title: "Divider/Rule"
 ---
 
 # Divider/Rule
+<hr />
 
 Dividers are used to separate content on a page, and are used primarily to break up long pages of text, or to separate titles from other content.
 

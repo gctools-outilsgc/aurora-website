@@ -6,6 +6,7 @@ title: "Grids and Spacing"
 ---
 
 # Grids and Spacing
+<hr />
 
 This design system uses the same grid framework as the [Web Experience Toolkit](http://wet-boew.github.io/wet-boew-styleguide/v4/design/grids-en.html), which was based on the [Bootstrap framework](https://getbootstrap.com/docs/4.0/layout/grid/#grid-options) to create page layouts. These systems include responsive grids, including sizes for mobile, tablets and desktops, and is built using flexboxes and containers.
 
@@ -27,7 +28,7 @@ If the size of columns are not defined, they will automatically be set to equal 
         <mdcol><button color="secondary" style="width: 100%">Col 3</button></mdcol>
         <mdcol><button color="secondary" style="width: 100%">Col 4</button></mdcol>
     </row>
-</container>
+</container> 
 
 
 ### Unequal-width

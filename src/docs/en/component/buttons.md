@@ -6,8 +6,20 @@ title: "Buttons"
 ---
 
 # Buttons
+<hr />
 
-<button color="primary">Primary</button> <button color="secondary">Secondary</button> <button color="success">Success</button> <button color="Danger">Danger</button><button color="warning">Warning</button> <button color="info">Info</button> <button color="light">Light</button> <button color="dark">Dark</button>
+<container style="width: 100%; margin-bottom: 20px">
+    <row>
+        <mdcol> <button color="primary">Primary</button> </mdcol>
+        <mdcol> <button color="secondary">Secondary</button> </mdcol>
+        <mdcol> <button color="success">Success</button> </mdcol>
+        <mdcol> <button color="Danger">Danger</button> </mdcol>
+        <mdcol> <button color="warning">Warning</button> </mdcol>
+        <mdcol> <button color="info">Info</button> </mdcol>
+        <mdcol> <button color="light">Light</button> </mdcol>
+        <mdcol> <button color="dark">Dark</button> </mdcol>
+    </row>
+</container>
 
 ## Best Practices
 

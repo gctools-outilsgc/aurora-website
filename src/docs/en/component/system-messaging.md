@@ -6,6 +6,7 @@ title: "System messaging"
 ---
 
 # System Messaging
+<hr />
 
 System notifications are short messages that appear to communicate information to the user. Notifications appear as pop-up banners which need to be dismissed or timed-out. There are four levels of severity which can be applied to the notifications: error, warning, information and success.
 
@@ -89,7 +90,9 @@ Notifications are **62px by 425px**. The text has a **15px** padding on the top 
 
 The notification messages should straightforward and as short as possible, and use key words. Long messages can be unclear and may affect the sizing and readability of the message.
 
-Example of a clear notification: Your profile picture has been changed successfully.
+<alert color="success">
+    Your profile picture has been successfully changed
+</alert>
 
 #### Timing-out
 

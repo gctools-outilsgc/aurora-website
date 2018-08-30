@@ -6,6 +6,7 @@ title: "Cards"
 ---
 
 # Cards
+<hr />
 
 Cards are containers used to organize high-level content. Using cards can make your web product more appealing and navigable. Cards will typically have a background colour of #FFFFF, which separates them from the overall background colour of the page (#FAFAFA).
 
@@ -21,6 +22,7 @@ If multiple cards are placed on a page, they should be placed 16px apart on all 
     <card className="col text-center" style="maxWidth: 300px; margin: 0 auto;">
         <cardbody>
         <cardtitle>Example Card</cardtitle>
+        <hr />
         <img src="https://yt3.ggpht.com/a-/ACSszfEbdtkOd9P1y-uljH_k64qzPPSdMvymt3mkmQ=s900-mo-c-c0xffffffff-rj-k-no" style="width: 150px; margin-bottom: 15px;" />
         <button outline className="col text-center" style="maxWidth: 300px;" block>Button in a card</button>
         </cardbody>
@@ -48,6 +50,7 @@ Basic cards can be used as containers for any type of information are are sized 
     <card className="col text-center" style="maxWidth: 300px; margin: 0 auto;">
         <cardbody>
         <cardtitle>Example Title</cardtitle>
+        <hr />
         <cardtext>Contents of the card</cardtext>
         </cardbody>
     </card>
@@ -66,6 +69,7 @@ Image cards use the basic card template but include an image above the header.
     <card className="col text-center" style="maxWidth: 300px; margin: 0 auto;">
         <cardbody>
         <cardtitle>Example Image</cardtitle>
+        <hr />
         <img src="https://yt3.ggpht.com/a-/ACSszfEbdtkOd9P1y-uljH_k64qzPPSdMvymt3mkmQ=s900-mo-c-c0xffffffff-rj-k-no" style="width: 150px; margin-bottom: 15px;" />
         <cardtext>This card contains an image</cardtext>
         </cardbody>
@@ -86,6 +90,7 @@ Actionable cards use the basic card template, but include additional components 
     <card className="col text-center" style="maxWidth: 300px; margin: 0 auto;">
         <cardbody>
         <cardtitle>Example Actionable Card</cardtitle>
+        <hr />
         <cardtext>This card contains a button</cardtext>
         <button outline className="col text-center" style="maxWidth: 300px;" block>Button in a card</button>
         </cardbody>
@@ -107,6 +112,7 @@ Cards can technically include any number of component combinations. Using the ba
     <card className="col text-center" style="maxWidth: 300px; margin: 0 auto;">
         <cardbody>
         <cardtitle>Complex Card 1</cardtitle>
+        <hr />
         <cardtext>This card contains multiple types of buttons</cardtext>
         <button color="secondary" className="col text-center" style="maxWidth: 300px;" block>Do something</button>
         <button outline="true" color="primary" className="col text-center" style="maxWidth: 300px; margin-top: 10px" block>Do something else</button>
@@ -116,6 +122,7 @@ Cards can technically include any number of component combinations. Using the ba
     <card className="col text-center" style="maxWidth: 300px; margin: 0 auto;">
         <cardbody>
         <cardtitle>Complex Card 2</cardtitle>
+        <hr />
         <img src="https://yt3.ggpht.com/a-/ACSszfEbdtkOd9P1y-uljH_k64qzPPSdMvymt3mkmQ=s900-mo-c-c0xffffffff-rj-k-no" style="width: 150px; margin-bottom: 15px;" />
         <button outline className="col text-center" style="maxWidth: 300px;" block>Log in</button>
         </cardbody>
@@ -123,6 +130,7 @@ Cards can technically include any number of component combinations. Using the ba
     <card className="col text-left" style="maxWidth: 300px; margin: 0 auto;">
         <cardbody>
         <cardtitle>Complex Card 3</cardtitle>
+        <hr />
         <cardtext>This card's text is on the left rather than centered</cardtext>
         <cardtext>
             <small className="text-muted">August 29th, 2018</small>

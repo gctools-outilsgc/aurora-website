@@ -6,6 +6,7 @@ title: "Colour"
 ---
 
 # Colour
+<hr />
 
 ### Palettes
 
