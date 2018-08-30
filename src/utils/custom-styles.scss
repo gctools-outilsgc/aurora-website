@@ -362,14 +362,13 @@ a.dropdown-item {
       border-top: none;
   }
 
-    //Temp site style
+  body { 
+    padding-top: 110px; 
+    font-family: 'Rubik', sans-serif;
+  }
 
     .LanguageSwitcher__button--selected {
         display:none;
-    }
-
-    body { 
-        padding-top: 110px; 
     }
 
     .nav-site {
@@ -382,3 +381,39 @@ a.dropdown-item {
         }
     }
     
+/* ADDED FOR DS*/
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.highlight {
+    color: #467B8D;
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: none;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.btn {
+    font-weight: 600!important;
+    font-family: 'Nunito', sans-serif;
+}
+
+.ext-links div {
+    display: inline;
+}
+
+a.ext-link-text {
+    display: inline;
+    padding-left: 10px;
+    font-size: 20px;
+    color: white;
+    vertical-align: middle;
+    font-family: 'Nunito', sans-serif;
+}

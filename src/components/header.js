@@ -7,7 +7,7 @@ import {
   NavItem,
   NavLink
 } from 'reactstrap';
-import Search from './search'
+import Search from './search';
 import LanguageSwitch from './languageSwitch';
 import { translate } from "react-i18next";
 import fip from "../img/sig-alt-en.png";
@@ -62,7 +62,7 @@ const Header = ({ siteTitle, t, i18n }) => (
             </Link>
           </NavItem>
           <NavItem>
-            <Link to="/data/data-overview" className="nav-link">
+            <Link to="/content/data/data-overview" className="nav-link">
               {t("Data")}
             </Link>
           </NavItem>

@@ -11,6 +11,7 @@
     "parser": "babel-eslint",
     "rules": {
       "react/jsx-filename-extension": 0,
+      "linebreak-style": ["error", "windows"],
       "react/no-typos": 0,
       "max-len": [2, 79, 2],
       "no-underscore-dangle": 0,
