@@ -23,7 +23,7 @@ class LanguageSwitcher extends Component {
         <Button
           className="languageSwitcherButton"
           onClick={this.handleChangeLanguage}
-          size="lg"
+          size="md"
           style={ {"font-weight": "550"} }
         >
         {this.state.isEnglish ? 'FR' : 'EN'}
