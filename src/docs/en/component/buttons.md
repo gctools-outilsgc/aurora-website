@@ -6,8 +6,20 @@ title: "Buttons"
 ---
 
 # Buttons
+<hr />
 
-![Image of all button varieties](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/buttons.png)
+<container style="width: 100%; margin-bottom: 20px">
+    <row>
+        <mdcol> <button color="primary">Primary</button> </mdcol>
+        <mdcol> <button color="secondary">Secondary</button> </mdcol>
+        <mdcol> <button color="success">Success</button> </mdcol>
+        <mdcol> <button color="Danger">Danger</button> </mdcol>
+        <mdcol> <button color="warning">Warning</button> </mdcol>
+        <mdcol> <button color="info">Info</button> </mdcol>
+        <mdcol> <button color="light">Light</button> </mdcol>
+        <mdcol> <button color="dark">Dark</button> </mdcol>
+    </row>
+</container>
 
 ## Best Practices
 
@@ -57,7 +69,7 @@ Primary buttons use the primary colour, with white text. Sizing of the button de
 
 Each of the states for primary buttons are as follows:
 
-*Regular button component here*
+<button color="primary">Primary</button> 
 
 **Regular state:** primary colour at 100% opacity, white text, with a border radius of 4px and padding of 15px.
 
@@ -71,7 +83,7 @@ Each of the states for primary buttons are as follows:
 
 **Active state:** _**\(to complete\)**_
 
-*Disabled button component here*
+<button color="primary" disabled>Primary</button> 
 
 **Disabled state:** primary colour at 60% opacity, white text, with a border radius of 4px and padding of 15px.
 
@@ -91,7 +103,7 @@ Secondary buttons in this system are transparent with a stroke colour. Text chan
 
 Each of the states for secondary buttons are as follows:
 
-*Regular secondary button component*
+<button color="secondary">Secondary</button> 
 
 **Regular state:** transparent with a 1px stroke using the  colour \#002D42, the text is written in the same colour. Border radius of 4px and padding of 15px.
 
@@ -103,7 +115,7 @@ Each of the states for secondary buttons are as follows:
 
 **Focus state:** transparent with a 3px stroke using \#002D42, the text is displayed in \#002D42. Border radius of 4px and padding of 15px.
 
-*Disabled secondary button component*
+<button color="secondary" disabled>Secondary</button> 
 
 **Disabled state:** Fill colour of \#CECECE, with white text. Border radius of 4px and padding of 15px.
 
