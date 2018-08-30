@@ -25,9 +25,43 @@ Secondary button on the left with the copy "Prev." With numbers in the middle an
 
 The numbers are displayed with Nunito Sans Bold at 14px. Each number has padding of 10px.
 
-The active page number is shown in a rectangle with a padding of 10px, with a border radius of 4px. The box is displayed using the same colour as primary buttons #002D42, and the number uses white text.
+The active page number is shown in a rectangle with a padding of 10px, with a border radius of 4px. The box is displayed using the same colour as primary buttons <badge style="background-color: #002D42">#002D42</badge>, and the number uses white text.
 
-*Pagination component*
+<pagination aria-label="Page navigation example">
+    <paginationitem>
+        <paginationlink previous="true" href="#">
+        <<
+        </paginationlink>
+    </paginationitem>
+    <paginationitem>
+        <paginationlink href="#">
+        1
+        </paginationlink>
+    </paginationitem>
+    <paginationitem>
+        <paginationlink href="#">
+        2
+        </paginationlink>
+    </paginationitem>
+    <paginationitem>
+        <paginationlink href="#">
+        3
+        </paginationlink>
+    </paginationitem>
+    <paginationitem>
+        <paginationlink href="#">
+        4
+        </paginationlink>
+    </paginationitem>
+    <paginationitem>
+        <paginationlink href="#">
+        5
+        </paginationlink>
+    </paginationitem>
+    <paginationitem>
+          <paginationlink next="true" href="#" />
+    </paginationitem>
+</pagination>
 
 ### Best Practices
 
