@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ButtonGroup, Row, Col, Label } from 'reactstrap';
+import { Button, Row, Label, Container } from 'reactstrap';
 import PropTypes from 'prop-types';
 import { translate } from "react-i18next";
 import CodeBlock from './CodeBlock';
@@ -67,6 +67,7 @@ class ToggleCodeBlock extends CodeBlock {
      */
     render() {
         return (
+          <Container>
             <Row>
                 { (!this.state.isShowingCode) ? this.returnButton() : <div></div> }
                 <CodeBlock 
@@ -77,6 +78,7 @@ class ToggleCodeBlock extends CodeBlock {
                 />
                 { (this.state.isShowingCode) ? this.returnButton() : <div></div> }
             </Row>
+          </Container>
         );
     }
 }
