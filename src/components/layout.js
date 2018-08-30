@@ -6,6 +6,7 @@ import Header from './header';
 import '../utils/custom.scss';
 import { Container } from 'reactstrap';
 import '../components/i18n';
+import './layout.scss';
 
 const Layout = ({ children }) => (
 
@@ -29,7 +30,7 @@ const Layout = ({ children }) => (
           ]}
         />
         <Header siteTitle={data.site.siteMetadata.title}/>
-        <Container fluid>{children}</Container>
+        <w-screen mt-4 fluid id = "container">{children}</w-screen>
       </>
     )}
   />

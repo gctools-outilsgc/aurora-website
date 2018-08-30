@@ -29,8 +29,8 @@ The active page number is shown in a rectangle with a padding of 10px, with a bo
 
 <pagination aria-label="Page navigation example">
     <paginationitem>
-        <paginationlink previous="true" href="#">
-        <<
+        <paginationlink href="#">
+        << <!-- previous="true" doesn't work, this needs a solution  -->
         </paginationlink>
     </paginationitem>
     <paginationitem>
@@ -59,7 +59,9 @@ The active page number is shown in a rectangle with a padding of 10px, with a bo
         </paginationlink>
     </paginationitem>
     <paginationitem>
-          <paginationlink next="true" href="#" />
+        <paginationlink href="#">
+        >>
+        </paginationlink>
     </paginationitem>
 </pagination>
 

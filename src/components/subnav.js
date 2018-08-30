@@ -6,6 +6,7 @@ import {
 	ListGroupItem
 } from 'reactstrap';
 import { translate } from "react-i18next";
+import './subnav.scss'
 
 class Subnav extends React.Component {
 	constructor(props) {
@@ -35,7 +36,7 @@ class Subnav extends React.Component {
 			;
 		return (
 			<ListGroup>
-				<ListGroupItem onClick={this.toggle} className="dropdown-toggle" style={{"border": "0px"}}>
+				<ListGroupItem onClick={this.toggle} className="dropdown-toggle" style={{"border": "0px", "font-size":"1.3125em", "font-family": "'Nunito Sans', sans-serif", "margin-top": "5px", "margin-bottom": "5px", "font-weight": "600"}} id='listGroupItem'>
 					{(i18n.language === "en") ? nameEn : nameFr}
 				</ListGroupItem>
 				<Collapse isOpen={this.state.dropdownOpen}>
@@ -45,11 +46,13 @@ class Subnav extends React.Component {
 							((i18n.language === "fr") && (edges.node.frontmatter.lang === "fr"))
 						)
 							return (
-								<ListGroupItem active={path === edges.node.frontmatter.path} style={{ "padding-left": "2rem",  "border": "0px" }}>
+								<ListGroupItem id='listGroupItem' active={path === edges.node.frontmatter.path} style={{ "padding-left": "2rem",  "border": "0px"}}>
 									<Link
+										id="link"
 										to={edges.node.frontmatter.path}
 										activeStyle={{
 											color: "white",
+											backgroundColor: "#467B8D"
 										}}
 									>
 										{edges.node.frontmatter.title}

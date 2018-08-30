@@ -9,21 +9,106 @@ title: "Buttons"
 <hr />
 
 <container style="width: 100%; margin-bottom: 20px">
-    <row>
-        <mdcol> <button color="primary">Primary</button> </mdcol>
-        <mdcol> <button color="secondary">Secondary</button> </mdcol>
-        <mdcol> <button color="success">Success</button> </mdcol>
-        <mdcol> <button color="Danger">Danger</button> </mdcol>
-        <mdcol> <button color="warning">Warning</button> </mdcol>
-        <mdcol> <button color="info">Info</button> </mdcol>
-        <mdcol> <button color="light">Light</button> </mdcol>
-        <mdcol> <button color="dark">Dark</button> </mdcol>
-    </row>
+    <mdcol>
+        <row>
+            <mdcol className="col-4"><h5>Buttons</h5> </mdcol>
+            <mdcol className="col-4"><h5>Full width Buttons</h5> </mdcol>
+            <mdcol className="col-4"><h5>Button Groups</h5> </mdcol>
+        </row>
+        <row>
+            <mdcol className="col-1"> <button color="primary">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button color="secondary" outline="true">Secondary</button> </mdcol>
+            <mdcol className="col-2"></mdcol>
+            <mdcol className="col-4"> <button color="primary" block="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> 
+                <buttongroup>
+                    <button color="primary">Left</button>
+                    <button color="primary">Middle</button>
+                    <button color="primary">Right</button>
+                </buttongroup>
+            </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-1"> <button color="primary" active="true">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button color="secondary" outline="true" active="true">Secondary</button> </mdcol>
+            <mdcol className="col-2"></mdcol>
+            <mdcol className="col-4"> <button color="primary" block="true" active="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> 
+                <buttongroup>
+                    <button color="secondary">Left</button>
+                    <button color="primary">Middle</button>
+                    <button color="primary">Right</button>
+                </buttongroup>
+            </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-1"> <button color="primary" disabled="true">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button color="secondary" outline="true" disabled="true">Secondary</button> </mdcol>
+            <mdcol className="col-2"></mdcol>
+            <mdcol className="col-4"> <button color="primary" block="true" disabled="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> 
+                <buttongroup>
+                    <button color="primary">Left</button>
+                    <button color="secondary">Middle</button>
+                    <button color="primary">Right</button>
+                </buttongroup>
+            </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-1"> <button size="sm" color="primary">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button size="sm" color="primary">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> <button color="primary" block="true" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> 
+                <buttongroup>
+                    <button color="primary">Left</button>
+                    <button color="primary">Middle</button>
+                    <button color="secondary">Right</button>
+                </buttongroup>
+            </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-1"> <button size="sm" color="primary" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button size="sm" color="primary" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> <button color="primary" block="true" active="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> 
+                <buttongroup>
+                    <button color="primary" disabled="true">Left</button>
+                    <button color="primary">Middle</button>
+                    <button color="primary" disabled="true">Right</button>
+                </buttongroup>
+            </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-4"></mdcol>
+            <mdcol className="col-4"> <button color="primary" block="true" disabled="true" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> 
+                <buttongroup>
+                    <button color="primary">Left</button>
+                    <button color="primary" disabled="true">Middle</button>
+                    <button color="primary">Right</button>
+                </buttongroup>
+            </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-4"><h5>Dropdown Buttons</h5> </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-1"><mdbuttondropdown color="primary"></mdbuttondropdown></mdcol>
+            <mdcol className="col-1"><mdbuttondropdown color="secondary"></mdbuttondropdown></mdcol>
+            <mdcol className="col-1"><mdbuttondropdown color="primary" disabled="true"></mdbuttondropdown></mdcol>
+            <mdcol className="col-1"><mdbuttondropdown color="secondary" disabled="true"></mdbuttondropdown></mdcol>
+        </row> 
+    </mdcol>
 </container>
 
 ## Best Practices
 
 Buttons tend to have visual prominence on any given page or window. Primary buttons, buttons that indicate a call to action, are the most prominent. Secondary buttons, which indicate less commonly used actions, should be less prominent than primary buttons. Buttons always indicate an action and are not to be used for navigation. Buttons are placed where a user should expect them, i.e. in close proximity to the other elements that the action affects.
+
 
 ## Size and Padding
 
@@ -127,7 +212,9 @@ Secondary buttons are usually in close proximity to the primary button, but not 
 
 Drop down buttons display a list of items when clicked. They are used for two-step processes that may require more specific options for a singular action.
 
-*Regular drop down button component*
+<mdbuttondropdown color="primary">
+</mdbuttondropdown>
+
 
 **Regular State:** Similar to the primary button, drop-down buttons use the primary colour at 100% opacity, white text, with a border radius of 4px and padding of 15px. The drop-down arrow represents a space of 30px by 40px, which is separated from the primary button using a white line. The arrow uses a space of 15px width and 8px in height.
 
@@ -149,7 +236,11 @@ Button groups, are a stylized way of putting multiple buttons together.
 
 Primary actions are aligned to the left, while secondary actions are placed in the middle, and warning or destructive actions are aligned to the right.
 
-*Button groups component*
+<buttongroup style="margin-bottom: 15px">
+    <button color="primary">Left</button>
+    <button color="secondary">Middle</button>
+    <button color="warning">Right</button>
+</buttongroup>
 
 ## Icon Buttons
 

@@ -19,7 +19,7 @@ When used on cards, dividers are placed underneath the card heading.
         <cardbody>
         <cardtitle>Example Image</cardtitle>
         <hr />
-        <img src="https://yt3.ggpht.com/a-/ACSszfEbdtkOd9P1y-uljH_k64qzPPSdMvymt3mkmQ=s900-mo-c-c0xffffffff-rj-k-no" style="width: 150px; margin-bottom: 15px;" />
+        <img src="https://yt3.ggpht.com/a-/ACSszfEbdtkOd9P1y-uljH_k64qzPPSdMvymt3mkmQ=s900-mo-c-c0xffffffff-rj-k-no" style="width: 150px; margin-bottom: 15px;" alt="GCTools logo"/>
         <cardtext>This card contains an image</cardtext>
         </cardbody>
     </card>
