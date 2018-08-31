@@ -7,6 +7,7 @@ import {
     Input,
     ListGroupItem
 } from 'reactstrap';
+import "./search.scss"
 
 // Search component
 export default class Search extends Component {

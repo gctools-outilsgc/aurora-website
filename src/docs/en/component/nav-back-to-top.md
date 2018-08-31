@@ -15,14 +15,14 @@ This button should always be labelled _Back to top_ since this is the most descr
 
 Back to top buttons in this design system are styled as follows:
 
-*Back to top component*
+<button color="primary">Back to top</button>
 
-White circle with a radius of 43px. Border is 1px \#CECECE. Drop shadow of \#000000 20% opacity, 0 offset for x, 2px offset for y, **2px** blur.
+White circle with a radius of 43px. Border is 1px <badge style="background-color: #CECECE">#CECECE</badge>. Drop shadow of <badge style="background-color: #000000">#000000</badge> 20% opacity, 0 offset for x, 2px offset for y, **2px** blur.
 
-There is an arrow icon centred in the circle \(_Arrow up_ from Font Awesome\). The arrow is coloured \#666666
+There is an arrow icon centred in the circle \(_Arrow up_ from Font Awesome\). The arrow is coloured <badge style="background-color: #666666">#666666</badge>.
 
 *Back to top-web component*
 
-The text Back to top is styled using button text \(Nunito Sans Bold, 14px\), with the colour \#666666.
+The text Back to top is styled using button text \(Nunito Sans Bold, 14px\), with the colour <badge style="background-color: #666666">#666666</badge>.
 
-The text has a 9px by 15px padding with a 1px border colours \#CECECE and a border radius of 16px. The arrow icon is aligned to the left of the text.
+The text has a 9px by 15px padding with a 1px border colours <badge style="background-color: #CECECE">#CECECE</badge> and a border radius of 16px. The arrow icon is aligned to the left of the text.
