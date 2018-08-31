@@ -62,7 +62,7 @@ const Header = ({ siteTitle, t, i18n }) => (
             </Link>
           </NavItem>
           <NavItem>
-            <Link to="/content/data/data-overview" className="nav-link">
+            <Link to="/data/data-overview" className="nav-link">
               {t("Data")}
             </Link>
           </NavItem>
