@@ -1,3 +1,10 @@
+---
+path: "/overview/whats-new"
+subnav: "1/About/À notre sujet/2"
+lang: "fr"
+title: "Nouveautés"
+---
+
 # Nouveautés
 
 Dernières mises à jour au système de conception \#numériqueGC.
