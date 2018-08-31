@@ -1,5 +1,5 @@
 ---
-path: "/data/stylized numbers"
+path: "/data/stylized-numbers"
 subnav: "1/Data/Données/7"
 lang: "en"
 title: "Stylized numbers"
