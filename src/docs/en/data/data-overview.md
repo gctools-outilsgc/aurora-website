@@ -21,7 +21,7 @@ Visuals should only enhance the data, and should never distract. Best practices 
 
 If one graph is too complex to represent a certain dataset, the data should be represented in multiple, simple graphs.
 
-\(Include do and don't image\)
+![Do and don't image representing data simplicity](https://github.com/gctools-outilsgc/design-system-code/blob/documentation/src/img/examples/Simplicity.png)
 
 ### Multiple Formats
 
@@ -46,6 +46,8 @@ Qualitative data values should be labelled in a logical way, such as consecutive
 In some visualizations with many axis points, skipping labels is an effective way to reduce visual clutter. Axis ticks should be separated with sufficient space to clearly read each label. Intervals between labels should always be consistent.
 
 On the x-axis, value labels should be centered to their corresponding tick mark. For y-axis labels, they should be left-aligned and kept above the y-axis lines. Long text labels should be rotated 45 degrees around an origin directly below their corresponding axis tick.
+
+![Do and don't image representing data increments](https://github.com/gctools-outilsgc/design-system-code/blob/documentation/src/img/examples/Data%20Increments.png)
 
 ### Data Formats and Abbreviations
 
