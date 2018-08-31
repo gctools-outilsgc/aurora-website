@@ -27,6 +27,8 @@ If one graph is too complex to represent a certain dataset, the data should be r
 
 When you use data visualizations, it is recommended to represent the data in multiple formats where possible. Regardless of the type of visualization you use, a simple data table, or other ways of viewing the raw data, should be available somewhere on the page. This allows users to view and analyze the data in a way that makes the most sense to them, as well as easily identify individual data points.
 
+![Do and don't image representing using multiple formats for data](https://github.com/gctools-outilsgc/design-system-code/blob/documentation/src/img/examples/Multiple%20Formats.png)
+
 ## Labels
 
 ### Graph Titles
