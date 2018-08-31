@@ -1,18 +1,22 @@
 import React, { Component } from "react";
-import { translate } from "react-i18next";
+import { I18n } from "react-i18next";
 
 class PageHeader extends Component {
   render() {
-    const { t, i18n } = this.props;
-
     return (
-      <div className="PageHeader">
-        <h2>{t("heading")}</h2>
-        <p>{t("description")}</p>
-        {i18n.language}
-      </div>
+      <I18n ns={ ["PageHeader"] }>
+        {
+          (t, { i18n }) => (
+            <div className="PageHeader">
+              <h2>{t("heading")}</h2>
+              <p>{t("description")}</p>
+              {i18n.language}
+            </div>
+          )
+        }
+      </I18n>
     );
   }
 }
 
-export default translate("PageHeader")(PageHeader);
+export default PageHeader;

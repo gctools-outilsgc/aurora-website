@@ -9,15 +9,53 @@ import {
 } from 'reactstrap';
 
 // Search component
-export default class Search extends Component {
+class Search extends Component {
     constructor(props) {
         super(props)
         this.toggle = this.toggle.bind(this);
+        this.getSearchResults = this.getSearchResults.bind(this);
+        this.search = this.search.bind(this);
         this.state = {
             query: ``,
             results: [],
             dropdownOpen: false,
         }
+    }
+
+    toggle() {
+      this.setState(prevState => ({
+          dropdownOpen: !prevState.dropdownOpen
+      }));
+    }
+
+    getSearchResults(query) {
+        if (!query || !window.__LUNR__) return [];
+        this.setState({
+            dropdownOpen: true,
+        })
+        const lunrIndex = window.__LUNR__[this.props.lng];
+        /* const results = lunrIndex.index.query(function () { // you can  customize your search , see https://lunrjs.com/guides/searching.html
+
+            // look for an exact match and apply a large positive boost
+            this.term(query);
+
+            // look for terms that match the beginning of this queryTerm and apply a medium boost
+            this.term(query + "*");
+
+            // look for terms that match with an edit distance of 2 and apply a small boost
+            this.term(query + "~2");
+        }); */
+        const results = lunrIndex.index.search(`${query}^100 ${query}*^10 ${query}~2`);
+        return results.map(({ ref }) => lunrIndex.store[ref]);
+    }
+
+    search = event => {
+        const query = event.target.value;
+        const results = this.getSearchResults(query);
+        this.setState({
+            results: results.slice(0, 5),
+            query,
+        })
     }
 
     render() {
@@ -54,40 +92,6 @@ export default class Search extends Component {
         )
     }
 
-
-    toggle() {
-        this.setState(prevState => ({
-            dropdownOpen: !prevState.dropdownOpen
-        }));
-    }
-
-    getSearchResults(query) {
-        if (!query || !window.__LUNR__) return [];
-        this.setState({
-            dropdownOpen: true,
-        })
-        const lunrIndex = window.__LUNR__[this.props.lng];
-        /* const results = lunrIndex.index.query(function () { // you can  customize your search , see https://lunrjs.com/guides/searching.html
-
-            // look for an exact match and apply a large positive boost
-            this.term(query);
-
-            // look for terms that match the beginning of this queryTerm and apply a medium boost
-            this.term(query + "*");
-
-            // look for terms that match with an edit distance of 2 and apply a small boost
-            this.term(query + "~2");
-        }); */
-        const results = lunrIndex.index.search(`${query}^100 ${query}*^10 ${query}~2`);
-        return results.map(({ ref }) => lunrIndex.store[ref]);
-    }
-
-    search = event => {
-        const query = event.target.value;
-        const results = this.getSearchResults(query);
-        this.setState({
-            results: results.slice(0, 5),
-            query,
-        })
-    }
 }
+
+export default Search;

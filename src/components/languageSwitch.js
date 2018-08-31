@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Button } from 'reactstrap';
-import { translate } from "react-i18next";
+import PropTypes from 'prop-types';
+import { I18n } from 'react-i18next';
 
 class LanguageSwitcher extends Component {
   constructor(props) {
@@ -10,8 +11,8 @@ class LanguageSwitcher extends Component {
     this.handleChangeLanguage = this.handleChangeLanguage.bind(this);
   }
 
-  handleChangeLanguage() {
-    this.props.i18n.changeLanguage(this.state.isEnglish ? "fr" : "en");
+  handleChangeLanguage(i18n) {
+    i18n.changeLanguage(this.state.isEnglish ? "fr" : "en");
     this.setState(prevState => ({
       isEnglish: !prevState.isEnglish
     }));
@@ -19,19 +20,28 @@ class LanguageSwitcher extends Component {
 
   render() {
     return (
-      <div className="LanguageSwitcher">
-        <Button
-          className="languageSwitcherButton"
-          onClick={this.handleChangeLanguage}
-          size="md"
-          style={ {"font-weight": "550"} }
-        >
-        {this.state.isEnglish ? 'FR' : 'EN'}
-        </Button>
-      </div>
+      <I18n>
+        {
+          (t, { i18n }) => (
+            <Button
+              className="languageSwitcherButton"
+              onClick={ () => this.handleChangeLanguage(i18n) }
+              size="md"
+              style={ {"fontWeight": "550"} }
+            >
+              {this.state.isEnglish ? 'FR' : 'EN'}
+            </Button>
+          )
+        }
+      </I18n>
     );
   }
 
 }
 
-export default translate("default")(LanguageSwitcher);
+LanguageSwitcher.propTypes = {
+  i18n: PropTypes.object
+};
+
+
+export default LanguageSwitcher;

@@ -1,0 +1,427 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index test 1`] = `
+<div
+  className="fixed-top bg-white shadow-sm"
+>
+  <div>
+    <div
+      style={
+        Object {
+          "height": "50px",
+          "padding": "10px",
+        }
+      }
+    >
+      <img
+        alt="FIP"
+        src="test-file-stub"
+      />
+      <div
+        className="float-right"
+      >
+        <span
+          className="float-left mr-3 d-none d-md-block"
+        >
+          <div
+            className="search-form search-form-round"
+            style={
+              Object {
+                "width": "300px",
+              }
+            }
+          >
+            <div
+              className="dropdown"
+              onKeyDown={[Function]}
+            >
+              <label
+                className="sr-only"
+                for="search"
+              >
+                Search
+              </label>
+              <input
+                aria-expanded={false}
+                aria-haspopup={true}
+                className="form-control"
+                id="search"
+                onChange={[Function]}
+                onClick={[Function]}
+                placeholder="Search"
+                type="text"
+                value=""
+              />
+              <div
+                aria-hidden={true}
+                className="container-fluid dropdown-menu"
+                role="menu"
+                tabIndex="-1"
+              >
+                <li
+                  className="list-group-item"
+                  toggle={false}
+                >
+                  No results were found.
+                </li>
+              </div>
+            </div>
+          </div>
+        </span>
+        <span
+          className="float-right"
+        >
+          <button
+            className="languageSwitcherButton btn btn-secondary btn-md"
+            onClick={[Function]}
+            style={
+              Object {
+                "fontWeight": "550",
+              }
+            }
+            type="button"
+          >
+            FR
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div>
+    <nav
+      className="navbar navbar-expand bg-white"
+      style={
+        Object {
+          "paddingBottom": "0",
+        }
+      }
+    >
+      <Link
+        className="text-dark"
+        to="/#!"
+      >
+        <img
+          alt="Logo"
+          className="float-left"
+          src="test-file-stub"
+          style={
+            Object {
+              "margin": "5px",
+              "width": "30px",
+            }
+          }
+        />
+        <span
+          className="h2 d-none d-md-block float-left"
+        >
+           
+          Aurora
+           
+        </span>
+      </Link>
+      <div
+        className="navbar-collapse"
+      >
+        <ul
+          className="mx-auto nav-site nav nav-tabs"
+          style={
+            Object {
+              "borderBottom": "none",
+            }
+          }
+        >
+          <li
+            className="nav-item"
+          >
+            <Link
+              className="nav-link"
+              to="/overview/whats-new"
+            >
+              Overview
+            </Link>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <Link
+              className="nav-link"
+              to="/#!"
+            >
+              Identity
+            </Link>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <Link
+              className="nav-link active"
+              to="/component/badges"
+            >
+              Component
+            </Link>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <Link
+              className="nav-link"
+              to="/content/content-guidelines"
+            >
+              Content
+            </Link>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <Link
+              className="nav-link"
+              to="/content/data/data-overview"
+            >
+              Data
+            </Link>
+          </li>
+        </ul>
+      </div>
+      <ul
+        className="ml-auto navbar-nav"
+      >
+        <li
+          className="d-none d-md-block nav-item"
+        >
+          <a
+            className="nav-link"
+            href="#!"
+            onClick={[Function]}
+          >
+            GH
+          </a>
+        </li>
+        <li
+          className="d-none d-md-block nav-item"
+        >
+          <a
+            className="nav-link"
+            href="#!"
+            onClick={[Function]}
+          >
+            DWNLD
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
+
+exports[`index test 2`] = `
+<div
+  className="fixed-top bg-white shadow-sm"
+>
+  <div>
+    <div
+      style={
+        Object {
+          "height": "50px",
+          "padding": "10px",
+        }
+      }
+    >
+      <img
+        alt="FIP"
+        src="test-file-stub"
+      />
+      <div
+        className="float-right"
+      >
+        <span
+          className="float-left mr-3 d-none d-md-block"
+        >
+          <div
+            className="search-form search-form-round"
+            style={
+              Object {
+                "width": "300px",
+              }
+            }
+          >
+            <div
+              className="dropdown"
+              onKeyDown={[Function]}
+            >
+              <label
+                className="sr-only"
+                for="search"
+              >
+                Chercher
+              </label>
+              <input
+                aria-expanded={false}
+                aria-haspopup={true}
+                className="form-control"
+                id="search"
+                onChange={[Function]}
+                onClick={[Function]}
+                placeholder="Chercher"
+                type="text"
+                value=""
+              />
+              <div
+                aria-hidden={true}
+                className="container-fluid dropdown-menu"
+                role="menu"
+                tabIndex="-1"
+              >
+                <li
+                  className="list-group-item"
+                  toggle={false}
+                >
+                  No results were found.
+                </li>
+              </div>
+            </div>
+          </div>
+        </span>
+        <span
+          className="float-right"
+        >
+          <button
+            className="languageSwitcherButton btn btn-secondary btn-md"
+            onClick={[Function]}
+            style={
+              Object {
+                "fontWeight": "550",
+              }
+            }
+            type="button"
+          >
+            FR
+          </button>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div>
+    <nav
+      className="navbar navbar-expand bg-white"
+      style={
+        Object {
+          "paddingBottom": "0",
+        }
+      }
+    >
+      <Link
+        className="text-dark"
+        to="/#!"
+      >
+        <img
+          alt="Logo"
+          className="float-left"
+          src="test-file-stub"
+          style={
+            Object {
+              "margin": "5px",
+              "width": "30px",
+            }
+          }
+        />
+        <span
+          className="h2 d-none d-md-block float-left"
+        >
+           
+          Aurora
+           
+        </span>
+      </Link>
+      <div
+        className="navbar-collapse"
+      >
+        <ul
+          className="mx-auto nav-site nav nav-tabs"
+          style={
+            Object {
+              "borderBottom": "none",
+            }
+          }
+        >
+          <li
+            className="nav-item"
+          >
+            <Link
+              className="nav-link"
+              to="/overview/whats-new"
+            >
+              Overview
+            </Link>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <Link
+              className="nav-link"
+              to="/#!"
+            >
+              Identity
+            </Link>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <Link
+              className="nav-link active"
+              to="/component/badges"
+            >
+              Component
+            </Link>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <Link
+              className="nav-link"
+              to="/content/content-guidelines"
+            >
+              Content
+            </Link>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <Link
+              className="nav-link"
+              to="/content/data/data-overview"
+            >
+              Data
+            </Link>
+          </li>
+        </ul>
+      </div>
+      <ul
+        className="ml-auto navbar-nav"
+      >
+        <li
+          className="d-none d-md-block nav-item"
+        >
+          <a
+            className="nav-link"
+            href="#!"
+            onClick={[Function]}
+          >
+            GH
+          </a>
+        </li>
+        <li
+          className="d-none d-md-block nav-item"
+        >
+          <a
+            className="nav-link"
+            href="#!"
+            onClick={[Function]}
+          >
+            DWNLD
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+`;
