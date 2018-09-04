@@ -20,7 +20,7 @@ class ButtonDropdownWrapper extends React.Component {
 
   render() {
     return (
-      <ButtonDropdown isOpen={this.state.dropdownOpen} toggle={this.toggle} style={{marginBottom: '15px'}} color={this.props.color}>
+      <ButtonDropdown direction="down" isOpen={this.state.dropdownOpen} toggle={this.toggle} style={{marginBottom: '15px'}} color={this.props.color}>
         <DropdownToggle caret {...this.props}>
           Reply
         </DropdownToggle>

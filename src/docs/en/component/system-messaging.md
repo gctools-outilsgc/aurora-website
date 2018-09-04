@@ -18,6 +18,17 @@ Design systems notifications in descending level of severity:
     Error: You have done something wrong
 </alert>
 
+<codeblock html='
+    <div class="alert alert-danger" role="alert">
+        Error: You have done something wrong
+    </div>
+' react='
+<Alert color="danger">
+    Error: You have done something wrong
+</Alert>
+'></codeblock>
+
+
 Error notifications are used for system failures and user errors.
 
 Error example: “Your password must contain at least 8 characters.”
@@ -27,6 +38,16 @@ Error example: “Your password must contain at least 8 characters.”
 <alert color="warning">
     Warning: You are about to make a mistake
 </alert>
+
+<codeblock html='
+    <div class="alert alert-warning" role="alert">
+        Warning: You are about to make a mistake
+    </div>
+' react='
+<Alert color="warning">
+    Warning: You are about to make a mistake
+</Alert>
+'></codeblock>
 
 Warning notifications are used for notices of potential future errors.
 
@@ -38,6 +59,16 @@ Warning example: “Caps lock is on which may cause you to enter your password i
     Information: This may be useful to you
 </alert>
 
+<codeblock html='
+    <div class="alert alert-info" role="alert">
+        Information: This may be useful to you
+    </div>
+' react='
+<Alert color="info">
+    Information: This may be useful to you
+</Alert>
+'></codeblock>
+
 Information notifications are used to provide additional information and notes to the user which they may find helpful in context.
 
 Information example: “You can change your password in settings.”
@@ -47,6 +78,16 @@ Information example: “You can change your password in settings.”
 <alert color="success">
     Success: You just did something and it worked
 </alert>
+
+<codeblock html='
+    <div class="alert alert-success" role="alert">
+        Success: You just did something and it worked
+    </div>
+' react='
+<Alert color="success">
+    Success: You just did something and it worked
+</Alert>
+'></codeblock>
 
 Success notifications are used to confirm that a task was completed successfully.
 

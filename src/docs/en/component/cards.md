@@ -119,12 +119,14 @@ Cards can technically include any number of component combinations. Using the ba
         <button outline color="warning" className="col text-center" style="maxWidth: 300px; margin-top: 10px" block>Do <i>nothing</i></button>
         </cardbody>
     </card>
-    <card className="col text-center" style="maxWidth: 300px; margin: 0 auto;">
+    <card className="col text-left" style="maxWidth: 300px; margin: 0 auto;">
+        <img src="https://yt3.ggpht.com/a-/ACSszfEbdtkOd9P1y-uljH_k64qzPPSdMvymt3mkmQ=s900-mo-c-c0xffffffff-rj-k-no" alt="GCTools logo" width="100%" />  
         <cardbody>
-        <cardtitle>Complex Card 2</cardtitle>
+        <cardtitle>Main Title</cardtitle>
+        <cardsubtitle>Meta information</cardsubtitle>
+        <cardtext>This is where you would write the description of the card. Add information that is clear and concise.</cardtext>
         <hr />
-        <img src="https://yt3.ggpht.com/a-/ACSszfEbdtkOd9P1y-uljH_k64qzPPSdMvymt3mkmQ=s900-mo-c-c0xffffffff-rj-k-no" style="width: 150px; margin-bottom: 15px;" alt="GCTools logo"/>
-        <button outline className="col text-center" style="maxWidth: 300px;" block>Log in</button>
+            <button outline xs="auto" className="col" size="sm">Secondary</button> <button outline className="col" size="sm">Secondary</button>
         </cardbody>
     </card>
     <card className="col text-left" style="maxWidth: 300px; margin: 0 auto;">
