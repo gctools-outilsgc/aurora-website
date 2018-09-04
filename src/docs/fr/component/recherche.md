@@ -4,7 +4,7 @@ subnav: "3/Navigation/Navigation/8"
 lang: "fr"
 title: "Barre de Recherche"
 ---
-# Recherche
+# Barre de recherche
 
 Les barres de recherche aident l’utilisateur à trouver un contenu pertinent dans votre site ou application. Les barres de recherche sont une fonctionnalité universelle attendue sur la plupart des sites, en particulier ceux qui ont une grande quantité de contenu.
 
