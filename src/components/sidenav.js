@@ -5,9 +5,10 @@ import {
 } from 'reactstrap';
 import Subnav from './subnav';
 import { I18n } from "react-i18next";
+import { translate } from "react-i18next";
+import "./sidenav.scss"
 
 const Sidenav = (props) => (
-
   <StaticQuery query={graphql`
         query{
           component:allMarkdownRemark(
@@ -148,13 +149,13 @@ const Sidenav = (props) => (
       }
       return (
         <div>
-          <Nav vertical>
+          <Nav vertical id="sidenav"> <h4 id = "title">Components</h4>
             {subPieces}
           </Nav>
         </div>
       )
     }}
-  />
+  /> 
 );
 
 export default Sidenav;
