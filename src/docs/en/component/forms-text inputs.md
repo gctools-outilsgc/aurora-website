@@ -18,19 +18,19 @@ When there is an error within a text field, outlining the field in red shows a g
 Text input fields may also include interactive elements to the right of the field. Interactive elements will always be displayed using an icon, such as an eye to demonstrate a visible or hidden password.
 
 <formgroup> <!--Need hidden/visible indicator! -->
-    <input type="password" name="password" id="examplePassword" placeholder="Enter password" style="height: 42px"/>
+    <input type="password" name="password" id="examplePassword" placeholder="Enter password" style="height: 42px" aria-label="example password input"/>
 </formGroup>
 
 Text fields are styled as follows:
 
 <formgroup>
-    <input placeholder="Text field" style="height: 42px"/>
+    <input placeholder="Text field" style="height: 42px" aria-label="example text input" />
 </formgroup>
 
 Normal: Rectangle with a height of 42px, and a border radius of 4px. Stroke width of 1px with the colour <badge style="background-color: #CCCCCC">#CCCCCC</badge>. There is 10px of padding between the field and the label. The input field a padding of 15px by 12px.
 
 <formgroup>
-    <input placeholder="Text field" style="height: 42px"/>
+    <input placeholder="Text field" style="height: 42px" aria-label="example text input" />
 </formgroup>
 
 Focus: Rectangle with a height of 42px, and a border radius of 4px. Stroke width of 1px <badge style="background-color: #269ABC">#269ABC</badge>. There is 10px of padding between the field and the label. The input field a padding of 15px by 12px.
