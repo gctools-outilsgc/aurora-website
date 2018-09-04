@@ -18,7 +18,7 @@ class CodeBlock extends React.Component {
     super(props);
 
     this.state = {
-      output: (this.props.defaultOutput === undefined || this.props.defaultOutput === "html") ? "html" : "react",
+      output: (this.props.defaultOutput === undefined || this.props.defaultOutput === "react") ? "react" : "html",
       isShowingCode: this.props.isShowingCode,
       copyText: "COPY CODE"
     }
@@ -108,7 +108,7 @@ CodeBlock.propTypes = {
 };
 
 CodeBlock.defaultProps = {
-  defaultOutput: "html",
+  defaultOutput: "react",
   isShowingCode: true
 }
 
