@@ -4,6 +4,7 @@ import {
   Nav,
 } from 'reactstrap';
 import Subnav from './subnav';
+import { I18n } from "react-i18next";
 import { translate } from "react-i18next";
 import "./sidenav.scss"
 
@@ -157,5 +158,5 @@ const Sidenav = (props) => (
   /> 
 );
 
-export default translate("default")(Sidenav);
+export default Sidenav;
 

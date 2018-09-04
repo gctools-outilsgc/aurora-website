@@ -6,7 +6,7 @@ import 'prismjs/themes/prism.css';
 import { PrismCode } from 'react-prism';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import PropTypes from 'prop-types';
-import { translate } from "react-i18next";
+import { I18n } from "react-i18next";
 
 /** Component that holds code in html and react/jsx with the ability to copy the code */
 class CodeBlock extends React.Component {
@@ -76,7 +76,13 @@ class CodeBlock extends React.Component {
           <Col md="3">
             <CopyToClipboard text={(this.state.output === "html") ? this.props.html : this.props.react}>
               <Button onClick={this.copy} style={{ "background-color": "white", "color": "black" }} className="float-right">
-                {this.props.t(this.state.copyText)}
+                <I18n ns={ ["CodeBlock"] }>
+                  {
+                    (t, { i18n }) => (
+                      t(this.state.copyText)
+                    )
+                  }
+                </I18n>
               </Button>
             </CopyToClipboard>
           </Col>
@@ -107,4 +113,4 @@ CodeBlock.defaultProps = {
 }
 
 
-export default translate("CodeBlock")(CodeBlock);
+export default CodeBlock;

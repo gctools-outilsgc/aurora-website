@@ -12,7 +12,7 @@ i18n
       loadPath: (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') ?
         '/locales/{{lng}}/{{ns}}.json'
         :
-        '/design-system-code/locales/{{lng}}/{{ns}}.json'
+        '/design-system-code/src/locales/{{lng}}/{{ns}}.json'
     }
     ,
     lng: "en", 

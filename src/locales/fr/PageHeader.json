@@ -1,7 +1,9 @@
 {
-    "heading": "Shwmae, bonjour, and hola!",
-    "description": "en français ",
-    "Overview": "Aperçu",
-    "Identity": "Identité",
-    "Content": "Contenu"
-  }
+  "heading": "Shwmae, bonjour, and hola!",
+  "description": "en français ",
+  "Overview": "Aperçu",
+  "Component": "Component FR",
+  "Identity": "Identité",
+  "Content": "Contenu",
+  "Data": "Données"
+}
