@@ -156,6 +156,8 @@ Each of the states for primary buttons are as follows:
 
 <button color="primary">Primary</button> 
 
+<codeblock html='<button type="button" class="btn btn-primary">Primary</button>' react='<Button color="primary">Primary</Button>'></codeblock>
+
 **Regular state:** primary colour at 100% opacity, white text, with a border radius of 4px and padding of 15px.
 
 *Hover button component here*
@@ -169,6 +171,8 @@ Each of the states for primary buttons are as follows:
 **Active state:** _**\(to complete\)**_
 
 <button color="primary" disabled>Primary</button> 
+
+<codeblock html='<button type="button" class="btn btn-primary" disabled>Primary</button>' react='<Button color="primary" disabled>Primary</Button>'></codeblock>
 
 **Disabled state:** primary colour at 60% opacity, white text, with a border radius of 4px and padding of 15px.
 
@@ -190,6 +194,8 @@ Each of the states for secondary buttons are as follows:
 
 <button color="secondary">Secondary</button> 
 
+<codeblock html='<button type="button" class="btn btn-secondary">Secondary</button>' react='<Button color="secondary">Secondary</Button>'></codeblock>
+
 **Regular state:** transparent with a 1px stroke using the  colour \#002D42, the text is written in the same colour. Border radius of 4px and padding of 15px.
 
 *Hover secondary button component*
@@ -201,6 +207,8 @@ Each of the states for secondary buttons are as follows:
 **Focus state:** transparent with a 3px stroke using \#002D42, the text is displayed in \#002D42. Border radius of 4px and padding of 15px.
 
 <button color="secondary" disabled>Secondary</button> 
+
+<codeblock html='<button type="button" class="btn btn-secondary" disabled>Secondary</button>' react='<Button color="secondary" disabled>Secondary</Button>'></codeblock>
 
 **Disabled state:** Fill colour of \#CECECE, with white text. Border radius of 4px and padding of 15px.
 
@@ -214,6 +222,30 @@ Drop down buttons display a list of items when clicked. They are used for two-st
 
 <mdbuttondropdown color="primary">
 </mdbuttondropdown>
+
+<codeblock html='
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+    </div>
+' react='
+<ButtonDropdown direction="down" isOpen={this.state.dropdownOpen} toggle={this.toggle} style={{marginBottom: "15px"}} color={this.props.color}>
+    <DropdownToggle caret {...this.props}>
+        Reply
+    </DropdownToggle>
+    <DropdownMenu>
+        <DropdownItem>Action 1</DropdownItem>
+        <DropdownItem>Action 2</DropdownItem>
+        <DropdownItem>Action 3</DropdownItem>
+    </DropdownMenu>
+</ButtonDropdown>
+'></codeblock>
 
 
 **Regular State:** Similar to the primary button, drop-down buttons use the primary colour at 100% opacity, white text, with a border radius of 4px and padding of 15px. The drop-down arrow represents a space of 30px by 40px, which is separated from the primary button using a white line. The arrow uses a space of 15px width and 8px in height.
@@ -241,6 +273,22 @@ Primary actions are aligned to the left, while secondary actions are placed in t
     <button color="secondary">Middle</button>
     <button color="warning">Right</button>
 </buttongroup>
+
+<codeblock html='
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-primary">Left</button>
+        <button type="button" class="btn btn-secondary">Middle</button>
+        <button type="button" class="btn btn-warning">Right</button>
+    </div>
+' react='
+<ButtonGroup style="margin-bottom: 15px">
+    <Button color="primary">Left</Button>
+    <Button color="secondary">Middle</Button>
+    <Button color="warning">Right</Button>
+</ButtonGroup>
+'></codeblock>
+
+
 
 ## Icon Buttons
 

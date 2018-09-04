@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { mapToCssModules } from './utils';
+import { mapToCssModules } from '../../node_modules/reactstrap/src/utils';
 
 const propTypes = {
     'aria-label': PropTypes.string,
