@@ -7,8 +7,6 @@ title: "Buttons"
 
 # Buttons
 
-![Image of all button varieties](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/buttons.png)
-
 <container style="width: 100%; margin-bottom: 20px">
     <mdcol>
         <row>
@@ -155,7 +153,7 @@ Primary buttons use the primary colour, with white text. Sizing of the button de
 
 Each of the states for primary buttons are as follows:
 
-*Regular button component here*
+<button color="primary">Primary</button>
 
 <codeblock html='<button type="button" class="btn btn-primary">Primary</button>' react='<Button color="primary">Primary</Button>'></codeblock>
 
@@ -171,7 +169,7 @@ Each of the states for primary buttons are as follows:
 
 **Active state:** _**\(to complete\)**_
 
-*Disabled button component here*
+<button color="primary" disabled="true">Primary</button>
 
 <codeblock html='<button type="button" class="btn btn-primary" disabled>Primary</button>' react='<Button color="primary" disabled>Primary</Button>'></codeblock>
 
@@ -193,7 +191,8 @@ Secondary buttons in this system are transparent with a stroke colour. Text chan
 
 Each of the states for secondary buttons are as follows:
 
-*Regular secondary button component*
+<button color="secondary">Secondary</button>
+
 
 <codeblock html='<button type="button" class="btn btn-secondary">Secondary</button>' react='<Button color="secondary">Secondary</Button>'></codeblock>
 
@@ -207,7 +206,7 @@ Each of the states for secondary buttons are as follows:
 
 **Focus state:** transparent with a 3px stroke using \#002D42, the text is displayed in \#002D42. Border radius of 4px and padding of 15px.
 
-*Disabled secondary button component*
+<button color="secondary" disabled="true">Secondary</button>
 
 <codeblock html='<button type="button" class="btn btn-secondary" disabled>Secondary</button>' react='<Button color="secondary" disabled>Secondary</Button>'></codeblock>
 
@@ -269,19 +268,25 @@ Button groups, are a stylized way of putting multiple buttons together.
 
 Primary actions are aligned to the left, while secondary actions are placed in the middle, and warning or destructive actions are aligned to the right.
 
-*Button groups component*
+<div class="mt-2">
+    <div class="btn-group" role="group" aria-label="Basic example of button group">
+        <button type="button" class="btn btn-primary">Left</button>
+        <button type="button" class="btn btn-primary">Middle</button>
+        <button type="button" class="btn btn-primary">Right</button>
+    </div>
+</div>
 
 <codeblock html='
-    <div class="btn-group" role="group" aria-label="Basic example">
+    <div class="btn-group" role="group" aria-label="Basic example of button group">
         <button type="button" class="btn btn-primary">Left</button>
-        <button type="button" class="btn btn-secondary">Middle</button>
-        <button type="button" class="btn btn-warning">Right</button>
+        <button type="button" class="btn btn-primary">Middle</button>
+        <button type="button" class="btn btn-primary">Right</button>
     </div>
 ' react='
 <ButtonGroup style="margin-bottom: 15px">
     <Button color="primary">Left</Button>
-    <Button color="secondary">Middle</Button>
-    <Button color="warning">Right</Button>
+    <Button color="primary">Middle</Button>
+    <Button color="primary">Right</Button>
 </ButtonGroup>
 '></codeblock>
 

@@ -38,12 +38,23 @@ Basic cards can be used as containers for any type of information are are sized 
 
 <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
     <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <div class="card-subtitle text-muted">Meta Information</div>
-    <p class="card-text">Some quick example text to build on the card title</p>
-    <a href="#" class="card-link">Another link</a>
+        <h5 class="card-title">Card title</h5>
+        <div class="card-subtitle text-muted">Meta Information</div>
+        <p class="card-text">Some quick example text to build on the card title</p>
+        <a href="#" class="card-link">Another link</a>
     </div>
 </div>
+
+<codeblock html='
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <div class="card-subtitle text-muted">Meta Information</div>
+            <p class="card-text">Some quick example text to build on the card title</p>
+            <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+' react='' />
 
 Basic cards are styled as follows:
 
@@ -63,6 +74,18 @@ Image cards use the basic card template but include an image above the header.
     <a href="#" class="card-link">Another link</a>
     </div>
 </div>
+
+<codeblock html='
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+            <img class="card-img-top" src="image.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <div class="card-subtitle text-muted">Meta Information</div>
+            <p class="card-text">Some quick example text to build on the card title</p>
+            <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+' react='' />
 
 Image cards are styled as follows:
 
@@ -87,6 +110,21 @@ Actionable cards use the basic card template, but include additional components 
     </div>
 </div>
 
+<codeblock html='
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+        <img class="card-img-top" src="image.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <div class="card-subtitle text-muted">Meta Information</div>
+            <p class="card-text">Some quick example text to build on the card title</p>
+        </div>
+        <div class="card-footer">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-outline-primary">Secondary</button>
+        </div>
+    </div>
+' react='' />
+
 Actionable cards are styled as follows:
 
 White (#FFFFFF) rectangle with border radius of 4px and a drop shadow of 15% opacity and a 5px blur. The card has a padding of 20px by 16px. Every card has a title using heading 3 (Rubik Medium at 24px) with a divider placed 12px below the header. The content of the card is placed 12px below the divider.
@@ -97,13 +135,7 @@ A second divider is placed 12px below the content. Actionable items (i.e. button
 
 Cards can technically include any number of component combinations. Using the base styles above, components such as placeholder text (metadate), avatrs, icon buttons, buttons can be added below the header, or within the actionable section below the main content.
 
-<div class="card card-profile mb-2 d-inline-block" style="max-width: 18rem;">
-  
-          <!--
-  <div class="card-header" style="background-image: url(http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg); height:100px; background-size:cover;"></div>
-  
-          -->
-          
+<div class="card card-profile mb-2 d-inline-block" style="max-width: 18rem;">  
     <img class="card-img-top" style="height: 100px;" src="http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg">
     <div class="card-body">
         <img alt="..." class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
@@ -137,6 +169,41 @@ Cards can technically include any number of component combinations. Using the ba
     </div>
     <div class="card-footer">Extra information</div>
 </div>
+
+<codeblock html='
+    <div class="card card-profile mb-2 d-inline-block" style="max-width: 18rem;">  
+        <img class="card-img-top" style="height: 100px;" src="http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg">
+        <div class="card-body">
+            <img alt="..." class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+            <div>
+            <h5 class="card-title">Name or Group</h5>
+            <p class="text-muted">Job title or meta information</p>
+            <button type="button" class="btn btn-primary">Call to Action</button>
+            </div>
+            
+        </div>
+    </div>
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <div class="card-subtitle text-muted">Meta Information</div>
+            <p class="card-text">Some quick example text to build on the card title. Here is some extra information, this could be something wonderful!</p>
+            <button type="button" class="btn btn-light"><span class="fa fa-heart"></span><span class="sr-only">Like</span></button>
+            <button type="button" class="btn btn-light"><span class="fa fa-comment"></span><span class="sr-only">Comment</span></button>
+        </div>
+    </div>
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <div class="card-subtitle text-muted">Meta Information</div>
+            <p class="card-text">Some quick example text to build on the card title</p>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+        </div>
+        <div class="card-footer">Extra information</div>
+    </div>
+' react='' />
 
 ![Example of a complex card 1](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/card%20example_2.png)
 ![Example of a complex card 2](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/card%20example_3.png)

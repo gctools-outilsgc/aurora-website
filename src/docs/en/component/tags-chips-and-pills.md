@@ -29,6 +29,28 @@ title: "Tags, chips and pills"
     </a>
 </div>
 
+<codeblock html='
+    <div class="mt-2">
+        <a href="#!" class="badge badge-primary badge-tag">HTML</a>
+        <a href="#!" class="badge badge-primary badge-tag">CSS</a>
+        <a href="#!" class="badge badge-primary badge-tag">JavaScript</a>
+    </div>
+    <div class="mt-2">
+        <a href="#!" class="badge badge-primary badge-tag">
+        HTML
+        <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
+        </a>
+        <a href="#!" class="badge badge-primary badge-tag">
+        CSS
+        <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
+        </a>
+        <a href="#!" class="badge badge-primary badge-tag">
+        JavaScript
+        <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
+        </a>
+    </div>
+' react='' />
+
 Tags represent a set of user-generated keywords that help label, organize and categorize content. They are useful because they provide metadata that makes content searchable. Tags can be added or removed from content by the author.
 
 Tags are usually displayed near the title of the content, in close proximity to other information such as the date posted, number of likes and author.
@@ -41,7 +63,14 @@ Tags are sized to match the length of the keywords with padding of **7px** on th
 
 ## Chips
 
-![](.gitbook/assets/chips.png)
+<span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png"> User 1</span>
+<span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png"> User 2</span>
+
+<codeblock html='
+    <span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png"> User 1</span>
+    <span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png"> User 2</span>
+' react='' />
+
 
 Chips represent contact information, typically including a user's avatar and name, with a link to their profile.
 
@@ -57,11 +86,17 @@ Chips have 3 different variations and are displayed as follows:
 
 ## Pills
 
-![](.gitbook/assets/pills.png)
 <div class="mt-2">
     <span class="badge badge-primary">Primary</span>
     <span class="badge badge-secondary">Secondary</span>
 </div>
+
+<codeblock html='
+    <div class="mt-2">
+        <span class="badge badge-primary">Primary</span>
+        <span class="badge badge-secondary">Secondary</span>
+    </div>
+' react='' />
 
 Pills are similar to chips, but aren't necessarily associated with a particular user. They are styled the same but without the left-aligned avatar.
 
