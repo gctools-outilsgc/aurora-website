@@ -31,16 +31,16 @@ const Header = ({ siteTitle, t, i18n }) => (
     </div>
   </div>
   <div>
-    <Navbar color="white" expand style={{paddingBottom:'0'}}>
-      <Link to="/#!" className="text-dark">
+    <Navbar color="white" expand className="main-nav" style={{paddingBottom:'0'}}>
+      <Link to="/#!" className="text-dark logo">
         <img src={logo} alt="Logo" className="float-left" style={{width:'30px', margin:'5px'}} />
         <span className="h2 d-none d-md-block float-left">
           {' '}
           {siteTitle}{' '}
         </span>
       </Link>
-      <div className="navbar-collapse">
-        <Nav tabs className="mx-auto nav-site" style={{borderBottom:'none'}}>
+      <div className="navbar-collapse nav-holder">
+        <Nav tabs className="mx-auto nav-site scroll" style={{borderBottom:'none'}}>
           <NavItem>
             <Link to="/overview/whats-new" className="nav-link">
               {t("Overview")}

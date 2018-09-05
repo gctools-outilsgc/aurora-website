@@ -3,3 +3,28 @@
     height: 100%;
     overflow: auto;
 }
+
+@media (max-width: 576px) { 
+.scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 44px;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar; 
+}
+
+.scroll::-webkit-scrollbar {
+    display: none; }
+
+
+.main-nav {
+    .nav-holder {
+      width: 60%; 
+    } 
+}
+.nav {
+    flex-wrap: nowrap !important;
+    margin: 0 !important;
+}
+ }
