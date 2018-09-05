@@ -6,7 +6,6 @@ title: "System messaging"
 ---
 
 # System Messaging
-<hr />
 
 System notifications are short messages that appear to communicate information to the user. Notifications appear as pop-up banners which need to be dismissed or timed-out. There are four levels of severity which can be applied to the notifications: error, warning, information and success.
 
@@ -14,9 +13,7 @@ Design systems notifications in descending level of severity:
 
 ### Error
 
-<alert color="danger">
-    Error: You have done something wrong
-</alert>
+![](.gitbook/assets/individual-notification-error.jpg)
 
 <codeblock html='
     <div class="alert alert-danger" role="alert">
@@ -35,9 +32,7 @@ Error example: “Your password must contain at least 8 characters.”
 
 ### Warning
 
-<alert color="warning">
-    Warning: You are about to make a mistake
-</alert>
+![](.gitbook/assets/individual-notification-warning2.png)
 
 <codeblock html='
     <div class="alert alert-warning" role="alert">
@@ -55,9 +50,7 @@ Warning example: “Caps lock is on which may cause you to enter your password i
 
 ### Information
 
-<alert color="info">
-    Information: This may be useful to you
-</alert>
+![](.gitbook/assets/individual-notification-info2.png)
 
 <codeblock html='
     <div class="alert alert-info" role="alert">
@@ -75,9 +68,7 @@ Information example: “You can change your password in settings.”
 
 ### Success
 
-<alert color="success">
-    Success: You just did something and it worked
-</alert>
+![](.gitbook/assets/individual-notification-success.jpg)
 
 <codeblock html='
     <div class="alert alert-success" role="alert">
@@ -107,13 +98,13 @@ A drop shadow is used to show the user that the notification can be closed by cl
 
 The colours used for notifications are from the design system’s palette.
 
-Hex colour for error notifications: <badge style="background-color: #D3080C">#D3080C</badge>
+Hex colour for error notifications: \#D3080C
 
-Hex colour for warning notifications: <badge style="background-color: #FF9900">#FF9900</badge>
+Hex colour for warning notifications: \#FF9900
 
-Hex colour for information notifications: <badge style="background-color: #269ABC">#269ABC</badge>
+Hex colour for information notifications: \#269ABC
 
-Hex colour for success notifications: <badge style="background-color: #278400">#278400</badge>
+Hex colour for success notifications: \#278400
 
 ### **Position**
 
@@ -131,9 +122,7 @@ Notifications are **62px by 425px**. The text has a **15px** padding on the top 
 
 The notification messages should straightforward and as short as possible, and use key words. Long messages can be unclear and may affect the sizing and readability of the message.
 
-<alert color="success">
-    Your profile picture has been successfully changed
-</alert>
+Example of a clear notification: Your profile picture has been changed successfully.
 
 #### Timing-out
 
