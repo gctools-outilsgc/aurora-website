@@ -49,9 +49,9 @@ $input-focus-box-shadow: 0px 0px 2px rgba(38, 154, 188, 0.7);
 
 $label-margin-bottom: 0.2rem;
 
-$custom-checkbox-indicator-icon-checked: white;
-$custom-checkbox-indicator-icon-indeterminate: none;
-$custom-checkbox-indicator-indeterminate-color: white;
+//$custom-checkbox-indicator-icon-checked: white;
+//$custom-checkbox-indicator-icon-indeterminate: none;
+//$custom-checkbox-indicator-indeterminate-color: white;
 
 //Badges
 
@@ -65,7 +65,7 @@ $btn-box-shadow: none;
 //Breadcrumbs
 
 $breadcrumb-divider: quote(">");
-
+$breadcrumb-active-color: black;
 //Cards
 
 $card-spacer-x: 0.75rem;

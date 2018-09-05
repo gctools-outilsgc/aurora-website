@@ -21,13 +21,90 @@ The grid framework contains 12 columns that scale according to the viewport of t
 
 If the size of columns are not defined, they will automatically be set to equal widths.
 
-![Source: https://getbootstrap.com/docs/4.0/layout/grid/](.gitbook/assets/gridopt1.PNG)
+
+<container style="width: 100%; margin-bottom: 20px">
+    <row>
+        <mdcol><button color="secondary" style="width: 100%">Col 1</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Col 2</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Col 3</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Col 4</button></mdcol>
+    </row>
+</container>
+
+<codeblock react='
+<Container style="width: 100%">
+    <Row>
+        <Col><Button color="secondary" style="width: 100%">Col 1</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Col 2</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Col 3</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Col 4</Button></Col>
+    </Row>
+</Container> ' html='
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary btn-block">Col 1</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary btn-block">Col 2</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary btn-block">Col 3</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary btn-block">Col 3</button>
+            </div>
+        </div>
+    </div>
+'></codeblock>
+
+
+
 
 ### Unequal-width
 
 When you set the size for one column, sibling columns will automatically resize.
 
+<<<<<<< HEAD
 ![Source: https://getbootstrap.com/docs/4.0/layout/grid/](.gitbook/assets/gridopt2.PNG)
+=======
+<container style="width: 100%; margin-bottom: 20px">
+    <row>
+        <mdcol><button color="secondary" style="width: 100%">Col 1</button></mdcol>
+        <mdcol xs="6"><button outline="true" color="secondary" style="width: 100%">Col 2</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Col 3</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Col 4</button></mdcol>
+    </row>
+</container>
+>>>>>>> master
+
+<codeblock html='
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary btn-block">Col 1</button>
+            </div>
+            <div class="col-6">
+                <button type="button" class="btn btn-outline-secondary btn-block">Col 2</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary btn-block">Col 3</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary btn-block">Col 3</button>
+            </div>
+        </div>
+    </div>' react='
+<Container style="width: 100%">
+    <Row>
+        <Col><Button color="secondary" style="width: 100%">Col 1</Button></Col>
+        <Col xs="6"><Button outline="true" color="secondary" style="width: 100%">Col 2</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Col 3</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Col 4</Button></Col>
+    </Row>
+</Container> '></codeblock>
+
+
 
 ### Variable Width Content
 
@@ -35,8 +112,104 @@ You can set columns to automatically fit the content they contain. Sibling colum
 
 ![Source: https://getbootstrap.com/docs/4.0/layout/grid/](.gitbook/assets/gridopt3.PNG)
 
+<codeblock html='
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <button type="button" class="btn btn-outline-secondary btn-block">Col 1</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-outline-secondary btn-block">Col 2</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary btn-block">This is the third and largest column due to auto-sizing</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-outline-secondary btn-block">Col 4</button>
+            </div>
+        </div>
+    </div>' react='
+<Container style="width: 100%">
+    <Row>
+        <Col><Button color="secondary" style="width: 100%">Col 1</Button></Col>
+        <Col xs="6"><Button outline="true" color="secondary" style="width: 100%">Col 2</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Col 3</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Col 4</Button></Col>
+    </Row>
+</Container> '></codeblock>
+
+
+
 ### Equal-width Multi-row
 
 Multiple equal columns and rows can be set with a line break.
 
+<<<<<<< HEAD
 ![Source: https://getbootstrap.com/docs/4.0/layout/grid/](.gitbook/assets/gridopt4.PNG)
+=======
+<container style="width: 100%; margin-bottom: 20px">
+    <row>
+        <mdcol><button color="secondary" style="width: 100%">Col 1</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Col 2</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Col 3</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Col 4</button></mdcol>
+    </row>
+    <row style="margin-top: 10px">
+        <mdcol><button color="secondary" style="width: 100%">Col 1</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Col 2</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Col 3</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Col 4</button></mdcol>
+    </row>
+</container>
+
+<codeblock html='
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary btn-block">Col 1</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary btn-block">Col 2</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary btn-block">Col 3</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary btn-block">Col 4</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary btn-block">Col 1</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary btn-block">Col 2</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary btn-block">Col 3</button>
+            </div>
+            <div class="col-sm">
+                <button type="button" class="btn btn-secondary btn-block">Col 4</button>
+            </div>
+        </div>
+    </div>
+' react='
+<Container style="width: 100%">
+    <Row>
+        <Col><Button color="secondary" style="width: 100%">Col 1</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Col 2</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Col 3</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Col 4</Button></Col>
+    </Row>
+    <Row style="margin-top: 10px">
+        <Col><Button color="secondary" style="width: 100%">Col 1</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Col 2</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Col 3</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Col 4</Button></Col>
+    </Row>
+</Container> '></codeblock>
+
+
+
+**Note this is not using a line-break, check this out later**
+>>>>>>> master

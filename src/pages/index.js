@@ -1,4 +1,6 @@
 import React from 'react';
+import githubLogo from '../img/github.png';
+import downloadIcon from '../img/download.png';
 import { StaticQuery, graphql, push, replace } from 'gatsby';
 import {
   Container,
@@ -15,18 +17,18 @@ const IndexPage = ({ data, t, i18n }) => (
   <Layout>
     <Container>
 
-      <Jumbotron style={{backgroundImage: 'url("https://www.sciencealert.com/images/2018-02/processed/aurora_substorm_1024.jpg")', backgroundSize: 'cover', color: 'white'}}>
-          <h1 className="display-3">Aurora Design System</h1>
-          <p className="lead" style={{maxWidth: '75%', paddingBottom: '20px'}}>
-              A central design guide for the Digital Collaboration Division, the Government of Canada and our digital partners. Always free, always open and always collaborative.
-          </p>
-          <div>
-            <Button size="lg">Get started</Button>
-          </div>
+      <Jumbotron style={{ backgroundImage: 'url("https://www.sciencealert.com/images/2018-02/processed/aurora_substorm_1024.jpg")', backgroundSize: 'cover', color: 'white' }}>
+        <h1 className="display-3">Aurora Design System</h1>
+        <p className="lead" style={{ maxWidth: '75%' }}>
+          A central design guide for the Digital Collaboration Division, the Government of Canada and our digital partners. Always free, always open and always collaborative.
+        </p>
+        <div>
+          <Button className="mb-1" size="lg">Get started</Button>
           <div className="mb-3 mt-3">
-            <a style={{color: 'white'}} href="https://github.com/gctools-outilsgc/design-system">GitHub</a>
-            <a style={{color: 'white'}} className="ml-3" href="#">Download UI kit</a>
+            <a className="ext-link-text" href="https://github.com/gctools-outilsgc/design-system"><img className="mr-1" src={githubLogo} style={{ width: '32px', height: '32px', display: 'inline-block' }} />Find us on GitHub</a>
+            <a className="ml-3 ext-link-text" href="#"><img className="mr-1" src={downloadIcon} style={{ width: '32px', height: '32px', display: 'inline-block' }} />Download UI kit</a>
           </div>
+        </div>
       </Jumbotron>
 
       <h2>I am a...</h2>
@@ -83,13 +85,13 @@ const IndexPage = ({ data, t, i18n }) => (
         </Col>
       </Row>
 
-      <Jumbotron className="text-right" style={{backgroundImage: 'url("https://www.sciencealert.com/images/2018-02/processed/aurora_substorm_1024.jpg")', backgroundSize: 'cover', color: 'white', textAlign: 'right'}}>
-        <p className="lead" style={{display: 'inline-block', maxWidth: '50%', paddingBottom: '10px', textAlign: 'left'}}>
+      <Jumbotron className="text-right" style={{ marginTop: '50px', backgroundImage: 'url("https://www.sciencealert.com/images/2018-02/processed/aurora_substorm_1024.jpg")', backgroundSize: 'cover', color: 'white', textAlign: 'right' }}>
+        <p className="lead" style={{ display: 'inline-block', maxWidth: '50%', paddingBottom: '10px', textAlign: 'left' }}>
           Don’t fall into one of the roles above? The Aurora Design System can still improve your work! We are always looking for contributors to make the Aurora Design System better for content creators.
         </p>
-        <p>
+        <div>
           <Button>Learn more</Button>
-        </p>
+        </div>
       </Jumbotron>
 
     </Container>
@@ -137,6 +139,13 @@ query {
     childImageSharp {
       fluid {
       ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  github:file(relativePath: { regex: "/github/" }) {
+    childImageSharp {
+      sizes(maxWidth: 32, maxHeight: 32) {
+      ...GatsbyImageSharpSizes
       }
     }
   }

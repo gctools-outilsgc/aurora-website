@@ -1,5 +1,5 @@
 ---
-path: "/component/forms-buttons-inputs"
+path: "/component/button-inputs"
 subnav: "4/Forms/Formulaires/2"
 lang: "en"
 title: "Button inputs"
@@ -43,19 +43,39 @@ If there is an _Other_ option, this should include an open field for users to pr
 
 Labels for radio buttons are aligned to the right of the button.
 
-*Normal radio button component*
+<formGroup check='true'>
+    <label check='true'>
+    <input type="radio" name="radio2" />
+    Option one is this and that—be sure to include why it's great
+    </Label>
+</formGroup>
 
 **Normal:** 18px by 18px circle, background colour of \#F9F9F9, border colour of \#96A8B2 at 1px
 
-*Hover radio button component*
+<formGroup check='true'>
+    <label check='true'>
+    <input type="radio" name="radio2" />
+    Option two is this and that—be sure to include why it's great
+    </Label>
+</formGroup>
 
 **Hover:** 18px by 18px circle, background color \#FFFFFF, border colour of \#4D5D6C at 1px
 
-*Focus radio button component*
+<formGroup check='true'>
+    <label check='true'>
+    <input type="radio" name="radio2" />
+    Option three is this and that—be sure to include why it's great
+    </Label>
+</formGroup>
 
 **Focus:** 18px by 18px circle, border radius of 4px, background color \#FFFFFF, border colour of \#4D5D6C at 3px
 
-*Active radio button component*
+<formGroup check='true'>
+    <label check='true'>
+    <input type="radio" name="radio2" />
+    Option four is this and that—be sure to include why it's great
+    </Label>
+</formGroup>
 
 **Active:** 18px by 18pxcircle, border radius of 4px, background colour \#4D5D6C, border colour of \#96A8B2. Includes filled in smaller circle within the full button.
 

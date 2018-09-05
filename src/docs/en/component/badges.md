@@ -14,5 +14,7 @@ Badges in this design system appear as follows:
 
 <badge color="secondary">New</badge>
 
-</br>
-Rectangle with a width of **28px** and height of **19px**. Border radius of **8px**. Background colour of \#4D5D6C. Text colour of \#FFFFFF. Text is centred within the rectangle.
+Rectangle with a width of **28px** and height of **19px**. Border radius of **8px**. Background colour of <badge style="background-color: #4D5D6C">#4D5D6C</badge>. Text colour of <badge style="background-color: #FFFFFF; color: black">#FFFFFF</badge>. Text is centred within the rectangle.
+
+<!-- <codeblock html="<div></div>" react="<div></div>"/> -->
+<paginationlinkprev href="#"/>
