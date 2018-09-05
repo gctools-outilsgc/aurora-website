@@ -19,6 +19,22 @@ Breadcrumbs in this design system are as follows:
 
 *Breadcrumbs component*
 
+<codeblock html='
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Main Page</a></li>
+            <li class="breadcrumb-item"><a href="#">Secondary Page</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Current Page</li>
+        </ol>
+    </nav>
+' react='
+<Breadcrumb>
+    <BreadCrumbItem><a href="#">Main Page</a></BreadCrumbItem>
+    <BreadCrumbItem><a href="#">Secondary Page</a></BreadCrumbItem>
+    <BreadCrumbItem active="true">Current Page</BreadCrumbItem>
+</Breadcrumb>
+'></codeblock>
+
 Each layer of breadcrumbs is styled using link text. The last item is never a link since it is the current page and not clickable. The last item is styled using standard text.
 
 In between each layer there is a chevron icon coloured \#A0A0A0
