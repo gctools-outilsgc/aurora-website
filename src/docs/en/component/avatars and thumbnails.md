@@ -7,7 +7,32 @@ title: "Avatars and thumbnails"
 
 # Images, Avatars and Thumbnails
 
-*Example image using blog post prototype*
+<div class="mt-3">
+    <div class="card">
+    <div class="card-body">
+        <ul class="list-unstyled">
+        <li class="media media-comment">
+            <a href="#!">
+                <img alt="..." class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+            </a>
+            <div class="media-body">
+                <div class="media-heading">
+                <a href="#!">John Doe</a>
+                <small class="text-muted">1 hour ago</small>
+                </div>
+                <div>Ice cream macaroon croissant macaroon powder. Bear claw croissant candy canes halvah oat cake. Lollipop gummies jelly-o liquorice lollipop.
+                Apple pie chocolate sweet roll. Chocolate bar candy canes lollipop gummies. Sesame snaps marzipan biscuit powder topping sweet roll. Oat cake bear claw pudding pastry gummies.
+                </div>
+                <div class="media-footer">
+                <a href="#!"><small>Reply</small></a>
+                <a href="#!"><small>Like</small></a>
+                </div>
+            </div>
+        </li>
+        </ul>
+    </div>
+    </div>
+</div>
 
 ## Block Images
 
@@ -33,17 +58,26 @@ Avatars are used in three sizes and styled as follows:
 
 <img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png">
 
+<codeblock html='<img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+' react='' />
+
 **Small:** Square image with corners rounded by **4px**. Sized at **26 x 26 pixels**.
 
 Used on small components where the user would need to be identified, such as tags or chat.
 
 <img alt="medium avatar" class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
 
+<codeblock html='<img alt="medium avatar" class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+' react='' />
+
 **Medium:** Square image with corners rounded by **4px**. Sized at **50 x 50 pixels**.
 
 Used in combination with other components such as comments, chat, cards and anywhere else you would need to identify the user.
 
 <img alt="large avatar" class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+
+<codeblock html='<img alt="large avatar" class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+' react='' />
 
 **Large**: Square image with corners rounded by **4px**. Sized at **115 x 115 pixel**s.
 
