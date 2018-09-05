@@ -31,7 +31,7 @@ const Sidenav = (props) => (
             }
           }
           overview:allMarkdownRemark(
-            filter: 
+            filter:
               {frontmatter: {path: {regex: "/\/overview\//"}}
             },
             sort:{
@@ -51,7 +51,7 @@ const Sidenav = (props) => (
             }
           }
           content:allMarkdownRemark(
-            filter: 
+            filter:
             {frontmatter: {path: {regex: "/\/content\//"}}
             },
             sort:{
@@ -147,15 +147,14 @@ const Sidenav = (props) => (
         );
       }
       return (
-        <div>
-          <Nav vertical id="sidenav"> <h4 id = "title">Components</h4>
+        <div id="sidenav">
+          <Nav style={{'margin-top':'110px', 'margin-bottom':'40px'}}> <h4 id = "title">Components</h4>
             {subPieces}
           </Nav>
         </div>
       )
     }}
-  /> 
+  />
 );
 
 export default translate("default")(Sidenav);
-

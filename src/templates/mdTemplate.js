@@ -2,7 +2,7 @@ import React from 'react';
 import rehypeReact from 'rehype-react';
 import * as reactstrap from 'reactstrap';
 import { graphql } from 'gatsby';
-import { Row, Col } from 'reactstrap';
+import { Row, Col, Container } from 'reactstrap';
 import { translate } from 'react-i18next';
 
 import Sidenav from '../components/sidenav';
@@ -26,17 +26,13 @@ const Template = ({
   }).Compiler;
   return (
     <Layout>
-      <Row>
-        <Col xs="3">
           <Sidenav path={path} />
-        </Col>
-        <Col>
-          {(i18n.language === "en" || fr === null) ?
-            <div className="col-sm">{renderAst(eng.htmlAst)}</div> :
-            <div className="col-sm">{renderAst(fr.htmlAst)}</div>
-          }
-        </Col>
-      </Row>
+          <Container className="mt-2" style={{ 'max-width': '1250px', 'padding-left':'310px' }}>
+            {(i18n.language === "en" || fr === null) ?
+              <div className="col-sm">{renderAst(eng.htmlAst)}</div> :
+              <div className="col-sm">{renderAst(fr.htmlAst)}</div>
+            }
+          </Container>
     </Layout>
   );
 }
