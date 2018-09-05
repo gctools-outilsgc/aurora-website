@@ -98,13 +98,13 @@ A drop shadow is used to show the user that the notification can be closed by cl
 
 The colours used for notifications are from the design system’s palette.
 
-Hex colour for error notifications: \#D3080C
+Hex colour for error notifications: <badge style="background-color: #D3080C">#D3080C</badge>
 
-Hex colour for warning notifications: \#FF9900
+Hex colour for warning notifications: <badge style="background-color: #FF9900">#FF9900</badge>
 
-Hex colour for information notifications: \#269ABC
+Hex colour for information notifications: <badge style="background-color: #269ABC">#269ABC</badge>
 
-Hex colour for success notifications: \#278400
+Hex colour for success notifications: <badge style="background-color: #278400">#278400</badge>
 
 ### **Position**
 

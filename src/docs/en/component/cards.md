@@ -36,7 +36,14 @@ Not all of these elements are necessary in every card. You can choose the elemen
 
 Basic cards can be used as containers for any type of information are are sized depending on the content. Basic cards form the foundation for more complex cards which may include any combination of elements.
 
-*Basic card component*
+<div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <div class="card-subtitle text-muted">Meta Information</div>
+    <p class="card-text">Some quick example text to build on the card title</p>
+    <a href="#" class="card-link">Another link</a>
+    </div>
+</div>
 
 Basic cards are styled as follows:
 
@@ -47,7 +54,15 @@ White (#FFFFFF) rectangle with border radius of 4px and a drop shadow of 15% opa
 
 Image cards use the basic card template but include an image above the header.
 
-*Image card component*
+<div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+          <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1638953b4a7%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1638953b4a7%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2299.125%22%20y%3D%2296.3%22%3EImage%20cap%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <div class="card-subtitle text-muted">Meta Information</div>
+    <p class="card-text">Some quick example text to build on the card title</p>
+    <a href="#" class="card-link">Another link</a>
+    </div>
+</div>
 
 Image cards are styled as follows:
 
@@ -59,7 +74,18 @@ The image is placed 20px above the header. The image spans the entire width of t
 
 Actionable cards use the basic card template, but include additional components below the main content. Example of additional components may include primary or secondary buttons, icon buttons, or avatars. Actionable cards can also be combined with the image card style.
 
-*Actionable card component*
+<div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+    <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1638953b4a7%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1638953b4a7%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2299.125%22%20y%3D%2296.3%22%3EImage%20cap%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <div class="card-subtitle text-muted">Meta Information</div>
+    <p class="card-text">Some quick example text to build on the card title</p>
+    </div>
+    <div class="card-footer">
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-outline-primary">Secondary</button>
+    </div>
+</div>
 
 Actionable cards are styled as follows:
 
@@ -69,39 +95,49 @@ A second divider is placed 12px below the content. Actionable items (i.e. button
 
 ## Complex Cards
 
-Cards can technically include any number of component combinations. Using the base styles above, components such as placeholder text (metadate), avatars, icon buttons, buttons can be added below the header, or within the actionable section below the main content.
+Cards can technically include any number of component combinations. Using the base styles above, components such as placeholder text (metadate), avatrs, icon buttons, buttons can be added below the header, or within the actionable section below the main content.
 
-![Example of a complex card 1]
-<div className="row" style="width: 100%; justify-content: space-between;">
-    <card className="col text-center" style="maxWidth: 300px; margin: 0 auto;">
-        <cardbody>
-        <cardtitle>Complex Card 1</cardtitle>
-        <hr />
-        <cardtext>This card contains multiple types of buttons</cardtext>
-        <button color="secondary" className="col text-center" style="maxWidth: 300px;" block>Do something</button>
-        <button outline="true" color="primary" className="col text-center" style="maxWidth: 300px; margin-top: 10px" block>Do something else</button>
-        <button outline color="warning" className="col text-center" style="maxWidth: 300px; margin-top: 10px" block>Do <i>nothing</i></button>
-        </cardbody>
-    </card>
-    <card className="col text-left" style="maxWidth: 300px; margin: 0 auto;">
-        <img src="https://yt3.ggpht.com/a-/ACSszfEbdtkOd9P1y-uljH_k64qzPPSdMvymt3mkmQ=s900-mo-c-c0xffffffff-rj-k-no" alt="GCTools logo" width="100%" />  
-        <cardbody>
-        <cardtitle>Main Title</cardtitle>
-        <cardsubtitle>Meta information</cardsubtitle>
-        <cardtext>This is where you would write the description of the card. Add information that is clear and concise.</cardtext>
-        <hr />
-            <button outline xs="auto" className="col" size="sm">Secondary</button> <button outline className="col" size="sm">Secondary</button>
-        </cardbody>
-    </card>
-    <card className="col text-left" style="maxWidth: 300px; margin: 0 auto;">
-        <cardbody>
-        <cardtitle>Complex Card 3</cardtitle>
-        <hr />
-        <cardtext>This card's text is on the left rather than centered</cardtext>
-        <cardtext>
-            <small className="text-muted">August 29th, 2018</small>
-        </cardtext>
-        <button outline className="col text-center" style="maxWidth: 300px;" block>Button in a card</button>
-        </cardbody>
-    </card>
+<div class="card card-profile mb-2 d-inline-block" style="max-width: 18rem;">
+  
+          <!--
+  <div class="card-header" style="background-image: url(http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg); height:100px; background-size:cover;"></div>
+  
+          -->
+          
+    <img class="card-img-top" style="height: 100px;" src="http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg">
+    <div class="card-body">
+        <img alt="..." class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+        <div>
+        <h5 class="card-title">Name or Group</h5>
+        <p class="text-muted">Job title or meta information</p>
+        <button type="button" class="btn btn-primary">Call to Action</button>
+        </div>
+        
+    </div>
 </div>
+
+<div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <div class="card-subtitle text-muted">Meta Information</div>
+    <p class="card-text">Some quick example text to build on the card title. Here is some extra information, this could be something wonderful!</p>
+    <button type="button" class="btn btn-light"><span class="fa fa-heart"></span><span class="sr-only">Like</span></button>
+    <button type="button" class="btn btn-light"><span class="fa fa-comment"></span><span class="sr-only">Comment</span></button>
+    </div>
+</div>
+
+<div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <div class="card-subtitle text-muted">Meta Information</div>
+    <p class="card-text">Some quick example text to build on the card title</p>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    </div>
+    <div class="card-footer">Extra information</div>
+</div>
+
+![Example of a complex card 1](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/card%20example_2.png)
+![Example of a complex card 2](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/card%20example_3.png)
+![Example of a complex card 3](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/card%20example_6.png)

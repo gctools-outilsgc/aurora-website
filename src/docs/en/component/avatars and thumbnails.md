@@ -31,19 +31,19 @@ When users upload their avatar, they are prompted to crop the image to fit into 
 
 Avatars are used in three sizes and styled as follows:
 
-*Small avatar component*
+<img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png">
 
 **Small:** Square image with corners rounded by **4px**. Sized at **26 x 26 pixels**.
 
 Used on small components where the user would need to be identified, such as tags or chat.
 
-*Medium avatar component*
+<img alt="medium avatar" class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
 
 **Medium:** Square image with corners rounded by **4px**. Sized at **50 x 50 pixels**.
 
 Used in combination with other components such as comments, chat, cards and anywhere else you would need to identify the user.
 
-*Large avatar component*
+<img alt="large avatar" class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
 
 **Large**: Square image with corners rounded by **4px**. Sized at **115 x 115 pixel**s.
 

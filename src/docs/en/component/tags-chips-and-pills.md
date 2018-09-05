@@ -9,7 +9,25 @@ title: "Tags, chips and pills"
 
 ## Tags
 
-![](.gitbook/assets/tags.png)
+<div class="mt-2">
+    <a href="#!" class="badge badge-primary badge-tag">HTML</a>
+    <a href="#!" class="badge badge-primary badge-tag">CSS</a>
+    <a href="#!" class="badge badge-primary badge-tag">JavaScript</a>
+</div>
+<div class="mt-2">
+    <a href="#!" class="badge badge-primary badge-tag">
+    HTML
+    <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
+    </a>
+    <a href="#!" class="badge badge-primary badge-tag">
+    CSS
+    <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
+    </a>
+    <a href="#!" class="badge badge-primary badge-tag">
+    JavaScript
+    <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
+    </a>
+</div>
 
 Tags represent a set of user-generated keywords that help label, organize and categorize content. They are useful because they provide metadata that makes content searchable. Tags can be added or removed from content by the author.
 
@@ -40,6 +58,10 @@ Chips have 3 different variations and are displayed as follows:
 ## Pills
 
 ![](.gitbook/assets/pills.png)
+<div class="mt-2">
+    <span class="badge badge-primary">Primary</span>
+    <span class="badge badge-secondary">Secondary</span>
+</div>
 
 Pills are similar to chips, but aren't necessarily associated with a particular user. They are styled the same but without the left-aligned avatar.
 
