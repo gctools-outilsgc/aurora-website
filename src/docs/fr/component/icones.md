@@ -6,6 +6,13 @@ title: "Icônes"
 ---
 
 # Icônes
+
+<i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"></i>
+<i class="fa fa-refresh fa-spin" style="font-size:24px"></i>
+<i class="fa fa-spinner fa-spin" style="font-size:24px"></i>
+<i style="font-size:24px" class="fa">&#xf013;</i>
+<i style="font-size:24px" class="fa fa-trash" aria-hidden="true"></i>
+
 Les icônes de ce système utilisent les icônes SVG de [Font Awesome](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit).
 
 Les icônes SVG sont recommandées plutôt que les polices d’icônes pour diverses raisons :
