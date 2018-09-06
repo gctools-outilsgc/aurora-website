@@ -48,8 +48,8 @@ Text fields are styled as follows:
 
 Normal: Rectangle with a height of 42px, and a border radius of 4px. Stroke width of 1px with the colour <badge style="background-color: #CCCCCC">#CCCCCC</badge>. There is 10px of padding between the field and the label. The input field a padding of 15px by 12px.
 
-<label for="exampleInputEmail1">Form label</label>
-<input type="email" class="form-control" id="exampleInputEmail1"
+<label for="exampleInputEmail2">Form label</label>
+<input type="email" class="form-control" id="exampleInputEmail2"
         aria-describedby="emailHelp"
         placeholder="Enter email">
 <small id="emailHelp" class="form-text text-muted">Form Text - To give hints and things</small>

@@ -16,7 +16,7 @@ _Choose file_ is the action button to be selected by the user. Once clicked, the
 File upload inputs have four states:
 
 <div class="custom-file">
-    <input type="file" id="file" class="custom-file-input">
+    <input type="file" id="file" class="custom-file-input" aria-label="upload a file">
     <span class="custom-file-control"></span>
     <label class="custom-file-label" for="customFile">Choose file</label>
 </div>
@@ -34,7 +34,7 @@ File upload inputs have four states:
 The input field is aligned to the right of the button. It is a 42px high rectangle with a border radius of 4px. The background colour is \#FFFFFF, border colour is \#CCCCCC with a drop shadow of 1px blur 20% opacity black. Text is aligned to the left of the input field and follows the standards for [placeholder text](typography.md). The field has a padding of 11px.
 
 <div class="custom-file">
-    <input type="file" id="file" class="custom-file-input">
+    <input type="file" id="file" class="custom-file-input" aria-label="upload a file">
     <span class="custom-file-control"></span>
     <label class="custom-file-label" for="customFile">Choose file</label>
 </div>
@@ -52,7 +52,7 @@ The input field is aligned to the right of the button. It is a 42px high rectang
 The input field is aligned to the right of the button. It is a 42px high rectangle with a border radius of 4px. The background colour is \#FFFFFF, border colour is \#CCCCCC. Text is aligned to the left of the input field and follows the standards for [placeholder text](typography.md). The field has a padding of 11px.
 
 <div class="custom-file">
-    <input type="file" id="file" class="custom-file-input">
+    <input type="file" id="file" class="custom-file-input" aria-label="upload a file">
     <span class="custom-file-control"></span>
     <label class="custom-file-label" for="customFile">Choose file</label>
 </div>
@@ -71,7 +71,7 @@ The input field is aligned to the right of the button. It is a 42px high rectang
 
 
 <div class="custom-file">
-    <input type="file" id="file" class="custom-file-input" disabled>
+    <input type="file" id="file" class="custom-file-input" disabled aria-label="upload a file">
     <span class="custom-file-control"></span>
     <label class="custom-file-label" for="customFile">Choose file</label>
 </div>

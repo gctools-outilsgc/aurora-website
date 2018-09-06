@@ -77,22 +77,22 @@ Labels for radio buttons are aligned to the right of the button.
 **Normal:** 18px by 18px circle, background colour of \#F9F9F9, border colour of \#96A8B2 at 1px
 
 <div class="custom-control custom-radio">
-    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-    <label class="custom-control-label" for="customRadio1">Custom radio</label>
+    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio2">Custom radio</label>
 </div>
 
 **Hover:** 18px by 18px circle, background color \#FFFFFF, border colour of \#4D5D6C at 1px
 
 <div class="custom-control custom-radio">
-    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-    <label class="custom-control-label" for="customRadio1">Custom radio</label>
+    <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio3">Custom radio</label>
 </div>
 
 **Focus:** 18px by 18px circle, border radius of 4px, background color \#FFFFFF, border colour of \#4D5D6C at 3px
 
 <div class="custom-control custom-radio">
-    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-    <label class="custom-control-label" for="customRadio1">Custom radio</label>
+    <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio4">Custom radio</label>
 </div>
 
 **Active:** 18px by 18pxcircle, border radius of 4px, background colour \#4D5D6C, border colour of \#96A8B2. Includes filled in smaller circle within the full button.
