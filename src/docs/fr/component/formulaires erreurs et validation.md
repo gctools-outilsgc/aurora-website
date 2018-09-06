@@ -20,8 +20,25 @@ Un rectangle de la même largeur que le contenant du formulaire. Une bordure de 
 
 L’en-tête de la boîte utilise le style d’en-tête 2 et le texte utilise le style paragraphe. Une copie d’erreur est affichée dans une liste numérotée en utilisant no 923534. Chaque erreur est un lien qui mène l’utilisateur à l’erreur en ligne sur la page.
 
-*Élément de boîte d’erreur*
+<section class="alert alert-danger alert-icon-border">
+    <h2>Field error or required</h2>
+    <ul class="list-unstyled">
+    <li><a href="#" class="alert-link">1 - Username already exists</a></li>
+    <li><a href="#" class="alert-link">2 - Invalid Email</a></li>
+    <li><a href="#" class="alert-link">3 - Password must match</a></li>
+    </ul>
+</section>
 
+<codeblock html='
+    <section class="alert alert-danger alert-icon-border">
+        <h2>Field error or required</h2>
+        <ul class="list-unstyled">
+        <li><a href="#" class="alert-link">1 - Username already exists</a></li>
+        <li><a href="#" class="alert-link">2 - Invalid Email</a></li>
+        <li><a href="#" class="alert-link">3 - Password must match</a></li>
+        </ul>
+    </section>
+' react='' />
 
 ## Erreurs en ligne
 
@@ -31,7 +48,15 @@ Les erreurs en ligne sont affichées sous le champ de saisie et indiquent à l�
 
 Les erreurs en ligne sont conçues comme suit :
 
-*Élément d’erreur en ligne*
+<label for="exampleInputText1">Username</label>
+<input type="text" class="form-control is-invalid" aria-describedby="Text1Error" id="exampleInputText1" placeholder="Input Example">
+<small id="Text1Error" class="form-text text-danger">This is the error message</small>
+
+<codeblock html='
+    <label for="exampleInputText1">Username</label>
+    <input type="text" class="form-control is-invalid" aria-describedby="Text1Error" id="exampleInputText1" placeholder="Input Example">
+    <small id="Text1Error" class="form-text text-danger">This is the error message</small>
+' react='' />
 
 L’icône « x » à la gauche du texte d’erreur. L’erreur est placée 10px en dessous du champ de saisie. Le texte est dans la police Nunito sans régulier à 14px de la couleur no 925534.
 

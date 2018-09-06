@@ -6,7 +6,32 @@ title: "Images, avatars et vignettes"
 ---
 
 # Images, avatars et vignettes
-*Exemple d’image utilisant le prototype de publication de blogue*
+<div class="mt-3">
+    <div class="card">
+    <div class="card-body">
+        <ul class="list-unstyled">
+        <li class="media media-comment">
+            <a href="#!">
+                <img alt="..." class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+            </a>
+            <div class="media-body">
+                <div class="media-heading">
+                <a href="#!">John Doe</a>
+                <small class="text-muted">1 hour ago</small>
+                </div>
+                <div>Ice cream macaroon croissant macaroon powder. Bear claw croissant candy canes halvah oat cake. Lollipop gummies jelly-o liquorice lollipop.
+                Apple pie chocolate sweet roll. Chocolate bar candy canes lollipop gummies. Sesame snaps marzipan biscuit powder topping sweet roll. Oat cake bear claw pudding pastry gummies.
+                </div>
+                <div class="media-footer">
+                <a href="#!"><small>Reply</small></a>
+                <a href="#!"><small>Like</small></a>
+                </div>
+            </div>
+        </li>
+        </ul>
+    </div>
+    </div>
+</div>
 
 ## Images en série
 Les images en série sont séparées des autres éléments sur la page (c’est-à-dire le texte) et sont habituellement centrées avec un remplissage prédéterminé. Dans une mise en page comprenant du texte, le texte continuera sur la ligne suivante après l’image.
@@ -25,17 +50,26 @@ Lorsque les utilisateurs téléchargent leur avatar, ils sont amenés à rogner 
 
 Les avatars sont utilisés en trois tailles et sont stylisés comme suit :
 
-*Éléments des petits avatars*
+<img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+
+<codeblock html='<img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+' react='' />
 
 **Petit** : image carrée avec les coins arrondis par 4px. Taille à 26 x 26 pixels.
 Utilisés sur les petits éléments où l’utilisateur a besoin d’être identifié comme sur des mots-clés ou le clavardage.
 
-*Éléments des moyens avatars*
+<img alt="medium avatar" class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+
+<codeblock html='<img alt="medium avatar" class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+' react='' />
 
 **Moyen** : image carrée avec les coins arrondis par 4px. Taille à 50 x 50 pixels.
 Utilisée en combinaison avec d’autres éléments tels que des commentaires, le clavardage, des cartes et tout autre endroit où vous auriez besoin d’identifier l’utilisateur.
 
-*Élément des grands avatars*
+<img alt="large avatar" class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+
+<codeblock html='<img alt="large avatar" class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+' react='' />
 
 **Grand** : image carrée avec les coins arrondis par 4px. Taille à 115 x 115 pixels.
 Utilisé directement sur le profil de l’utilisateur.

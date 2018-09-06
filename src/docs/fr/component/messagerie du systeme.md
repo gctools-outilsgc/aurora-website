@@ -12,11 +12,40 @@ Les notifications du système sont de courts messages qui apparaissent pour comm
 Les notifications conçues du système en ordre décroissant de sévérité :
 
 ## Erreur
+
+<Alert color="danger">
+    This is a danger alert with <a href="#" class="alert-link">an example link</a>.
+</Alert>
+
+<codeblock html='
+    <div class="alert alert-danger" role="alert">
+        This is a danger alert with <a href="#" class="alert-link">an example link</a>.
+    </div>
+' react='
+<Alert color="danger">
+    This is a danger alert with <a href="#" class="alert-link">an example link</a>.
+</Alert>
+'></codeblock>
+
 Les notifications d’erreur sont utilisées pour les pannes de système et les erreurs de l’utilisateur.
 
 Exemple d’erreur : « Votre mot de passe doit contenir au moins huit (8) caractères. »
 
 ## Avertissement
+
+<Alert color="warning">
+    This is a warning alert with <a href="#" class="alert-link">an example link</a>.
+</Alert>
+
+<codeblock html='
+    <div class="alert alert-warning" role="alert">
+        This is a warning alert with <a href="#" class="alert-link">an example link</a>.
+    </div>
+' react='
+<Alert color="warning">
+    This is a warning alert with <a href="#" class="alert-link">an example link</a>.
+</Alert>
+'></codeblock>
 
 Les notifications d’avertissement sont utilisées pour les avis d’éventuelles erreurs.
 
@@ -24,11 +53,39 @@ Exemple d’avertissement : « Verr. Maj. est activé ce qui pourrait faire en s
 
 ## Information
 
+<Alert color="info">
+    This is an info alert with <a href="#" class="alert-link">an example link</a>.
+</Alert>
+
+<codeblock html='
+    <div class="alert alert-info" role="alert">
+        This is an info alert with <a href="#" class="alert-link">an example link</a>.
+    </div>
+' react='
+<Alert color="info">
+    This is an info alert with <a href="#" class="alert-link">an example link</a>.
+</Alert>
+'></codeblock>
+
 Les notifications d’information servent à fournir des renseignements supplémentaires et des notes à l’utilisateur qu’elles peuvent trouver utiles selon le contexte.
 
 Exemple d’information : « Vous pouvez changer votre mot de passe dans les paramètres. »
 
 ## Succès
+
+<Alert color="success">
+    This is a success alert with <a href="#" class="alert-link">an example link</a>.
+</Alert>
+
+<codeblock html='
+    <div class="alert alert-success" role="alert">
+        This is a success alert with <a href="#" class="alert-link">an example link</a>.
+    </div>
+' react='
+<Alert color="success">
+    This is a success alert with <a href="#" class="alert-link">an example link</a>.
+</Alert>
+'></codeblock>
 
 Les notifications de succès sont utilisées pour confirmer qu’une tâche a été achevée avec succès.
 
@@ -48,13 +105,13 @@ Une ombre portée est utilisée pour montrer à l’utilisateur que la notificat
 
 Les couleurs utilisées pour les notifications sont de la palette de conception du système.
 
-Couleur hexadécimale pour les notifications d’erreur : no D3080C
+Couleur hexadécimale pour les notifications d’erreur : <badge style="background-color: #D3080C">no D3080C</badge>
 
-Couleur hexadécimale pour les notifications d’avertissement : no FF9900
+Couleur hexadécimale pour les notifications d’avertissement : <badge style="background-color: #FF9900">no FF9900</badge>
 
-Couleur hexadécimale pour les notifications d’information : no 269ABC
+Couleur hexadécimale pour les notifications d’information : <badge style="background-color: #269ABC">no 269ABC</badge>
 
-Couleur hexadécimale pour les notifications de succès : no 278400
+Couleur hexadécimale pour les notifications de succès : <badge style="background-color: #278400">no 278400</badge>
 
 ### Emplacement
 

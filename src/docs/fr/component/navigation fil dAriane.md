@@ -18,7 +18,27 @@ Le fil d’Ariane devrait être complémentaire à la navigation principale et n
 
 Le fil d’Ariane dans le système de conception est comme suit :
 
-*Composante du fil d’Ariane*
+<breadcrumb>
+    <breadcrumbitem><a href="#">Main Page</a></breadcrumbitem>
+    <breadcrumbitem><a href="#">Secondary Page</a></breadcrumbitem>
+    <breadcrumbitem active="true">Current Page</breadcrumbitem>
+</breadcrumb>
+
+<codeblock html='
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Main Page</a></li>
+            <li class="breadcrumb-item"><a href="#">Secondary Page</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Current Page</li>
+        </ol>
+    </nav>
+' react='
+<Breadcrumb>
+    <BreadCrumbItem><a href="#">Main Page</a></BreadCrumbItem>
+    <BreadCrumbItem><a href="#">Secondary Page</a></BreadCrumbItem>
+    <BreadCrumbItem active="true">Current Page</BreadCrumbItem>
+</Breadcrumb>
+'></codeblock>
 
 Chaque couche du fil d’Ariane est stylisée à l’aide du texte de lien. Le dernier élément n’est jamais un lien puisqu’il s’agit de la page actuelle et qu’il n’est pas cliquable. Le dernier élément est stylisé à l’aide du texte normal.
 

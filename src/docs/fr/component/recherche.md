@@ -16,7 +16,7 @@ Il y a deux options de style pour la recherche :
 
 **Option 1**
  
-Le champ de texte ayant un remplissage de **12 px.** À droite du champ, il y a une icône de recherche qui sert de bouton d’action. L’icône a la taille de **1,2 em** et a la couleur no **\(\#666666\)**.
+Le champ de texte ayant un remplissage de **12 px.** À droite du champ, il y a une icône de recherche qui sert de bouton d’action. L’icône a la taille de **1,2 em** et a la couleur no <badge style="background-color: #666666">#666666</badge>.
 
 **Option 2**
  

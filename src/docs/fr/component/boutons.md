@@ -8,6 +8,103 @@ title: "Boutons"
 
 # Boutons
 
+<container style="width: 100%; margin-bottom: 20px">
+    <mdcol>
+        <row>
+            <mdcol className="col-4"><h5>Buttons</h5> </mdcol>
+            <mdcol className="col-4"><h5>Full width Buttons</h5> </mdcol>
+            <mdcol className="col-4"><h5>Button Groups</h5> </mdcol>
+        </row>
+        <row>
+            <mdcol className="col-1"> <button color="primary">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button color="secondary" outline="true">Secondary</button> </mdcol>
+            <mdcol className="col-2"></mdcol>
+            <mdcol className="col-4"> <button color="primary" block="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> 
+                <buttongroup>
+                    <button color="primary">Left</button>
+                    <button color="primary">Middle</button>
+                    <button color="primary">Right</button>
+                </buttongroup>
+            </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-1"> <button color="primary" active="true">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button color="secondary" outline="true" active="true">Secondary</button> </mdcol>
+            <mdcol className="col-2"></mdcol>
+            <mdcol className="col-4"> <button color="primary" block="true" active="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> 
+                <buttongroup>
+                    <button color="secondary">Left</button>
+                    <button color="primary">Middle</button>
+                    <button color="primary">Right</button>
+                </buttongroup>
+            </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-1"> <button color="primary" disabled="true">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button color="secondary" outline="true" disabled="true">Secondary</button> </mdcol>
+            <mdcol className="col-2"></mdcol>
+            <mdcol className="col-4"> <button color="primary" block="true" disabled="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> 
+                <buttongroup>
+                    <button color="primary">Left</button>
+                    <button color="secondary">Middle</button>
+                    <button color="primary">Right</button>
+                </buttongroup>
+            </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-1"> <button size="sm" color="primary">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button size="sm" color="primary">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> <button color="primary" block="true" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> 
+                <buttongroup>
+                    <button color="primary">Left</button>
+                    <button color="primary">Middle</button>
+                    <button color="secondary">Right</button>
+                </buttongroup>
+            </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-1"> <button size="sm" color="primary" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button size="sm" color="primary" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> <button color="primary" block="true" active="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> 
+                <buttongroup>
+                    <button color="primary" disabled="true">Left</button>
+                    <button color="primary">Middle</button>
+                    <button color="primary" disabled="true">Right</button>
+                </buttongroup>
+            </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-4"></mdcol>
+            <mdcol className="col-4"> <button color="primary" block="true" disabled="true" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> 
+                <buttongroup>
+                    <button color="primary">Left</button>
+                    <button color="primary" disabled="true">Middle</button>
+                    <button color="primary">Right</button>
+                </buttongroup>
+            </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-4"><h5>Dropdown Buttons</h5> </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-1"><mdbuttondropdown color="primary"></mdbuttondropdown></mdcol>
+            <mdcol className="col-1"><mdbuttondropdown color="secondary"></mdbuttondropdown></mdcol>
+            <mdcol className="col-1"><mdbuttondropdown color="primary" disabled="true"></mdbuttondropdown></mdcol>
+            <mdcol className="col-1"><mdbuttondropdown color="secondary" disabled="true"></mdbuttondropdown></mdcol>
+        </row> 
+    </mdcol>
+</container>
+
 ## Pratiques exemplaires
 Les boutons ont tendance à avoir une importance visuelle sur n’importe quelle page ou fenêtre. Les boutons primaires, les boutons qui indiquent un appel à l’action, sont les plus importants. Les boutons secondaires, qui sont moins couramment utilisés, devraient être moins apparents que les boutons primaires. Les boutons indiquent toujours une action et ne doivent pas être utilisés pour la navigation. Les boutons sont placés où un utilisateur s’attend à les voir, c’est-à-dire à proximité des autres éléments liés à l’action concernée.
 
@@ -50,7 +147,9 @@ Les boutons primaires utilisent les couleurs primaires avec du texte blanc. Les 
 
 Voici les caractéristiques de chacun des états pour les boutons primaires :
 
-*Élément de bouton normal*
+<button color="primary">Primary</button>
+
+<codeblock html='<button type="button" class="btn btn-primary">Primary</button>' react='<Button color="primary">Primary</Button>'></codeblock>
 
 **État normal** : Couleur primaire à 100 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px.
 
@@ -62,7 +161,9 @@ Voici les caractéristiques de chacun des états pour les boutons primaires :
 
 **État accentué** : Couleur primaire à 80 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px. Comprends un trait de 3px dans une couleur primaire.
 
-*Élément de bouton désactivé*
+<button color="primary" disabled="true">Primary</button>
+
+<codeblock html='<button type="button" class="btn btn-primary" disabled>Primary</button>' react='<Button color="primary" disabled>Primary</Button>'></codeblock>
 
 **État désactivé** : Couleur primaire à 60 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px.
 
@@ -80,7 +181,10 @@ Les boutons secondaires dans ce système sont transparents avec une couleur de t
 
 Voici les caractéristiques de chacun des états pour les boutons :
 
-*Élément de bouton secondaire normal*
+<button color="secondary">Secondary</button>
+
+
+<codeblock html='<button type="button" class="btn btn-secondary">Secondary</button>' react='<Button color="secondary">Secondary</Button>'></codeblock>
 
 **État normal** : Transparent avec un trait de 1px utilisant la couleur no002D42, le texte est écrit dans la même couleur. La bordure est d’un rayon de 4px et le remplissage de 15px.
 
@@ -92,7 +196,9 @@ Voici les caractéristiques de chacun des états pour les boutons :
 
 **État accentué** : Transparent avec un trait de 3px utilisant no002D42, le texte est écrit en no002D42. La bordure est d’un rayon de 4px et le remplissage de 15px.
 
-*Élément de bouton secondaire désactivé*
+<button color="secondary" disabled="true">Secondary</button>
+
+<codeblock html='<button type="button" class="btn btn-secondary" disabled>Secondary</button>' react='<Button color="secondary" disabled>Secondary</Button>'></codeblock>
 
 **État désactivé** : Remplissage de couleur no CECECE avec du texte blanc. La bordure est d’un rayon de 4px et le remplissage de 15px.
 
@@ -102,7 +208,32 @@ Les boutons secondaires sont habituellement placés à proximité du bouton prim
 ## Boutons de menu déroulant
 Cliquer sur les boutons de menu déroulant affiche une liste d’éléments. Ces boutons sont utilisés pour des processus en deux étapes qui pourraient nécessiter plus d’options particulières pour une seule action.
 
-*Élément de bouton de menu déroulant normal*
+<mdbuttondropdown color="primary">
+</mdbuttondropdown>
+
+<codeblock html='
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+    </div>
+' react='
+<ButtonDropdown direction="down" isOpen={this.state.dropdownOpen} toggle={this.toggle} style={{marginBottom: "15px"}} color={this.props.color}>
+    <DropdownToggle caret {...this.props}>
+        Reply
+    </DropdownToggle>
+    <DropdownMenu>
+        <DropdownItem>Action 1</DropdownItem>
+        <DropdownItem>Action 2</DropdownItem>
+        <DropdownItem>Action 3</DropdownItem>
+    </DropdownMenu>
+</ButtonDropdown>
+'></codeblock>
 
 **État normal** : Semblables aux boutons primaires, les boutons de menu déroulant utilisent une couleur primaire à 100 % d’opacité, du texte blanc avec une bordure d’un rayon de 4px et un remplissage de 15px. La flèche du menu déroulant représente un espace de 30px par 40 px, qui est séparé du bouton primaire en utilisant une ligne blanche. La flèche utilise un espace de 15px de largeur et de 8px de hauteur.
 
@@ -123,4 +254,24 @@ Les groupes de boutons sont une façon stylisée de mettre plusieurs boutons ens
 
 Les actions primaires sont alignées à gauche, les actions secondaires sont au milieu et les actions d’avertissement ou de destruction sont alignées à droite.
 
-*Élément de groupes de boutons*
+<div class="mt-2">
+    <div class="btn-group" role="group" aria-label="Basic example of button group">
+        <button type="button" class="btn btn-primary">Left</button>
+        <button type="button" class="btn btn-primary">Middle</button>
+        <button type="button" class="btn btn-primary">Right</button>
+    </div>
+</div>
+
+<codeblock html='
+    <div class="btn-group" role="group" aria-label="Basic example of button group">
+        <button type="button" class="btn btn-primary">Left</button>
+        <button type="button" class="btn btn-primary">Middle</button>
+        <button type="button" class="btn btn-primary">Right</button>
+    </div>
+' react='
+<ButtonGroup style="margin-bottom: 15px">
+    <Button color="primary">Left</Button>
+    <Button color="primary">Middle</Button>
+    <Button color="primary">Right</Button>
+</ButtonGroup>
+'></codeblock>

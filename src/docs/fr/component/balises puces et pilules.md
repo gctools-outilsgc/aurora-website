@@ -9,6 +9,48 @@ title: "Balises, puces et pilules"
 
 ## Balises
 
+<div class="mt-2">
+    <a href="#!" class="badge badge-primary badge-tag">HTML</a>
+    <a href="#!" class="badge badge-primary badge-tag">CSS</a>
+    <a href="#!" class="badge badge-primary badge-tag">JavaScript</a>
+</div>
+<div class="mt-2">
+    <a href="#!" class="badge badge-primary badge-tag">
+    HTML
+    <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
+    </a>
+    <a href="#!" class="badge badge-primary badge-tag">
+    CSS
+    <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
+    </a>
+    <a href="#!" class="badge badge-primary badge-tag">
+    JavaScript
+    <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
+    </a>
+</div>
+
+<codeblock html='
+    <div class="mt-2">
+        <a href="#!" class="badge badge-primary badge-tag">HTML</a>
+        <a href="#!" class="badge badge-primary badge-tag">CSS</a>
+        <a href="#!" class="badge badge-primary badge-tag">JavaScript</a>
+    </div>
+    <div class="mt-2">
+        <a href="#!" class="badge badge-primary badge-tag">
+        HTML
+        <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
+        </a>
+        <a href="#!" class="badge badge-primary badge-tag">
+        CSS
+        <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
+        </a>
+        <a href="#!" class="badge badge-primary badge-tag">
+        JavaScript
+        <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
+        </a>
+    </div>
+' react='' />
+
 Les balises représentent un ensemble de mots-clés générés par l’utilisateur qui aident à étiqueter, à organiser et à catégoriser le contenu. Elles sont utiles parce qu’elles fournissent les métadonnées permettant de faire une recherche sur le contenu. Les balises peuvent être ajoutées ou retirées du contenu par l’auteur.
 
 Les balises sont habituellement affichées près du titre du contenu, à proximité d’autres renseignements comme la date d’affichage, le nombre de « J’aime » et le nom de l’auteur.
@@ -20,6 +62,15 @@ Les balises peuvent également comprendre un bouton de suppression aligné à dr
 Les étiquettes sont dimensionnées de façon à correspondre à la longueur des mots-clés et ont un remplissage de 7 px dans la partie supérieure, à droite et dans la partie inférieure et de 10 px à gauche.
 
 ## Puces
+
+<span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png"> User 1</span>
+<span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png"> User 2</span>
+
+<codeblock html='
+    <span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png"> User 1</span>
+    <span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png"> User 2</span>
+' react='' />
+
 
 Les puces représentent les coordonnées, dont habituellement l’avatar et le nom de l’utilisateur, accompagnées d’un lien à son profil.
 
@@ -34,6 +85,18 @@ Les puces ont trois différentes variations et sont affichées comme suit :
 **Pointage** : Même chose que la puce contrôlée par l’utilisateur, mais a une couleur d’arrière-plan no 4D5D6C, et l’icône de suppression est blanc et un « x » transparent y figure. Petit avatar (26 px sur 26px) aligné à gauche.
 
 ## Pilules
+
+<div class="mt-2">
+    <span class="badge badge-primary">Primary</span>
+    <span class="badge badge-secondary">Secondary</span>
+</div>
+
+<codeblock html='
+    <div class="mt-2">
+        <span class="badge badge-primary">Primary</span>
+        <span class="badge badge-secondary">Secondary</span>
+    </div>
+' react='' />
 
 Les pilules sont semblables aux puces, mais ne sont pas nécessairement associées à un utilisateur en particulier. Ils ont le même style, mais sans l’avatar aligné à gauche.
 

@@ -27,6 +27,8 @@ Les utilisateurs doivent être en mesure de lire facilement les étiquettes et d
 Si des renseignements supplémentaires sont nécessaires au-delà de l’étiquette, ces renseignements devraient être publiés dans une infobulle ou une microcopie séparée.
 (Exemple d’image ici)
 
+![Do and don't image representing the correct use of form labels](https://github.com/gctools-outilsgc/design-system-code/blob/documentation/src/img/examples/Form%20Labels.png)
+
 ### Placement des étiquettes
 
 Les étiquettes devraient suivre le format vertical du formulaire. Placez les étiquettes au dessus de leur champ respectif. Groupez une étiquette avec une étiquette avec son champ pour qu’il y ait une distinction claire entre les champs. N’utilisez pas le texte d’espace réservé pour les étiquettes, car cela empêche l’utilisateur de passer en revue de façon appropriée le formulaire. Les étiquettes ont une marge inférieure de 10 px du champ de saisie.
@@ -45,7 +47,9 @@ Dès que l’utilisateur commence à taper dans le champ, le texte d’espace r�
 
 Le style de police du texte d’espace réservé est le « Nunito Sans Regular », à 14 px, no 666666.
 
-Pour obtenir de plus amples renseignements sur les styles de polices du texte d’espace réservé, veuillez consulter la section sur la typographie.
+![Do and don't image representing the correct use of placeholder text](https://github.com/gctools-outilsgc/design-system-code/blob/documentation/src/img/examples/Placeholder%20Text.png)
+
+Pour obtenir de plus amples renseignements sur les styles de polices du texte d’espace réservé, veuillez consulter la section sur la [_Ttypographie_](typographie.md).
 
 ## Microcopie
 La microcopie est le texte dessous et le champ de saisie qui fournit des renseignements supplémentaires sur ce champ. Les microcopies devraient être des phrases brèves qui indiquent à l’utilisateur comment remplir le champ.

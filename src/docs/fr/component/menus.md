@@ -19,25 +19,37 @@ Les menus d’action peuvent être statiques ou contextuels. Les menus statiques
 ### Modèles de menus d’action
 #### Menu d’action standard
 
+![](.gitbook/assets/asset-1.png)
  
 #### Menu en cascade
- 
+
 Utilisé lorsqu’un menu comporte des sous-options.
 
+![](.gitbook/assets/menu1.png)
+
 #### Menu avec option cochée
- 
+
 Utilisé lorsqu’une option ou un état a été sélectionné.
+
+![](.gitbook/assets/menu3.png) 
 
 ### Menus simples
 Les menus simples sont utilisés uniquement pour les appareils mobiles et les tablettes. Ils font appel à l’emboîtement aligné verticalement pour afficher les options du menu de manière à réduire le volume horizontal. L’emboîtement doit apparaître au-dessus de l’élément émetteur, légèrement aligné à gauche. L’élément sélectionné doit être mis en évidence et placé au-dessus de l’élément émetteur.
+
+![Simple menu before selection ](.gitbook/assets/simple-unselected.png)
  
- 
+ ![Simple menu after selecting &quot;Hide&quot;](.gitbook/assets/simpleselected1.png)
+
 ## Mégamenus
 Les mégamenus sont utilisés lorsque vos points de navigation comportent des sous-catégories. Les points de navigation sont regroupés avec des éléments semblables, sous un titre. Tous les éléments doivent être visibles en même temps. Les mégamenus peuvent comporter plusieurs colonnes.
 
 #### Mégamenu standard
+
+![](.gitbook/assets/mega-menu1.png)
  
 #### Mégamenu dynamique
 Utilisé pour inclure du contenu promotionnel ou connexe à l’intention de l’utilisateur.
+
+![](.gitbook/assets/mega-menu.png)
  
 

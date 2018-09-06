@@ -25,9 +25,102 @@ Le bouton secondaire sur la gauche disant « précédent ». Des nombres au mili
 
 Les nombres sont affichés avec Nunito sans gras à 14px. Chaque nombre a un remplissage de 10px.
 
-Le numéro de la page active est indiqué dans un rectangle avec un remplissage de 10px, avec une bordure de 4px. La boîte est affichée à l’aide de la même couleur que les boutons primaires, soit no 002D42, et le nombre est indiqué en texte blanc.
+Le numéro de la page active est indiqué dans un rectangle avec un remplissage de 10px, avec une bordure de 4px. La boîte est affichée à l’aide de la même couleur que les boutons primaires, soit no <badge style="background-color: #002D42">#002D42</badge>, et le nombre est indiqué en texte blanc.
 
-*Élément de pagination* 
+<pagination aria-label="Page navigation example">
+    <paginationitem>
+        <paginationlink href="#">
+        « <!-- previous="true" doesn't work, this needs a solution  -->
+        </paginationlink>
+    </paginationitem>
+    <paginationitem>
+        <paginationlink href="#">
+        1
+        </paginationlink>
+    </paginationitem>
+    <paginationitem>
+        <paginationlink href="#">
+        2
+        </paginationlink>
+    </paginationitem>
+    <paginationitem>
+        <paginationlink href="#">
+        3
+        </paginationlink>
+    </paginationitem>
+    <paginationitem>
+        <paginationlink href="#">
+        4
+        </paginationlink>
+    </paginationitem>
+    <paginationitem>
+        <paginationlink href="#">
+        5
+        </paginationlink>
+    </paginationitem>
+    <paginationitem>
+        <paginationlink href="#">
+        »
+        </paginationlink>
+    </paginationitem>
+</pagination>
+
+<codeblock
+    react='
+    <Pagination>
+        <PaginationItem>
+          <PaginationLink previous href="#" />
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink href="#">
+            1
+          </PaginationLink>
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink href="#">
+            2
+          </PaginationLink>
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink href="#">
+            3
+          </PaginationLink>
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink href="#">
+            4
+          </PaginationLink>
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink href="#">
+            5
+          </PaginationLink>
+        </PaginationItem>
+        <PaginationItem>
+          <PaginationLink next href="#" />
+        </PaginationItem>
+    </Pagination>'
+    html='
+    <nav>
+        <ul class="pagination">
+            <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Previous</span>
+            </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Next</span>
+            </a>
+            </li>
+        </ul>
+    </nav>'>
+</codebloack>
 
 ## Pratiques exemplaires
 

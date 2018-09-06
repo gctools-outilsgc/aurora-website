@@ -35,7 +35,25 @@ Tous ces éléments ne sont pas nécessaires dans chaque carte. Vous pouvez choi
 
 Les cartes de base peuvent être utilisées comme contenants pour n’importe quel type d’information et varient en grosseur selon le contenu. Les cartes de base constituent le fondement pour des cartes plus complexes, ce qui peut comprendre toute combinaison des éléments.
 
-*Composante de la carte de base*
+<div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <div class="card-subtitle text-muted">Meta Information</div>
+        <p class="card-text">Some quick example text to build on the card title</p>
+        <a href="#" class="card-link">Another link</a>
+    </div>
+</div>
+
+<codeblock html='
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <div class="card-subtitle text-muted">Meta Information</div>
+            <p class="card-text">Some quick example text to build on the card title</p>
+            <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+' react='' />
 
 Les cartes de base sont conçues comme suit :
 
@@ -45,7 +63,27 @@ Un rectangle blanc (no FFFFFF) avec un rayon de bordure de 4px et une ombre port
 
 Les cartes d’image utilisent le modèle de carte de base, mais comprennent une image au-dessus de l’en-tête.
 
-*Composante de la carte d’image*
+<div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+          <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1638953b4a7%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1638953b4a7%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2299.125%22%20y%3D%2296.3%22%3EImage%20cap%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <div class="card-subtitle text-muted">Meta Information</div>
+    <p class="card-text">Some quick example text to build on the card title</p>
+    <a href="#" class="card-link">Another link</a>
+    </div>
+</div>
+
+<codeblock html='
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+            <img class="card-img-top" src="image.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <div class="card-subtitle text-muted">Meta Information</div>
+            <p class="card-text">Some quick example text to build on the card title</p>
+            <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+' react='' />
 
 Les cartes d’image sont conçues comme suit :
 
@@ -57,7 +95,33 @@ L’image est placée 20px au-dessus de l’en-tête. L’image s’étend sur t
 
 Les cartes actionnables utilisent le modèle de carte de base, mais comprennent des éléments supplémentaires en dessous du contenu principal. Des exemples d’éléments supplémentaires peuvent comprendre des boutons primaires ou secondaires, des boutons icône ou des avatars. Les cartes actionnables peuvent également être combinées avec le concept de carte d’image.
 
-*Éléments de la carte actionnable*
+<div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+    <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1638953b4a7%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1638953b4a7%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2299.125%22%20y%3D%2296.3%22%3EImage%20cap%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <div class="card-subtitle text-muted">Meta Information</div>
+    <p class="card-text">Some quick example text to build on the card title</p>
+    </div>
+    <div class="card-footer">
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-outline-primary">Secondary</button>
+    </div>
+</div>
+
+<codeblock html='
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+        <img class="card-img-top" src="image.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <div class="card-subtitle text-muted">Meta Information</div>
+            <p class="card-text">Some quick example text to build on the card title</p>
+        </div>
+        <div class="card-footer">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-outline-primary">Secondary</button>
+        </div>
+    </div>
+' react='' />
 
 Les cartes actionnables sont conçues comme suit :
 
@@ -69,4 +133,76 @@ Un deuxième diviseur de 12px est placé sous le contenu. Des points actionnable
 
 Les cartes peuvent techniquement comprendre un certain nombre de combinaisons d’éléments. En utilisant les concepts de base qui précèdent, les éléments comme les espaces de texte réservés (métadates), les avatars, les boutons icônes et les boutons peuvent être ajoutés sous l’en-tête ou dans la section actionnable en dessous du contenu principal.
 
-*Des exemples de différents types de cartes*
+<div class="card card-profile mb-2 d-inline-block" style="max-width: 18rem;">  
+    <img class="card-img-top" style="height: 100px;" src="http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg">
+    <div class="card-body">
+        <img alt="..." class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+        <div>
+        <h5 class="card-title">Name or Group</h5>
+        <p class="text-muted">Job title or meta information</p>
+        <button type="button" class="btn btn-primary">Call to Action</button>
+        </div>
+        
+    </div>
+</div>
+
+<div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <div class="card-subtitle text-muted">Meta Information</div>
+    <p class="card-text">Some quick example text to build on the card title. Here is some extra information, this could be something wonderful!</p>
+    <button type="button" class="btn btn-light"><span class="fa fa-heart"></span><span class="sr-only">Like</span></button>
+    <button type="button" class="btn btn-light"><span class="fa fa-comment"></span><span class="sr-only">Comment</span></button>
+    </div>
+</div>
+
+<div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+    <div class="card-header">Header</div>
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <div class="card-subtitle text-muted">Meta Information</div>
+    <p class="card-text">Some quick example text to build on the card title</p>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    </div>
+    <div class="card-footer">Extra information</div>
+</div>
+
+<codeblock html='
+    <div class="card card-profile mb-2 d-inline-block" style="max-width: 18rem;">  
+        <img class="card-img-top" style="height: 100px;" src="http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg">
+        <div class="card-body">
+            <img alt="..." class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+            <div>
+            <h5 class="card-title">Name or Group</h5>
+            <p class="text-muted">Job title or meta information</p>
+            <button type="button" class="btn btn-primary">Call to Action</button>
+            </div>
+            
+        </div>
+    </div>
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <div class="card-subtitle text-muted">Meta Information</div>
+            <p class="card-text">Some quick example text to build on the card title. Here is some extra information, this could be something wonderful!</p>
+            <button type="button" class="btn btn-light"><span class="fa fa-heart"></span><span class="sr-only">Like</span></button>
+            <button type="button" class="btn btn-light"><span class="fa fa-comment"></span><span class="sr-only">Comment</span></button>
+        </div>
+    </div>
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <div class="card-subtitle text-muted">Meta Information</div>
+            <p class="card-text">Some quick example text to build on the card title</p>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+        </div>
+        <div class="card-footer">Extra information</div>
+    </div>
+' react='' />
+
+![Example of a complex card 1](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/card%20example_2.png)
+![Example of a complex card 2](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/card%20example_3.png)
+![Example of a complex card 3](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/card%20example_6.png)
