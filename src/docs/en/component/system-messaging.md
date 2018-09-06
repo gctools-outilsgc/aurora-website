@@ -13,15 +13,17 @@ Design systems notifications in descending level of severity:
 
 ### Error
 
-![](.gitbook/assets/individual-notification-error.jpg)
+<Alert color="danger">
+    This is a danger alert with <a href="#" class="alert-link">an example link</a>.
+</Alert>
 
 <codeblock html='
     <div class="alert alert-danger" role="alert">
-        Error: You have done something wrong
+        This is a danger alert with <a href="#" class="alert-link">an example link</a>.
     </div>
 ' react='
 <Alert color="danger">
-    Error: You have done something wrong
+    This is a danger alert with <a href="#" class="alert-link">an example link</a>.
 </Alert>
 '></codeblock>
 
@@ -32,15 +34,17 @@ Error example: “Your password must contain at least 8 characters.”
 
 ### Warning
 
-![](.gitbook/assets/individual-notification-warning2.png)
+<Alert color="warning">
+    This is a warning alert with <a href="#" class="alert-link">an example link</a>.
+</Alert>
 
 <codeblock html='
     <div class="alert alert-warning" role="alert">
-        Warning: You are about to make a mistake
+        This is a warning alert with <a href="#" class="alert-link">an example link</a>.
     </div>
 ' react='
 <Alert color="warning">
-    Warning: You are about to make a mistake
+    This is a warning alert with <a href="#" class="alert-link">an example link</a>.
 </Alert>
 '></codeblock>
 
@@ -50,15 +54,17 @@ Warning example: “Caps lock is on which may cause you to enter your password i
 
 ### Information
 
-![](.gitbook/assets/individual-notification-info2.png)
+<Alert color="info">
+    This is an info alert with <a href="#" class="alert-link">an example link</a>.
+</Alert>
 
 <codeblock html='
     <div class="alert alert-info" role="alert">
-        Information: This may be useful to you
+        This is an info alert with <a href="#" class="alert-link">an example link</a>.
     </div>
 ' react='
 <Alert color="info">
-    Information: This may be useful to you
+    This is an info alert with <a href="#" class="alert-link">an example link</a>.
 </Alert>
 '></codeblock>
 
@@ -68,15 +74,17 @@ Information example: “You can change your password in settings.”
 
 ### Success
 
-![](.gitbook/assets/individual-notification-success.jpg)
+<Alert color="success">
+    This is a success alert with <a href="#" class="alert-link">an example link</a>.
+</Alert>
 
 <codeblock html='
     <div class="alert alert-success" role="alert">
-        Success: You just did something and it worked
+        This is a success alert with <a href="#" class="alert-link">an example link</a>.
     </div>
 ' react='
 <Alert color="success">
-    Success: You just did something and it worked
+    This is a success alert with <a href="#" class="alert-link">an example link</a>.
 </Alert>
 '></codeblock>
 
@@ -98,13 +106,13 @@ A drop shadow is used to show the user that the notification can be closed by cl
 
 The colours used for notifications are from the design system’s palette.
 
-Hex colour for error notifications: \#D3080C
+Hex colour for error notifications: <badge style="background-color: #D3080C">#D3080C</badge>
 
-Hex colour for warning notifications: \#FF9900
+Hex colour for warning notifications: <badge style="background-color: #FF9900">#FF9900</badge>
 
-Hex colour for information notifications: \#269ABC
+Hex colour for information notifications: <badge style="background-color: #269ABC">#269ABC</badge>
 
-Hex colour for success notifications: \#278400
+Hex colour for success notifications: <badge style="background-color: #278400">#278400</badge>
 
 ### **Position**
 
