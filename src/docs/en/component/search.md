@@ -44,8 +44,8 @@ Text field with a padding of 12px. On the right of the field there is a search i
 
 <form>
     <div class="form-inline search-form search-form-round">
-        <label for="search" class="sr-only">Search</label>
-        <input type="text" class="form-control" id="search" placeholder="Search">
+        <label for="search2" class="sr-only">Search</label>
+        <input type="text" class="form-control" id="search2" placeholder="Search">
         <span class="search-form-addon">
         <button type="submit"><span class="sr-only">Search</span><span class="fa fa-search"></span></button>
         </span>
