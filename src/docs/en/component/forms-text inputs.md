@@ -18,20 +18,59 @@ When there is an error within a text field, outlining the field in red shows a g
 Text input fields may also include interactive elements to the right of the field. Interactive elements will always be displayed using an icon, such as an eye to demonstrate a visible or hidden password.
 
 <formgroup> <!--Need hidden/visible indicator! -->
-    <input type="password" name="password" id="examplePassword" placeholder="Enter password" style="height: 42px"/>
+    <input type="password" placeholder="Enter password" style="height: 42px"/>
 </formGroup>
+
+<codeblock
+    react='
+    <FormGroup>
+        <Input type="password" placeholder="Enter password" />
+    </FormGroup>'
+    html='
+    <form>
+        <div class="form-group">
+            <input type="password" class="form-control" placeholder="Enter password">
+        </div>
+    </form>'>
+</codebloack>
 
 Text fields are styled as follows:
 
 <formgroup>
-    <input placeholder="Text field" style="height: 42px"/>
+    <input placeholder="Enter text" style="height: 42px"/>
 </formgroup>
+
+<codeblock
+    react='
+    <FormGroup>
+        <Input placeholder="Enter text"/>
+    </FormGroup>'
+    html='
+    <form>
+        <div class="form-group">
+            <input class="form-control" type="text" placeholder="Enter text">
+        </div>
+    </form>'>
+</codebloack>
 
 Normal: Rectangle with a height of 42px, and a border radius of 4px. Stroke width of 1px with the colour <badge style="background-color: #CCCCCC">#CCCCCC</badge>. There is 10px of padding between the field and the label. The input field a padding of 15px by 12px.
 
 <formgroup>
-    <input placeholder="Text field" style="height: 42px"/>
+    <input placeholder="Enter text" style="height: 42px"/>
 </formgroup>
+
+<codeblock
+    react='
+    <formgroup>
+        <input placeholder="Enter text"/>
+    </formgroup>'
+    html='
+    <form>
+        <div class="form-group">
+            <input class="form-control" type="text" placeholder="Enter text">
+        </div>
+    </form>'>
+</codebloack>
 
 Focus: Rectangle with a height of 42px, and a border radius of 4px. Stroke width of 1px <badge style="background-color: #269ABC">#269ABC</badge>. There is 10px of padding between the field and the label. The input field a padding of 15px by 12px.
 
