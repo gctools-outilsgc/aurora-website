@@ -27,7 +27,7 @@ Hex codes \(left to right\): <badge style="background-color: #0D467D">#0D467D</b
 
 #### Triad
 
-Hex codes \(left to right\): <badge style="background-color: #7E0C33">#7E0C33</badge> <badge style="background-color: #024571">#024571</badge> <badge style="background-color: #5DC1BE">#5DC1BE</badge> <badge style="background-color: #F6CF22F">#F6CF22</badge> <badge style="background-color: #EDDB7C; color: black">#EDDB7C</badge>
+Hex codes \(left to right\): <badge style="background-color: #7E0C33">#7E0C33</badge> <badge style="background-color: #024571">#024571</badge> <badge style="background-color: #5DC1BE">#5DC1BE</badge> <badge style="background-color: #F6CF22">#F6CF22</badge> <badge style="background-color: #EDDB7C; color: black">#EDDB7C</badge>
 
 #### Green and Blue
 
@@ -98,7 +98,7 @@ Please see [_Typography_](/typography.md) for more information about using text 
 
 By default, most applications will follow the light theme. This theme includes various shades of white for different background/foreground levels. For the majority of applications #FAFAFA is a good shade to use as a background colour, with white (#FFFFFF) as the container or card colour.         ****
 
-Hex codes: <badge style="background-color: #CCCCCC; color: black">#CCCCCC</badge> <badge style="background-color: #F5F5F5; color: black">#F5F5F5</badge> <badge style="background-color: #FAFAFA; color: black">#FAFAFA</badge> <badge style="background-color: #FFFFF">#FFFFF</badge>
+Hex codes: <badge style="background-color: #CCCCCC; color: black">#CCCCCC</badge> <badge style="background-color: #F5F5F5; color: black">#F5F5F5</badge> <badge style="background-color: #FAFAFA; color: black">#FAFAFA</badge> <badge style="background-color: #FFFFFF; color: black">#FFFFFF</badge>
 
 
 #### Dark Theme
