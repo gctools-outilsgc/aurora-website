@@ -136,7 +136,7 @@ A second divider is placed 12px below the content. Actionable items (i.e. button
 Cards can technically include any number of component combinations. Using the base styles above, components such as placeholder text (metadate), avatrs, icon buttons, buttons can be added below the header, or within the actionable section below the main content.
 
 <div class="card card-profile mb-2 d-inline-block" style="max-width: 18rem;">  
-    <img class="card-img-top" style="height: 100px;" src="http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg">
+    <img class="card-img-top" style="height: 100px;" src="http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg" alt="placeholder image">
     <div class="card-body">
         <img alt="..." class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
         <div>

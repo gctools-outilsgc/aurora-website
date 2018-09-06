@@ -71,7 +71,7 @@ The input field is aligned to the right of the button. It is a 42px high rectang
 
 
 <div class="custom-file">
-    <input type="file" id="file" class="custom-file-input" disabled>
+    <input type="file" id="file" class="custom-file-input" disabled aria-label="upload a file">
     <span class="custom-file-control"></span>
     <label class="custom-file-label" for="customFile">Choose file</label>
 </div>
