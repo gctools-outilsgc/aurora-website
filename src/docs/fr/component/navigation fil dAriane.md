@@ -42,6 +42,6 @@ Le fil d’Ariane dans le système de conception est comme suit :
 
 Chaque couche du fil d’Ariane est stylisée à l’aide du texte de lien. Le dernier élément n’est jamais un lien puisqu’il s’agit de la page actuelle et qu’il n’est pas cliquable. Le dernier élément est stylisé à l’aide du texte normal.
 
-Entre chaque couche, il y a une icône de chevron dont la couleur est le no A0A0A0.
+Entre chaque couche, il y a une icône de chevron dont la couleur est le #A0A0A0.
 
 Chaque couche a un espacement de 12 px de chaque côté du chevron.

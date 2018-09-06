@@ -105,13 +105,13 @@ Une ombre portée est utilisée pour montrer à l’utilisateur que la notificat
 
 Les couleurs utilisées pour les notifications sont de la palette de conception du système.
 
-Couleur hexadécimale pour les notifications d’erreur : <badge style="background-color: #D3080C">no D3080C</badge>
+Couleur hexadécimale pour les notifications d’erreur : <badge style="background-color: #D3080C">#D3080C</badge>
 
-Couleur hexadécimale pour les notifications d’avertissement : <badge style="background-color: #FF9900">no FF9900</badge>
+Couleur hexadécimale pour les notifications d’avertissement : <badge style="background-color: #FF9900">#FF9900</badge>
 
-Couleur hexadécimale pour les notifications d’information : <badge style="background-color: #269ABC">no 269ABC</badge>
+Couleur hexadécimale pour les notifications d’information : <badge style="background-color: #269ABC">#269ABC</badge>
 
-Couleur hexadécimale pour les notifications de succès : <badge style="background-color: #278400">no 278400</badge>
+Couleur hexadécimale pour les notifications de succès : <badge style="background-color: #278400">#278400</badge>
 
 ### Emplacement
 

@@ -90,7 +90,7 @@ Code hexadécimal : <badge style="background-color: #666666">#666666</badge>
 
 *Thème clair*
 
-Par défaut, la plupart des applications suivront le thème clair. Ce thème comprend divers tons de blanc pour différents niveaux d’arrière-plan et d’avant-plan. Pour la majorité des applications no FAFAFA est un bon ton à utiliser comme couleur de fond, avec du blanc (no FFFFFF) comme couleur du contenant ou de la carte. ****
+Par défaut, la plupart des applications suivront le thème clair. Ce thème comprend divers tons de blanc pour différents niveaux d’arrière-plan et d’avant-plan. Pour la majorité des applications #FAFAFA est un bon ton à utiliser comme couleur de fond, avec du blanc (#FFFFFF) comme couleur du contenant ou de la carte. ****
 
 Codes hexadécimaux : <badge style="background-color: #CCCCCC; color: black">#CCCCCC</badge> <badge style="background-color: #F5F5F5; color: black">#F5F5F5</badge> <badge style="background-color: #FAFAFA; color: black">#FAFAFA</badge> <badge style="background-color: #FFFFF">#FFFFF</badge>
 

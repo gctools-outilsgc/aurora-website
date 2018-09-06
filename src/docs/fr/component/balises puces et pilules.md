@@ -80,9 +80,9 @@ Les puces ont trois différentes variations et sont affichées comme suit :
 
 **Normal** : Case rectangulaire remplie avec ****CECECE. Texte noir. Petit avatar (26 px sur 26 px) aligné à gauche. 
 
-**Contrôle de l’utilisateur** : Même chose que normal, mais il y a un icône de suppression supplémentaire à droite. Cette icône a la couleur no 4D5D6C ainsi qu’un « x » transparent et elle est alignée à droite. Petit avatar (26 px sur 26 px) aligné à gauche. 
+**Contrôle de l’utilisateur** : Même chose que normal, mais il y a un icône de suppression supplémentaire à droite. Cette icône a la couleur #4D5D6C ainsi qu’un « x » transparent et elle est alignée à droite. Petit avatar (26 px sur 26 px) aligné à gauche. 
 
-**Pointage** : Même chose que la puce contrôlée par l’utilisateur, mais a une couleur d’arrière-plan no 4D5D6C, et l’icône de suppression est blanc et un « x » transparent y figure. Petit avatar (26 px sur 26px) aligné à gauche.
+**Pointage** : Même chose que la puce contrôlée par l’utilisateur, mais a une couleur d’arrière-plan #4D5D6C, et l’icône de suppression est blanc et un « x » transparent y figure. Petit avatar (26 px sur 26px) aligné à gauche.
 
 ## Pilules
 
@@ -104,6 +104,6 @@ Les pilules ont trois variations qui sont stylisées comme suit :
 
 **Normal** : Case rectangulaire remplie en CECECE. Texte noir.
 
-**Contrôle de l’utilisateur** : Même chose que le style « normal », mais il y a une icône de suppressions supplémentaire à droite. Cette icône a la couleur no 4D5D6C, un « x » transparent y figure, et elle est alignée à droite.
+**Contrôle de l’utilisateur** : Même chose que le style « normal », mais il y a une icône de suppressions supplémentaire à droite. Cette icône a la couleur #4D5D6C, un « x » transparent y figure, et elle est alignée à droite.
 
-**Pointage** : Même chose que le style « contrôle de l’utilisateur », mais a une couleur d’arrière-plan no 4D5D6C, et l’icône de suppression est blanche, et un « x » transparent y figure.
+**Pointage** : Même chose que le style « contrôle de l’utilisateur », mais a une couleur d’arrière-plan #4D5D6C, et l’icône de suppression est blanche, et un « x » transparent y figure.

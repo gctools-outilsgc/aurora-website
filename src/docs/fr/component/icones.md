@@ -6,7 +6,10 @@ title: "Icônes"
 ---
 
 # Icônes
-
+<helmet>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</helmet>
 <i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"></i>
 <i class="fa fa-refresh fa-spin" style="font-size:24px"></i>
 <i class="fa fa-spinner fa-spin" style="font-size:24px"></i>

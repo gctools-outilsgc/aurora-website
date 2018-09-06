@@ -18,19 +18,19 @@ Les cases à cocher ont quatre états différents :
 
 *Composante de case à cocher ordinaire*
 
-**Normal :** case de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan no F9F9F9, couleur de bordure no 96A8B2 de 1 px.
+**Normal :** case de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan #F9F9F9, couleur de bordure #96A8B2 de 1 px.
 
 *Composante de case à cocher de pointage*
 
-**Pointage :** case de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan no FFFFFF, couleur de bordure no 4D5D6C de 1 px.
+**Pointage :** case de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan #FFFFFF, couleur de bordure #4D5D6C de 1 px.
 
 *Composante de case à cocher focus*
 
-**Focus :** case de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan no FFFFFF, couleur de bordure no 4D5D6C de 3 px.
+**Focus :** case de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan #FFFFFF, couleur de bordure #4D5D6C de 3 px.
 
 *Composante de case à cocher active*
 
-**Active :** case de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan no 4D5D6C, couleur de bordure no 96A8B2. Comprend une icône de contrôle blanc centré dans la case.
+**Active :** case de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan #4D5D6C, couleur de bordure #96A8B2. Comprend une icône de contrôle blanc centré dans la case.
 
 ## Boutons « radio »
 
@@ -44,19 +44,19 @@ Les étiquettes des boutons « radio » sont alignées à droite du bouton.
 
 *Composante du bouton « radio » normal*
 
-**Normal :** cercle de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan no F9F9F9, couleur de bordure no 96A8B2 de 1 px.
+**Normal :** cercle de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan #F9F9F9, couleur de bordure #96A8B2 de 1 px.
 
 *Composante du bouton « radio » de pointage*
 
-**Pointage :** cercle de 18 px sur 18 px, couleur d’arrière-plan no FFFFFF, couleur de bordure no 4D5D6C de 1 px.
+**Pointage :** cercle de 18 px sur 18 px, couleur d’arrière-plan #FFFFFF, couleur de bordure #4D5D6C de 1 px.
 
 *Composante du bouton « radio » « focus »*
 
-**Focus :** cercle de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan no FFFFFF, couleur de bordure no 4D5D6C de 3 px.
+**Focus :** cercle de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan #FFFFFF, couleur de bordure #4D5D6C de 3 px.
 
 *Composante du bouton « radio » actif*
 
-**Actif :** cercle de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan no 4D5D6C, couleur de bordure no 96A8B2. Comprend un remplissage dans un plus petit cercle dans le bouton complet.
+**Actif :** cercle de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan #4D5D6C, couleur de bordure #96A8B2. Comprend un remplissage dans un plus petit cercle dans le bouton complet.
 
 ## Commutateurs
 
@@ -68,21 +68,21 @@ Les commutateurs ont quatre états différents :
 
 *Composante de commutateur – désactivé*
 
-**Désactivé  :** 32 px sur 18 px, rayon de bordure de 9 px, couleur d’arrière-plan de curseur no E3E4E5, couleur de bouton no FFFFFF, bordure de 1 px avec une couleur no 66666. Le bouton est à gauche du curseur.
+**Désactivé  :** 32 px sur 18 px, rayon de bordure de 9 px, couleur d’arrière-plan de curseur #E3E4E5, couleur de bouton #FFFFFF, bordure de 1 px avec une couleur #66666. Le bouton est à gauche du curseur.
 
 *Composante du pointage et du focus pour le commutateur – désactivé*
 
 **Désactivé, pointage et focus**
-32 px sur 18 px, rayon de bordure de 9 px, couleur d’arrière-plan de curseur no E3E4E5, couleur de bouton no FFFFFF, avec une bordure de 3 px et une couleur de bordure no 4D5D6C, une bordure de 1 px avec une couleur no 66666. Le bouton est à gauche du curseur.
+32 px sur 18 px, rayon de bordure de 9 px, couleur d’arrière-plan de curseur #E3E4E5, couleur de bouton #FFFFFF, avec une bordure de 3 px et une couleur de bordure #4D5D6C, une bordure de 1 px avec une couleur #66666. Le bouton est à gauche du curseur.
 
 *Composante de commutateur – activé*
 
-Activé  : 32 px sur 18 px, rayon de bordure de 9 px, couleur d’arrière-plan de curseur no FEC04F, couleur de bouton no FFFFFF, bordure de 1 px ayant la couleur no 66666. Le bouton est à droite du curseur.
+Activé  : 32 px sur 18 px, rayon de bordure de 9 px, couleur d’arrière-plan de curseur #FEC04F, couleur de bouton #FFFFFF, bordure de 1 px ayant la couleur #66666. Le bouton est à droite du curseur.
 
 *Composante de pointage et de focus pour le commutateur – activé*
 
 **Activé, Pointage et focus :**
-32 px sur 18 px, rayon de bordure de 9 px, couleur d’arrière-plan de curseur no FEC04F, couleur de bouton no FFFFFF, ayant une bordure de 3 px et une couleur de bordure no 4D5D6C, une bordure de 1 px dont la couleur est le no 66666. Le bouton est à droite du curseur.
+32 px sur 18 px, rayon de bordure de 9 px, couleur d’arrière-plan de curseur #FEC04F, couleur de bouton #FFFFFF, ayant une bordure de 3 px et une couleur de bordure #4D5D6C, une bordure de 1 px dont la couleur est le #66666. Le bouton est à droite du curseur.
 
 ## Boutons d’action
 

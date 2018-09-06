@@ -25,7 +25,7 @@ Le bouton secondaire sur la gauche disant « précédent ». Des nombres au mili
 
 Les nombres sont affichés avec Nunito sans gras à 14px. Chaque nombre a un remplissage de 10px.
 
-Le numéro de la page active est indiqué dans un rectangle avec un remplissage de 10px, avec une bordure de 4px. La boîte est affichée à l’aide de la même couleur que les boutons primaires, soit no <badge style="background-color: #002D42">#002D42</badge>, et le nombre est indiqué en texte blanc.
+Le numéro de la page active est indiqué dans un rectangle avec un remplissage de 10px, avec une bordure de 4px. La boîte est affichée à l’aide de la même couleur que les boutons primaires, soit <badge style="background-color: #002D42">#002D42</badge>, et le nombre est indiqué en texte blanc.
 
 <pagination aria-label="Page navigation example">
     <paginationitem>

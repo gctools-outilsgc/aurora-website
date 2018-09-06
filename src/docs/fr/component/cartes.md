@@ -8,7 +8,7 @@ title: "Cartes"
 
 # Cartes
 
-Les cartes sont des contenants utilisés pour organiser du contenu de haut niveau. L’utilisation de cartes peut rendre votre produit Web plus attrayant et navigable. Les cartes ont habituellement une couleur de fond no FFFFF, qui les sépare de l’ensemble de la couleur de fond de la page (no FAFAFA).
+Les cartes sont des contenants utilisés pour organiser du contenu de haut niveau. L’utilisation de cartes peut rendre votre produit Web plus attrayant et navigable. Les cartes ont habituellement une couleur de fond #FFFFF, qui les sépare de l’ensemble de la couleur de fond de la page (#FAFAFA).
 
 ## Pratiques exemplaires
 Une carte devrait contenir une seule idée qui peut présenter un appel à l’action ou la possibilité de naviguer vers un contenu plus détaillé. Le contenu d’une carte doit être concis et offre seulement un aperçu détaillé du contenu.
@@ -57,7 +57,7 @@ Les cartes de base peuvent être utilisées comme contenants pour n’importe qu
 
 Les cartes de base sont conçues comme suit :
 
-Un rectangle blanc (no FFFFFF) avec un rayon de bordure de 4px et une ombre portée de 15 % d’opacité et un flou de 5px. La carte a un remplissage de 20px par 16px. Chaque carte a un titre en utilisant l’en-tête 3 (Rubik moyen à 24px) avec un diviseur placé 12px sous l’en-tête. Le contenu de la carte est placé 12px en dessous du diviseur.
+Un rectangle blanc (#FFFFFF) avec un rayon de bordure de 4px et une ombre portée de 15 % d’opacité et un flou de 5px. La carte a un remplissage de 20px par 16px. Chaque carte a un titre en utilisant l’en-tête 3 (Rubik moyen à 24px) avec un diviseur placé 12px sous l’en-tête. Le contenu de la carte est placé 12px en dessous du diviseur.
 
 *Cartes d’image*
 
@@ -87,7 +87,7 @@ Les cartes d’image utilisent le modèle de carte de base, mais comprennent une
 
 Les cartes d’image sont conçues comme suit :
 
-Un rectangle blanc (no FFFFFF) avec un rayon de bordure de 4px et une ombre portée de 15 % d’opacité et un flou de 5px. La carte a un remplissage de 20px par 16px. Chaque carte a un titre en utilisant l’en-tête 3 (moyen Rubik à 24px) avec un diviseur placé 12px sous l’en-tête. Le contenu de la carte est placé 12px en dessous du diviseur.
+Un rectangle blanc (#FFFFFF) avec un rayon de bordure de 4px et une ombre portée de 15 % d’opacité et un flou de 5px. La carte a un remplissage de 20px par 16px. Chaque carte a un titre en utilisant l’en-tête 3 (moyen Rubik à 24px) avec un diviseur placé 12px sous l’en-tête. Le contenu de la carte est placé 12px en dessous du diviseur.
 
 L’image est placée 20px au-dessus de l’en-tête. L’image s’étend sur toute la largeur de la carte.
 
@@ -125,7 +125,7 @@ Les cartes actionnables utilisent le modèle de carte de base, mais comprennent 
 
 Les cartes actionnables sont conçues comme suit :
 
-Un rectangle blanc (no FFFFFF) avec un rayon de bordure de 4px et une ombre portée de 15 % d’opacité et un flou de 5px. La carte a un remplissage de 20px par 16px. Chaque carte a un titre en utilisant l’en-tête 3 (moyen Rubik à 24px) avec un diviseur placé 12px sous l’en-tête. Le contenu de la carte est placé 12px en dessous du diviseur.
+Un rectangle blanc (#FFFFFF) avec un rayon de bordure de 4px et une ombre portée de 15 % d’opacité et un flou de 5px. La carte a un remplissage de 20px par 16px. Chaque carte a un titre en utilisant l’en-tête 3 (moyen Rubik à 24px) avec un diviseur placé 12px sous l’en-tête. Le contenu de la carte est placé 12px en dessous du diviseur.
 
 Un deuxième diviseur de 12px est placé sous le contenu. Des points actionnables (comme des boutons) sont placés 12px sous ce diviseur.
 

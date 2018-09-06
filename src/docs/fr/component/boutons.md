@@ -200,7 +200,7 @@ Voici les caractéristiques de chacun des états pour les boutons :
 
 <codeblock html='<button type="button" class="btn btn-secondary" disabled>Secondary</button>' react='<Button color="secondary" disabled>Secondary</Button>'></codeblock>
 
-**État désactivé** : Remplissage de couleur no CECECE avec du texte blanc. La bordure est d’un rayon de 4px et le remplissage de 15px.
+**État désactivé** : Remplissage de couleur #CECECE avec du texte blanc. La bordure est d’un rayon de 4px et le remplissage de 15px.
 
 ## Emplacement
 Les boutons secondaires sont habituellement placés à proximité du bouton primaire, mais pas à un endroit où l’utilisateur peut confondre les deux. Les boutons secondaires sont habituellement placés à droite du bouton primaire. Ils devraient avoir un emplacement uniforme par rapport au bouton primaire afin d’éviter la confusion.
