@@ -3,3 +3,14 @@
     height: 100%;
     overflow: auto;
 }
+
+.doc-container {
+    max-width: 1250px;
+    padding-left: 310px;
+}
+
+@media (max-width: 768px) { 
+    .doc-container {
+        padding-left: 0px;
+    }
+}

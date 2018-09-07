@@ -21,3 +21,24 @@
     font-size: 1.75em;
     font-weight: 400;
 }
+
+@media (max-width: 768px) { 
+    .mobile-sidebar #sidenav {
+        top: 162px !important;
+        z-index:9999;
+        .nav {
+            margin-top: 0 !important;
+        }
+    }
+}
+
+@media (max-width: 576px) { 
+    #mobile-menu-holder {
+        #mobile-menu {
+            width:17%;
+        }
+        .search-form {
+            width:78% !important;
+        }  
+    }
+ }
