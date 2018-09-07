@@ -1,8 +1,9 @@
+---
 path: "/overview/introduction"
 subnav: "1/About/À notre sujet/1"
 lang: "fr"
 title: "Introduction"
-
+---
 # Introduction
 
 Nous avons créé le système de conception Aurora afin de normaliser le langage visuel et l’expérience-utilisateur des applications et des outils (OutilsGC) créés par la Division de la collaboration numérique. 
