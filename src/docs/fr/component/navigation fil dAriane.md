@@ -19,24 +19,24 @@ Le fil d’Ariane devrait être complémentaire à la navigation principale et n
 Le fil d’Ariane dans le système de conception est comme suit :
 
 <breadcrumb>
-    <breadcrumbitem><a href="#">Main Page</a></breadcrumbitem>
-    <breadcrumbitem><a href="#">Secondary Page</a></breadcrumbitem>
-    <breadcrumbitem active="true">Current Page</breadcrumbitem>
+    <breadcrumbitem><a href="#">Page principale</a></breadcrumbitem>
+    <breadcrumbitem><a href="#">Page secondaire</a></breadcrumbitem>
+    <breadcrumbitem active="true">Page actuelle</breadcrumbitem>
 </breadcrumb>
 
 <codeblock html='
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Main Page</a></li>
-            <li class="breadcrumb-item"><a href="#">Secondary Page</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Current Page</li>
+            <li class="breadcrumb-item"><a href="#">Page principale</a></li>
+            <li class="breadcrumb-item"><a href="#">Page secondaire</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Page actuelle</li>
         </ol>
     </nav>
 ' react='
 <Breadcrumb>
-    <BreadCrumbItem><a href="#">Main Page</a></BreadCrumbItem>
-    <BreadCrumbItem><a href="#">Secondary Page</a></BreadCrumbItem>
-    <BreadCrumbItem active="true">Current Page</BreadCrumbItem>
+    <BreadCrumbItem><a href="#">Page principale</a></BreadCrumbItem>
+    <BreadCrumbItem><a href="#">Page secondaire</a></BreadCrumbItem>
+    <BreadCrumbItem active="true">Page actuelle</BreadCrumbItem>
 </Breadcrumb>
 '></codeblock>
 

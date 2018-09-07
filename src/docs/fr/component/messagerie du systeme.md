@@ -14,16 +14,16 @@ Les notifications conçues du système en ordre décroissant de sévérité :
 ## Erreur
 
 <Alert color="danger">
-    This is a danger alert with <a href="#" class="alert-link">an example link</a>.
+    C’est une alerte en cas de danger avec un <a href="#" class="alert-link">exemple de lien.</a>.
 </Alert>
 
 <codeblock html='
     <div class="alert alert-danger" role="alert">
-        This is a danger alert with <a href="#" class="alert-link">an example link</a>.
+        C’est une alerte en cas de danger avec un <a href="#" class="alert-link">exemple de lien.</a>.
     </div>
 ' react='
 <Alert color="danger">
-    This is a danger alert with <a href="#" class="alert-link">an example link</a>.
+    C’est une alerte en cas de danger avec un <a href="#" class="alert-link">exemple de lien.</a>.
 </Alert>
 '></codeblock>
 
@@ -34,16 +34,16 @@ Exemple d’erreur : « Votre mot de passe doit contenir au moins huit (8) carac
 ## Avertissement
 
 <Alert color="warning">
-    This is a warning alert with <a href="#" class="alert-link">an example link</a>.
+    C’est une alerte d’avertissement avec un  <a href="#" class="alert-link">exemple de lien.</a>.
 </Alert>
 
 <codeblock html='
     <div class="alert alert-warning" role="alert">
-        This is a warning alert with <a href="#" class="alert-link">an example link</a>.
+        C’est une alerte d’avertissement avec un  <a href="#" class="alert-link">exemple de lien.</a>.
     </div>
 ' react='
 <Alert color="warning">
-    This is a warning alert with <a href="#" class="alert-link">an example link</a>.
+    C’est une alerte d’avertissement avec un  <a href="#" class="alert-link">exemple de lien.</a>.
 </Alert>
 '></codeblock>
 
@@ -54,16 +54,16 @@ Exemple d’avertissement : « Verr. Maj. est activé ce qui pourrait faire en s
 ## Information
 
 <Alert color="info">
-    This is an info alert with <a href="#" class="alert-link">an example link</a>.
+    C’est une alerte d’information avec un <a href="#" class="alert-link">exemple de lien.</a>.
 </Alert>
 
 <codeblock html='
     <div class="alert alert-info" role="alert">
-        This is an info alert with <a href="#" class="alert-link">an example link</a>.
+        C’est une alerte d’information avec un <a href="#" class="alert-link">exemple de lien.</a>.
     </div>
 ' react='
 <Alert color="info">
-    This is an info alert with <a href="#" class="alert-link">an example link</a>.
+    C’est une alerte d’information avec un <a href="#" class="alert-link">exemple de lien.</a>.
 </Alert>
 '></codeblock>
 
@@ -74,16 +74,16 @@ Exemple d’information : « Vous pouvez changer votre mot de passe dans les par
 ## Succès
 
 <Alert color="success">
-    This is a success alert with <a href="#" class="alert-link">an example link</a>.
+    C’est une alerte en cas de succès avec un <a href="#" class="alert-link">exemple de lien.</a>.
 </Alert>
 
 <codeblock html='
     <div class="alert alert-success" role="alert">
-        This is a success alert with <a href="#" class="alert-link">an example link</a>.
+        C’est une alerte en cas de succès avec un <a href="#" class="alert-link">exemple de lien.</a>.
     </div>
 ' react='
 <Alert color="success">
-    This is a success alert with <a href="#" class="alert-link">an example link</a>.
+    C’est une alerte en cas de succès avec un <a href="#" class="alert-link">exemple de lien.</a>.
 </Alert>
 '></codeblock>
 

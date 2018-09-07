@@ -21,21 +21,21 @@ Un rectangle de la même largeur que le contenant du formulaire. Une bordure de 
 L’en-tête de la boîte utilise le style d’en-tête 2 et le texte utilise le style paragraphe. Une copie d’erreur est affichée dans une liste numérotée en utilisant #923534. Chaque erreur est un lien qui mène l’utilisateur à l’erreur en ligne sur la page.
 
 <section class="alert alert-danger alert-icon-border">
-    <h2>Field error or required</h2>
+    <h2>Erreur dans le champ ou champ obligatoire</h2>
     <ul class="list-unstyled">
-    <li><a href="#" class="alert-link">1 - Username already exists</a></li>
-    <li><a href="#" class="alert-link">2 - Invalid Email</a></li>
-    <li><a href="#" class="alert-link">3 - Password must match</a></li>
+    <li><a href="#" class="alert-link">1 - Nom d’utilisateur existe déjà</a></li>
+    <li><a href="#" class="alert-link">2 - Courriel invalide</a></li>
+    <li><a href="#" class="alert-link">3 - Les mots de passe doivent correspondre</a></li>
     </ul>
 </section>
 
 <codeblock html='
     <section class="alert alert-danger alert-icon-border">
-        <h2>Field error or required</h2>
+        <h2>Erreur dans le champ ou champ obligatoire</h2>
         <ul class="list-unstyled">
-        <li><a href="#" class="alert-link">1 - Username already exists</a></li>
-        <li><a href="#" class="alert-link">2 - Invalid Email</a></li>
-        <li><a href="#" class="alert-link">3 - Password must match</a></li>
+        <li><a href="#" class="alert-link">1 - Nom d’utilisateur existe déjà</a></li>
+        <li><a href="#" class="alert-link">2 - Courriel invalide</a></li>
+        <li><a href="#" class="alert-link">3 - Les mots de passe doivent correspondre</a></li>
         </ul>
     </section>
 ' react='' />
@@ -48,17 +48,17 @@ Les erreurs en ligne sont affichées sous le champ de saisie et indiquent à l�
 
 Les erreurs en ligne sont conçues comme suit :
 
-<label for="exampleInputText1">Username</label>
-<input type="text" class="form-control is-invalid" aria-describedby="Text1Error" id="exampleInputText1" placeholder="Input Example">
-<small id="Text1Error" class="form-text text-danger">This is the error message</small>
+<label for="exampleInputText1">Nom d’utilisateur</label>
+<input type="text" class="form-control is-invalid" aria-describedby="Text1Error" id="exampleInputText1" placeholder="Exemple d’entrée">
+<small id="Text1Error" class="form-text text-danger">Ceci est le message d’erreur</small>
 
 <codeblock html='
-    <label for="exampleInputText1">Username</label>
-    <input type="text" class="form-control is-invalid" aria-describedby="Text1Error" id="exampleInputText1" placeholder="Input Example">
-    <small id="Text1Error" class="form-text text-danger">This is the error message</small>
+    <label for="exampleInputText1">Nom d’utilisateur</label>
+    <input type="text" class="form-control is-invalid" aria-describedby="Text1Error" id="exampleInputText1" placeholder="Exemple d’entrée">
+    <small id="Text1Error" class="form-text text-danger">Ceci est le message d’erreur</small>
 ' react='' />
 
-L’icône « x » à la gauche du texte d’erreur. L’erreur est placée 10px en dessous du champ de saisie. Le texte est dans la police Nunito sans régulier à 14px de la couleur #925534.
+L’icône « x » à la gauche du texte d’erreur. L’erreur est placée 10px en dessous du champ de saisie. Le texte est dans la police Nunito sans régulier à 14px de la couleur <badge style="background-color: #925534">#925534</badge>.
 
 ## Confirmation
 
@@ -72,4 +72,4 @@ Si la plupart des champs dans le formulaire sont obligatoires, veuillez indiquer
 
 Si la plupart des champs dans le formulaire sont facultatifs, veuillez indiquer seulement les champs obligatoires.
 
-Des indications devraient être situées à côté du champ de saisie. Les termes (obligatoire) ou (facultatif) devraient être présents seulement lorsque cela est nécessaire. Le texte indicateur utilise la couleur #252525 et suit la même conception typographique que les étiquettes.
+Des indications devraient être situées à côté du champ de saisie. Les termes (obligatoire) ou (facultatif) devraient être présents seulement lorsque cela est nécessaire. Le texte indicateur utilise la couleur <badge style="background-color: #252525">#252525</badge> et suit la même conception typographique que les étiquettes.

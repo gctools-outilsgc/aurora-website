@@ -15,22 +15,22 @@ Lorsque des cartes sont utilisées, les séparateurs sont placés sous l’en-t�
 
 <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
     <div class="card-body">
-    <h5 class="card-title">Card title</h5>
+    <h5 class="card-title">Titre de la carte</h5>
     <hr />
-    <div class="card-subtitle text-muted">Meta Information</div>
-    <p class="card-text">Some quick example text to build on the card title</p>
-    <a href="#" class="card-link">Another link</a>
+    <div class="card-subtitle text-muted">Méta-information</div>
+    <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte.</p>
+    <a href="#" class="card-link">Un autre lien</a>
     </div>
 </div>
 
 <codeblock html='
     <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
         <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Titre de la carte</h5>
             <hr />
-            <div class="card-subtitle text-muted">Meta Information</div>
-            <p class="card-text">Some quick example text to build on the card title</p>
-            <a href="#" class="card-link">Another link</a>
+            <div class="card-subtitle text-muted">Méta-information</div>
+            <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte.</p>
+            <a href="#" class="card-link">Un autre lien</a>
         </div>
     </div>
 ' react='' />

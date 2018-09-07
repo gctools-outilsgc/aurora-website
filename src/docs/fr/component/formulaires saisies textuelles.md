@@ -17,49 +17,49 @@ Lorsqu’il y a une erreur dans un champ textuel, mettre le champ en surbrillanc
 
 Les champs de saisie textuelle peuvent également comprendre des éléments interactifs à la droite du champ. Les éléments interactifs seront toujours affichés à l’aide d’une icône, comme un œil pour montrer un mot de passe visible ou caché.
 
-<label for="exampleInputPassword1">Password</label>
-<input type="password" class="form-control" aria-describedby="Password1Error" id="exampleInputPassword1" placeholder="Password">
-<small id="Password1Error" class="form-text text-muted">8-character minimum, case sensitive</small>
+<label for="exampleInputPassword1">Mot de passe</label>
+<input type="password" class="form-control" aria-describedby="Password1Error" id="exampleInputPassword1" placeholder="Mot de passe">
+<small id="Password1Error" class="form-text text-muted">Minimum de 8 caractères, sensibles à la casse</small>
   
 
 <codeblock html='
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" aria-describedby="Password1Error" id="exampleInputPassword1" placeholder="Password">
-    <small id="Password1Error" class="form-text text-muted">8-character minimum, case sensitive</small>
+    <label for="exampleInputPassword1">Mot de passe</label>
+    <input type="password" class="form-control" aria-describedby="Password1Error" id="exampleInputPassword1" placeholder="Mot de passe">
+    <small id="Password1Error" class="form-text text-muted">Minimum de 8 caractères, sensibles à la casse</small>
 ' react='
 ' />
 
 Les champs de texte sont conçus comme suit :
 
-<label for="exampleInputEmail1">Form label</label>
+<label for="exampleInputEmail1">Structure de l’étiquette</label>
 <input type="email" class="form-control" id="exampleInputEmail1"
         aria-describedby="emailHelp"
-        placeholder="Enter email">
-<small id="emailHelp" class="form-text text-muted">Form Text - To give hints and things</small>
+        placeholder="Entrer le courriel">
+<small id="emailHelp" class="form-text text-muted">Structure du texte – pour donner des indices et des choses</small>
 
 <codeblock html='
-    <label for="exampleInputEmail1">Form label</label>
+    <label for="exampleInputEmail1">Structure de l’étiquette</label>
     <input type="email" class="form-control" id="exampleInputEmail1"
             aria-describedby="emailHelp"
-            placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">Form Text - To give hints and things</small>
+            placeholder="Entrer le courriel">
+    <small id="emailHelp" class="form-text text-muted">Structure du texte – pour donner des indices et des choses</small>
 ' react='
 ' />
 
 Normal : un rectangle ayant une hauteur de 42px et une bordure de 4px. Un trait d’une largeur de 1px avec la couleur #CCCCCC. Il y a 10px de remplissage entre le champ et l’étiquette. Le champ de saisie a un remplissage de 15px par 12px.
 
-<label for="exampleInputEmail1">Form label</label>
+<label for="exampleInputEmail1">Structure de l’étiquette</label>
 <input type="email" class="form-control" id="exampleInputEmail1"
         aria-describedby="emailHelp"
-        placeholder="Enter email">
-<small id="emailHelp" class="form-text text-muted">Form Text - To give hints and things</small>
+        placeholder="Entrer le courriel">
+<small id="emailHelp" class="form-text text-muted">Structure du texte – pour donner des indices et des choses</small>
 
 <codeblock html='
-    <label for="exampleInputEmail1">Form label</label>
+    <label for="exampleInputEmail1">Structure de l’étiquette</label>
     <input type="email" class="form-control" id="exampleInputEmail1"
             aria-describedby="emailHelp"
-            placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">Form Text - To give hints and things</small>
+            placeholder="Entrer le courriel">
+    <small id="emailHelp" class="form-text text-muted">Structure du texte – pour donner des indices et des choses</small>
 ' react='
 ' />
 
@@ -72,7 +72,7 @@ Les champs sélectionnés sont un menu déroulant d’options précises. Ils ont
 Les champs sélectionnés sont conçus comme suit :
 
 <div class="mt-2">
-    <label for="carSelect">Cars:</label>
+    <label for="carSelect">Voitures :</label>
     <select id="carSelect" class="form-control">
     <option value="volvo">Volvo</option>
     <option value="saab">Saab</option>
@@ -83,7 +83,7 @@ Les champs sélectionnés sont conçus comme suit :
 
 <codeblock html='
     <div class="mt-2">
-        <label for="carSelect">Cars:</label>
+        <label for="carSelect">Voitures :</label>
         <select id="carSelect" class="form-control">
         <option value="volvo">Volvo</option>
         <option value="saab">Saab</option>

@@ -17,14 +17,14 @@ title: "Images, avatars et vignettes"
             <div class="media-body">
                 <div class="media-heading">
                 <a href="#!">John Doe</a>
-                <small class="text-muted">1 hour ago</small>
+                <small class="text-muted">Il y a 1 heure</small>
                 </div>
                 <div>Ice cream macaroon croissant macaroon powder. Bear claw croissant candy canes halvah oat cake. Lollipop gummies jelly-o liquorice lollipop.
                 Apple pie chocolate sweet roll. Chocolate bar candy canes lollipop gummies. Sesame snaps marzipan biscuit powder topping sweet roll. Oat cake bear claw pudding pastry gummies.
                 </div>
                 <div class="media-footer">
-                <a href="#!"><small>Reply</small></a>
-                <a href="#!"><small>Like</small></a>
+                <a href="#!"><small>Répondre</small></a>
+                <a href="#!"><small>Aimer</small></a>
                 </div>
             </div>
         </li>

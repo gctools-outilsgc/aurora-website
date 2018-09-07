@@ -63,12 +63,12 @@ Les étiquettes sont dimensionnées de façon à correspondre à la longueur des
 
 ## Puces
 
-<span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png"> User 1</span>
-<span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png"> User 2</span>
+<span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png"> Utilisateur 1</span>
+<span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png"> Utilisateur 2</span>
 
 <codeblock html='
-    <span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png"> User 1</span>
-    <span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png"> User 2</span>
+    <span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png"> Utilisateur 1</span>
+    <span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png"> Utilisateur 2</span>
 ' react='' />
 
 
@@ -87,14 +87,14 @@ Les puces ont trois différentes variations et sont affichées comme suit :
 ## Pilules
 
 <div class="mt-2">
-    <span class="badge badge-primary">Primary</span>
-    <span class="badge badge-secondary">Secondary</span>
+    <span class="badge badge-primary">Primaire</span>
+    <span class="badge badge-secondary">Secondaire</span>
 </div>
 
 <codeblock html='
     <div class="mt-2">
-        <span class="badge badge-primary">Primary</span>
-        <span class="badge badge-secondary">Secondary</span>
+        <span class="badge badge-primary">Primaire</span>
+        <span class="badge badge-secondary">Secondaire</span>
     </div>
 ' react='' />
 

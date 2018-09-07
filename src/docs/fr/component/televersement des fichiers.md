@@ -18,14 +18,14 @@ Les saisies de téléversement de fichiers ont quatre états :
 <div class="custom-file">
     <input type="file" id="file" class="custom-file-input">
     <span class="custom-file-control"></span>
-    <label class="custom-file-label" for="customFile">Choose file</label>
+    <label class="custom-file-label" for="customFile">Choisir le fichier</label>
 </div>
 
 <codeblock html='
     <div class="custom-file">
         <input type="file" id="file" class="custom-file-input">
         <span class="custom-file-control"></span>
-        <label class="custom-file-label" for="customFile">Choose file</label>
+        <label class="custom-file-label" for="customFile">Choisir le fichier</label>
     </div>
 ' react='' />
 
@@ -36,14 +36,14 @@ Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle
 <div class="custom-file">
     <input type="file" id="file" class="custom-file-input">
     <span class="custom-file-control"></span>
-    <label class="custom-file-label" for="customFile">Choose file</label>
+    <label class="custom-file-label" for="customFile">Choisir le fichier</label>
 </div>
 
 <codeblock html='
     <div class="custom-file">
         <input type="file" id="file" class="custom-file-input">
         <span class="custom-file-control"></span>
-        <label class="custom-file-label" for="customFile">Choose file</label>
+        <label class="custom-file-label" for="customFile">Choisir le fichier</label>
     </div>
 ' react='' />
 
@@ -53,14 +53,14 @@ Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle
 <div class="custom-file">
     <input type="file" id="file" class="custom-file-input">
     <span class="custom-file-control"></span>
-    <label class="custom-file-label" for="customFile">Choose file</label>
+    <label class="custom-file-label" for="customFile">Choisir le fichier</label>
 </div>
 
 <codeblock html='
     <div class="custom-file">
         <input type="file" id="file" class="custom-file-input">
         <span class="custom-file-control"></span>
-        <label class="custom-file-label" for="customFile">Choose file</label>
+        <label class="custom-file-label" for="customFile">Choisir le fichier</label>
     </div>
 ' react='' />
 
@@ -70,14 +70,14 @@ Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle
 <div class="custom-file">
     <input type="file" id="file" class="custom-file-input" disabled>
     <span class="custom-file-control"></span>
-    <label class="custom-file-label" for="customFile">Choose file</label>
+    <label class="custom-file-label" for="customFile">Choisir le fichier</label>
 </div>
 
 <codeblock html='
     <div class="custom-file">
         <input type="file" id="file" class="custom-file-input" disabled>
         <span class="custom-file-control"></span>
-        <label class="custom-file-label" for="customFile">Choose file</label>
+        <label class="custom-file-label" for="customFile">Choisir le fichier</label>
     </div>
 ' react='' />
 

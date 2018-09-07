@@ -19,35 +19,35 @@ Si la taille des colonnes n’est pas définie, elles vont automatiquement être
 
 <container style="width: 100%; margin-bottom: 20px">
     <row>
-        <mdcol><button color="secondary" style="width: 100%">Col 1</button></mdcol>
-        <mdcol><button color="secondary" style="width: 100%">Col 2</button></mdcol>
-        <mdcol><button color="secondary" style="width: 100%">Col 3</button></mdcol>
-        <mdcol><button color="secondary" style="width: 100%">Col 4</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Colonne 1</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Colonne 2</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Colonne 3</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Colonne 4</button></mdcol>
     </row>
 </container> 
 
 <codeblock react='
 <Container style="width: 100%">
     <Row>
-        <Col><Button color="secondary" style="width: 100%">Col 1</Button></Col>
-        <Col><Button color="secondary" style="width: 100%">Col 2</Button></Col>
-        <Col><Button color="secondary" style="width: 100%">Col 3</Button></Col>
-        <Col><Button color="secondary" style="width: 100%">Col 4</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Colonne 1</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Colonne 2</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Colonne 3</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Colonne 4</Button></Col>
     </Row>
 </Container> ' html='
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Col 1</button>
+                <button type="button" class="btn btn-secondary btn-block">Colonne 1</button>
             </div>
             <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Col 2</button>
+                <button type="button" class="btn btn-secondary btn-block">Colonne 2</button>
             </div>
             <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Col 3</button>
+                <button type="button" class="btn btn-secondary btn-block">Colonne 3</button>
             </div>
             <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Col 3</button>
+                <button type="button" class="btn btn-secondary btn-block">Colonne 3</button>
             </div>
         </div>
     </div>
@@ -58,10 +58,10 @@ Lorsque vous établissez la taille d’une colonne, les colonnes sœurs seront a
 
 <container style="width: 100%; margin-bottom: 20px">
     <row>
-        <mdcol><button color="secondary" style="width: 100%">Col 1</button></mdcol>
-        <mdcol xs="6"><button outline="true" color="secondary" style="width: 100%">Col 2</button></mdcol>
-        <mdcol><button color="secondary" style="width: 100%">Col 3</button></mdcol>
-        <mdcol><button color="secondary" style="width: 100%">Col 4</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Colonne 1</button></mdcol>
+        <mdcol xs="6"><button outline="true" color="secondary" style="width: 100%">Colonne 2</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Colonne 3</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Colonne 4</button></mdcol>
     </row>
 </container>
 
@@ -69,25 +69,25 @@ Lorsque vous établissez la taille d’une colonne, les colonnes sœurs seront a
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Col 1</button>
+                <button type="button" class="btn btn-secondary btn-block">Colonne 1</button>
             </div>
             <div class="col-6">
-                <button type="button" class="btn btn-outline-secondary btn-block">Col 2</button>
+                <button type="button" class="btn btn-outline-secondary btn-block">Colonne 2</button>
             </div>
             <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Col 3</button>
+                <button type="button" class="btn btn-secondary btn-block">Colonne 3</button>
             </div>
             <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Col 3</button>
+                <button type="button" class="btn btn-secondary btn-block">Colonne 3</button>
             </div>
         </div>
     </div>' react='
 <Container style="width: 100%">
     <Row>
-        <Col><Button color="secondary" style="width: 100%">Col 1</Button></Col>
-        <Col xs="6"><Button outline="true" color="secondary" style="width: 100%">Col 2</Button></Col>
-        <Col><Button color="secondary" style="width: 100%">Col 3</Button></Col>
-        <Col><Button color="secondary" style="width: 100%">Col 4</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Colonne 1</Button></Col>
+        <Col xs="6"><Button outline="true" color="secondary" style="width: 100%">Colonne 2</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Colonne 3</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Colonne 4</Button></Col>
     </Row>
 </Container> '></codeblock>
  
@@ -96,10 +96,10 @@ Vous pouvez établir des colonnes pour correspondre automatiquement au contenu q
 
 <container style="width: 100%; margin-bottom: 20px">
     <row>
-        <mdcol><button outline="true" color="secondary" style="width: 100%">Col 1</button></mdcol>
-        <mdcol><button outline="true" color="secondary"  style="width: 100%">Col 2</button></mdcol>
-        <mdcol xs="auto"><button color="secondary" style="width: 100%">This is the third and largest column due to auto-sizing</button></mdcol>
-        <mdcol><button outline="true" color="secondary" style="width: 100%">Col 4</button></mdcol>
+        <mdcol><button outline="true" color="secondary" style="width: 100%">Colonne 1</button></mdcol>
+        <mdcol><button outline="true" color="secondary"  style="width: 100%">Colonne 2</button></mdcol>
+        <mdcol xs="auto"><button color="secondary" style="width: 100%">C’est la troisième et la plus large colonne en raison de la grandeur automatique</button></mdcol>
+        <mdcol><button outline="true" color="secondary" style="width: 100%">Colonne 4</button></mdcol>
     </row>
 </container>
 
@@ -107,25 +107,25 @@ Vous pouvez établir des colonnes pour correspondre automatiquement au contenu q
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                <button type="button" class="btn btn-outline-secondary btn-block">Col 1</button>
+                <button type="button" class="btn btn-outline-secondary btn-block">Colonne 1</button>
             </div>
             <div class="col-sm">
-                <button type="button" class="btn btn-outline-secondary btn-block">Col 2</button>
+                <button type="button" class="btn btn-outline-secondary btn-block">Colonne 2</button>
             </div>
             <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">This is the third and largest column due to auto-sizing</button>
+                <button type="button" class="btn btn-secondary btn-block">C’est la troisième et la plus large colonne en raison de la grandeur automatique</button>
             </div>
             <div class="col-sm">
-                <button type="button" class="btn btn-outline-secondary btn-block">Col 4</button>
+                <button type="button" class="btn btn-outline-secondary btn-block">Colonne 4</button>
             </div>
         </div>
     </div>' react='
 <Container style="width: 100%">
     <Row>
-        <Col><Button color="secondary" style="width: 100%">Col 1</Button></Col>
-        <Col xs="6"><Button outline="true" color="secondary" style="width: 100%">Col 2</Button></Col>
-        <Col><Button color="secondary" style="width: 100%">Col 3</Button></Col>
-        <Col><Button color="secondary" style="width: 100%">Col 4</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Colonne 1</Button></Col>
+        <Col xs="6"><Button outline="true" color="secondary" style="width: 100%">Colonne 2</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Colonne 3</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Colonne 4</Button></Col>
     </Row>
 </Container> '></codeblock>
  
@@ -134,16 +134,16 @@ De multiples colonnes et rangées peuvent être fixées à l’aide d’un saut 
 
 <container style="width: 100%; margin-bottom: 20px">
     <row>
-        <mdcol><button color="secondary" style="width: 100%">Col 1</button></mdcol>
-        <mdcol><button color="secondary" style="width: 100%">Col 2</button></mdcol>
-        <mdcol><button color="secondary" style="width: 100%">Col 3</button></mdcol>
-        <mdcol><button color="secondary" style="width: 100%">Col 4</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Colonne 1</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Colonne 2</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Colonne 3</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Colonne 4</button></mdcol>
     </row>
     <row style="margin-top: 10px">
-        <mdcol><button color="secondary" style="width: 100%">Col 1</button></mdcol>
-        <mdcol><button color="secondary" style="width: 100%">Col 2</button></mdcol>
-        <mdcol><button color="secondary" style="width: 100%">Col 3</button></mdcol>
-        <mdcol><button color="secondary" style="width: 100%">Col 4</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Colonne 1</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Colonne 2</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Colonne 3</button></mdcol>
+        <mdcol><button color="secondary" style="width: 100%">Colonne 4</button></mdcol>
     </row>
 </container>
 
@@ -151,45 +151,45 @@ De multiples colonnes et rangées peuvent être fixées à l’aide d’un saut 
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Col 1</button>
+                <button type="button" class="btn btn-secondary btn-block">Colonne 1</button>
             </div>
             <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Col 2</button>
+                <button type="button" class="btn btn-secondary btn-block">Colonne 2</button>
             </div>
             <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Col 3</button>
+                <button type="button" class="btn btn-secondary btn-block">Colonne 3</button>
             </div>
             <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Col 4</button>
+                <button type="button" class="btn btn-secondary btn-block">Colonne 4</button>
             </div>
         </div>
         <div class="row">
             <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Col 1</button>
+                <button type="button" class="btn btn-secondary btn-block">Colonne 1</button>
             </div>
             <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Col 2</button>
+                <button type="button" class="btn btn-secondary btn-block">Colonne 2</button>
             </div>
             <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Col 3</button>
+                <button type="button" class="btn btn-secondary btn-block">Colonne 3</button>
             </div>
             <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Col 4</button>
+                <button type="button" class="btn btn-secondary btn-block">Colonne 4</button>
             </div>
         </div>
     </div>
 ' react='
 <Container style="width: 100%">
     <Row>
-        <Col><Button color="secondary" style="width: 100%">Col 1</Button></Col>
-        <Col><Button color="secondary" style="width: 100%">Col 2</Button></Col>
-        <Col><Button color="secondary" style="width: 100%">Col 3</Button></Col>
-        <Col><Button color="secondary" style="width: 100%">Col 4</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Colonne 1</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Colonne 2</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Colonne 3</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Colonne 4</Button></Col>
     </Row>
     <Row style="margin-top: 10px">
-        <Col><Button color="secondary" style="width: 100%">Col 1</Button></Col>
-        <Col><Button color="secondary" style="width: 100%">Col 2</Button></Col>
-        <Col><Button color="secondary" style="width: 100%">Col 3</Button></Col>
-        <Col><Button color="secondary" style="width: 100%">Col 4</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Colonne 1</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Colonne 2</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Colonne 3</Button></Col>
+        <Col><Button color="secondary" style="width: 100%">Colonne 4</Button></Col>
     </Row>
 </Container> '></codeblock>
