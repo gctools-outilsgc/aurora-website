@@ -14,7 +14,7 @@ La création d’un système de conception repose sur un effort de collaboration
 
 ## Qui a créé le système de conception Aurora?
 
-Le système de conception Aurora est le fruit d’un partenariat entre divers concepteurs, développeurs et rédacteurs du gouvernement du Canada. Le système a été conçu sous la direction de la Division de la collaboration sur le numérique du Secrétariat du Conseil du Trésor en collaboration avec le Service numérique canadien: le Nuage de talents, Immigration, Réfugiés et Citoyenneté Canada ainsi que d’autres employés du gouvernement du Canada. 
+Le système de conception Aurora est le fruit d’un partenariat entre divers concepteurs, développeurs et rédacteurs du gouvernement du Canada. Le système a été conçu sous la direction de la Division de la collaboration sur le numérique du Secrétariat du Conseil du Trésor en collaboration avec le Service numérique canadien: le Nuage de talents, Immigration, Réfugiés et Citoyenneté Canada ainsi que d’autres employés du gouvernement du Canada.
 
 ## Qui peut utiliser le système de conception Aurora?
 
@@ -63,5 +63,3 @@ Certains fichiers comprennent des ressources ou des polices de caractères parti
 ## Le code du système de conception Aurora est-il en exploitation libre?
 
 Oui! Tous les aspects du système de conception Aurora sont en exploitation libre et accessibles à tous. Ceci inclut le code, la documentation, les ressources de conception et les fichiers de téléchargement. Notre système a également été créé et partagé à l’aide d’outils en exploitation libre tels que Github, Zube. io, Riot et Gitbook.
-
-

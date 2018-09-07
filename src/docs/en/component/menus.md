@@ -18,7 +18,7 @@ Menus must contain at least two items, and each item should only be a single lin
 
 ### Best Practices
 
-Action menus are temporary lists of choices a user can make. They can consist of both ****primary actions and options which affect the page. Menu items can contain icons, and checkboxes. ****Menus should be internally scrollable.
+Action menus are temporary lists of choices a user can make. They can consist of both primary actions and options which affect the page. Menu items can contain icons, and checkboxes. Menus should be internally scrollable.
 
 Action menus can be static or contextual. Static menus have fixed options; contextual menus change their options based on what is available to select. Menu items can be ordered either statically \(always in the same order\) or dynamically \(changing based on previous user interaction\).
 
