@@ -43,12 +43,13 @@
 .main-nav {
     .nav-holder {
       width: 60%; 
-    } 
-}
-.nav {
+    }
+    .nav {
     flex-wrap: nowrap !important;
     margin: 0 !important;
+    }
 }
+
 }
 
 @media (max-width: 815px) { 
