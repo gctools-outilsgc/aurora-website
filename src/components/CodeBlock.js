@@ -82,7 +82,7 @@ class CodeBlock extends React.Component {
                 {this.props.t(this.state.copyText)}
               </Button>
             </CopyToClipboard>
-            <pre className="pt-3">
+            <pre style={{'padding-top':'40px'}}>
               <PrismCode className={(this.state.output === "html") ? "language-html" : "language-jsx"}>
                 {(this.state.output === "html") ? this.props.html : this.props.react}
               </PrismCode>
