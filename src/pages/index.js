@@ -1,6 +1,7 @@
 import React from 'react';
 import githubLogo from '../img/github.png';
 import downloadIcon from '../img/download.png';
+import headerImg from '../img/aurora-banner-large.png';
 import { StaticQuery, graphql, push, replace } from 'gatsby';
 import {
   Container,
@@ -15,9 +16,8 @@ import { translate } from "react-i18next";
 const IndexPage = ({ data, t, i18n }) => (
 
   <Layout>
-    <Container>
-
-      <Jumbotron style={{ backgroundImage: 'url("https://www.sciencealert.com/images/2018-02/processed/aurora_substorm_1024.jpg")', backgroundSize: 'cover', color: 'white' }}>
+      <div className="hero-holder">
+      <Container>
         <h1 className="display-3">Aurora Design System</h1>
         <p className="lead" style={{ maxWidth: '75%' }}>
           Aurora design system is a central design guide created by the Digital Collaboration Division within the Government of Canada for our digital products. Everything you need to create attractive, cohesive, practical, accessible and enjoyable digital products can be found in our design system. Aurora design system will always be free, open, collaborative and evolving.
@@ -29,7 +29,9 @@ const IndexPage = ({ data, t, i18n }) => (
             <a className="ml-3 ext-link-text" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai"><img alt="" className="mr-1" src={downloadIcon} style={{ width: '32px', height: '32px', display: 'inline-block', 'margin-top':'-5px' }} />Download UI kit</a>
           </div>
         </div>
-      </Jumbotron>
+        </Container>
+      </div>
+    <Container style={{marginTop: '-100px'}}>
 
       <h2>I am a...</h2>
 
@@ -84,17 +86,21 @@ const IndexPage = ({ data, t, i18n }) => (
           <p>The design system will be open and accessible to anyone who wishes to use it. All code is open source, and other guidelines and elements are free to copy.</p>
         </Col>
       </Row>
-
-      <Jumbotron className="text-right" style={{ marginTop: '50px', backgroundImage: 'url("https://www.sciencealert.com/images/2018-02/processed/aurora_substorm_1024.jpg")', backgroundSize: 'cover', color: 'white', textAlign: 'right' }}>
-        <p className="lead" style={{ display: 'inline-block', maxWidth: '50%', paddingBottom: '10px', textAlign: 'left' }}>
-          Don’t fall into one of the roles above? The Aurora Design System can still improve your work! We are always looking for contributors to make the Aurora Design System better for content creators.
-        </p>
-        <div>
-          <a href="/overview/introduction" className="btn btn-primary">Learn more</a>
+      </Container>
+      <div className="footer-holder">
+      <Container>
+        <div style={{maxWidth:'50%', float: 'right'}}>
+          <p className="lead" style={{ display: 'inline-block', paddingBottom: '10px', textAlign: 'left' }}>
+            Don’t fall into one of the roles above? The Aurora Design System can still improve your work! We are always looking for contributors to make the Aurora Design System better for content creators.
+          </p>
+          <div>
+            <a href="/overview/introduction" className="btn btn-primary">Learn more</a>
+          </div>
         </div>
-      </Jumbotron>
+        
+      </Container>
 
-    </Container>
+      </div>
   </Layout>
 
 );
