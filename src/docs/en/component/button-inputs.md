@@ -29,28 +29,36 @@ Checkboxes have four different states:
     </div>
 ' react='' />
 
-**Normal:** 18px by 18px box, border radius of 4px, background colour of \#F9F9F9, border colour of \#96A8B2 at **1px**
+**Normal:**
+
+18px by 18px box, border radius of 4px, background colour of \#F9F9F9, border colour of \#96A8B2 at 1px
 
 <div class="custom-control custom-checkbox">
     <input type="checkbox" class="custom-control-input" id="customCheck2">
     <label class="custom-control-label" for="customCheck2">Custom check</label>
 </div>
 
-**Hover:** 18px by 18px box, border radius of 4px, background color \#FFFFFF, border colour of \#4D5D6C at **1px**
+**Hover:**
+
+18px by 18px box, border radius of 4px, background color \#FFFFFF, border colour of \#4D5D6C at 1px
 
 <div class="custom-control custom-checkbox">
     <input type="checkbox" class="custom-control-input" id="customCheck3">
     <label class="custom-control-label" for="customCheck3">Custom check</label>
 </div>
 
-**Focus:** 18px by 18px box, border radius of 4px, background color \#FFFFFF, border colour of \#4D5D6C at **3px**
+**Focus:**
+
+18px by 18px box, border radius of 4px, background color \#FFFFFF, border colour of \#4D5D6C at 3px
 
 <div class="custom-control custom-checkbox">
     <input type="checkbox" class="custom-control-input" id="customCheck4">
     <label class="custom-control-label" for="customCheck4">Custom check</label>
 </div>
 
-**Active:** 18px by 18px box, border radius of 4px, background colour \#4D5D6C, border colour of \#96A8B2 . Includes a white check icon centered within the box.
+**Active:**
+
+18px by 18px box, border radius of 4px, background colour \#4D5D6C, border colour of \#96A8B2 . Includes a white check icon centered within the box.
 
 ## Radio Buttons
 
@@ -74,28 +82,35 @@ Labels for radio buttons are aligned to the right of the button.
     </div>
 ' react='' />
 
-**Normal:** 18px by 18px circle, background colour of \#F9F9F9, border colour of \#96A8B2 at 1px
+**Normal:**
+
+18px by 18px circle, background colour of \#F9F9F9, border colour of \#96A8B2 at 1px
 
 <div class="custom-control custom-radio">
     <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
     <label class="custom-control-label" for="customRadio2">Custom radio</label>
 </div>
 
-**Hover:** 18px by 18px circle, background color \#FFFFFF, border colour of \#4D5D6C at 1px
+**Hover:**
+
+18px by 18px circle, background color \#FFFFFF, border colour of \#4D5D6C at 1px
 
 <div class="custom-control custom-radio">
     <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
     <label class="custom-control-label" for="customRadio3">Custom radio</label>
 </div>
 
-**Focus:** 18px by 18px circle, border radius of 4px, background color \#FFFFFF, border colour of \#4D5D6C at 3px
+**Focus:**
+
+18px by 18px circle, border radius of 4px, background color \#FFFFFF, border colour of \#4D5D6C at 3px
 
 <div class="custom-control custom-radio">
     <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
     <label class="custom-control-label" for="customRadio4">Custom radio</label>
 </div>
 
-**Active:** 18px by 18pxcircle, border radius of 4px, background colour \#4D5D6C, border colour of \#96A8B2. Includes filled in smaller circle within the full button.
+**Active:**
+18px by 18pxcircle, border radius of 4px, background colour \#4D5D6C, border colour of \#96A8B2. Includes filled in smaller circle within the full button.
 
 ## Switches
 
@@ -135,7 +150,9 @@ Switches have four different states:
     <span class="slider round"></span>
 </label>
 
-**On: 32px by 18px**, border radius of **9px**, slider background colour of \#FEC04F, knob colour \#FFFFFF, border 1px with a colour of \#66666. The knob is on the right of the slider.
+**On:**
+
+32px by 18px, border radius of 9px, slider background colour of \#FEC04F, knob colour \#FFFFFF, border 1px with a colour of \#66666. The knob is on the right of the slider.
 
 <label class="switch">
     <input type="checkbox" checked>

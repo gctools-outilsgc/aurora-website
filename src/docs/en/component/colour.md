@@ -7,7 +7,7 @@ title: "Colour"
 
 # Colour
 
-### Palettes
+## Palettes
 
 Colour palettes consist of an array of colours that are used consistently within your particular application. Colour palettes are designed to work harmoniously with each other often incorporating primary colours, and secondary accent colours that are used to add variety and visual appeal to your application. The colour palette starts with primary colours, and builds on hues of that colour to create a complete and usable palette .
 
@@ -61,7 +61,7 @@ The palette used in this system is titled **Thunder and Lightning** and uses the
 \#FEC04F \(with black text\)
 
 
-### Text Colours
+## Text Colours
 
 
 #### Black Text
@@ -72,7 +72,7 @@ Please see [_Typography_](/typography.md) for more information about using text 
 
 _**\(include a do/don't image\)**_
 
-**Hex code**: \#252525
+Hex code: \#252525
 
 #### White Text
 
@@ -82,7 +82,7 @@ Please see [_Typography_ ](/typography.md)for more information about using text 
 
 _**\(include a do/don't image\)**_
 
-**Hex code**: \#FFFFFF
+Hex code: \#FFFFFF
 
 #### Muted Text
 
@@ -90,15 +90,15 @@ Muted text is used for secondary text elements such as captions, placeholder tex
 
 Please see [_Typography_](/typography.md) for more information about using text colour.
 
-**Hex code**: \#666666
+Hex code: \#666666
 
 ### Colour Themes
 
 #### Light Theme
 
-By default, most applications will follow the light theme. This theme includes various shades of white for different background/foreground levels. For the majority of applications #FAFAFA is a good shade to use as a background colour, with white (#FFFFFF) as the container or card colour.         ****
+By default, most applications will follow the light theme. This theme includes various shades of white for different background/foreground levels. For the majority of applications #FAFAFA is a good shade to use as a background colour, with white (#FFFFFF) as the container or card colour.
 
-Hex codes: \#CCCCCC, \#F5F5F5, \#FAFAFA, \#FFFFF       ****
+Hex codes: \#CCCCCC, \#F5F5F5, \#FAFAFA, \#FFFFF       
 
 
 #### Dark Theme
@@ -118,9 +118,9 @@ Please refer to the alerts section and the colour section for more information.
 #### Error Colours
 
 
-_**Error colours are used to indicate system failures and malfunctions.**_
+Error colours are used to indicate system failures and malfunctions.
 
-**Error hex codes:**  
+Error hex codes:  
 
 •    \#923534
 
@@ -131,9 +131,9 @@ _**Error colours are used to indicate system failures and malfunctions.**_
 
 #### Warning Colours
 
-_**Warning colours are used for notices that require the user’s acknowledgement.**_
+Warning colours are used for notices that require the user’s acknowledgement.
 
-**Warning hex codes:**  
+Warning hex codes:  
 
 •    \#66512C
 
@@ -143,9 +143,9 @@ _**Warning colours are used for notices that require the user’s acknowledgemen
 
 #### Success Colours
 
-_**Success colours are used when confirming that the user’s input was successful.**_
+Success colours are used when confirming that the user’s input was successful.
 
-**Success hex codes:**
+Success hex codes:
 
 •    \#2B542C
 
@@ -155,9 +155,9 @@ _**Success colours are used when confirming that the user’s input was successf
 
 #### Info Colours
 
-_**Info colours are used when providing additional information and notes to the user.**_
+Info colours are used when providing additional information and notes to the user.
 
-**Info hex codes:**  
+Info hex codes:
 
 •    \#245269
 
