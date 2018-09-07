@@ -11,7 +11,7 @@ This design system uses the same grid framework as the [Web Experience Toolkit](
 
 The grid system relies on a series of containers, columns and rows to build layout and align content. Containers center and horizontally pad content. Columns are the framework the content placement is built on. Rows act as wrappers for the columns.  
 
-The grid framework contains 12 columns that scale according to the viewport of the user's device. Further customization of grids and column layouts, such as offsetting and nesting, is possible through the Web Experience Toolkit's framework. Viewport width is in **pixels**, and  does not change the font size.
+The grid framework contains 12 columns that scale according to the viewport of the user's device. Further customization of grids and column layouts, such as offsetting and nesting, is possible through the Web Experience Toolkit's framework. Viewport width is in pixels, and  does not change the font size.
 
 ![Source: https://getbootstrap.com/docs/4.0/layout/grid/](.gitbook/assets/gridgraph1.PNG)
 
@@ -28,7 +28,7 @@ If the size of columns are not defined, they will automatically be set to equal 
         <mdcol><button color="secondary" style="width: 100%">Col 3</button></mdcol>
         <mdcol><button color="secondary" style="width: 100%">Col 4</button></mdcol>
     </row>
-</container> 
+</container>
 
 <codeblock react='
 <Container style="width: 100%">
@@ -100,14 +100,7 @@ When you set the size for one column, sibling columns will automatically resize.
 
 You can set columns to automatically fit the content they contain. Sibling columns will automatically resize.
 
-<container style="width: 100%; margin-bottom: 20px">
-    <row>
-        <mdcol><button outline="true" color="secondary" style="width: 100%">Col 1</button></mdcol>
-        <mdcol><button outline="true" color="secondary"  style="width: 100%">Col 2</button></mdcol>
-        <mdcol xs="auto"><button color="secondary" style="width: 100%">This is the third and largest column due to auto-sizing</button></mdcol>
-        <mdcol><button outline="true" color="secondary" style="width: 100%">Col 4</button></mdcol>
-    </row>
-</container>
+![Source: https://getbootstrap.com/docs/4.0/layout/grid/](.gitbook/assets/gridopt3.PNG)
 
 <codeblock html='
     <div class="container">
@@ -200,3 +193,10 @@ Multiple equal columns and rows can be set with a line break.
         <Col><Button color="secondary" style="width: 100%">Col 4</Button></Col>
     </Row>
 </Container> '></codeblock>
+<<<<<<< HEAD
+
+
+
+**Note this is not using a line-break, check this out later**
+=======
+>>>>>>> master

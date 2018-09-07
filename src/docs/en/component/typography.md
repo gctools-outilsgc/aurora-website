@@ -38,7 +38,7 @@ Some systems may not be able to download or display the fonts in this design sys
 
 Titles appear only on the top of pages and indicate high-level navigation points.
 
-Titles are displayed using Rubik Light at 36 points  in the colour <badge style="background-color: #252525">#252525</badge> on a light background or \#FFFFFF on a dark background.
+Titles are displayed using Rubik Light at 36 points  in the colour \#252525 on a light background or \#FFFFFF on a dark background.
 
 
 ## Headings \(H2-H6\)
@@ -51,7 +51,7 @@ Titles are displayed using Rubik Light at 36 points  in the colour <badge style=
     <h6>Heading 6</h6>
 </div>
 
-There are five different sub-headings. All sub-headings use the colours <badge style="background-color: #252525">#252525</badge> on a light background or \#FFFFFF on a dark background.
+There are five different sub-headings. All sub-headings use the colours \#252525 on a light background or \#FFFFFF on a dark background.
 
 The headers use the following typographic styles:
 
@@ -69,7 +69,7 @@ The headers use the following typographic styles:
 
 Paragraph text is used for most text content found on the application. Paragraph text is set to Nunito Sans Regular at 16 points \(1em\) with a leading of 24 points. Unless indicating a hyperlink or navigation point, paragraph text should not have added emphasis.
 
-Paragraph text uses the colours <badge style="background-color: #252525">#252525</badge> on a light background or \#FFFFFF on a dark background.
+Paragraph text uses the colours \#252525 on a light background or \#FFFFFF on a dark background.
 
 
 ### Line-Breaking
@@ -139,7 +139,7 @@ Link text is used within paragraphs to indicate hyperlinks and navigation points
 
 It is recommended that the link text be underlined and displayed in a secondary colour used in the application. It is also recommended that hyperlinks do not exceed one line in length, and are applied to 2-4 key words rather than a full sentence or line.
 
-Visited links should be indicated by a different colour. Typically, a best practice for visited links is to use a muted version of your hyperlink colour, a secondary colour, or the standard purple: <badge style="background-color: #551A8B">#551A8B</badge>.
+Visited links should be indicated by a different colour. Typically, a best practice for visited links is to use a muted version of your hyperlink colour, a secondary colour, or the standard purple: \#551A8B.
 
 <div style="margin: 0 auto">
 <p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> You may want to see the <a href="#">top of this page.</a></p>

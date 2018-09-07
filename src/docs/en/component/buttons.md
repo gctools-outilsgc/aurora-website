@@ -19,7 +19,7 @@ title: "Buttons"
             <mdcol className="col-1"> <button color="secondary" outline="true">Secondary</button> </mdcol>
             <mdcol className="col-2"></mdcol>
             <mdcol className="col-4"> <button color="primary" block="true">Primary</button> </mdcol>
-            <mdcol className="col-4"> 
+            <mdcol className="col-4">
                 <buttongroup>
                     <button color="primary">Left</button>
                     <button color="primary">Middle</button>
@@ -32,7 +32,7 @@ title: "Buttons"
             <mdcol className="col-1"> <button color="secondary" outline="true" active="true">Secondary</button> </mdcol>
             <mdcol className="col-2"></mdcol>
             <mdcol className="col-4"> <button color="primary" block="true" active="true">Primary</button> </mdcol>
-            <mdcol className="col-4"> 
+            <mdcol className="col-4">
                 <buttongroup>
                     <button color="secondary">Left</button>
                     <button color="primary">Middle</button>
@@ -45,7 +45,7 @@ title: "Buttons"
             <mdcol className="col-1"> <button color="secondary" outline="true" disabled="true">Secondary</button> </mdcol>
             <mdcol className="col-2"></mdcol>
             <mdcol className="col-4"> <button color="primary" block="true" disabled="true">Primary</button> </mdcol>
-            <mdcol className="col-4"> 
+            <mdcol className="col-4">
                 <buttongroup>
                     <button color="primary">Left</button>
                     <button color="secondary">Middle</button>
@@ -59,7 +59,7 @@ title: "Buttons"
             <mdcol className="col-1"> <button size="sm" color="primary">Primary</button> </mdcol>
             <mdcol className="col-1"> <button size="sm" color="primary" disabled="true">Primary</button> </mdcol>
             <mdcol className="col-4"> <button color="primary" block="true" outline="true">Primary</button> </mdcol>
-            <mdcol className="col-4"> 
+            <mdcol className="col-4">
                 <buttongroup>
                     <button color="primary">Left</button>
                     <button color="primary">Middle</button>
@@ -73,7 +73,7 @@ title: "Buttons"
             <mdcol className="col-1"> <button size="sm" color="primary" outline="true">Primary</button> </mdcol>
             <mdcol className="col-1"> <button size="sm" color="primary" disabled="true" outline="true">Primary</button> </mdcol>
             <mdcol className="col-4"> <button color="primary" block="true" active="true">Primary</button> </mdcol>
-            <mdcol className="col-4"> 
+            <mdcol className="col-4">
                 <buttongroup>
                     <button color="primary" disabled="true">Left</button>
                     <button color="primary">Middle</button>
@@ -84,7 +84,7 @@ title: "Buttons"
         <row style="margin-top: 10px">
             <mdcol className="col-4"></mdcol>
             <mdcol className="col-4"> <button color="primary" block="true" disabled="true" outline="true">Primary</button> </mdcol>
-            <mdcol className="col-4"> 
+            <mdcol className="col-4">
                 <buttongroup>
                     <button color="primary">Left</button>
                     <button color="primary" disabled="true">Middle</button>
@@ -100,7 +100,7 @@ title: "Buttons"
             <mdcol className="col-1"><mdbuttondropdown color="secondary"></mdbuttondropdown></mdcol>
             <mdcol className="col-1"><mdbuttondropdown color="primary" disabled="true"></mdbuttondropdown></mdcol>
             <mdcol className="col-1"><mdbuttondropdown color="secondary" disabled="true"></mdbuttondropdown></mdcol>
-        </row> 
+        </row>
     </mdcol>
 </container>
 
