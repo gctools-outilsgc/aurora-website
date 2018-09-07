@@ -20,13 +20,13 @@ const IndexPage = ({ data, t, i18n }) => (
       <Jumbotron style={{ backgroundImage: 'url("https://www.sciencealert.com/images/2018-02/processed/aurora_substorm_1024.jpg")', backgroundSize: 'cover', color: 'white' }}>
         <h1 className="display-3">Aurora Design System</h1>
         <p className="lead" style={{ maxWidth: '75%' }}>
-          A central design guide for the Digital Collaboration Division, the Government of Canada and our digital partners. Always free, always open and always collaborative.
+          Aurora design system is a central design guide created by the Digital Collaboration Division within the Government of Canada for our digital products. Everything you need to create attractive, cohesive, practical, accessible and enjoyable digital products can be found in our design system. Aurora design system will always be free, open, collaborative and evolving.
         </p>
         <div>
-          <Button className="mb-1" size="lg">Get started</Button>
+          <a href="/component/colour" className="mb-1 btn btn-primary btn-lg">Get started</a>
           <div className="mb-3 mt-3">
-            <a className="ext-link-text" href="https://github.com/gctools-outilsgc/design-system"><img className="mr-1" src={githubLogo} style={{ width: '32px', height: '32px', display: 'inline-block' }} />Find us on GitHub</a>
-            <a className="ml-3 ext-link-text" href="#"><img className="mr-1" src={downloadIcon} style={{ width: '32px', height: '32px', display: 'inline-block' }} />Download UI kit</a>
+            <a className="ext-link-text" href="https://github.com/gctools-outilsgc/design-system"><img alt="" className="mr-1" src={githubLogo} style={{ width: '32px', height: '32px', display: 'inline-block', 'margin-top':'-5px' }} />Find us on GitHub</a>
+            <a className="ml-3 ext-link-text" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai"><img alt="" className="mr-1" src={downloadIcon} style={{ width: '32px', height: '32px', display: 'inline-block', 'margin-top':'-5px' }} />Download UI kit</a>
           </div>
         </div>
       </Jumbotron>
@@ -37,22 +37,22 @@ const IndexPage = ({ data, t, i18n }) => (
         <Col xs="6" sm="6" md="3" className="text-center">
           <Img fluid={data.eye.childImageSharp.fluid}  />
           <h3 className="mb-3 mt-3 h4">{t("Designers")}</h3>
-          <Button className="mb-2" outline color="primary" block>Start sketching</Button>
+          <a href="/component/colour" className="mb-2 btn btn-outline-primary btn-block">Start sketching</a>
         </Col>
         <Col xs="6" sm="6" md="3" className="text-center">
           <Img fluid={data.gears.childImageSharp.fluid}  />
           <h3 className="mb-3 mt-3 h4">{t("Developers")}</h3>
-          <Button className="mb-2" outline color="primary" block>Start coding</Button>
+          <a href="/component/colour" className="mb-2 btn btn-outline-primary btn-block">Start coding</a>
         </Col>
         <Col xs="6" sm="6" md="3" className="text-center">
           <Img fluid={data.pen.childImageSharp.fluid}  />
           <h3 className="mb-3 mt-3 h4">{t("Writers")}</h3>
-          <Button className="mb-2" outline color="primary" block>Start writing</Button>
+          <a href="/content/content-guidelines" className="mb-2 btn btn-outline-primary btn-block">Start writing</a>
         </Col>
         <Col xs="6" sm="6" md="3" className="text-center">
           <Img fluid={data.pie.childImageSharp.fluid}  />
           <h3 className="mb-3 mt-3 h4">{t("DataScientists")}</h3>
-          <Button className="mb-2" outline color="primary" block>Start analyzing</Button>
+          <a href="/data/data-overview" className="mb-2 btn btn-outline-primary btn-block">Start analyzing</a>
         </Col>
       </Row>
 
@@ -90,7 +90,7 @@ const IndexPage = ({ data, t, i18n }) => (
           Don’t fall into one of the roles above? The Aurora Design System can still improve your work! We are always looking for contributors to make the Aurora Design System better for content creators.
         </p>
         <div>
-          <Button>Learn more</Button>
+          <a href="/overview/introduction" className="btn btn-primary">Learn more</a>
         </div>
       </Jumbotron>
 
