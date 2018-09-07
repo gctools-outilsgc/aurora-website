@@ -4,6 +4,28 @@
     overflow: auto;
 }
 
+.doc-container {
+    max-width: 1250px;
+    padding-left: 310px;
+}
+
+@media (max-width: 768px) { 
+    .doc-container {
+        padding-left: 0px;
+    }
+}
+
+.hero-holder {
+    background-image: url(https://raw.githubusercontent.com/gctools-outilsgc/design-system/master/project_mgmt/Aurora-Banner-large.png);
+    background-size: cover;
+    height: 795px;
+}
+
+.footer-holder {
+    background-image: url(https://raw.githubusercontent.com/gctools-outilsgc/design-system/master/project_mgmt/Aurora-Banner-small.png);
+    background-size: cover;
+    height: 300px;
+}
 @media (max-width: 576px) { 
 .scroll {
     white-space: nowrap;
