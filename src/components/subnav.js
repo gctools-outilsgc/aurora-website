@@ -35,34 +35,34 @@ class Subnav extends React.Component {
 			parseInt(a.node.frontmatter.subnav.split('/')[3], 10) - parseInt(b.node.frontmatter.subnav.split('/')[3], 10))
 			;
 		return (
-			<ListGroup>
-				<ListGroupItem onClick={this.toggle} className="dropdown-toggle" style={{"border": "0px", "font-size":"1.3125em", "font-family": "'Nunito Sans', sans-serif", "margin-top": "5px", "margin-bottom": "5px", "font-weight": "600"}} id='listGroupItem'>
-					{(i18n.language === "en") ? nameEn : nameFr}
-				</ListGroupItem>
+			<ListGroupItem className="collapseItem">
+				<a href="#" onClick={this.toggle} style={{"border": "0px", "font-size":"1.2125em", "font-family": "'Nunito Sans', sans-serif", "margin-top": "5px", "margin-bottom": "5px", "font-weight": "600"}}>{(i18n.language === "en") ? nameEn : nameFr}</a>
 				<Collapse isOpen={this.state.dropdownOpen}>
-					{sortedFiles.map((edges) => {
-						if (
-							((i18n.language === "en") && (edges.node.frontmatter.lang === "en")) ||
-							((i18n.language === "fr") && (edges.node.frontmatter.lang === "fr"))
-						)
-							return (
-								<ListGroupItem id='listGroupItem' active={path === edges.node.frontmatter.path} style={{ "padding-left": "2rem",  "border": "0px"}}>
-									<Link
-										id="link"
-										to={edges.node.frontmatter.path}
-										activeStyle={{
-											color: "white",
-											backgroundColor: "#467B8D"
-										}}
-									>
-										{edges.node.frontmatter.title}
-									</Link>
-								</ListGroupItem>
-							);
-					})
-					}
+					<ListGroup>
+						{sortedFiles.map((edges) => {
+							if (
+								((i18n.language === "en") && (edges.node.frontmatter.lang === "en")) ||
+								((i18n.language === "fr") && (edges.node.frontmatter.lang === "fr"))
+							)
+								return (
+									<ListGroupItem className="subItem" active={path === edges.node.frontmatter.path} style={{ "padding-left": "2rem",  "border": "0px"}}>
+										<Link
+											className="subLink"
+											to={edges.node.frontmatter.path}
+											activeStyle={{
+												color: "white",
+												backgroundColor: "#467B8D"
+											}}
+										>
+											{edges.node.frontmatter.title}
+										</Link>
+									</ListGroupItem>
+								);
+						})
+						}
+					</ListGroup>
 				</Collapse>
-			</ListGroup>
+			</ListGroupItem>
 		);
 	}
 }
