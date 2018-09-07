@@ -19,9 +19,9 @@ exports.createPages = ({ graphql, actions }) => {
           node {
             frontmatter {
               path
+              subnav
               lang
               title
-              num
             }
           }
         }
