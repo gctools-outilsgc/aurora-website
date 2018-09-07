@@ -78,7 +78,7 @@ class CodeBlock extends React.Component {
 
           <Col md="12" style={{ "width": "100%" }}>
             <CopyToClipboard text={(this.state.output === "html") ? this.props.html : this.props.react}>
-              <Button style={{'position':'absolute', 'right':'20px', 'top':'12px'}} primary size="sm" outline onClick={this.copy} className="float-right">
+              <Button style={{'position':'absolute', 'right':'20px', 'top':'12px'}} color="primary" size="sm" outline onClick={this.copy} className="float-right">
                 {this.props.t(this.state.copyText)}
               </Button>
             </CopyToClipboard>

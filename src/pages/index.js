@@ -56,7 +56,7 @@ const IndexPage = ({ data, t, i18n }) => (
         </Col>
       </Row>
 
-      <h2 className="mt-3 mb-4" style={{textAlign: 'center'}}>About Aurora Design System</h2>
+      <h2 className="mt-4 mb-5" style={{textAlign: 'center'}}>About Aurora Design System</h2>
 
       <Row className="mb-3">
         <Col xs="12" sm="6" md="4">
