@@ -17,19 +17,38 @@ Labels for checkboxes are aligned to the right of the box.
 
 Checkboxes have four different states:
 
-*Regular checkbox component*
+<div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" id="customCheck1">
+    <label class="custom-control-label" for="customCheck1">Custom check</label>
+</div>
+
+<codeblock html='
+    <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="customCheck1">
+        <label class="custom-control-label" for="customCheck1">Custom check</label>
+    </div>
+' react='' />
 
 **Normal:** 18px by 18px box, border radius of 4px, background colour of \#F9F9F9, border colour of \#96A8B2 at **1px**
 
-*Hover checkbox component*
+<div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" id="customCheck2">
+    <label class="custom-control-label" for="customCheck2">Custom check</label>
+</div>
 
 **Hover:** 18px by 18px box, border radius of 4px, background color \#FFFFFF, border colour of \#4D5D6C at **1px**
 
-*Focus checkbox component*
+<div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" id="customCheck3">
+    <label class="custom-control-label" for="customCheck3">Custom check</label>
+</div>
 
 **Focus:** 18px by 18px box, border radius of 4px, background color \#FFFFFF, border colour of \#4D5D6C at **3px**
 
-*Active checkbox component*
+<div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" id="customCheck4">
+    <label class="custom-control-label" for="customCheck4">Custom check</label>
+</div>
 
 **Active:** 18px by 18px box, border radius of 4px, background colour \#4D5D6C, border colour of \#96A8B2 . Includes a white check icon centered within the box.
 
@@ -43,39 +62,38 @@ If there is an _Other_ option, this should include an open field for users to pr
 
 Labels for radio buttons are aligned to the right of the button.
 
-<formGroup check='true'>
-    <label check='true'>
-    <input type="radio" name="radio2" />
-    Option one is this and that—be sure to include why it's great
-    </Label>
-</formGroup>
+<div class="custom-control custom-radio">
+    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio1">Custom radio</label>
+</div>
+
+<codeblock html='
+    <div class="custom-control custom-radio">
+        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+        <label class="custom-control-label" for="customRadio1">Custom radio</label>
+    </div>
+' react='' />
 
 **Normal:** 18px by 18px circle, background colour of \#F9F9F9, border colour of \#96A8B2 at 1px
 
-<formGroup check='true'>
-    <label check='true'>
-    <input type="radio" name="radio2" />
-    Option two is this and that—be sure to include why it's great
-    </Label>
-</formGroup>
+<div class="custom-control custom-radio">
+    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio2">Custom radio</label>
+</div>
 
 **Hover:** 18px by 18px circle, background color \#FFFFFF, border colour of \#4D5D6C at 1px
 
-<formGroup check='true'>
-    <label check='true'>
-    <input type="radio" name="radio2" />
-    Option three is this and that—be sure to include why it's great
-    </Label>
-</formGroup>
+<div class="custom-control custom-radio">
+    <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio3">Custom radio</label>
+</div>
 
 **Focus:** 18px by 18px circle, border radius of 4px, background color \#FFFFFF, border colour of \#4D5D6C at 3px
 
-<formGroup check='true'>
-    <label check='true'>
-    <input type="radio" name="radio2" />
-    Option four is this and that—be sure to include why it's great
-    </Label>
-</formGroup>
+<div class="custom-control custom-radio">
+    <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio4">Custom radio</label>
+</div>
 
 **Active:** 18px by 18pxcircle, border radius of 4px, background colour \#4D5D6C, border colour of \#96A8B2. Includes filled in smaller circle within the full button.
 
@@ -87,23 +105,42 @@ Switches can be used in all kinds of forms, or other types of functions such as 
 
 Switches have four different states:
 
-*Switch - off component*
+<label class="switch">
+    <input type="checkbox" tabindex="-1">
+    <span class="slider round"></span>
+</label>
+
+<codeblock html='
+    <label class="switch">
+        <input type="checkbox" tabindex="-1">
+        <span class="slider round"></span>
+    </label>
+' react='' />
 
 **Off:**
 
 32px by 18px, border radius of 9px, slider background colour of \#E3E4E5, knob colour \#FFFFFF, border 1px with a colour of \#66666. The knob is on the left of the slider.
 
-*Switch - off hover/focus component*
+<label class="switch">
+    <input type="checkbox" tabindex="-1">
+    <span class="slider round"></span>
+</label>
 
 **Off, Hover/Focus:**
 
 32px by 18px, border radius of 9px, slider background colour of \#E3E4E5, knob colour of \#FFFFFF with a border of 3px and border colour of \#4D5D6C , border 1px with a colour of \#66666. The knob is on the left of the slider.
 
-*Switch - on component*
+<label class="switch">
+    <input type="checkbox" checked>
+    <span class="slider round"></span>
+</label>
 
 **On: 32px by 18px**, border radius of **9px**, slider background colour of \#FEC04F, knob colour \#FFFFFF, border 1px with a colour of \#66666. The knob is on the right of the slider.
 
-*Switch on - hover/focus*
+<label class="switch">
+    <input type="checkbox" checked>
+    <span class="slider round"></span>
+</label>
 
 **On, Hover/Focus:**
 

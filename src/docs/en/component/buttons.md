@@ -7,7 +7,103 @@ title: "Buttons"
 
 # Buttons
 
-![Image of all button varieties](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/buttons.png)
+<container style="width: 100%; margin-bottom: 20px">
+    <mdcol>
+        <row>
+            <mdcol className="col-4"><h5>Buttons</h5> </mdcol>
+            <mdcol className="col-4"><h5>Full width Buttons</h5> </mdcol>
+            <mdcol className="col-4"><h5>Button Groups</h5> </mdcol>
+        </row>
+        <row>
+            <mdcol className="col-1"> <button color="primary">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button color="secondary" outline="true">Secondary</button> </mdcol>
+            <mdcol className="col-2"></mdcol>
+            <mdcol className="col-4"> <button color="primary" block="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> 
+                <buttongroup>
+                    <button color="primary">Left</button>
+                    <button color="primary">Middle</button>
+                    <button color="primary">Right</button>
+                </buttongroup>
+            </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-1"> <button color="primary" active="true">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button color="secondary" outline="true" active="true">Secondary</button> </mdcol>
+            <mdcol className="col-2"></mdcol>
+            <mdcol className="col-4"> <button color="primary" block="true" active="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> 
+                <buttongroup>
+                    <button color="secondary">Left</button>
+                    <button color="primary">Middle</button>
+                    <button color="primary">Right</button>
+                </buttongroup>
+            </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-1"> <button color="primary" disabled="true">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button color="secondary" outline="true" disabled="true">Secondary</button> </mdcol>
+            <mdcol className="col-2"></mdcol>
+            <mdcol className="col-4"> <button color="primary" block="true" disabled="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> 
+                <buttongroup>
+                    <button color="primary">Left</button>
+                    <button color="secondary">Middle</button>
+                    <button color="primary">Right</button>
+                </buttongroup>
+            </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-1"> <button size="sm" color="primary">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button size="sm" color="primary">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> <button color="primary" block="true" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> 
+                <buttongroup>
+                    <button color="primary">Left</button>
+                    <button color="primary">Middle</button>
+                    <button color="secondary">Right</button>
+                </buttongroup>
+            </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-1"> <button size="sm" color="primary" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button size="sm" color="primary" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> <button color="primary" block="true" active="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> 
+                <buttongroup>
+                    <button color="primary" disabled="true">Left</button>
+                    <button color="primary">Middle</button>
+                    <button color="primary" disabled="true">Right</button>
+                </buttongroup>
+            </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-4"></mdcol>
+            <mdcol className="col-4"> <button color="primary" block="true" disabled="true" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-4"> 
+                <buttongroup>
+                    <button color="primary">Left</button>
+                    <button color="primary" disabled="true">Middle</button>
+                    <button color="primary">Right</button>
+                </buttongroup>
+            </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-4"><h5>Dropdown Buttons</h5> </mdcol>
+        </row>
+        <row style="margin-top: 10px">
+            <mdcol className="col-1"><mdbuttondropdown color="primary"></mdbuttondropdown></mdcol>
+            <mdcol className="col-1"><mdbuttondropdown color="secondary"></mdbuttondropdown></mdcol>
+            <mdcol className="col-1"><mdbuttondropdown color="primary" disabled="true"></mdbuttondropdown></mdcol>
+            <mdcol className="col-1"><mdbuttondropdown color="secondary" disabled="true"></mdbuttondropdown></mdcol>
+        </row> 
+    </mdcol>
+</container>
+
 
 ## Best Practices
 
@@ -57,7 +153,7 @@ Primary buttons use the primary colour, with white text. Sizing of the button de
 
 Each of the states for primary buttons are as follows:
 
-*Regular button component here*
+<button color="primary">Primary</button>
 
 <codeblock html='<button type="button" class="btn btn-primary">Primary</button>' react='<Button color="primary">Primary</Button>'></codeblock>
 
@@ -73,7 +169,7 @@ Each of the states for primary buttons are as follows:
 
 **Active state:** _**\(to complete\)**_
 
-*Disabled button component here*
+<button color="primary" disabled="true">Primary</button>
 
 <codeblock html='<button type="button" class="btn btn-primary" disabled>Primary</button>' react='<Button color="primary" disabled>Primary</Button>'></codeblock>
 
@@ -95,7 +191,8 @@ Secondary buttons in this system are transparent with a stroke colour. Text chan
 
 Each of the states for secondary buttons are as follows:
 
-*Regular secondary button component*
+<button color="secondary">Secondary</button>
+
 
 <codeblock html='<button type="button" class="btn btn-secondary">Secondary</button>' react='<Button color="secondary">Secondary</Button>'></codeblock>
 
@@ -109,7 +206,7 @@ Each of the states for secondary buttons are as follows:
 
 **Focus state:** transparent with a 3px stroke using \#002D42, the text is displayed in \#002D42. Border radius of 4px and padding of 15px.
 
-*Disabled secondary button component*
+<button color="secondary" disabled="true">Secondary</button>
 
 <codeblock html='<button type="button" class="btn btn-secondary" disabled>Secondary</button>' react='<Button color="secondary" disabled>Secondary</Button>'></codeblock>
 
@@ -171,19 +268,25 @@ Button groups, are a stylized way of putting multiple buttons together.
 
 Primary actions are aligned to the left, while secondary actions are placed in the middle, and warning or destructive actions are aligned to the right.
 
-*Button groups component*
+<div class="mt-2">
+    <div class="btn-group" role="group" aria-label="Basic example of button group">
+        <button type="button" class="btn btn-primary">Left</button>
+        <button type="button" class="btn btn-primary">Middle</button>
+        <button type="button" class="btn btn-primary">Right</button>
+    </div>
+</div>
 
 <codeblock html='
-    <div class="btn-group" role="group" aria-label="Basic example">
+    <div class="btn-group" role="group" aria-label="Basic example of button group">
         <button type="button" class="btn btn-primary">Left</button>
-        <button type="button" class="btn btn-secondary">Middle</button>
-        <button type="button" class="btn btn-warning">Right</button>
+        <button type="button" class="btn btn-primary">Middle</button>
+        <button type="button" class="btn btn-primary">Right</button>
     </div>
 ' react='
 <ButtonGroup style="margin-bottom: 15px">
     <Button color="primary">Left</Button>
-    <Button color="secondary">Middle</Button>
-    <Button color="warning">Right</Button>
+    <Button color="primary">Middle</Button>
+    <Button color="primary">Right</Button>
 </ButtonGroup>
 '></codeblock>
 

@@ -103,7 +103,7 @@ CodeBlock.propTypes = {
 };
 
 CodeBlock.defaultProps = {
-  defaultOutput: "react",
+  defaultOutput: "html",
   isShowingCode: true
 }
 
