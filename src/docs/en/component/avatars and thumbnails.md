@@ -61,7 +61,7 @@ Avatars are used in three sizes and styled as follows:
 <codeblock html='<img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png">
 ' react='' />
 
-**Small:** Square image with corners rounded by **4px**. Sized at **26 x 26 pixels**.
+**Small:** Square image with corners rounded by 4px. Sized at 26 x 26 pixels.
 
 Used on small components where the user would need to be identified, such as tags or chat.
 
@@ -70,7 +70,7 @@ Used on small components where the user would need to be identified, such as tag
 <codeblock html='<img alt="medium avatar" class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
 ' react='' />
 
-**Medium:** Square image with corners rounded by **4px**. Sized at **50 x 50 pixels**.
+**Medium:** Square image with corners rounded by 4px. Sized at 50 x 50 pixels.
 
 Used in combination with other components such as comments, chat, cards and anywhere else you would need to identify the user.
 
@@ -79,7 +79,7 @@ Used in combination with other components such as comments, chat, cards and anyw
 <codeblock html='<img alt="large avatar" class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
 ' react='' />
 
-**Large**: Square image with corners rounded by **4px**. Sized at **115 x 115 pixel**s.
+**Large**: Square image with corners rounded by 4px. Sized at 115 x 115 pixels.
 
 Used directly on the user's profile.
 
@@ -89,6 +89,6 @@ Thumbnails are small versions of an image that are used as previews to content. 
 
 *Thumbnail component*
 
-Thumbnails are always square with a border radius **1px**. They have a black stroke width of **0.25p**x. They are sized at **115 x 115 pixels**. _**\(responsive sizing?\)**_
+Thumbnails are always square with a border radius 1px. They have a black stroke width of 0.25px. They are sized at 115 x 115 pixels
 
 Thumbnails do not crop the image but simply re-scale it. Thumbnails are typically left-aligned when combined with other components.

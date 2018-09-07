@@ -15,10 +15,6 @@ Acronyms and abbreviations should be avoided. Write out acronyms and abbreviatio
 
 Acronyms and abbreviations should always be capitalized. Acronyms do not require a period after each letter.
 
-## Contractions
-
-## Numbered and Bulleted Lists
-
 ## Dates, Numbers and Addresses
 
 Dates are always posted spelling out the entire date (e.g. July 12, 2018). For timestamps on posts, dates can be spelled out (i.e. one day ago, one week ago), until (x) after the content has been posted.
@@ -37,20 +33,6 @@ Time in this system is formatted using the 12-hour clock. For events and other c
 
 Units of measurement in this system will always use the metric system.
 
-## Places, Names and Formal Nouns
-
-## Colons
-
 ## Ampersands
 
 System messaging and text will never use ampersands. Instead, spell out the word "and".
-
-## Commas, Ellipses, Colons
-
-## En and Em Dashes
-
-## Hyphens, Slashes and Pipes
-
-## Bold and Italics
-
-## Quotation Marks

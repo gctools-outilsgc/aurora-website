@@ -17,11 +17,7 @@ Breadcrumbs should be complimentary to primary navigation and should never be us
 
 Breadcrumbs in this design system are as follows:
 
-<breadcrumb>
-    <breadcrumbitem><a href="#">Main Page</a></breadcrumbitem>
-    <breadcrumbitem><a href="#">Secondary Page</a></breadcrumbitem>
-    <breadcrumbitem active="true">Current Page</breadcrumbitem>
-</breadcrumb>
+*Breadcrumbs component*
 
 <codeblock html='
     <nav aria-label="breadcrumb">

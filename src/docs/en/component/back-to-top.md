@@ -17,7 +17,7 @@ Back to top buttons in this design system are styled as follows:
 
 *Back to top component*
 
-White circle with a radius of 43px. Border is 1px \#CECECE. Drop shadow of \#000000 20% opacity, 0 offset for x, 2px offset for y, **2px** blur.
+White circle with a radius of 43px. Border is 1px \#CECECE. Drop shadow of \#000000 20% opacity, 0 offset for x, 2px offset for y, 2px blur.
 
 There is an arrow icon centred in the circle \(_Arrow up_ from Font Awesome\). The arrow is coloured \#666666
 
