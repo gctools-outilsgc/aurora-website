@@ -43,9 +43,9 @@ For complicated forms, information should be displayed using multiple steps or p
     </div>
   </div>
   <div class="form-group row">
-    <label for="inputSelect" class="col-sm-2 col-form-label">Select</label>
+    <label for="inputSelect2" class="col-sm-2 col-form-label">Select</label>
     <div class="col-sm-10">
-        <select class="custom-select" multiple>
+        <select class="custom-select" id="inputSelect2" multiple>
             <option selected>Open this select menu</option>
             <option value="1">One</option>
             <option value="2">Two</option>

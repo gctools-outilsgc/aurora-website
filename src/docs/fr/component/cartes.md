@@ -134,7 +134,7 @@ Un deuxième diviseur de 12px est placé sous le contenu. Des points actionnable
 Les cartes peuvent techniquement comprendre un certain nombre de combinaisons d’éléments. En utilisant les concepts de base qui précèdent, les éléments comme les espaces de texte réservés (métadates), les avatars, les boutons icônes et les boutons peuvent être ajoutés sous l’en-tête ou dans la section actionnable en dessous du contenu principal.
 
 <div class="card card-profile mb-2 d-inline-block" style="max-width: 18rem;">  
-    <img class="card-img-top" style="height: 100px;" src="http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg">
+    <img class="card-img-top" alt="placeholder image" style="height: 100px;" src="http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg">
     <div class="card-body">
         <img alt="..." class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
         <div>

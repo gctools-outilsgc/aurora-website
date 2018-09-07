@@ -16,14 +16,14 @@ L’utilisateur ne saisit pas de texte dans le champ de saisie; celui-ci est rem
 Les saisies de téléversement de fichiers ont quatre états :
 
 <div class="custom-file">
-    <input type="file" id="file" class="custom-file-input">
+    <input type="file" id="file" class="custom-file-input" aria-label="Choisir le fichier">
     <span class="custom-file-control"></span>
     <label class="custom-file-label" for="customFile">Choisir le fichier</label>
 </div>
 
 <codeblock html='
     <div class="custom-file">
-        <input type="file" id="file" class="custom-file-input">
+        <input type="file" id="file" class="custom-file-input" aria-label="Choisir le fichier">
         <span class="custom-file-control"></span>
         <label class="custom-file-label" for="customFile">Choisir le fichier</label>
     </div>
@@ -34,14 +34,14 @@ Les saisies de téléversement de fichiers ont quatre états :
 Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle élevé de 42 px ayant un rayon de bordure de 4 px. La couleur de l’arrière-plan est le #FFFFFF, la couleur de bordure est le #CCCCCC, et l’ombrage de 1 px a une opacité noire floue à 20 %. Le texte est aligné à gauche du champ de saisie et suit les normes sur le [texte d’espace réservé.](typographie.md) Le champ est un remplissage de 11 px.
 
 <div class="custom-file">
-    <input type="file" id="file" class="custom-file-input">
+    <input type="file" id="file" class="custom-file-input" aria-label="file upload">
     <span class="custom-file-control"></span>
     <label class="custom-file-label" for="customFile">Choisir le fichier</label>
 </div>
 
 <codeblock html='
     <div class="custom-file">
-        <input type="file" id="file" class="custom-file-input">
+        <input type="file" id="file" class="custom-file-input" aria-label="file upload">
         <span class="custom-file-control"></span>
         <label class="custom-file-label" for="customFile">Choisir le fichier</label>
     </div>
@@ -51,14 +51,14 @@ Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle
 Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle élevé de 42 px ayant un rayon de bordure de 4 px. La couleur de l’arrière-plan est le #FFFFFF, la couleur de bordure est le #CCCCCC. Le texte est aligné à gauche du champ de saisie et suit les normes sur le [texte d’espace réservé.](typographie.md) Le champ est un ombrage de 11 px.
 
 <div class="custom-file">
-    <input type="file" id="file" class="custom-file-input">
+    <input type="file" id="file" class="custom-file-input" aria-label="file upload">
     <span class="custom-file-control"></span>
     <label class="custom-file-label" for="customFile">Choisir le fichier</label>
 </div>
 
 <codeblock html='
     <div class="custom-file">
-        <input type="file" id="file" class="custom-file-input">
+        <input type="file" id="file" class="custom-file-input" aria-label="file upload">
         <span class="custom-file-control"></span>
         <label class="custom-file-label" for="customFile">Choisir le fichier</label>
     </div>
@@ -68,14 +68,14 @@ Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle
 Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle élevé de 42 px ayant un rayon de bordure de 4 px. La couleur de l’arrière-plan est le #FFFFFF, la couleur de bordure est le #CCCCCC. Le texte est aligné à gauche du champ de saisie et suit les normes sur le [texte d’espace réservé.](typographie.md) Le champ a un ombrage de 11 px.
 
 <div class="custom-file">
-    <input type="file" id="file" class="custom-file-input" disabled>
+    <input type="file" id="file" class="custom-file-input" disabled aria-label="file upload">
     <span class="custom-file-control"></span>
     <label class="custom-file-label" for="customFile">Choisir le fichier</label>
 </div>
 
 <codeblock html='
     <div class="custom-file">
-        <input type="file" id="file" class="custom-file-input" disabled>
+        <input type="file" id="file" class="custom-file-input" disabled aria-label="file upload">
         <span class="custom-file-control"></span>
         <label class="custom-file-label" for="customFile">Choisir le fichier</label>
     </div>
