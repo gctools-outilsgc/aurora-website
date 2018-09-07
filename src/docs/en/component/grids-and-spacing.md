@@ -21,7 +21,6 @@ The grid framework contains 12 columns that scale according to the viewport of t
 
 If the size of columns are not defined, they will automatically be set to equal widths.
 
-
 <container style="width: 100%; margin-bottom: 20px">
     <row>
         <mdcol><button color="secondary" style="width: 100%">Col 1</button></mdcol>
@@ -58,16 +57,10 @@ If the size of columns are not defined, they will automatically be set to equal 
     </div>
 '></codeblock>
 
-
-
-
 ### Unequal-width
 
 When you set the size for one column, sibling columns will automatically resize.
 
-<<<<<<< HEAD
-![Source: https://getbootstrap.com/docs/4.0/layout/grid/](.gitbook/assets/gridopt2.PNG)
-=======
 <container style="width: 100%; margin-bottom: 20px">
     <row>
         <mdcol><button color="secondary" style="width: 100%">Col 1</button></mdcol>
@@ -76,7 +69,6 @@ When you set the size for one column, sibling columns will automatically resize.
         <mdcol><button color="secondary" style="width: 100%">Col 4</button></mdcol>
     </row>
 </container>
->>>>>>> master
 
 <codeblock html='
     <div class="container">
@@ -103,8 +95,6 @@ When you set the size for one column, sibling columns will automatically resize.
         <Col><Button color="secondary" style="width: 100%">Col 4</Button></Col>
     </Row>
 </Container> '></codeblock>
-
-
 
 ### Variable Width Content
 
@@ -138,15 +128,10 @@ You can set columns to automatically fit the content they contain. Sibling colum
     </Row>
 </Container> '></codeblock>
 
-
-
 ### Equal-width Multi-row
 
 Multiple equal columns and rows can be set with a line break.
 
-<<<<<<< HEAD
-![Source: https://getbootstrap.com/docs/4.0/layout/grid/](.gitbook/assets/gridopt4.PNG)
-=======
 <container style="width: 100%; margin-bottom: 20px">
     <row>
         <mdcol><button color="secondary" style="width: 100%">Col 1</button></mdcol>
@@ -208,8 +193,10 @@ Multiple equal columns and rows can be set with a line break.
         <Col><Button color="secondary" style="width: 100%">Col 4</Button></Col>
     </Row>
 </Container> '></codeblock>
+<<<<<<< HEAD
 
 
 
 **Note this is not using a line-break, check this out later**
+=======
 >>>>>>> master

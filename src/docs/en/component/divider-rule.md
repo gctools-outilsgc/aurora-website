@@ -13,6 +13,34 @@ For cards and other content, the divider is the length of the card with padding 
 
 When used on cards, dividers are placed underneath the card heading.
 
-*Example image using card*
+<div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+    <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <hr />
+    <div class="card-subtitle text-muted">Meta Information</div>
+    <p class="card-text">Some quick example text to build on the card title</p>
+    <a href="#" class="card-link">Another link</a>
+    </div>
+</div>
 
-*Example image using text-based post*
+<codeblock html='
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <hr />
+            <div class="card-subtitle text-muted">Meta Information</div>
+            <p class="card-text">Some quick example text to build on the card title</p>
+            <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+' react='' />
+
+<p>Hello. I'm a little bit of body text. Plain and simple.</p>
+<hr />
+<p>Macaroon gummies pie marzipan sesame snaps. Donut gummi bears candy canes jelly-o. Marzipan pudding croissant croissant gummi bears jelly beans. Brownie dessert marshmallow chupa chups jelly-o caramels cheesecake lollipop.</p>
+
+<codeblock html='
+    <p>Hello. Im a little bit of body text. Plain and simple.</p>
+    <hr />
+    <p>Macaroon gummies pie marzipan sesame snaps. Donut gummi bears candy canes jelly-o. Marzipan pudding croissant croissant gummi bears jelly beans. Brownie dessert marshmallow chupa chups jelly-o caramels cheesecake lollipop.</p>
+' react='' />
