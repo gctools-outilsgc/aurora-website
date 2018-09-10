@@ -16,6 +16,7 @@ import { translate } from "react-i18next";
 const IndexPage = ({ data, t, i18n }) => (
 
   <Layout>
+    <main id="main-content" role="main">
       <div className="hero-holder">
       <Container>
         <h1 className="display-3">Aurora Design System</h1>
@@ -101,6 +102,7 @@ const IndexPage = ({ data, t, i18n }) => (
       </Container>
 
       </div>
+    </main>
   </Layout>
 
 );
