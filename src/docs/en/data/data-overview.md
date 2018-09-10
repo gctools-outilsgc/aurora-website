@@ -11,7 +11,7 @@ Data visualizations come in many forms, and are a visual means to represent a da
 
 Data visualizations should aim to represent and answer one question. The goal is to provide a brief overview of the data, and tell a visual story that makes sense to the user. Graphs should be used to visually represent datasets in ways that tables cannot. If the data is easy to understand without a visualization, usually the simplest option \(a table\) is best.
 
-*webpage image
+*webpage image*
 
 ## Simplicity
 
@@ -71,6 +71,6 @@ For increased accessibility, it is also recommended to use textures in addition 
 
 See specific types of visualizations for use of colour. In general, each variable should have one designated colour, and only graphs showing multiple variables should have multiple colours.
 
-Axis lines should use light grey \(\#E0E0E0\), to not distract from other colours used in the visualization
+Axis lines should use light grey \(<badge style="background-color: #E0E0E0">#E0E0E0</badge>\), to not distract from other colours used in the visualization
 
 For more information about colour choice, visit the [colour section](colour.md).

@@ -34,7 +34,7 @@ Not all of these elements are necessary in every card. You can choose the elemen
 
 #### Basic card template
 
-Basic cards can be used as containers for any type of information are are sized depending on the content. Basic cards form the foundation for more complex cards which may include any combination of elements.
+Basic cards can be used as containers for any type of information are  sized depending on the content. Basic cards form the foundation for more complex cards which may include any combination of elements.
 
 <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
     <div class="card-body">
