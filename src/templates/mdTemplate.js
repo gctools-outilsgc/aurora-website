@@ -2,16 +2,18 @@ import React from 'react';
 import rehypeReact from 'rehype-react';
 import * as reactstrap from 'reactstrap';
 import { graphql } from 'gatsby';
-import { Row, Col } from 'reactstrap';
+import { Row, Col, Container, UncontrolledCollapse, Button } from 'reactstrap';
 import { translate } from 'react-i18next';
 
 import Sidenav from '../components/sidenav';
+import Search from '../components/search';
 import Layout from '../components/layout';
 import ToggleCodeBlock from '../components/ToggleCodeBlock';
 import CodeBlock from '../components/CodeBlock';
 import PaginationLinkPrev from '../components/PaginationLinkPrev';
 /* Import wrappers for embedding state-dependent components in markdown */
 import ButtonDropdownWrapper from '../components/ButtonDropdownWrapper';
+
 
 const Template = ({
   data, // this prop will be injected by the GraphQL query below.
@@ -26,17 +28,27 @@ const Template = ({
   }).Compiler;
   return (
     <Layout>
-      <Row>
-        <Col xs="3">
-          <Sidenav path={path} />
-        </Col>
-        <Col>
-          {(i18n.language === "en" || fr === null) ?
-            <div className="col-sm">{renderAst(eng.htmlAst)}</div> :
-            <div className="col-sm">{renderAst(fr.htmlAst)}</div>
-          }
-        </Col>
-      </Row>
+          <div id="mobile-menu-holder" className="d-sm-block d-md-none d-lg-none d-xl-none bg-primary" style={{padding: '6px'}}>
+            <Button color="primary" id="mobile-menu" className="mr-3">Menu</Button>
+            <Search
+              lng={(i18n.language === "en") ? "en" : "fr"}
+              placeholder={(i18n.language === "en") ? "Search" : "Chercher"}
+            />
+          </div>
+          <UncontrolledCollapse toggler="#mobile-menu">
+            <div className="mobile-sidebar">
+              <Sidenav path={path} />
+            </div>
+          </UncontrolledCollapse>
+          <div className="d-none d-md-block">
+            <Sidenav path={path} />
+          </div>
+          <Container className="mt-2 doc-container">
+            {(i18n.language === "en" || fr === null) ?
+              <div className="col-sm">{renderAst(eng.htmlAst)}</div> :
+              <div className="col-sm">{renderAst(fr.htmlAst)}</div>
+            }
+          </Container>
     </Layout>
   );
 }

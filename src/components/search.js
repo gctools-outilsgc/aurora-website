@@ -23,7 +23,7 @@ export default class Search extends Component {
 
     render() {
         return (
-            <div className="search-form search-form-round" style={{width:'300px'}}>
+            <div className="search-form search-form-round" style={{width:'300px', display:'inline-block'}}>
                 <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
                     <label for="search" className="sr-only">
                         {this.props.placeholder}
