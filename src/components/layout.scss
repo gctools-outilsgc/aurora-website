@@ -20,8 +20,17 @@
     background-image: url(https://raw.githubusercontent.com/gctools-outilsgc/design-system/master/project_mgmt/Aurora-Banner-large.png);
     background-size: cover;
     height: 695px;
+    padding: 70px 0px;
+     /*
+        Need to modify background image for different screen sizes
+        background-repeat: no-repeat;
+        padding: 70px 0px 215px 0px;
+        background-position: right;
+        background-position-y: 20px;
+        background-size: 1200px;
+     */
     .lead {
-        max-width: 75%;
+        max-width: 70%;
     }
 }
 
@@ -39,9 +48,10 @@
         .lead {
             max-width: 100%;
         }
+        padding: 0px;
     }
     .home-body { 
-        margin-top: 110px;
+        margin-top: 6px;
     }
     
  }

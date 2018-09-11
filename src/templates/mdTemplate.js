@@ -43,7 +43,7 @@ const Template = ({
           <div className="d-none d-md-block">
             <Sidenav path={path} />
           </div>
-          <Container className="mt-4 doc-container">
+          <Container className="mt-4 mb-4 doc-container">
             {(i18n.language === "en" || fr === null) ?
               <div className="col-sm">{renderAst(eng.htmlAst)}</div> :
               <div className="col-sm">{renderAst(fr.htmlAst)}</div>

@@ -18,7 +18,7 @@ const IndexPage = ({ data, t, i18n }) => (
   <Layout>
       <div className="hero-holder">
       <Container>
-        <h1 className="display-3">Aurora Design System</h1>
+        <h1 className="display-5">Aurora Design System</h1>
         <p className="lead">
           Aurora design system is a central design guide created by the Digital Collaboration Division within the Government of Canada for our digital products. Everything you need to create attractive, cohesive, practical, accessible and enjoyable digital products can be found in our design system. Aurora design system will always be free, open, collaborative and evolving.
         </p>
