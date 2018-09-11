@@ -226,9 +226,7 @@ Timestamps and placeholder text use the same typographic styles. Both use Nunito
 <codeblock html='
     <p style="font-size: 14px; color: #666666">September 6th, 2018. 1:40 pm</p>
     <p style="font-size: 14px; color: #666666">December 20th, 2015. 6:45 am</p>' 
-    react='
-    <p style="font-size: 14px; color: #666666">September 6th, 2018. 1:40 pm</p>
-    <p style="font-size: 14px; color: #666666">December 20th, 2015. 6:45 am</p>'>
+    react=''>
 </codeblock>
 
 ## Button Text
@@ -240,8 +238,8 @@ Timestamps and placeholder text use the same typographic styles. Both use Nunito
 <codeblock html='
     <button color="secondary" outline="true">Secondary</button>
     <button color="secondary">Secondary</button>
-    <button color="secondary" disabled="true">Secondary</button>' 
-    react='
+    <button color="secondary" disabled="true">Secondary</button>
+    ' react='
     <Button outline color="secondary">secondary</Button>
     <Button color="secondary">secondary</Button>
     <Button color="secondary" disabled>Button</Button>'>
