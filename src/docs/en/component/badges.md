@@ -23,4 +23,4 @@ Badges in this design system appear as follows:
 <span class="badge badge-dark">Dark</span>
 
 </br>
-Rectangle with a width of 28px and height of 19px. Border radius of 8px. Background colour of <badge style="background-color: #4D5D6C;">#4D5D6C</badge>. Text colour of <badge style="background-color: #FFFFFF;">#FFFFFF</badge>. Text is centred within the rectangle.
+Rectangle with a width of 28px and height of 19px. Border radius of 8px. Background colour of <badge style="background-color: #4D5D6C;">#4D5D6C</badge>. Text colour of <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>. Text is centred within the rectangle.

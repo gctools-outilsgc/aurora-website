@@ -78,7 +78,7 @@ Chips are rectangular with a border radius of 4px. An avatar image is displayed 
 
 Chips have 3 different variations and are displayed as follows:
 
-**Normal:** Rectangular box filled in with <badge style="background-color: #CECECE;">#CECECE</badge>. Black text. Small avatar \(26 x 26px\) aligned to the left.
+**Normal:** Rectangular box filled in with <badge style="background-color: #CECECE;color:black;">#CECECE</badge>. Black text. Small avatar \(26 x 26px\) aligned to the left.
 
 **User-control:** Same as normal, but there is an additional remove icon on the right. This icon is <badge style="background-color: #4D5D6C;">#4D5D6C</badge> with a transparent x, and is right-aligned. Small avatar \(26 x 26px\) aligned to the left.
 
@@ -102,7 +102,7 @@ Pills are similar to chips, but aren't necessarily associated with a particular 
 
 Pills have three variations which are stylized as follows:
 
-**Normal:** Rectangular box filled in <badge style="background-color: #CECECE;">#CECECE</badge>. Black text.
+**Normal:** Rectangular box filled in <badge style="background-color: #CECECE; color:black;">#CECECE</badge>. Black text.
 
 **User-control:** Same as normal, but there is an additional remove icon on the right. This icon is <badge style="background-color: #4D5D6C;">#4D5D6C</badge> with a transparent x, and is right-aligned.
 

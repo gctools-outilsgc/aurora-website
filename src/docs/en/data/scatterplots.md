@@ -11,7 +11,7 @@ Scatterplots are used to show correlation between points of data with two variab
 
 ## Best Practices
 
-![Scatterplot](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/scatterplot.png)
+![Scatterplot](img\examples\scatterplot.png)
 
 Always start your y-axis at 0.
 

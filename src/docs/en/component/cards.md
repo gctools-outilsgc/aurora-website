@@ -7,7 +7,7 @@ title: "Cards"
 
 # Cards
 
-Cards are containers used to organize high-level content. Using cards can make your web product more appealing and navigable. Cards will typically have a background colour of #FFFFF, which separates them from the overall background colour of the page (#FAFAFA).
+Cards are containers used to organize high-level content. Using cards can make your web product more appealing and navigable. Cards will typically have a background colour of <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, which separates them from the overall background colour of the page (<badge style="background-color: #FAFAFA;color:black;">#FAFAFA</badge>).
 
 ## Best Practices
 
@@ -34,7 +34,7 @@ Not all of these elements are necessary in every card. You can choose the elemen
 
 #### Basic card template
 
-Basic cards can be used as containers for any type of information are  sized depending on the content. Basic cards form the foundation for more complex cards which may include any combination of elements.
+Basic cards can be used as containers for any type of information are sized depending on the content. Basic cards form the foundation for more complex cards which may include any combination of elements.
 
 <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
     <div class="card-body">
@@ -58,7 +58,7 @@ Basic cards can be used as containers for any type of information are  sized dep
 
 Basic cards are styled as follows:
 
-White (#FFFFFF) rectangle with border radius of 4px and a drop shadow of 15% opacity and a 5px blur. The card has a padding of 20px by 16px. Every card has a title using heading 3 (Rubik Medium at 24px) with a divider placed 12px below the header. The content of the card is placed 12px below the divider.
+White (<badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>) rectangle with border radius of 4px and a drop shadow of 15% opacity and a 5px blur. The card has a padding of 20px by 16px. Every card has a title using heading 3 (Rubik Medium at 24px) with a divider placed 12px below the header. The content of the card is placed 12px below the divider.
 
 
 #### Image Cards
@@ -89,7 +89,7 @@ Image cards use the basic card template but include an image above the header.
 
 Image cards are styled as follows:
 
-White (#FFFFFF) rectangle with border radius of 4px and a drop shadow of 15% opacity and a 5px blur. The card has a padding of 20px by 16px. Every card has a title using heading 3 (Rubik Medium at 24px) with a divider placed 12px below the header. The content of the card is placed 12px below the divider.
+White (<badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>) rectangle with border radius of 4px and a drop shadow of 15% opacity and a 5px blur. The card has a padding of 20px by 16px. Every card has a title using heading 3 (Rubik Medium at 24px) with a divider placed 12px below the header. The content of the card is placed 12px below the divider.
 
 The image is placed 20px above the header. The image spans the entire width of the card.
 
@@ -127,7 +127,7 @@ Actionable cards use the basic card template, but include additional components 
 
 Actionable cards are styled as follows:
 
-White (#FFFFFF) rectangle with border radius of 4px and a drop shadow of 15% opacity and a 5px blur. The card has a padding of 20px by 16px. Every card has a title using heading 3 (Rubik Medium at 24px) with a divider placed 12px below the header. The content of the card is placed 12px below the divider.
+White (<badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>) rectangle with border radius of 4px and a drop shadow of 15% opacity and a 5px blur. The card has a padding of 20px by 16px. Every card has a title using heading 3 (Rubik Medium at 24px) with a divider placed 12px below the header. The content of the card is placed 12px below the divider.
 
 A second divider is placed 12px below the content. Actionable items (i.e. buttons) are placed 12px below this divider.
 
