@@ -35,6 +35,10 @@ Certains systèmes peuvent ne pas être en mesure de télécharger ou d’affich
 
 <h1>En-tête 1</h1>
 
+<codeblock html='<h1>En-tête 1</h1>' 
+    react='<h1>En-tête 1</h1>'>
+</codeblock>
+
 Les titres apparaissent seulement dans le haut des pages et indiquent les points de navigation de haut niveau. 
 
 Les titres sont affichés à l’aide de « Rubik Light » à 36 points de couleur #252525 sur un arrière-plan pâle ou #FFFFFF sur un arrière-plan foncé.
