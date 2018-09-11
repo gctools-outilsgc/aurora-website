@@ -2,11 +2,10 @@
 path: "/component/overall-design-and-labels"
 subnav: "4/Forms/Formulaires/1"
 lang: "en"
-title: "Form Design and Labels"
+title: "Form design and labels"
 ---
 
 # Form design and labels
-
 
 ## Design
 
@@ -286,7 +285,9 @@ Users need to be able to easily read labels and intuitively understand how the l
 
 If additional information is necessary beyond a label, this information should be displayed in a separate tooltip or microcopy.
 
-![Do and don't image representing the correct use of form labels](https://github.com/gctools-outilsgc/design-system-code/blob/documentation/src/img/examples/Form%20Labels.png)
+![Do image representing proper use of labels](../../../img\do_dont\form labels_do.png)
+
+![Don't image representing improper use of labels](../../../img\do_dont\form labels_dont.png)
 
 ### Placement of Labels
 
@@ -298,7 +299,7 @@ How labels are written affects their legibility. Do not write labels in all caps
 
 ## Placeholder Text
 
-*Placeholder text is used only to provide supplemental information or additional guidance on how to complete a text field. Placeholder text DOES NOT replace a label or microcopy. Placeholder text should only be used if an example of a text input improves the user experience, rather than as a replacement to other important information indicators.
+Placeholder text is used only to provide supplemental information or additional guidance on how to complete a text field. Placeholder text DOES NOT replace a label or microcopy. Placeholder text should only be used if an example of a text input improves the user experience, rather than as a replacement to other important information indicators.
 
 Placeholder text is text that appears directly in the input field. This text is not meant to be used as a label, but can provide supplemental information or an example for the user.
 
@@ -306,9 +307,12 @@ Placeholder text is meant to help the user more accurately complete the field ra
 
 As soon as the user starts typing in the field, the placeholder text should disappear.
 
-Placeholder text is styled using Nunito Sans Regular at 14px, <badge style="background-color: #666666">#666666</badge>
+Placeholder text is styled using Nunito Sans Regular at 14px, <badge style="background-color: #666666;">#666666</badge>
 
-![Do and don't image representing the correct use of placeholder text](https://github.com/gctools-outilsgc/design-system-code/blob/documentation/src/img/examples/Placeholder%20Text.png)
+![Do image representing proper use of placeholder text](../../../img\do_dont\placeholder_do.png)
+
+
+![Don't image representing improper use of placeholder text](../../../img\do_dont\placeholder_dont.png)
 
 For more information about placeholder text styles, refer to the [_Typography_](typography.md) section.
 
@@ -319,6 +323,7 @@ Microcopy is text below and input field that provides additional information abo
 Micro-copy is styled as follows:
 
 10px below the input field. The text is displayed the same as placeholder text; Nunito Sans Regular at 14px, <badge style="background-color: #666666">#666666</badge>
+
 
 If there is more than one line the text wraps and has a leading of 18pts.
 
@@ -355,12 +360,12 @@ If there is more than one line the text wraps and has a leading of 18pts.
 
 To help users better understand a form, it may be useful to group inputs into categories or field sets. Field sets should be grouped visually on the page and labelled using Header 3 with a divider underneath.
 
-*Example image of field sets
+*Example image of field sets*
 
 ## Step Indicators
 If possible, it is recommended to limit forms to one page. If a form has more than one page, use a step indicator.
 
-If a form has more than one page, it is recommended to provide the user with a visual representation of progression so that they are aware of their level of completetion. Styling for step indicators is written in its own section of this documentation.
+If a form has more than one page, it is recommended to provide the user with a visual representation of progression so that they are aware of their level of completion. Styling for step indicators is written in its own section of this documentation.
 
 *step indicator component*
 

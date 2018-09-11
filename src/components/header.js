@@ -53,7 +53,7 @@ const Header = ({ siteTitle, t, i18n }) => (
           </NavItem>
           <NavItem>
             <Link to="/component/badges" className="nav-link active">
-              {t("Component")}
+              {t("Components")}
             </Link>
           </NavItem>
           <NavItem>

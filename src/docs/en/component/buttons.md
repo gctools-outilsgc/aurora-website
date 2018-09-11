@@ -177,7 +177,7 @@ Each of the states for primary buttons are as follows:
 
 ### Position
 
-Primary buttons should be located in the most prominent and convenient location possible.\_ \_These buttons should also be located in close proximity to the form or the elements that are affected by the action. Generally, in a set of two, primary buttons are placed on the left and the secondary button is placed on the right.
+Primary buttons should be located in the most prominent and convenient location possible. These buttons should also be located in close proximity to the form or the elements that are affected by the action. Generally, in a set of two, primary buttons are placed on the left and the secondary button is placed on the right.
 
 ## Secondary Buttons
 
@@ -187,7 +187,7 @@ Secondary buttons, particularly ones used for destructive actions, should be des
 
 For permanent destructive secondary actions, such as Delete, clicking the button will prompt a dialog to confirm the action. Always give the user to confirm actions that cannot be reverted.
 
-Secondary buttons in this system are transparent with a stroke colour. Text changes colour depending on the button state. Sizing of the button depends on the length of the _**action words**_.
+Secondary buttons in this system are transparent with a stroke colour. Text changes colour depending on the button state. Sizing of the button depends on the length of the action words.
 
 Each of the states for secondary buttons are as follows:
 
@@ -196,21 +196,21 @@ Each of the states for secondary buttons are as follows:
 
 <codeblock html='<button type="button" class="btn btn-secondary">Secondary</button>' react='<Button color="secondary">Secondary</Button>'></codeblock>
 
-**Regular state:** transparent with a 1px stroke using the  colour \#002D42, the text is written in the same colour. Border radius of 4px and padding of 15px.
+**Regular state:** transparent with a 1px stroke using the  colour <badge style="background-color: #002D42;">#002D42</badge>, the text is written in the same colour. Border radius of 4px and padding of 15px.
 
 *Hover secondary button component*
 
-**Hover state:** rectangle coloured with \#002D42 at 80% opacity, the text is displayed in white. Border radius of 4px and padding of 15px.
+**Hover state:** rectangle coloured with <badge style="background-color: #002D42;">#002D42</badge> at 80% opacity, the text is displayed in white. Border radius of 4px and padding of 15px.
 
 *Focus secondary button component*
 
-**Focus state:** transparent with a 3px stroke using \#002D42, the text is displayed in \#002D42. Border radius of 4px and padding of 15px.
+**Focus state:** transparent with a 3px stroke using <badge style="background-color: #002D42;">#002D42</badge>, the text is displayed in <badge style="background-color: #002D42;">#002D42</badge>. Border radius of 4px and padding of 15px.
 
 <button color="secondary" disabled="true">Secondary</button>
 
 <codeblock html='<button type="button" class="btn btn-secondary" disabled>Secondary</button>' react='<Button color="secondary" disabled>Secondary</Button>'></codeblock>
 
-**Disabled state:** Fill colour of \#CECECE, with white text. Border radius of 4px and padding of 15px.
+**Disabled state:** Fill colour of <badge style="background-color: #CECECE;color:black;">#CECECE</badge>, with white text. Border radius of 4px and padding of 15px.
 
 ### Position
 
@@ -260,7 +260,7 @@ Drop down buttons display a list of items when clicked. They are used for two-st
 
 *Pressed drop down button component*
 
-**Pressed State:** When the drop-down arrow is pressed, this arrow section of the button is displayed at 80% opacity and a drop-down menu is displayed below. The action box uses a 1px border using \#CECECE. The box has a border radius of 4px. The width of the box is 166px, and the height depends on the number of actions, using 40px per action. On hover, the 40px around the action is displayed using \#CECECE
+**Pressed State:** When the drop-down arrow is pressed, this arrow section of the button is displayed at 80% opacity and a drop-down menu is displayed below. The action box uses a 1px border using <badge style="background-color: #CECECE;color:black;">#CECECE</badge>. The box has a border radius of 4px. The width of the box is 166px, and the height depends on the number of actions, using 40px per action. On hover, the 40px around the action is displayed using <badge style="background-color: #CECECE;color:black;">#CECECE</badge>.
 
 ## Button Groups
 
@@ -289,17 +289,3 @@ Primary actions are aligned to the left, while secondary actions are placed in t
     <Button color="primary">Right</Button>
 </ButtonGroup>
 '></codeblock>
-
-
-
-## Icon Buttons
-
-_**\(Sierra to write\)**_
-
-i.e share button
-
-Icon buttons or buttons with a dedicated shortcut \(i.e. Ctrl + S for Save\) should include a tooltip in the hover state.
-
-8px
-
-## 1.15 em for icon size
