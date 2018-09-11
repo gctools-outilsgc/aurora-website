@@ -193,10 +193,3 @@ Multiple equal columns and rows can be set with a line break.
         <Col><Button color="secondary" style="width: 100%">Col 4</Button></Col>
     </Row>
 </Container> '></codeblock>
-<<<<<<< HEAD
-
-
-
-**Note this is not using a line-break, check this out later**
-=======
->>>>>>> master
