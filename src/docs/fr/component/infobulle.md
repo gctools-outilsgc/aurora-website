@@ -18,6 +18,6 @@ Les infobulles sont toujours utilisées pour de l’information supplémentaire.
 ## Style
 Dans leur état normal, les infobulles sont stylisées comme suit :
 
-Les infobulles sont placées à 12px de distance de l’élément qu’elle décrit. Les infobulles sont contenues dans un rectangle avec un remplissage de 5px par 7px, avec une bordure d’un rayon de 4px et la couleur de remplissage no666666 à 90 % d’opacité. Le texte est affiché utilisant Nunito Sans Regular à 14px de la couleur #FFFFFF.
+Les infobulles sont placées à 12px de distance de l’élément qu’elle décrit. Les infobulles sont contenues dans un rectangle avec un remplissage de 5px par 7px, avec une bordure d’un rayon de 4px et la couleur de remplissage <badge style="background-color: #666666">#666666</badge> à 90 % d’opacité. Le texte est affiché utilisant Nunito Sans Regular à 14px de la couleur <badge style="background-color: #FFFFFF; color: black">#FFFFFF</badge>.
 
 *Élément d’infobulle*

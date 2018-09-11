@@ -4,10 +4,17 @@ subnav: "1/Visuals/Visuels/2"
 lang: "en"
 title: "Icons"
 ---
-
 # Icons
+<helmet>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</helmet>
+<i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"></i>
+<i class="fa fa-refresh fa-spin" style="font-size:24px"></i>
+<i class="fa fa-spinner fa-spin" style="font-size:24px"></i>
+<i style="font-size:24px" class="fa">&#xf013;</i>
+<i style="font-size:24px" class="fa fa-trash" aria-hidden="true"></i>
 
-*Image of icons from Font Awesome*
 
 Icons in this system use SVG icons from [Font Awesome](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit).
 
