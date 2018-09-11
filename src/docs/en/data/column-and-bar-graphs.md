@@ -17,7 +17,7 @@ Graph bars should never have a rounded top. A straight line precisely shows wher
 
 ## Column Graphs
 
-![Column Graph](img\examples\column_graph.png)
+![Column Graph](../../../img\examples\column_graph.png)
 
 Column graphs use vertical bars to represent data.
 
@@ -26,7 +26,7 @@ If you are using time as a variable in your visualization, always use a column g
 
 ## Bar Graphs
 
-![Bar Graph](img\examples\bar_graph.png)
+![Bar Graph](../../../img\examples\bar_graph.png)
 
 Bar graphs follow the same standards as column graphs, simply using horizontal instead of vertical bars. Bar graphs are only used to replace column graphs in a few cases:
 

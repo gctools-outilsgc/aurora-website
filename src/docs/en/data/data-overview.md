@@ -21,17 +21,17 @@ Visuals should only enhance the data, and should never distract. Best practices 
 
 If one graph is too complex to represent a certain dataset, the data should be represented in multiple, simple graphs.
 
-![Do image representing data simplicity](img\do_dont\simplicity_do.png)
+![Do image representing data simplicity](../../../img\do_dont\simplicity_do.png)
 
-![Don't image representing data simplicity](img\do_dont\simplicity_dont.png)
+![Don't image representing data simplicity](../../../img\do_dont\simplicity_dont.png)
 
 ### Multiple Formats
 
 When you use data visualizations, it is recommended to represent the data in multiple formats where possible. Regardless of the type of visualization you use, a simple data table, or other ways of viewing the raw data, should be available somewhere on the page. This allows users to view and analyze the data in a way that makes the most sense to them, as well as easily identify individual data points.
 
-![Do image representing multiple formats](img\do_dont\multiple formats_do.png)
+![Do image representing multiple formats](../../../img\do_dont\multiple formats_do.png)
 
-![Don't image representing multiple formats](img\do_dont\multiple formats_do.png)
+![Don't image representing multiple formats](../../../img\do_dont\multiple formats_do.png)
 
 ## Labels
 
@@ -53,9 +53,9 @@ In some visualizations with many axis points, skipping labels is an effective wa
 
 On the x-axis, value labels should be centered to their corresponding tick mark. For y-axis labels, they should be left-aligned and kept above the y-axis lines. Long text labels should be rotated 45 degrees around an origin directly below their corresponding axis tick.
 
-![Do image representing data increments](img\do_dont\data increments_do.png)
+![Do image representing data increments](../../../img\do_dont\data increments_do.png)
 
-![Don't image representing data increments](img\do_dont\data increments_dont.png)
+![Don't image representing data increments](../../../img\do_dont\data increments_dont.png)
 
 
 ### Data Formats and Abbreviations

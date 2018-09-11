@@ -51,8 +51,8 @@ If checkboxes are included in the table, active rows should be highlighted with 
 
 Some other examples of interactive elements to add to a data table are: pagination, filters, search bars, icon buttons, sorting icons, etc.
 
-![Interactive data table 1](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/interactive%20table_1.png)
+![Interactive data table 1](../../../img\examples\interactive_table_1.png)
 
-![Interactive data table 2](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/interactive%20table_2.png)
+![Interactive data table 2](../../../img\examples\interactive_table_2.png)
 
-![Interactive data table 3](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/interactive%20table_3.png)
+![Interactive data table 3](../../../img\examples\interactive_table_3.png)

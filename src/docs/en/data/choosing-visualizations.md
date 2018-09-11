@@ -10,7 +10,7 @@ title: "Choosing visualizations"
 
 ## Tables
 
-![Banded Table](img\examples\banded_table.png)
+![Banded Table](../../../img\examples\banded_table.png)
 
 Tables are a raw format for displaying data sets. If a more complex visualization is used, a table should also be present somewhere on the page so users can choose how they view and analyze data.
 
@@ -26,9 +26,9 @@ In this case, put extra effort to make your table as readable as possible, and c
 
 ## Bar and Column Graphs
 
-![Bar Graph](img\examples\bar_graph.png)
+![Bar Graph](../../../img\examples\bar_graph.png)
 
-![Column Graph](img\examples\column_graph.png)
+![Column Graph](../../../img\examples\column_graph.png)
 
 Bar graphs \(horizontal bars\) and column graphs \(vertical bars\) are ideal for comparing the results of one variable. Column and bar graphs are ideal for comparing a small number of categories \(5-15\). Bar graphs are best used when there are more than 10. If you have more than 15 categories, consider other type of visualizations or multiple, smaller graphs.
 
@@ -38,13 +38,13 @@ Overall, column graphs should be used over bar graphs. Bar graphs are ideal if y
 
 ## Line Graphs
 
-![Line Graph](img\examples\line_graph.png)
+![Line Graph](../../../img\examples\line_graph.png)
 
 Line graphs are ideal if you have a continuous data set and wish to show trends or changes over time. This type of visualization is also useful if you are comparing different categories of data \(i.e. using multiple lines\). Line graphs are most effective when you have at least 20 data points to show.
 
 ## Scatterplots
 
-![Scatterplot](img\examples\scatterplot.png)
+![Scatterplot](../../../img\examples\scatterplot.png)
 
 Scatterplots are the best form of distribution analysis. They are best used with large data sets and to show correlations or relationships between non-time variables. Scatterplots are only effective if there are enough to data points to strongly indicate a correlation \(or lack thereof\), generally, the more data points a scatterplot has, the better.
 
