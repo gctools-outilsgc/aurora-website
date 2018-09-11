@@ -45,7 +45,7 @@ Le texte d’espace réservé vise à aider l’utilisateur à remplir avec plus
 
 Dès que l’utilisateur commence à taper dans le champ, le texte d’espace réservé devrait disparaître.
 
-Le style de police du texte d’espace réservé est le « Nunito Sans Regular », à 14 px, #666666.
+Le style de police du texte d’espace réservé est le « Nunito Sans Regular », à 14 px, <badge style="background-color: #666666">#666666</badge>.
 
 ![Do and don't image representing the correct use of placeholder text](https://github.com/gctools-outilsgc/design-system-code/blob/documentation/src/img/examples/Placeholder%20Text.png)
 
@@ -55,7 +55,7 @@ Pour obtenir de plus amples renseignements sur les styles de polices du texte d�
 La microcopie est le texte dessous et le champ de saisie qui fournit des renseignements supplémentaires sur ce champ. Les microcopies devraient être des phrases brèves qui indiquent à l’utilisateur comment remplir le champ.
 
 Le style des nombres est comme suit :
-10 px sous le champ de saisie. Le texte est affiché de la même façon que le texte d’espace réservé; Nunito Sans Regular à 14 px, #666666
+10 px sous le champ de saisie. Le texte est affiché de la même façon que le texte d’espace réservé; Nunito Sans Regular à 14 px, <badge style="background-color: #666666">#666666</badge>
 
 S’il y a plus d’une ligne, le texte retourne à ligne et a un interlignage sur 18 points.
 
