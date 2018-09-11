@@ -31,7 +31,7 @@ When you use data visualizations, it is recommended to represent the data in mul
 
 ![Do image representing multiple formats](../../../img\do_dont\multiple formats_do.png)
 
-![Don't image representing multiple formats](../../../img\do_dont\multiple formats_do.png)
+![Don't image representing multiple formats](../../../img\do_dont\multiple formats_dont.png)
 
 ## Labels
 

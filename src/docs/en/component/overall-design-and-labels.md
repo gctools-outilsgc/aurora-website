@@ -27,7 +27,9 @@ Users need to be able to easily read labels and intuitively understand how the l
 
 If additional information is necessary beyond a label, this information should be displayed in a separate tooltip or microcopy.
 
-![Do and don't image representing the correct use of form labels](https://github.com/gctools-outilsgc/design-system-code/blob/documentation/src/img/examples/Form%20Labels.png)
+![Do image representing proper use of labels](../../../img\do_dont\form labels_do.png)
+
+![Don't image representing improper use of labels](../../../img\do_dont\form labels_dont.png)
 
 ### Placement of Labels
 
@@ -49,7 +51,9 @@ As soon as the user starts typing in the field, the placeholder text should disa
 
 Placeholder text is styled using Nunito Sans Regular at 14px, <badge style="background-color: #666666;">#666666</badge>
 
-![Do and don't image representing the correct use of placeholder text](https://github.com/gctools-outilsgc/design-system-code/blob/documentation/src/img/examples/Placeholder%20Text.png)
+![Do image representing proper use of placeholder text](../../../img\do_dont\placeholder_do.png)
+
+![Don't image representing improper use of placeholder text](../../../img\do_dont\placeholder_dont.png)
 
 For more information about placeholder text styles, refer to the [_Typography_](typography.md) section.
 

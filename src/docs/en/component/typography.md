@@ -69,7 +69,7 @@ The headers use the following typographic styles:
 
 Paragraph text is used for most text content found on the application. Paragraph text is set to Nunito Sans Regular at 16 points \(1em\) with a leading of 24 points. Unless indicating a hyperlink or navigation point, paragraph text should not have added emphasis.
 
-Paragraph text uses the colours <badge style="background-color: #252525">#252525</badge> on a light background or <badge style="background-color: #FFFFFF">#FFFFFF</badge> on a dark background.
+Paragraph text uses the colours <badge style="background-color: #252525">#252525</badge> on a light background or <badge style="background-color: #FFFFFF; color:black;">#FFFFFF</badge> on a dark background.
 
 
 ### Line-Breaking
@@ -162,7 +162,7 @@ Pepper <em><strong>adds a distinct flavour to foods.</strong></em><br />
 
 ## Timestamps and Placeholder Text
 
-Timestamps and placeholder text use the same typographic styles. Both use Nunito Sans Regular at 14 points and leading of 21 points. Timestamps and placeholder text use the colours <badge style="background-color: #666666">#666666</badge> on a light background or <badge style="background-color: #FFFFFF">#FFFFFF</badge> on a dark background.
+Timestamps and placeholder text use the same typographic styles. Both use Nunito Sans Regular at 14 points and leading of 21 points. Timestamps and placeholder text use the colours <badge style="background-color: #666666">#666666</badge> on a light background or <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge> on a dark background.
 
 <p style="font-size: 14px; color: #666666">September 6th, 2018. 1:40 pm</p>
 <p style="font-size: 14px; color: #666666">December 20th, 2015. 6:45 am</p>
