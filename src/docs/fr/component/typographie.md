@@ -41,7 +41,7 @@ Certains systèmes peuvent ne pas être en mesure de télécharger ou d’affich
 
 Les titres apparaissent seulement dans le haut des pages et indiquent les points de navigation de haut niveau. 
 
-Les titres sont affichés à l’aide de « Rubik Light » à 36 points de couleur #252525 sur un arrière-plan pâle ou #FFFFFF sur un arrière-plan foncé.
+Les titres sont affichés à l’aide de « Rubik Light » à 36 points de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou #FFFFFF sur un arrière-plan foncé.
 
 ### En-tête \(H2-H6)
 
