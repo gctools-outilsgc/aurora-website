@@ -18,12 +18,12 @@ Le bouton _Haut de la page_ dans le système de conception a le style suivant :
 
 *Composante de « Haut de la page »*
 
-Cercle blanc ayant un rayon de 43 px. La bordure est de 1 px, #CECECE. Ombre portée de #000000, 20 % d’opacité, 0 décalage pour x, décalage 2 px pour y, 2 px flou.
+Cercle blanc ayant un rayon de 43 px. La bordure est de 1 px, <badge style="background-color: #CECECE;color:black;">#CECECE</badge>. Ombre portée de <badge style="background-color: #000000;">#000000</badge>, 20 % d’opacité, 0 décalage pour x, décalage 2 px pour y, 2 px flou.
 
-Il y a une icône de flèche centrée dans le cercle (flèche vers le haut à partir de la police « Awesome »). La flèche est de couleur #666666.
+Il y a une icône de flèche centrée dans le cercle (flèche vers le haut à partir de la police « Awesome »). La flèche est de couleur <badge style="background-color: #666666;">#666666</badge>.
 
 *Composante Web de « Haut de la page »*
 
-Le texte Retour en haut de la page est stylisé à l’aide du texte de bouton (police « Nunito Sans Bold », 14 px) et de la couleur #666666.
+Le texte Retour en haut de la page est stylisé à l’aide du texte de bouton (police « Nunito Sans Bold », 14 px) et de la couleur <badge style="background-color: #666666;">#666666</badge>.
 
-Le texte comporte un remplissage de 9 px sur 15, ayant la couleur de bordure #CECECE de 1 px et un rayon de bordure de 16 px. L’icône de la flèche est alignée à gauche du texte.
+Le texte comporte un remplissage de 9 px sur 15, ayant la couleur de bordure <badge style="background-color: #CECECE;color:black;">#CECECE</badge> de 1 px et un rayon de bordure de 16 px. L’icône de la flèche est alignée à gauche du texte.

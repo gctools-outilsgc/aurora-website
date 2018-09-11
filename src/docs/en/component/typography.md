@@ -73,8 +73,7 @@ Titles are displayed using Rubik Light at 36 points  in the colour <badge style=
     </div>'>
 </codeblock>
 
-There are five different sub-headings. All sub-headings use the colours \#252525 on a light background or \#FFFFFF on a dark background.
-There are five different sub-headings. All sub-headings use the colours <badge style="background-color: #252525">#252525</badge> on a light background or <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge> on a dark background.
+There are five different sub-headings. All sub-headings use the colours <badge style="background-color: #252525">#252525</badge> on a light background or \#FFFFFF on a dark background.
 
 The headers use the following typographic styles:
 
@@ -246,5 +245,4 @@ Timestamps and placeholder text use the same typographic styles. Both use Nunito
     <Button color="secondary" disabled>Button</Button>'>
 </codeblock>
 
-Button text is displayed as Nunito Sans Bold at 16 points, and uses the colours \#252525 on a light background or \#FFFFFF on a dark background. The colour of this text depends on the button chosen and must provide enough contrast with the colour of each type of button. For more about colour choice see our button section.
-Button text is displayed as Nunito Sans Bold at 16 points, and uses the colours <badge style="background-color: #252525">#252525</badge> on a light background or <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge> on a dark background. The colour of this text depends on the button chosen and must provide enough contrast with the colour of each type of button. For more about colour choice see our button section.
+Button text is displayed as Nunito Sans Bold at 16 points, and uses the colours <badge style="background-color: #252525">#252525</badge> on a light background or \#FFFFFF on a dark background. The colour of this text depends on the button chosen and must provide enough contrast with the colour of each type of button. For more about colour choice see our button section.

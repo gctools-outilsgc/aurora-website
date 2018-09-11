@@ -71,7 +71,7 @@ Les titres sont affichés à l’aide de « Rubik Light » à 36 points de coule
     </div>'>
 </codeblock>
 
-Il y a cinq différents sous-en-têtes. Tous les sous-titres sont de couleur #252525 sur un arrière-plan pâle ou #FFFFFF sur un arrière-plan foncé.
+Il y a cinq différents sous-en-têtes. Tous les sous-titres sont de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou #FFFFFF sur un arrière-plan foncé.
 
 Les en-têtes ont les styles typographiques suivants :
 
@@ -89,7 +89,7 @@ Les en-têtes ont les styles typographiques suivants :
 
 Le texte du paragraphe est utilisé pour la plupart du contenu de texte se trouvant dans l’application. Le texte du paragraphe est établi à la police « Nunito Sans Regular » à 16 points (1 em) avec un interlignage de 24 points. À moins d’indiquer un hyperlien ou un point de navigation, le texte du paragraphe ne devrait pas être mis en évidence davantage.
 
-Le texte de paragraphe est de couleur #252525 sur un arrière-plan pâle ou de couleur #FFFFFF sur un arrière-plan foncé.
+Le texte de paragraphe est de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou de couleur #FFFFFF sur un arrière-plan foncé.
 
 ### Rupture de ligne
 
@@ -231,6 +231,6 @@ Les horodateurs et le texte d’espace réservé ont les mêmes styles typograph
     <Button color="secondary" disabled>Secondaire</Button>'>
 </codeblock>
 
-Le texte de bouton est affiché avec la police « Nunito Sans Bold » à 16 points et est de couleur #252525 sur un arrière-plan pâle ou de couleur #FFFFFF sur un arrière-plan foncé. La couleur de ce texte dépend du bouton choisi et doit présenter un contraste suffisant avec la couleur de chaque type de bouton. Pour obtenir de plus amples renseignements sur le choix des couleurs, veuillez consulter la section sur les boutons.
+Le texte de bouton est affiché avec la police « Nunito Sans Bold » à 16 points et est de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou de couleur #FFFFFF sur un arrière-plan foncé. La couleur de ce texte dépend du bouton choisi et doit présenter un contraste suffisant avec la couleur de chaque type de bouton. Pour obtenir de plus amples renseignements sur le choix des couleurs, veuillez consulter la section sur les boutons.
 
 (Ajouter un exemple d’image)
