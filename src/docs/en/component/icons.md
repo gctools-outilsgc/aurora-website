@@ -7,7 +7,7 @@ title: "Icons"
 
 # Icons
 
-*Image of icons from Font Awesome*
+![Icons](../../../img\icons_example.PNG)
 
 Icons in this system use SVG icons from [Font Awesome](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit).
 
@@ -27,9 +27,6 @@ Icons are used for certain buttons and are usually associated with some sort of 
 ## Choosing Your Icons
 
 To reduce performance impacts of your application, it is recommended that your application only load the icons that are required, rather than the full set. When choosing an icon to use in your application, be sure to consistently use that same icon when representing a similar action or requirement.
-
-For example, in this system we have chosen a total of  **\(x\)** icons, as seen below:
-
 
 ## Loading/Spinner
 

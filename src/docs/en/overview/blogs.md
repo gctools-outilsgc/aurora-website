@@ -5,7 +5,12 @@ lang: "en"
 title: "Blogs"
 ---
 
-# 7 Things I Learned from Leading a Design Project
+# Blogs
+
+## 7 Things I Learned from Leading a Design Project
+
+*Written by Sierra Duffey. June 19, 2018*
+
 In November, two developers and I started working on a design system for Government of Canada digital collaboration applications to guide the design of the next iteration of the GCTools. Over many days of planning and late afternoon epiphanies, we came up with a solid strategy and work plan to build something awesome.
 
 Fast forward to today and we have four developers, three writers, three user experience researchers as well as design expertise across the whole project team. We’ve collaborated with six partners across four different organizations. Most importantly, over the past months, we’ve built and compiled a large [repository of content](https://github.com/gctools-outilsgc/design-system/tree/master/documentation/pages) that matches the calibre of private tech companies, and connects the Government of Canada’s various digital resources, policies and learning material.
@@ -45,7 +50,9 @@ As the GCTools and other digital applications evolve, our design system will und
 ------------------------------------------------------------------------------------------------------
 
 
-# Starting From Scratch: Building the new GCTools Design System
+## Starting From Scratch: Building the new GCTools Design System
+
+*Written by Sierra Duffey. January 9, 2018*
 
 I‘m in my early 20s, still in school, and completely new to design. But somewhere in the last four months of working with the Digital Collaboration Division (GCTools), I found myself leading a major design project, which includes working with multiple partners in the GC and promoting agile development methods.
 
@@ -79,12 +86,15 @@ I’m excited for this project because taking the time to design and build cool 
 
 If you want to learn more about the design system we’re building, and how we’re building it, stay tuned! We’re starting our first design sprint on January 10th and we plan on documenting our process along the way, as well as posting all of our [files on Github.](https://github.com/gctools-outilsgc/design-system) For now, we’ve created a few inspiration boards to help guide our design. Take a look and tell us your favourite!
 
+Thanks for reading! To learn more or provide feedback, comment below or reach out to me on [Twitter](https://twitter.com/s_duffey), [GCcollab](https://gccollab.ca/profile/Sduff) and [Linkedin.](https://www.linkedin.com/in/sierraduffey/)
+
 ![Colour and Graphics mood board](../../../img\blogs\mood board 1.png)
+
 
 ![Minimalist Design mood board](../../../img\blogs\mood board 2.png)
 
+
 ![Inspired by Nature mood board](../../../img\blogs\mood board 3.png)
 
-![Wood and Stone mood board](../../../img\blogs\mood board 4.png)
 
-Thanks for reading! To learn more or provide feedback, comment below or reach out to me on [Twitter](https://twitter.com/s_duffey), [GCcollab](https://gccollab.ca/profile/Sduff) and [Linkedin.](https://www.linkedin.com/in/sierraduffey/)
+![Wood and Stone mood board](../../../img\blogs\mood board 4.png)

@@ -13,8 +13,6 @@ The grid system relies on a series of containers, columns and rows to build layo
 
 The grid framework contains 12 columns that scale according to the viewport of the user's device. Further customization of grids and column layouts, such as offsetting and nesting, is possible through the Web Experience Toolkit's framework. Viewport width is in pixels, and  does not change the font size.
 
-![Source: https://getbootstrap.com/docs/4.0/layout/grid/](.gitbook/assets/gridgraph1.PNG)
-
 ## Auto-layout Grid Examples
 
 ### Equal-width
@@ -99,8 +97,6 @@ When you set the size for one column, sibling columns will automatically resize.
 ### Variable Width Content
 
 You can set columns to automatically fit the content they contain. Sibling columns will automatically resize.
-
-![Source: https://getbootstrap.com/docs/4.0/layout/grid/](.gitbook/assets/gridopt3.PNG)
 
 <codeblock html='
     <div class="container">
