@@ -28,6 +28,6 @@ Les liens devraient toujours comprendre l’état « pointage » et l’état «
 
 **Visité :** « Nunitio Sans Regular » à 16 points
 
-Il y a d’autres options de couleur pour les liens visités. Les pratiques exemplaires pour les liens visités doivent utiliser une version voilée de la couleur de votre hyperlien, une couleur secondaire ou le violet standard : \*#551A8B.
+Il y a d’autres options de couleur pour les liens visités. Les pratiques exemplaires pour les liens visités doivent utiliser une version voilée de la couleur de votre hyperlien, une couleur secondaire ou le violet standard : <badge style="background-color: #551A8B">#551A8B</badge>.
 
 **\(Add example image\)**

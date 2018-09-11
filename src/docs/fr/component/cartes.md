@@ -22,12 +22,13 @@ Si plusieurs cartes sont placées sur une page, elles devraient être placées �
 ##Composantes d’une carte
 
 Les éléments qui peuvent être utilisés dans une carte sont les suivants :
-•	Titre principal – une étiquette brève et claire qui indique le message principal de la carte.
-•	Méta-information – utilisée pour organiser les cartes. Ce peut être un horodateur, une catégorie, etc.
-•	Description – une explication plus approfondie de l’idée et de l’appel à l’action. Ce texte devrait être bref.
-•	Image ou média enrichi – associés à la carte et au texte, une image ou un média enrichi devraient contribuer au message.
-•	Boutons – lorsqu’une carte exige une action sélectionnable, ou si vous voulez insister sur le fait que la carte est un objet cliquable, vous pouvez utiliser les boutons.
-•	Renseignements supplémentaires – tout renseignement additionnel qui renforce le message de la carte.
+
+* Titre principal – une étiquette brève et claire qui indique le message principal de la carte.
+* Méta-information – utilisée pour organiser les cartes. Ce peut être un horodateur, une catégorie, etc.
+* Description – une explication plus approfondie de l’idée et de l’appel à l’action. Ce texte devrait être bref.
+* Image ou média enrichi – associés à la carte et au texte, une image ou un média enrichi devraient contribuer au message.
+* Boutons – lorsqu’une carte exige une action sélectionnable, ou si vous voulez insister sur le fait que la carte est un objet cliquable, vous pouvez utiliser les boutons.
+* Renseignements supplémentaires – tout renseignement additionnel qui renforce le message de la carte.
 
 Tous ces éléments ne sont pas nécessaires dans chaque carte. Vous pouvez choisir les éléments qui vous conviennent le mieux au but de la carte. Cependant, chaque carte devrait avoir un titre principal.
 

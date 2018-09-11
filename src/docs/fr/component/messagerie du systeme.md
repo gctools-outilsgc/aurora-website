@@ -136,13 +136,13 @@ Exemple d’une notification claire : Votre photo de profil a été modifiée av
 Les notifications sont automatiquement chronométrées pour améliorer la fluidité du site Web. Le chronométrage des notifications est fondé sur l’estimation prudente d’une vitesse de lecture de 200 mots par minute.
 
 Les courtes notifications (70 caractères ou moins) devraient avoir :
-•	Une animation d’affichage de 0,4 seconde.
-•	Une durée d’affichage de 3,5 secondes.
-•	Une animation de masquage d’une (1) seconde.
+* Une animation d’affichage de 0,4 seconde.
+* Une durée d’affichage de 3,5 secondes.
+* Une animation de masquage d’une (1) seconde.
 
 Les longues notifications (de 70 à 140 caractères) devraient avoir :
-•	Une animation d’affichage de 0,4 seconde.
-•	Une durée d’affichage de sept (7) secondes.
-•	Une animation de masquage de deux (2) secondes.
+* Une animation d’affichage de 0,4 seconde.
+* Une durée d’affichage de sept (7) secondes.
+* Une animation de masquage de deux (2) secondes.
 
 Si votre notification fait plus de 140 caractères, envisager une différente méthode de communiquer le message.
