@@ -12,6 +12,9 @@ import LanguageSwitch from './languageSwitch';
 import { translate } from "react-i18next";
 import fip from "../img/sig-alt-en.png";
 import logo from "../img/aurora_logo.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faDownload } from '@fortawesome/free-solid-svg-icons'
 const Header = ({ siteTitle, t, i18n }) => (
   <div className="fixed-top bg-white shadow-sm">
   <div>
@@ -46,13 +49,13 @@ const Header = ({ siteTitle, t, i18n }) => (
               {t("Overview")}
             </Link>
           </NavItem>
-          <NavItem>
+          {/*<NavItem>
             <Link to="/#!" className="nav-link">
               {t("Identity")}
             </Link>
-          </NavItem>
+          </NavItem>*/}
           <NavItem>
-            <Link to="/component/badges" className="nav-link active">
+            <Link to="/component/badges" className="nav-link">
               {t("Components")}
             </Link>
           </NavItem>
@@ -70,10 +73,10 @@ const Header = ({ siteTitle, t, i18n }) => (
       </div>
         <Nav className="ml-auto" navbar>
           <NavItem className="d-none d-md-block">
-            <NavLink href="#!">GH</NavLink>
+            <NavLink style={{"color":"black"}} target="_blank"  href="https://github.com/gctools-outilsgc/design-system"><FontAwesomeIcon style={{"font-size":"1.5em"}} icon={faGithub} /><span className="sr-only">GitHub</span></NavLink>
           </NavItem>
           <NavItem className="d-none d-md-block">
-            <NavLink href="#!">DWNLD</NavLink>
+            <NavLink style={{"color":"black"}} target="_blank" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai"><FontAwesomeIcon style={{"font-size":"1.5em"}} icon={faDownload} /><span className="sr-only">{t("DownloadLink")}</span></NavLink>
           </NavItem>
         </Nav>
     </Navbar>
