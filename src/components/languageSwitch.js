@@ -22,9 +22,9 @@ class LanguageSwitcher extends Component {
     let langText;
 
     if(langCheck) {
-      langText = <span lang="fr">French in french</span>
+      langText = <span><span aria-hidden="true">FR</span><span className="sr-only" lang="fr">français</span></span>
     } else {
-      langText = <span lang="en">English in english</span>
+      langText = <span><span aria-hidden="true">EN</span><span className="sr-only" lang="en">english</span></span>
     }
     return (
       <div className="LanguageSwitcher">
@@ -35,7 +35,6 @@ class LanguageSwitcher extends Component {
           size="md"
           style={ {"font-weight": "550"} }
         >
-        {this.state.isEnglish ? 'FR' : 'EN'}
         {langText}
         </Button>
       </div>
