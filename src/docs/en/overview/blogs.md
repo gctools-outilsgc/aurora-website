@@ -91,9 +91,6 @@ Thanks for reading! To learn more or provide feedback, comment below or reach ou
 ![Colour and Graphics mood board](../../../img\blogs\mood board 1.png)
 
 
-![Minimalist Design mood board](../../../img\blogs\mood board 2.png)
-
-
 ![Inspired by Nature mood board](../../../img\blogs\mood board 3.png)
 
 
