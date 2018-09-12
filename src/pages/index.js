@@ -21,10 +21,10 @@ const IndexPage = ({ data, t, i18n }) => (
       <Container>
         <h1 className="display-5">Aurora Design System</h1>
         <p className="lead">
-          Aurora design system is a central design guide created by the Digital Collaboration Division within the Government of Canada for our digital products. Everything you need to create attractive, cohesive, practical, accessible and enjoyable digital products can be found in our design system. Aurora design system will always be free, open, collaborative and evolving.
+          {t("TopIntro")}
         </p>
         <div>
-          <a href="/component" className="mb-1 btn btn-primary btn-lg">Get started</a>
+          <a href="/component" className="mb-1 btn btn-primary btn-lg">{t("MainCTA")}</a>
           <div className="mb-3 mt-3">
             <a className="ext-link-text" href="https://github.com/gctools-outilsgc/design-system"><img alt="" className="mr-1" src={githubLogo} style={{ width: '32px', height: '32px', display: 'inline-block', 'margin-top':'-5px' }} />{t("GithubLink")}</a>
             <a className="ml-3 ext-link-text" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai"><img alt="" className="mr-1" src={downloadIcon} style={{ width: '32px', height: '32px', display: 'inline-block', 'margin-top':'-5px' }} />{t("DownloadLink")}</a>
@@ -40,12 +40,12 @@ const IndexPage = ({ data, t, i18n }) => (
         <Col xs="6" sm="6" md="3" className="text-center">
           <Img fluid={data.eye.childImageSharp.fluid}  />
           <h3 className="mb-3 mt-3 h4">{t("Designers")}</h3>
-          <a href="/component" className="mb-2 btn btn-outline-primary btn-block">Start sketching</a>
+          <a href="/component" className="mb-2 btn btn-outline-primary btn-block">{t("DesignerCTA")}</a>
         </Col>
         <Col xs="6" sm="6" md="3" className="text-center">
           <Img fluid={data.gears.childImageSharp.fluid}  />
           <h3 className="mb-3 mt-3 h4">{t("Developers")}</h3>
-          <a href="/component" className="mb-2 btn btn-outline-primary btn-block">Start coding</a>
+          <a href="/component" className="mb-2 btn btn-outline-primary btn-block">{t("DeveloperCTA")}</a>
         </Col>
         <Col xs="6" sm="6" md="3" className="text-center">
           <Img fluid={data.pen.childImageSharp.fluid}  />
