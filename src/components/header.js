@@ -37,7 +37,7 @@ const Header = ({ siteTitle, t, i18n }) => (
     <Navbar color="white" expand className="main-nav" style={{paddingBottom:'0'}} aria-label="Main Navigation *Translate*" role="navigation">
       <Link to="/#!" className="text-dark logo">
         <img src={logo} alt="Logo" className="float-left" style={{width:'30px', margin:'5px'}} />
-        <span className="h2 d-none d-md-block float-left">
+        <span className="h2 d-none d-md-block float-left font-weight-normal">
           {' '}
           {siteTitle}{' '}
         </span>
