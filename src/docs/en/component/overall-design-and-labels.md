@@ -311,7 +311,6 @@ Placeholder text is styled using Nunito Sans Regular at 14px, <badge style="back
 
 ![Do image representing proper use of placeholder text](../../../img\do_dont\placeholder_do.png)
 
-
 ![Don't image representing improper use of placeholder text](../../../img\do_dont\placeholder_dont.png)
 
 For more information about placeholder text styles, refer to the [_Typography_](typography.md) section.
@@ -323,7 +322,6 @@ Microcopy is text below and input field that provides additional information abo
 Micro-copy is styled as follows:
 
 10px below the input field. The text is displayed the same as placeholder text; Nunito Sans Regular at 14px, <badge style="background-color: #666666;">#666666</badge>
-
 
 If there is more than one line the text wraps and has a leading of 18pts.
 
