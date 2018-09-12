@@ -45,10 +45,12 @@ const Template = ({
             <Sidenav path={path} />
           </div>
           <Container className="mt-2 doc-container">
+            <main id="main-content" role="main">
             {(i18n.language === "en" || fr === null) ?
               <div className="col-sm">{renderAst(eng.htmlAst)}</div> :
               <div className="col-sm">{renderAst(fr.htmlAst)}</div>
             }
+            </main>
           </Container>
     </Layout>
   );

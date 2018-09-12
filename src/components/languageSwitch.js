@@ -18,15 +18,24 @@ class LanguageSwitcher extends Component {
   }
 
   render() {
+    const langCheck = this.state.isEnglish;
+    let langText;
+
+    if(langCheck) {
+      langText = <span><span aria-hidden="true">FR</span><span className="sr-only" lang="fr">français</span></span>
+    } else {
+      langText = <span><span aria-hidden="true">EN</span><span className="sr-only" lang="en">english</span></span>
+    }
     return (
       <div className="LanguageSwitcher">
         <Button
+          color="primary"
           className="languageSwitcherButton"
           onClick={this.handleChangeLanguage}
           size="md"
           style={ {"font-weight": "550"} }
         >
-        {this.state.isEnglish ? 'FR' : 'EN'}
+        {langText}
         </Button>
       </div>
     );
