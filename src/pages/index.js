@@ -16,6 +16,7 @@ import { translate } from "react-i18next";
 const IndexPage = ({ data, t, i18n }) => (
 
   <Layout>
+    <main id="main-content" role="main">
       <div className="hero-holder">
       <Container>
         <h1 className="display-5">Aurora Design System</h1>
@@ -25,15 +26,15 @@ const IndexPage = ({ data, t, i18n }) => (
         <div>
           <a href="/component" className="mb-1 btn btn-primary btn-lg">Get started</a>
           <div className="mb-3 mt-3">
-            <a className="ext-link-text" href="https://github.com/gctools-outilsgc/design-system"><img alt="" className="mr-1" src={githubLogo} style={{ width: '32px', height: '32px', display: 'inline-block', 'margin-top':'-5px' }} />Find us on GitHub</a>
-            <a className="ml-3 ext-link-text" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai"><img alt="" className="mr-1" src={downloadIcon} style={{ width: '32px', height: '32px', display: 'inline-block', 'margin-top':'-5px' }} />Download UI kit</a>
+            <a className="ext-link-text" href="https://github.com/gctools-outilsgc/design-system"><img alt="" className="mr-1" src={githubLogo} style={{ width: '32px', height: '32px', display: 'inline-block', 'margin-top':'-5px' }} />{t("GithubLink")}</a>
+            <a className="ml-3 ext-link-text" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai"><img alt="" className="mr-1" src={downloadIcon} style={{ width: '32px', height: '32px', display: 'inline-block', 'margin-top':'-5px' }} />{t("DownloadLink")}</a>
           </div>
         </div>
         </Container>
       </div>
     <Container className="home-body">
 
-      <h2>I am a...</h2>
+      <h2>{t("IAM")}</h2>
 
       <Row className="pb-2">
         <Col xs="6" sm="6" md="3" className="text-center">
@@ -49,41 +50,41 @@ const IndexPage = ({ data, t, i18n }) => (
         <Col xs="6" sm="6" md="3" className="text-center">
           <Img fluid={data.pen.childImageSharp.fluid}  />
           <h3 className="mb-3 mt-3 h4">{t("Writers")}</h3>
-          <a href="/content/content-guidelines" className="mb-2 btn btn-outline-primary btn-block">Start writing</a>
+          <a href="/content/content-guidelines" className="mb-2 btn btn-outline-primary btn-block">{t("WriterCTA")}</a>
         </Col>
         <Col xs="6" sm="6" md="3" className="text-center">
           <Img fluid={data.pie.childImageSharp.fluid}  />
           <h3 className="mb-3 mt-3 h4">{t("DataScientists")}</h3>
-          <a href="/data/data-overview" className="mb-2 btn btn-outline-primary btn-block">Start analyzing</a>
+          <a href="/data/data-overview" className="mb-2 btn btn-outline-primary btn-block">{t("DataScientistCTA")}</a>
         </Col>
       </Row>
 
-      <h2 className="mt-4 mb-5" style={{textAlign: 'center'}}>About Aurora Design System</h2>
+      <h2 className="mt-4 mb-5" style={{textAlign: 'center'}}>{t("AboutAurora")}</h2>
 
       <Row className="mb-3">
         <Col xs="12" sm="6" md="4">
-          <h3 className="text-primary mb-3">{t("Simple and flexible")}</h3>
-          <p>A leightweight system that allows individual teams to adapt branding and other design elements to suit a specific project. The system will provide guidelines for all necessary elements without being restrictive.</p>
+          <h3 className="text-primary mb-3">{t("SimpleFlexible")}</h3>
+          <p>{t("SimpleFlexibleParagraph")}</p>
         </Col>
         <Col xs="12" sm="6" md="4">
-          <h3 className="text-primary mb-3">{t("Fun to use")}</h3>
-          <p>The system itself will have a pleasing design that is easy for developers and designers to navigate and adapt to their needs. Using the design syustem wuill make their jobs weasier rather than add an extra burden or obligations to follow.</p>
+          <h3 className="text-primary mb-3">{t("FunToUse")}</h3>
+          <p>{t("FunToUseParagraph")}</p>
         </Col>
         <Col xs="12" sm="6" md="4">
-          <h3 className="text-primary mb-3">{t("Re-usable")}</h3>
-          <p>All components and principles included in the design system are generic enough to suit a variety of needs for multiple teams. Code and design elements can easily be extracted to create new products. Communications guidelines are easy to understand and follow.</p>
+          <h3 className="text-primary mb-3">{t("Reusable")}</h3>
+          <p>{t("ReusableParagraph")}</p>
         </Col>
         <Col xs="12" sm="6" md="4">
           <h3 className="text-primary mb-3">{t("Diverse")}</h3>
-          <p>The design system will cover a variety of needs and types of products. The system will also cover necessary government obligations such as official languages and accessibility.</p>
+          <p>{t("DiverseParagraph")}</p>
         </Col>
         <Col xs="12" sm="6" md="4">
-          <h3 className="text-primary mb-3">{t("Technology agnostic")}</h3>
-          <p>The design system is applicable regardless of which technology framework the team decides to use for their project.</p>
+          <h3 className="text-primary mb-3">{t("TechnologyAgnostic")}</h3>
+          <p>{t("TechnologyAgnosticParagraph")}</p>
         </Col>
         <Col xs="12" sm="6" md="4">
           <h3 className="text-primary mb-3">{t("Open")}</h3>
-          <p>The design system will be open and accessible to anyone who wishes to use it. All code is open source, and other guidelines and elements are free to copy.</p>
+          <p>{t("OpenParagraph")}</p>
         </Col>
       </Row>
       </Container>
@@ -91,16 +92,17 @@ const IndexPage = ({ data, t, i18n }) => (
       <Container>
         <div style={{maxWidth:'50%', float: 'right'}}>
           <p className="lead" style={{ display: 'inline-block', paddingBottom: '10px', textAlign: 'left' }}>
-            Don’t fall into one of the roles above? The Aurora Design System can still improve your work! We are always looking for contributors to make the Aurora Design System better for content creators.
+            {t("BottomText")}
           </p>
           <div>
-            <a href="/overview/introduction" className="btn btn-primary">Learn more</a>
+            <a href="/overview/introduction" className="btn btn-primary">{t("LearnMore")}</a>
           </div>
         </div>
-        
+
       </Container>
 
       </div>
+    </main>
   </Layout>
 
 );

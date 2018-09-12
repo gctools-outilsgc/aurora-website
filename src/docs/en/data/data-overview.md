@@ -11,7 +11,9 @@ Data visualizations come in many forms, and are a visual means to represent a da
 
 Data visualizations should aim to represent and answer one question. The goal is to provide a brief overview of the data, and tell a visual story that makes sense to the user. Graphs should be used to visually represent datasets in ways that tables cannot. If the data is easy to understand without a visualization, usually the simplest option \(a table\) is best.
 
-*webpage image
+![Screenshot of the GCcollab Data Application](../../../img\examples\GCcollab stats.PNG)
+
+*The GCcollab Data Application, which uses the Aurora Design System style to create a data dashboard with statistics from GCcollab groups.*
 
 ## Simplicity
 
@@ -21,13 +23,17 @@ Visuals should only enhance the data, and should never distract. Best practices 
 
 If one graph is too complex to represent a certain dataset, the data should be represented in multiple, simple graphs.
 
-![Do and don't image representing data simplicity](https://github.com/gctools-outilsgc/design-system-code/blob/documentation/src/img/examples/Simplicity.png)
+![Do image representing data simplicity](../../../img\do_dont\simplicity_do.png)
+
+![Don't image representing data simplicity](../../../img\do_dont\simplicity_dont.png)
 
 ### Multiple Formats
 
 When you use data visualizations, it is recommended to represent the data in multiple formats where possible. Regardless of the type of visualization you use, a simple data table, or other ways of viewing the raw data, should be available somewhere on the page. This allows users to view and analyze the data in a way that makes the most sense to them, as well as easily identify individual data points.
 
-![Do and don't image representing using multiple formats for data](https://github.com/gctools-outilsgc/design-system-code/blob/documentation/src/img/examples/Multiple%20Formats.png)
+![Do image representing multiple formats](../../../img\do_dont\multiple formats_do.png)
+
+![Don't image representing multiple formats](../../../img\do_dont\multiple formats_dont.png)
 
 ## Labels
 
@@ -49,7 +55,10 @@ In some visualizations with many axis points, skipping labels is an effective wa
 
 On the x-axis, value labels should be centered to their corresponding tick mark. For y-axis labels, they should be left-aligned and kept above the y-axis lines. Long text labels should be rotated 45 degrees around an origin directly below their corresponding axis tick.
 
-![Do and don't image representing data increments](https://github.com/gctools-outilsgc/design-system-code/blob/documentation/src/img/examples/Data%20Increments.png)
+![Do image representing data increments](../../../img\do_dont\data increments_do.png)
+
+![Don't image representing data increments](../../../img\do_dont\data increments_dont.png)
+
 
 ### Data Formats and Abbreviations
 
@@ -71,6 +80,6 @@ For increased accessibility, it is also recommended to use textures in addition 
 
 See specific types of visualizations for use of colour. In general, each variable should have one designated colour, and only graphs showing multiple variables should have multiple colours.
 
-Axis lines should use light grey \(\#E0E0E0\), to not distract from other colours used in the visualization
+Axis lines should use light grey \(<badge style="background-color: #E0E0E0;color:black">#E0E0E0</badge>\), to not distract from other colours used in the visualization
 
 For more information about colour choice, visit the [colour section](colour.md).

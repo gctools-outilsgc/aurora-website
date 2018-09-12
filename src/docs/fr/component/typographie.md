@@ -33,17 +33,23 @@ Certains systèmes peuvent ne pas être en mesure de télécharger ou d’affich
 
 ## Titres \(H1)
 
-![Title](../../../img/examples/title.png)
+<h1>En-tête 1</h1>
 
 Les titres apparaissent seulement dans le haut des pages et indiquent les points de navigation de haut niveau. 
 
-Les titres sont affichés à l’aide de « Rubik Light » à 36 points de couleur no 252525 sur un arrière-plan pâle ou no FFFFFF sur un arrière-plan foncé.
+Les titres sont affichés à l’aide de « Rubik Light » à 36 points de couleur #252525 sur un arrière-plan pâle ou #FFFFFF sur un arrière-plan foncé.
 
 ### En-tête \(H2-H6)
 
-![Headings](../../../img/examples/headings.png)
+<div>
+    <h2>En-tête 2</h2>
+    <h3>En-tête 3</h3>
+    <h4>En-tête 4</h4>
+    <h5>En-tête 5</h5>
+    <h6>En-tête 6</h6>
+</div>
 
-Il y a cinq différents sous-en-têtes. Tous les sous-titres sont de couleur no 252525 sur un arrière-plan pâle ou no FFFFFF sur un arrière-plan foncé.
+Il y a cinq différents sous-en-têtes. Tous les sous-titres sont de couleur #252525 sur un arrière-plan pâle ou #FFFFFF sur un arrière-plan foncé.
 
 Les en-têtes ont les styles typographiques suivants :
 
@@ -61,7 +67,7 @@ Les en-têtes ont les styles typographiques suivants :
 
 Le texte du paragraphe est utilisé pour la plupart du contenu de texte se trouvant dans l’application. Le texte du paragraphe est établi à la police « Nunito Sans Regular » à 16 points (1 em) avec un interlignage de 24 points. À moins d’indiquer un hyperlien ou un point de navigation, le texte du paragraphe ne devrait pas être mis en évidence davantage.
 
-Le texte de paragraphe est de couleur no 252525 sur un arrière-plan pâle ou de couleur no FFFFFF sur un arrière-plan foncé.
+Le texte de paragraphe est de couleur #252525 sur un arrière-plan pâle ou de couleur #FFFFFF sur un arrière-plan foncé.
 
 ### Rupture de ligne
 
@@ -78,7 +84,13 @@ La longueur idéale pour le corps du texte est d’environ de 40 à 60 caractèr
 
 ### Citations mises en vedette
 
-![Pull quotes](../../../img//examples/pull_quote.png)
+<div style="margin: 0 auto">
+<p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> « Quelle belle accroche! »</p>
+</div>
+
+<codeblock html='
+    <p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> « Quelle belle accroche! »</p>
+' react=''></codeblock>
 
 Les citations mises en vedettes sont utilisées pour indiquer les phrases-clés du contenu affiché sur la page (dans des articles ou des blogues, par exemple). Elles sont intégrées aux paragraphes.
 
@@ -92,9 +104,27 @@ Il existe trois différents types de listes :
 
 **Listes à puces :** Ces listes comportent des puces pour indiquer les groupes de contenu. La puce par défaut est un cercle ouvert avec un contour de couleur primaire. Une puce en retrait comprend un cercle ouvert ayant un contour gris.
 
+<ul>
+    <li>Point 1</li>
+    <li>Point 2</li>
+    <li>Point 3</li>
+</ul>
+
 **Listes numérotées :** Les listes numérotées comportent des numéros pour indiquer le contenu qui nécessite une hiérarchie.
 
+<ol>
+    <li>Point 1</li>
+    <li>Point 2</li>
+    <li>Point 3</li>
+</ol>
+
 **Listes interactives :** Les listes interactives comprennent du contenu cliquable. Ces listes comprennent un pointage et un état de clic et agissent comme des points de navigation mineurs.
+
+<ul>
+    <li><a href="#">Point 1</a></li>
+    <li><a href="#">Point 2</a></li>
+    <li><a href="#">Point 3</a></li>
+</ul>
 
 ## Hyperliens
 
@@ -102,7 +132,7 @@ Le texte de lien est utilisé dans les paragraphes afin d’indiquer les hyperli
 
 Il est recommandé que le texte de lien soit souligné et affiché dans une couleur secondaire utilisée dans l’application. Il est également recommandé que la longueur des hyperliens ne dépasse pas une ligne et que les hyperliens soient appliqués à un ensemble de deux à quatre mots-clés plutôt qu’à une phrase ou à une ligne complète.
 
-Les liens visités doivent être indiqués par une couleur différente. Habituellement, une pratique exemplaire pour les liens visités consiste à utiliser une version voilée de la couleur de votre hyperlien, une couleur secondaire ou le violet standard : no 551A8B.
+Les liens visités doivent être indiqués par une couleur différente. Habituellement, une pratique exemplaire pour les liens visités consiste à utiliser une version voilée de la couleur de votre hyperlien, une couleur secondaire ou le violet standard : <badge style="background-color: #551A8B">#551A8B</badge>.
 
 
 ## Accentuation
@@ -115,14 +145,17 @@ Le formatage typographique, tel que l’italique ou le soulignement, doit être 
 
 ## Horodateurs et texte d’espace réservé
 
-Les horodateurs et le texte d’espace réservé ont les mêmes styles typographiques. Les deux ont une police « Nunito Sans Regular » à 14 points et un interlignage de 21 points Les horodateurs et le texte d’espace réservé sont de couleur no 666666 sur un arrière plan pâle ou de couleur no FFFFFF sur un arrière-plan foncé.
+Les horodateurs et le texte d’espace réservé ont les mêmes styles typographiques. Les deux ont une police « Nunito Sans Regular » à 14 points et un interlignage de 21 points Les horodateurs et le texte d’espace réservé sont de couleur <badge style="background-color: #666666">#666666</badge> sur un arrière plan pâle ou de couleur #FFFFFF sur un arrière-plan foncé.
 
-(Ajouter un exemple d’image)
+<p style="font-size: 14px; color: #666666">Le 6 septembre 2018, 13 h 40</p>
+<p style="font-size: 14px; color: #666666">Le 20 décembre 2015, 6 h 45</p>
 
 ## Texte de bouton
 
-![Button Text](../../../img/examples/button_states.png)
+<button color="secondary" outline="true">Secondaire</button>
+<button color="secondary">Secondaire</button>
+<button color="secondary" disabled="true">Secondaire</button>
 
-Le texte de bouton est affiché avec la police « Nunito Sans Bold » à 16 points et est de couleur no 252525 sur un arrière-plan pâle ou de couleur no FFFFFF sur un arrière-plan foncé. La couleur de ce texte dépend du bouton choisi et doit présenter un contraste suffisant avec la couleur de chaque type de bouton. Pour obtenir de plus amples renseignements sur le choix des couleurs, veuillez consulter la section sur les boutons.
+Le texte de bouton est affiché avec la police « Nunito Sans Bold » à 16 points et est de couleur #252525 sur un arrière-plan pâle ou de couleur #FFFFFF sur un arrière-plan foncé. La couleur de ce texte dépend du bouton choisi et doit présenter un contraste suffisant avec la couleur de chaque type de bouton. Pour obtenir de plus amples renseignements sur le choix des couleurs, veuillez consulter la section sur les boutons.
 
 (Ajouter un exemple d’image)

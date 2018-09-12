@@ -28,6 +28,12 @@ Links should always include a hover state and a visited state, and should look d
 
 **Visited:** Nunitio Sans Regular at 16 points
 
-There are other colour options for visited links. Best practice for visited links is to use a muted version of your hyperlink colour, a secondary colour or the standard purple: \#551A8B.
+There are other colour options for visited links. Best practice for visited links is to use a muted version of your hyperlink colour, a secondary colour or the standard purple: <badge style="background-color: #551A8B;">#551A8B</badge>.
 
-**\(Add example image\)**
+
+<a href="#">This is a link</a>
+
+<codeblock html='
+    <a href="#">This is a link</a>
+' react='' />
+</codeblock>
