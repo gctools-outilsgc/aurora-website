@@ -21,9 +21,10 @@ class ButtonDropdownWrapperOpen extends React.Component {
 
   render() {
     return (
-      <ButtonDropdown isOpen="true">
-        <Button id="caret" color="primary">{this.props.title}</Button>
-        <DropdownToggle caret color="primary" />
+      <ButtonDropdown direction="down" isOpen="true" toggle={this.toggle} style={{marginBottom: '15px'}} color={this.props.color}>
+        <DropdownToggle caret {...this.props}>
+          Pressed
+        </DropdownToggle>
         <DropdownMenu>
           <DropdownItem>Action 1</DropdownItem>
           <DropdownItem>Action 2</DropdownItem>
@@ -33,5 +34,6 @@ class ButtonDropdownWrapperOpen extends React.Component {
     );
   }
 }
+
 
 export default translate('ButtonDropdownWrapperOpen')(ButtonDropdownWrapperOpen);
