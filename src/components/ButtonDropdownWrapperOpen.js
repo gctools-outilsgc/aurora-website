@@ -6,6 +6,7 @@ class ButtonDropdownWrapperOpen extends React.Component {
   constructor(props) {
     super(props);
 
+    this.title = "";
     this.toggle = this.toggle.bind(this);
     this.state = {
       dropdownOpen: true
@@ -22,7 +23,7 @@ class ButtonDropdownWrapperOpen extends React.Component {
     return (
       <ButtonDropdown direction="down" isOpen="true" toggle={this.toggle} style={{marginBottom: '15px'}} color={this.props.color}>
         <DropdownToggle caret {...this.props}>
-          Pressed
+          {this.props.title}
         </DropdownToggle>
         <DropdownMenu>
           <DropdownItem>Action 1</DropdownItem>
