@@ -14,7 +14,8 @@ import PaginationLinkPrev from '../components/PaginationLinkPrev';
 /* Import wrappers for embedding state-dependent components in markdown */
 import ButtonDropdownWrapper from '../components/ButtonDropdownWrapper';
 import Helmet from 'react-helmet';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Template = ({
   data, // this prop will be injected by the GraphQL query below.
@@ -30,7 +31,7 @@ const Template = ({
   return (
     <Layout>
           <div id="mobile-menu-holder" className="d-sm-block d-md-none d-lg-none d-xl-none bg-primary" style={{padding: '6px', position: 'fixed', zIndex: '9999', top: '102px', width: '100%'}}>
-            <Button color="primary" id="mobile-menu" className="mr-3">Menu</Button>
+            <Button color="primary" id="mobile-menu" className="mr-3"><FontAwesomeIcon size="2x" icon={faBars} /><span className="sr-only">Menu</span></Button>
             <Search
               lng={(i18n.language === "en") ? "en" : "fr"}
               placeholder={(i18n.language === "en") ? "Search" : "Chercher"}

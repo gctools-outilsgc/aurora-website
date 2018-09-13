@@ -36,7 +36,7 @@ class Subnav extends React.Component {
 			;
 		return (
 			<ListGroupItem className="collapseItem">
-				<a href="#" onClick={this.toggle} style={{"border": "0px", "font-size":"1.2125em", "font-family": "'Nunito Sans', sans-serif", "margin-top": "5px", "margin-bottom": "5px", "font-weight": "600"}}>{(i18n.language === "en") ? nameEn : nameFr}</a>
+				<a href="#" aria-expanded={this.state.dropdownOpen} onClick={this.toggle} style={{"border": "0px", "font-size":"1.2125em", "font-family": "'Nunito Sans', sans-serif", "margin-top": "5px", "margin-bottom": "5px", "font-weight": "600"}}>{(i18n.language === "en") ? nameEn : nameFr}</a>
 				<Collapse isOpen={this.state.dropdownOpen}>
 					<ListGroup>
 						{sortedFiles.map((edges) => {
