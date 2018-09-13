@@ -127,7 +127,7 @@ Label text has high contrast with the button colour. See Colour for more informa
 
 ## Varying States
 
-![Image of different button states](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/button%20states.png)
+![Image of different button states](../../../img\examples\button states.png)
 
 Buttons are not one-state objects. Most users will recognize a button because of its hover and active states. Varying states also provide feedback to the user at each stage of performing the action.
 
@@ -166,8 +166,6 @@ Each of the states for primary buttons are as follows:
 *Hover button component here*
 
 **Focus state:** primary colour at 80% opacity, white text, with a border radius of 4px and padding of 15px. Includes a 3px stroke in the primary colour.
-
-**Active state:** _**\(to complete\)**_
 
 <button color="primary" disabled="true">Primary</button>
 

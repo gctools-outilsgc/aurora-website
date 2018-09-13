@@ -86,7 +86,6 @@ The DCD design system is consistent with the following best practices for line-b
 
 The ideal length for body text is around 40-60 characters. If line length is too short or too long it has a negative impact on readability. Our design system follows these guidelines and aims for approximately 60 characters per line.
 
-**\(Add do/don't image\)**
 
 ## Pull Quotes
 
