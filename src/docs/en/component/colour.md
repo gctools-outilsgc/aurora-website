@@ -17,27 +17,31 @@ We have created other sample colour palettes that you may wish to use in your ow
 
 #### Aurora Borealis
 
-Hex codes \(left to right\): <badge style="background-color: #000A3D;">#000A3D</badge>, <badge style="background-color: #467B8D;">#467B8D</badge>, <badge style="background-color: #5DC1BE;color: black; ">#5DC1BE</badge>, <badge style="background-color: #55C0A3; color:black;">#55C0A3</badge>, <badge style="background-color: #ADE18D; color:black;">#ADE18D</badge>
+Hex codes :
+
+ <badge style="background-color: #000A3D;">#000A3D</badge>, <badge style="background-color: #467B8D;">#467B8D</badge>, <badge style="background-color: #5DC1BE;color: black; ">#5DC1BE</badge>, <badge style="background-color: #55C0A3; color:black;">#55C0A3</badge>, <badge style="background-color: #ADE18D; color:black;">#ADE18D</badge>
 
 ### Thunder and Lightning
 
-Hex codes \(left to right\): <badge style="background-color: #002D42;">#002D42</badge>, <badge style="background-color: #4D5D6C;">#4D5D6C</badge>, <badge style="background-color: #96A8B2; color:black;">#96A8B2</badge>, <badge style="background-color: #CECECE ; color:black;">#CECECE </badge>, <badge style="background-color: #FEC04F;color:black;">#FEC04F</badge>
+Hex codes :
+
+<badge style="background-color: #002D42;">#002D42</badge>, <badge style="background-color: #4D5D6C;">#4D5D6C</badge>, <badge style="background-color: #96A8B2; color:black;">#96A8B2</badge>, <badge style="background-color: #CECECE ; color:black;">#CECECE </badge>, <badge style="background-color: #FEC04F;color:black;">#FEC04F</badge>
 
 #### Blue Complimentary
 
+Hex codes :
 
-Hex codes \(left to right\):
 <badge style="background-color: #0D467D;">#0D467D</badge>, <badge style="background-color: #137991;">#137991</badge>, <badge style="background-color: #6DD2DA; color:black;">#6DD2DA</badge>, <badge style="background-color: #FF9F40; color:black;">#FF9F40</badge>, <badge style="background-color: #FEC04F; color:black;">#FEC04F</badge>
 
 #### Triad
 
-Hex codes \(left to right\):
+Hex codes :
 
 <badge style="background-color: #7E0C33;">#7E0C33</badge>, <badge style="background-color: #024571;">#024571</badge>, <badge style="background-color: #5DC1BE; color:black;">#5DC1BE</badge>, <badge style="background-color: #F6CF22; color:black;">#F6CF22</badge>, <badge style="background-color: #EDDB7C; color:black;">#EDDB7C</badge>
 
 #### Green and Blue
 
-Hex codes \(left to right\):
+Hex codes :
 
 <badge style="background-color: #0278A4;">#0278A4</badge>, <badge style="background-color: #4E474;color:black;">#4E474</badge>, <badge style="background-color: #83C3F2;color:black;">#83C3F2</badge>, <badge style="background-color: #C9DF61;color:black;">#C9DF61</badge>, <badge style="background-color: #C1D699;color:black;">#C1D699</badge>
 

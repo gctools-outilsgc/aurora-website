@@ -16,14 +16,15 @@ import { translate } from "react-i18next";
 const IndexPage = ({ data, t, i18n }) => (
 
   <Layout>
+    <main id="main-content" role="main">
       <div className="hero-holder">
       <Container>
-        <h1 className="display-3">Aurora Design System</h1>
-        <p className="lead" style={{ maxWidth: '75%' }}>
+        <h1 className="display-5">Aurora Design System</h1>
+        <p className="lead">
           {t("TopIntro")}
         </p>
         <div>
-          <a href="/component/colour" className="mb-1 btn btn-primary btn-lg">{t("MainCTA")}</a>
+          <a href="/component" className="mb-1 btn btn-primary btn-lg">{t("MainCTA")}</a>
           <div className="mb-3 mt-3">
             <a className="ext-link-text" href="https://github.com/gctools-outilsgc/design-system"><img alt="" className="mr-1" src={githubLogo} style={{ width: '32px', height: '32px', display: 'inline-block', 'margin-top':'-5px' }} />{t("GithubLink")}</a>
             <a className="ml-3 ext-link-text" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai"><img alt="" className="mr-1" src={downloadIcon} style={{ width: '32px', height: '32px', display: 'inline-block', 'margin-top':'-5px' }} />{t("DownloadLink")}</a>
@@ -31,7 +32,7 @@ const IndexPage = ({ data, t, i18n }) => (
         </div>
         </Container>
       </div>
-    <Container style={{marginTop: '-100px'}}>
+    <Container className="home-body">
 
       <h2>{t("IAM")}</h2>
 
@@ -39,12 +40,12 @@ const IndexPage = ({ data, t, i18n }) => (
         <Col xs="6" sm="6" md="3" className="text-center">
           <Img fluid={data.eye.childImageSharp.fluid}  />
           <h3 className="mb-3 mt-3 h4">{t("Designers")}</h3>
-          <a href="/component/colour" className="mb-2 btn btn-outline-primary btn-block">{t("DesignerCTA")}</a>
+          <a href="/component" className="mb-2 btn btn-outline-primary btn-block">{t("DesignerCTA")}</a>
         </Col>
         <Col xs="6" sm="6" md="3" className="text-center">
           <Img fluid={data.gears.childImageSharp.fluid}  />
           <h3 className="mb-3 mt-3 h4">{t("Developers")}</h3>
-          <a href="/component/colour" className="mb-2 btn btn-outline-primary btn-block">{t("DeveloperCTA")}</a>
+          <a href="/component" className="mb-2 btn btn-outline-primary btn-block">{t("DeveloperCTA")}</a>
         </Col>
         <Col xs="6" sm="6" md="3" className="text-center">
           <Img fluid={data.pen.childImageSharp.fluid}  />
@@ -101,6 +102,7 @@ const IndexPage = ({ data, t, i18n }) => (
       </Container>
 
       </div>
+    </main>
   </Layout>
 
 );

@@ -11,7 +11,9 @@ Data visualizations come in many forms, and are a visual means to represent a da
 
 Data visualizations should aim to represent and answer one question. The goal is to provide a brief overview of the data, and tell a visual story that makes sense to the user. Graphs should be used to visually represent datasets in ways that tables cannot. If the data is easy to understand without a visualization, usually the simplest option \(a table\) is best.
 
-*webpage image*
+![Screenshot of the GCcollab Data Application](../../../img\examples\GCcollab stats.PNG)
+
+*The GCcollab Data Application, which uses the Aurora Design System style to create a data dashboard with statistics from GCcollab groups.*
 
 ## Simplicity
 

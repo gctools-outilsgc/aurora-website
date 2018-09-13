@@ -147,11 +147,11 @@ const Sidenav = (props) => (
         );
       }
       return (
-        <div id="sidenav">
-          <Nav style={{'margin-top':'110px', 'margin-bottom':'40px'}}> <h4 id = "title">Components</h4>
+        <nav id="sidenav" role="navigation" aria-label="Sub Navigation *Translate*">
+          <Nav style={{'margin-top':'110px', 'margin-bottom':'40px'}}>
             {subPieces}
           </Nav>
-        </div>
+        </nav>
       )
     }}
   />
