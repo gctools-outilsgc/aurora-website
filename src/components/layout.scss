@@ -9,7 +9,7 @@
     padding-left: 310px;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
     .doc-container {
         padding-left: 0px;
         margin-top: 60px !important;
@@ -34,8 +34,18 @@
     }
 }
 
-.home-body { 
-    margin-top: -100px;    
+.home-body {
+    margin-top: -100px;
+}
+
+.footer-holder {
+    background-image: url(https://raw.githubusercontent.com/gctools-outilsgc/design-system/master/project_mgmt/Aurora-Banner-small.png);
+    background-size: cover;
+    height: 300px;
+    .lead {
+      max-width:50%;
+      float:right;
+    }
 }
 
 @media (max-width: 768px) {
@@ -50,25 +60,28 @@
         }
         padding: 0px;
     }
-    .home-body { 
-        margin-top: 6px;
+    .home-body {
+        margin-top: 40px;
     }
-    
+
+    .footer-holder {
+        background-image: none;
+        .lead {
+          max-width:100%;
+        }
+    }
+
  }
 
-.footer-holder {
-    background-image: url(https://raw.githubusercontent.com/gctools-outilsgc/design-system/master/project_mgmt/Aurora-Banner-small.png);
-    background-size: cover;
-    height: 300px;
-}
-@media (max-width: 576px) { 
+
+@media (max-width: 576px) {
 .scroll {
     white-space: nowrap;
     overflow-x: auto;
     overflow-y: hidden;
     height: 44px;
     -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: -ms-autohiding-scrollbar; 
+    -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 .scroll::-webkit-scrollbar {
@@ -77,21 +90,32 @@
 
 .main-nav {
     .nav-holder {
-      width: 60%; 
+      width: 60%;
     }
     .nav {
     flex-wrap: nowrap !important;
     margin: 0 !important;
     }
 }
-
+  .hero-holder {
+    background-image:none;
+    height:auto;
+    .lead {
+      font-size:1.1rem;
+    }
+  }
+  .footer-holder {
+    .lead {
+      font-size:1.1rem;
+    }
+  }
 }
 
-@media (max-width: 815px) { 
+@media (max-width: 815px) {
     .nav-site {
         .nav-link {
             padding: 8px 10px;
-            
+
         }
     }
  }
