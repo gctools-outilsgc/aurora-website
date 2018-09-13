@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Button } from 'reactstrap';
 import { translate } from 'react-i18next';
 
 class ButtonDropdownWrapperOpen extends React.Component {
@@ -21,10 +21,9 @@ class ButtonDropdownWrapperOpen extends React.Component {
 
   render() {
     return (
-      <ButtonDropdown direction="down" isOpen="true" toggle={this.toggle} style={{marginBottom: '15px'}} color={this.props.color}>
-        <DropdownToggle caret {...this.props}>
-          {this.props.title}
-        </DropdownToggle>
+      <ButtonDropdown isOpen="true">
+        <Button id="caret" color="primary">{this.props.title}</Button>
+        <DropdownToggle caret color="primary" />
         <DropdownMenu>
           <DropdownItem>Action 1</DropdownItem>
           <DropdownItem>Action 2</DropdownItem>
