@@ -17,7 +17,70 @@ Tables can be used to display both quantitative and qualitative data.
 
 Simple tables are the easiest way to display data and provide a clean look on your page. Simple tables are great for a small number of categories or values, but should include additional elements if increased readability or interactivity is required.
 
-*Simple table component*
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+<codeblock html='
+        <table class="table">
+        <thead>
+            <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            </tr>
+            <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            </tr>
+            <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table> 
+' react=''></codeblock>
+
 
 Simple tables are styled as follows:
 
@@ -31,9 +94,42 @@ Table Cell: Table cell information is displayed using regular text style (Nunito
 
 Striped tables are often used to improve readability. If your data is more complex, or values are similar, a striped table may increase readability and comprehension of the data.
 
-*Striped table component*
-
 Striped tables are styled as follows:
+<strippedtable></strippedtable>
+
+<codeblock html='
+    <table class="table table-striped">
+        <thead>
+            <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            </tr>
+            <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            </tr>
+            <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table>
+' react=''></codeblock>
+
 
 Title: Each table has a title that uses heading 3 (Rubik Medium at 24px with a 10pt tracking modifier). The table is placed 13px below the title. The table is the width of its container and the height depends on the data and how pagination is handled on the table.
 
