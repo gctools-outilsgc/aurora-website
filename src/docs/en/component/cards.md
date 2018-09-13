@@ -180,7 +180,6 @@ Cards can technically include any number of component combinations. Using the ba
             <p class="text-muted">Job title or meta information</p>
             <button type="button" class="btn btn-primary">Call to Action</button>
             </div>
-
         </div>
     </div>
     <div class="card mb-2 d-inline-block" style="max-width: 18rem;">

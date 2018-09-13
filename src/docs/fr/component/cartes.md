@@ -151,7 +151,7 @@ Les cartes peuvent techniquement comprendre un certain nombre de combinaisons d�
     <div class="card-body">
     <h5 class="card-title">Titre de la carte</h5>
     <div class="card-subtitle text-muted">Méta-information</div>
-    <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte. Voici quelques renseignements supplémentaires, cela pourrait être quelque chose de merveilleux!. Here is some extra information, this could be something wonderful!</p>
+    <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte. Voici quelques renseignements supplémentaires, cela pourrait être quelque chose de merveilleux!.</p>
     <button type="button" class="btn btn-light"><span class="fa fa-heart"></span><span class="sr-only">Aimer</span></button>
     <button type="button" class="btn btn-light"><span class="fa fa-comment"></span><span class="sr-only">Comment</span></button>
     </div>
@@ -166,7 +166,7 @@ Les cartes peuvent techniquement comprendre un certain nombre de combinaisons d�
     <button type="button" class="btn btn-primary">Primaire</button>
     <button type="button" class="btn btn-outline-primary">Primaire</button>
     </div>
-    <div class="card-footer">Extra information</div>
+    <div class="card-footer">Renseignements supplémentaires</div>
 </div>
 
 <codeblock html='
@@ -178,15 +178,14 @@ Les cartes peuvent techniquement comprendre un certain nombre de combinaisons d�
             <h5 class="card-title">Name or Group</h5>
             <p class="text-muted">Titre du poste ou méta-information</p>
             <button type="button" class="btn btn-primary">Appel à l’action</button>
-            </div>
-            
+            </div>        
         </div>
     </div>
     <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
         <div class="card-body">
             <h5 class="card-title">Titre de la carte</h5>
             <div class="card-subtitle text-muted">Méta-information</div>
-            <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte. Voici quelques renseignements supplémentaires, cela pourrait être quelque chose de merveilleux!. Here is some extra information, this could be something wonderful!</p>
+            <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte. Voici quelques renseignements supplémentaires, cela pourrait être quelque chose de merveilleux!.</p>
             <button type="button" class="btn btn-light"><span class="fa fa-heart"></span><span class="sr-only">Aimer</span></button>
             <button type="button" class="btn btn-light"><span class="fa fa-comment"></span><span class="sr-only">Comment</span></button>
         </div>
@@ -200,7 +199,7 @@ Les cartes peuvent techniquement comprendre un certain nombre de combinaisons d�
             <button type="button" class="btn btn-primary">Primaire</button>
             <button type="button" class="btn btn-outline-primary">Primaire</button>
         </div>
-        <div class="card-footer">Extra information</div>
+        <div class="card-footer">Renseignements supplémentaires</div>
     </div>
 ' react='' />
 

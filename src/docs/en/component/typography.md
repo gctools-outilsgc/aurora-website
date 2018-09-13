@@ -36,6 +36,10 @@ Some systems may not be able to download or display the fonts in this design sys
 
 <h1>Heading 1</h1>
 
+<codeblock html='<h1>Heading 1</h1>' 
+    react='<h1>Heading 1</h1>'>
+</codeblock>
+
 Titles appear only on the top of pages and indicate high-level navigation points.
 
 Titles are displayed using Rubik Light at 36 points  in the colour <badge style="background-color: #252525">#252525</badge> on a light background or <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge> on a dark background.
@@ -51,7 +55,25 @@ Titles are displayed using Rubik Light at 36 points  in the colour <badge style=
     <h6>Heading 6</h6>
 </div>
 
-There are five different sub-headings. All sub-headings use the colours <badge style="background-color: #252525">#252525</badge> on a light background or <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge> on a dark background.
+<codeblock html='
+    <div>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+    </div>' 
+    react='
+    <div>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+    </div>'>
+</codeblock>
+
+There are five different sub-headings. All sub-headings use the colours <badge style="background-color: #252525">#252525</badge> on a light background or \#FFFFFF on a dark background.
 
 The headers use the following typographic styles:
 
@@ -117,6 +139,15 @@ There are three different types of lists:
     <li>Item 3</li>
 </ul>
 
+<codeblock html='
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>' 
+    react=''>
+</codeblock>
+
 **Ordered lists:** Ordered lists use numbers to indicate content that requires a hierarchy.
 
 <ol>
@@ -125,6 +156,15 @@ There are three different types of lists:
     <li>Item 3</li>
 </ol>
 
+<codeblock html='
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>' 
+    react=''>
+</codeblock>
+
 **Interactive lists:** Interactive lists include content that is clickable. These lists include a hover and click state, and act as minor navigation points.
 
 <ul>
@@ -132,6 +172,15 @@ There are three different types of lists:
     <li><a href="#">Item 2</a></li>
     <li><a href="#">Item 3</a></li>
 </ul>
+
+<codeblock html='
+    <ul>
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+    </ul>' 
+    react=''>
+</codeblock>
 
 ## Hyperlinks
 
@@ -144,6 +193,13 @@ Visited links should be indicated by a different colour. Typically, a best pract
 <div style="margin: 0 auto">
 <p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> You may want to see the <a href="#">top of this page.</a></p>
 </div>
+
+<codeblock html='
+    <div style="margin: 0 auto">
+        <p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> You may want to see the <a href="#">top of this page.</a></p>
+    </div>' 
+    react=''>
+</codeblock>
 
 ## Emphasis
 
@@ -167,10 +223,26 @@ Timestamps and placeholder text use the same typographic styles. Both use Nunito
 <p style="font-size: 14px; color: #666666">September 6th, 2018. 1:40 pm</p>
 <p style="font-size: 14px; color: #666666">December 20th, 2015. 6:45 am</p>
 
+<codeblock html='
+    <p style="font-size: 14px; color: #666666">September 6th, 2018. 1:40 pm</p>
+    <p style="font-size: 14px; color: #666666">December 20th, 2015. 6:45 am</p>' 
+    react=''>
+</codeblock>
+
 ## Button Text
 
 <button color="secondary" outline="true">Secondary</button>
 <button color="secondary">Secondary</button>
 <button color="secondary" disabled="true">Secondary</button>
 
-Button text is displayed as Nunito Sans Bold at 16 points, and uses the colours <badge style="background-color: #252525">#252525</badge> on a light background or <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge> on a dark background. The colour of this text depends on the button chosen and must provide enough contrast with the colour of each type of button. For more about colour choice see our button section.
+<codeblock html='
+    <button color="secondary" outline="true">Secondary</button>
+    <button color="secondary">Secondary</button>
+    <button color="secondary" disabled="true">Secondary</button>
+    ' react='
+    <Button outline color="secondary">secondary</Button>
+    <Button color="secondary">secondary</Button>
+    <Button color="secondary" disabled>Button</Button>'>
+</codeblock>
+
+Button text is displayed as Nunito Sans Bold at 16 points, and uses the colours <badge style="background-color: #252525">#252525</badge> on a light background or \#FFFFFF on a dark background. The colour of this text depends on the button chosen and must provide enough contrast with the colour of each type of button. For more about colour choice see our button section.
