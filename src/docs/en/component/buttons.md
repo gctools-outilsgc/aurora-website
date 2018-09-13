@@ -10,15 +10,13 @@ title: "Buttons"
 <container style="width: 100%; margin-bottom: 20px">
     <mdcol>
         <row>
-            <mdcol className="col-4"><h5>Buttons</h5> </mdcol>
-            <mdcol className="col-4"><h5>Full width Buttons</h5> </mdcol>
+            <mdcol className="col-5"><h5>Buttons</h5> </mdcol>
+            <mdcol className="col-3"><h5>Full width Buttons</h5> </mdcol>
             <mdcol className="col-4"><h5>Button Groups</h5> </mdcol>
         </row>
         <row>
-            <mdcol className="col-1"> <button color="primary">Primary</button> </mdcol>
-            <mdcol className="col-1"> <button color="secondary" outline="true">Secondary</button> </mdcol>
-            <mdcol className="col-2"></mdcol>
-            <mdcol className="col-4"> <button color="primary" block="true">Primary</button> </mdcol>
+            <mdcol className="col-5"> <button color="primary">Primary</button> <button color="secondary" outline="true">Secondary</button></mdcol>
+            <mdcol className="col-3"> <button color="primary" block="true">Primary</button> </mdcol>
             <mdcol className="col-4">
                 <buttongroup>
                     <button color="primary">Left</button>
@@ -28,10 +26,8 @@ title: "Buttons"
             </mdcol>
         </row>
         <row style="margin-top: 10px">
-            <mdcol className="col-1"> <button color="primary" active="true">Primary</button> </mdcol>
-            <mdcol className="col-1"> <button color="secondary" outline="true" active="true">Secondary</button> </mdcol>
-            <mdcol className="col-2"></mdcol>
-            <mdcol className="col-4"> <button color="primary" block="true" active="true">Primary</button> </mdcol>
+            <mdcol className="col-5"> <button color="primary" active="true">Primary</button> <button color="secondary" outline="true" active="true">Secondary</button></mdcol>
+            <mdcol className="col-3"> <button color="primary" block="true" active="true">Primary</button> </mdcol>
             <mdcol className="col-4">
                 <buttongroup>
                     <button color="secondary">Left</button>
@@ -41,10 +37,8 @@ title: "Buttons"
             </mdcol>
         </row>
         <row style="margin-top: 10px">
-            <mdcol className="col-1"> <button color="primary" disabled="true">Primary</button> </mdcol>
-            <mdcol className="col-1"> <button color="secondary" outline="true" disabled="true">Secondary</button> </mdcol>
-            <mdcol className="col-2"></mdcol>
-            <mdcol className="col-4"> <button color="primary" block="true" disabled="true">Primary</button> </mdcol>
+            <mdcol className="col-5"> <button color="primary" disabled="true">Primary</button> <button color="secondary" outline="true" disabled="true">Secondary</button> </mdcol>
+            <mdcol className="col-3"> <button color="primary" block="true" disabled="true">Primary</button> </mdcol>
             <mdcol className="col-4">
                 <buttongroup>
                     <button color="primary">Left</button>
@@ -54,11 +48,8 @@ title: "Buttons"
             </mdcol>
         </row>
         <row style="margin-top: 10px">
-            <mdcol className="col-1"> <button size="sm" color="primary">Primary</button> </mdcol>
-            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true">Primary</button> </mdcol>
-            <mdcol className="col-1"> <button size="sm" color="primary">Primary</button> </mdcol>
-            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true">Primary</button> </mdcol>
-            <mdcol className="col-4"> <button color="primary" block="true" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-5"> <button size="sm" color="primary">Primary</button> <button size="sm" color="primary" disabled="true">Primary</button> <button size="sm" color="primary">Primary</button> <button size="sm" color="primary" disabled="true">Primary</button>  </mdcol>
+            <mdcol className="col-3"><button color="primary" block="true" outline="true">Primary</button></mdcol>
             <mdcol className="col-4">
                 <buttongroup>
                     <button color="primary">Left</button>
@@ -68,11 +59,8 @@ title: "Buttons"
             </mdcol>
         </row>
         <row style="margin-top: 10px">
-            <mdcol className="col-1"> <button size="sm" color="primary" outline="true">Primary</button> </mdcol>
-            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true" outline="true">Primary</button> </mdcol>
-            <mdcol className="col-1"> <button size="sm" color="primary" outline="true">Primary</button> </mdcol>
-            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true" outline="true">Primary</button> </mdcol>
-            <mdcol className="col-4"> <button color="primary" block="true" active="true">Primary</button> </mdcol>
+            <mdcol className="col-5"> <button size="sm" color="primary" outline="true">Primary</button> <button size="sm" color="primary" disabled="true" outline="true">Primary</button> <button size="sm" color="primary" outline="true">Primary</button> <button size="sm" color="primary" disabled="true" outline="true">Primary</button></mdcol>
+            <mdcol className="col-3"> <button color="primary" block="true" active="true">Primary</button> </mdcol>
             <mdcol className="col-4">
                 <buttongroup>
                     <button color="primary" disabled="true">Left</button>
@@ -82,8 +70,8 @@ title: "Buttons"
             </mdcol>
         </row>
         <row style="margin-top: 10px">
-            <mdcol className="col-4"></mdcol>
-            <mdcol className="col-4"> <button color="primary" block="true" disabled="true" outline="true">Primary</button> </mdcol>
+            <mdcol className="col-5"></mdcol>
+            <mdcol className="col-3"> <button color="primary" block="true" disabled="true" outline="true">Primary</button> </mdcol>
             <mdcol className="col-4">
                 <buttongroup>
                     <button color="primary">Left</button>
@@ -96,10 +84,7 @@ title: "Buttons"
             <mdcol className="col-4"><h5>Dropdown Buttons</h5> </mdcol>
         </row>
         <row style="margin-top: 10px">
-            <mdcol className="col-1"><mdbuttondropdown color="primary"></mdbuttondropdown></mdcol>
-            <mdcol className="col-1"><mdbuttondropdown color="secondary"></mdbuttondropdown></mdcol>
-            <mdcol className="col-1"><mdbuttondropdown color="primary" disabled="true"></mdbuttondropdown></mdcol>
-            <mdcol className="col-1"><mdbuttondropdown color="secondary" disabled="true"></mdbuttondropdown></mdcol>
+            <mdcol className="col-12"><mdbuttondropdown color="primary"></mdbuttondropdown> <mdbuttondropdown color="secondary"></mdbuttondropdown> <mdbuttondropdown color="primary" disabled="true"></mdbuttondropdown> <mdbuttondropdown color="secondary" disabled="true"></mdbuttondropdown></mdcol>
         </row>
     </mdcol>
 </container>
@@ -153,25 +138,30 @@ Primary buttons use the primary colour, with white text. Sizing of the button de
 
 Each of the states for primary buttons are as follows:
 
-<button color="primary">Primary</button>
-
-<codeblock html='<button type="button" class="btn btn-primary">Primary</button>' react='<Button color="primary">Primary</Button>'></codeblock>
-
 **Regular state:** primary colour at 100% opacity, white text, with a border radius of 4px and padding of 15px.
 
-*Hover button component here*
+<button color="primary">Regular</button>
+<codeblock html='<button type="button" class="btn btn-primary">Primary</button>' react='<Button color="primary">Primary</Button>'></codeblock>
 
 **Hover state:** primary colour at 80% opacity, white text, with a border radius of 4px and padding of 15px.
 
-*Hover button component here*
+<button color="primary" style="color: #fff; background-color: #245e83; border-color: #215679">Hover</button>
 
 **Focus state:** primary colour at 80% opacity, white text, with a border radius of 4px and padding of 15px. Includes a 3px stroke in the primary colour.
 
+
 <button color="primary" disabled="true">Primary</button>
 
-<codeblock html='<button type="button" class="btn btn-primary" disabled>Primary</button>' react='<Button color="primary" disabled>Primary</Button>'></codeblock>
+<button color="primary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;">Focus</button>
+
+<button color="primary" style="color: #fff; background-color: #215679; border-color: #1e4f6f;box-shadow: 0 0 0 0.2rem rgba(44, 115, 161, 0.25), inset 0 3px 5px rgba(0, 0, 0, 0.125);">Active</button>
 
 **Disabled state:** primary colour at 60% opacity, white text, with a border radius of 4px and padding of 15px.
+
+<button color="primary" disabled="true">Disabled</button>
+<codeblock html='
+    <button type="button" class="btn btn-primary" disabled>Disabled</button>
+' react=''></codeblock>
 
 ### Position
 
@@ -189,26 +179,25 @@ Secondary buttons in this system are transparent with a stroke colour. Text chan
 
 Each of the states for secondary buttons are as follows:
 
-<button color="secondary">Secondary</button>
-
+<button color="secondary">Regular</button>
 
 <codeblock html='<button type="button" class="btn btn-secondary">Secondary</button>' react='<Button color="secondary">Secondary</Button>'></codeblock>
 
-**Regular state:** transparent with a 1px stroke using the  colour <badge style="background-color: #002D42;">#002D42</badge>, the text is written in the same colour. Border radius of 4px and padding of 15px.
+**Regular state:** transparent with a 1px stroke using the  colour <badge style="background-color: #0ba7b4;">#0ba7b4</badge>, the text is written in the same colour. Border radius of 4px and padding of 15px.
 
-*Hover secondary button component*
+**Hover state:** rectangle coloured with <badge style="background-color: #098690;">#098690</badge> at 80% opacity, the text is displayed in white. Border radius of 4px and padding of 15px.
 
-**Hover state:** rectangle coloured with <badge style="background-color: #002D42;">#002D42</badge> at 80% opacity, the text is displayed in white. Border radius of 4px and padding of 15px.
+<button color="secondary" style="color: #fff; background-color: #098690; border-color: #087a84">Hover</button>
 
-*Focus secondary button component*
+**Focus state:** transparent with a 3px stroke using <badge style="background-color: #0ba7b4;">#0ba7b4</badge>, the text is displayed in <badge style="background-color: #fff; color: black;">#fff</badge>. Border radius of 4px and padding of 15px.
 
-**Focus state:** transparent with a 3px stroke using <badge style="background-color: #002D42;">#002D42</badge>, the text is displayed in <badge style="background-color: #002D42;">#002D42</badge>. Border radius of 4px and padding of 15px.
-
-<button color="secondary" disabled="true">Secondary</button>
-
-<codeblock html='<button type="button" class="btn btn-secondary" disabled>Secondary</button>' react='<Button color="secondary" disabled>Secondary</Button>'></codeblock>
+<button color="secondary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;">Focus</button>
 
 **Disabled state:** Fill colour of <badge style="background-color: #CECECE;color:black;">#CECECE</badge>, with white text. Border radius of 4px and padding of 15px.
+
+<button color="secondary" disabled="true">Disabled</button>
+
+<codeblock html='<button type="button" class="btn btn-secondary" disabled>Secondary</button>' react='<Button color="secondary" disabled>Secondary</Button>'></codeblock>
 
 ### Position
 

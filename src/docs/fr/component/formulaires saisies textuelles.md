@@ -46,7 +46,7 @@ Les champs de texte sont conçus comme suit :
 ' react='
 ' />
 
-Normal : un rectangle ayant une hauteur de 42px et une bordure de 4px. Un trait d’une largeur de 1px avec la couleur #CCCCCC. Il y a 10px de remplissage entre le champ et l’étiquette. Le champ de saisie a un remplissage de 15px par 12px.
+Normal : un rectangle ayant une hauteur de 42px et une bordure de 4px. Un trait d’une largeur de 1px avec la couleur <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. Il y a 10px de remplissage entre le champ et l’étiquette. Le champ de saisie a un remplissage de 15px par 12px.
 
 <label for="exampleInputEmail2">Structure de l’étiquette</label>
 <input type="email" class="form-control" id="exampleInputEmail2"
@@ -63,7 +63,7 @@ Normal : un rectangle ayant une hauteur de 42px et une bordure de 4px. Un trait 
 ' react='
 ' />
 
-Accent : un rectangle ayant une hauteur de 42px et une bordure de 4px. Un trait d’une largeur de 1px #269ABC. Il y a 10px de remplissage entre le champ et l’étiquette. Le champ de saisie a un remplissage de 15px par 12px.
+Accent : un rectangle ayant une hauteur de 42px et une bordure de 4px. Un trait d’une largeur de 1px <badge style="background-color: #269ABC;color:black;">#269ABC</badge>. Il y a 10px de remplissage entre le champ et l’étiquette. Le champ de saisie a un remplissage de 15px par 12px.
 
 ## Champ sélectionné
 
@@ -93,8 +93,8 @@ Les champs sélectionnés sont conçus comme suit :
     </div>
 ' react='' />
 
-Normal : un rectangle ayant une hauteur de 42px et une bordure de 4px. Un trait d’une largeur de 1px avec la couleur #CCCCCC. Le contrôle du menu déroulant est aligné à droite, 27px à partir du bord de la saisie. La ligne au bord est de 1px de couleur #CCCCCC et s’étend jusqu’à 5px à partir du haut vers le bas de la saisie. De 15 par 27 par 15 par 12. L’icône de chevron est alignée avec le texte et est de 9px à partir du bord gauche et de 18px de haut en bas.
+Normal : un rectangle ayant une hauteur de 42px et une bordure de 4px. Un trait d’une largeur de 1px avec la couleur <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. Le contrôle du menu déroulant est aligné à droite, 27px à partir du bord de la saisie. La ligne au bord est de 1px de couleur <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge> et s’étend jusqu’à 5px à partir du haut vers le bas de la saisie. De 15 par 27 par 15 par 12. L’icône de chevron est alignée avec le texte et est de 9px à partir du bord gauche et de 18px de haut en bas.
 
 *Élément de champ sélectionné d’accent*
 
-Accent : un rectangle ayant une hauteur de 42px et une bordure de 4px. Un trait d’une largeur de 1px avec la couleur #269ABC. Le contrôle du menu déroulant est aligné à droite, 27px à partir du bord de la saisie. La ligne au bord est de 1px de couleur #CCCCCC et s’étend jusqu’à 5px à partir du haut vers le bas de la saisie. De 15 par 27 par 15 par 12. L’icône de chevron est alignée avec le texte et est de 9px à partir du bord gauche et de 18px de haut en bas.
+Accent : un rectangle ayant une hauteur de 42px et une bordure de 4px. Un trait d’une largeur de 1px avec la couleur #269ABC. Le contrôle du menu déroulant est aligné à droite, 27px à partir du bord de la saisie. La ligne au bord est de 1px de couleur <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge> et s’étend jusqu’à 5px à partir du haut vers le bas de la saisie. De 15 par 27 par 15 par 12. L’icône de chevron est alignée avec le texte et est de 9px à partir du bord gauche et de 18px de haut en bas.
