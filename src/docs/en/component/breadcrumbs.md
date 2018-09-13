@@ -17,7 +17,7 @@ Breadcrumbs should be complimentary to primary navigation and should never be us
 
 Breadcrumbs in this design system are as follows:
 
-*Breadcrumbs component*
+![Breadcrumbs component](../../../img\components\breadcrumbs.png)
 
 <codeblock html='
     <nav aria-label="breadcrumb">

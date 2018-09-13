@@ -21,7 +21,7 @@ Do not rely only on colour, different shapes can be used for individual data poi
 
 #### Side Aligned Legend
 
-*Side-aligned legend component*
+![Side-aligned legend component](../../../img\components\side_aligned_legend_1.png)
 
 Side-aligned legends are styled as follows:
 
@@ -29,7 +29,7 @@ Card component, rectangle (white, <badge style="background-color: #FFFFFF;color:
 
 #### Bottom Aligned Legend
 
-*Bottom-aligned legend component*
+![Bottom-aligned legend component](../../../img\components\bottom_aligned_legend.png)
 
 Bottom-aligned legends are styled as follows:
 

@@ -112,7 +112,7 @@ Label text has high contrast with the button colour. See Colour for more informa
 
 ## Varying States
 
-<button color="primary">Primary</button> <button color="primary" style="color: #fff; background-color: #245e83; border-color: #215679">Primary</button> <button color="primary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;">Primary</button> <button color="primary" style="color: #fff; background-color: #215679; border-color: #1e4f6f;box-shadow: 0 0 0 0.2rem rgba(44, 115, 161, 0.25), inset 0 3px 5px rgba(0, 0, 0, 0.125);">Primary</button>
+![Image of different button states](../../../img\examples\button states.png)
 
 Buttons are not one-state objects. Most users will recognize a button because of its hover and active states. Varying states also provide feedback to the user at each stage of performing the action.
 
@@ -149,9 +149,10 @@ Each of the states for primary buttons are as follows:
 
 **Focus state:** primary colour at 80% opacity, white text, with a border radius of 4px and padding of 15px. Includes a 3px stroke in the primary colour.
 
-<button color="primary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;">Focus</button>
 
-**Active state:** _**\(to complete\)**_
+<button color="primary" disabled="true">Primary</button>
+
+<button color="primary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;">Focus</button>
 
 <button color="primary" style="color: #fff; background-color: #215679; border-color: #1e4f6f;box-shadow: 0 0 0 0.2rem rgba(44, 115, 161, 0.25), inset 0 3px 5px rgba(0, 0, 0, 0.125);">Active</button>
 

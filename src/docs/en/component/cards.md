@@ -17,8 +17,6 @@ Cards can make your web product more engaging. However, you should consider the 
 
 If multiple cards are placed on a page, they should be placed 16px apart on all sides.
 
-*Example image of cards used on a page*
-
 ### Components of a card
 
 Elements that can be used in a card are:
