@@ -57,13 +57,28 @@ On the x-axis, value labels should be centered to their corresponding tick mark.
 
 When possible, labels and values should avoid abbreviations unless it is a conventional data format. If spacing is a concern, it is recommended to skip labels in a way that makes sense for the data.
 
-Some data formats should always use abbreviations:
-
-| Days of the week | Mon, Tues, Wed, Thurs, Fri, Sat, Sun |
-| -----------------|:------------------------------------:|
-| Months | Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec |
-| 12-hour time | 1am, 2pm, 12pm etc. |
-| Standard money abbreviations | $1.2k, $3.4m, $6.2b, etc. |
+Some data formats should always use abbreviations:<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Days of the week</th>
+      <th scope="col">Mon, Tues, Wed, Thurs, Fri, Sat, Sun</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Months</td>
+      <td>Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec</td>
+    </tr>
+    <tr>
+      <td>12-hour time</td>
+      <td>1am, 2pm, 12pm etc.</td>
+    </tr>
+    <tr>
+      <td>Standard money abbreviations</td>
+      <td>$1.2k, $3.4m, $6.2b, etc.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Colours and Textures
 

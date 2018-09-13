@@ -17,6 +17,7 @@ Tables can be used to display both quantitative and qualitative data.
 
 Simple tables are the easiest way to display data and provide a clean look on your page. Simple tables are great for a small number of categories or values, but should include additional elements if increased readability or interactivity is required.
 
+Simple tables are styled as follows:
 <table class="table">
   <thead>
     <tr>
@@ -80,9 +81,6 @@ Simple tables are the easiest way to display data and provide a clean look on yo
         </tbody>
     </table> 
 ' react=''></codeblock>
-
-
-Simple tables are styled as follows:
 
 Title: Each table has a title that uses heading 3 (Rubik Medium at 24px with a 10pt tracking modifier). The table is placed 13px below the title. The table is the width of its container and the height depends on the data and how pagination is handled on the table.
 
