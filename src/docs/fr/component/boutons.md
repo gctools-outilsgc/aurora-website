@@ -189,7 +189,7 @@ Voici les caractéristiques de chacun des états pour les boutons :
 
 <codeblock html='<button type="button" class="btn btn-secondary" disabled>Secondaire</button>' react='<Button color="secondary" disabled>Secondaire</Button>'></codeblock>
 
-**État désactivé** : Remplissage de couleur #CECECE avec du texte blanc. La bordure est d’un rayon de 4px et le remplissage de 15px.
+**État désactivé** : Remplissage de couleur <badge style="background-color: #CECECE;color:black;">#CECECE</badge> avec du texte blanc. La bordure est d’un rayon de 4px et le remplissage de 15px.
 
 ## Emplacement
 Les boutons secondaires sont habituellement placés à proximité du bouton primaire, mais pas à un endroit où l’utilisateur peut confondre les deux. Les boutons secondaires sont habituellement placés à droite du bouton primaire. Ils devraient avoir un emplacement uniforme par rapport au bouton primaire afin d’éviter la confusion.
@@ -236,7 +236,7 @@ Cliquer sur les boutons de menu déroulant affiche une liste d’éléments. Ces
 
 *Élément de bouton de menu déroulant activé*
 
-**État activé** : Lorsqu’on presse sur la flèche du menu déroulant, cette section du bouton est affichée à 80 % d’opacité et un menu déroulant est affiché en dessous. La boîte d’action utilise une bordure de 1px de couleur #CECECE. La boîte a une bordure d’un rayon de 4px. La largeur de la boîte est de 166px et la hauteur dépend du nombre d’actions, utilisant 40px par action. Lorsque le curseur est placé dessus, le 40px autour de l’action est affiché en utilisant #CECECE.
+**État activé** : Lorsqu’on presse sur la flèche du menu déroulant, cette section du bouton est affichée à 80 % d’opacité et un menu déroulant est affiché en dessous. La boîte d’action utilise une bordure de 1px de couleur <badge style="background-color: #CECECE;color:black;">#CECECE</badge>. La boîte a une bordure d’un rayon de 4px. La largeur de la boîte est de 166px et la hauteur dépend du nombre d’actions, utilisant 40px par action. Lorsque le curseur est placé dessus, le 40px autour de l’action est affiché en utilisant <badge style="background-color: #CECECE;color:black;">#CECECE</badge>.
 
 ## Groupes de boutons
 Les groupes de boutons sont une façon stylisée de mettre plusieurs boutons ensemble.

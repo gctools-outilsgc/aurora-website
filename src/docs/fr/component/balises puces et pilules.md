@@ -78,11 +78,11 @@ Les puces sont de forme rectangulaire et ont un rayon de bordure de 4 px. Une im
 
 Les puces ont trois différentes variations et sont affichées comme suit :
 
-**Normal** : Case rectangulaire remplie avec ****CECECE. Texte noir. Petit avatar (26 px sur 26 px) aligné à gauche. 
+**Normal** : Case rectangulaire remplie avec ****<badge style="background-color: #CECECE; color: black">#CECECE</badge>. Texte noir. Petit avatar (26 px sur 26 px) aligné à gauche. 
 
 **Contrôle de l’utilisateur** : Même chose que normal, mais il y a un icône de suppression supplémentaire à droite. Cette icône a la couleur #4D5D6C ainsi qu’un « x » transparent et elle est alignée à droite. Petit avatar (26 px sur 26 px) aligné à gauche. 
 
-**Pointage** : Même chose que la puce contrôlée par l’utilisateur, mais a une couleur d’arrière-plan #4D5D6C, et l’icône de suppression est blanc et un « x » transparent y figure. Petit avatar (26 px sur 26px) aligné à gauche.
+**Pointage** : Même chose que la puce contrôlée par l’utilisateur, mais a une couleur d’arrière-plan <badge style="background-color: #4D5D6C">#4D5D6C</badge>, et l’icône de suppression est blanc et un « x » transparent y figure. Petit avatar (26 px sur 26px) aligné à gauche.
 
 ## Pilules
 
@@ -102,8 +102,8 @@ Les pilules sont semblables aux puces, mais ne sont pas nécessairement associé
 
 Les pilules ont trois variations qui sont stylisées comme suit :
 
-**Normal** : Case rectangulaire remplie en CECECE. Texte noir.
+**Normal** : Case rectangulaire remplie en <badge style="background-color: #CECECE; color: black">#CECECE</badge>. Texte noir.
 
-**Contrôle de l’utilisateur** : Même chose que le style « normal », mais il y a une icône de suppressions supplémentaire à droite. Cette icône a la couleur #4D5D6C, un « x » transparent y figure, et elle est alignée à droite.
+**Contrôle de l’utilisateur** : Même chose que le style « normal », mais il y a une icône de suppressions supplémentaire à droite. Cette icône a la couleur <badge style="background-color: #4D5D6C">#4D5D6C</badge>, un « x » transparent y figure, et elle est alignée à droite.
 
-**Pointage** : Même chose que le style « contrôle de l’utilisateur », mais a une couleur d’arrière-plan #4D5D6C, et l’icône de suppression est blanche, et un « x » transparent y figure.
+**Pointage** : Même chose que le style « contrôle de l’utilisateur », mais a une couleur d’arrière-plan <badge style="background-color: #4D5D6C">#4D5D6C</badge>, et l’icône de suppression est blanche, et un « x » transparent y figure.

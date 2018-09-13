@@ -29,7 +29,7 @@ const Template = ({
   }).Compiler;
   return (
     <Layout>
-          <div id="mobile-menu-holder" className="d-sm-block d-md-none d-lg-none d-xl-none bg-primary" style={{padding: '6px'}}>
+          <div id="mobile-menu-holder" className="d-sm-block d-md-none d-lg-none d-xl-none bg-primary" style={{padding: '6px', position: 'fixed', zIndex: '9999', top: '102px', width: '100%'}}>
             <Button color="primary" id="mobile-menu" className="mr-3">Menu</Button>
             <Search
               lng={(i18n.language === "en") ? "en" : "fr"}
@@ -44,11 +44,13 @@ const Template = ({
           <div className="d-none d-md-block">
             <Sidenav path={path} />
           </div>
-          <Container className="mt-2 doc-container">
+          <Container className="mt-4 mb-4 doc-container">
+            <main id="main-content" role="main">
             {(i18n.language === "en" || fr === null) ?
               <div className="col-sm">{renderAst(eng.htmlAst)}</div> :
               <div className="col-sm">{renderAst(fr.htmlAst)}</div>
             }
+            </main>
           </Container>
     </Layout>
   );

@@ -16,7 +16,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 const Header = ({ siteTitle, t, i18n }) => (
-  <div className="fixed-top bg-white shadow-sm">
+  <header className="fixed-top bg-white shadow-sm" role="banner">
   <div>
     <div style={{height:'50px', padding:'10px'}}>
       <img src={fip} alt="FIP"/>
@@ -34,10 +34,10 @@ const Header = ({ siteTitle, t, i18n }) => (
     </div>
   </div>
   <div>
-    <Navbar color="white" expand className="main-nav" style={{paddingBottom:'0'}}>
+    <Navbar color="white" expand className="main-nav" style={{paddingBottom:'0'}} aria-label="Main Navigation *Translate*" role="navigation">
       <Link to="/#!" className="text-dark logo">
         <img src={logo} alt="Logo" className="float-left" style={{width:'30px', margin:'5px'}} />
-        <span className="h2 d-none d-md-block float-left">
+        <span className="h2 d-none d-md-block float-left font-weight-normal">
           {' '}
           {siteTitle}{' '}
         </span>
@@ -82,7 +82,7 @@ const Header = ({ siteTitle, t, i18n }) => (
     </Navbar>
   </div>
 
-  </div>
+  </header>
 );
 
 Header.propTypes = {

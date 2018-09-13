@@ -29,6 +29,9 @@ const Layout = ({ children }) => (
             { name: 'keywords', content: 'sample, something' },
           ]}
         />
+        <div style={{position:'fixed', zIndex:'99999', top: '0', left: '45%'}}>
+          <a className="sr-only sr-only-focusable aurora-skip" href="#main-content">Skip to main content</a>
+        </div>
         <Header siteTitle={data.site.siteMetadata.title}/>
         <w-screen mt-4 fluid id = "container">{children}</w-screen>
       </>
