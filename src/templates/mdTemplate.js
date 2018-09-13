@@ -30,17 +30,18 @@ const Template = ({
   }).Compiler;
   return (
     <Layout>
-          <div id="mobile-menu-holder" className="d-sm-block d-md-none d-lg-none d-xl-none bg-primary" style={{padding: '6px', position: 'fixed', zIndex: '9999', top: '102px', width: '100%'}}>
-            <Button color="primary" id="mobile-menu" className="mr-3"><FontAwesomeIcon size="2x" icon={faBars} /><span className="sr-only">Menu</span></Button>
+          <div id="mobile-menu-holder" className="d-sm-block d-md-none d-lg-none d-xl-none bg-primary" style={{padding: '6px', position: 'fixed', zIndex: '9999', top: '100px', width: '100%'}}>
+            <Button color="primary" id="mobile-menu" className="mr-3 sidenavToggle"><FontAwesomeIcon size="2x" icon={faBars} /><span className="sr-only">Menu</span></Button>
             <Search
               lng={(i18n.language === "en") ? "en" : "fr"}
               placeholder={(i18n.language === "en") ? "Search" : "Chercher"}
             />
           </div>
-          <UncontrolledCollapse toggler="#mobile-menu">
+          <UncontrolledCollapse toggler=".sidenavToggle">
             <div className="mobile-sidebar">
               <Sidenav path={path} />
             </div>
+            <div className="ui-mask sidenavToggle"></div>
           </UncontrolledCollapse>
           <div className="d-none d-md-block">
             <Sidenav path={path} />
