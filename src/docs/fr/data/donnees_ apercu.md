@@ -50,11 +50,28 @@ Dans la mesure du possible, il faut éviter les abréviations pour les étiquett
 
 Il faut toujours utiliser des abréviations pour certains formats de données.
 
-|Jours de la semaine | lun, mar, mer, jeu, ven, sam, dim |
-| :--- | :--- |
-| Mois | janv, févr., mar, avr, mai, jun, juil, aoû, sept, oct, nov, déc |
-| Heures | 1 h, 14 h, 12 h, etc. |
-| Abréviations monétaires standard	| 1,2 K$, 3,4 M$, 6,2 G$, etc. |
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Days of the week</th>
+      <th scope="col">Mon, Tues, Wed, Thurs, Fri, Sat, Sun</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Months</td>
+      <td>Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec</td>
+    </tr>
+    <tr>
+      <td>12-hour time</td>
+      <td>1am, 2pm, 12pm etc.</td>
+    </tr>
+    <tr>
+      <td>Standard money abbreviations</td>
+      <td>$1.2k, $3.4m, $6.2b, etc.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Couleurs et textures
 Les graphiques et les visualisations devraient toujours comporter aussi peu de couleurs que possible. Si plusieurs couleurs sont requises, elles devraient être dans une palette complémentaire pour qu’elles se distinguent lorsqu’elles sont placées à proximité. Pour le choix de la couleur, il faut éviter le préjugé (p. ex., rouge ou vert), sauf s’il est spécifiquement lié aux données (une diminution ou une augmentation, par exemple). Toute couleur est acceptable pour une visualisation pourvu qu’elle réponde aux exigences de contraste.

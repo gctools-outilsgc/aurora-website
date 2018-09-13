@@ -57,7 +57,8 @@ On the x-axis, value labels should be centered to their corresponding tick mark.
 
 When possible, labels and values should avoid abbreviations unless it is a conventional data format. If spacing is a concern, it is recommended to skip labels in a way that makes sense for the data.
 
-Some data formats should always use abbreviations:<table class="table">
+Some data formats should always use abbreviations:
+<table class="table">
   <thead>
     <tr>
       <th scope="col">Days of the week</th>
