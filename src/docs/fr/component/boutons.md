@@ -11,85 +11,73 @@ title: "Boutons"
 <container style="width: 100%; margin-bottom: 20px">
     <mdcol>
         <row>
-            <mdcol className="col-4"><h5>Buttons</h5> </mdcol>
-            <mdcol className="col-4"><h5>Full width Buttons</h5> </mdcol>
+            <mdcol className="col-5"><h5>Buttons</h5> </mdcol>
+            <mdcol className="col-3"><h5>Full width Buttons</h5> </mdcol>
             <mdcol className="col-4"><h5>Button Groups</h5> </mdcol>
         </row>
         <row>
-            <mdcol className="col-1"> <button color="primary">Primaire</button> </mdcol>
-            <mdcol className="col-1"> <button color="secondary" outline="true">Secondaire</button> </mdcol>
-            <mdcol className="col-2"></mdcol>
-            <mdcol className="col-4"> <button color="primary" block="true">Primaire</button> </mdcol>
-            <mdcol className="col-4"> 
+            <mdcol className="col-5"> <button style="margin-top: 5px;" color="primary">Primaire</button> <button style="margin-top: 5px;" color="secondary" outline="true">Secondaire</button></mdcol>
+            <mdcol className="col-3"> <button style="margin-top: 5px;" color="primary" block="true">Primaire</button> </mdcol>
+            <mdcol className="col-4">
                 <buttongroup>
-                    <button color="primary">Gauche</button>
-                    <button color="primary">Centre</button>
-                    <button color="primary">Droite</button>
+                    <button style="margin-top: 5px;" color="primary">Gauche</button>
+                    <button style="margin-top: 5px;" color="primary">Centre</button>
+                    <button style="margin-top: 5px;" color="primary">Droite</button>
                 </buttongroup>
             </mdcol>
         </row>
         <row style="margin-top: 10px">
-            <mdcol className="col-1"> <button color="primary" active="true">Primaire</button> </mdcol>
-            <mdcol className="col-1"> <button color="secondary" outline="true" active="true">Secondaire</button> </mdcol>
-            <mdcol className="col-2"></mdcol>
-            <mdcol className="col-4"> <button color="primary" block="true" active="true">Primaire</button> </mdcol>
-            <mdcol className="col-4"> 
+            <mdcol className="col-5"> <button style="margin-top: 5px;" color="primary" active="true">Primaire</button> <button style="margin-top: 5px;" color="secondary" outline="true" active="true">Secondaire</button></mdcol>
+            <mdcol className="col-3"> <button style="margin-top: 5px;" color="primary" block="true" active="true">Primaire</button> </mdcol>
+            <mdcol className="col-4">
                 <buttongroup>
-                    <button color="secondary">Gauche</button>
-                    <button color="primary">Centre</button>
-                    <button color="primary">Droite</button>
+                    <button style="margin-top: 5px;" color="secondary">Gauche</button>
+                    <button style="margin-top: 5px;" color="primary">Centre</button>
+                    <button style="margin-top: 5px;" color="primary">Droite</button>
                 </buttongroup>
             </mdcol>
         </row>
         <row style="margin-top: 10px">
-            <mdcol className="col-1"> <button color="primary" disabled="true">Primaire</button> </mdcol>
-            <mdcol className="col-1"> <button color="secondary" outline="true" disabled="true">Secondaire</button> </mdcol>
-            <mdcol className="col-2"></mdcol>
-            <mdcol className="col-4"> <button color="primary" block="true" disabled="true">Primaire</button> </mdcol>
-            <mdcol className="col-4"> 
+            <mdcol className="col-5"> <button style="margin-top: 5px;" color="primary" disabled="true">Primaire</button> <button style="margin-top: 5px;" color="secondary" outline="true" disabled="true">Secondaire</button> </mdcol>
+            <mdcol className="col-3"> <button style="margin-top: 5px;" color="primary" block="true" disabled="true">Primaire</button> </mdcol>
+            <mdcol className="col-4">
                 <buttongroup>
-                    <button color="primary">Gauche</button>
-                    <button color="secondary">Centre</button>
-                    <button color="primary">Droite</button>
+                    <button style="margin-top: 5px;" color="primary">Gauche</button>
+                    <button style="margin-top: 5px;" color="secondary">Centre</button>
+                    <button style="margin-top: 5px;" color="primary">Droite</button>
                 </buttongroup>
             </mdcol>
         </row>
         <row style="margin-top: 10px">
-            <mdcol className="col-1"> <button size="sm" color="primary">Primaire</button> </mdcol>
-            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true">Primaire</button> </mdcol>
-            <mdcol className="col-1"> <button size="sm" color="primary">Primaire</button> </mdcol>
-            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true">Primaire</button> </mdcol>
-            <mdcol className="col-4"> <button color="primary" block="true" outline="true">Primaire</button> </mdcol>
-            <mdcol className="col-4"> 
+            <mdcol className="col-5"> <button style="margin-top: 5px;" size="sm" style="margin-top:" color="primary">Primaire</button> <button style="margin-top: 5px;" size="sm" style="margin-top:" color="primary" disabled="true">Primaire</button> <button style="margin-top: 5px;" size="sm" style="margin-top:" color="primary">Primaire</button> <button style="margin-top: 5px;" size="sm" style="margin-top:" color="primary" disabled="true">Primaire</button>  </mdcol>
+            <mdcol className="col-3"><button style="margin-top: 5px;" color="primary" block="true" outline="true">Primaire</button></mdcol>
+            <mdcol className="col-4">
                 <buttongroup>
-                    <button color="primary">Gauche</button>
-                    <button color="primary">Centre</button>
-                    <button color="secondary">Droite</button>
+                    <button style="margin-top: 5px;" color="primary">Gauche</button>
+                    <button style="margin-top: 5px;" color="primary">Centre</button>
+                    <button style="margin-top: 5px;" color="secondary">Droite</button>
                 </buttongroup>
             </mdcol>
         </row>
         <row style="margin-top: 10px">
-            <mdcol className="col-1"> <button size="sm" color="primary" outline="true">Primaire</button> </mdcol>
-            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true" outline="true">Primaire</button> </mdcol>
-            <mdcol className="col-1"> <button size="sm" color="primary" outline="true">Primaire</button> </mdcol>
-            <mdcol className="col-1"> <button size="sm" color="primary" disabled="true" outline="true">Primaire</button> </mdcol>
-            <mdcol className="col-4"> <button color="primary" block="true" active="true">Primaire</button> </mdcol>
-            <mdcol className="col-4"> 
+            <mdcol className="col-5"> <button style="margin-top: 5px;" size="sm" style="margin-top:" color="primary" outline="true">Primaire</button> <button style="margin-top: 5px;" size="sm" style="margin-top:" color="primary" disabled="true" outline="true">Primaire</button> <button style="margin-top: 5px;" size="sm" style="margin-top:" color="primary" outline="true">Primaire</button> <button style="margin-top: 5px;" size="sm" style="margin-top:" color="primary" disabled="true" outline="true">Primaire</button></mdcol>
+            <mdcol className="col-3"> <button style="margin-top: 5px;" color="primary" block="true" active="true">Primaire</button> </mdcol>
+            <mdcol className="col-4">
                 <buttongroup>
-                    <button color="primary" disabled="true">Gauche</button>
-                    <button color="primary">Centre</button>
-                    <button color="primary" disabled="true">Droite</button>
+                    <button style="margin-top: 5px;" color="primary" disabled="true">Gauche</button>
+                    <button style="margin-top: 5px;" color="primary">Centre</button>
+                    <button style="margin-top: 5px;" color="primary" disabled="true">Droite</button>
                 </buttongroup>
             </mdcol>
         </row>
         <row style="margin-top: 10px">
-            <mdcol className="col-4"></mdcol>
-            <mdcol className="col-4"> <button color="primary" block="true" disabled="true" outline="true">Primaire</button> </mdcol>
-            <mdcol className="col-4"> 
+            <mdcol className="col-5"></mdcol>
+            <mdcol className="col-3"> <button style="margin-top: 5px;" color="primary" block="true" disabled="true" outline="true">Primaire</button> </mdcol>
+            <mdcol className="col-4">
                 <buttongroup>
-                    <button color="primary">Gauche</button>
-                    <button color="primary" disabled="true">Centre</button>
-                    <button color="primary">Droite</button>
+                    <button style="margin-top: 5px;" color="primary">Gauche</button>
+                    <button style="margin-top: 5px;" color="primary" disabled="true">Centre</button>
+                    <button style="margin-top: 5px;" color="primary">Droite</button>
                 </buttongroup>
             </mdcol>
         </row>
@@ -97,11 +85,8 @@ title: "Boutons"
             <mdcol className="col-4"><h5>Dropdown Buttons</h5> </mdcol>
         </row>
         <row style="margin-top: 10px">
-            <mdcol className="col-1"><mdbuttondropdown color="primary"></mdbuttondropdown></mdcol>
-            <mdcol className="col-1"><mdbuttondropdown color="secondary"></mdbuttondropdown></mdcol>
-            <mdcol className="col-1"><mdbuttondropdown color="primary" disabled="true"></mdbuttondropdown></mdcol>
-            <mdcol className="col-1"><mdbuttondropdown color="secondary" disabled="true"></mdbuttondropdown></mdcol>
-        </row> 
+            <mdcol className="col-12"><mdbuttondropdown color="primary"></mdbuttondropdown> <mdbuttondropdown color="secondary"></mdbuttondropdown> <mdbuttondropdown color="primary" disabled="true"></mdbuttondropdown> <mdbuttondropdown color="secondary" disabled="true"></mdbuttondropdown></mdcol>
+        </row>
     </mdcol>
 </container>
 
@@ -147,23 +132,23 @@ Les boutons primaires utilisent les couleurs primaires avec du texte blanc. Les 
 
 Voici les caractéristiques de chacun des états pour les boutons primaires :
 
-<button color="primary">Primaire</button>
+<button style="margin-top: 5px;" color="primary">Normal</button>
 
-<codeblock html='<button type="button" class="btn btn-primary">Primaire</button>' react='<Button color="primary">Primaire</Button>'></codeblock>
+<codeblock html='<button type="button" class="btn btn-primary">Normal</button>' react='<Button color="primary">Normal</Button>'></codeblock>
 
 **État normal** : Couleur primaire à 100 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px.
 
-*Élément de bouton sensitif*
+<button color="primary" style="color: #fff; background-color: #245e83; border-color: #215679">Stationnaire</button>
 
 **État stationnaire** : Couleur primaire à 80 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px.
 
-*Élément de bouton accentué*
+<button color="primary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;">Accentué</button>
 
 **État accentué** : Couleur primaire à 80 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px. Comprends un trait de 3px dans une couleur primaire.
 
-<button color="primary" disabled="true">Primaire</button>
+<button color="primary" disabled="true">Désactivé</button>
 
-<codeblock html='<button type="button" class="btn btn-primary" disabled>Primaire</button>' react='<Button color="primary" disabled>Primaire</Button>'></codeblock>
+<codeblock html='<button type="button" class="btn btn-primary" disabled>Primaire</button>' react='<Button color="primary" disabled>Désactivé</Button>'></codeblock>
 
 **État désactivé** : Couleur primaire à 60 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px.
 
@@ -188,11 +173,15 @@ Voici les caractéristiques de chacun des états pour les boutons :
 
 **État normal** : Transparent avec un trait de 1px utilisant la couleur no002D42, le texte est écrit dans la même couleur. La bordure est d’un rayon de 4px et le remplissage de 15px.
 
-*Élément de bouton secondaire stationnaire*
+<button color="secondary" style="color: #fff; background-color: #098690; border-color: #087a84">Stationnaire</button>
+
+**État stationnaire** : (still needed)
+
+<button color="secondary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;">Sensitif</button>
 
 **État sensitif** : Un rectangle coloré avec no002D42 à 80 % d’opacité, le texte est écrit en blanc. La bordure est d’un rayon de 4px et le remplissage de 15px.
 
-*Élément de bouton secondaire accentué*
+<button color="secondary" style="color: #fff; background-color: #087a84; border-color: #1e4f6f;box-shadow: 0 0 0 0.2rem rgba(44, 115, 161, 0.25), inset 0 3px 5px rgba(0, 0, 0, 0.125);">Accentué</button>
 
 **État accentué** : Transparent avec un trait de 3px utilisant no002D42, le texte est écrit en no002D42. La bordure est d’un rayon de 4px et le remplissage de 15px.
 
