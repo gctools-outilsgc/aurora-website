@@ -5,6 +5,10 @@ lang: "en"
 title: "Colour"
 ---
 
+<helmet>
+<title> Colour - Aurora Design System </title>
+</helmet>
+
 # Colour
 
 ## Palettes

@@ -5,6 +5,10 @@ lang: "fr"
 title: "Les légendes et infobulles"
 ---
 
+<helmet>
+<title> Légendes et infobulles - Système de conception Aurora </title>
+</helmet>
+
 # Les légendes et infobulles
 
 En général, les légendes et les infobulles ne devraient être utilisées sur des ensembles de données que si c’est absolument nécessaire. Si suffisamment de contexte peut être fourni directement sur la carte ou le graphique sans masquer les données ou ajouter une quantité importante d’encombrement visuel, une légende ou une infobulle n’est pas nécessaire.

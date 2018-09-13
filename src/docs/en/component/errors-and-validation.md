@@ -5,6 +5,10 @@ lang: "en"
 title: "Errors and validation"
 ---
 
+<helmet>
+<title> Errors and Validation - Aurora Design System </title>
+</helmet>
+
 # Errors and Validation
 
 ## Input Errors

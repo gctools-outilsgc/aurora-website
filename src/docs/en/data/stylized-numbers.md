@@ -5,6 +5,9 @@ lang: "en"
 title: "Stylized numbers"
 ---
 
+<helmet>
+<title> Stylized Numbers - Aurora Design System </title>
+</helmet>
 
 # Stylized Numbers
 

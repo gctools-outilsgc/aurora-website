@@ -5,6 +5,10 @@ lang: "en"
 title: "Glossary"
 ---
 
+<helmet>
+<title> Glossary - Aurora Design System </title>
+</helmet>
+
 # Glossary
 
 ## Accessibility

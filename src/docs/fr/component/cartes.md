@@ -5,6 +5,9 @@ lang: "fr"
 title: "Cartes"
 ---
 
+<helmet>
+<title> Cartes - Système de conception Aurora </title>
+</helmet>
 
 # Cartes
 
@@ -143,7 +146,7 @@ Les cartes peuvent techniquement comprendre un certain nombre de combinaisons d�
         <p class="text-muted">Titre du poste ou méta-information</p>
         <button type="button" class="btn btn-primary">Appel à l’action</button>
         </div>
-        
+
     </div>
 </div>
 

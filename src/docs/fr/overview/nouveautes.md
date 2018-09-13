@@ -5,6 +5,10 @@ lang: "fr"
 title: "Nouveautés"
 ---
 
+<helmet>
+<title> Nouveautés - Système de conception Aurora </title>
+</helmet>
+
 # Nouveautés
 
 Dernières mises à jour au système de conception \#numériqueGC.

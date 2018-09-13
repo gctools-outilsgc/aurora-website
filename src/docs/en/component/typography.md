@@ -4,6 +4,9 @@ subnav: "1/Visuals/Visuels/3"
 lang: "en"
 title: "Typography"
 ---
+<helmet>
+<title> Typography - Aurora Design System </title>
+</helmet>
 
 # Typography
 
@@ -36,7 +39,7 @@ Some systems may not be able to download or display the fonts in this design sys
 
 <h1>Heading 1</h1>
 
-<codeblock html='<h1>Heading 1</h1>' 
+<codeblock html='<h1>Heading 1</h1>'
     react='<h1>Heading 1</h1>'>
 </codeblock>
 
@@ -62,7 +65,7 @@ Titles are displayed using Rubik Light at 36 points  in the colour <badge style=
         <h4>Heading 4</h4>
         <h5>Heading 5</h5>
         <h6>Heading 6</h6>
-    </div>' 
+    </div>'
     react='
     <div>
         <h2>Heading 2</h2>
@@ -143,7 +146,7 @@ There are three different types of lists:
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
-    </ul>' 
+    </ul>'
     react=''>
 </codeblock>
 
@@ -160,7 +163,7 @@ There are three different types of lists:
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
-    </ol>' 
+    </ol>'
     react=''>
 </codeblock>
 
@@ -177,7 +180,7 @@ There are three different types of lists:
         <li><a href="#">Item 1</a></li>
         <li><a href="#">Item 2</a></li>
         <li><a href="#">Item 3</a></li>
-    </ul>' 
+    </ul>'
     react=''>
 </codeblock>
 
@@ -196,7 +199,7 @@ Visited links should be indicated by a different colour. Typically, a best pract
 <codeblock html='
     <div style="margin: 0 auto">
         <p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> You may want to see the <a href="#">top of this page.</a></p>
-    </div>' 
+    </div>'
     react=''>
 </codeblock>
 
@@ -224,7 +227,7 @@ Timestamps and placeholder text use the same typographic styles. Both use Nunito
 
 <codeblock html='
     <p style="font-size: 14px; color: #666666">September 6th, 2018. 1:40 pm</p>
-    <p style="font-size: 14px; color: #666666">December 20th, 2015. 6:45 am</p>' 
+    <p style="font-size: 14px; color: #666666">December 20th, 2015. 6:45 am</p>'
     react=''>
 </codeblock>
 

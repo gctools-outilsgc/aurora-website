@@ -5,6 +5,10 @@ lang: "fr"
 title: "Icônes"
 ---
 
+<helmet>
+<title> Icônes - Système de conception Aurora </title>
+</helmet>
+
 # Icônes
 <helmet>
     <meta name="viewport" content="width=device-width, initial-scale=1">

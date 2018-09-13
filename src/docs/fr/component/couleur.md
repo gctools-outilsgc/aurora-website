@@ -5,6 +5,10 @@ lang: "fr"
 title: "Couleur"
 ---
 
+<helmet>
+<title> Couleur - Système de conception Aurora </title>
+</helmet>
+
 # Couleur
 ## Palettes
 
@@ -106,7 +110,7 @@ Ce système de conception utilise les mêmes couleurs d’alertes et de messager
 
 Veuillez vous référer à la section des alertes et à la section de couleur pour de plus amples renseignements.
 
-*Couleurs d’erreur* 
+*Couleurs d’erreur*
 
 Les couleurs d’erreur sont utilisées pour indiquer les pannes et les défaillances.
 
@@ -153,4 +157,3 @@ Codes hexadécimaux d’information :
 •    <badge style="background-color: #269ABC">#269ABC</badge>
 
 •    <badge style="background-color: #D7FAFF; color: black">#D7FAFF</badge>
-

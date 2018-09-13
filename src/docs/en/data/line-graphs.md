@@ -5,6 +5,10 @@ lang: "en"
 title: "Line graphs"
 ---
 
+<helmet>
+<title> Line Graphs - Aurora Design System </title>
+</helmet>
+
 # Line Graphs
 
 ## Timeline

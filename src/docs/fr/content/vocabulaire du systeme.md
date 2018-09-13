@@ -5,6 +5,10 @@ lang: "fr"
 title: "Vocabulaire du système"
 ---
 
+<helmet>
+<title> Vocabulair du système - Système de conception Aurora </title>
+</helmet>
+
 # Vocabulaire du système
 ## Mots couramment utilisés
 **Plateau d’applications** : n.) Tiroir contenant toutes les applications de la suite situé dans la barre de navigation générale.

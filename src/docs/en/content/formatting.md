@@ -5,6 +5,10 @@ lang: "en"
 title: "Formatting"
 ---
 
+<helmet>
+<title> Content Formatting - Aurora Design System </title>
+</helmet>
+
 # Content Formatting
 
 ## Capitalization

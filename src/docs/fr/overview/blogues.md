@@ -5,6 +5,10 @@ lang: "fr"
 title: "Blogues"
 ---
 
+<helmet>
+<title> Blogues - Système de conception Aurora </title>
+</helmet>
+
 # Les sept leçons que j’ai tirées en dirigeant un projet de conception
 
 En novembre, deux développeurs et moi avons commencé à travailler sur un système de conception d’applications de collaboration numérique du gouvernement du Canada afin d’orienter la conception de la prochaine version des OutilsGC. Après de nombreuses révélations soudaines et journées de planification, nous avons élaboré une stratégie et un plan de travail solides qui nous permettront de concevoir quelque chose d’intéressant.

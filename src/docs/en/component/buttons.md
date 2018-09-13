@@ -4,6 +4,9 @@ subnav: "2/Standard/Standard/3"
 lang: "en"
 title: "Buttons"
 ---
+<helmet>
+<title> Buttons - Aurora Design System </title>
+</helmet>
 
 # Buttons
 

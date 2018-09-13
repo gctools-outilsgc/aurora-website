@@ -5,6 +5,10 @@ lang: "fr"
 title: "Téléversement des fichiers"
 ---
 
+<helmet>
+<title> Téléversement des fichiers - Système de conception Aurora </title>
+</helmet>
+
 # Téléversement des fichiers
 
 Les saisies de téléversement de fichiers sont une combinaison d’un bouton et d’un champ de saisie. Elles sont incluses dans les formulaires sur lesquels l’utilisateur a la possibilité d’inclure des fichiers.

@@ -4,13 +4,18 @@ subnav: "1/Visuals/Visuels/3"
 lang: "fr"
 title: "Typographie"
 ---
+
+<helmet>
+<title> Typographie - Système de conception Aurora </title>
+</helmet>
+
 # Typographie
 
 ## Polices
 
 La Division de la collaboration numérique (DCN) utilise deux familles de polices pour tous les produits numériques : « Rubik » et « Nunito Sans ». « Rubik » et « Nunito Sans » sont des polices de source ouverte et peuvent être téléchargés gratuitement à partir de [Google Fonts](https://fonts.google.com/)
 
-[Rubik](https://fonts.google.com/specimen/Rubik) est utilisé pour les titres et les en-têtes, tandis que [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) est utilisé pour le texte des sous-en-têtes, des boutons et des paragraphes. 
+[Rubik](https://fonts.google.com/specimen/Rubik) est utilisé pour les titres et les en-têtes, tandis que [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) est utilisé pour le texte des sous-en-têtes, des boutons et des paragraphes.
 
 **Rubik**
 ![Rubik Font](../../../img/examples/Rubik_image.PNG)
@@ -25,7 +30,7 @@ Si vous choisissez d’utiliser des polices autres que celles énumérées ici, 
 
 Certains systèmes peuvent ne pas être en mesure de télécharger ou d’afficher les polices dans ce système de conception. Cela peut être attribuable à diverses raisons, y compris les restrictions relatives aux pare-feu, les paramètres d’accessibilité, etc. Dans ce cas, votre application devrait être configurée pour utiliser la police par défaut du navigateur.
 
-### À propos des styles de caractère 
+### À propos des styles de caractère
 
 **Rubik** est une police sans serif conçue par Philipp Hubert et Sebastian Fischer pour le projet de laboratoire Chrome Cube. Avec cinq poids différents, Rubik fonctionne bien comme une police de paragraphe ou d’affichage. Rubik est populaire à l’échelle internationale et est utilisé dans plus de 180 000 sites Web.
 
@@ -35,11 +40,11 @@ Certains systèmes peuvent ne pas être en mesure de télécharger ou d’affich
 
 <h1>En-tête 1</h1>
 
-<codeblock html='<h1>En-tête 1</h1>' 
+<codeblock html='<h1>En-tête 1</h1>'
     react='<h1>En-tête 1</h1>'>
 </codeblock>
 
-Les titres apparaissent seulement dans le haut des pages et indiquent les points de navigation de haut niveau. 
+Les titres apparaissent seulement dans le haut des pages et indiquent les points de navigation de haut niveau.
 
 Les titres sont affichés à l’aide de « Rubik Light » à 36 points de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou #FFFFFF sur un arrière-plan foncé.
 
@@ -60,7 +65,7 @@ Les titres sont affichés à l’aide de « Rubik Light » à 36 points de coule
         <h4>En-tête 4</h4>
         <h5>En-tête 5</h5>
         <h6>En-tête 6</h6>
-    </div>' 
+    </div>'
     react='
     <div>
         <h2>En-tête 2</h2>
@@ -137,7 +142,7 @@ Il existe trois différents types de listes :
         <li>Point 1</li>
         <li>Point 2</li>
         <li>Point 3</li>
-    </ul>' 
+    </ul>'
     react=''>
 </codeblock>
 
@@ -154,7 +159,7 @@ Il existe trois différents types de listes :
         <li>Point 1</li>
         <li>Point 2</li>
         <li>Point 3</li>
-    </ol>' 
+    </ol>'
     react=''>
 </codeblock>
 
@@ -171,7 +176,7 @@ Il existe trois différents types de listes :
         <li><a href="#">Point 1</a></li>
         <li><a href="#">Point 2</a></li>
         <li><a href="#">Point 3</a></li>
-    </ul>' 
+    </ul>'
     react=''>
 </codeblock>
 
@@ -190,7 +195,7 @@ Les liens visités doivent être indiqués par une couleur différente. Habituel
 <codeblock html='
     <div style="margin: 0 auto">
         <p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> Vous voudriez peut-être voir <a href="#">le haut de cette page.</a></p>
-    </div>' 
+    </div>'
     react=''>
 </codeblock>
 
@@ -211,7 +216,7 @@ Les horodateurs et le texte d’espace réservé ont les mêmes styles typograph
 
 <codeblock html='
     <p style="font-size: 14px; color: #666666">Le 6 septembre 2018, 13 h 40</p>
-    <p style="font-size: 14px; color: #666666">Le 20 décembre 2015, 6 h 45</p>' 
+    <p style="font-size: 14px; color: #666666">Le 20 décembre 2015, 6 h 45</p>'
     react=''>
 </codeblock>
 

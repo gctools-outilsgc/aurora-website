@@ -5,6 +5,9 @@ lang: "fr"
 title: "Boutons"
 ---
 
+<helmet>
+<title> Boutons - Système de conception Aurora </title>
+</helmet>
 
 # Boutons
 

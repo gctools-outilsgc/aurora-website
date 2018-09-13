@@ -5,6 +5,9 @@ lang: "en"
 title: "Choosing visualizations"
 ---
 
+<helmet>
+<title> Choosing Data Visualizations - Aurora Design System </title>
+</helmet>
 
 # Choosing Visualizations
 

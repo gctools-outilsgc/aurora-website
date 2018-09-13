@@ -5,6 +5,10 @@ lang: "fr"
 title: "Erreurs et validation"
 ---
 
+<helmet>
+<title> Erreurs et validation - Système de conception Aurora </title>
+</helmet>
+
 # Erreurs et validation
 
 ## Erreurs de saisie
