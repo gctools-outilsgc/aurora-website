@@ -11,18 +11,22 @@ import {
   Jumbotron
 } from 'reactstrap';
 import Layout from '../components/layout';
-import Img from "gatsby-image"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faDownload } from '@fortawesome/free-solid-svg-icons'
+import Img from "gatsby-image";
+import Helmet from 'react-helmet';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { translate } from "react-i18next";
 const IndexPage = ({ data, t, i18n }) => (
 
   <Layout>
+    <Helmet>
+      <title>{t("AuroraDesignSystem")}</title>
+    </Helmet>
     <main id="main-content" role="main">
       <div className="hero-holder">
       <Container>
-        <h1 className="display-5">Aurora Design System</h1>
+        <h1 className="display-5">{t("AuroraDesignSystem")}</h1>
         <p className="lead">
           {t("TopIntro")}
         </p>

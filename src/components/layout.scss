@@ -61,12 +61,15 @@
 @media (max-width: 768px) {
     .hero-holder {
         background-size: contain;
-        height: 645px;
+        height: 535px;
         background-position-x: 280px;
         background-position-y: 195px;
         background-repeat: no-repeat;
         .lead {
             max-width: 100%;
+        }
+        .container {
+          margin-top:20px;
         }
         padding: 0px;
     }
