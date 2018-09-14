@@ -59,7 +59,7 @@ Les balises représentent un ensemble de mots-clés générés par l’utilisate
 
 Les balises sont habituellement affichées près du titre du contenu, à proximité d’autres renseignements comme la date d’affichage, le nombre de « J’aime » et le nom de l’auteur.
 
-Les balises sont de forme rectangulaire et ont un rayon de bordure de 4 px. Le côté gauche de la balise est stylisé à l’aide d’un triangle et d’un cercle blanc. Les balises _(revoir ceci)_ utilisent les couleurs secondaires dans la palette choisie, et la couleur du texte sera soit noire soit blanche selon la couleur de la balise. Reportez-vous à la section de couleur pour obtenir de plus amples renseignements sur les couleurs de textes à utiliser.  
+Les balises sont de forme rectangulaire et ont un rayon de bordure de 4 px. Le côté gauche de la balise est stylisé à l’aide d’un triangle et d’un cercle blanc. Les balises utilisent les couleurs secondaires dans la palette choisie, et la couleur du texte sera soit noire soit blanche selon la couleur de la balise. Reportez-vous à la section de couleur pour obtenir de plus amples renseignements sur les couleurs de textes à utiliser.  
 
 Les balises peuvent également comprendre un bouton de suppression aligné à droite à côté du texte. Ce bouton est représenté par un cercle noir et blanc accompagné d’un « x » transparent.
 
@@ -82,7 +82,7 @@ Les puces sont de forme rectangulaire et ont un rayon de bordure de 4 px. Une im
 
 Les puces ont trois différentes variations et sont affichées comme suit :
 
-**Normal** : Case rectangulaire remplie avec ****<badge style="background-color: #CECECE; color: black">#CECECE</badge>. Texte noir. Petit avatar (26 px sur 26 px) aligné à gauche.
+**Normal** : Case rectangulaire remplie avec <badge style="background-color: #CECECE; color: black">#CECECE</badge>. Texte noir. Petit avatar (26 px sur 26 px) aligné à gauche.
 
 **Contrôle de l’utilisateur** : Même chose que normal, mais il y a un icône de suppression supplémentaire à droite. Cette icône a la couleur #4D5D6C ainsi qu’un « x » transparent et elle est alignée à droite. Petit avatar (26 px sur 26 px) aligné à gauche.
 

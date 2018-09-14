@@ -40,3 +40,20 @@ Units of measurement in this system will always use the metric system.
 ## Ampersands
 
 System messaging and text will never use ampersands. Instead, spell out the word "and".
+
+## Commas, Ellipses, Colons
+This system does not use the Oxford comma. Commas should only be used when they improve the flow and clarity of the sentence.
+Generally ellipses should be avoided as they imply uncertainty. Only use an ellipses to show omitted text.
+
+Colons in this system are used to introduce lists.
+
+Typically, dashes should be avoided. It is better to break the complex sentence into two sentences.  
+
+## Slashes and Hyphens
+Slash marks are used to show alternatives (and/or etc.). When joining conflicting elements, use a hyphen (designer-writer).
+
+## Bold and Italics
+Bold can be used to show emphasis. In this system, bold in favoured for certain header types (see headers). Italics should be avoided as they are not easy to read for all users.
+
+## Quotation Marks
+Quotation marks are used around direct quotes. Quotation marks can also be used to show that a word is being used ironically, however this should only happen within body text, and never functional text and labels.

@@ -101,15 +101,28 @@ title: "Vocabulaire du système"
 Les appels à l’action doivent toujours être placés à proximité de leur sujet connexe. L’utilisateur doit cliquer sur le bouton ou le lien du contexte et de la langue utilisés afin de savoir quelle action sera accomplie.
 
 ### Appel à l’action commun :
-*	Nous joindre – Dirige l’utilisateur vers une page contenant les renseignements nécessaires pour joindre votre équipe. Ces renseignements sont notamment le courriel, le numéro de téléphone ou un lien vers le service de dépannage.
-*	Faites-nous part de vos commentaires – Ouvre une page ou une fenêtre où l’utilisateur peut saisir de l’information au sujet de l’application ou de la fonctionnalité connexe.
-*	Créer un groupe – Dirige l’utilisateur vers une page où il peut créer un nouveau groupe dans l’application.
-*	Joindre le groupe – Ajoute un utilisateur à la liste des membres du groupe.
-*	Inviter à joindre le groupe – Ouvre une page ou une fenêtre où un utilisateur peut saisir l’information d’un autre utilisateur afin de lui envoyer un courriel d’invitation ou une notification.
-*	Ajouter un collègue – Envoie une demande d’ajout d’un utilisateur à la liste de connexion de chacun.
-*	Téléverser un fichier – Ouvre une fenêtre permettant à un utilisateur de téléverser un fichier dans un dépôt situé dans l’application.
-*	Publier le blogue – Affiche sur l’application le contenu du blogue écrit par un utilisateur.
-*	Favori – Ajoute du contenu à la liste de favoris d’un utilisateur.
-*	Suivre – Établit des notifications de mise à jour du groupe, de l’utilisateur ou du sujet connexe destinées à un utilisateur.
-*	Démarrer – Dirige l’utilisateur vers un aperçu d’une page de renvoi générale de l’application.
-*	En savoir plus – Dirige l’utilisateur vers une page contenant des renseignements plus détaillés sur le sujet connexe.
+
+**Nous joindre** – Dirige l’utilisateur vers une page contenant les renseignements nécessaires pour joindre votre équipe. Ces renseignements sont notamment le courriel, le numéro de téléphone ou un lien vers le service de dépannage.
+
+**Faites-nous part de vos commentaires** – Ouvre une page ou une fenêtre où l’utilisateur peut saisir de l’information au sujet de l’application ou de la fonctionnalité connexe.
+
+**Créer un groupe** – Dirige l’utilisateur vers une page où il peut créer un nouveau groupe dans l’application.
+
+**Joindre le groupe** – Ajoute un utilisateur à la liste des membres du groupe.
+
+**Inviter à joindre le groupe** – Ouvre une page ou une fenêtre où un utilisateur peut saisir l’information d’un autre utilisateur afin de lui envoyer un courriel d’invitation ou une notification.
+
+**Ajouter un collègue** – Envoie une demande d’ajout d’un utilisateur à la liste de connexion de chacun.
+
+**Téléverser un fichier** – Ouvre une fenêtre permettant à un utilisateur de téléverser un fichier dans un dépôt situé dans l’application.
+
+**Publier le blogue** – Affiche sur l’application le contenu du blogue écrit par un utilisateur.
+
+**Favori** – Ajoute du contenu à la liste de favoris d’un utilisateur.
+
+**Suivre** – Établit des notifications de mise à jour du groupe, de
+l’utilisateur ou du sujet connexe destinées à un utilisateur.
+
+**Démarrer** – Dirige l’utilisateur vers un aperçu d’une page de renvoi générale de l’application.
+
+**En savoir plus** – Dirige l’utilisateur vers une page contenant des renseignements plus détaillés sur le sujet connexe.

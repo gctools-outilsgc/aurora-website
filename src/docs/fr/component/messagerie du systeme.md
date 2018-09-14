@@ -111,9 +111,9 @@ Les couleurs utilisées pour les notifications sont de la palette de conception 
 
 Couleur hexadécimale pour les notifications d’erreur : <badge style="background-color: #D3080C">#D3080C</badge>
 
-Couleur hexadécimale pour les notifications d’avertissement : <badge style="background-color: #FF9900">#FF9900</badge>
+Couleur hexadécimale pour les notifications d’avertissement : <badge style="background-color: #FF9900; color:black">#FF9900</badge>
 
-Couleur hexadécimale pour les notifications d’information : <badge style="background-color: #269ABC">#269ABC</badge>
+Couleur hexadécimale pour les notifications d’information : <badge style="background-color: #269ABC; color:black">#269ABC</badge>
 
 Couleur hexadécimale pour les notifications de succès : <badge style="background-color: #278400">#278400</badge>
 
@@ -134,19 +134,3 @@ Les notifications sont de 62px par 425px. Le texte a un remplissage de 15px sur 
 Les messages de notification devraient être simples et aussi courts que possible et devraient aussi utiliser des mots clés. Les messages longs peuvent être imprécis et peuvent avoir une incidence sur la taille et la lisibilité du message.
 
 Exemple d’une notification claire : Votre photo de profil a été modifiée avec succès.
-
-*Chronométrage*
-
-Les notifications sont automatiquement chronométrées pour améliorer la fluidité du site Web. Le chronométrage des notifications est fondé sur l’estimation prudente d’une vitesse de lecture de 200 mots par minute.
-
-Les courtes notifications (70 caractères ou moins) devraient avoir :
-* Une animation d’affichage de 0,4 seconde.
-* Une durée d’affichage de 3,5 secondes.
-* Une animation de masquage d’une (1) seconde.
-
-Les longues notifications (de 70 à 140 caractères) devraient avoir :
-* Une animation d’affichage de 0,4 seconde.
-* Une durée d’affichage de sept (7) secondes.
-* Une animation de masquage de deux (2) secondes.
-
-Si votre notification fait plus de 140 caractères, envisager une différente méthode de communiquer le message.

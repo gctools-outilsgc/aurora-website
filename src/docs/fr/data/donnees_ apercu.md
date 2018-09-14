@@ -15,7 +15,8 @@ La visualisation des données prend de nombreuses formes et constitue un moyen v
 
 La visualisation des données devrait viser à représenter et à répondre à une seule question. Le but est de donner un aperçu des données et de raconter une histoire visuelle qui a du sens pour l’utilisateur. Les graphes devraient servir à représenter des jeux de données d’une manière dont les tableaux ne peuvent pas. Si les données sont faciles à comprendre sans visualisation, habituellement l’option la plus simple (un tableau) est la meilleure.
 
-*image d’une page Web*
+![Image de l'application des statistiques GCcollab ](../../../img\examples\GCcollab stats_fr.PNG)
+*L'application des statistiques GCcollab, qui utilise le système de conception d'Aurora pour créer un page de statistiques des groupes GCcollab*
 
 ## Simplicité
 Pour ce qui est de la visualisation des données, il faut en règle générale garder les éléments visuels aussi simples que possible. Seuls les renseignements nécessaires tels les étiquettes, les valeurs et les barres ou les lignes devraient s’y trouver. Une clé ou une légende devrait être fournie pour les données plus complexes qui peuvent avoir plusieurs couleurs ou types d’information. Les couleurs et autres éléments visuels doivent toujours être maintenus au minimum dans la mesure du possible.
@@ -67,6 +68,6 @@ Pour une accessibilité accrue, il est également recommandé d’utiliser en pl
 
 Voir les types précis de visualisation pour l’utilisation des couleurs. En général, chaque variable devrait compter une couleur désignée, et seulement les graphiques montrant plusieurs variables devraient être de plusieurs couleurs.
 
-Les lignes d’axe devraient être en gris clair (no E0E0E0) pour ne pas laisser distraire le lecteur par les autres couleurs utilisées dans la visualisation.
+Les lignes d’axe devraient être en gris clair \(<badge style="background-color: #E0E0E0;color:black"> #E0E0E0</badge>\) pour ne pas laisser distraire le lecteur par les autres couleurs utilisées dans la visualisation.
 
 Pour obtenir de plus amples renseignements sur le choix des couleurs, veuillez consulter la [section sur les couleurs.](couleur.md)
