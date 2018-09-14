@@ -23,7 +23,6 @@ We’re excited to launch the first iteration of Aurora Design System! All of th
 This is the first iteration, and we are continuing to design new aspects to add to Aurora, as well as adding React.js code for each of our existing components. [See our Github](https://github.com/gctools-outilsgc/design-system-code) to stay up-to-date with what we are working on, or to give feedback about Aurora. Stay tuned for updates as we work on making Aurora even better!
 
 
-
 ### June 2018
 
 Now in Phase II, the design team has split into smaller working teams, including developers, writers, designers, and UX researchers. We are conducting usability testing on some of our elements, developing style sheets and HTML components, and creating wire-frames to build the first iteration of the design system website.

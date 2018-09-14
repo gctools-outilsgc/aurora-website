@@ -23,8 +23,8 @@ Les légendes devraient être alignées typiquement sur le côté du graphique, 
 
 Ne vous fiez pas uniquement à la couleur, différentes formes peuvent être utilisées pour chacun des points de données pour rendre les ensembles plus faciles à distinguer.
 
-![Légende alignée sur le côté](../../../img\components\side aligned legend_fr.png)
 
+![Légende alignée sur le côté](../../../img\components\side aligned legend_fr.png)
 
 
 Les légendes alignées sur le côté sont conçues comme suit :
