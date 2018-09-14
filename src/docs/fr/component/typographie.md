@@ -46,7 +46,7 @@ Certains systèmes peuvent ne pas être en mesure de télécharger ou d’affich
 
 Les titres apparaissent seulement dans le haut des pages et indiquent les points de navigation de haut niveau.
 
-Les titres sont affichés à l’aide de « Rubik Light » à 36 points de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou #FFFFFF sur un arrière-plan foncé.
+Les titres sont affichés à l’aide de « Rubik Light » à 36 points de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
 
 ### En-tête \(H2-H6)
 
@@ -76,7 +76,7 @@ Les titres sont affichés à l’aide de « Rubik Light » à 36 points de coule
     </div>'>
 </codeblock>
 
-Il y a cinq différents sous-en-têtes. Tous les sous-titres sont de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou #FFFFFF sur un arrière-plan foncé.
+Il y a cinq différents sous-en-têtes. Tous les sous-titres sont de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
 
 Les en-têtes ont les styles typographiques suivants :
 
@@ -94,7 +94,7 @@ Les en-têtes ont les styles typographiques suivants :
 
 Le texte du paragraphe est utilisé pour la plupart du contenu de texte se trouvant dans l’application. Le texte du paragraphe est établi à la police « Nunito Sans Regular » à 16 points (1 em) avec un interlignage de 24 points. À moins d’indiquer un hyperlien ou un point de navigation, le texte du paragraphe ne devrait pas être mis en évidence davantage.
 
-Le texte de paragraphe est de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou de couleur #FFFFFF sur un arrière-plan foncé.
+Le texte de paragraphe est de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou de couleur <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
 
 ### Rupture de ligne
 
@@ -106,8 +106,6 @@ Le système de conception de la DCN est conforme aux pratiques exemplaires suiva
 ### Longueur de ligne
 
 La longueur idéale pour le corps du texte est d’environ de 40 à 60 caractères. Si la longueur de la ligne est trop courte ou trop longue, cela a un effet négatif sur la lisibilité. Notre système de conception suit ces lignes directrices et vise environ 60 caractères par ligne.
-
-(Ajouter des images sur ce qui doit être fait et ne pas être fait)
 
 ### Citations mises en vedette
 
@@ -205,11 +203,9 @@ Les liens visités doivent être indiqués par une couleur différente. Habituel
 
 Le formatage typographique, tel que l’italique ou le soulignement, doit être utilisé avec parcimonie et seulement lorsqu’il améliore véritablement la communication avec tous les lecteurs.
 
-(Ajouter des images sur ce qui doit être fait et ne pas être fait)
-
 ## Horodateurs et texte d’espace réservé
 
-Les horodateurs et le texte d’espace réservé ont les mêmes styles typographiques. Les deux ont une police « Nunito Sans Regular » à 14 points et un interlignage de 21 points Les horodateurs et le texte d’espace réservé sont de couleur <badge style="background-color: #666666">#666666</badge> sur un arrière plan pâle ou de couleur #FFFFFF sur un arrière-plan foncé.
+Les horodateurs et le texte d’espace réservé ont les mêmes styles typographiques. Les deux ont une police « Nunito Sans Regular » à 14 points et un interlignage de 21 points Les horodateurs et le texte d’espace réservé sont de couleur <badge style="background-color: #666666">#666666</badge> sur un arrière plan pâle ou de couleur<badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
 
 <p style="font-size: 14px; color: #666666">Le 6 septembre 2018, 13 h 40</p>
 <p style="font-size: 14px; color: #666666">Le 20 décembre 2015, 6 h 45</p>
@@ -236,6 +232,4 @@ Les horodateurs et le texte d’espace réservé ont les mêmes styles typograph
     <Button color="secondary" disabled>Secondaire</Button>'>
 </codeblock>
 
-Le texte de bouton est affiché avec la police « Nunito Sans Bold » à 16 points et est de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou de couleur #FFFFFF sur un arrière-plan foncé. La couleur de ce texte dépend du bouton choisi et doit présenter un contraste suffisant avec la couleur de chaque type de bouton. Pour obtenir de plus amples renseignements sur le choix des couleurs, veuillez consulter la section sur les boutons.
-
-(Ajouter un exemple d’image)
+Le texte de bouton est affiché avec la police « Nunito Sans Bold » à 16 points et est de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou de couleur <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé. La couleur de ce texte dépend du bouton choisi et doit présenter un contraste suffisant avec la couleur de chaque type de bouton. Pour obtenir de plus amples renseignements sur le choix des couleurs, veuillez consulter la section sur les boutons.

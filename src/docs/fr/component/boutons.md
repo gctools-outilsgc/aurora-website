@@ -112,6 +112,8 @@ Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouto
 
 ## États variables
 
+![Image des états variables des boutons](../../../img\examples\button states.png)
+
 Les boutons ne sont pas des objets ayant un seul état. La plupart des utilisateurs reconnaissent un bouton en raison de son état stationnaire et son état actif. Les divers états offrent également de la rétroaction à l’utilisateur à chaque étape de l’exécution de l’action.
 
 Les boutons devraient comprendre les états normal, sensitif, accentué, actif et désactivé :

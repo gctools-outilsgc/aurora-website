@@ -11,7 +11,7 @@ title: "What's new?"
 
 # What's New
 
-Latest updates to the \#GCDigital Design System.
+Latest updates to the Aurora Design System.
 
 ### June 2018
 
@@ -23,7 +23,7 @@ Sierra also wrote a [blog post](https://medium.com/@s.duffey121/7-things-i-learn
 
 ### **April 2018**
 
-The \#GCdigital design team is hard at work creating a first draft of the \#GCdigital design system. Browse through our Gitbook to see what's been done so far and what we're still working on!
+The Aurora design team is hard at work creating a first draft of the Aurora Design System. Browse through our Gitbook to see what's been done so far and what we're still working on!
 
 The first phase of the design system will focus on key design elements, and a downloadable user interface \(UI\) kit. We are finishing the last few elements related to navigation, data visualizations and animations, as well as reviewing previous work.
 

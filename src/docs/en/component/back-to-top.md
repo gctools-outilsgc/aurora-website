@@ -11,9 +11,9 @@ title: "Back to top"
 
 # Back to top
 
-Back to top is a navigation button that allows users to quickly revert back to the top of a particular web page. This element is shown in the bottom right corner of the page or mobile screen. The element only appears when the user scrolls a certain distanc down the web page.
+Back to top is a navigation button that allows users to quickly revert back to the top of a particular web page. This element is shown in the bottom right corner of the page or mobile screen. The element only appears when the user scrolls a certain distance down the web page.
 
-Back to top buttons are necessary for web pages with continuous scrolling, or a page that includes a long amount of content. A good guideline is to include a Back to top_button for any web page that is longer than 4 screens.
+Back to top buttons are necessary for web pages with continuous scrolling, or a page that includes a long amount of content. A good guideline is to include a Back to top button for any web page that is longer than 4 screens.
 
 This button should always be labelled _Back to top_ since this is the most descriptive and expected label for the function.
 

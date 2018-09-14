@@ -15,7 +15,7 @@ En novembre, deux développeurs et moi avons commencé à travailler sur un syst
 
 Aujourd’hui, nous avons quatre développeurs, trois rédacteurs et trois chercheurs en expérience d’utilisateur, et l’équipe de projet tout entière possède une expertise dans le domaine de la conception. Nous avons collaboré avec six partenaires de quatre organisations différentes. Plus important encore, au cours des derniers mois, nous avons créé et compilé un vaste [répertoire de contenu](https://github.com/gctools-outilsgc/design-system/tree/master/documentation/pages) qui correspond aux normes de qualité des entreprises privées de haute technologie et qui s’harmonise aux diverses ressources, politiques et ressources d’apprentissage numériques du gouvernement du Canada.
 
-![Exemple de la documentation de notre systeme](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/documenation_example.png)
+![Exemple de la documentation de notre systeme](../../../img\blogs\documenation_example.png)
 
 *Exemple de la documentation de notre système*
 
@@ -25,7 +25,7 @@ Après avoir géré un projet pendant six mois, j’ai certainement appris beauc
 
 **Créer quelque chose de nouveau peut s’avérer un processus compliqué.** Essayez de gérer le chaos de votre mieux, mais acceptez le fait que vous allez parfois vous sentir dépassé par l’incertitude et les questions difficiles.
 
-![Image des personnes qui travaillent ensemble](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/generic%20people%20doing%20stuff.jpeg)
+![Image des personnes qui travaillent ensemble](../../../img\blogs\generic people doing stuff.jpeg)
 
 **Être stratégique lorsqu’il est question de travailler avec les autres.** Les partenaires et les collaborateurs sont précieux, mais ils peuvent également élargir le projet bien au-delà de sa portée originale. Tenez-vous-en à vos objectifs initiaux et établissez dès le départ un plan clair quant aux personnes que vous devez mobiliser et au moment où vous devez le faire.
 
@@ -42,7 +42,7 @@ Curieux de savoir où nous en sommes avec le système de conception?
 
 À mesure que les OutilsGC et d’autres applications numériques évolueront, notre système de conception entreprendra des modifications et des ajouts constants. Avez-vous des suggestions ou des commentaires sur notre contenu? Souhaitez-vous utiliser notre système? [Soumettez une question](https://github.com/gctools-outilsgc/design-system/issues) par l’intermédiaire de GitHub ou [communiquez directement avec moi!](mailto:sierra.duffey@tbs-sct.gc.ca)
 
-![Prototype d'un page de statsitque en utilisant notre systeme](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/stats%20dashboard.png)
+![Prototype d'un page de statsitque en utilisant notre systeme](../../../img\blogs\stats_dash_v3.PNG)
 
 *Exemple d’un prototype crée avec notre système de conception*
 
@@ -58,15 +58,15 @@ Tout cela fait de l’équipe de la DCN un environnement parfait pour s’invest
 
 Avec un [renouvellement des OutilsGC](https://medium.com/@ToferC/bonjour-le-monde-6f4afddf7837) à l’horizon, l’équipe a décidé qu’il était temps de mettre sur pied un système de conception. En développer un est complexe : un système de conception est un large répertoire contenant l’ensemble des éléments de vos produits, ainsi que la documentation quant à la façon de les utiliser. Ils doivent être le plus exhaustifs que possible et tout inclure, des éléments visuels au style de rédaction, des principes directeurs au code pour des composantes particulières. Le système fournit aux concepteurs et aux développeurs un guide clair sur la façon de lancer une nouvelle application sans avoir à faire des choix précis en matière de conception encore et encore. Cela est utile pour notre propre équipe et notre nouvelle conception, mais nous sommes également excités de collaborer avec plusieurs partenaires de l’ensemble du GC pour créer un système que les autres peuvent utiliser pour également guider leur travail.
 
-![Image des personnes au courant](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/people%20running.jpeg)
+![Image des personnes au courant](../../../img\blogs\people running.jpeg)
 
 Nous sommes encore aux premières étapes du projet et nous commençons à découvrir que c’est une première expérience pour tout le monde. Les systèmes de conception sont utilisés par de nombreux géants technologiques comme Google, IBM et Shopify, mais il s’agit d’une nouveauté dans le secteur public. Le gouvernement des États-Unis a conçu son système de conception l’année dernière et le gouvernement du Royaume-Uni [travaille en ce moment sur le sien](https://gds.blog.gov.uk/2017/10/30/building-the-gov-uk-design-system/). Bien que nous prévoyions utiliser notre système de conception à plus petite échelle, il s’agit tout de même d’une grande entreprise, particulièrement en considérant que nous apprenons au fur et à mesure!
 
-![Image du U.S. Web Design Standards](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/US%20design%20system.png)
+![Image d'une section des normes de conception Web des États-Unis](../../../img\blogs\US design system.png)
 
 *Une section des normes de conception Web des États-Unis*
 
-![Image de systeme de conception Polaris de Shopify](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/Polaris%20design%20system.png)
+![Image de systeme de conception Polaris de Shopify](../../../img\blogs\Polaris design system.png)
 
 *Système de conception Polaris de Shopify*
 
@@ -76,12 +76,12 @@ Je suis excitée pour ce projet, car prendre le temps de concevoir et élaborer 
 
 Si vous voulez en apprendre plus au sujet du système de conception que nous élaborons, et la façon dont nous l’élaborons, restez à l’écoute! Nous lançons notre premier sprint de conception le 10 janvier et nous prévoyons consigner notre processus le long du chemin, ainsi que publier tous nos [fichiers sur Github](https://github.com/gctools-outilsgc/design-system). Pour l’instant, nous avons créé quelques affiches d’inspiration pour aider à guider notre conception. Consultez-les et dites-nous laquelle vous préférez!
 
-![Colour and Graphics mood board](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/mood%20board%201.png)
-
-![Minimalist Design mood board](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/mood%20board%202.png)
-
-![Inspired by Nature mood board](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/mood%20board%203.png)
-
-![Wood and Stone mood board](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/mood%20board%204.png)
-
 Je vous remercie de votre attention. Pour en apprendre plus ou faire part de votre opinion, commentez ci-dessous ou communiquez avec moi sur [Twitter](https://twitter.com/s_duffey), [GCcollab](https://gccollab.ca/profile/Sduff) et [Linkedin](https://www.linkedin.com/in/sierraduffey/).
+
+![Tableau d'humeur plein de couleur et des graphiques](../../../img\blogs\mood board 1.png)
+
+![Tableau d'humeur minimaliste](../../../img\blogs\mood board 2.png)
+
+![Tableau d'humeur inspirée par la nature](../../../img\blogs\mood board 3.png)
+
+![Tablau d'humeur inspiré par l'architecture](../../../img\blogs\mood board 4.png)

@@ -23,16 +23,16 @@ Les légendes devraient être alignées typiquement sur le côté du graphique, 
 
 Ne vous fiez pas uniquement à la couleur, différentes formes peuvent être utilisées pour chacun des points de données pour rendre les ensembles plus faciles à distinguer.
 
-*Légende alignée sur le côté*
+![Légende alignée sur le côté](../../../img\components\side_aligned_legend_1.png)
 
-*Élément de légende alignée sur le côté*
+
 
 Les légendes alignées sur le côté sont conçues comme suit :
 
 Élément de carte, un rectangle (blanc, no FFFFFF) avec un rayon de bordure de 4px, une ombre portée de 15 % d’opacité et un flou de 5px. Un remplissage de 20px par 16px. Le texte « légende » est aligné au-dessus de la boîte et utilise le style d’en-tête 3 (Nunito sans régulier à 18px). Chaque point de la liste a un remplissage de 14px par 0px et utilise le style de paragraphe normal (Nunito sans régulier à 16px), le texte étant aligné à la droite du symbole. La hauteur et la largeur de la légende dépendent du nombre de points dans la liste.
 Légende placée en bas
 
-*Élément de légende placée en bas*
+![Élément de légende placée en bas](../../../img\components\bottom_aligned_legend.png)
 
 Les légendes placées en bas sont conçues comme suit :
 

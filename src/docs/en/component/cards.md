@@ -204,7 +204,3 @@ Cards can technically include any number of component combinations. Using the ba
         <div class="card-footer">Extra information</div>
     </div>
 ' react='' />
-
-![Example of a complex card 1](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/card%20example_2.png)
-![Example of a complex card 2](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/card%20example_3.png)
-![Example of a complex card 3](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/card%20example_6.png)
