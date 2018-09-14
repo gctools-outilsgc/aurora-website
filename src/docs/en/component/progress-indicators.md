@@ -5,6 +5,10 @@ lang: "en"
 title: "Progress indicators"
 ---
 
+<helmet>
+<title> Progress Indicators - Aurora Design System </title>
+</helmet>
+
 # Progress Indicators
 
 **Design review currently in progress**

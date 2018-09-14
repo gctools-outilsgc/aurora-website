@@ -4,6 +4,11 @@ subnav: "1/Visuals/Visuels/2"
 lang: "en"
 title: "Icons"
 ---
+
+<helmet>
+<title> Icons - Aurora Design System </title>
+</helmet>
+
 # Icons
 
 ![Icons](../../../img\icons_example.PNG)

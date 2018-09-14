@@ -5,6 +5,10 @@ lang: "fr"
 title: "Images, avatars et vignettes"
 ---
 
+<helmet>
+<title> Images, avatars et vignettes - Système de conception Aurora </title>
+</helmet>
+
 # Images, avatars et vignettes
 <div class="mt-3">
     <div class="card">

@@ -2,8 +2,12 @@
 path: "/component/back-to-top"
 subnav: "3/Navigation/Navigation/2"
 lang: "en"
-title: "Back to Top"
+title: "Back to top"
 ---
+
+<helmet>
+<title> Back to Top - Aurora Design System </title>
+</helmet>
 
 # Back to top
 

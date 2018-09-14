@@ -4,6 +4,11 @@ subnav: "1/About/À notre sujet/3"
 lang: "fr"
 title: "Foire aux questions"
 ---
+
+<helmet>
+<title> Foire aux questions - Système de conception Aurora </title>
+</helmet>
+
 # Foire aux questions
 
 ## Qu’est-ce qu’un système de conception?

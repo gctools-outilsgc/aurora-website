@@ -5,6 +5,10 @@ lang: "en"
 title: "Tags, chips and pills"
 ---
 
+<helmet>
+<title> Tags, Chips and Pills - Aurora Design System </title>
+</helmet>
+
 # Tags, Chips and Pills
 
 ## Tags

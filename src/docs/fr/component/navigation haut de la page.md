@@ -5,6 +5,9 @@ lang: "fr"
 title: "Haut de la page"
 ---
 
+<helmet>
+<title> Haut de la page - Système de conception Aurora </title>
+</helmet>
 
 # Haut de la page
 

@@ -5,6 +5,10 @@ lang: "en"
 title: "Scatterplots"
 ---
 
+<helmet>
+<title> Scatterplots - Aurora Design System </title>
+</helmet>
+
 # Scatterplots
 
 Scatterplots are used to show correlation between points of data with two variables.

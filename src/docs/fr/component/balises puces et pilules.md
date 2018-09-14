@@ -5,6 +5,10 @@ lang: "fr"
 title: "Balises, puces et pilules"
 ---
 
+<helmet>
+<title> Balises, puces et pilules - Système de conception Aurora </title>
+</helmet>
+
 # Balises, puces et pilules
 
 ## Balises
@@ -57,7 +61,7 @@ Les balises sont habituellement affichées près du titre du contenu, à proximi
 
 Les balises sont de forme rectangulaire et ont un rayon de bordure de 4 px. Le côté gauche de la balise est stylisé à l’aide d’un triangle et d’un cercle blanc. Les balises _(revoir ceci)_ utilisent les couleurs secondaires dans la palette choisie, et la couleur du texte sera soit noire soit blanche selon la couleur de la balise. Reportez-vous à la section de couleur pour obtenir de plus amples renseignements sur les couleurs de textes à utiliser.  
 
-Les balises peuvent également comprendre un bouton de suppression aligné à droite à côté du texte. Ce bouton est représenté par un cercle noir et blanc accompagné d’un « x » transparent. 
+Les balises peuvent également comprendre un bouton de suppression aligné à droite à côté du texte. Ce bouton est représenté par un cercle noir et blanc accompagné d’un « x » transparent.
 
 Les étiquettes sont dimensionnées de façon à correspondre à la longueur des mots-clés et ont un remplissage de 7 px dans la partie supérieure, à droite et dans la partie inférieure et de 10 px à gauche.
 
@@ -78,9 +82,9 @@ Les puces sont de forme rectangulaire et ont un rayon de bordure de 4 px. Une im
 
 Les puces ont trois différentes variations et sont affichées comme suit :
 
-**Normal** : Case rectangulaire remplie avec ****<badge style="background-color: #CECECE; color: black">#CECECE</badge>. Texte noir. Petit avatar (26 px sur 26 px) aligné à gauche. 
+**Normal** : Case rectangulaire remplie avec ****<badge style="background-color: #CECECE; color: black">#CECECE</badge>. Texte noir. Petit avatar (26 px sur 26 px) aligné à gauche.
 
-**Contrôle de l’utilisateur** : Même chose que normal, mais il y a un icône de suppression supplémentaire à droite. Cette icône a la couleur #4D5D6C ainsi qu’un « x » transparent et elle est alignée à droite. Petit avatar (26 px sur 26 px) aligné à gauche. 
+**Contrôle de l’utilisateur** : Même chose que normal, mais il y a un icône de suppression supplémentaire à droite. Cette icône a la couleur #4D5D6C ainsi qu’un « x » transparent et elle est alignée à droite. Petit avatar (26 px sur 26 px) aligné à gauche.
 
 **Pointage** : Même chose que la puce contrôlée par l’utilisateur, mais a une couleur d’arrière-plan <badge style="background-color: #4D5D6C">#4D5D6C</badge>, et l’icône de suppression est blanc et un « x » transparent y figure. Petit avatar (26 px sur 26px) aligné à gauche.
 

@@ -2,8 +2,12 @@
 path: "/component/pagination-scrolling"
 subnav: "3/Navigation/Navigation/7"
 lang: "en"
-title: "Pagination and Scrolling"
+title: "Pagination and scrolling"
 ---
+
+<helmet>
+<title> Pagination and Scrolling - Aurora Design System </title>
+</helmet>
 
 # Pagination and Scrolling
 

@@ -5,6 +5,9 @@ lang: "en"
 title: "System vocabulary"
 ---
 
+<helmet>
+<title> System Vocabulary - Aurora Design System </title>
+</helmet>
 
 # System Vocabulary
 

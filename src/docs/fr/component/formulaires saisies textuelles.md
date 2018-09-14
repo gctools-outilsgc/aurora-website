@@ -5,6 +5,10 @@ lang: "fr"
 title: "Saisies textuelles"
 ---
 
+<helmet>
+<title> Saisies textuelles - Système de conception Aurora </title>
+</helmet>
+
 # Saisies textuelles
 
 Les champs de saisie permettent aux utilisateurs de fournir de l’information en entrant du texte dans une page. L’information peut être entrée au moyen d’une variété de champs de saisie différents comme les champs de texte (zone de texte), les cases à cocher, les boutons radio et la saisie de données. Les champs de saisie apparaissent typiquement dans les formulaires et devraient clairement indiquer que l’utilisateur peut saisir de l’information à l’aide d’étiquettes, d’infobulles, d’espace réservé de texte et d’un style approprié.
@@ -20,7 +24,7 @@ Les champs de saisie textuelle peuvent également comprendre des éléments inte
 <label for="exampleInputPassword1">Mot de passe</label>
 <input type="password" class="form-control" aria-describedby="Password1Error" id="exampleInputPassword1" placeholder="Mot de passe">
 <small id="Password1Error" class="form-text text-muted">Minimum de 8 caractères, sensibles à la casse</small>
-  
+
 
 <codeblock html='
     <label for="exampleInputPassword1">Mot de passe</label>

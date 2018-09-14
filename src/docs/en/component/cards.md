@@ -4,6 +4,9 @@ subnav: "2/Standard/Standard/4"
 lang: "en"
 title: "Cards"
 ---
+<helmet>
+<title> Cards - Aurora Design System </title>
+</helmet>
 
 # Cards
 

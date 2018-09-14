@@ -5,6 +5,10 @@ lang: "en"
 title: "Column and bar graphs"
 ---
 
+<helmet>
+<title> Column and Bar Graphs - Aurora Design System </title>
+</helmet>
+
 # Column and Bar Graphs
 
 Bar graphs should be used to represent direct comparisons. Numerical values should always be shown beside visual elements.

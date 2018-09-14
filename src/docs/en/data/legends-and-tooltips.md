@@ -5,6 +5,10 @@ lang: "en"
 title: "Legends and tooltips"
 ---
 
+<helmet>
+<title> Legends and Tooltips - Aurora Design System </title>
+</helmet>
+
 # Legends and Tooltips
 
 In general, legends and tooltips should only be used on data sets when absolutely necessary. If enough context can provided directly on the chart or graph without obscuring data or adding a significant amount of visual clutter, a legend or tooltip is not needed.

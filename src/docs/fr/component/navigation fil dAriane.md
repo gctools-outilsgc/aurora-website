@@ -5,6 +5,9 @@ lang: "fr"
 title: "Fil d'Ariane"
 ---
 
+<helmet>
+<title> Fil d'Ariane - Système de conception Aurora </title>
+</helmet>
 
 # Fil d’Ariane
 

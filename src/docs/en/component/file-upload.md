@@ -5,6 +5,10 @@ lang: "en"
 title: "File upload"
 ---
 
+<helmet>
+<title> File Upload - Aurora Design System </title>
+</helmet>
+
 # File Upload
 
 File upload inputs are a combination of button and input field. They are included in forms where the user has the option to include files.

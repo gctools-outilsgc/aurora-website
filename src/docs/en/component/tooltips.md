@@ -4,6 +4,9 @@ subnav: "2/Standard/Standard/10"
 lang: "en"
 title: "Tooltips"
 ---
+<helmet>
+<title> Tooltips - Aurora Design System </title>
+</helmet>
 
 # Tooltips
 
