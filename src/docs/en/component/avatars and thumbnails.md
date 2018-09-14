@@ -11,33 +11,6 @@ title: "Avatars and thumbnails"
 
 # Images, Avatars and Thumbnails
 
-<div class="mt-3">
-    <div class="card">
-    <div class="card-body">
-        <ul class="list-unstyled">
-        <li class="media media-comment">
-            <a href="#!">
-                <img alt="..." class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
-            </a>
-            <div class="media-body">
-                <div class="media-heading">
-                <a href="#!">John Doe</a>
-                <small class="text-muted">1 hour ago</small>
-                </div>
-                <div>Ice cream macaroon croissant macaroon powder. Bear claw croissant candy canes halvah oat cake. Lollipop gummies jelly-o liquorice lollipop.
-                Apple pie chocolate sweet roll. Chocolate bar candy canes lollipop gummies. Sesame snaps marzipan biscuit powder topping sweet roll. Oat cake bear claw pudding pastry gummies.
-                </div>
-                <div class="media-footer">
-                <a href="#!"><small>Reply</small></a>
-                <a href="#!"><small>Like</small></a>
-                </div>
-            </div>
-        </li>
-        </ul>
-    </div>
-    </div>
-</div>
-
 ## Block Images
 
 Block images are separated from other elements on the page \(i.e. text\) and are typically centered with a set padding. In a layout including text, the text will continue on the next line after the image.

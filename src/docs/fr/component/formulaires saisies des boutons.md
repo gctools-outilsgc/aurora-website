@@ -32,7 +32,7 @@ Les cases à cocher ont quatre états différents :
     </div>
 ' react='' />
 
-**Normal :** case de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan <badge style="background-color: #F9F9F9; color: black" >#F9F9F9</badge>, couleur de bordure <badge style="background-color: #96A8B2">#96A8B2</badge> de 1 px.
+**Normal :** case de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan <badge style="background-color: #F9F9F9; color: black" >#F9F9F9</badge>, couleur de bordure <badge style="background-color: #96A8B2;color:black">#96A8B2</badge> de 1 px.
 
 <div class="custom-control custom-checkbox">
     <input type="checkbox" class="custom-control-input" id="customCheck2">
@@ -53,7 +53,7 @@ Les cases à cocher ont quatre états différents :
     <label class="custom-control-label" for="customCheck4">Vérification personnalisée</label>
 </div>
 
-**Active :** case de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan <badge style="background-color: #4D5D6C" >#4D5D6C</badge>, couleur de bordure <badge style="background-color: #96A8B2">#96A8B2</badge> . Comprend une icône de contrôle blanc centré dans la case.
+**Active :** case de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan <badge style="background-color: #4D5D6C" >#4D5D6C</badge>, couleur de bordure <badge style="background-color: #96A8B2; color:black">#96A8B2</badge> . Comprend une icône de contrôle blanc centré dans la case.
 
 ## Boutons « radio »
 
@@ -77,7 +77,7 @@ Les étiquettes des boutons « radio » sont alignées à droite du bouton.
     </div>
 ' react='' />
 
-**Normal :** cercle de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan #F9F9F9, couleur de bordure <badge style="background-color: #96A8B2">#96A8B2</badge> de 1 px.
+**Normal :** cercle de 18 px sur 18 px, rayon de bordure de 4 px, couleur d’arrière-plan #F9F9F9, couleur de bordure <badge style="background-color: #96A8B2; color:black">#96A8B2</badge> de 1 px.
 
 <div class="custom-control custom-radio">
     <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
