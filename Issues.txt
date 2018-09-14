@@ -1,4 +1,7 @@
-Things that don't sync up with the master:
+Things that don't sync up with the deployed version:
+
+NOTE: the master is not the deployable version right now ??? so most issues will be resolved once the master is the deployable 
+version and everything can be benchmarked against it.
 
 -> Search is broken since the plugin that did search is incompatible with older browsers
 -> Sidenav/Subnav and Header active link isn't showing (probably a very simple fix since the code hasn't really changed for the components)
