@@ -5,10 +5,6 @@ lang: "fr"
 title: "Nuage de points"
 ---
 
-<helmet>
-<title> Nuage de points - Système de conception Aurora </title>
-</helmet>
-
 # Nuage de points
 
 Les nuages de points sont utilisés pour illustrer la corrélation entre les points de données à deux variables.

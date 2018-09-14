@@ -4,11 +4,6 @@ subnav: "3/Navigation/Navigation/5"
 lang: "en"
 title: "Links"
 ---
-
-<helmet>
-<title> Links - Aurora Design System </title>
-</helmet>
-
 # Links
 
 ## When to Use a Link
@@ -33,12 +28,6 @@ Links should always include a hover state and a visited state, and should look d
 
 **Visited:** Nunitio Sans Regular at 16 points
 
-There are other colour options for visited links. Best practice for visited links is to use a muted version of your hyperlink colour, a secondary colour or the standard purple: <badge style="background-color: #551A8B;">#551A8B</badge>.
+There are other colour options for visited links. Best practice for visited links is to use a muted version of your hyperlink colour, a secondary colour or the standard purple: \#551A8B.
 
-
-<a href="#">This is a link</a>
-
-<codeblock html='
-    <a href="#">This is a link</a>
-' react='' />
-</codeblock>
+**\(Add example image\)**

@@ -34,4 +34,4 @@ class ButtonDropdownWrapper extends React.Component {
   }
 }
 
-export default translate('ButtonDropdownWrapper')(ButtonDropdownWrapper);
+export default translate()(ButtonDropdownWrapper);

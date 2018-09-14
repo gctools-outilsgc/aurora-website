@@ -5,10 +5,6 @@ lang: "fr"
 title: "Messagerie du système"
 ---
 
-<helmet>
-<title> Messagerie du système - Système de conception Aurora </title>
-</helmet>
-
 # Messagerie du système
 
 Les notifications du système sont de courts messages qui apparaissent pour communiquer de l’information à l’utilisateur. Des notifications apparaissent comme des bannières en premier plan qui ont besoin d’être fermées ou qui se ferment après une période de temps. Il y a quatre niveaux de gravité qui peuvent être appliqués à la notification : erreur, avertissement, information et succès.
@@ -16,40 +12,11 @@ Les notifications du système sont de courts messages qui apparaissent pour comm
 Les notifications conçues du système en ordre décroissant de sévérité :
 
 ## Erreur
-
-<Alert color="danger">
-    C’est une alerte en cas de danger avec un <a href="#" class="alert-link">exemple de lien.</a>.
-</Alert>
-
-<codeblock html='
-    <div class="alert alert-danger" role="alert">
-        C’est une alerte en cas de danger avec un <a href="#" class="alert-link">exemple de lien.</a>.
-    </div>
-' react='
-<Alert color="danger">
-    C’est une alerte en cas de danger avec un <a href="#" class="alert-link">exemple de lien.</a>.
-</Alert>
-'></codeblock>
-
 Les notifications d’erreur sont utilisées pour les pannes de système et les erreurs de l’utilisateur.
 
 Exemple d’erreur : « Votre mot de passe doit contenir au moins huit (8) caractères. »
 
 ## Avertissement
-
-<Alert color="warning">
-    C’est une alerte d’avertissement avec un  <a href="#" class="alert-link">exemple de lien.</a>.
-</Alert>
-
-<codeblock html='
-    <div class="alert alert-warning" role="alert">
-        C’est une alerte d’avertissement avec un  <a href="#" class="alert-link">exemple de lien.</a>.
-    </div>
-' react='
-<Alert color="warning">
-    C’est une alerte d’avertissement avec un  <a href="#" class="alert-link">exemple de lien.</a>.
-</Alert>
-'></codeblock>
 
 Les notifications d’avertissement sont utilisées pour les avis d’éventuelles erreurs.
 
@@ -57,39 +24,11 @@ Exemple d’avertissement : « Verr. Maj. est activé ce qui pourrait faire en s
 
 ## Information
 
-<Alert color="info">
-    C’est une alerte d’information avec un <a href="#" class="alert-link">exemple de lien.</a>.
-</Alert>
-
-<codeblock html='
-    <div class="alert alert-info" role="alert">
-        C’est une alerte d’information avec un <a href="#" class="alert-link">exemple de lien.</a>.
-    </div>
-' react='
-<Alert color="info">
-    C’est une alerte d’information avec un <a href="#" class="alert-link">exemple de lien.</a>.
-</Alert>
-'></codeblock>
-
 Les notifications d’information servent à fournir des renseignements supplémentaires et des notes à l’utilisateur qu’elles peuvent trouver utiles selon le contexte.
 
 Exemple d’information : « Vous pouvez changer votre mot de passe dans les paramètres. »
 
 ## Succès
-
-<Alert color="success">
-    C’est une alerte en cas de succès avec un <a href="#" class="alert-link">exemple de lien.</a>.
-</Alert>
-
-<codeblock html='
-    <div class="alert alert-success" role="alert">
-        C’est une alerte en cas de succès avec un <a href="#" class="alert-link">exemple de lien.</a>.
-    </div>
-' react='
-<Alert color="success">
-    C’est une alerte en cas de succès avec un <a href="#" class="alert-link">exemple de lien.</a>.
-</Alert>
-'></codeblock>
 
 Les notifications de succès sont utilisées pour confirmer qu’une tâche a été achevée avec succès.
 
@@ -109,13 +48,13 @@ Une ombre portée est utilisée pour montrer à l’utilisateur que la notificat
 
 Les couleurs utilisées pour les notifications sont de la palette de conception du système.
 
-Couleur hexadécimale pour les notifications d’erreur : <badge style="background-color: #D3080C">#D3080C</badge>
+Couleur hexadécimale pour les notifications d’erreur : no D3080C
 
-Couleur hexadécimale pour les notifications d’avertissement : <badge style="background-color: #FF9900">#FF9900</badge>
+Couleur hexadécimale pour les notifications d’avertissement : no FF9900
 
-Couleur hexadécimale pour les notifications d’information : <badge style="background-color: #269ABC">#269ABC</badge>
+Couleur hexadécimale pour les notifications d’information : no 269ABC
 
-Couleur hexadécimale pour les notifications de succès : <badge style="background-color: #278400">#278400</badge>
+Couleur hexadécimale pour les notifications de succès : no 278400
 
 ### Emplacement
 
@@ -140,13 +79,13 @@ Exemple d’une notification claire : Votre photo de profil a été modifiée av
 Les notifications sont automatiquement chronométrées pour améliorer la fluidité du site Web. Le chronométrage des notifications est fondé sur l’estimation prudente d’une vitesse de lecture de 200 mots par minute.
 
 Les courtes notifications (70 caractères ou moins) devraient avoir :
-* Une animation d’affichage de 0,4 seconde.
-* Une durée d’affichage de 3,5 secondes.
-* Une animation de masquage d’une (1) seconde.
+•	Une animation d’affichage de 0,4 seconde.
+•	Une durée d’affichage de 3,5 secondes.
+•	Une animation de masquage d’une (1) seconde.
 
 Les longues notifications (de 70 à 140 caractères) devraient avoir :
-* Une animation d’affichage de 0,4 seconde.
-* Une durée d’affichage de sept (7) secondes.
-* Une animation de masquage de deux (2) secondes.
+•	Une animation d’affichage de 0,4 seconde.
+•	Une durée d’affichage de sept (7) secondes.
+•	Une animation de masquage de deux (2) secondes.
 
 Si votre notification fait plus de 140 caractères, envisager une différente méthode de communiquer le message.

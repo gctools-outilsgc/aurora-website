@@ -95,4 +95,4 @@ ToggleCodeBlock.defaultProps = {
     isShowingCode: false
 }
 
-export default translate("CodeBlock")(ToggleCodeBlock);
+export default translate()(ToggleCodeBlock);

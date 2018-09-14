@@ -5,9 +5,6 @@ lang: "en"
 title: "System vocabulary"
 ---
 
-<helmet>
-<title> System Vocabulary - Aurora Design System </title>
-</helmet>
 
 # System Vocabulary
 
@@ -97,31 +94,34 @@ title: "System vocabulary"
 
 **the Wire:** (n) A mirco-blogging feature on the application.
 
-## Call-to-actions
+profile
+micro-service
+application v. site
+wiki
+blog
+discussions
+Search
+timestamp
+newest/popular
+message
+notifications
+login v. log in
+settings
+the Wire
+timeline/newfeed
+groups v. communities
+Career Marketplace
+colleagues
+badges
+avatar v. image
+members
+shares v. likes
+widgets
+select v. choose
+view v. see
+export v. download
+import v. upload
+ampersands v. and
+Always use the word "and". The system will never use an ampersand in buttons or other text.
 
-Call-to-actions should always be placed in close proximity to their related subject. The user should understand what action will occur by clicking the button or link from the context and language used.
-
-### Common call-to-actions
-
-
-**Contact us** - Directs the user to a page containing the information required to reach your team. This may include email, phone number or a link to help desk.
-
-**Give us feedback** - Opens a page or window where a user can enter information about the related application or feature.
-
-**Create group** - Directs the user to a page where they can make a new group within the application.
-
-**Join group** - Adds user to the group's list of members.
-
-**Invite to group** - Opens a page or window where a user can input the information of another user to send them an invite email or notification.
-
-**Add colleague** - Sends a request for a user to be added to each other's connection list.
-
-**Upload file** - Opens a window which allows a user to upload a file onto a repository on the application.
-
-**Favourite** - Adds the content to a user's list of favourites.
-
-**Follow** - Sets update notifications of the related group, user or topic for the user.
-
-**Get started** - Directs the user to an overview landing pafe for the application.
-
-**Learn more** - Directs the user to a page with more in-depth information about the related topic.
+## Common Call-to-Actions

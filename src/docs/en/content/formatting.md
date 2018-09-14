@@ -5,10 +5,6 @@ lang: "en"
 title: "Formatting"
 ---
 
-<helmet>
-<title> Content Formatting - Aurora Design System </title>
-</helmet>
-
 # Content Formatting
 
 ## Capitalization
@@ -18,6 +14,10 @@ All capitalization in the system uses sentence case. Titles, buttons, navigation
 Acronyms and abbreviations should be avoided. Write out acronyms and abbreviations whenever possible. Acronyms should only be used if  the acronym is more commonly understood than the full name (i.e. NATO)
 
 Acronyms and abbreviations should always be capitalized. Acronyms do not require a period after each letter.
+
+## Contractions
+
+## Numbered and Bulleted Lists
 
 ## Dates, Numbers and Addresses
 
@@ -37,6 +37,20 @@ Time in this system is formatted using the 12-hour clock. For events and other c
 
 Units of measurement in this system will always use the metric system.
 
+## Places, Names and Formal Nouns
+
+## Colons
+
 ## Ampersands
 
 System messaging and text will never use ampersands. Instead, spell out the word "and".
+
+## Commas, Ellipses, Colons
+
+## En and Em Dashes
+
+## Hyphens, Slashes and Pipes
+
+## Bold and Italics
+
+## Quotation Marks

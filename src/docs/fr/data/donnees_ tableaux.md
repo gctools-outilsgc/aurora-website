@@ -5,10 +5,6 @@ lang: "fr"
 title: "Tableaux"
 ---
 
-<helmet>
-<title> Tableaux - Système de conception Aurora </title>
-</helmet>
-
 # Tableaux
 
 Les tableaux de données sont utilisés pour montrer une grande quantité de données distinctes avec de multiples catégories. Les données peuvent être filtrées et ordonnées à l’aide d’un tableau de données. Pour une visualisation des données, le tableau avec les données brutes devrait l’accompagner. Les tableaux sont la méthode la plus simple et la plus accessible pour afficher les données et pour fournir des renseignements précis sur chaque ensemble de données. Les tableaux permettent à l’utilisateur de référencer des valeurs individuelles, tandis que les visualisations sont plus facilement en mesure de représenter les tendances dérivées de ces valeurs.

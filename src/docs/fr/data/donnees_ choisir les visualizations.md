@@ -5,10 +5,6 @@ lang: "fr"
 title: "Choisir les visualizations"
 ---
 
-<helmet>
-<title> Choisir les visualisations - Système de conception Aurora </title>
-</helmet>
-
 # Choisir les visualisations
 
 ## Tableaux

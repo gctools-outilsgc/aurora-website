@@ -5,10 +5,6 @@ lang: "fr"
 title: "Graphiques linéaires"
 ---
 
-<helmet>
-<title> Graphiques linéaires - Système de conception Aurora </title>
-</helmet>
-
 # Graphiques linéaires
 
 ## Échéancier

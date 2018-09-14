@@ -5,10 +5,6 @@ lang: "fr"
 title: "Diagrammes à barres ou colonne"
 ---
 
-<helmet>
-<title> Diagrammes à barres ou colonne - Système de conception Aurora </title>
-</helmet>
-
 ## Diagrammes à barres ou colonne
 
 *Exemple d’images de graphiques à barres*

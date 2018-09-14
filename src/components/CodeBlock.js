@@ -1,8 +1,7 @@
 import React from 'react';
-import { Button, ButtonGroup, Row, Col, Container, Nav, NavItem, NavLink } from 'reactstrap';
+import { Button, ButtonGroup, Row, Col, Container } from 'reactstrap';
 import 'prismjs';
 import 'prismjs/components/prism-jsx';
-import 'prismjs/themes/prism.css';
 import { PrismCode } from 'react-prism';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import PropTypes from 'prop-types';
@@ -54,35 +53,34 @@ class CodeBlock extends React.Component {
   render() {
     return (
       <Container>
-        <Row className="codeblock" style={(this.props.isShowingCode) ? { "display": "flex" } : { "display": "none" }}>
-          <Col md="12">
-            <Nav tabs>
-              <NavItem>
-                <NavLink
-                href="#"
-                onClick={() => this.changeOutput("react")}
-                className={(!(this.state.output === "react")) ? "" : "active"}>
-                  React
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                href="#"
+        <Row className="codeblock" style={(this.props.isShowingCode) ? { "display": "flex", "backgroundColor": "white" } : { "display": "none", "backgroundColor": "white" }}>
+          <Col md="9">
+            <ButtonGroup className="float-left">
+              <Button
                 onClick={() => this.changeOutput("html")}
-                className={(!(this.state.output === "html")) ? "" : "active"}>
-                  HTML
-                </NavLink>
-              </NavItem>
-            </Nav>
+                style={(this.state.output === "html") ? { "backgroundColor": "white", "borderBottomColor": "#5DC1BE" } : { "backgroundColor": "white" }}
+                color="default"
+              >
+                HTML
+                        </Button>
+              <Button
+                onClick={() => this.changeOutput("react")}
+                style={(!(this.state.output === "html")) ? { "backgroundColor": "white", "borderBottomColor": "#5DC1BE" } : { "backgroundColor": "white" }}
+                color="default"
+              >
+                REACT
+                        </Button>
+            </ButtonGroup>
           </Col>
-
-          <Col md="12" style={{ "width": "100%" }}>
+          <Col md="3">
             <CopyToClipboard text={(this.state.output === "html") ? this.props.html : this.props.react}>
-              <Button style={{'position':'absolute', 'right':'20px', 'top':'12px'}} color="primary" size="sm" outline onClick={this.copy} className="float-right">
+              <Button onClick={this.copy} style={{ "backgroundColor": "white", "color": "black" }} className="float-right">
                 {this.props.t(this.state.copyText)}
               </Button>
             </CopyToClipboard>
-            <pre style={{'padding-top':'40px'}}>
+          </Col>
+          <Col md="12" style={{ "width": "100%" }}>
+            <pre>
               <PrismCode className={(this.state.output === "html") ? "language-html" : "language-jsx"}>
                 {(this.state.output === "html") ? this.props.html : this.props.react}
               </PrismCode>
@@ -108,4 +106,4 @@ CodeBlock.defaultProps = {
 }
 
 
-export default translate("CodeBlock")(CodeBlock);
+export default translate()(CodeBlock);

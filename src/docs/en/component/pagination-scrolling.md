@@ -2,12 +2,8 @@
 path: "/component/pagination-scrolling"
 subnav: "3/Navigation/Navigation/7"
 lang: "en"
-title: "Pagination and scrolling"
+title: "Pagination and Scrolling"
 ---
-
-<helmet>
-<title> Pagination and Scrolling - Aurora Design System </title>
-</helmet>
 
 # Pagination and Scrolling
 
@@ -34,7 +30,7 @@ The active page number is shown in a rectangle with a padding of 10px, with a bo
 <pagination aria-label="Page navigation example">
     <paginationitem>
         <paginationlink href="#">
-        « <!-- previous="true" doesn't work, this needs a solution  -->
+        << <!-- previous="true" doesn't work, this needs a solution  -->
         </paginationlink>
     </paginationitem>
     <paginationitem>
@@ -64,67 +60,10 @@ The active page number is shown in a rectangle with a padding of 10px, with a bo
     </paginationitem>
     <paginationitem>
         <paginationlink href="#">
-        »
+        >>
         </paginationlink>
     </paginationitem>
 </pagination>
-
-<codeblock
-    react='
-    <Pagination>
-        <PaginationItem>
-          <PaginationLink previous href="#" />
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink href="#">
-            1
-          </PaginationLink>
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink href="#">
-            2
-          </PaginationLink>
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink href="#">
-            3
-          </PaginationLink>
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink href="#">
-            4
-          </PaginationLink>
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink href="#">
-            5
-          </PaginationLink>
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink next href="#" />
-        </PaginationItem>
-    </Pagination>'
-    html='
-    <nav>
-        <ul class="pagination">
-            <li class="page-item">
-            <a class="page-link" href="#" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-                <span class="sr-only">Previous</span>
-            </a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item">
-            <a class="page-link" href="#" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-                <span class="sr-only">Next</span>
-            </a>
-            </li>
-        </ul>
-    </nav>'>
-</codebloack>
 
 ### Best Practices
 

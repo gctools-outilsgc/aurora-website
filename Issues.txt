@@ -1,0 +1,5 @@
+Things that don't sync up with the master:
+
+-> Search is broken since the plugin that did search is incompatible with older browsers
+-> Sidenav/Subnav and Header active link isn't showing (probably a very simple fix since the code hasn't really changed for the components)
+-> PaginationLinkPrev breaks the IE build: importing reactstrap utils.js causes syntax errors (maybe babel isn't running anythign on it??)

@@ -5,9 +5,6 @@ lang: "fr"
 title: "Fil d'Ariane"
 ---
 
-<helmet>
-<title> Fil d'Ariane - Système de conception Aurora </title>
-</helmet>
 
 # Fil d’Ariane
 
@@ -21,30 +18,10 @@ Le fil d’Ariane devrait être complémentaire à la navigation principale et n
 
 Le fil d’Ariane dans le système de conception est comme suit :
 
-<breadcrumb>
-    <breadcrumbitem><a href="#">Page principale</a></breadcrumbitem>
-    <breadcrumbitem><a href="#">Page secondaire</a></breadcrumbitem>
-    <breadcrumbitem active="true">Page actuelle</breadcrumbitem>
-</breadcrumb>
-
-<codeblock html='
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Page principale</a></li>
-            <li class="breadcrumb-item"><a href="#">Page secondaire</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Page actuelle</li>
-        </ol>
-    </nav>
-' react='
-<Breadcrumb>
-    <BreadCrumbItem><a href="#">Page principale</a></BreadCrumbItem>
-    <BreadCrumbItem><a href="#">Page secondaire</a></BreadCrumbItem>
-    <BreadCrumbItem active="true">Page actuelle</BreadCrumbItem>
-</Breadcrumb>
-'></codeblock>
+*Composante du fil d’Ariane*
 
 Chaque couche du fil d’Ariane est stylisée à l’aide du texte de lien. Le dernier élément n’est jamais un lien puisqu’il s’agit de la page actuelle et qu’il n’est pas cliquable. Le dernier élément est stylisé à l’aide du texte normal.
 
-Entre chaque couche, il y a une icône de chevron dont la couleur est le <badge style="background-color: #A0A0A0">#A0A0A0</badge>.
+Entre chaque couche, il y a une icône de chevron dont la couleur est le no A0A0A0.
 
 Chaque couche a un espacement de 12 px de chaque côté du chevron.

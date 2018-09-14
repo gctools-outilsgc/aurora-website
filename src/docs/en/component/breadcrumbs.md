@@ -5,10 +5,6 @@ lang: "en"
 title: "Breadcrumbs"
 ---
 
-<helmet>
-<title> Breadcrumbs - Aurora Design System </title>
-</helmet>
-
 # Breadcrumbs
 
 Breadcrumbs are a secondary navigation element that identify to a user their location on a website or application. Breadcrumbs are a visual representation of the site's hierarchy of information.
@@ -21,7 +17,11 @@ Breadcrumbs should be complimentary to primary navigation and should never be us
 
 Breadcrumbs in this design system are as follows:
 
-![Breadcrumbs component](../../../img\components\breadcrumbs.png)
+<breadcrumb>
+    <breadcrumbitem><a href="#">Main Page</a></breadcrumbitem>
+    <breadcrumbitem><a href="#">Secondary Page</a></breadcrumbitem>
+    <breadcrumbitem active="true">Current Page</breadcrumbitem>
+</breadcrumb>
 
 <codeblock html='
     <nav aria-label="breadcrumb">
@@ -41,6 +41,6 @@ Breadcrumbs in this design system are as follows:
 
 Each layer of breadcrumbs is styled using link text. The last item is never a link since it is the current page and not clickable. The last item is styled using standard text.
 
-In between each layer there is a chevron icon coloured <badge style="background-color: #A0A0A0;">#A0A0A0</badge>
+In between each layer there is a chevron icon coloured \#A0A0A0
 
 Each layer has spacing of 12px on either side of the chevron.

@@ -5,10 +5,6 @@ lang: "en"
 title: "Button inputs"
 ---
 
-<helmet>
-<title> Button Inputs - Aurora Design System </title>
-</helmet>
-
 # Button Inputs
 
 ## Checkboxes
@@ -33,36 +29,28 @@ Checkboxes have four different states:
     </div>
 ' react='' />
 
-**Normal:**
-
-18px by 18px box, border radius of 4px, background colour of <badge style="background-color: #F9F9F9;color:black;">#F9F9F9</badge> , border colour of <badge style="background-color: #96A8B2;">#96A8B2</badge>  at 1px
+**Normal:** 18px by 18px box, border radius of 4px, background colour of \#F9F9F9, border colour of \#96A8B2 at **1px**
 
 <div class="custom-control custom-checkbox">
     <input type="checkbox" class="custom-control-input" id="customCheck2">
     <label class="custom-control-label" for="customCheck2">Custom check</label>
 </div>
 
-**Hover:**
-
-18px by 18px box, border radius of 4px, background color <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, border colour of <badge style="background-color: #4D5D6C;">#4D5D6C</badge> at 1px
+**Hover:** 18px by 18px box, border radius of 4px, background color \#FFFFFF, border colour of \#4D5D6C at **1px**
 
 <div class="custom-control custom-checkbox">
     <input type="checkbox" class="custom-control-input" id="customCheck3">
     <label class="custom-control-label" for="customCheck3">Custom check</label>
 </div>
 
-**Focus:**
-
-18px by 18px box, border radius of 4px, background color <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, border colour of <badge style="background-color: #4D5D6C;">#4D5D6C</badge> at 3px
+**Focus:** 18px by 18px box, border radius of 4px, background color \#FFFFFF, border colour of \#4D5D6C at **3px**
 
 <div class="custom-control custom-checkbox">
     <input type="checkbox" class="custom-control-input" id="customCheck4">
     <label class="custom-control-label" for="customCheck4">Custom check</label>
 </div>
 
-**Active:**
-
-18px by 18px box, border radius of 4px, background colour <badge style="background-color: #4D5D6C;">#4D5D6C</badge>, border colour of <badge style="background-color: #96A8B2;">#96A8B2</badge>. Includes a white check icon centered within the box.
+**Active:** 18px by 18px box, border radius of 4px, background colour \#4D5D6C, border colour of \#96A8B2 . Includes a white check icon centered within the box.
 
 ## Radio Buttons
 
@@ -86,35 +74,28 @@ Labels for radio buttons are aligned to the right of the button.
     </div>
 ' react='' />
 
-**Normal:**
-
-18px by 18px circle, background colour of <badge style="background-color: #F9F9F9;color:black;">#F9F9F9</badge>, border colour of <badge style="background-color: #96A8B2;">#96A8B2</badge> at 1px
+**Normal:** 18px by 18px circle, background colour of \#F9F9F9, border colour of \#96A8B2 at 1px
 
 <div class="custom-control custom-radio">
     <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
     <label class="custom-control-label" for="customRadio2">Custom radio</label>
 </div>
 
-**Hover:**
-
-18px by 18px circle, background color <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, border colour of <badge style="background-color: #4D5D6C;">#4D5D6C</badge> at 1px
+**Hover:** 18px by 18px circle, background color \#FFFFFF, border colour of \#4D5D6C at 1px
 
 <div class="custom-control custom-radio">
     <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
     <label class="custom-control-label" for="customRadio3">Custom radio</label>
 </div>
 
-**Focus:**
-
-18px by 18px circle, border radius of 4px, background color <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, border colour of <badge style="background-color: #4D5D6C;">#4D5D6C</badge> at 3px
+**Focus:** 18px by 18px circle, border radius of 4px, background color \#FFFFFF, border colour of \#4D5D6C at 3px
 
 <div class="custom-control custom-radio">
     <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
     <label class="custom-control-label" for="customRadio4">Custom radio</label>
 </div>
 
-**Active:**
-18px by 18pxcircle, border radius of 4px, background colour <badge style="background-color: #4D5D6C;">#4D5D6C</badge>, border colour of <badge style="background-color: #96A8B2;">#96A8B2</badge>. Includes filled in smaller circle within the full button.
+**Active:** 18px by 18pxcircle, border radius of 4px, background colour \#4D5D6C, border colour of \#96A8B2. Includes filled in smaller circle within the full button.
 
 ## Switches
 
@@ -138,7 +119,7 @@ Switches have four different states:
 
 **Off:**
 
-32px by 18px, border radius of 9px, slider background colour of <badge style="background-color: #E3E4E5;color:black;">#E3E4E5</badge>, knob colour <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, border 1px with a colour of <badge style="background-color: #66666;color:black;">#66666</badge>. The knob is on the left of the slider.
+32px by 18px, border radius of 9px, slider background colour of \#E3E4E5, knob colour \#FFFFFF, border 1px with a colour of \#66666. The knob is on the left of the slider.
 
 <label class="switch">
     <input type="checkbox" tabindex="-1">
@@ -147,16 +128,14 @@ Switches have four different states:
 
 **Off, Hover/Focus:**
 
-32px by 18px, border radius of 9px, slider background colour of <badge style="background-color: #E3E4E5;color:black;">#E3E4E5</badge>, knob colour of <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge> with a border of 3px and border colour of <badge style="background-color: #4D5D6C;">#4D5D6C</badge> , border 1px with a colour of <badge style="background-color: #66666;color:black;">#66666</badge>. The knob is on the left of the slider.
+32px by 18px, border radius of 9px, slider background colour of \#E3E4E5, knob colour of \#FFFFFF with a border of 3px and border colour of \#4D5D6C , border 1px with a colour of \#66666. The knob is on the left of the slider.
 
 <label class="switch">
     <input type="checkbox" checked>
     <span class="slider round"></span>
 </label>
 
-**On:**
-
-32px by 18px, border radius of 9px, slider background colour of <badge style="background-color: #FEC04F;color:black;">#FEC04F</badge>, knob colour <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, border 1px with a colour of <badge style="background-color: #66666;color:black;">#66666</badge>. The knob is on the right of the slider.
+**On: 32px by 18px**, border radius of **9px**, slider background colour of \#FEC04F, knob colour \#FFFFFF, border 1px with a colour of \#66666. The knob is on the right of the slider.
 
 <label class="switch">
     <input type="checkbox" checked>
@@ -165,7 +144,7 @@ Switches have four different states:
 
 **On, Hover/Focus:**
 
-32px by 18px, border radius of 9px, slider background colour of <badge style="background-color: #FEC04F;color:black;">#FEC04F</badge>, knob colour <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge> with a border of 3px and colour of <badge style="background-color: #4D5D6C;">#4D5D6C</badge>, border 1px with a colour of <badge style="background-color: #66666;color:black;">#66666</badge>. The knob is on the right of the slider.
+32px by 18px, border radius of 9px, slider background colour of \#FEC04F, knob colour \#FFFFFF with a border of 3px and colour of \#4D5D6C, border 1px with a colour of \#66666. The knob is on the right of the slider.
 
 ## Action Buttons
 

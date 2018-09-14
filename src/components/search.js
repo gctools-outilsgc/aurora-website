@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { Link } from 'gatsby';
+import Link from 'gatsby-link';
 import {
     Dropdown,
     DropdownToggle,
     DropdownMenu,
     Input,
-    ListGroupItem
+    ListGroupItem,
+    Label
 } from 'reactstrap';
-import "./search.scss"
 
 // Search component
 export default class Search extends Component {
@@ -23,11 +23,11 @@ export default class Search extends Component {
 
     render() {
         return (
-            <div className="search-form search-form-round" style={{width:'300px', display:'inline-block'}}>
+            <div className="search-form search-form-round" style={{width:'300px'}}>
                 <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-                    <label for="search" className="sr-only">
+                    <Label for="search" className="sr-only">
                         {this.props.placeholder}
-                    </label>
+                    </Label>
                     <DropdownToggle
                         tag={Input}
                         type="text"
@@ -45,7 +45,7 @@ export default class Search extends Component {
                                 </ListGroupItem>
                             )
                             :
-                            <ListGroupItem toggle={false}>
+                            <ListGroupItem toggle={"false"}>
                                 No results were found.
                             </ListGroupItem>
                         }

@@ -5,10 +5,6 @@ lang: "en"
 title: "Search"
 ---
 
-<helmet>
-<title> Search - Aurora Design System </title>
-</helmet>
-
 # Search
 
 Search bars help the user find relevant content within your site or application. Search bars are a universal feature that is expected on most sites, particularly ones with large amounts of content.

@@ -5,10 +5,6 @@ lang: "fr"
 title: "Aperçu"
 ---
 
-<helmet>
-<title> Aperçu - Système de conception Aurora </title>
-</helmet>
-
 # Aperçu
 
 La visualisation des données prend de nombreuses formes et constitue un moyen visuel de représenter un jeu de données.

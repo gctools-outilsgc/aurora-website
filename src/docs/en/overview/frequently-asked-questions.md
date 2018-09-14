@@ -4,11 +4,6 @@ subnav: "1/About/À notre sujet/3"
 lang: "en"
 title: "Frequently asked questions"
 ---
-
-<helmet>
-<title> Frequently Asked Questions - Aurora Design System </title>
-</helmet>
-
 # Frequently Asked Questions
 
 ## What is a design system?

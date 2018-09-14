@@ -5,10 +5,6 @@ lang: "fr"
 title: "Lignes directrices sur le contenu"
 ---
 
-<helmet>
-<title> Lignes directrices sur le contenu - Système de conception Aurora </title>
-</helmet>
-
 # Lignes directrices sur le contenu
 
 ## Niveau de lecture et langage clair et simple

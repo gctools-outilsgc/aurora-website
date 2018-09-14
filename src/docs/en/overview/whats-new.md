@@ -4,11 +4,6 @@ subnav: "1/About/À notre sujet/2"
 lang: "en"
 title: "What's new?"
 ---
-
-<helmet>
-<title> What's New - Aurora Design System </title>
-</helmet>
-
 # What's New
 
 Latest updates to the \#GCDigital Design System.

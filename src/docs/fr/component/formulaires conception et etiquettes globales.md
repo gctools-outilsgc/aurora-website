@@ -5,10 +5,6 @@ lang: "fr"
 title: "Formulaires: conception et étiquettes globales"
 ---
 
-<helmet>
-<title> Formulaires: conception et étiquettes globals - Système de conception Aurora </title>
-</helmet>
-
 # Formulaires: conception et étiquettes globales
 
 ## Conception
@@ -31,8 +27,6 @@ Les utilisateurs doivent être en mesure de lire facilement les étiquettes et d
 Si des renseignements supplémentaires sont nécessaires au-delà de l’étiquette, ces renseignements devraient être publiés dans une infobulle ou une microcopie séparée.
 (Exemple d’image ici)
 
-![Do and don't image representing the correct use of form labels](https://github.com/gctools-outilsgc/design-system-code/blob/documentation/src/img/examples/Form%20Labels.png)
-
 ### Placement des étiquettes
 
 Les étiquettes devraient suivre le format vertical du formulaire. Placez les étiquettes au dessus de leur champ respectif. Groupez une étiquette avec une étiquette avec son champ pour qu’il y ait une distinction claire entre les champs. N’utilisez pas le texte d’espace réservé pour les étiquettes, car cela empêche l’utilisateur de passer en revue de façon appropriée le formulaire. Les étiquettes ont une marge inférieure de 10 px du champ de saisie.
@@ -49,17 +43,15 @@ Le texte d’espace réservé vise à aider l’utilisateur à remplir avec plus
 
 Dès que l’utilisateur commence à taper dans le champ, le texte d’espace réservé devrait disparaître.
 
-Le style de police du texte d’espace réservé est le « Nunito Sans Regular », à 14 px, <badge style="background-color: #666666">#666666</badge>.
+Le style de police du texte d’espace réservé est le « Nunito Sans Regular », à 14 px, no 666666.
 
-![Do and don't image representing the correct use of placeholder text](https://github.com/gctools-outilsgc/design-system-code/blob/documentation/src/img/examples/Placeholder%20Text.png)
-
-Pour obtenir de plus amples renseignements sur les styles de polices du texte d’espace réservé, veuillez consulter la section sur la [_Ttypographie_](typographie.md).
+Pour obtenir de plus amples renseignements sur les styles de polices du texte d’espace réservé, veuillez consulter la section sur la typographie.
 
 ## Microcopie
 La microcopie est le texte dessous et le champ de saisie qui fournit des renseignements supplémentaires sur ce champ. Les microcopies devraient être des phrases brèves qui indiquent à l’utilisateur comment remplir le champ.
 
 Le style des nombres est comme suit :
-10 px sous le champ de saisie. Le texte est affiché de la même façon que le texte d’espace réservé; Nunito Sans Regular à 14 px, <badge style="background-color: #666666">#666666</badge>
+10 px sous le champ de saisie. Le texte est affiché de la même façon que le texte d’espace réservé; Nunito Sans Regular à 14 px, no 666666
 
 S’il y a plus d’une ligne, le texte retourne à ligne et a un interlignage sur 18 points.
 
