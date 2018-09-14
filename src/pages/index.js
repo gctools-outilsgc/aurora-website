@@ -23,10 +23,11 @@ const IndexPage = ({ data, t, i18n }) => (
     <Helmet>
       <title>{t("AuroraDesignSystem")}</title>
     </Helmet>
+    <h1 className="sr-only">{t("AuroraDesignSystem")}</h1>
     <main id="main-content" role="main">
       <div className="hero-holder">
       <Container>
-        <h1 className="display-5">{t("AuroraDesignSystem")}</h1>
+        <h2 className="display-5">{t("Tagline")}</h2>
         <p className="lead">
           {t("TopIntro")}
         </p>
@@ -122,21 +123,21 @@ export default translate("FrontPage")(IndexPage);
 
 export const query = graphql`
 query {
-  eye:file(relativePath: { regex: "/eye/" }) {
+  eye:file(relativePath: { regex: "/designer/" }) {
     childImageSharp {
       fluid {
       ...GatsbyImageSharpFluid
       }
     }
   }
-  gears:file(relativePath: { regex: "/gears/" }) {
+  gears:file(relativePath: { regex: "/developer/" }) {
     childImageSharp {
       fluid {
       ...GatsbyImageSharpFluid
       }
     }
   }
-  pen:file(relativePath: { regex: "/pen/" }) {
+  pen:file(relativePath: { regex: "/writer/" }) {
     childImageSharp {
       fluid {
       ...GatsbyImageSharpFluid
@@ -150,7 +151,7 @@ query {
       }
     }
   }
-  pie:file(relativePath: { regex: "/pie/" }) {
+  pie:file(relativePath: { regex: "/datasci/" }) {
     childImageSharp {
       fluid {
       ...GatsbyImageSharpFluid
