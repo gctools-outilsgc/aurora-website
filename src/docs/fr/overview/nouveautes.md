@@ -13,6 +13,11 @@ title: "Nouveautés"
 
 Dernières mises à jour au système de conception Aurora.
 
+##Version 1
+le 19 septembre, 2018
+
+![Image de marque Aurora](../../../img\aurora-banner-small.png)
+
 ## Juin 2018
 
 Travaillant maintenant à la phase II, l’équipe de conception s’est divisée en de plus petites équipes de travail, dont des développeurs, des rédacteurs, des concepteurs et des chercheurs de l’expérience de travail. Nous procédons à des essais d’utilisation de certains de nos éléments, nous élaborons des feuilles de style et des composants HTML, et nous créons des modèles fil de fer pour construire la première itération du site Web du système de conception.

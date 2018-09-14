@@ -84,7 +84,7 @@ Les puces ont trois différentes variations et sont affichées comme suit :
 
 **Normal** : Case rectangulaire remplie avec <badge style="background-color: #CECECE; color: black">#CECECE</badge>. Texte noir. Petit avatar (26 px sur 26 px) aligné à gauche.
 
-**Contrôle de l’utilisateur** : Même chose que normal, mais il y a un icône de suppression supplémentaire à droite. Cette icône a la couleur #4D5D6C ainsi qu’un « x » transparent et elle est alignée à droite. Petit avatar (26 px sur 26 px) aligné à gauche.
+**Contrôle de l’utilisateur** : Même chose que normal, mais il y a un icône de suppression supplémentaire à droite. Cette icône a la couleur <badge style="background-color: #4D5D6C">#4D5D6C</badge> ainsi qu’un « x » transparent et elle est alignée à droite. Petit avatar (26 px sur 26 px) aligné à gauche.
 
 **Pointage** : Même chose que la puce contrôlée par l’utilisateur, mais a une couleur d’arrière-plan <badge style="background-color: #4D5D6C">#4D5D6C</badge>, et l’icône de suppression est blanc et un « x » transparent y figure. Petit avatar (26 px sur 26px) aligné à gauche.
 
