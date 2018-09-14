@@ -5,6 +5,10 @@ lang: "en"
 title: "Legends and tooltips"
 ---
 
+<helmet>
+<title> Legends and Tooltips - Aurora Design System </title>
+</helmet>
+
 # Legends and Tooltips
 
 In general, legends and tooltips should only be used on data sets when absolutely necessary. If enough context can provided directly on the chart or graph without obscuring data or adding a significant amount of visual clutter, a legend or tooltip is not needed.
@@ -21,7 +25,7 @@ Do not rely only on colour, different shapes can be used for individual data poi
 
 #### Side Aligned Legend
 
-*Side-aligned legend component*
+![Side-aligned legend component](../../../img\components\side_aligned_legend_1.png)
 
 Side-aligned legends are styled as follows:
 
@@ -29,7 +33,7 @@ Card component, rectangle (white, <badge style="background-color: #FFFFFF;color:
 
 #### Bottom Aligned Legend
 
-*Bottom-aligned legend component*
+![Bottom-aligned legend component](../../../img\components\bottom_aligned_legend.png)
 
 Bottom-aligned legends are styled as follows:
 

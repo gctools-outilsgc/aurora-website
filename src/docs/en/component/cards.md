@@ -4,6 +4,9 @@ subnav: "2/Standard/Standard/4"
 lang: "en"
 title: "Cards"
 ---
+<helmet>
+<title> Cards - Aurora Design System </title>
+</helmet>
 
 # Cards
 
@@ -16,8 +19,6 @@ A card should only contain a single idea which may feature a call-to-action, or 
 Cards can make your web product more engaging. However, you should consider the type of information you are sharing, as well as how the user will be viewing this information before you decide to use a card.
 
 If multiple cards are placed on a page, they should be placed 16px apart on all sides.
-
-*Example image of cards used on a page*
 
 ### Components of a card
 
@@ -180,7 +181,6 @@ Cards can technically include any number of component combinations. Using the ba
             <p class="text-muted">Job title or meta information</p>
             <button type="button" class="btn btn-primary">Call to Action</button>
             </div>
-
         </div>
     </div>
     <div class="card mb-2 d-inline-block" style="max-width: 18rem;">

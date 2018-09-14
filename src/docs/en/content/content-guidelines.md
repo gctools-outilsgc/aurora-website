@@ -4,6 +4,9 @@ subnav: "1/Content/Contenu/1"
 lang: "en"
 title: "Content guidelines"
 ---
+<helmet>
+<title> Content Guidelines - Aurora Design System </title>
+</helmet>
 
 # Content Guidelines
 

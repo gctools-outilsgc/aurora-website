@@ -5,6 +5,10 @@ lang: "en"
 title: "System messaging"
 ---
 
+<helmet>
+<title> System Messaging - Aurora Design System </title>
+</helmet>
+
 # System Messaging
 
 System notifications are short messages that appear to communicate information to the user. Notifications appear as pop-up banners which need to be dismissed or timed-out. There are four levels of severity which can be applied to the notifications: error, warning, information and success.
@@ -131,21 +135,3 @@ Notifications are 62px by 425px. The text has a 15px padding on the top and on t
 The notification messages should straightforward and as short as possible, and use key words. Long messages can be unclear and may affect the sizing and readability of the message.
 
 Example of a clear notification: Your profile picture has been changed successfully.
-
-### Timing-out
-
-Notifications are automatically timed-out to improve the flow of the website. The timing-out of notifications is based on the conservative estimate of a reading speed of 200 words-per-minute.
-
-Short notifications \(70 characters or fewer\) should be timed with a:
-
-* Show animation of 0.4 seconds.
-* Show duration of 3.5 seconds.
-* Hide animation of 1 second.
-
-Long notifications \(70-140 characters\) should be timed with a:
-
-* Show animation of 0.4 seconds.
-* Show duration of 7 seconds.
-* Hide animation of 2 seconds.
-
-If your notification will be longer than 140 characters, consider a different method of communicating the message.

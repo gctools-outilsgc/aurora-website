@@ -5,6 +5,10 @@ lang: "en"
 title: "Blogs"
 ---
 
+<helmet>
+<title> Blogs - Aurora Design System </title>
+</helmet>
+
 # Blogs
 
 ## 7 Things I Learned from Leading a Design Project

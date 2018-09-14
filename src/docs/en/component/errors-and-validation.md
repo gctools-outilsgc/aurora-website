@@ -5,6 +5,10 @@ lang: "en"
 title: "Errors and validation"
 ---
 
+<helmet>
+<title> Errors and Validation - Aurora Design System </title>
+</helmet>
+
 # Errors and Validation
 
 ## Input Errors
@@ -19,7 +23,7 @@ Error boxes are styled as follows:
 
 Rectangle with the same width as the form container. 4px border radius and a stroke of width 1px using the colour <badge style="background-color: #923534;">#923534</badge>. The box has 15px padding. In the top left corner there is a red circle with a white "x" icon that is 25px.
 
-The box heading uses Heading 2 style, and the text uses the paragraph style. Error copy is displayed in a numbered list using \#923534. Each error is a link which leads the user to the inline error on the page.  
+The box heading uses Heading 2 style, and the text uses the paragraph style. Error copy is displayed in a numbered list using <badge style="background-color: #923534;">#923534</badge>. Each error is a link which leads the user to the inline error on the page.  
 
 <section class="alert alert-danger alert-icon-border">
     <h2>Field error or required</h2>

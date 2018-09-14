@@ -5,6 +5,10 @@ lang: "en"
 title: "Colour"
 ---
 
+<helmet>
+<title> Colour - Aurora Design System </title>
+</helmet>
+
 # Colour
 
 ## Palettes
@@ -21,7 +25,7 @@ Hex codes :
 
  <badge style="background-color: #000A3D;">#000A3D</badge>, <badge style="background-color: #467B8D;">#467B8D</badge>, <badge style="background-color: #5DC1BE;color: black; ">#5DC1BE</badge>, <badge style="background-color: #55C0A3; color:black;">#55C0A3</badge>, <badge style="background-color: #ADE18D; color:black;">#ADE18D</badge>
 
-### Thunder and Lightning
+#### Thunder and Lightning
 
 Hex codes :
 
@@ -74,8 +78,6 @@ Text in this design system is displayed in an off-black colour. Black text can b
 
 Please see [_Typography_](/typography.md) for more information about using text colour.
 
-*\(include a do/don't image\)*
-
 Hex code: <badge style="background-color: #252525;">#252525</badge>
 
 #### White Text
@@ -83,8 +85,6 @@ Hex code: <badge style="background-color: #252525;">#252525</badge>
 Light text in this design system is displayed in an off-white colour. White text can be used on any dark background \(see: Dark Theme\) or any button or element that uses a dark or light colour. When adding white text it is essential to check the contrast for accessibility. Significant contrast between the background/element colour and the text ensures readability, even for those with visual impairments such as colour blindness.
 
 Please see [_Typography_ ](/typography.md)for more information about using text colour.
-
-*\(include a do/don't image\)*
 
 Hex code: <badge style="background-color: #FFFFFF; color:black;">#FFFFFF</badge>
 

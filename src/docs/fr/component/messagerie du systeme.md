@@ -5,6 +5,10 @@ lang: "fr"
 title: "Messagerie du système"
 ---
 
+<helmet>
+<title> Messagerie du système - Système de conception Aurora </title>
+</helmet>
+
 # Messagerie du système
 
 Les notifications du système sont de courts messages qui apparaissent pour communiquer de l’information à l’utilisateur. Des notifications apparaissent comme des bannières en premier plan qui ont besoin d’être fermées ou qui se ferment après une période de temps. Il y a quatre niveaux de gravité qui peuvent être appliqués à la notification : erreur, avertissement, information et succès.

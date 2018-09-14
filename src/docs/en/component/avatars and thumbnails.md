@@ -5,6 +5,10 @@ lang: "en"
 title: "Avatars and thumbnails"
 ---
 
+<helmet>
+<title> Images, Avatars and Thumbnails - Aurora Design System </title>
+</helmet>
+
 # Images, Avatars and Thumbnails
 
 <div class="mt-3">

@@ -5,6 +5,10 @@ lang: "fr"
 title: "Saisies des boutons"
 ---
 
+<helmet>
+<title> Saisis des boutons - Système de conception Aurora </title>
+</helmet>
+
 # Saisies des boutons
 
 ## Cases à cocher

@@ -5,6 +5,9 @@ lang: "fr"
 title: "Infobulles"
 ---
 
+<helmet>
+<title> Infobulles - Système de conception Aurora </title>
+</helmet>
 
 # Infobulle
 ## Utilisation

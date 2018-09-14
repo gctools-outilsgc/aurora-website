@@ -5,6 +5,10 @@ lang: "en"
 title: "Breadcrumbs"
 ---
 
+<helmet>
+<title> Breadcrumbs - Aurora Design System </title>
+</helmet>
+
 # Breadcrumbs
 
 Breadcrumbs are a secondary navigation element that identify to a user their location on a website or application. Breadcrumbs are a visual representation of the site's hierarchy of information.
@@ -17,7 +21,7 @@ Breadcrumbs should be complimentary to primary navigation and should never be us
 
 Breadcrumbs in this design system are as follows:
 
-*Breadcrumbs component*
+![Breadcrumbs component](../../../img\components\breadcrumbs.png)
 
 <codeblock html='
     <nav aria-label="breadcrumb">

@@ -5,6 +5,10 @@ lang: "en"
 title: "Progress indicators"
 ---
 
+<helmet>
+<title> Progress Indicators - Aurora Design System </title>
+</helmet>
+
 # Progress Indicators
 
 **Design review currently in progress**
@@ -84,6 +88,14 @@ Percentage can be either aligned to the right of the bar, or the percentage can 
 Progress bars start empty and gradually fill with colour using an animation. The percentage shown should match the level of colour that fills the bar.
 
 ## Spinners
+
+<helmet>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</helmet>
+<i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"></i>
+<i class="fa fa-refresh fa-spin" style="font-size:24px"></i>
+<i class="fa fa-spinner fa-spin" style="font-size:24px"></i>
 
 Spinners are used to indicate that a page or function is loading. A general rule is to use spinners for processes that take less than 4 seconds. Spinners show indeterminate levels of progress, meaning there is no clear completion and the animation loops until the process is complete.
 

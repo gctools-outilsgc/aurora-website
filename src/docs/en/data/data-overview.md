@@ -5,6 +5,10 @@ lang: "en"
 title: "Overview"
 ---
 
+<helmet>
+<title> Data Overview - Aurora Design System </title>
+</helmet>
+
 # Data Overview
 
 Data visualizations come in many forms, and are a visual means to represent a data set. The type of data visualization chosen should always be appropriate for the type of data used.
@@ -23,17 +27,12 @@ Visuals should only enhance the data, and should never distract. Best practices 
 
 If one graph is too complex to represent a certain dataset, the data should be represented in multiple, simple graphs.
 
-![Do image representing data simplicity](../../../img\do_dont\simplicity_do.png)
-
-![Don't image representing data simplicity](../../../img\do_dont\simplicity_dont.png)
 
 ### Multiple Formats
 
 When you use data visualizations, it is recommended to represent the data in multiple formats where possible. Regardless of the type of visualization you use, a simple data table, or other ways of viewing the raw data, should be available somewhere on the page. This allows users to view and analyze the data in a way that makes the most sense to them, as well as easily identify individual data points.
 
-![Do image representing multiple formats](../../../img\do_dont\multiple formats_do.png)
-
-![Don't image representing multiple formats](../../../img\do_dont\multiple formats_dont.png)
+![Example image of data visualization using varying formats, a graph, a table and a paragraph for context](../../../img\do_dont\multiple formats_do.png)
 
 ## Labels
 
@@ -55,9 +54,7 @@ In some visualizations with many axis points, skipping labels is an effective wa
 
 On the x-axis, value labels should be centered to their corresponding tick mark. For y-axis labels, they should be left-aligned and kept above the y-axis lines. Long text labels should be rotated 45 degrees around an origin directly below their corresponding axis tick.
 
-![Do image representing data increments](../../../img\do_dont\data increments_do.png)
-
-![Don't image representing data increments](../../../img\do_dont\data increments_dont.png)
+![Exampl image of correct us of data increments](../../../img\do_dont\data increments_do.png)
 
 
 ### Data Formats and Abbreviations
@@ -67,7 +64,7 @@ When possible, labels and values should avoid abbreviations unless it is a conve
 Some data formats should always use abbreviations:
 
 | Days of the week | Mon, Tues, Wed, Thurs, Fri, Sat, Sun |
-| :--- | :--- |
+| -----------------|:------------------------------------:|
 | Months | Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec |
 | 12-hour time | 1am, 2pm, 12pm etc. |
 | Standard money abbreviations | $1.2k, $3.4m, $6.2b, etc. |
