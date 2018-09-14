@@ -27,7 +27,7 @@ const IndexPage = ({ data, t, i18n }) => (
           {t("TopIntro")}
         </p>
         <div>
-          <a href="/component" className="mb-1 btn btn-primary btn-lg">{t("MainCTA")}</a>
+          <Link to="/component" className="mb-1 btn btn-primary btn-lg">{t("MainCTA")}</Link>
           <div className="mb-3 mt-2">
             <a className="ext-link-text mr-3 mt-2" href="https://github.com/gctools-outilsgc/design-system"><FontAwesomeIcon className="mr-2" style={{"font-size":"1.5em", "color":"black"}} icon={faGithub} />{t("GithubLink")}</a>
             <a className="ext-link-text mt-2" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai"><FontAwesomeIcon className="mr-2" style={{"font-size":"1.5em", "color":"black"}} icon={faDownload} />{t("DownloadLink")}</a>
@@ -97,7 +97,7 @@ const IndexPage = ({ data, t, i18n }) => (
           <p className="lead" style={{ display: 'inline-block', paddingBottom: '10px', textAlign: 'left' }}>
             {t("BottomText")}
             <div>
-              <a href="/overview/introduction" className="btn btn-primary mt-3">{t("LearnMore")}</a>
+              <Link to="/overview/introduction" className="btn btn-primary mt-3">{t("LearnMore")}</Link>
             </div>
           </p>
         </div>

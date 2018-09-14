@@ -45,7 +45,7 @@ const Header = ({ siteTitle, t, i18n }) => (
       <div className="navbar-collapse nav-holder">
         <Nav tabs className="mx-auto nav-site scroll" style={{borderBottom:'none'}}>
           <NavItem>
-            <Link to="/overview/whats-new" className="nav-link">
+            <Link to="/overview/introduction" className="nav-link">
               {t("Overview")}
             </Link>
           </NavItem>
