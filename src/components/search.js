@@ -8,7 +8,7 @@ import {
     ListGroupItem,
     Label
 } from 'reactstrap';
-import {indexEN, indexFR, searchValues} from './SearchIndex';
+import {indexEN, indexFR, searchValuesEN, searchValuesFR} from './SearchIndex';
 
 // Search component
 export default class Search extends Component {
@@ -80,7 +80,12 @@ export default class Search extends Component {
 
                 this.state.results.map(page =>
                     <ListGroupItem tag={Link} to={page.ref}>
-                        {searchValues[page.ref]}
+                        {
+                          (this.props.lng === "en") ?
+                          searchValuesEN[page.ref]
+                          :
+                          searchValuesFR[page.ref]
+                        }
                     </ListGroupItem>
                 )
                 :
