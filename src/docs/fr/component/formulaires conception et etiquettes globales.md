@@ -23,7 +23,97 @@ Habituellement, les formulaires commencent par les renseignements les plus impor
 
 Pour les formulaires complexes, les renseignements doivent être publiés à l’aide de plusieurs étapes ou pages. Si c’est le cas, il est important d’inclure une barre de progression tout au long du formulaire, ainsi qu’une façon de naviguer vers l’avant et vers l’arrière entre les étapes.
 
-*Exemple de la conception de formulaire*
+<form>
+  <div class="form-group row">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="espace réservé pour le addresse email">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Mot de passe
+</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="espace réservé pour le mot de passe">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputSelect" class="col-sm-2 col-form-label">Sélectionner</label>
+    <div class="col-sm-10">
+      <select class="form-control" id="inputSelect">
+        <option selected></option>
+        <option>...</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputSelect2" class="col-sm-2 col-form-label">Sélectionner</label>
+    <div class="col-sm-10">
+        <select class="custom-select" id="inputSelect2" multiple>
+            <option selected>Ouvrir ce menu</option>
+            <option value="1">Un</option>
+            <option value="2">Deux</option>
+            <option value="3">Trois</option>
+        </select>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label">Zone de texte</label>
+    <div class="col-sm-10">
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="exampleFormControlFile1" class="col-sm-2 col-form-label">Fichier
+</label>
+    <div class="col-sm-10">
+      <input type="file" class="form-control-file" id="exampleFormControlFile1">
+    </div>
+  </div>
+  <fieldset class="form-group">
+    <div class="row">
+      <legend class="col-form-label col-sm-2 pt-0">Boutons radio</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+          <label class="form-check-label" for="gridRadios1">
+            Premiere Radio
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+          <label class="form-check-label" for="gridRadios2">
+            Deuxième radio
+          </label>
+        </div>
+        <div class="form-check disabled">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+          <label class="form-check-label" for="gridRadios3">
+            Troisième
+ disabled radio
+          </label>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+  <div class="form-group row">
+    <div class="col-sm-2">Cases à cocher</div>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck1">
+        <label class="form-check-label" for="gridCheck1">
+          exemple case à cocher
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-sm-10">
+      <button type="submit" class="btn btn-primary">Se connecter
+</button>
+    </div>
+  </div>
+</form>
 
 ## Étiquettes
 
@@ -60,7 +150,36 @@ Le style des nombres est comme suit :
 
 S’il y a plus d’une ligne, le texte retourne à ligne et a un interlignage sur 18 points.
 
-*Champ de saisie avec une microcopie*
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Adresse e-mail
+</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="entrer l'adresse e-mail
+">
+    <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre adresse e-mail avec quiconque.</small>
+  </div>
+<form>
+
+<codeblock
+    html='
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Adresse e-mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="entrer ladresse e-mail">
+            <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre adresse e-mail avec quiconque.</small>
+        </div>
+    <form>'
+    react='
+    <Form>
+       <FormGroup>
+          <Label for="exampleEmail">Adresse e-mail</Label>
+          <Input />
+          <FormFeedback>You will not be able to see this</FormFeedback>
+          <FormText>Nous ne partagerons jamais votre adresse e-mail avec quiconque.</FormText>
+        </FormGroup>
+    </Form>
+    ' />
+</codeblock>
 
 ### Regroupement et ensembles de champs
 

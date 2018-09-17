@@ -72,5 +72,3 @@ Le champ de texte ayant un remplissage de 12 px. À droite du champ, il y a une 
 ' react=''></codeblock>
  
 La même chose que l’option, mais avec un rayon de bordure de **17 px**.
-
-La même chose que l’option, mais avec un rayon de bordure de 17 px.
