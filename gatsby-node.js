@@ -41,3 +41,10 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
   });
 };
 
+/*
+exports.onPostBuild = () => {
+  fs.copySync(
+    path.join(__dirname, "/src/img")
+  );
+};
+*/

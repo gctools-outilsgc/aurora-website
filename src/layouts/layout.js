@@ -8,6 +8,7 @@ import Header from '../components/Header';
 
 import './layout.scss';
 import '../utils/custom.scss';
+import icon from "../img/favicon.ico";
 
 class Layout extends React.Component {
   render() {
@@ -19,6 +20,9 @@ class Layout extends React.Component {
             meta={[
               { name: 'description', content: 'Sample' },
               { name: 'keywords', content: 'sample, something' },
+            ]}
+            link={[
+              { rel: 'shortcut icon', type: 'image/png', href: icon }
             ]}
           >
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/themes/prism.min.css" />

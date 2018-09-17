@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/design-system-code`,
   siteMetadata: {
     title: 'Aurora',
     langs: ['en', 'fr'],
@@ -23,6 +24,13 @@ module.exports = {
         path: `${__dirname}/src/docs/`,
         name: `markdown-pages`,
       },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `img`,
+        path: `${__dirname}/src/img/`
+      }
     },
     {
       resolve: `gatsby-transformer-remark`,
