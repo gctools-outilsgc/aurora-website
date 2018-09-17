@@ -203,6 +203,14 @@ Les liens visités doivent être indiqués par une couleur différente. Habituel
 
 Le formatage typographique, tel que l’italique ou le soulignement, doit être utilisé avec parcimonie et seulement lorsqu’il améliore véritablement la communication avec tous les lecteurs.
 
+##### à faire
+C'est une <em><strong>très</strong></em> mauvaise idée.<br />
+Vous new devriez <em><strong>jamais</strong></em> mettre du poisson au micro-ondes.
+
+##### à new faire pas
+Le poivre <em><strong>ajout une saveur distincte aux aliments.</strong></em><br />
+La <em><strong>surutilisation de la mise en évidence la</strong></em> vide le sens. 
+
 ## Horodateurs et texte d’espace réservé
 
 Les horodateurs et le texte d’espace réservé ont les mêmes styles typographiques. Les deux ont une police « Nunito Sans Regular » à 14 points et un interlignage de 21 points Les horodateurs et le texte d’espace réservé sont de couleur <badge style="background-color: #666666">#666666</badge> sur un arrière plan pâle ou de couleur<badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.

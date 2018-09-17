@@ -2,7 +2,7 @@
 path: "/component/search"
 subnav: "3/Navigation/Navigation/8"
 lang: "fr"
-title: "Barre de Recherche"
+title: "Barre de recherche"
 ---
 
 <helmet>
