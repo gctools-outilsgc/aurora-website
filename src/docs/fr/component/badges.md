@@ -37,5 +37,5 @@ Les badges dans ce système de conception s’affichent comme suit :
     <span class="badge badge-dark">Nuit</span>
 ' react=''></codeblock>
 
-Rectangle d’une largeur de **28px** et d’une hauteur de **19px**. Rayon de la bordure de **8px**. Couleur de l’arrière-plan no <badge style="background-color: #4D5D6C">#4D5D6C</badge>. Couleur de texte no \#FFFFFF. Texte centré dans le rectangle.
+Rectangle d’une largeur de 28px et d’une hauteur de 19px. Rayon de la bordure de 8px. Couleur de l’arrière-plan no <badge style="background-color: #4D5D6C">#4D5D6C</badge>. Couleur de texte no <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>. Texte centré dans le rectangle.
 Rectangle d’une largeur de 28px et d’une hauteur de 19px. Rayon de la bordure de 8px. Couleur de l’arrière-plan no <badge style="background-color: #4D5D6C">#4D5D6C</badge>. Couleur de texte <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>. Texte centré dans le rectangle.

@@ -22,6 +22,13 @@ Tables can be used to display both quantitative and qualitative data.
 Simple tables are the easiest way to display data and provide a clean look on your page. Simple tables are great for a small number of categories or values, but should include additional elements if increased readability or interactivity is required.
 
 Simple tables are styled as follows:
+
+Title: Each table has a title that uses heading 3 (Rubik Medium at 24px with a 10pt tracking modifier). The table is placed 13px below the title. The table is the width of its container and the height depends on the data and how pagination is handled on the table.
+
+Header Row: Table headers are displayed in heading 6 (Nunito Sans Bold at 16px) and are left aligned. The header has a padding of 21px (top and bottom) and 27px (left). The heading row has a bottom border of 2px using the colour \(<badge style="background-color: #96a8b2;color:black">#96a8b2</badge>\)
+
+Table Cell: Table cell information is displayed using regular text style (Nunito Sans Regular at 16px) and are left aligned. The text has a padding of 21px by 27px. The heading row has a bottom border of 2px using the colour <badge style="background-color: #96a8b2;color:black">#96a8b2</badge>. Each row has a bottom border of 1px using the colour <badge style="background-color: #96a8b2;color:black">#96a8b2</badge>.
+
 <table class="table">
   <thead>
     <tr>
@@ -86,17 +93,20 @@ Simple tables are styled as follows:
     </table> 
 ' react=''></codeblock>
 
-Title: Each table has a title that uses heading 3 (Rubik Medium at 24px with a 10pt tracking modifier). The table is placed 13px below the title. The table is the width of its container and the height depends on the data and how pagination is handled on the table.
-
-Header Row: Table headers are displayed in heading 6 (Nunito Sans Bold at 16px) and are left aligned. The header has a padding of 21px (top and bottom) and 27px (left). The heading row has a bottom border of 2px using the colour \(<badge style="background-color: #96a8b2;color:black">#96a8b2</badge>\)
-
-Table Cell: Table cell information is displayed using regular text style (Nunito Sans Regular at 16px) and are left aligned. The text has a padding of 21px by 27px. The heading row has a bottom border of 2px using the colour <badge style="background-color: #96a8b2;color:black">#96a8b2</badge>. Each row has a bottom border of 1px using the colour <badge style="background-color: #96a8b2;color:black">#96a8b2</badge>.
-
 ## Striped Table
 
 Striped tables are often used to improve readability. If your data is more complex, or values are similar, a striped table may increase readability and comprehension of the data.
 
 Striped tables are styled as follows:
+
+Title: Each table has a title that uses heading 3 (Rubik Medium at 24px with a 10pt tracking modifier). The table is placed 13px below the title. The table is the width of its container and the height depends on the data and how pagination is handled on the table.
+
+Header Row: Table headers are displayed in heading 6 (Nunito Sans Bold at 16px) and are left aligned. The header has a padding of 21px (top and bottom) and 27px (left). The heading row has a top and left border of 1px and a bottom border of 2px using the colour <badge style="background-color: #96a8b2;color:black">#96a8b2</badge> The last header in the table also includes a right border of 1px.
+
+Table Cell: Table cell information is displayed using regular text style (Nunito Sans Regular at 16px) and are left aligned. The text has a padding of 21px by 27px. The heading row has a bottom border of 2px using the colour <badge style="background-color: #96a8b2;color:black">#96a8b2</badge>. Each cell has a left, and bottom border of 1px with the colour <badge style="background-color: #96a8b2;color:black">#96a8b2</badge>. The last cell in each row also has a right border of 1px.
+
+Every second row has a fill of <badge style="background-color: #F2F5F6;color:black">#F2F5F6</badge>.
+
 <strippedtable></strippedtable>
 
 <codeblock html='
@@ -131,15 +141,6 @@ Striped tables are styled as follows:
         </tbody>
     </table>
 ' react=''></codeblock>
-
-
-Title: Each table has a title that uses heading 3 (Rubik Medium at 24px with a 10pt tracking modifier). The table is placed 13px below the title. The table is the width of its container and the height depends on the data and how pagination is handled on the table.
-
-Header Row: Table headers are displayed in heading 6 (Nunito Sans Bold at 16px) and are left aligned. The header has a padding of 21px (top and bottom) and 27px (left). The heading row has a top and left border of 1px and a bottom border of 2px using the colour <badge style="background-color: #96a8b2;color:black">#96a8b2</badge> The last header in the table also includes a right border of 1px.
-
-Table Cell: Table cell information is displayed using regular text style (Nunito Sans Regular at 16px) and are left aligned. The text has a padding of 21px by 27px. The heading row has a bottom border of 2px using the colour <badge style="background-color: #96a8b2;color:black">#96a8b2</badge>. Each cell has a left, and bottom border of 1px with the colour <badge style="background-color: #96a8b2;color:black">#96a8b2</badge>. The last cell in each row also has a right border of 1px.
-
-Every second row has a fill of <badge style="background-color: #F2F5F6;color:black">#F2F5F6</badge>.
 
 ## Interactive Data Table
 

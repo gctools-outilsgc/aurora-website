@@ -164,7 +164,7 @@ S’il y a plus d’une ligne, le texte retourne à ligne et a un interlignage s
     html='
     <form>
         <div class="form-group">
-            <label for="exampleInputEmail1">Adresse e-mail</label>
+            <label for="exampleInputEmail1">Adresse de courriel</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="entrer ladresse e-mail">
             <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre adresse e-mail avec quiconque.</small>
         </div>
@@ -172,7 +172,7 @@ S’il y a plus d’une ligne, le texte retourne à ligne et a un interlignage s
     react='
     <Form>
        <FormGroup>
-          <Label for="exampleEmail">Adresse e-mail</Label>
+          <Label for="exampleEmail">Adresse de courriel</Label>
           <Input />
           <FormFeedback>You will not be able to see this</FormFeedback>
           <FormText>Nous ne partagerons jamais votre adresse e-mail avec quiconque.</FormText>

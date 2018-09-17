@@ -61,22 +61,22 @@ Il faut toujours utiliser des abréviations pour certains formats de données.
 <table class="table">
   <thead>
     <tr>
-      <th scope="col">Days of the week</th>
-      <th scope="col">Mon, Tues, Wed, Thurs, Fri, Sat, Sun</th>
+      <th scope="col">Jours de la semaine</th>
+      <th scope="col">lun, mar, mer, jeu, ven, sam, dim</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Months</td>
-      <td>Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec</td>
+      <td>Mois</td>
+      <td>janv, févr, mar, avr, mai, jun, juil, aoû, sept, oct, nov, déc</td>
     </tr>
     <tr>
-      <td>12-hour time</td>
-      <td>1am, 2pm, 12pm etc.</td>
+      <td>Heures</td>
+      <td>1 h, 14 h, 12 h, etc.</td>
     </tr>
     <tr>
-      <td>Standard money abbreviations</td>
-      <td>$1.2k, $3.4m, $6.2b, etc.</td>
+      <td>Abréviations monétaires standard</td>
+      <td>1,2 K$, 3,4 M$, 6,2 G$, etc.</td>
     </tr>
   </tbody>
 </table>

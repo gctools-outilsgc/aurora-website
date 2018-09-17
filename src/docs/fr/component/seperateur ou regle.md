@@ -39,7 +39,7 @@ Lorsque des cartes sont utilisées, les séparateurs sont placés sous l’en-t�
     </div>
 ' react='' />
 
-<p>Hello. I'm a little bit of body text. Plain and simple.</p>
+<p>Bonjour, je suis texte pour une paragraphe. C'est simple.</p>
 <hr />
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin sem augue, porttitor eleifend eros tincidunt in. Duis mattis erat orci. Fusce aliquet sapien sit amet ex suscipit, eu pellentesque est posuere.</p>
 

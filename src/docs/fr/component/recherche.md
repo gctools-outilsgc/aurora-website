@@ -43,8 +43,6 @@ Il y a deux options de style pour la recherche :
     </form>
 ' react=''></codeblock>
  
-Le champ de texte ayant un remplissage de **12 px.** À droite du champ, il y a une icône de recherche qui sert de bouton d’action. L’icône a la taille de **1,2 em** et a la couleur <badge style="background-color: #666666">#666666</badge>.
-
 Le champ de texte ayant un remplissage de 12 px. À droite du champ, il y a une icône de recherche qui sert de bouton d’action. L’icône a la taille de 1,2 em et a la couleur <badge style="background-color: #666666">#666666</badge>.
 
 **Option 2**
@@ -71,4 +69,4 @@ Le champ de texte ayant un remplissage de 12 px. À droite du champ, il y a une 
     </form>
 ' react=''></codeblock>
  
-La même chose que l’option, mais avec un rayon de bordure de **17 px**.
+La même chose que l’option, mais avec un rayon de bordure de 17 px.

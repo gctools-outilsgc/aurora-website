@@ -23,6 +23,12 @@ Les tableaux simples sont le moyen le plus facile pour afficher les données et 
 
 Les tableaux simples sont conçus comme suit :
 
+Titre : chaque tableau a un titre qui utilise l’en-tête 3 (Rubik moyen à 24px avec un modificateur de suivi de 10px). Le tableau est placé 13px en dessous du titre. Le tableau est de la largeur de son contenant et sa hauteur dépend des données et de la façon dont la pagination est gérée sur le tableau.
+
+Rangée d’en-têtes : les en-têtes du tableau sont affichés en en-tête 6 (Nunito sans gras à 16px) et sont alignés à gauche. L’en-tête a un remplissage de 21px (supérieur et inférieur) et de 27px (gauche). La rangée d’en-têtes a une bordure inférieure de 2px utilisant la couleur <badge style="background-color: #96a8b2; color:black">#96A8B2</badge>
+
+Cellule du tableau : l’information de la cellule du tableau est affichée en utilisant un style de texte normal (Nunito sans régulier à 16px) et est alignée à gauche. Le texte a un remplissage de 21px par 27px. La rangée d’en-têtes a une bordure inférieure de 2px utilisant la couleur <badge style="background-color: #96a8b2; color:black">#96A8B2</badge>. Chaque rangée a une bordure inférieure de 1px utilisant la couleur <badge style="background-color: #96a8b2; color:black">#96A8B2</badge>.
+
 <table class="table">
   <thead>
     <tr>
@@ -87,17 +93,19 @@ Les tableaux simples sont conçus comme suit :
     </table> 
 ' react=''></codeblock>
 
-Titre : chaque tableau a un titre qui utilise l’en-tête 3 (Rubik moyen à 24px avec un modificateur de suivi de 10px). Le tableau est placé 13px en dessous du titre. Le tableau est de la largeur de son contenant et sa hauteur dépend des données et de la façon dont la pagination est gérée sur le tableau.
-
-Rangée d’en-têtes : les en-têtes du tableau sont affichés en en-tête 6 (Nunito sans gras à 16px) et sont alignés à gauche. L’en-tête a un remplissage de 21px (supérieur et inférieur) et de 27px (gauche). La rangée d’en-têtes a une bordure inférieure de 2px utilisant la couleur <badge style="background-color: #96a8b2; color:black">#96A8B2</badge>
-
-Cellule du tableau : l’information de la cellule du tableau est affichée en utilisant un style de texte normal (Nunito sans régulier à 16px) et est alignée à gauche. Le texte a un remplissage de 21px par 27px. La rangée d’en-têtes a une bordure inférieure de 2px utilisant la couleur <badge style="background-color: #96a8b2; color:black">#96A8B2</badge>. Chaque rangée a une bordure inférieure de 1px utilisant la couleur <badge style="background-color: #96a8b2; color:black">#96A8B2</badge>.
-
 ## Tableau rayé
 
 Les tableaux rayés sont souvent utilisés pour améliorer la lisibilité. Si vos données sont plus complexes, ou les valeurs sont semblables, un tableau rayé peut accroître la lisibilité et la compréhension des données.
 
 Les tableaux rayés sont conçus comme suit :
+
+Titre : chaque tableau a un titre qui utilise l’en-tête 3 (Rubik moyen à 24px avec un modificateur de suivi de 10px). Le tableau est placé 13px en dessous du titre. Le tableau est de la largeur de son contenant et sa hauteur dépend des données et de la façon dont la pagination est gérée sur le tableau.
+
+Rangée d’en-têtes : les en-têtes du tableau sont affichés en en-tête 6 (Nunito sans gras à 16px) et sont alignés à gauche. L’en-tête a un remplissage de 21px (supérieur et inférieur) et de 27px (gauche). La rangée d’en-têtes a une bordure supérieure et à gauche de 1px et une bordure inférieure de 2px utilisant la couleur <badge style="background-color: #96a8b2; color:black">#96A8B2</badge>. Le dernier en-tête dans le tableau comprend également une bordure à droite de 1px.
+
+Cellule du tableau : l’information de la cellule du tableau est affichée en utilisant un style de texte normal (Nunito sans régulier à 16px) et est alignée à gauche. Le texte a un remplissage de 21px par 27px. La rangée d’en-têtes a une bordure inférieure de 2px utilisant la couleur <badge style="background-color: #96a8b2; color:black">#96A8B2</badge>. Chaque cellule a une bordure inférieure et à gauche de 1px utilisant la couleur <badge style="background-color: #96a8b2; color:black">#96A8B2</badge>. La dernière cellule dans chaque rangée a également une bordure à droite de 1px.
+
+Chaque seconde rangée a un remplissage de <badge style="background-color: #F2F5F6; color:black">#F2F5F6</badge>.
 
 <strippedtable></strippedtable>
 
@@ -133,14 +141,6 @@ Les tableaux rayés sont conçus comme suit :
         </tbody>
     </table>
 ' react=''></codeblock>
-
-Titre : chaque tableau a un titre qui utilise l’en-tête 3 (Rubik moyen à 24px avec un modificateur de suivi de 10px). Le tableau est placé 13px en dessous du titre. Le tableau est de la largeur de son contenant et sa hauteur dépend des données et de la façon dont la pagination est gérée sur le tableau.
-
-Rangée d’en-têtes : les en-têtes du tableau sont affichés en en-tête 6 (Nunito sans gras à 16px) et sont alignés à gauche. L’en-tête a un remplissage de 21px (supérieur et inférieur) et de 27px (gauche). La rangée d’en-têtes a une bordure supérieure et à gauche de 1px et une bordure inférieure de 2px utilisant la couleur <badge style="background-color: #96a8b2; color:black">#96A8B2</badge>. Le dernier en-tête dans le tableau comprend également une bordure à droite de 1px.
-
-Cellule du tableau : l’information de la cellule du tableau est affichée en utilisant un style de texte normal (Nunito sans régulier à 16px) et est alignée à gauche. Le texte a un remplissage de 21px par 27px. La rangée d’en-têtes a une bordure inférieure de 2px utilisant la couleur <badge style="background-color: #96a8b2; color:black">#96A8B2</badge>. Chaque cellule a une bordure inférieure et à gauche de 1px utilisant la couleur <badge style="background-color: #96a8b2; color:black">#96A8B2</badge>. La dernière cellule dans chaque rangée a également une bordure à droite de 1px.
-
-Chaque seconde rangée a un remplissage de <badge style="background-color: #F2F5F6; color:black">#F2F5F6</badge>.
 
 ## Tableau de données
 
