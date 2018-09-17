@@ -152,7 +152,6 @@ Each of the states for primary buttons are as follows:
 
 **Focus state:** primary colour at 80% opacity, white text, with a border radius of 4px and padding of 15px. Includes a 3px stroke in the primary colour.
 
-
 <button color="primary" disabled="true">Primary</button>
 
 <button color="primary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;">Focus</button>
@@ -182,11 +181,11 @@ Secondary buttons in this system are transparent with a stroke colour. Text chan
 
 Each of the states for secondary buttons are as follows:
 
+**Regular state:** transparent with a 1px stroke using the  colour <badge style="background-color: #0ba7b4;">#0ba7b4</badge>, the text is written in the same colour. Border radius of 4px and padding of 15px.
+
 <button color="secondary">Regular</button>
 
 <codeblock html='<button type="button" class="btn btn-secondary">Secondary</button>' react='<Button color="secondary">Secondary</Button>'></codeblock>
-
-**Regular state:** transparent with a 1px stroke using the  colour <badge style="background-color: #0ba7b4;">#0ba7b4</badge>, the text is written in the same colour. Border radius of 4px and padding of 15px.
 
 **Hover state:** rectangle coloured with <badge style="background-color: #098690;">#098690</badge> at 80% opacity, the text is displayed in white. Border radius of 4px and padding of 15px.
 
@@ -213,6 +212,7 @@ Drop down buttons display a list of items when clicked. They are used for two-st
 **Regular State:** Similar to the primary button, drop-down buttons use the primary colour at 100% opacity, white text, with a border radius of 4px and padding of 15px. The drop-down arrow represents a space of 30px by 40px, which is separated from the primary button using a white line. The arrow uses a space of 15px width and 8px in height.
 
 <mdbuttondropdown color="primary" title="Regular">
+
 </mdbuttondropdown>
 
 <codeblock html='
@@ -284,7 +284,6 @@ Drop down buttons display a list of items when clicked. They are used for two-st
     </DropdownMenu>
 </ButtonDropdown>
 '></codeblock>
-
 
 ## Button Groups
 

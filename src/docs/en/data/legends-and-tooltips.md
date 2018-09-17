@@ -25,16 +25,16 @@ Do not rely only on colour, different shapes can be used for individual data poi
 
 #### Side Aligned Legend
 
-![Side-aligned legend component](../../../img\components\side_aligned_legend_1.png)
-
 Side-aligned legends are styled as follows:
 
 Card component, rectangle (white, <badge style="background-color: #FFFFFF;color:black">#FFFFFF</badge>) with a border radius of 4px, drop shadow with 15% opacity and 5px blur. Padding of 20px by 16px. The text "Legend" is aligned to the top of the box and uses heading 3 style (Nunito Sans Regular at 18px). Each list item has a padding of 14px by 0px and uses the normal paragraph style (Nunito Sans Regular at 16px) the text is aligned to the right of the symbol. The height and the width of the legend depends on the number of list items.
 
-#### Bottom Aligned Legend
+![Side-aligned legend component](../../../img\components\side_aligned_legend_1.png)
 
-![Bottom-aligned legend component](../../../img\components\bottom_aligned_legend.png)
+#### Bottom Aligned Legend
 
 Bottom-aligned legends are styled as follows:
 
 Card component, rectangle (white <badge style="background-color: #FFFFFF;color:black">#FFFFFF</badge>) with a border radius of 4px and a drop shadow with 15% opacity and 5px blur. Padding of 20px by 16px. The text "Legend" is aligned to the top of the box and uses heading 3 style (Nunito Sans Regular at 18px). Each list item has a padding of 14px by 11px and uses the normal paragraph style (Nunito Sans Regular at 16px) the text is aligned to the right of the symbol. The list items are displayed inline, so the length of the container depends on the number of list items. The height is 96px if all the list items fit along one line.
+
+![Bottom-aligned legend component](../../../img\components\bottom_aligned_legend.png)

@@ -35,6 +35,8 @@ Text input fields may also include interactive elements to the right of the fiel
 
 Text fields are styled as follows:
 
+**Normal**: Rectangle with a height of 42px, and a border radius of 4px. Stroke width of 1px with the colour <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. There is 10px of padding between the field and the label. The input field a padding of 15px by 12px.
+
 <label for="exampleInputEmail1">Form label</label>
 <input type="email" class="form-control" id="exampleInputEmail1"
         aria-describedby="emailHelp"
@@ -50,7 +52,7 @@ Text fields are styled as follows:
 ' react='
 ' />
 
-**Normal**: Rectangle with a height of 42px, and a border radius of 4px. Stroke width of 1px with the colour <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. There is 10px of padding between the field and the label. The input field a padding of 15px by 12px.
+**Focus**: Rectangle with a height of 42px, and a border radius of 4px. Stroke width of 1px <badge style="background-color: #269ABC;color:black;">#269ABC</badge>. There is 10px of padding between the field and the label. The input field a padding of 15px by 12px.
 
 <label for="exampleInputEmail2">Form label</label>
 <input type="email" class="form-control" id="exampleInputEmail2"
@@ -67,13 +69,13 @@ Text fields are styled as follows:
 ' react='
 ' />
 
-**Focus**: Rectangle with a height of 42px, and a border radius of 4px. Stroke width of 1px <badge style="background-color: #269ABC;color:black;">#269ABC</badge>. There is 10px of padding between the field and the label. The input field a padding of 15px by 12px.
-
 ## Select Field
 
 Select fields are a drop down menu of specific options. They are intended to provide users with easy completion when there are only a few options.
 
 Select fields are styled as follows:
+
+**Normal**: Rectangle with a height of 42px and a border radius of 4px. Stroke width of 1px coloured <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. The drop down control is right-aligned 27px from the edge of the input. The line on the edge is 1px coloured <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge> and extends until 5px from the top and bottom of the input. 15 by 27 by 15 by 12. The chevron icon is aligned with the text and is 9px from the left edge, and 18px from the top and bottom.
 
 <div class="mt-2">
     <label for="carSelect">Cars:</label>
@@ -97,8 +99,6 @@ Select fields are styled as follows:
     </div>
 ' react='' />
 
-**Normal**: Rectangle with a height of 42px and a border radius of 4px. Stroke width of 1px coloured <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. The drop down control is right-aligned 27px from the edge of the input. The line on the edge is 1px coloured <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge> and extends until 5px from the top and bottom of the input. 15 by 27 by 15 by 12. The chevron icon is aligned with the text and is 9px from the left edge, and 18px from the top and bottom.
+**Focus**: Rectangle with a height of 42px and a border radius of 4px. Stroke width of 1px coloured <badge style="background-color: #269ABC;color:black;">#269ABC</badge>. The drop down control is right-aligned 27px from the edge of the input. The line on the edge is 1px coloured <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge> and extends until 5px from the top and bottom of the input. 15 by 27 by 15 by 12. The chevron icon is aligned with the text and is 9px from the left edge, and 18px from the top and bottom.
 
 *Focus select field component*
-
-**Focus**: Rectangle with a height of 42px and a border radius of 4px. Stroke width of 1px coloured <badge style="background-color: #269ABC;color:black;">#269ABC</badge>. The drop down control is right-aligned 27px from the edge of the input. The line on the edge is 1px coloured <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge> and extends until 5px from the top and bottom of the input. 15 by 27 by 15 by 12. The chevron icon is aligned with the text and is 9px from the left edge, and 18px from the top and bottom.
