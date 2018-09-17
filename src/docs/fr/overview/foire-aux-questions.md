@@ -4,6 +4,11 @@ subnav: "1/About/À notre sujet/3"
 lang: "fr"
 title: "Foire aux questions"
 ---
+
+<helmet>
+<title> Foire aux questions - Système de conception Aurora </title>
+</helmet>
+
 # Foire aux questions
 
 ## Qu’est-ce qu’un système de conception?
@@ -14,7 +19,7 @@ La création d’un système de conception repose sur un effort de collaboration
 
 ## Qui a créé le système de conception Aurora?
 
-Le système de conception Aurora est le fruit d’un partenariat entre divers concepteurs, développeurs et rédacteurs du gouvernement du Canada. Le système a été conçu sous la direction de la Division de la collaboration sur le numérique du Secrétariat du Conseil du Trésor en collaboration avec le Service numérique canadien: le Nuage de talents, Immigration, Réfugiés et Citoyenneté Canada ainsi que d’autres employés du gouvernement du Canada. 
+Le système de conception Aurora est le fruit d’un partenariat entre divers concepteurs, développeurs et rédacteurs du gouvernement du Canada. Le système a été conçu sous la direction de la Division de la collaboration sur le numérique du Secrétariat du Conseil du Trésor en collaboration avec le Service numérique canadien: le Nuage de talents, Immigration, Réfugiés et Citoyenneté Canada ainsi que d’autres employés du gouvernement du Canada.
 
 ## Qui peut utiliser le système de conception Aurora?
 
@@ -26,9 +31,9 @@ Lorsque vous élaborez un nouveau produit, nous vous recommandons d’utiliser l
 
 ## Existe-t-il d’autres systèmes de conception dans le secteur public?
 
-Bien que les systèmes de conception soient relativement nouveaux dans le secteur public, certaines organisations gouvernementales travaillent déjà sur leurs propres systèmes de conception. Par exemple, le gouvernement des États-Unis a publié[Web Design Standards](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit), l’agence de conception de l’Italie a publié[Designers Italia](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit)et le gouvernement du Royaume-Uni[prépare actuellement](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit)ses propres normes Web.
+Bien que les systèmes de c onception soient relativement nouveaux dans le secteur public, certaines organisations gouvernementales travaillent déjà sur leurs propres systèmes de conception. Par exemple, le gouvernement des États-Unis a publié [Web Design Standards](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit), l’agence de conception de l’Italie a publié [Designers Italia](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit) et le gouvernement du Royaume-Uni [prépare actuellement](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit) ses propres normes Web.
 
-Au Canada, tous les sites Web officiels utilisent la[Boîte à outils de l’expérience Web](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit),un guide stylistique moins flexible que \#GCnumérique. Le Service numérique canadien travaille actuellement à l’élaboration d’une[trousse d’IU du gouvernement du Canada](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit).
+Au Canada, tous les sites Web officiels utilisent la [Boîte à outils de l’expérience Web](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit), un guide stylistique plus rigide.
 
 ## Pourquoi avez-vous créé le système de conception Aurora?
 
@@ -63,5 +68,3 @@ Certains fichiers comprennent des ressources ou des polices de caractères parti
 ## Le code du système de conception Aurora est-il en exploitation libre?
 
 Oui! Tous les aspects du système de conception Aurora sont en exploitation libre et accessibles à tous. Ceci inclut le code, la documentation, les ressources de conception et les fichiers de téléchargement. Notre système a également été créé et partagé à l’aide d’outils en exploitation libre tels que Github, Zube. io, Riot et Gitbook.
-
-

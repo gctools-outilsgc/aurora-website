@@ -1,10 +1,13 @@
 import React from "react";
-import { Row, Col} from 'reactstrap';
+import { Button, UncontrolledCollapse } from 'reactstrap';
 import Layout from '../layouts/layout';
 import { I18n } from "react-i18next";
-import Sidenav from "../components/Sidenav";
+import Sidenav from "../components/sidenav";
+import Search from "../components/search";
 import MarkdownRenderer from '../components/MarkdownRenderer';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 class MarkdownTemplate extends React.Component {
   constructor(props){
@@ -23,18 +26,29 @@ class MarkdownTemplate extends React.Component {
         <I18n ns={["translation"]}>
           {
             (t, i18n) => {
-              console.log(i18n.lng);
               return( 
-                <Row>
-                  <Col xs="3">
+                <div>
+                  <div id="mobile-menu-holder" className="d-sm-block d-md-none d-lg-none d-xl-none bg-primary" style={{padding: '6px', position: 'fixed', zIndex: '9999', top: '100px', width: '100%'}}>
+                    <Button color="primary" id="mobile-menu" className="mr-3 sidenavToggle"><FontAwesomeIcon size="2x" icon={faBars} /><span className="sr-only">Menu</span></Button>
+                    <Search
+                      lng={(i18n.language === "en") ? "en" : "fr"}
+                      placeholder={(i18n.language === "en") ? "Search" : "Chercher"}
+                    />
+                  </div>
+                  {/* BREAKS IE
+                  <UncontrolledCollapse toggler=".sidenavToggle">
+                    <div className="mobile-sidebar">
+                      <Sidenav path={this.state.path} data={this.props.data} i18n={ i18n } />
+                    </div>
+                    <div className="ui-mask sidenavToggle"></div>
+                  </UncontrolledCollapse>*/}
+                  <div className="d-none d-md-block">
                     <Sidenav path={this.state.path} data={this.props.data} i18n={ i18n } />
-                  </Col>
-                  <Col>
-                    {
-                      <MarkdownRenderer eng={this.state.eng} fr={this.state.fr} lang={i18n.lng} />
-                    }
-                  </Col>
-                </Row>
+                  </div>
+                  {
+                    <MarkdownRenderer eng={this.state.eng} fr={this.state.fr} lang={i18n.lng} />
+                  }
+                </div>
               )
             }
           }
@@ -47,7 +61,7 @@ class MarkdownTemplate extends React.Component {
 export default MarkdownTemplate;
 
 export const pageQuery = graphql`
-  query BlogPostByPath($path: String!) {
+  query MarkdownInfoByPath($path: String!) {
     eng:markdownRemark(frontmatter: { path: { eq: $path }, lang: {eq: "en"} }) {
       html
       htmlAst

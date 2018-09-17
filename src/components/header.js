@@ -6,23 +6,23 @@ import {
   NavItem,
   NavLink
 } from 'reactstrap';
-import Search from './Search';
+import Search from './search';
 import LanguageSwitcher from './LanguageSwitcher';
 import { I18n } from "react-i18next";
 import fip from "../img/sig-alt-en.png";
 import logo from "../img/aurora_logo.png";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faDownload } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => (
   <I18n ns={["translation"]}>
     {
       (t, { i18n }) => (
-        <div className="fixed-top bg-white shadow-sm">
+        <header className="fixed-top bg-white shadow-sm" role="banner">
           <div>
             <div style={{height:'50px', padding:'10px'}}>
-              <img src={fip} alt="FIP" />
+              <img src={fip} alt="FIP"/>
               <div className="float-right">
                   <span className="float-left mr-3 d-none d-md-block">
                     <Search
@@ -42,52 +42,45 @@ const Header = () => (
                 <img src={logo} alt="Logo" className="float-left" style={{width:'30px', margin:'5px'}} />
                 <span className="h2 d-none d-md-block float-left font-weight-normal">
                   {' '}
-                  {"Aurora"}{' '}
+                  {'Aurora'}{' '}
                 </span>
               </Link>
               <div className="navbar-collapse nav-holder">
-                <Nav tabs className="mx-auto nav-site scroll" style={{borderBottom:'none'}}>
+                <Nav tabs className="mx-auto nav-site scroll" style={{borderBottom:'none'}} >
                   <NavItem>
-                    <Link to="/overview/whats-new" className="nav-link" activeClassName="active">
+                    <Link to="/overview/introduction" className="nav-link" activeClassName="active" >
                       {t("Overview")}
                     </Link>
                   </NavItem>
-                  {/*
                   <NavItem>
-                    <Link to="/#!" className="nav-link">
-                      {t("Identity")}
-                    </Link>
-                  </NavItem>
-                  */}
-                  <NavItem>
-                    <Link to="/component/badges" className="nav-link" activeClassName="active">
-                      {t("Component")}
+                    <Link to="/component" className="nav-link" activeClassName="active" >
+                      {t("Components")}
                     </Link>
                   </NavItem>
                   <NavItem>
-                    <Link to="/content/content-guidelines" className="nav-link" activeClassName="active">
+                    <Link to="/content/content-guidelines" className="nav-link" activeClassName="active" >
                       {t("Content")}
                     </Link>
                   </NavItem>
                   <NavItem>
-                    <Link to="/data/data-overview" className="nav-link" activeClassName="active">
+                    <Link to="/data/data-overview" className="nav-link" activeClassName="active" >
                       {t("Data")}
                     </Link>
                   </NavItem>
                 </Nav>
               </div>
-              <Nav className="ml-auto" navbar>
-                <NavItem className="d-none d-md-block">
-                  <NavLink style={{"color":"black"}} target="_blank"  href="https://github.com/gctools-outilsgc/design-system"><FontAwesomeIcon style={{"fontSize":"1.5em"}} icon={faGithub} /><span className="sr-only">GitHub</span></NavLink>
-                </NavItem>
-                <NavItem className="d-none d-md-block">
-                  <NavLink style={{"color":"black"}} target="_blank" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai"><FontAwesomeIcon style={{"fontSize":"1.5em"}} icon={faDownload} /><span className="sr-only">{t("DownloadLink")}</span></NavLink>
-                </NavItem>
-              </Nav>
+                <Nav className="ml-auto" navbar>
+                  <NavItem className="d-none d-md-block">
+                    <NavLink style={{"color":"black"}} target="_blank"  href="https://github.com/gctools-outilsgc/design-system"><FontAwesomeIcon style={{"font-size":"1.5em"}} icon={faGithub} /><span className="sr-only">GitHub</span></NavLink>
+                  </NavItem>
+                  <NavItem className="d-none d-md-block">
+                    <NavLink style={{"color":"black"}} target="_blank" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai"><FontAwesomeIcon style={{"font-size":"1.5em"}} icon={faDownload} /><span className="sr-only">{t("DownloadLink")}</span></NavLink>
+                  </NavItem>
+                </Nav>
             </Navbar>
           </div>
 
-        </div>
+          </header>
       )
     }
   </I18n>

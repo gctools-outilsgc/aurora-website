@@ -4,10 +4,13 @@ subnav: "2/Standard/Standard/4"
 lang: "en"
 title: "Cards"
 ---
+<helmet>
+<title> Cards - Aurora Design System </title>
+</helmet>
 
 # Cards
 
-Cards are containers used to organize high-level content. Using cards can make your web product more appealing and navigable. Cards will typically have a background colour of #FFFFF, which separates them from the overall background colour of the page (#FAFAFA).
+Cards are containers used to organize high-level content. Using cards can make your web product more appealing and navigable. Cards will typically have a background colour of <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, which separates them from the overall background colour of the page (<badge style="background-color: #FAFAFA;color:black;">#FAFAFA</badge>).
 
 ## Best Practices
 
@@ -16,8 +19,6 @@ A card should only contain a single idea which may feature a call-to-action, or 
 Cards can make your web product more engaging. However, you should consider the type of information you are sharing, as well as how the user will be viewing this information before you decide to use a card.
 
 If multiple cards are placed on a page, they should be placed 16px apart on all sides.
-
-*Example image of cards used on a page*
 
 ### Components of a card
 
@@ -34,7 +35,7 @@ Not all of these elements are necessary in every card. You can choose the elemen
 
 #### Basic card template
 
-Basic cards can be used as containers for any type of information are are sized depending on the content. Basic cards form the foundation for more complex cards which may include any combination of elements.
+Basic cards can be used as containers for any type of information are sized depending on the content. Basic cards form the foundation for more complex cards which may include any combination of elements.
 
 <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
     <div class="card-body">
@@ -58,7 +59,7 @@ Basic cards can be used as containers for any type of information are are sized 
 
 Basic cards are styled as follows:
 
-White (#FFFFFF) rectangle with border radius of 4px and a drop shadow of 15% opacity and a 5px blur. The card has a padding of 20px by 16px. Every card has a title using heading 3 (Rubik Medium at 24px) with a divider placed 12px below the header. The content of the card is placed 12px below the divider.
+White (<badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>) rectangle with border radius of 4px and a drop shadow of 15% opacity and a 5px blur. The card has a padding of 20px by 16px. Every card has a title using heading 3 (Rubik Medium at 24px) with a divider placed 12px below the header. The content of the card is placed 12px below the divider.
 
 
 #### Image Cards
@@ -89,7 +90,7 @@ Image cards use the basic card template but include an image above the header.
 
 Image cards are styled as follows:
 
-White (#FFFFFF) rectangle with border radius of 4px and a drop shadow of 15% opacity and a 5px blur. The card has a padding of 20px by 16px. Every card has a title using heading 3 (Rubik Medium at 24px) with a divider placed 12px below the header. The content of the card is placed 12px below the divider.
+White (<badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>) rectangle with border radius of 4px and a drop shadow of 15% opacity and a 5px blur. The card has a padding of 20px by 16px. Every card has a title using heading 3 (Rubik Medium at 24px) with a divider placed 12px below the header. The content of the card is placed 12px below the divider.
 
 The image is placed 20px above the header. The image spans the entire width of the card.
 
@@ -127,13 +128,13 @@ Actionable cards use the basic card template, but include additional components 
 
 Actionable cards are styled as follows:
 
-White (#FFFFFF) rectangle with border radius of 4px and a drop shadow of 15% opacity and a 5px blur. The card has a padding of 20px by 16px. Every card has a title using heading 3 (Rubik Medium at 24px) with a divider placed 12px below the header. The content of the card is placed 12px below the divider.
+White (<badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>) rectangle with border radius of 4px and a drop shadow of 15% opacity and a 5px blur. The card has a padding of 20px by 16px. Every card has a title using heading 3 (Rubik Medium at 24px) with a divider placed 12px below the header. The content of the card is placed 12px below the divider.
 
 A second divider is placed 12px below the content. Actionable items (i.e. buttons) are placed 12px below this divider.
 
 ## Complex Cards
 
-Cards can technically include any number of component combinations. Using the base styles above, components such as placeholder text (metadate), avatrs, icon buttons, buttons can be added below the header, or within the actionable section below the main content.
+Cards can technically include any number of component combinations. Using the base styles above, components such as placeholder text (metadata), avatars, icon buttons, buttons can be added below the header, or within the actionable section below the main content.
 
 <div class="card card-profile mb-2 d-inline-block" style="max-width: 18rem;">  
     <img class="card-img-top" style="height: 100px;" src="http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg" alt="placeholder image">
@@ -144,7 +145,7 @@ Cards can technically include any number of component combinations. Using the ba
         <p class="text-muted">Job title or meta information</p>
         <button type="button" class="btn btn-primary">Call to Action</button>
         </div>
-        
+
     </div>
 </div>
 
@@ -180,7 +181,6 @@ Cards can technically include any number of component combinations. Using the ba
             <p class="text-muted">Job title or meta information</p>
             <button type="button" class="btn btn-primary">Call to Action</button>
             </div>
-            
         </div>
     </div>
     <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
@@ -204,7 +204,3 @@ Cards can technically include any number of component combinations. Using the ba
         <div class="card-footer">Extra information</div>
     </div>
 ' react='' />
-
-![Example of a complex card 1](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/card%20example_2.png)
-![Example of a complex card 2](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/card%20example_3.png)
-![Example of a complex card 3](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/card%20example_6.png)

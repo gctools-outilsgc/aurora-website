@@ -5,6 +5,10 @@ lang: "en"
 title: "Formatting"
 ---
 
+<helmet>
+<title> Content Formatting - Aurora Design System </title>
+</helmet>
+
 # Content Formatting
 
 ## Capitalization
@@ -14,10 +18,6 @@ All capitalization in the system uses sentence case. Titles, buttons, navigation
 Acronyms and abbreviations should be avoided. Write out acronyms and abbreviations whenever possible. Acronyms should only be used if  the acronym is more commonly understood than the full name (i.e. NATO)
 
 Acronyms and abbreviations should always be capitalized. Acronyms do not require a period after each letter.
-
-## Contractions
-
-## Numbered and Bulleted Lists
 
 ## Dates, Numbers and Addresses
 
@@ -37,20 +37,23 @@ Time in this system is formatted using the 12-hour clock. For events and other c
 
 Units of measurement in this system will always use the metric system.
 
-## Places, Names and Formal Nouns
-
-## Colons
-
 ## Ampersands
 
 System messaging and text will never use ampersands. Instead, spell out the word "and".
 
 ## Commas, Ellipses, Colons
+This system does not use the Oxford comma. Commas should only be used when they improve the flow and clarity of the sentence.
+Generally ellipses should be avoided as they imply uncertainty. Only use an ellipses to show omitted text.
 
-## En and Em Dashes
+Colons in this system are used to introduce lists.
 
-## Hyphens, Slashes and Pipes
+Typically, dashes should be avoided. It is better to break the complex sentence into two sentences.  
+
+## Slashes and Hyphens
+Slash marks are used to show alternatives (and/or etc.). When joining conflicting elements, use a hyphen (designer-writer).
 
 ## Bold and Italics
+Bold can be used to show emphasis. In this system, bold in favoured for certain header types (see headers). Italics should be avoided as they are not easy to read for all users.
 
 ## Quotation Marks
+Quotation marks are used around direct quotes. Quotation marks can also be used to show that a word is being used ironically, however this should only happen within body text, and never functional text and labels.

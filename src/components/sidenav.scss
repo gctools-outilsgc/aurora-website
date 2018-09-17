@@ -22,9 +22,9 @@
   font-weight: 400;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   .mobile-sidebar #sidenav {
-      top: 154px !important;
+      top: 161px !important;
       z-index:9999;
       .nav {
           margin-top: 0 !important;
@@ -33,13 +33,13 @@
   }
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
   #mobile-menu-holder {
       #mobile-menu {
           width:17%;
       }
       .search-form {
           width:78% !important;
-      }  
+      }
   }
 }

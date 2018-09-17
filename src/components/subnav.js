@@ -6,6 +6,8 @@ import {
 	ListGroupItem
 } from 'reactstrap';
 import './Subnav.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 class Subnav extends React.Component {
 	constructor(props) {
@@ -28,8 +30,9 @@ class Subnav extends React.Component {
       ;
 		return (
       <ListGroupItem className="collapseItem">
-        <a href="#" onClick={this.toggle} style={{"border": "0px", "fontSize":"1.2125em", "fontFamily": "'Nunito Sans', sans-serif", "marginTop": "5px", "marginBottom": "5px", "fontWeight": "600"}}>
+        <a href="#" aria-expanded={this.state.dropdownOpen} onClick={this.toggle} style={{"border": "0px", "fontSize":"1.2125em", "fontFamily": "'Nunito Sans', sans-serif", "marginTop": "5px", "marginBottom": "5px", "fontWeight": "600"}}>
           {(this.props.i18n.i18n.language === "en") ? this.props.nameEn : this.props.nameFr}
+          <FontAwesomeIcon className="ml-1" style={{"fontSize":"0.7em"}} icon={faChevronDown} />
         </a>
         <Collapse isOpen={this.state.dropdownOpen}>
           <ListGroup>
@@ -47,6 +50,7 @@ class Subnav extends React.Component {
                         color: "white",
                         backgroundColor: "#467B8D"
                       }}
+                      activeClassName="active"
                     >
                       {edges.node.frontmatter.title}
                     </Link>

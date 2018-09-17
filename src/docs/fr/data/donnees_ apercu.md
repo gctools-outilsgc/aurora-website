@@ -5,13 +5,18 @@ lang: "fr"
 title: "Aperçu"
 ---
 
+<helmet>
+<title> Aperçu - Système de conception Aurora </title>
+</helmet>
+
 # Aperçu
 
 La visualisation des données prend de nombreuses formes et constitue un moyen visuel de représenter un jeu de données.
 
 La visualisation des données devrait viser à représenter et à répondre à une seule question. Le but est de donner un aperçu des données et de raconter une histoire visuelle qui a du sens pour l’utilisateur. Les graphes devraient servir à représenter des jeux de données d’une manière dont les tableaux ne peuvent pas. Si les données sont faciles à comprendre sans visualisation, habituellement l’option la plus simple (un tableau) est la meilleure.
 
-*image d’une page Web*
+![Image de l'application des statistiques GCcollab ](../../../img\examples\GCcollab stats_fr.PNG)
+*L'application des statistiques GCcollab, qui utilise le système de conception d'Aurora pour créer un page de statistiques des groupes GCcollab*
 
 ## Simplicité
 Pour ce qui est de la visualisation des données, il faut en règle générale garder les éléments visuels aussi simples que possible. Seuls les renseignements nécessaires tels les étiquettes, les valeurs et les barres ou les lignes devraient s’y trouver. Une clé ou une légende devrait être fournie pour les données plus complexes qui peuvent avoir plusieurs couleurs ou types d’information. Les couleurs et autres éléments visuels doivent toujours être maintenus au minimum dans la mesure du possible.
@@ -20,10 +25,11 @@ Les éléments visuels ne devraient que mettre en valeur les données et ne devr
 
 Si un graphique est trop complexe pour représenter un certain jeu de données, les données devraient être représentées dans plusieurs graphiques simples.
 
-*(Inclure les images sur ce qui doit être fait et ne pas être fait)*
 
 ### Formats multiples
 Lorsque vous utilisez des visualisations de données, il est recommandé de représenter les données dans plusieurs formats dans la mesure du possible. Peu importe le type de visualisation que vous utilisez, un simple tableau de données ou d’autres façons de publier les données brutes, devrait se trouver quelque part sur la page, ce qui permet aux utilisateurs de visualiser et d’analyser les données de la façon qui leur convient, ainsi que d’identifier facilement les points de données individuels.
+
+![Image d'un exemple d'utilisant les formats multiples](../../../img\do_dont\Aurora_multiple formats_do_fr_multiple formats_do.png)
 
 ## Étiquettes
 
@@ -44,6 +50,8 @@ Dans certaines visualisations comportant de nombreux axes, l’omission d’éti
 
 Sur l’axe des x, les étiquettes de valeur devraient être centrées à la ligne guide correspondante. En ce qui concerne les étiquettes de l’axe des y, elles devraient être alignées à gauche et se trouver au-dessus des lignes de l’axe des y. Les longues étiquettes de texte doivent être tournées de 45 degrés autour d’une origine directement sous la ligne guide de l’axe correspondante.
 
+![Image exemplaire de comment utiliser les incréments de données](../../../img\do_dont\data increments_do_fr_data increments_do.png)
+
 ### Formats des données et abréviations
 
 Dans la mesure du possible, il faut éviter les abréviations pour les étiquettes et les valeurs, à moins qu’ils soient dans un format de données conventionnel. Si l’espacement est une préoccupation, il est recommandé d’omettre des étiquettes de manière logique pour les données.
@@ -63,6 +71,6 @@ Pour une accessibilité accrue, il est également recommandé d’utiliser en pl
 
 Voir les types précis de visualisation pour l’utilisation des couleurs. En général, chaque variable devrait compter une couleur désignée, et seulement les graphiques montrant plusieurs variables devraient être de plusieurs couleurs.
 
-Les lignes d’axe devraient être en gris clair (no E0E0E0) pour ne pas laisser distraire le lecteur par les autres couleurs utilisées dans la visualisation.
+Les lignes d’axe devraient être en gris clair \(<badge style="background-color: #E0E0E0;color:black"> #E0E0E0</badge>\) pour ne pas laisser distraire le lecteur par les autres couleurs utilisées dans la visualisation.
 
 Pour obtenir de plus amples renseignements sur le choix des couleurs, veuillez consulter la [section sur les couleurs.](couleur.md)

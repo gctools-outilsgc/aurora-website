@@ -5,8 +5,11 @@ lang: "fr"
 title: "Images, avatars et vignettes"
 ---
 
+<helmet>
+<title> Images, avatars et vignettes - Système de conception Aurora </title>
+</helmet>
+
 # Images, avatars et vignettes
-*Exemple d’image utilisant le prototype de publication de blogue*
 
 ## Images en série
 Les images en série sont séparées des autres éléments sur la page (c’est-à-dire le texte) et sont habituellement centrées avec un remplissage prédéterminé. Dans une mise en page comprenant du texte, le texte continuera sur la ligne suivante après l’image.
@@ -25,17 +28,26 @@ Lorsque les utilisateurs téléchargent leur avatar, ils sont amenés à rogner 
 
 Les avatars sont utilisés en trois tailles et sont stylisés comme suit :
 
-*Éléments des petits avatars*
+<img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+
+<codeblock html='<img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+' react='' />
 
 **Petit** : image carrée avec les coins arrondis par 4px. Taille à 26 x 26 pixels.
 Utilisés sur les petits éléments où l’utilisateur a besoin d’être identifié comme sur des mots-clés ou le clavardage.
 
-*Éléments des moyens avatars*
+<img alt="medium avatar" class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+
+<codeblock html='<img alt="medium avatar" class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+' react='' />
 
 **Moyen** : image carrée avec les coins arrondis par 4px. Taille à 50 x 50 pixels.
 Utilisée en combinaison avec d’autres éléments tels que des commentaires, le clavardage, des cartes et tout autre endroit où vous auriez besoin d’identifier l’utilisateur.
 
-*Élément des grands avatars*
+<img alt="large avatar" class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+
+<codeblock html='<img alt="large avatar" class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+' react='' />
 
 **Grand** : image carrée avec les coins arrondis par 4px. Taille à 115 x 115 pixels.
 Utilisé directement sur le profil de l’utilisateur.

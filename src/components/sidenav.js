@@ -2,8 +2,8 @@ import React from 'react';
 import {
   Nav,
 } from 'reactstrap';
-import Subnav from './Subnav';
-import "./Sidenav.scss"
+import Subnav from './subnav';
+import "./sidenav.scss"
 
 /** Component populates the side bar with collapsable subnavs
  *  Data is passed into it from a query made in MarkdownTemplate and then passed down to subnavs
@@ -22,10 +22,10 @@ class Sidenav extends React.Component {
         if (subNameEn !== "") {
           subPieces.push(
             <Subnav
-              files={subGroup}
-              nameEn={subNameEn}
-              nameFr={subNameFr}
-              path={this.props.path}
+              files={ subGroup }
+              nameEn={ subNameEn }
+              nameFr={ subNameFr }
+              path={ this.props.path }
               i18n={ this.props.i18n }
             />
           );
@@ -58,4 +58,3 @@ class Sidenav extends React.Component {
 }
 
 export default Sidenav;
-

@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
-import { translate } from 'react-i18next';
 
 class ButtonDropdownWrapper extends React.Component {
   constructor(props) {
@@ -34,4 +33,4 @@ class ButtonDropdownWrapper extends React.Component {
   }
 }
 
-export default translate()(ButtonDropdownWrapper);
+export default ButtonDropdownWrapper;

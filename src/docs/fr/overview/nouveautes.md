@@ -5,9 +5,18 @@ lang: "fr"
 title: "Nouveautés"
 ---
 
+<helmet>
+<title> Nouveautés - Système de conception Aurora </title>
+</helmet>
+
 # Nouveautés
 
-Dernières mises à jour au système de conception \#numériqueGC.
+Dernières mises à jour au système de conception Aurora.
+
+##Version 1
+le 19 septembre, 2018
+
+![Image de marque Aurora](../../../img\aurora-banner-small.png)
 
 ## Juin 2018
 
@@ -19,7 +28,7 @@ Sierra a également rédigé un [billet de blogue](https://medium.com/@s.duffey1
 
 ## Avril 2018
 
-L’équipe de conception \#numériqueGC travaille d’arrache-pied pour créer une première version du système de conception \#numériqueGC. Parcourez notre manuel de git afin de voir ce qui a été fait jusqu’à présent et sur quoi nous travaillons toujours!
+L’équipe de conception Aurora travaille d’arrache-pied pour créer une première version du système de conception Aurora. Parcourez notre manuel de git afin de voir ce qui a été fait jusqu’à présent et sur quoi nous travaillons toujours!
 
 La première phase du système de conception portera sur les principaux éléments de conception et une trousse d’interface utilisateur téléchargeable. Nous sommes à terminer les derniers éléments liés à la navigation, à la visualisation des données et à l’animation, ainsi qu’à l’examen des travaux précédents.
 

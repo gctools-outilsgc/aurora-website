@@ -14,7 +14,6 @@
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-eslint": "^1.0.3",
     "gatsby-plugin-google-fonts": "^0.0.4",
-    "gatsby-plugin-lunr": "latest",
     "gatsby-plugin-react-helmet": "^2.0.11",
     "gatsby-plugin-sass": "^1.0.26",
     "gatsby-remark-images": "latest",
@@ -22,6 +21,7 @@
     "gatsby-transformer-remark": "latest",
     "gatsby-transformer-sharp": "latest",
     "i18next": "^11.9.0",
+    "lunr": "^2.3.3",
     "popper.js": "^1.14.4",
     "prismjs": "^1.15.0",
     "prop-types": "^15.6.2",
@@ -48,14 +48,14 @@
     "deploy": "rm -rf .cache/* && gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
-    "prettier": "^1.13.7",
     "eslint": "^5.0.1",
     "eslint-loader": "^2.0.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.10.0",
     "gh-pages": "^1.2.0",
-    "loader-utils": "^1.1.0"
+    "loader-utils": "^1.1.0",
+    "prettier": "^1.13.7"
   },
   "eslintConfig": {
     "extends": "@gctools-components",

@@ -16,9 +16,21 @@ class MarkdownRenderer extends React.Component {
       }
     }).Compiler;
     if (this.props.lang === "en") {
-      return(renderAst(this.props.eng.htmlAst));
+      return(
+        <reactstrap.Container className="mt-4 mb-4 doc-container">
+          <main id="main-content" role="main">
+            {renderAst(this.props.eng.htmlAst)}
+          </main>
+        </reactstrap.Container>
+      );
     } else {
-      return(renderAst(this.props.fr.htmlAst));
+      return(
+        <reactstrap.Container className="mt-4 mb-4 doc-container">
+          <main id="main-content" role="main">
+            {renderAst(this.props.fr.htmlAst)}
+          </main>
+        </reactstrap.Container>
+      );
     }
 
   }

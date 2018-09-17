@@ -4,6 +4,9 @@ subnav: "1/Content/Contenu/1"
 lang: "en"
 title: "Content guidelines"
 ---
+<helmet>
+<title> Content Guidelines - Aurora Design System </title>
+</helmet>
 
 # Content Guidelines
 
@@ -35,6 +38,10 @@ All language and content in the system uses **Canadian** spelling. The [Canadian
 Speak to users as if they are the main reader. Use pronouns such as "you" and yours, and use verbs that give direction, such as "download", "submit" or "save". Never refer to users in the third person. All system messaging should focus on the user.
 
 ## Referring to product owners and the Government of Canada
+
+Generally you should refer to your department or business as "us" or "we" unless it is unclear who the subject is from context, or if the documentation is official or for legal purposes. Using first person pronouns makes your product seem more personable.
+
+When referring to the Government of Canada and all departments within it, you typically should use the entire name of the department, not the department's acronym. Only use the acronym if the name appears previously in a single text and you have defined the acronym.
 
 ## Useful Tools
 

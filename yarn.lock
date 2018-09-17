@@ -4259,13 +4259,9 @@ gatsby-plugin-google-fonts@^0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-fonts/-/gatsby-plugin-google-fonts-0.0.4.tgz#dc1402a71f27c3ae6caee10777d10adadf74bd7c"
 
-gatsby-plugin-lunr@latest:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-lunr/-/gatsby-plugin-lunr-1.1.0.tgz#838550ae3d124ff360fa35fe7c8c79ef38ed4afa"
-  dependencies:
-    babel-runtime "^6.26.0"
-    lunr "^2.3.0"
-    lunr-languages "^1.0.0"
+gatsby-plugin-lunr-search@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-lunr-search/-/gatsby-plugin-lunr-search-1.0.1.tgz#3ff97b5c83061e86a924bbd712eb5476d0abfb32"
 
 gatsby-plugin-page-creator@^1.0.1:
   version "1.0.1"
@@ -6601,11 +6597,7 @@ ltcdr@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/ltcdr/-/ltcdr-2.2.1.tgz#5ab87ad1d4c1dab8e8c08bbf037ee0c1902287cf"
 
-lunr-languages@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/lunr-languages/-/lunr-languages-1.0.0.tgz#830bca2fe864b713ebe13ff33ed48ee06e635723"
-
-lunr@^2.3.0:
+lunr@^2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/lunr/-/lunr-2.3.3.tgz#5a72d170c872e441e7d0ffb61fff76b499ac0780"
 

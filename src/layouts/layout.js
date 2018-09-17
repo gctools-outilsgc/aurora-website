@@ -35,11 +35,26 @@ class Layout extends React.Component {
     );
   }
 } 
-    
-
 
 Layout.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.element.isRequired
 };
 
 export default Layout;
+
+export const pageQuery = graphql`
+query myQuery {
+  eng:markdownRemark(frontmatter: { lang: {eq: "en"} }) {
+    html
+    frontmatter {
+      title
+    }
+  }
+  fr:markdownRemark(frontmatter: { lang: {eq: "fr"} }) {
+    html
+    frontmatter {
+      title
+    }
+  }
+}
+`;

@@ -5,9 +5,11 @@ lang: "en"
 title: "Column and bar graphs"
 ---
 
-# Column and Bar Graphs
+<helmet>
+<title> Column and Bar Graphs - Aurora Design System </title>
+</helmet>
 
-![Column Graph](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/column%20graph_complex.png)
+# Column and Bar Graphs
 
 Bar graphs should be used to represent direct comparisons. Numerical values should always be shown beside visual elements.
 
@@ -19,7 +21,7 @@ Graph bars should never have a rounded top. A straight line precisely shows wher
 
 ## Column Graphs
 
-![Column Graph](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/column%20graph.png)
+![Column Graph](../../../img\examples\column_graph.png)
 
 Column graphs use vertical bars to represent data.
 
@@ -28,7 +30,7 @@ If you are using time as a variable in your visualization, always use a column g
 
 ## Bar Graphs
 
-![Bar Graph](https://github.com/gctools-outilsgc/design-system/blob/master/documentation/examples/bar%20graph.png)
+![Bar Graph](../../../img\examples\bar_graph.png)
 
 Bar graphs follow the same standards as column graphs, simply using horizontal instead of vertical bars. Bar graphs are only used to replace column graphs in a few cases:
 

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Button } from 'reactstrap';
+import PropTypes from 'prop-types';
 
 class LanguageSwitcher extends Component {
   constructor(props) {
@@ -41,5 +42,9 @@ class LanguageSwitcher extends Component {
   }
 
 }
+
+LanguageSwitcher.propTypes = {
+  i18n: PropTypes.any
+};
 
 export default LanguageSwitcher;

@@ -21,41 +21,6 @@ export default class Search extends Component {
         }
     }
 
-    render() {
-        return (
-            <div className="search-form search-form-round" style={{width:'300px'}}>
-                <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-                    <Label for="search" className="sr-only">
-                        {this.props.placeholder}
-                    </Label>
-                    <DropdownToggle
-                        tag={Input}
-                        type="text"
-                        id="search"
-                        value={this.state.query}
-                        onChange={this.search}
-                        placeholder={this.props.placeholder}
-                    />
-                    <DropdownMenu className="container-fluid">
-                        {(this.state.results.length !== 0) ?
-
-                            this.state.results.map(page =>
-                                <ListGroupItem tag={Link} to={page.path}>
-                                    {page.title}
-                                </ListGroupItem>
-                            )
-                            :
-                            <ListGroupItem toggle={"false"}>
-                                No results were found.
-                            </ListGroupItem>
-                        }
-                    </DropdownMenu>
-                </Dropdown>
-            </div>
-        )
-    }
-
-
     toggle() {
         this.setState(prevState => ({
             dropdownOpen: !prevState.dropdownOpen
@@ -91,4 +56,38 @@ export default class Search extends Component {
             query,
         })
     }
+
+    render() {
+      return (
+        <div className="search-form search-form-round" style={{width:'300px'}}>
+          <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+            <Label for="search" className="sr-only">
+              {this.props.placeholder}
+            </Label>
+            <DropdownToggle
+              tag={Input}
+              type="text"
+              id="search"
+              value={this.state.query}
+              onChange={this.search}
+              placeholder={this.props.placeholder}
+            />
+            <DropdownMenu className="container-fluid">
+              {(this.state.results.length !== 0) ?
+
+                this.state.results.map(page =>
+                    <ListGroupItem tag={Link} to={page.path}>
+                        {page.title}
+                    </ListGroupItem>
+                )
+                :
+                <ListGroupItem toggle={"false"}>
+                    No results were found.
+                </ListGroupItem>
+              }
+            </DropdownMenu>
+          </Dropdown>
+        </div>
+      )
+  }
 }
