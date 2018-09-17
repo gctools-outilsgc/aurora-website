@@ -71,10 +71,10 @@ const Header = () => (
               </div>
                 <Nav className="ml-auto" navbar>
                   <NavItem className="d-none d-md-block">
-                    <NavLink style={{"color":"black"}} target="_blank"  href="https://github.com/gctools-outilsgc/design-system"><FontAwesomeIcon style={{"font-size":"1.5em"}} icon={faGithub} /><span className="sr-only">GitHub</span></NavLink>
+                    <NavLink style={{"color":"black"}} target="_blank"  href="https://github.com/gctools-outilsgc/design-system"><FontAwesomeIcon style={{"fontSize":"1.5em"}} icon={faGithub} /><span className="sr-only">GitHub</span></NavLink>
                   </NavItem>
                   <NavItem className="d-none d-md-block">
-                    <NavLink style={{"color":"black"}} target="_blank" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai"><FontAwesomeIcon style={{"font-size":"1.5em"}} icon={faDownload} /><span className="sr-only">{t("DownloadLink")}</span></NavLink>
+                    <NavLink style={{"color":"black"}} target="_blank" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai"><FontAwesomeIcon style={{"fontSize":"1.5em"}} icon={faDownload} /><span className="sr-only">{t("DownloadLink")}</span></NavLink>
                   </NavItem>
                 </Nav>
             </Navbar>

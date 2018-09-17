@@ -27,6 +27,7 @@ class Sidenav extends React.Component {
               nameFr={ subNameFr }
               path={ this.props.path }
               i18n={ this.props.i18n }
+              key={ subNameEn }
             />
           );
         }
@@ -44,6 +45,7 @@ class Sidenav extends React.Component {
           nameFr={ subNameFr }
           path={ this.props.path }
           i18n={ this.props.i18n }
+          key={ subNameEn }
         />
       );
     }

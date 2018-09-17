@@ -86,10 +86,12 @@ export default class Search extends Component {
                 :
                 (this.state.query.length > 0) ?
                 <ListGroupItem toggle={"false"}>
-                    No results were found.
+                    No results were found. (NOT TRANSLATED)
                 </ListGroupItem>
                 :
-                null
+                <ListGroupItem toggle={"false"}>
+                    Start Searching... (NOT TRANSLATED OR DECIDED ON TEXT)
+                </ListGroupItem>
               }
             </DropdownMenu>
           </Dropdown>

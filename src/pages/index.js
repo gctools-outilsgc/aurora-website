@@ -20,6 +20,7 @@ class IndexPage extends React.Component {
   render() {
     return(
       <Layout>
+        <div>
         <I18n ns={["translation"]}>
           {
             (t) => (<Helmet><title>{t("AuroraDesignSystem")}</title></Helmet>)
@@ -43,8 +44,8 @@ class IndexPage extends React.Component {
                 <div>
                   <Link to="/component" className="mb-1 btn btn-primary btn-lg">{t("MainCTA")}</Link>
                   <div className="mb-3 mt-2">
-                    <a className="ext-link-text mr-3 mt-2" href="https://github.com/gctools-outilsgc/design-system"><FontAwesomeIcon className="mr-2" style={{"font-size":"1.5em", "color":"black"}} icon={faGithub} />{t("GithubLink")}</a>
-                    <a className="ext-link-text mt-2" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai"><FontAwesomeIcon className="mr-2" style={{"font-size":"1.5em", "color":"black"}} icon={faDownload} />{t("DownloadLink")}</a>
+                    <a className="ext-link-text mr-3 mt-2" href="https://github.com/gctools-outilsgc/design-system"><FontAwesomeIcon className="mr-2" style={{"fontSize":"1.5em", "color":"black"}} icon={faGithub} />{t("GithubLink")}</a>
+                    <a className="ext-link-text mt-2" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai"><FontAwesomeIcon className="mr-2" style={{"fontSize":"1.5em", "color":"black"}} icon={faDownload} />{t("DownloadLink")}</a>
                   </div>
                 </div>
                 </Container>
@@ -57,22 +58,22 @@ class IndexPage extends React.Component {
                   <Col xs="6" sm="6" md="6" lg="3" className="text-center">
                     <img className="img-fluid" src={Eye} alt="" />
                     <h3 className="mb-3 mt-3 h4">{t("Designers")}</h3>
-                    <Link to="/component" style={{"white-space":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DesignerCTA")}</Link>
+                    <Link to="/component" style={{"whiteSpace":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DesignerCTA")}</Link>
                   </Col>
                   <Col xs="6" sm="6" md="6" lg="3" className="text-center">
                     <img className="img-fluid" src={Gears} alt="" />
                     <h3 className="mb-3 mt-3 h4">{t("Developers")}</h3>
-                    <Link to="/component" style={{"white-space":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DeveloperCTA")}</Link>
+                    <Link to="/component" style={{"whiteSpace":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DeveloperCTA")}</Link>
                   </Col>
                   <Col xs="6" sm="6" md="6" lg="3" className="text-center">
                     <img className="img-fluid" src={Pen} alt="" />
                     <h3 className="mb-3 mt-3 h4">{t("Writers")}</h3>
-                    <Link to="/content/content-guidelines" style={{"white-space":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("WriterCTA")}</Link>
+                    <Link to="/content/content-guidelines" style={{"whiteSpace":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("WriterCTA")}</Link>
                   </Col>
                   <Col xs="6" sm="6" md="6" lg="3" className="text-center">
                     <img className="img-fluid" src={Pie} alt="" />
                     <h3 className="mb-3 mt-3 h4">{t("DataScientists")}</h3>
-                    <Link to="/data/data-overview" style={{"white-space":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DataScientistCTA")}</Link>
+                    <Link to="/data/data-overview" style={{"whiteSpace":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DataScientistCTA")}</Link>
                   </Col>
                 </Row>
 
@@ -110,10 +111,8 @@ class IndexPage extends React.Component {
                     <div>
                       <p className="lead" style={{ display: 'inline-block', paddingBottom: '10px', textAlign: 'left' }}>
                         {t("BottomText")}
-                        <div>
-                          <Link to="/overview/introduction" className="btn btn-primary mt-3">{t("LearnMore")}</Link>
-                        </div>
                       </p>
+                      <Link to="/overview/introduction" className="btn btn-primary mt-3">{t("LearnMore")}</Link>
                     </div>
                   </Container>
                 </div>
@@ -121,6 +120,7 @@ class IndexPage extends React.Component {
           )
         }
         </I18n>
+      </div>
       </Layout>
     );
   }
