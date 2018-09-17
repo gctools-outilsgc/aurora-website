@@ -17,7 +17,7 @@ title: "Avatars and thumbnails"
         <ul class="list-unstyled">
         <li class="media media-comment">
             <a href="#!">
-                <img alt="..." class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+                <img alt="..." class="avatar" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
             </a>
             <div class="media-body">
                 <div class="media-heading">
@@ -64,7 +64,7 @@ Avatars are used in three sizes and styled as follows:
 
 Used on small components where the user would need to be identified, such as tags or chat.
 
-<img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+<img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 
 <codeblock html='<img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 ' react='' />

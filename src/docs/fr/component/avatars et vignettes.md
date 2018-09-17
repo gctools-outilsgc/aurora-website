@@ -16,7 +16,7 @@ title: "Images, avatars et vignettes"
         <ul class="list-unstyled">
         <li class="media media-comment">
             <a href="#!">
-                <img alt="..." class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+                <img alt="..." class="avatar" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
             </a>
             <div class="media-body">
                 <div class="media-heading">
