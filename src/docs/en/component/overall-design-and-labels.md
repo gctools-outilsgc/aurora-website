@@ -5,6 +5,10 @@ lang: "en"
 title: "Form design and labels"
 ---
 
+<helmet>
+<title> Form Design and Labels - Aurora Design System </title>
+</helmet>
+
 # Form design and labels
 
 ## Design
@@ -186,7 +190,11 @@ If possible, it is recommended to limit forms to one page. If a form has more th
 
 If a form has more than one page, it is recommended to provide the user with a visual representation of progression so that they are aware of their level of completion. Styling for step indicators is written in its own section of this documentation.
 
-*step indicator component*
+![Step indicator component at step 1](../../../img\components\steps indicator_1.png)
+
+![Step indicator component at step 2](../../../img\components\steps indicator_2.png)
+
+![Step indicator component at step 3](../../../img\components\steps indicator_3.png)
 
 ## Navigation
 

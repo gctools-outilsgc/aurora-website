@@ -5,9 +5,11 @@ lang: "en"
 title: "Progress indicators"
 ---
 
-# Progress Indicators
+<helmet>
+<title> Progress Indicators - Aurora Design System </title>
+</helmet>
 
-**Design review currently in progress**
+# Progress Indicators
 
 ## Steps Indicator
 
@@ -25,13 +27,13 @@ The inner circle is white \(<badge style="background-color: #FFFFFF;color:black;
 
 In between steps there is a centred line with a thickness of 3px. This line should be the same colour as the outer circle.
 
-*Empty steps component*
+![Steps indicator component on step 1](../../../img\components\steps indicator_1.png)
 
 In progress, completed steps use a coloured circle and line. The outer circle is filled with the colour \(<badge style="background-color: #FEC04F;color:black;">#FEC04F</badge>\)\ or the secondary colour of your choice. The line is also filled with this colour.
 
-*Active steps component*
+![Steps indicator component on step 2](../../../img\components\steps indicator_2.png)
 
-*Completed steps component*
+![Steps indicator component on step 3](../../../img\components\steps indicator_3.png)
 
 ## Progress Bars
 
@@ -95,4 +97,4 @@ Progress bars start empty and gradually fill with colour using an animation. The
 
 Spinners are used to indicate that a page or function is loading. A general rule is to use spinners for processes that take less than 4 seconds. Spinners show indeterminate levels of progress, meaning there is no clear completion and the animation loops until the process is complete.
 
-The spinner used in this design system is displayed using the [spinner icon](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit) from Font Awesome. Font Awesome provides [multiple icons](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit) that may work well as a spinner, depending on your content. You can refer to [Font Awesome's documentation](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit) to animate the spinner to demonstrate a loading page or function.
+The spinner used in this design system is displayed using the spinner icon from Font Awesome. Font Awesome provides multiple icons that may work well as a spinner, depending on your content. You can refer to [Font Awesome's documentation](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit) to animate the spinner to demonstrate a loading page or function.

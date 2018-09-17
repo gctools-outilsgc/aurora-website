@@ -5,6 +5,9 @@ lang: "fr"
 title: "Boutons"
 ---
 
+<helmet>
+<title> Boutons - Système de conception Aurora </title>
+</helmet>
 
 # Boutons
 
@@ -108,6 +111,8 @@ Toutes les étiquettes devraient mettre seulement la première lettre en majuscu
 Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouton. Voir les couleurs pour plus de renseignements au sujet d’un contraste acceptable.
 
 ## États variables
+
+![Image des états variables des boutons](../../../img\examples\button states.png)
 
 Les boutons ne sont pas des objets ayant un seul état. La plupart des utilisateurs reconnaissent un bouton en raison de son état stationnaire et son état actif. Les divers états offrent également de la rétroaction à l’utilisateur à chaque étape de l’exécution de l’action.
 

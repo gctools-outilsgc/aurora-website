@@ -5,6 +5,10 @@ lang: "fr"
 title: "Lignes directrices sur le contenu"
 ---
 
+<helmet>
+<title> Lignes directrices sur le contenu - Système de conception Aurora </title>
+</helmet>
+
 # Lignes directrices sur le contenu
 
 ## Niveau de lecture et langage clair et simple
@@ -36,3 +40,9 @@ Faire référence aux responsables de produits et au gouvernement du Canada
 En général, vous devriez désigner votre ministère ou entreprise par « nous », à moins qu’on ne sache pas qui est le sujet ou si la documentation est officielle ou à des fins juridiques. L’utilisation des pronoms de première personne donne l’impression que votre produit est plus personnalisable.
 
 Lorsqu’on parle du gouvernement du Canada et de tous les ministères qui en font partie, il faut habituellement utiliser le nom complet du ministère et non l’acronyme du ministère. Utilisez l’acronyme seulement si le nom du ministère apparaît précédemment dans un seul texte et que vous avez défini l’acronyme.
+
+
+## Faire référence à des propriétaires de produits et au gouvernement du Canada
+
+En règle générale, vous devriez faire référence à vos ministères ou entreprises comme « nous », à moins qu’il ne soit pas clair qui est le sujet du contexte, ou si le document est officiel ou à des fins légales. L’utilisation de pronoms de la première personne fait sembler vos produits plus agréables.
+Lorsque vous faites référence au gouvernement du Canada et à tous ses ministères, vous devriez utiliser le nom complet du ministère, et non l’acronyme du ministère. N’utilisez l’acronyme que si le nom figure précédemment dans le même texte et si vous avez défini l’acronyme.

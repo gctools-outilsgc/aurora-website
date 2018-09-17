@@ -5,9 +5,11 @@ lang: "fr"
 title: "Diagrammes à barres ou colonne"
 ---
 
-## Diagrammes à barres ou colonne
+<helmet>
+<title> Diagrammes à barres ou colonne - Système de conception Aurora </title>
+</helmet>
 
-*Exemple d’images de graphiques à barres*
+## Diagrammes à barres ou colonne
 
 Les graphiques à barres doivent être utilisés pour représenter des comparaisons directes. Les valeurs numériques devraient toujours être indiquées à côté des éléments visuels.
 
@@ -23,7 +25,7 @@ Les graphiques à colonnes utilisent des barres verticales pour représenter des
 
 Si vous utilisez le temps comme une variable dans votre visualisation, toujours utilisez un graphique à colonnes.
 
-*Exemple de graphique à colonnes*
+![Exemple d'une graphique à colonne](../../../img\components\column graph_fr.png)
 
 ## Graphiques à barres
 
@@ -31,4 +33,4 @@ Les graphiques à barres suivent les mêmes normes que les graphiques à colonne
 *	Si les étiquettes de données sont longues et nécessitent plus d’espace visuel
 *	Si vous illustrez plus de 10 points.
 
-*Exemple d’un diagramme à barres*
+![Image d'une graphique à barre](../../../img\components\bar graph_fr.png)

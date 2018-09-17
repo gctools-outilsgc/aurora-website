@@ -2,8 +2,12 @@
 path: "/component/divider-rule"
 subnav: "2/Standard/Standard/6"
 lang: "en"
-title: "Divider/Rule"
+title: "Divider/rule"
 ---
+
+<helmet>
+<title> Divider/Rule - Aurora Design System </title>
+</helmet>
 
 # Divider/Rule
 

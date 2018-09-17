@@ -5,6 +5,10 @@ lang: "fr"
 title: "Séparateur ou règle"
 ---
 
+<helmet>
+<title> Séparateurou règle - Système de conception Aurora </title>
+</helmet>
+
 # Séparateur ou règle
 
 Les séparateurs servent à séparer le contenu sur une page et sont principalement utilisés pour diviser les longues pages de textes ou pour séparer des titres d’autres contenus.

@@ -5,6 +5,10 @@ lang: "fr"
 title: "Pagination et défilement"
 ---
 
+<helmet>
+<title> Pagination et défilement - Système de conception Aurora </title>
+</helmet>
+
 # Pagination et défilement
 
 Il y a deux façons de présenter le contenu sur une page : le défilement et la pagination. Chacune a des avantages et des inconvénients, et vous devriez choisir celle qui correspond au type et au contexte du contenu que vous présentez.

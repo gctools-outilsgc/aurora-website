@@ -5,6 +5,10 @@ lang: "en"
 title: "Colour"
 ---
 
+<helmet>
+<title> Colour - Aurora Design System </title>
+</helmet>
+
 # Colour
 
 ## Palettes
@@ -129,7 +133,7 @@ Error hex codes:
 Warning colours are used for notices that require the user’s acknowledgement.
 
 Warning hex codes:
-<badge style="background-color: #66512C;">#66512C</badge>, <badge style="background-color: #FF9900;">#FF9900</badge>, <badge style="background-color: #F9F4D4;color:black;">#F9F4D4</badge>
+<badge style="background-color: #66512C;">#66512C</badge>, <badge style="background-color: #FF9900; color:black">#FF9900</badge>, <badge style="background-color: #F9F4D4;color:black;">#F9F4D4</badge>
 
 
 #### Success Colours
@@ -144,4 +148,4 @@ Success hex codes:
 Info colours are used when providing additional information and notes to the user.
 
 Info hex codes:
-<badge style="background-color: #245269;">#245269</badge>, <badge style="background-color: #269ABC;">#269ABC</badge>, <badge style="background-color: #D7FAFF;color:black;">#D7FAFF</badge>
+<badge style="background-color: #245269;">#245269</badge>, <badge style="background-color: #269ABC; color:black">#269ABC</badge>, <badge style="background-color: #D7FAFF;color:black;">#D7FAFF</badge>

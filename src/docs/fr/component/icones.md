@@ -5,16 +5,17 @@ lang: "fr"
 title: "Icônes"
 ---
 
+<helmet>
+<title> Icônes - Système de conception Aurora </title>
+</helmet>
+
 # Icônes
 <helmet>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </helmet>
-<i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"></i>
-<i class="fa fa-refresh fa-spin" style="font-size:24px"></i>
-<i class="fa fa-spinner fa-spin" style="font-size:24px"></i>
-<i style="font-size:24px" class="fa">&#xf013;</i>
-<i style="font-size:24px" class="fa fa-trash" aria-hidden="true"></i>
+
+![Image des icônes de Font Awesome](../../../img\icons_example.PNG)
 
 Les icônes de ce système utilisent les icônes SVG de [Font Awesome](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit).
 
@@ -34,5 +35,10 @@ Les icônes sont utilisées pour certains boutons et sont habituellement associ�
 Afin de réduire les répercussions sur le rendement de votre application, il est recommandé que celle-ci charge seulement les icônes nécessaires plutôt que l’ensemble complet. Au moment de choisir une icône à utiliser dans votre application, assurez-vous de toujours utiliser la même icône pour représenter une mesure ou exigence semblable.
 
 ## Icône de chargement
+
+<i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"></i>
+<i class="fa fa-refresh fa-spin" style="font-size:24px"></i>
+<i class="fa fa-spinner fa-spin" style="font-size:24px"></i>
+
  [L’icône de chargement](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit) est affichée en utilisant l’icône chargement en cours de Font Awesome. Font Awesome fournit de [multiples icônes](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit) qui peuvent bien fonctionner comme icône de chargement en cours, selon votre contenu. Vous pouvez vous référer à la [documentation de Font Awesome](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit) pour animer l’icône afin de démontrer une page en cours de chargement.
 Vous pouvez également utiliser ces mêmes principes pour animer toute autre icône que vous choisissez.

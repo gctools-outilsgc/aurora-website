@@ -5,6 +5,10 @@ lang: "fr"
 title: "Images, avatars et vignettes"
 ---
 
+<helmet>
+<title> Images, avatars et vignettes - Système de conception Aurora </title>
+</helmet>
+
 # Images, avatars et vignettes
 <div class="mt-3">
     <div class="card">
@@ -49,25 +53,25 @@ Lorsque les utilisateurs téléchargent leur avatar, ils sont amenés à rogner 
 
 Les avatars sont utilisés en trois tailles et sont stylisés comme suit :
 
-<img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+<img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 
-<codeblock html='<img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+<codeblock html='<img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 ' react='' />
 
 **Petit** : image carrée avec les coins arrondis par 4px. Taille à 26 x 26 pixels.
 Utilisés sur les petits éléments où l’utilisateur a besoin d’être identifié comme sur des mots-clés ou le clavardage.
 
-<img alt="medium avatar" class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+<img alt="medium avatar" class="avatar" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 
-<codeblock html='<img alt="medium avatar" class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+<codeblock html='<img alt="medium avatar" class="avatar" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 ' react='' />
 
 **Moyen** : image carrée avec les coins arrondis par 4px. Taille à 50 x 50 pixels.
 Utilisée en combinaison avec d’autres éléments tels que des commentaires, le clavardage, des cartes et tout autre endroit où vous auriez besoin d’identifier l’utilisateur.
 
-<img alt="large avatar" class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+<img alt="large avatar" class="avatar avatar-lg" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 
-<codeblock html='<img alt="large avatar" class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+<codeblock html='<img alt="large avatar" class="avatar avatar-lg" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 ' react='' />
 
 **Grand** : image carrée avec les coins arrondis par 4px. Taille à 115 x 115 pixels.

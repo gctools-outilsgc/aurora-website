@@ -5,6 +5,10 @@ lang: "fr"
 title: "Téléversement des fichiers"
 ---
 
+<helmet>
+<title> Téléversement des fichiers - Système de conception Aurora </title>
+</helmet>
+
 # Téléversement des fichiers
 
 Les saisies de téléversement de fichiers sont une combinaison d’un bouton et d’un champ de saisie. Elles sont incluses dans les formulaires sur lesquels l’utilisateur a la possibilité d’inclure des fichiers.
@@ -29,9 +33,9 @@ Les saisies de téléversement de fichiers ont quatre états :
     </div>
 ' react='' />
 
-**État « normal » :** Le bouton est de couleur #002D42 à une opacité de 100 %, le texte est blanc et le rayon de bordure est de 4 px. Les coins supérieurs et inférieurs droits du bouton de téléversement de fichier a un rayon de bordure de 0 px. Le bouton est aligné à gauche du champ et comprend une icône de dossier.
+**État « normal » :** Le bouton est de couleur <badge style="background-color: #002D42">#002D42</badge>  à une opacité de 100 %, le texte est blanc et le rayon de bordure est de 4 px. Les coins supérieurs et inférieurs droits du bouton de téléversement de fichier a un rayon de bordure de 0 px. Le bouton est aligné à gauche du champ et comprend une icône de dossier.
 
-Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle élevé de 42 px ayant un rayon de bordure de 4 px. La couleur de l’arrière-plan est le #FFFFFF, la couleur de bordure est le <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>, et l’ombrage de 1 px a une opacité noire floue à 20 %. Le texte est aligné à gauche du champ de saisie et suit les normes sur le [texte d’espace réservé.](typographie.md) Le champ est un remplissage de 11 px.
+Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle élevé de 42 px ayant un rayon de bordure de 4 px. La couleur de l’arrière-plan est le <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, la couleur de bordure est le <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>, et l’ombrage de 1 px a une opacité noire floue à 20 %. Le texte est aligné à gauche du champ de saisie et suit les normes sur le [texte d’espace réservé.](typographie.md) Le champ est un remplissage de 11 px.
 
 <div class="custom-file">
     <input type="file" id="file" class="custom-file-input" aria-label="file upload">
@@ -48,7 +52,7 @@ Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle
 ' react='' />
 
 **État « pointage » :** Le bouton est de couleur <badge style="background-color: #002D42;">#002D42</badge> à une opacité de 80 %, le texte est blanc et le rayon de bordure est de 4 px, et l’ombrage est de 15 px.
-Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle élevé de 42 px ayant un rayon de bordure de 4 px. La couleur de l’arrière-plan est le #FFFFFF, la couleur de bordure est le <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. Le texte est aligné à gauche du champ de saisie et suit les normes sur le [texte d’espace réservé.](typographie.md) Le champ est un ombrage de 11 px.
+Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle élevé de 42 px ayant un rayon de bordure de 4 px. La couleur de l’arrière-plan est le <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, la couleur de bordure est le <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. Le texte est aligné à gauche du champ de saisie et suit les normes sur le [texte d’espace réservé.](typographie.md) Le champ est un ombrage de 11 px.
 
 <div class="custom-file">
     <input type="file" id="file" class="custom-file-input" aria-label="file upload">
@@ -65,7 +69,7 @@ Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle
 ' react='' />
 
 **État « focus » :** Le bouton est de couleur <badge style="background-color: #002D42;">#002D42</badge> à une opacité de 80 %, le texte est blanc et le rayon de bordure est de 4 px, et l’ombrage est de 15 px. Il comprend un trait droit de 3 px dans la couleur primaire.
-Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle élevé de 42 px ayant un rayon de bordure de 4 px. La couleur de l’arrière-plan est le #FFFFFF, la couleur de bordure est le <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. Le texte est aligné à gauche du champ de saisie et suit les normes sur le [texte d’espace réservé.](typographie.md) Le champ a un ombrage de 11 px.
+Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle élevé de 42 px ayant un rayon de bordure de 4 px. La couleur de l’arrière-plan est le <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, la couleur de bordure est le <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. Le texte est aligné à gauche du champ de saisie et suit les normes sur le [texte d’espace réservé.](typographie.md) Le champ a un ombrage de 11 px.
 
 <div class="custom-file">
     <input type="file" id="file" class="custom-file-input" disabled aria-label="file upload">
@@ -82,4 +86,4 @@ Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle
 ' react='' />
 
 **État « désactivé » :** Le bouton est de couleur <badge style="background-color: #002D42;">#002D42</badge> à une opacité de 50 %, le texte est blanc et le rayon de bordure est de 4 px, et l’ombrage est de 15 px.
-Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle élevé de 42 px ayant un rayon de bordure de 4 px. La couleur de l’arrière-plan est le #FFFFFF, la couleur de bordure est le <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. Le texte est aligné à gauche du champ de saisie et suit les normes sur le [texte d’espace réservé.](typographie.md) Le champ a un remplissage de 11 px.
+Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle élevé de 42 px ayant un rayon de bordure de 4 px. La couleur de l’arrière-plan est le <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, la couleur de bordure est le <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. Le texte est aligné à gauche du champ de saisie et suit les normes sur le [texte d’espace réservé.](typographie.md) Le champ a un remplissage de 11 px.

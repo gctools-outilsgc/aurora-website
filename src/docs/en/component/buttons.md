@@ -4,6 +4,9 @@ subnav: "2/Standard/Standard/3"
 lang: "en"
 title: "Buttons"
 ---
+<helmet>
+<title> Buttons - Aurora Design System </title>
+</helmet>
 
 # Buttons
 
@@ -134,7 +137,7 @@ Primary buttons identify a call to action. Use these buttons for actions that a 
 
 Primary buttons are designed to have high contrast against the background and the heaviest visual weight. They typically use brighter colours than other elements on the form or layout, and are located in a visible and accessible area of the page.
 
-Primary buttons use the primary colour, with white text. Sizing of the button depends on the length of the _**action words**_.
+Primary buttons use the primary colour, with white text. Sizing of the button depends on the length of the action words.
 
 Each of the states for primary buttons are as follows:
 

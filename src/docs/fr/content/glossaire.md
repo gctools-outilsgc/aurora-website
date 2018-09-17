@@ -5,6 +5,10 @@ lang: "fr"
 title: "Glossaire"
 ---
 
+<helmet>
+<title> Glossaire - Système de conception Aurora </title>
+</helmet>
+
 # Glossaire
 ## Accessibilité
 L’accessibilité est la pratique de concevoir des produits qui sont utilisables par tous les utilisateurs, peu importe leurs compétences ou le contexte d’utilisation. Différente de la facilité d’emploi, l’accessibilité se concentre sur les aspects techniques et visuels d’une conception qui sont directement liés à sa fonctionnalité pour les utilisateurs de différents niveaux de capacité. Bien que conçu pour aider les utilisateurs ayant des handicaps précis, prendre en considération l’accessibilité des produits numériques offre des avantages pour tous les utilisateurs.

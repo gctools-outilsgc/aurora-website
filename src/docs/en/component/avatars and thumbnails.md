@@ -5,6 +5,10 @@ lang: "en"
 title: "Avatars and thumbnails"
 ---
 
+<helmet>
+<title> Images, Avatars and Thumbnails - Aurora Design System </title>
+</helmet>
+
 # Images, Avatars and Thumbnails
 
 <div class="mt-3">
@@ -55,27 +59,27 @@ When users upload their avatar, they are prompted to crop the image to fit into 
 
 Avatars are used in three sizes and styled as follows:
 
-<img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+<img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 
-<codeblock html='<img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+<codeblock html='<img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 ' react='' />
 
 **Small:** Square image with corners rounded by 4px. Sized at 26 x 26 pixels.
 
 Used on small components where the user would need to be identified, such as tags or chat.
 
-<img alt="medium avatar" class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+<img alt="medium avatar" class="avatar" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 
-<codeblock html='<img alt="medium avatar" class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+<codeblock html='<img alt="medium avatar" class="avatar" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 ' react='' />
 
 **Medium:** Square image with corners rounded by 4px. Sized at 50 x 50 pixels.
 
 Used in combination with other components such as comments, chat, cards and anywhere else you would need to identify the user.
 
-<img alt="large avatar" class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+<img alt="large avatar" class="avatar avatar-lg" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 
-<codeblock html='<img alt="large avatar" class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+<codeblock html='<img alt="large avatar" class="avatar avatar-lg" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 ' react='' />
 
 **Large**: Square image with corners rounded by 4px. Sized at 115 x 115 pixels.

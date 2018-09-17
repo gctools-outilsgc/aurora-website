@@ -7,6 +7,7 @@ import '../utils/custom.scss';
 import { Container } from 'reactstrap';
 import '../components/i18n';
 import './layout.scss';
+import icon from "../img/favicon.ico"
 
 const Layout = ({ children }) => (
 
@@ -27,6 +28,9 @@ const Layout = ({ children }) => (
           meta={[
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },
+          ]}
+          link={[
+              { rel: 'shortcut icon', type: 'image/png', href: `${icon}` }
           ]}
         />
         <div style={{position:'fixed', zIndex:'99999', top: '0', left: '45%'}}>

@@ -5,6 +5,10 @@ lang: "en"
 title: "Tables"
 ---
 
+<helmet>
+<title> Data Tables - Aurora Design System </title>
+</helmet>
+
 # Tables
 
 Data tables are used to show a large amount of discreet data with multiple categories. Data can be filtered and ordered using a data table. For any data visualization, the table with raw data should accompany it. Tables are the simplest and most accessible way to display data, and provide specific information about each data set. Tables allow the user to reference individual values, while visualizations are better able to represent trends derived from these values.

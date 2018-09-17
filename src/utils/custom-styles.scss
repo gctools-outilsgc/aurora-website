@@ -8,9 +8,9 @@
       color: $black;
      box-shadow: $dropdown-box-shadow;
     }
-  
+
     .alert-icon.alert-#{$color} {
-      padding:0;  
+      padding:0;
       position: relative;
       display: flex;
       .icon {
@@ -26,14 +26,14 @@
           flex: 1;
       }
       }
-  
+
       .alert-icon.alert-dismissible .message {
           padding: 0 $alert-padding-x;
           margin: $alert-padding-y 60px $alert-padding-y $alert-padding-x;
           border-right: 1px solid #e0e0e0;
       }
 }
-  
+
 .alert-icon-border {
     background-color: $white;
 }
@@ -58,10 +58,10 @@ button.switch {
     text-align: center;
     font: 12px "Open Sans", "Arial", serif;
   }
-  
+
   button.switch span {
     padding: 0 4px;}
-  
+
   [role="switch"][aria-checked="false"] :first-child,
   [role="switch"][aria-checked="true"] :last-child {
     background: white;
@@ -69,12 +69,12 @@ button.switch {
     border-radius: 16px;
     padding: 2px;
   }
-  
+
   [role="switch"][aria-checked="false"] :last-child,
   [role="switch"][aria-checked="true"] :first-child {
     color: #bbd;
   }
-  
+
   label.switch {
     font: 16px "Open Sans", "Arial", sans-serif;
     line-height: 20px;
@@ -93,9 +93,9 @@ button.switch {
     width: 35px;
     height: 21px;
   }
-  
+
   .switch input {display:none;}
-  
+
   .slider {
     position: absolute;
     cursor: pointer;
@@ -108,7 +108,7 @@ button.switch {
     transition: .4s;
     border: 2px solid #666666;
   }
-  
+
   .slider:before {
     position: absolute;
     content: "";
@@ -120,26 +120,26 @@ button.switch {
     -webkit-transition: .4s;
     transition: .4s;
   }
-  
+
   input:checked + .slider {
     background-color: #FEC04F;
   }
-  
+
   input:focus + .slider {
     box-shadow: 0 0 1px #2196F3;
   }
-  
+
   input:checked + .slider:before {
     -webkit-transform: translateX(14px);
     -ms-transform: translateX(14px);
     transform: translateX(14px);
   }
-  
+
   /* Rounded sliders */
   .slider.round {
     border-radius: 34px;
-    }							
-  
+    }
+
   .slider.round:before {
     border-radius: 50%;
   }
@@ -176,18 +176,18 @@ button.switch {
   }
 
 //Cards
-  
+
 .card {
     box-shadow: $dropdown-box-shadow;
     border-radius: $border-radius-lg;
 }
-  
+
 .card-header, .card-footer {
     background: transparent;
     margin: 0 $card-spacer-x;
     padding: $card-spacer-y 0;
 }
-  
+
 a .card {
     text-decoration: none;
 }
@@ -205,15 +205,15 @@ a .card {
     width: 90px;
     height: 90px;
 }
-  
+
 //Menus
 .dropdown-menu {
     border-radius: $border-radius-sm;
-}  
+}
 a.dropdown-item {
     text-decoration: none;
 }
-  
+
 .dropdown-divider {
     margin:0;
 }
@@ -258,18 +258,18 @@ a.dropdown-item {
 .nav-tabs .nav-link.active {
     font-weight: bold;
 }
-  
+
 //Modals
 .modal-header, .modal-footer {
     border: none;
 }
 
 //Helper Classes
-  
+
 .bd-example {
     position: relative;
 }
-  
+
 .bd-example>.dropdown-menu:first-child {
     position: static;
     display: block;
@@ -287,7 +287,7 @@ a.dropdown-item {
 
 .avatar.avatar-sm {
     width: 26px;
-    height: 26px; 
+    height: 26px;
 }
 
 .avatar.avatar-lg {
@@ -338,7 +338,7 @@ a.dropdown-item {
     left: 3px;
     position: absolute;
     width: 6px;
-    top: 10px; 
+    top: 10px;
 }
 
 .badge-tag::after {
@@ -362,8 +362,8 @@ a.dropdown-item {
       border-top: none;
   }
 
-  body { 
-    padding-top: 110px; 
+  body {
+    padding-top: 110px;
     font-family: 'Rubik', sans-serif;
   }
 
@@ -374,13 +374,19 @@ a.dropdown-item {
     .nav-site {
         .nav-link {
             padding: 8px 16px;
-            
+
         }
         .nav-link.active {
             background-color: transparent !important;
         }
     }
-    
+
+  //Secondary Buttons 
+
+  .btn-secondary {
+    @include button-outline-variant($primary);
+  }
+
 /* ADDED FOR DS*/
 
 h1, h2, h3, h4, h5, h6, p {
@@ -410,7 +416,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 a.ext-link-text {
-    display: inline;
+    color:black;
+    display: inline-block;
     padding-left: 10px;
     font-size: 20px;
     vertical-align: middle;

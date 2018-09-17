@@ -5,6 +5,10 @@ lang: "en"
 title: "Overview"
 ---
 
+<helmet>
+<title> Data Overview - Aurora Design System </title>
+</helmet>
+
 # Data Overview
 
 Data visualizations come in many forms, and are a visual means to represent a data set. The type of data visualization chosen should always be appropriate for the type of data used.

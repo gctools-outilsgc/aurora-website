@@ -4,6 +4,11 @@ subnav: "2/Standard/Standard/2"
 lang: "en"
 title: "Badges"
 ---
+
+<helmet>
+<title> Badges - Aurora Design System </title>
+</helmet>
+
 # Badges
 
 

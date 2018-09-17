@@ -4,9 +4,24 @@ subnav: "1/About/À notre sujet/2"
 lang: "en"
 title: "What's new?"
 ---
+
+<helmet>
+<title> What's New - Aurora Design System </title>
+</helmet>
+
 # What's New
 
-Latest updates to the \#GCDigital Design System.
+Latest updates to the Aurora Design System.
+
+### Version 1
+September 19, 2018
+
+![Aurora banner](../../../img\aurora-banner-small.png)
+
+We’re excited to launch the first iteration of Aurora Design System! All of the components we’ve designed and tested with their HTML code can be easily found and copied, including text on how and when to use them.
+
+This is the first iteration, and we are continuing to design new aspects to add to Aurora, as well as adding React.js code for each of our existing components. [See our Github](https://github.com/gctools-outilsgc/design-system-code) to stay up-to-date with what we are working on, or to give feedback about Aurora. Stay tuned for updates as we work on making Aurora even better!
+
 
 ### June 2018
 
@@ -18,7 +33,7 @@ Sierra also wrote a [blog post](https://medium.com/@s.duffey121/7-things-i-learn
 
 ### **April 2018**
 
-The \#GCdigital design team is hard at work creating a first draft of the \#GCdigital design system. Browse through our Gitbook to see what's been done so far and what we're still working on!
+The Aurora design team is hard at work creating a first draft of the Aurora Design System. Browse through our Gitbook to see what's been done so far and what we're still working on!
 
 The first phase of the design system will focus on key design elements, and a downloadable user interface \(UI\) kit. We are finishing the last few elements related to navigation, data visualizations and animations, as well as reviewing previous work.
 

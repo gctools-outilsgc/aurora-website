@@ -5,6 +5,10 @@ lang: "fr"
 title: "Erreurs et validation"
 ---
 
+<helmet>
+<title> Erreurs et validation - Système de conception Aurora </title>
+</helmet>
+
 # Erreurs et validation
 
 ## Erreurs de saisie
@@ -58,7 +62,7 @@ Les erreurs en ligne sont conçues comme suit :
     <small id="Text1Error" class="form-text text-danger">Ceci est le message d’erreur</small>
 ' react='' />
 
-L’icône « x » à la gauche du texte d’erreur. L’erreur est placée 10px en dessous du champ de saisie. Le texte est dans la police Nunito sans régulier à 14px de la couleur <badge style="background-color: #925534">#925534</badge>.
+L’icône « x » à la gauche du texte d’erreur. L’erreur est placée 10px en dessous du champ de saisie. Le texte est dans la police Nunito sans régulier à 14px de la couleur <badge style="background-color: #923534">#923534</badge>.
 
 ## Confirmation
 

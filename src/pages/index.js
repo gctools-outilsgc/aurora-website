@@ -2,7 +2,7 @@ import React from 'react';
 import githubLogo from '../img/github.png';
 import downloadIcon from '../img/download.png';
 import headerImg from '../img/aurora-banner-large.png';
-import { StaticQuery, graphql, push, replace } from 'gatsby';
+import { StaticQuery, graphql, push, replace, Link } from 'gatsby';
 import {
   Container,
   Row,
@@ -11,23 +11,31 @@ import {
   Jumbotron
 } from 'reactstrap';
 import Layout from '../components/layout';
-import Img from "gatsby-image"
+import Img from "gatsby-image";
+import Helmet from 'react-helmet';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { translate } from "react-i18next";
 const IndexPage = ({ data, t, i18n }) => (
 
   <Layout>
+    <Helmet>
+      <title>{t("AuroraDesignSystem")}</title>
+    </Helmet>
+    <h1 className="sr-only">{t("AuroraDesignSystem")}</h1>
     <main id="main-content" role="main">
       <div className="hero-holder">
       <Container>
-        <h1 className="display-5">Aurora Design System</h1>
+        <h2 className="display-5">{t("Tagline")}</h2>
         <p className="lead">
           {t("TopIntro")}
         </p>
         <div>
-          <a href="/component" className="mb-1 btn btn-primary btn-lg">{t("MainCTA")}</a>
-          <div className="mb-3 mt-3">
-            <a className="ext-link-text" href="https://github.com/gctools-outilsgc/design-system"><img alt="" className="mr-1" src={githubLogo} style={{ width: '32px', height: '32px', display: 'inline-block', 'margin-top':'-5px' }} />{t("GithubLink")}</a>
-            <a className="ml-3 ext-link-text" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai"><img alt="" className="mr-1" src={downloadIcon} style={{ width: '32px', height: '32px', display: 'inline-block', 'margin-top':'-5px' }} />{t("DownloadLink")}</a>
+          <Link to="/component" className="mb-1 btn btn-primary btn-lg">{t("MainCTA")}</Link>
+          <div className="mb-3 mt-2">
+            <a className="ext-link-text mr-3 mt-2" href="https://github.com/gctools-outilsgc/design-system"><FontAwesomeIcon className="mr-2" style={{"font-size":"1.5em", "color":"black"}} icon={faGithub} />{t("GithubLink")}</a>
+            <a className="ext-link-text mt-2" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai"><FontAwesomeIcon className="mr-2" style={{"font-size":"1.5em", "color":"black"}} icon={faDownload} />{t("DownloadLink")}</a>
           </div>
         </div>
         </Container>
@@ -37,25 +45,25 @@ const IndexPage = ({ data, t, i18n }) => (
       <h2>{t("IAM")}</h2>
 
       <Row className="pb-2">
-        <Col xs="6" sm="6" md="3" className="text-center">
+        <Col xs="6" sm="6" md="6" lg="3" className="text-center">
           <Img fluid={data.eye.childImageSharp.fluid}  />
           <h3 className="mb-3 mt-3 h4">{t("Designers")}</h3>
-          <a href="/component" className="mb-2 btn btn-outline-primary btn-block">{t("DesignerCTA")}</a>
+          <Link to="/component" style={{"white-space":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DesignerCTA")}</Link>
         </Col>
-        <Col xs="6" sm="6" md="3" className="text-center">
+        <Col xs="6" sm="6" md="6" lg="3" className="text-center">
           <Img fluid={data.gears.childImageSharp.fluid}  />
           <h3 className="mb-3 mt-3 h4">{t("Developers")}</h3>
-          <a href="/component" className="mb-2 btn btn-outline-primary btn-block">{t("DeveloperCTA")}</a>
+          <Link to="/component" style={{"white-space":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DeveloperCTA")}</Link>
         </Col>
-        <Col xs="6" sm="6" md="3" className="text-center">
+        <Col xs="6" sm="6" md="6" lg="3" className="text-center">
           <Img fluid={data.pen.childImageSharp.fluid}  />
           <h3 className="mb-3 mt-3 h4">{t("Writers")}</h3>
-          <a href="/content/content-guidelines" className="mb-2 btn btn-outline-primary btn-block">{t("WriterCTA")}</a>
+          <Link to="/content/content-guidelines" style={{"white-space":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("WriterCTA")}</Link>
         </Col>
-        <Col xs="6" sm="6" md="3" className="text-center">
+        <Col xs="6" sm="6" md="6" lg="3" className="text-center">
           <Img fluid={data.pie.childImageSharp.fluid}  />
           <h3 className="mb-3 mt-3 h4">{t("DataScientists")}</h3>
-          <a href="/data/data-overview" className="mb-2 btn btn-outline-primary btn-block">{t("DataScientistCTA")}</a>
+          <Link to="/data/data-overview" style={{"white-space":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DataScientistCTA")}</Link>
         </Col>
       </Row>
 
@@ -90,13 +98,13 @@ const IndexPage = ({ data, t, i18n }) => (
       </Container>
       <div className="footer-holder">
       <Container>
-        <div style={{maxWidth:'50%', float: 'right'}}>
+        <div>
           <p className="lead" style={{ display: 'inline-block', paddingBottom: '10px', textAlign: 'left' }}>
             {t("BottomText")}
+            <div>
+              <Link to="/overview/introduction" className="btn btn-primary mt-3">{t("LearnMore")}</Link>
+            </div>
           </p>
-          <div>
-            <a href="/overview/introduction" className="btn btn-primary">{t("LearnMore")}</a>
-          </div>
         </div>
 
       </Container>
@@ -115,21 +123,21 @@ export default translate("FrontPage")(IndexPage);
 
 export const query = graphql`
 query {
-  eye:file(relativePath: { regex: "/eye/" }) {
+  eye:file(relativePath: { regex: "/designer/" }) {
     childImageSharp {
       fluid {
       ...GatsbyImageSharpFluid
       }
     }
   }
-  gears:file(relativePath: { regex: "/gears/" }) {
+  gears:file(relativePath: { regex: "/developer/" }) {
     childImageSharp {
       fluid {
       ...GatsbyImageSharpFluid
       }
     }
   }
-  pen:file(relativePath: { regex: "/pen/" }) {
+  pen:file(relativePath: { regex: "/writer/" }) {
     childImageSharp {
       fluid {
       ...GatsbyImageSharpFluid
@@ -143,7 +151,7 @@ query {
       }
     }
   }
-  pie:file(relativePath: { regex: "/pie/" }) {
+  pie:file(relativePath: { regex: "/datasci/" }) {
     childImageSharp {
       fluid {
       ...GatsbyImageSharpFluid

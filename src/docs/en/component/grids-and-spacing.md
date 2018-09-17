@@ -4,6 +4,9 @@ subnav: "2/Standard/Standard/7"
 lang: "en"
 title: "Grids and Spacing"
 ---
+<helmet>
+<title> Grids and Spacing - Aurora Design System </title>
+</helmet>
 
 # Grids and Spacing
 

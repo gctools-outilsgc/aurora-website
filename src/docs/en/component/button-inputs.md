@@ -5,6 +5,10 @@ lang: "en"
 title: "Button inputs"
 ---
 
+<helmet>
+<title> Button Inputs - Aurora Design System </title>
+</helmet>
+
 # Button Inputs
 
 ## Checkboxes

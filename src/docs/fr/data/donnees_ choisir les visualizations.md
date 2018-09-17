@@ -5,6 +5,10 @@ lang: "fr"
 title: "Choisir les visualizations"
 ---
 
+<helmet>
+<title> Choisir les visualisations - Système de conception Aurora </title>
+</helmet>
+
 # Choisir les visualisations
 
 ## Tableaux
@@ -29,11 +33,19 @@ Les graphiques à colonnes peuvent également être utilisés pour montrer des c
 
 Globalement, les graphiques à colonnes devraient être privilégiés aux graphiques à barres. Les graphiques à barres sont idéaux si vos étiquettes de données sont longues et nécessitent plus d’espace visuel ou si vous avez plus de 10 articles (barres) à montrer.
 
+![Image d'une graphique à barre](../../../img\components\bar graph_fr.png)
+
+![Image d'une graphique à colonne](../../../img\components\column graph_fr.png)
+
 ## Graphiques à bâtons
+
+![Image d'une graphique à bâton](../../../img\components\timeline_fr.png)
 
 Les graphiques à bâtons sont idéaux si vous avez un jeu de données continu et que vous souhaitez montrer les tendances ou les changements au fil du temps. Ce type de visualisation est également utile si vous comparez différentes catégories de données (c’est-à-dire en utilisant plusieurs lignes). Les graphiques à bâtons sont les plus efficaces lorsque vous avez au moins 20 points de données à afficher.
 
 ## Diagramme de dispersion
+
+![Image d'une diagramme de dispersion](../../../img\components\scatterplot_fr.png)
 
 Les diagrammes de dispersion sont la meilleure forme d’analyse de distribution. Ils sont mieux utilisés avec de grands jeux de données et pour montrer des corrélations ou des relations entre des variables non temporelles. Les diagrammes de dispersion ne sont efficaces que s’il y a suffisamment de points de données pour indiquer fortement une corrélation (ou l’absence de corrélation); en général, plus un diagramme dispersé compte de points de données, mieux c’est.
 
