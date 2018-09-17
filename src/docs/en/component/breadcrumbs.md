@@ -21,6 +21,12 @@ Breadcrumbs should be complimentary to primary navigation and should never be us
 
 Breadcrumbs in this design system are as follows:
 
+Each layer of breadcrumbs is styled using link text. The last item is never a link since it is the current page and not clickable. The last item is styled using standard text.
+
+In between each layer there is a chevron icon coloured <badge style="background-color: #A0A0A0;color:black">#A0A0A0</badge>
+
+Each layer has spacing of 12px on either side of the chevron.
+
 ![Breadcrumbs component](../../../img\components\breadcrumbs.png)
 
 <codeblock html='
@@ -38,9 +44,3 @@ Breadcrumbs in this design system are as follows:
     <BreadCrumbItem active="true">Current Page</BreadCrumbItem>
 </Breadcrumb>
 '></codeblock>
-
-Each layer of breadcrumbs is styled using link text. The last item is never a link since it is the current page and not clickable. The last item is styled using standard text.
-
-In between each layer there is a chevron icon coloured <badge style="background-color: #A0A0A0;color:black">#A0A0A0</badge>
-
-Each layer has spacing of 12px on either side of the chevron.

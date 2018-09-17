@@ -17,6 +17,10 @@ Les notifications conçues du système en ordre décroissant de sévérité :
 
 ## Erreur
 
+Les notifications d’erreur sont utilisées pour les pannes de système et les erreurs de l’utilisateur.
+
+Exemple d’erreur : « Votre mot de passe doit contenir au moins huit (8) caractères. »
+
 <Alert color="danger">
     C’est une alerte en cas de danger avec un <a href="#" class="alert-link">exemple de lien.</a>.
 </Alert>
@@ -31,11 +35,11 @@ Les notifications conçues du système en ordre décroissant de sévérité :
 </Alert>
 '></codeblock>
 
-Les notifications d’erreur sont utilisées pour les pannes de système et les erreurs de l’utilisateur.
-
-Exemple d’erreur : « Votre mot de passe doit contenir au moins huit (8) caractères. »
-
 ## Avertissement
+
+Les notifications d’avertissement sont utilisées pour les avis d’éventuelles erreurs.
+
+Exemple d’avertissement : « Verr. Maj. est activé ce qui pourrait faire en sorte que vous entriez votre mot de passe incorrectement. »
 
 <Alert color="warning">
     C’est une alerte d’avertissement avec un  <a href="#" class="alert-link">exemple de lien.</a>.
@@ -51,11 +55,11 @@ Exemple d’erreur : « Votre mot de passe doit contenir au moins huit (8) carac
 </Alert>
 '></codeblock>
 
-Les notifications d’avertissement sont utilisées pour les avis d’éventuelles erreurs.
-
-Exemple d’avertissement : « Verr. Maj. est activé ce qui pourrait faire en sorte que vous entriez votre mot de passe incorrectement. »
-
 ## Information
+
+Les notifications d’information servent à fournir des renseignements supplémentaires et des notes à l’utilisateur qu’elles peuvent trouver utiles selon le contexte.
+
+Exemple d’information : « Vous pouvez changer votre mot de passe dans les paramètres. »
 
 <Alert color="info">
     C’est une alerte d’information avec un <a href="#" class="alert-link">exemple de lien.</a>.
@@ -71,11 +75,11 @@ Exemple d’avertissement : « Verr. Maj. est activé ce qui pourrait faire en s
 </Alert>
 '></codeblock>
 
-Les notifications d’information servent à fournir des renseignements supplémentaires et des notes à l’utilisateur qu’elles peuvent trouver utiles selon le contexte.
-
-Exemple d’information : « Vous pouvez changer votre mot de passe dans les paramètres. »
-
 ## Succès
+
+Les notifications de succès sont utilisées pour confirmer qu’une tâche a été achevée avec succès.
+
+Exemple de succès : « Votre mot de passe a été mis à jour avec succès. »
 
 <Alert color="success">
     C’est une alerte en cas de succès avec un <a href="#" class="alert-link">exemple de lien.</a>.
@@ -90,10 +94,6 @@ Exemple d’information : « Vous pouvez changer votre mot de passe dans les par
     C’est une alerte en cas de succès avec un <a href="#" class="alert-link">exemple de lien.</a>.
 </Alert>
 '></codeblock>
-
-Les notifications de succès sont utilisées pour confirmer qu’une tâche a été achevée avec succès.
-
-Exemple de succès : « Votre mot de passe a été mis à jour avec succès. »
 
 ## Style de notifications
 

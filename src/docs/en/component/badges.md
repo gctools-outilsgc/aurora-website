@@ -18,6 +18,9 @@ When coding badges, the alternative text that will be read by screen readers sho
 
 Badges in this design system appear as follows:
 
+Rectangle with a width of 28px and height of 19px. Border radius of 8px. Background colour of <badge style="background-color: #4D5D6C;">#4D5D6C</badge>. Text colour of <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>. Text is centred within the rectangle.
+
+</br>
 <span class="badge badge-primary">Primary</span>
 <span class="badge badge-secondary">Secondary</span>
 <span class="badge badge-success">Success</span>
@@ -26,6 +29,3 @@ Badges in this design system appear as follows:
 <span class="badge badge-info">Info</span>
 <span class="badge badge-light">Light</span>
 <span class="badge badge-dark">Dark</span>
-
-</br>
-Rectangle with a width of 28px and height of 19px. Border radius of 8px. Background colour of <badge style="background-color: #4D5D6C;">#4D5D6C</badge>. Text colour of <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>. Text is centred within the rectangle.

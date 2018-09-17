@@ -182,11 +182,11 @@ Secondary buttons in this system are transparent with a stroke colour. Text chan
 
 Each of the states for secondary buttons are as follows:
 
+**Regular state:** transparent with a 1px stroke using the  colour <badge style="background-color: #0ba7b4;">#0ba7b4</badge>, the text is written in the same colour. Border radius of 4px and padding of 15px.
+
 <button color="secondary">Regular</button>
 
 <codeblock html='<button type="button" class="btn btn-secondary">Secondary</button>' react='<Button color="secondary">Secondary</Button>'></codeblock>
-
-**Regular state:** transparent with a 1px stroke using the  colour <badge style="background-color: #0ba7b4;">#0ba7b4</badge>, the text is written in the same colour. Border radius of 4px and padding of 15px.
 
 **Hover state:** rectangle coloured with <badge style="background-color: #098690;">#098690</badge> at 80% opacity, the text is displayed in white. Border radius of 4px and padding of 15px.
 
@@ -209,6 +209,9 @@ Secondary buttons are usually in close proximity to the primary button, but not 
 ## Drop-Down Buttons
 
 Drop down buttons display a list of items when clicked. They are used for two-step processes that may require more specific options for a singular action.
+
+
+**Regular State:** Similar to the primary button, drop-down buttons use the primary colour at 100% opacity, white text, with a border radius of 4px and padding of 15px. The drop-down arrow represents a space of 30px by 40px, which is separated from the primary button using a white line. The arrow uses a space of 15px width and 8px in height.
 
 <mdbuttondropdown color="primary">
 </mdbuttondropdown>
@@ -238,19 +241,20 @@ Drop down buttons display a list of items when clicked. They are used for two-st
 '></codeblock>
 
 
-**Regular State:** Similar to the primary button, drop-down buttons use the primary colour at 100% opacity, white text, with a border radius of 4px and padding of 15px. The drop-down arrow represents a space of 30px by 40px, which is separated from the primary button using a white line. The arrow uses a space of 15px width and 8px in height.
-
-*Hover drop down button components*
 
 **Hover States:** Similar to the primary button, drop-down buttons use the primary colour at 100% opacity, white text, with a border radius of 4px and padding of 15px. The drop-down arrow represents a space of 30px by 40px, which is separated from the primary button using a white line. The arrow uses a space of 15px width and 8px in height. Whichever piece of the button \(primary or drop-down section\) is being hovered over is shown at 80% opacity.
 
-*Focus drop down button component*
+*Hover drop down button components*
+
 
 **Focus State:** Similar to the primary button, drop-down buttons use the primary colour at 100% opacity, white text, with a border radius of 4px and padding of 15px. The drop-down arrow represents a space of 30px by 40px, which is separated from the primary button using a white line. The arrow uses a space of 15px width and 8px in height. Whichever piece of the button \(primary or drop-down section\) is being focused on is shown at 80% opacity and includes a stroke of 3px in the primary colour.
 
-*Pressed drop down button component*
+*Focus drop down button component*
+
 
 **Pressed State:** When the drop-down arrow is pressed, this arrow section of the button is displayed at 80% opacity and a drop-down menu is displayed below. The action box uses a 1px border using <badge style="background-color: #CECECE;color:black;">#CECECE</badge>. The box has a border radius of 4px. The width of the box is 166px, and the height depends on the number of actions, using 40px per action. On hover, the 40px around the action is displayed using <badge style="background-color: #CECECE;color:black;">#CECECE</badge>.
+
+*Pressed drop down button component*
 
 ## Button Groups
 

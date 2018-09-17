@@ -20,6 +20,9 @@ Search bars in this system use placeholder text using the term _Search_
 There are two style options for search:
 
 **Option 1**
+
+Text field with a padding of 12px. On the right of the field there is a search icon that serves as an action button. The icon is sized at 1.2 em and coloured with <badge style="background-color: #666666">#666666</badge>.
+
 <form>
     <div class="form-inline search-form">
         <label for="search" class="sr-only">Search</label>
@@ -42,9 +45,9 @@ There are two style options for search:
     </form>
 ' react=''></codeblock>
 
-Text field with a padding of 12px. On the right of the field there is a search icon that serves as an action button. The icon is sized at 1.2 em and coloured with <badge style="background-color: #666666">#666666</badge>.
-
 **Option 2**
+
+The same as option 1 with a border radius of 17px.
 
 <form>
     <div class="form-inline search-form search-form-round">
@@ -67,5 +70,3 @@ Text field with a padding of 12px. On the right of the field there is a search i
         </div>
     </form>
 ' react=''></codeblock>
-
-The same as option 1 with a border radius of 17px.

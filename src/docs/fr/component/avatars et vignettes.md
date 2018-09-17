@@ -28,29 +28,29 @@ Lorsque les utilisateurs téléchargent leur avatar, ils sont amenés à rogner 
 
 Les avatars sont utilisés en trois tailles et sont stylisés comme suit :
 
+**Petit** : image carrée avec les coins arrondis par 4px. Taille à 26 x 26 pixels.
+Utilisés sur les petits éléments où l’utilisateur a besoin d’être identifié comme sur des mots-clés ou le clavardage.
+
 <img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png">
 
 <codeblock html='<img alt="small avatar" class="avatar avatar-sm" src="https://api.adorable.io/avatars/170/abott@adorable.png">
 ' react='' />
 
-**Petit** : image carrée avec les coins arrondis par 4px. Taille à 26 x 26 pixels.
-Utilisés sur les petits éléments où l’utilisateur a besoin d’être identifié comme sur des mots-clés ou le clavardage.
+**Moyen** : image carrée avec les coins arrondis par 4px. Taille à 50 x 50 pixels.
+Utilisée en combinaison avec d’autres éléments tels que des commentaires, le clavardage, des cartes et tout autre endroit où vous auriez besoin d’identifier l’utilisateur.
 
 <img alt="medium avatar" class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
 
 <codeblock html='<img alt="medium avatar" class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
 ' react='' />
 
-**Moyen** : image carrée avec les coins arrondis par 4px. Taille à 50 x 50 pixels.
-Utilisée en combinaison avec d’autres éléments tels que des commentaires, le clavardage, des cartes et tout autre endroit où vous auriez besoin d’identifier l’utilisateur.
+**Grand** : image carrée avec les coins arrondis par 4px. Taille à 115 x 115 pixels.
+Utilisé directement sur le profil de l’utilisateur.
 
 <img alt="large avatar" class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
 
 <codeblock html='<img alt="large avatar" class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
 ' react='' />
-
-**Grand** : image carrée avec les coins arrondis par 4px. Taille à 115 x 115 pixels.
-Utilisé directement sur le profil de l’utilisateur.
 
 ## Vignettes
 Les vignettes sont de petites versions d’une image qui sont utilisées comme aperçu du contenu. Elles sont souvent combinées à d’autres éléments comme des cartes, des commentaires, des aperçus d’images, etc.
