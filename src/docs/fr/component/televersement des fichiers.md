@@ -40,6 +40,11 @@ Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle
 **État « pointage » :** Le bouton est de couleur <badge style="background-color: #002D42;">#002D42</badge> à une opacité de 80 %, le texte est blanc et le rayon de bordure est de 4 px, et l’ombrage est de 15 px.
 Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle élevé de 42 px ayant un rayon de bordure de 4 px. La couleur de l’arrière-plan est le <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, la couleur de bordure est le <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. Le texte est aligné à gauche du champ de saisie et suit les normes sur le [texte d’espace réservé.](typographie.md) Le champ est un ombrage de 11 px.
 
+**État « normal » :** Le bouton est de couleur <badge style="background-color: #002D42">#002D42</badge>  à une opacité de 100 %, le texte est blanc et le rayon de bordure est de 4 px. Les coins supérieurs et inférieurs droits du bouton de téléversement de fichier a un rayon de bordure de 0 px. Le bouton est aligné à gauche du champ et comprend une icône de dossier.
+
+Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle élevé de 42 px ayant un rayon de bordure de 4 px. La couleur de l’arrière-plan est le <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, la couleur de bordure est le <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>, et l’ombrage de 1 px a une opacité noire floue à 20 %. Le texte est aligné à gauche du champ de saisie et suit les normes sur le [texte d’espace réservé.](typographie.md) Le champ est un remplissage de 11 px.
+
+
 <div class="custom-file">
     <input type="file" id="file" class="custom-file-input" aria-label="file upload">
     <span class="custom-file-control"></span>

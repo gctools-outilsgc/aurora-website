@@ -91,6 +91,7 @@ Les puces ont trois différentes variations et sont affichées comme suit :
 ## Pilules
 
 Les pilules sont semblables aux puces, mais ne sont pas nécessairement associées à un utilisateur en particulier. Ils ont le même style, mais sans l’avatar aligné à gauche.
+=======
 
 Les pilules ont trois variations qui sont stylisées comme suit :
 
