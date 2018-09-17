@@ -87,7 +87,7 @@ title: "Buttons"
             <mdcol className="col-4"><h5>Dropdown Buttons</h5> </mdcol>
         </row>
         <row style="margin-top: 10px">
-            <mdcol className="col-12"><mdbuttondropdown color="primary"></mdbuttondropdown> <mdbuttondropdown color="secondary"></mdbuttondropdown> <mdbuttondropdown color="primary" disabled="true"></mdbuttondropdown> <mdbuttondropdown color="secondary" disabled="true"></mdbuttondropdown></mdcol>
+            <mdcol className="col-12"><mdbuttondropdown color="primary" title="Dropdown"></mdbuttondropdown> <mdbuttondropdown color="secondary" title="Dropdown"></mdbuttondropdown> <mdbuttondropdown color="primary" disabled="true" title="Dropdown"></mdbuttondropdown> <mdbuttondropdown color="secondary" disabled="true" title="Dropdown"></mdbuttondropdown></mdcol>
         </row>
     </mdcol>
 </container>
@@ -152,7 +152,6 @@ Each of the states for primary buttons are as follows:
 
 **Focus state:** primary colour at 80% opacity, white text, with a border radius of 4px and padding of 15px. Includes a 3px stroke in the primary colour.
 
-
 <button color="primary" disabled="true">Primary</button>
 
 <button color="primary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;">Focus</button>
@@ -210,10 +209,10 @@ Secondary buttons are usually in close proximity to the primary button, but not 
 
 Drop down buttons display a list of items when clicked. They are used for two-step processes that may require more specific options for a singular action.
 
-
 **Regular State:** Similar to the primary button, drop-down buttons use the primary colour at 100% opacity, white text, with a border radius of 4px and padding of 15px. The drop-down arrow represents a space of 30px by 40px, which is separated from the primary button using a white line. The arrow uses a space of 15px width and 8px in height.
 
-<mdbuttondropdown color="primary">
+<mdbuttondropdown color="primary" title="Regular">
+
 </mdbuttondropdown>
 
 <codeblock html='
@@ -240,21 +239,51 @@ Drop down buttons display a list of items when clicked. They are used for two-st
 </ButtonDropdown>
 '></codeblock>
 
-
-
 **Hover States:** Similar to the primary button, drop-down buttons use the primary colour at 100% opacity, white text, with a border radius of 4px and padding of 15px. The drop-down arrow represents a space of 30px by 40px, which is separated from the primary button using a white line. The arrow uses a space of 15px width and 8px in height. Whichever piece of the button \(primary or drop-down section\) is being hovered over is shown at 80% opacity.
 
-*Hover drop down button components*
-
+<mdbuttondropdown color="primary" style="color: #fff; background-color: #245e83; border-color: #215679" title="Hover">
+</mdbuttondropdown>
 
 **Focus State:** Similar to the primary button, drop-down buttons use the primary colour at 100% opacity, white text, with a border radius of 4px and padding of 15px. The drop-down arrow represents a space of 30px by 40px, which is separated from the primary button using a white line. The arrow uses a space of 15px width and 8px in height. Whichever piece of the button \(primary or drop-down section\) is being focused on is shown at 80% opacity and includes a stroke of 3px in the primary colour.
 
-*Focus drop down button component*
-
+<mdbuttondropdown color="primary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;" title="Focus">
+</mdbuttondropdown>
 
 **Pressed State:** When the drop-down arrow is pressed, this arrow section of the button is displayed at 80% opacity and a drop-down menu is displayed below. The action box uses a 1px border using <badge style="background-color: #CECECE;color:black;">#CECECE</badge>. The box has a border radius of 4px. The width of the box is 166px, and the height depends on the number of actions, using 40px per action. On hover, the 40px around the action is displayed using <badge style="background-color: #CECECE;color:black;">#CECECE</badge>.
 
-*Pressed drop down button component*
+<buttondropdownopen style="color: #fff; background-color: #215679; border-color: #1e4f6f;box-shadow: 0 0 0 0.2rem rgba(44, 115, 161, 0.25), inset 0 3px 5px rgba(0, 0, 0, 0.125);" title="Pressed">
+</buttondropdownopen>
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+<codeblock html='
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+    </div>
+' react='
+<ButtonDropdown direction="down" isOpen="true" toggle={this.toggle} style={{marginBottom: "15px"}} color={this.props.color}>
+    <DropdownToggle caret {...this.props}>
+        Reply
+    </DropdownToggle>
+    <DropdownMenu>
+        <DropdownItem>Action 1</DropdownItem>
+        <DropdownItem>Action 2</DropdownItem>
+        <DropdownItem>Action 3</DropdownItem>
+    </DropdownMenu>
+</ButtonDropdown>
+'></codeblock>
 
 ## Button Groups
 
