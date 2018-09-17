@@ -13,15 +13,75 @@ Les tableaux doivent toujours inclure un titre bref, mais informatif.
 
 Les tableaux peuvent être utilisés pour afficher des données quantitatives et qualitatives.
 
-*Exemples de tableaux de données*
-
 ## Tableau simple
 
 Les tableaux simples sont le moyen le plus facile pour afficher les données et pour fournir un style propre à votre page. Les tableaux simples sont excellents pour un petit nombre de catégories ou de valeurs, mais ils devraient comprendre des éléments supplémentaires si une lisibilité ou une interactivité accrue est nécessaire.
 
-*Élément de tableau simple*
-
 Les tableaux simples sont conçus comme suit :
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+<codeblock html='
+        <table class="table">
+        <thead>
+            <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            </tr>
+            <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            </tr>
+            <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table> 
+' react=''></codeblock>
 
 Titre : chaque tableau a un titre qui utilise l’en-tête 3 (Rubik moyen à 24px avec un modificateur de suivi de 10px). Le tableau est placé 13px en dessous du titre. Le tableau est de la largeur de son contenant et sa hauteur dépend des données et de la façon dont la pagination est gérée sur le tableau.
 
@@ -33,9 +93,42 @@ Cellule du tableau : l’information de la cellule du tableau est affichée en u
 
 Les tableaux rayés sont souvent utilisés pour améliorer la lisibilité. Si vos données sont plus complexes, ou les valeurs sont semblables, un tableau rayé peut accroître la lisibilité et la compréhension des données.
 
-*Élément de tableau rayé*
-
 Les tableaux rayés sont conçus comme suit :
+
+<strippedtable></strippedtable>
+
+<codeblock html='
+    <table class="table table-striped">
+        <thead>
+            <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            </tr>
+            <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            </tr>
+            <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table>
+' react=''></codeblock>
 
 Titre : chaque tableau a un titre qui utilise l’en-tête 3 (Rubik moyen à 24px avec un modificateur de suivi de 10px). Le tableau est placé 13px en dessous du titre. Le tableau est de la largeur de son contenant et sa hauteur dépend des données et de la façon dont la pagination est gérée sur le tableau.
 
@@ -53,6 +146,8 @@ Si les cases à cocher sont incluses dans le tableau, les rangées actives devra
 
 D’autres exemples d’éléments interactifs à ajouter à un tableau de données sont : la pagination, des filtres, des barres de recherche, des boutons icône, des icônes de tri, etc.
 
-*Élément de tableau de données*
+![Interactive data table 1](../../../img\examples\interactive_table_1.png)
 
-*Exemple d’image de différents tableaux de données*
+![Interactive data table 2](../../../img\examples\interactive_table_2.png)
+
+![Interactive data table 3](../../../img\examples\interactive_table_3.png)

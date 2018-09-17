@@ -22,5 +22,16 @@ Badges in this design system appear as follows:
 <span class="badge badge-light">Light</span>
 <span class="badge badge-dark">Dark</span>
 
+<codeblock html='
+    <span class="badge badge-primary">Primary</span>
+    <span class="badge badge-secondary">Secondary</span>
+    <span class="badge badge-success">Success</span>
+    <span class="badge badge-danger">Danger</span>
+    <span class="badge badge-warning">Warning</span>
+    <span class="badge badge-info">Info</span>
+    <span class="badge badge-light">Light</span>
+    <span class="badge badge-dark">Dark</span>
+' react=''></codeblock>
+
 </br>
 Rectangle with a width of 28px and height of 19px. Border radius of 8px. Background colour of <badge style="background-color: #4D5D6C;">#4D5D6C</badge>. Text colour of <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>. Text is centred within the rectangle.

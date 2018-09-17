@@ -19,8 +19,7 @@ title: "Images, avatars et vignettes"
                 <a href="#!">John Doe</a>
                 <small class="text-muted">Il y a 1 heure</small>
                 </div>
-                <div>Ice cream macaroon croissant macaroon powder. Bear claw croissant candy canes halvah oat cake. Lollipop gummies jelly-o liquorice lollipop.
-                Apple pie chocolate sweet roll. Chocolate bar candy canes lollipop gummies. Sesame snaps marzipan biscuit powder topping sweet roll. Oat cake bear claw pudding pastry gummies.
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin sem augue, porttitor eleifend eros tincidunt in. Duis mattis erat orci. Fusce aliquet sapien sit amet ex suscipit, eu pellentesque est posuere. Pellentesque varius massa nec turpis interdum tincidunt. Fusce volutpat rutrum nunc, non accumsan lacus consequat vel.
                 </div>
                 <div class="media-footer">
                 <a href="#!"><small>Répondre</small></a>
