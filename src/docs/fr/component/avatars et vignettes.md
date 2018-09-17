@@ -10,6 +10,31 @@ title: "Images, avatars et vignettes"
 </helmet>
 
 # Images, avatars et vignettes
+<div class="mt-3">
+    <div class="card">
+    <div class="card-body">
+        <ul class="list-unstyled">
+        <li class="media media-comment">
+            <a href="#!">
+                <img alt="..." class="avatar" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+            </a>
+            <div class="media-body">
+                <div class="media-heading">
+                <a href="#!">John Doe</a>
+                <small class="text-muted">Il y a 1 heure</small>
+                </div>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin sem augue, porttitor eleifend eros tincidunt in. Duis mattis erat orci. Fusce aliquet sapien sit amet ex suscipit, eu pellentesque est posuere. Pellentesque varius massa nec turpis interdum tincidunt. Fusce volutpat rutrum nunc, non accumsan lacus consequat vel.
+                </div>
+                <div class="media-footer">
+                <a href="#!"><small>Répondre</small></a>
+                <a href="#!"><small>Aimer</small></a>
+                </div>
+            </div>
+        </li>
+        </ul>
+    </div>
+    </div>
+</div>
 
 ## Images en série
 Les images en série sont séparées des autres éléments sur la page (c’est-à-dire le texte) et sont habituellement centrées avec un remplissage prédéterminé. Dans une mise en page comprenant du texte, le texte continuera sur la ligne suivante après l’image.

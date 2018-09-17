@@ -39,12 +39,12 @@ Lorsque des cartes sont utilisées, les séparateurs sont placés sous l’en-t�
     </div>
 ' react='' />
 
-<p>Hello. I'm a little bit of body text. Plain and simple.</p>
+<p>Bonjour, je suis texte pour une paragraphe. C'est simple.</p>
 <hr />
-<p>Macaroon gummies pie marzipan sesame snaps. Donut gummi bears candy canes jelly-o. Marzipan pudding croissant croissant gummi bears jelly beans. Brownie dessert marshmallow chupa chups jelly-o caramels cheesecake lollipop.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin sem augue, porttitor eleifend eros tincidunt in. Duis mattis erat orci. Fusce aliquet sapien sit amet ex suscipit, eu pellentesque est posuere.</p>
 
 <codeblock html='
     <p>Hello. Im a little bit of body text. Plain and simple.</p>
     <hr />
-    <p>Macaroon gummies pie marzipan sesame snaps. Donut gummi bears candy canes jelly-o. Marzipan pudding croissant croissant gummi bears jelly beans. Brownie dessert marshmallow chupa chups jelly-o caramels cheesecake lollipop.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin sem augue, porttitor eleifend eros tincidunt in. Duis mattis erat orci. Fusce aliquet sapien sit amet ex suscipit, eu pellentesque est posuere.</p>
 ' react='' />
