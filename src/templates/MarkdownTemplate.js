@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, UncontrolledCollapse } from 'reactstrap';
+import { Button, UncontrolledCollapse, Row } from 'reactstrap';
 import Layout from '../layouts/layout';
 import { I18n } from "react-i18next";
 import Sidenav from "../components/sidenav";
@@ -29,11 +29,13 @@ class MarkdownTemplate extends React.Component {
               return( 
                 <div>
                   <div id="mobile-menu-holder" className="d-sm-block d-md-none d-lg-none d-xl-none bg-primary" style={{padding: '6px', position: 'fixed', zIndex: '9999', top: '100px', width: '100%'}}>
-                    <Button color="primary" id="mobile-menu" className="mr-3 sidenavToggle"><FontAwesomeIcon size="2x" icon={faBars} /><span className="sr-only">Menu</span></Button>
-                    <Search
-                      lng={(i18n.language === "en") ? "en" : "fr"}
-                      placeholder={(i18n.language === "en") ? "Search" : "Chercher"}
-                    />
+                    <Row>
+                      <Button color="primary" id="mobile-menu" className="mr-3 sidenavToggle"><FontAwesomeIcon size="2x" icon={faBars} /><span className="sr-only">Menu</span></Button>
+                      <Search
+                        lng={(i18n.lng === "en") ? "en" : "fr"}
+                        placeholder={(i18n.lng === "en") ? "Search" : "Chercher"}
+                      />
+                    </Row>
                   </div>
                   {/* 
                   <UncontrolledCollapse toggler=".sidenavToggle">
