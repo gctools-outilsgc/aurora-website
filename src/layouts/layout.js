@@ -4,7 +4,7 @@ import { I18nextProvider } from 'react-i18next';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
-import Header from '../components/Header';
+import Header from '../components/header';
 import '../utils/custom.scss';
 import './layout.scss';
 
