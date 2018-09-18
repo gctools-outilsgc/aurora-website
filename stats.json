@@ -1,0 +1,200 @@
+{
+  "assetsByChunkName": {
+    "path---data-line-graphs": [
+      "path---data-line-graphs-0dad812831acecb338c1.js",
+      "path---data-line-graphs-0dad812831acecb338c1.js.map"
+    ],
+    "path---component-tooltips": [
+      "path---component-tooltips-a83aacac01a88624c7fc.js",
+      "path---component-tooltips-a83aacac01a88624c7fc.js.map"
+    ],
+    "path---content-glossary": [
+      "path---content-glossary-c883ec5cef4e6b254dde.js",
+      "path---content-glossary-c883ec5cef4e6b254dde.js.map"
+    ],
+    "path---data-data-overview": [
+      "path---data-data-overview-a8962e0dcb50df73185f.js",
+      "path---data-data-overview-a8962e0dcb50df73185f.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-e9b54bbd30ab91ef4f1e.js",
+      "component---src-pages-index-js-e9b54bbd30ab91ef4f1e.js.map"
+    ],
+    "path---content-system-vocabulary": [
+      "path---content-system-vocabulary-ec68addb16ccac7a577c.js",
+      "path---content-system-vocabulary-ec68addb16ccac7a577c.js.map"
+    ],
+    "path---component-errors-and-validation": [
+      "path---component-errors-and-validation-6229125961595abbaae7.js",
+      "path---component-errors-and-validation-6229125961595abbaae7.js.map"
+    ],
+    "path---component-badges": [
+      "path---component-badges-da3dce0a5990d76ebcf2.js",
+      "path---component-badges-da3dce0a5990d76ebcf2.js.map"
+    ],
+    "path---overview-whats-new": [
+      "path---overview-whats-new-5e6f25eb727d1d1b36fd.js",
+      "path---overview-whats-new-5e6f25eb727d1d1b36fd.js.map"
+    ],
+    "path---content-content-guidelines": [
+      "path---content-content-guidelines-19db59c6c0a3a3325206.js",
+      "path---content-content-guidelines-19db59c6c0a3a3325206.js.map"
+    ],
+    "path---overview-frequently-asked-questions": [
+      "path---overview-frequently-asked-questions-747e40b0a716256f809e.js",
+      "path---overview-frequently-asked-questions-747e40b0a716256f809e.js.map"
+    ],
+    "path---component-grids-and-spacing": [
+      "path---component-grids-and-spacing-017bb715f8fd989d34fb.js",
+      "path---component-grids-and-spacing-017bb715f8fd989d34fb.js.map"
+    ],
+    "path---component-progress-indicators": [
+      "path---component-progress-indicators-92110b9028e7b0463be8.js",
+      "path---component-progress-indicators-92110b9028e7b0463be8.js.map"
+    ],
+    "path---component-file-upload": [
+      "path---component-file-upload-ba3c7ed6ec06ef4b0258.js",
+      "path---component-file-upload-ba3c7ed6ec06ef4b0258.js.map"
+    ],
+    "path---component-overall-design-and-labels": [
+      "path---component-overall-design-and-labels-9f1019ce4736b5f9daaf.js",
+      "path---component-overall-design-and-labels-9f1019ce4736b5f9daaf.js.map"
+    ],
+    "path---data-tables": [
+      "path---data-tables-901d0bb022d9b8ef5392.js",
+      "path---data-tables-901d0bb022d9b8ef5392.js.map"
+    ],
+    "path---data-legends-and-tooltips": [
+      "path---data-legends-and-tooltips-4324c6022c7ea07bf0ba.js",
+      "path---data-legends-and-tooltips-4324c6022c7ea07bf0ba.js.map"
+    ],
+    "path---component-typography": [
+      "path---component-typography-35fc22342e78f813441e.js",
+      "path---component-typography-35fc22342e78f813441e.js.map"
+    ],
+    "path---component-tags-chips-and-pills": [
+      "path---component-tags-chips-and-pills-f8622d6d0f93b9f73eb1.js",
+      "path---component-tags-chips-and-pills-f8622d6d0f93b9f73eb1.js.map"
+    ],
+    "path---component-search": [
+      "path---component-search-7dffc227a52281552f79.js",
+      "path---component-search-7dffc227a52281552f79.js.map"
+    ],
+    "path---component-text-inputs": [
+      "path---component-text-inputs-e19d5b10569ea109b0b0.js",
+      "path---component-text-inputs-e19d5b10569ea109b0b0.js.map"
+    ],
+    "path---data-column-and-bar-graphs": [
+      "path---data-column-and-bar-graphs-54eb9baccc9dc663ceaf.js",
+      "path---data-column-and-bar-graphs-54eb9baccc9dc663ceaf.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---component-avatars-and-thumbnails": [
+      "path---component-avatars-and-thumbnails-af024f7651cb9b468118.js",
+      "path---component-avatars-and-thumbnails-af024f7651cb9b468118.js.map"
+    ],
+    "path---component-pagination-scrolling": [
+      "path---component-pagination-scrolling-112257cb66ca0492130d.js",
+      "path---component-pagination-scrolling-112257cb66ca0492130d.js.map"
+    ],
+    "path---data-stylized-numbers": [
+      "path---data-stylized-numbers-e97dc35ae95ae698930a.js",
+      "path---data-stylized-numbers-e97dc35ae95ae698930a.js.map"
+    ],
+    "path---component-divider-rule": [
+      "path---component-divider-rule-abefe669c3666bfc28d6.js",
+      "path---component-divider-rule-abefe669c3666bfc28d6.js.map"
+    ],
+    "path---component-links": [
+      "path---component-links-2803a63af3f0b41bee77.js",
+      "path---component-links-2803a63af3f0b41bee77.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-0766d0ad0ee5c13b749c.js",
+      "component---src-pages-404-js-0766d0ad0ee5c13b749c.js.map"
+    ],
+    "path---component": [
+      "path---component-3a31e9d275fafe7fe4e4.js",
+      "path---component-3a31e9d275fafe7fe4e4.js.map"
+    ],
+    "commons": [
+      "commons-e4a00fb0fdf3bbc6c6e1.js",
+      "build-js-styles.css",
+      "commons-e4a00fb0fdf3bbc6c6e1.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---content-formatting": [
+      "path---content-formatting-cf65b4c3897ae93c4e4d.js",
+      "path---content-formatting-cf65b4c3897ae93c4e4d.js.map"
+    ],
+    "path---overview-blogs": [
+      "path---overview-blogs-c338a7f5e1dd0f59a1e0.js",
+      "path---overview-blogs-c338a7f5e1dd0f59a1e0.js.map"
+    ],
+    "path---data-choosing-visualizations": [
+      "path---data-choosing-visualizations-867cb5edf14de8ccc58b.js",
+      "path---data-choosing-visualizations-867cb5edf14de8ccc58b.js.map"
+    ],
+    "path---component-colour": [
+      "path---component-colour-74b429830a79740ef656.js",
+      "path---component-colour-74b429830a79740ef656.js.map"
+    ],
+    "path---component-system-messaging": [
+      "path---component-system-messaging-89c05c6722f0a1d75609.js",
+      "path---component-system-messaging-89c05c6722f0a1d75609.js.map"
+    ],
+    "path---overview-introduction": [
+      "path---overview-introduction-4c85c5712bf162e1af8f.js",
+      "path---overview-introduction-4c85c5712bf162e1af8f.js.map"
+    ],
+    "path---component-button-inputs": [
+      "path---component-button-inputs-813081efd2a2837aded3.js",
+      "path---component-button-inputs-813081efd2a2837aded3.js.map"
+    ],
+    "path---component-back-to-top": [
+      "path---component-back-to-top-fba3ba3328c4089625d1.js",
+      "path---component-back-to-top-fba3ba3328c4089625d1.js.map"
+    ],
+    "path---component-breadcrumbs": [
+      "path---component-breadcrumbs-bbbd1966314ad389abe8.js",
+      "path---component-breadcrumbs-bbbd1966314ad389abe8.js.map"
+    ],
+    "app": [
+      "app-1ebad36f1922246e930c.js",
+      "build-js-styles.css",
+      "app-1ebad36f1922246e930c.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---component-cards": [
+      "path---component-cards-d4b4b2293b339a548365.js",
+      "path---component-cards-d4b4b2293b339a548365.js.map"
+    ],
+    "component---src-templates-markdown-template-js": [
+      "component---src-templates-markdown-template-js-4c7bfa6bfee9f01772ad.js",
+      "component---src-templates-markdown-template-js-4c7bfa6bfee9f01772ad.js.map"
+    ],
+    "path---component-icons": [
+      "path---component-icons-761c6376e3e7580b10e1.js",
+      "path---component-icons-761c6376e3e7580b10e1.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---data-scatterplots": [
+      "path---data-scatterplots-36b11d5ab7f3b04f312f.js",
+      "path---data-scatterplots-36b11d5ab7f3b04f312f.js.map"
+    ],
+    "path---component-buttons": [
+      "path---component-buttons-5116643cf8f158d125e3.js",
+      "path---component-buttons-5116643cf8f158d125e3.js.map"
+    ]
+  }
+}
