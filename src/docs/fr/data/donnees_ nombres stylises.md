@@ -17,4 +17,4 @@ Le style de police des nombres est comme suit :
 
 Nombre illustré à la police « Rubik Regular » à 125 points. Texte en dessous du nombre et décalé à gauche. Pour le texte, le style « En-tête 4 » (« Rubik Regular » à 21 points) est utilisé. En dessous du texte et du nombre, le pourcentage montre l’utilisation du style « En-tête 5 ». Le chevron à gauche du pourcentage indique une augmentation ou une diminution.
 
-Pour une diminution, on utilise un chevron de couleur no 923534 et, pour une augmentation, la couleur <badge style="background-color: #2B542C">#2B542C</badge>.
+Pour une diminution, on utilise un chevron de couleur <badge style="background-color: #923534">#923534</badge> et, pour une augmentation, la couleur <badge style="background-color: #2B542C">#2B542C</badge>.
