@@ -33,37 +33,37 @@ Le numéro de la page active est indiqué dans un rectangle avec un remplissage 
 
 <pagination aria-label="Page navigation example">
     <paginationitem>
-        <paginationlink href="#">
+        <paginationlink href="#example">
         « <!-- previous="true" doesn't work, this needs a solution  -->
         </paginationlink>
     </paginationitem>
     <paginationitem>
-        <paginationlink href="#">
+        <paginationlink href="#example">
         1
         </paginationlink>
     </paginationitem>
     <paginationitem>
-        <paginationlink href="#">
+        <paginationlink href="#example">
         2
         </paginationlink>
     </paginationitem>
     <paginationitem>
-        <paginationlink href="#">
+        <paginationlink href="#example">
         3
         </paginationlink>
     </paginationitem>
     <paginationitem>
-        <paginationlink href="#">
+        <paginationlink href="#example">
         4
         </paginationlink>
     </paginationitem>
     <paginationitem>
-        <paginationlink href="#">
+        <paginationlink href="#example">
         5
         </paginationlink>
     </paginationitem>
     <paginationitem>
-        <paginationlink href="#">
+        <paginationlink href="#example">
         »
         </paginationlink>
     </paginationitem>

@@ -106,7 +106,7 @@ For complicated forms, information should be displayed using multiple steps or p
   </div>
   <div class="form-group row">
     <div class="col-sm-10">
-      <button type="submit" class="btn btn-primary">Sign in</button>
+      <button href="#example">Se connecter</button>
     </div>
   </div>
 </form>
@@ -190,12 +190,12 @@ If possible, it is recommended to limit forms to one page. If a form has more th
 
 If a form has more than one page, it is recommended to provide the user with a visual representation of progression so that they are aware of their level of completion. Styling for step indicators is written in its own section of this documentation.
 
-![Step indicator component at step 1](../../../img\components\steps_indicator_1.png)
+![Step indicator component at step 1](../../../img\components\steps indicator_1.png)
 
-![Step indicator component at step 2](../../../img\components\steps_indicator_2.png)
+![Step indicator component at step 2](../../../img\components\steps indicator_2.png)
 
-![Step indicator component at step 3](../../../img\components\steps_indicator_3.png)
- 
+![Step indicator component at step 3](../../../img\components\steps indicator_3.png)
+
 ## Navigation
 
 Navigation to different pages may be necessary to include in a form. If they are related to a specific field, for example "Forgot password?", include the link inline and underneath the related field. If the link is related to the entire form, for example "Register here", include the link at the bottom of the form in a way that is visually separate.
