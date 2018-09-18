@@ -21,6 +21,11 @@
   font-size: 1.75em;
   font-weight: 400;
 }
+#mobile-menu-holder {
+  .search-form {
+    margin-top:5px;
+  }
+}
 
 @media (max-width: 768px) {
   .mobile-sidebar #sidenav {
