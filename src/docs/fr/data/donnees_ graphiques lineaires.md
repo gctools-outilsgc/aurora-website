@@ -24,7 +24,7 @@ Lorsque vous utilisez de multiples séries de données dans un histogramme, incl
 
 Pour plusieurs variables, utilisez une couleur différente pour chaque ligne, et faites en sorte qu’il y ait suffisamment de contraste entre elles afin qu’elles soient faciles à distinguer.
 
-![Image d'une graphique linéaire à multiple variables](../../../img\components\multiple_line graph_fr.png)
+![Image d'une graphique linéaire à multiple variables](../../../img\components\multiple_line_graph_fr.png)
 
 ## Graphiques en aires
 
@@ -32,4 +32,4 @@ Les graphiques en aires sont des graphiques linéaires pouvant être utilisés p
 
 Les graphiques en aires devraient être remplis de la même couleur que la ligne, mais avec 15 % d’opacité.
 
-![Image d'une graphique en aires](../../../img\components\area graph_fr.png)
+![Image d'une graphique en aires](../../../img\components\area_fr.png)

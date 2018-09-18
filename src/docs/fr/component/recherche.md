@@ -21,6 +21,8 @@ Il y a deux options de style pour la recherche :
 
 **Option 1**
 
+Le champ de texte ayant un remplissage de 12 px. À droite du champ, il y a une icône de recherche qui sert de bouton d’action. L’icône a la taille de 1,2 em et a la couleur <badge style="background-color: #666666">#666666</badge>.
+
 <form>
     <div class="form-inline search-form">
         <label for="search" class="sr-only">Recherche</label>
@@ -42,10 +44,10 @@ Il y a deux options de style pour la recherche :
         </div>
     </form>
 ' react=''></codeblock>
- 
-Le champ de texte ayant un remplissage de 12 px. À droite du champ, il y a une icône de recherche qui sert de bouton d’action. L’icône a la taille de 1,2 em et a la couleur <badge style="background-color: #666666">#666666</badge>.
 
 **Option 2**
+
+La même chose que l’option, mais avec un rayon de bordure de 17 px.
 
 <form>
     <div class="form-inline search-form search-form-round">
@@ -68,5 +70,3 @@ Le champ de texte ayant un remplissage de 12 px. À droite du champ, il y a une 
         </div>
     </form>
 ' react=''></codeblock>
- 
-La même chose que l’option, mais avec un rayon de bordure de 17 px.

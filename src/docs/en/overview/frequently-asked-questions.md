@@ -31,13 +31,13 @@ We recommend that while building a new product you begin by following the system
 
 ## Are there other design systems that exist in the public sector?
 
-Although design systems are relatively new in the public sector, some government organisations have already been working on their own design systems.. For example, the Government of the United States of America released their Web Design Standards, Italy's Design Agency released Designers Italia and the Government of the United Kingdom is currently building their own web standards.
+Although design systems are relatively new in the public sector, some government organisations have already been working on their own design systems. For example, the Government of the United States of America released their Web Design Standards, Italy's Design Agency released Designers Italia and the Government of the United Kingdom is currently building their own web standards.
 
-In Canada all official websites use the Web Experience Toolkit which is a more rigid style guide than this system. The Canadian Digital Service is currently working on a Government of Canada UI kit.
+In Canada all official websites use the [Web Experience Toolkit](https://wet-boew.github.io/v4.0-ci/index-en.html) which is a more rigid style guide than this system. The Canadian Digital Service is currently working on a Government of Canada UI kit.
 
 ## Why did you create Aurora design system?
 
-Some key reasons we are building this design system is that it:
+Some of the key reasons we are building this design system are that it:
 
 • Allows for consistency across applications and platforms, particularly taking into consideration the rebuild of GCTools and other digital collaboration services;
 
@@ -51,7 +51,7 @@ Some key reasons we are building this design system is that it:
 
 ## How is Aurora design system different from current standards such as the Web Experience Toolkit \(WET\) or the Canada.ca style guide? How do they all work together?
 
-The current GCTools were built using the WET framework. We are doing a rebuild because we wanted to have our own system or style guide that is specific to our tools, including not just coding templates and components, but also design elements, our key principles and communications guidelines. Each piece of the design system will also have extensive documentation on best practices as well as how and when to use each component or element we’ve provided.
+Aurora design system is a style guide that is specific to our digital collaboration tools and applications, including coding templates and components, as well as design elements, our key principles and communications guidelines. Each piece of the design system has extensive documentation on best practices as well as how and when to use each component or element we’ve provided.
 
 This design system isn’t a direct alternative to WET or the Canada.ca Style Guide, however it follows the key principles and core concepts of these existing style guides. We hope that as this project moves forward we can identify opportunities to work with the developers who worked on WET to improve both systems.
 

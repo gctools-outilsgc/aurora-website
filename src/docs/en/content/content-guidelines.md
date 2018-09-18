@@ -10,13 +10,13 @@ title: "Content guidelines"
 
 # Content Guidelines
 
-## Reading Level and Plain Language
+## Reading level and plain language
 
 Plain language is a style of writing designed to make text easy to read and understand.
 
 Plain language is achieved through several techniques:
 
-* **Write in short sentences** Sentences should incorporate only one main idea or point in order to be as clear as possible. Aim for no more than 20 words per sentence unless necessary.
+* **Write in short sentences.** Sentences should incorporate only one main idea or point in order to be as clear as possible. Aim for no more than 20 words per sentence unless necessary.
 
 * **Use the active voice.** Active voice means that the subject does the action, rather than the subject being acted upon. The active voice is closer to the way we talk, and is more dynamic and easy to read. Active voice typically follows the structure of - the subject (noun) action (verb) what/where (object). Example: The dog (subject/noun) fetched (action/verb) the ball (object). One good rule is to remember that things don't happen to people, people DO things.
 
@@ -33,7 +33,7 @@ Plain language is achieved through several techniques:
 ## Spelling
 All language and content in the system uses **Canadian** spelling. The [Canadian Press Stylebook](http://www.thecanadianpress.com/writing-guide/stylebook/) or [Canadian Press Caps and Spelling](http://www.thecanadianpress.com/writing-guide/caps-spelling/) is a good resource for spelling, grammar and writing style in the Canadian context.
 
-## Addressing Users
+## Addressing users
 
 Speak to users as if they are the main reader. Use pronouns such as "you" and yours, and use verbs that give direction, such as "download", "submit" or "save". Never refer to users in the third person. All system messaging should focus on the user.
 
@@ -43,7 +43,7 @@ Generally you should refer to your department or business as "us" or "we" unless
 
 When referring to the Government of Canada and all departments within it, you typically should use the entire name of the department, not the department's acronym. Only use the acronym if the name appears previously in a single text and you have defined the acronym.
 
-## Useful Tools
+## Useful tools
 
 Here are some free tools and references that you can use to improve your writing:
 
