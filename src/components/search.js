@@ -9,6 +9,7 @@ import {
     Label
 } from 'reactstrap';
 import {indexEN, indexFR, searchValuesEN, searchValuesFR} from './SearchIndex';
+import {I18n} from 'react-i18next';
 
 // Search component
 export default class Search extends Component {
@@ -91,11 +92,23 @@ export default class Search extends Component {
                 :
                 (this.state.query.length > 0) ?
                 <ListGroupItem toggle={"false"}>
-                    No results were found.
+                  <I18n ns={["translation"]}>
+                    {
+                      (t) => (
+                        t("search_no_results")
+                      )
+                    }
+                  </I18n>
                 </ListGroupItem>
                 :
                 <ListGroupItem toggle={"false"}>
-                    Start Searching...
+                  <I18n ns={["translation"]}>
+                    {
+                      (t) => (
+                        t("search_start_searching")
+                      )
+                    }
+                  </I18n>
                 </ListGroupItem>
               }
             </DropdownMenu>

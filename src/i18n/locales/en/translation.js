@@ -37,7 +37,9 @@ const enTranslation = {
   "COPY CODE": "COPY CODE",
   "Copied!": "Copied!",
   "SHOW CODE": "SHOW CODE",
-  "HIDE CODE": "HIDE CODE"
+  "HIDE CODE": "HIDE CODE",
+  "search_no_results": "No results were found.",
+  "search_start_searching": "Start searching..."
 };
 
 export default enTranslation;

@@ -37,7 +37,9 @@ const frTranslation = {
   "COPY CODE": "COPIER LE CODE",
   "Copied!": "Copié!",
   "SHOW CODE": "MONTRER LE CODE",
-  "HIDE CODE": "CACHER LE CODE"
+  "HIDE CODE": "CACHER LE CODE",
+  "search_no_results": "Aucun resultat n'a été trouvé.",
+  "search_start_searching": "Lancer la recherche..."
 };
 
 export default frTranslation;
