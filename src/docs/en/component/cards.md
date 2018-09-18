@@ -145,8 +145,6 @@ Cards can technically include any number of component combinations. Using the ba
         <h5 class="card-title">Name or Group</h5>
         <p class="text-muted">Job title or meta information</p>
         <button type="button" class="btn btn-primary">Call to Action</button>
-        </div>
-
     </div>
 </div>
 

@@ -138,13 +138,11 @@ Les cartes peuvent techniquement comprendre un certain nombre de combinaisons d�
 <div class="card card-profile mb-2 d-inline-block" style="max-width: 18rem;">  
     <img class="card-img-top" alt="placeholder image" style="height: 100px;" src="http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg">
     <div class="card-body">
-        <img alt="..." class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+        <img alt="..." class="avatar avatar-lg" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
         <div>
         <h5 class="card-title">Name or Group</h5>
         <p class="text-muted">Titre du poste ou méta-information</p>
         <button type="button" class="btn btn-primary">Appel à l’action</button>
-        </div>
-
     </div>
 </div>
 

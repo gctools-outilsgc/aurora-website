@@ -190,11 +190,11 @@ Pour aider les utilisateurs à mieux comprendre un formulaire, il peut s’avér
 S’il est possible de le faire, il est recommandé de limiter les formulaires à une seule page. Si un formulaire compte plus d’une page, utilisez un indicateur d’étape.
 Si un formulaire compte plus d’une page, il est recommandé de fournir à l’utilisateur une représentation visuelle de progression pour qu’il connaisse son niveau d’achèvement. Le style des indicateurs d’étape est écrit dans sa propre section du présent document.
 
-![Step indicator component at step 1](../../../img\components\steps indicator_1.png)
+![Step indicator component at step 1](../../../img\components\steps_indicator_1.png)
 
-![Step indicator component at step 2](../../../img\components\steps indicator_2.png)
+![Step indicator component at step 2](../../../img\components\steps_indicator_2.png)
 
-![Step indicator component at step 3](../../../img\components\steps indicator_3.png)
+![Step indicator component at step 3](../../../img\components\steps_indicator_3.png)
 
 ## Navigation
 Il peut être nécessaire de naviguer vers différentes pages pour les inclure dans un formulaire. S’ils sont liés à un champ particulier, par exemple « J’ai oublié le mot de passe? », il faut inclure le lien en ligne et en dessous du champ connexe. Si le lien est lié à l’ensemble du formulaire, par exemple, « Inscrivez-vous ici », inscrivez le lien au bas du formulaire, séparé sur le plan visuel.

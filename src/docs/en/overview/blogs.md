@@ -29,7 +29,7 @@ After six months of managing a project, I’ve definitely learned many things ab
 
 **Building anything new is a messy process.** Try to organize the chaos best you can, but accept that the amount of uncertainty and tough questions will feel overwhelming at times.
 
-![Image of people working collaboratively](../../../img\blogs\generic people doing stuff.jpeg)
+![Image of people working collaboratively](../../../img\blogs\generic_people_doing_stuff.jpeg)
 
 **Be strategic about working with others.** Partners and collaborators are valuable, but can also broaden the project far beyond its original scope. Stick to your original goals and have a clear plan from the start on who to engage with, and when to engage them.
 
@@ -66,21 +66,21 @@ I‘m in my early 20s, still in school, and completely new to design. But somewh
 
 As I come into work, I wonder (with awe) how I got here. That’s the beauty of working with a flexible and competent team like the GCTools! After only four months here, I’ve been welcomed into the team with open arms and encouraged to learn on the go. Along the way I’ve definitely had to come to terms with the occasional imposter syndrome, but that means you’re on the right track to building something new.
 
-![Pie chart about job advancement](../../../img\blogs\job pie chart.jpeg)
+![Pie chart about job advancement](../../../img\blogs\job_pie_chart.jpeg)
 
 All of this makes the DCD team a perfect environment to embrace a new challenge like the design system project.
 
 With a refresh of the GCTools on the horizon, the team decided it was time to put together a design system. Developing one is complex; a design system is a huge repository of all elements of your products as well as documentation on how to use them. They are to be as comprehensive as possible, and include everything from visual elements to writing style, guiding principles, and code for specific components. The system provides designers and developers with a clear guide on how to start a new application, without having to make specific design choices over and over. This is useful for our own team and our rebuild, but we’re also excited to work with multiple partners across the GC to make a system that others can use to guide their work as well.
 
-![Image of cartoon people running](../../../img\blogs\people running.jpeg)
+![Image of cartoon people running](../../../img\blogs\people_running.jpeg)
 
 We’re still early into the project, and we’re starting to learn that everyone is new to this. Design systems are used by many of the tech giants such as Google, IBM and Shopify, but is still a new piece for use in the public sector. The U.S. government built their design system last year, and the UK government is [currently working on theirs.](https://gds.blog.gov.uk/2017/10/30/building-the-gov-uk-design-system/) Although we’re planning to use our design system on a smaller scale — it’s still a huge undertaking, especially considering that we’re learning what we’re doing as we go!
 
-![Screenshot of the U.S. Web Design Standards](../../../img\blogs\US design system.png)
+![Screenshot of the U.S. Web Design Standards](../../../img\blogs\US_design_system.png)
 
 *One section of the U.S. Web Design Standards*
 
-![Screenshot of Shopify's Polaris Design System](../../../img\blogs\Polaris design system.png)
+![Screenshot of Shopify's Polaris Design System](../../../img\blogs\Polaris_design_system.png)
 
 *Shopify’s Polaris Design System*
 
@@ -92,10 +92,10 @@ If you want to learn more about the design system we’re building, and how we�
 
 Thanks for reading! To learn more or provide feedback, comment below or reach out to me on [Twitter](https://twitter.com/s_duffey), [GCcollab](https://gccollab.ca/profile/Sduff) and [Linkedin.](https://www.linkedin.com/in/sierraduffey/)
 
-![Colour and Graphics mood board](../../../img\blogs\mood board 1.png)
+![Colour and Graphics mood board](../../../img\blogs\mb_1.png)
 
 
-![Inspired by Nature mood board](../../../img\blogs\mood board 3.png)
+![Inspired by Nature mood board](../../../img\blogs\mb_3.png)
 
 
-![Wood and Stone mood board](../../../img\blogs\mood board 4.png)
+![Wood and Stone mood board](../../../img\blogs\mb_4.png)

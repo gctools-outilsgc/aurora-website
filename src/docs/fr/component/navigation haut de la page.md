@@ -29,4 +29,4 @@ Il y a une icône de flèche centrée dans le cercle (flèche vers le haut à pa
 
 Le texte comporte un remplissage de 9 px sur 15, ayant la couleur de bordure <badge style="background-color: #CECECE;color:black;">#CECECE</badge> de 1 px et un rayon de bordure de 16 px. L’icône de la flèche est alignée à gauche du texte.
 
-![Compasante web de « Haut de la page »](../../../img\components\haut de la page.png)
+![Compasante web de « Haut de la page »](../../../img\components\haut_de_la_page.png) 
