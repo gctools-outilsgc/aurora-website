@@ -5,9 +5,9 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import Header from '../components/Header';
-
-import './layout.scss';
 import '../utils/custom.scss';
+import './layout.scss';
+
 import icon from "../img/favicon.ico";
 
 class Layout extends React.Component {

@@ -14,6 +14,7 @@ import logo from "../img/aurora_logo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import './header.scss';
 
 const Header = () => (
   <I18n ns={["translation"]}>
