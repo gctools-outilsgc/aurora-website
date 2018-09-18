@@ -1,9 +1,9 @@
 import React from 'react';
 import Layout from '../layouts/layout';
-import Eye from "../img/eye.png";
-import Gears from '../img/gears.png';
-import Pen from '../img/pen.png';
-import Pie from '../img/pie_chart.png';
+import Eye from "../img/writer.png";
+import Gears from '../img/developer.png';
+import Pen from '../img/writer.png';
+import Pie from '../img/datasci.png';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import {
