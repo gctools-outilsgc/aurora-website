@@ -15,7 +15,7 @@ Data visualizations come in many forms, and are a visual means to represent a da
 
 Data visualizations should aim to represent and answer one question. The goal is to provide a brief overview of the data, and tell a visual story that makes sense to the user. Graphs should be used to visually represent datasets in ways that tables cannot. If the data is easy to understand without a visualization, usually the simplest option \(a table\) is best.
 
-![Screenshot of the GCcollab Data Application](../../../img\examples\GCcollab stats.PNG)
+![Screenshot of the GCcollab Data Application](../../../img/examples/GCcollab_stats.PNG)
 
 *The GCcollab Data Application, which uses the Aurora Design System style to create a data dashboard with statistics from GCcollab groups.*
 
@@ -32,7 +32,7 @@ If one graph is too complex to represent a certain dataset, the data should be r
 
 When you use data visualizations, it is recommended to represent the data in multiple formats where possible. Regardless of the type of visualization you use, a simple data table, or other ways of viewing the raw data, should be available somewhere on the page. This allows users to view and analyze the data in a way that makes the most sense to them, as well as easily identify individual data points.
 
-![Example image of data visualization using varying formats, a graph, a table and a paragraph for context](../../../img\do_dont\multiple formats_do.png)
+![Example image of data visualization using varying formats, a graph, a table and a paragraph for context](../../../img/do_dont/multiple_formats_do.png)
 
 ## Labels
 
@@ -54,7 +54,7 @@ In some visualizations with many axis points, skipping labels is an effective wa
 
 On the x-axis, value labels should be centered to their corresponding tick mark. For y-axis labels, they should be left-aligned and kept above the y-axis lines. Long text labels should be rotated 45 degrees around an origin directly below their corresponding axis tick.
 
-![Exampl image of correct us of data increments](../../../img\do_dont\data increments_do.png)
+![Exampl image of correct us of data increments](../../../img/do_dont/data_increments_do.png)
 
 
 ### Data Formats and Abbreviations

@@ -15,7 +15,7 @@ La visualisation des données prend de nombreuses formes et constitue un moyen v
 
 La visualisation des données devrait viser à représenter et à répondre à une seule question. Le but est de donner un aperçu des données et de raconter une histoire visuelle qui a du sens pour l’utilisateur. Les graphes devraient servir à représenter des jeux de données d’une manière dont les tableaux ne peuvent pas. Si les données sont faciles à comprendre sans visualisation, habituellement l’option la plus simple (un tableau) est la meilleure.
 
-![Image de l'application des statistiques GCcollab ](../../../img\examples\GCcollab stats_fr.PNG)
+![Image de l'application des statistiques GCcollab ](../../../img/examples/GCcollab_stats_fr.PNG)
 *L'application des statistiques GCcollab, qui utilise le système de conception d'Aurora pour créer un page de statistiques des groupes GCcollab*
 
 ## Simplicité
@@ -29,7 +29,7 @@ Si un graphique est trop complexe pour représenter un certain jeu de données, 
 ### Formats multiples
 Lorsque vous utilisez des visualisations de données, il est recommandé de représenter les données dans plusieurs formats dans la mesure du possible. Peu importe le type de visualisation que vous utilisez, un simple tableau de données ou d’autres façons de publier les données brutes, devrait se trouver quelque part sur la page, ce qui permet aux utilisateurs de visualiser et d’analyser les données de la façon qui leur convient, ainsi que d’identifier facilement les points de données individuels.
 
-![Image d'un exemple d'utilisant les formats multiples](../../../img\do_dont\Aurora_multiple formats_do_fr_multiple formats_do.png)
+![Image d'un exemple d'utilisant les formats multiples](../../../img/do_dont/Aurora_multiple_formats_do_fr_multiple_formats_do.png)
 
 ## Étiquettes
 
@@ -50,7 +50,7 @@ Dans certaines visualisations comportant de nombreux axes, l’omission d’éti
 
 Sur l’axe des x, les étiquettes de valeur devraient être centrées à la ligne guide correspondante. En ce qui concerne les étiquettes de l’axe des y, elles devraient être alignées à gauche et se trouver au-dessus des lignes de l’axe des y. Les longues étiquettes de texte doivent être tournées de 45 degrés autour d’une origine directement sous la ligne guide de l’axe correspondante.
 
-![Image exemplaire de comment utiliser les incréments de données](../../../img\do_dont\data increments_do_fr_data increments_do.png)
+![Image exemplaire de comment utiliser les incréments de données](../../../img/do_dont/data_increments_do_fr_data_increments_do.png)
 
 ### Formats des données et abréviations
 
