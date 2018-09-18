@@ -53,7 +53,7 @@ const Header = () => (
                     </Link>
                   </NavItem>
                   <NavItem>
-                    <Link to="/component" className="nav-link" activeClassName="active" >
+                    <Link to="/component/colour" className="nav-link" activeClassName="active" >
                       {t("Components")}
                     </Link>
                   </NavItem>

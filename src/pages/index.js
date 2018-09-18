@@ -58,12 +58,12 @@ class IndexPage extends React.Component {
                   <Col xs="6" sm="6" md="6" lg="3" className="text-center">
                     <img className="img-fluid" src={Eye} alt="" />
                     <h3 className="mb-3 mt-3 h4">{t("Designers")}</h3>
-                    <Link to="/component" style={{"whiteSpace":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DesignerCTA")}</Link>
+                    <Link to="/component/colour" style={{"whiteSpace":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DesignerCTA")}</Link>
                   </Col>
                   <Col xs="6" sm="6" md="6" lg="3" className="text-center">
                     <img className="img-fluid" src={Gears} alt="" />
                     <h3 className="mb-3 mt-3 h4">{t("Developers")}</h3>
-                    <Link to="/component" style={{"whiteSpace":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DeveloperCTA")}</Link>
+                    <Link to="/component/colour" style={{"whiteSpace":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DeveloperCTA")}</Link>
                   </Col>
                   <Col xs="6" sm="6" md="6" lg="3" className="text-center">
                     <img className="img-fluid" src={Pen} alt="" />

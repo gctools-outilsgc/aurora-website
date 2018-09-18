@@ -7,6 +7,4 @@ SITE ISSUES:
           |-> Note the gatsby v2 branch / deployed version is also bugged so it might be best to just recode it in tomorrow
 
 MD FILE ISSUES:
--> PaginationLinkPrev breaks the IE build: importing reactstrap utils.js causes syntax errors (maybe babel isn't running anythign on it??)
 -> UncontrolledCollapse not working on IE (forEach not defined)
--> Images in md aren't showing (possible I don't have them or markdown config needs to include them)
