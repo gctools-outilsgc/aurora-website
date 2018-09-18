@@ -22,7 +22,7 @@ class MarkdownTemplate extends React.Component {
 
   render() {
     return (
-      <Layout>
+      <Layout path={this.state.path}>
         <I18n ns={["translation"]}>
           {
             (t, i18n) => {
