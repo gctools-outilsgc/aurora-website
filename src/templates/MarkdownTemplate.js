@@ -35,13 +35,14 @@ class MarkdownTemplate extends React.Component {
                       placeholder={(i18n.language === "en") ? "Search" : "Chercher"}
                     />
                   </div>
-                  {/* BREAKS IE
+                  {/* 
                   <UncontrolledCollapse toggler=".sidenavToggle">
                     <div className="mobile-sidebar">
                       <Sidenav path={this.state.path} data={this.props.data} i18n={ i18n } />
                     </div>
                     <div className="ui-mask sidenavToggle"></div>
-                  </UncontrolledCollapse>*/}
+                  </UncontrolledCollapse>
+                  */}
                   <div className="d-none d-md-block">
                     <Sidenav path={this.state.path} data={this.props.data} i18n={ i18n } />
                   </div>

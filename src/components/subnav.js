@@ -37,22 +37,17 @@ class Subnav extends React.Component {
         <Collapse isOpen={this.state.dropdownOpen}>
           <ListGroup>
             {sortedFiles.map((edges) => {
+              console.log(this.props.path, edges.node.frontmatter.path, this.props.path === edges.node.frontmatter.path);
               if (
                 ((this.props.i18n.i18n.language === "en") && (edges.node.frontmatter.lang === "en")) ||
                 ((this.props.i18n.i18n.language === "fr") && (edges.node.frontmatter.lang === "fr"))
               )
-                console.log(this.props.path === edges.node.frontmatter.path);
                 return (
-                  <ListGroupItem className="subItem" style={{ "paddingLeft": "2rem",  "border": "0px"}}>
+                  <ListGroupItem active={this.props.path === edges.node.frontmatter.path} className="subItem" style={{ "paddingLeft": "2rem",  "border": "0px"}}>
                     <Link
                       className="subLink"
                       to={edges.node.frontmatter.path}
-                      activeStyle={{
-                        color: "white",
-                        backgroundColor: "#467B8D"
-                      }}
                       activeClassName="active"
-                      active={this.props.path === edges.node.frontmatter.path}
                     >
                       {edges.node.frontmatter.title}
                     </Link>

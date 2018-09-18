@@ -48,22 +48,22 @@ const Header = () => (
               <div className="navbar-collapse nav-holder">
                 <Nav tabs className="mx-auto nav-site scroll" style={{borderBottom:'none'}} >
                   <NavItem>
-                    <Link to="/overview/introduction" className="nav-link" activeClassName="active" >
+                    <Link to="/overview/introduction" className="nav-link">
                       {t("Overview")}
                     </Link>
                   </NavItem>
                   <NavItem>
-                    <Link to="/component/colour" className="nav-link" activeClassName="active" >
+                    <Link to="/component/colour" className="nav-link">
                       {t("Components")}
                     </Link>
                   </NavItem>
                   <NavItem>
-                    <Link to="/content/content-guidelines" className="nav-link" activeClassName="active" >
+                    <Link to="/content/content-guidelines" className="nav-link">
                       {t("Content")}
                     </Link>
                   </NavItem>
                   <NavItem>
-                    <Link to="/data/data-overview" className="nav-link" activeClassName="active" >
+                    <Link to="/data/data-overview" className="nav-link">
                       {t("Data")}
                     </Link>
                   </NavItem>
