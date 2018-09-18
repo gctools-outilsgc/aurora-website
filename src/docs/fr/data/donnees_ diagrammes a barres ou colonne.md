@@ -25,7 +25,7 @@ Les graphiques à colonnes utilisent des barres verticales pour représenter des
 
 Si vous utilisez le temps comme une variable dans votre visualisation, toujours utilisez un graphique à colonnes.
 
-![Exemple d'une graphique à colonne](../../../img\components\column graph_fr.png)
+![Exemple d'une graphique à colonne](../../../img\components\column_graph_fr.png)
 
 ## Graphiques à barres
 
@@ -33,4 +33,4 @@ Les graphiques à barres suivent les mêmes normes que les graphiques à colonne
 *	Si les étiquettes de données sont longues et nécessitent plus d’espace visuel
 *	Si vous illustrez plus de 10 points.
 
-![Image d'une graphique à barre](../../../img\components\bar graph_fr.png)
+![Image d'une graphique à barre](../../../img\components\bar_graph_fr.png)
