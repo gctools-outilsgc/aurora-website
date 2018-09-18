@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
-import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Button } from 'reactstrap';
-import { translate } from 'react-i18next';
+import React from 'react';
+import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 
 class ButtonDropdownWrapper extends React.Component {
   constructor(props) {
     super(props);
 
-    this.title = "Dropdown";
     this.toggle = this.toggle.bind(this);
     this.state = {
       dropdownOpen: false
@@ -35,4 +33,4 @@ class ButtonDropdownWrapper extends React.Component {
   }
 }
 
-export default translate('ButtonDropdownWrapper')(ButtonDropdownWrapper);
+export default ButtonDropdownWrapper;

@@ -106,7 +106,7 @@ For complicated forms, information should be displayed using multiple steps or p
   </div>
   <div class="form-group row">
     <div class="col-sm-10">
-      <button type="submit" class="btn btn-primary">Sign in</button>
+      <button href="#example">Se connecter</button>
     </div>
   </div>
 </form>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Row, Label, Container } from 'reactstrap';
 import PropTypes from 'prop-types';
-import { translate } from "react-i18next";
+import { I18n } from "react-i18next";
 import CodeBlock from './CodeBlock';
 
 /** Component that extends the functionality of CodeBlock by adding the option to hide/show the CodeBlock component */
@@ -55,7 +55,13 @@ class ToggleCodeBlock extends CodeBlock {
                     { (this.state.isShowingCode) ? "-" : "+" }
                 </Button>
                 <Label onClick={ this.toggle } >
-                    { this.props.t((this.state.isShowingCode) ? "HIDE CODE" : "SHOW CODE") }
+                    <I18n>
+                      { 
+                        (t) => (
+                          t((this.state.isShowingCode) ? "HIDE CODE" : "SHOW CODE")
+                        )
+                      }
+                    </I18n> 
                 </Label>
             </div>
         );
@@ -95,4 +101,4 @@ ToggleCodeBlock.defaultProps = {
     isShowingCode: false
 }
 
-export default translate("CodeBlock")(ToggleCodeBlock);
+export default ToggleCodeBlock;

@@ -1,0 +1,10 @@
+Things that don't sync up with the deployed/current/master version:
+
+SITE ISSUES:
+-> Search is missing proper text / translated text (Please don't try to fix this without asking Addison! I18n is done differently on this branch!)
+-> Sidenav/Subnav and Header active property isn't showing properly (we switched to gatsby-link since {Link} from 'gatsby' is only v2 )
+          |-> If this doesn't fix itself by syncing with the final master, it should be simple to reprogram!
+          |-> Note the gatsby v2 branch / deployed version is also bugged so it might be best to just recode it in tomorrow
+
+MD FILE ISSUES:
+-> UncontrolledCollapse not working on IE (forEach not defined)

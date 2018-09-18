@@ -15,17 +15,22 @@ module.exports = {
         ]
       }
     },
-
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sass',
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    // 'gatsby-plugin-eslint', STILL INSTALLED
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/docs/`,
         name: `markdown-pages`,
       },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `img`,
+        path: `${__dirname}/src/img/`
+      }
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -43,21 +48,19 @@ module.exports = {
         ],
       },
     },
-
     {
-      resolve: `gatsby-plugin-sass`,
+      resolve: `gatsby-plugin-google-analytics`,
       options: {
-        precision: 10
+        trackingId: "UA-29015462-4",
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true
       },
     },
-
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `img`,
-        path: `${__dirname}/src/img/`
-      }
-    },
+    /*
     {
       resolve: `gatsby-plugin-lunr`,
       options: {
@@ -106,6 +109,6 @@ module.exports = {
         },
       },
     },
+    */
   ],
-
 }

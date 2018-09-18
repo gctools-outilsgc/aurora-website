@@ -4,17 +4,17 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-// You can delete this file if you're not using it
-const path = require("path");
-const fs = require("fs-extra");
+ // You can delete this file if you're not using it
+ const path = require("path");
 
-exports.createPages = ({ graphql, actions }) => {
-  const { createPage } = actions
-  const blogPost = path.resolve(`src/templates/mdTemplate.js`)
+exports.createPages = ({ boundActionCreators, graphql }) => {
+  const { createPage } = boundActionCreators;
+
+  const mdTemplate = path.resolve(`src/templates/MarkdownTemplate.js`);
+
   return graphql(`
     {
-      allMarkdownRemark
-         {
+      allMarkdownRemark {
         edges {
           node {
             frontmatter {
@@ -28,25 +28,23 @@ exports.createPages = ({ graphql, actions }) => {
       }
     }
   `).then(result => {
-      if (result.errors) {
-        return Promise.reject(result.errors)
-      }
+    if (result.errors) {
+      return Promise.reject(result.errors);
+    }
 
-      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-        createPage({
-          path: node.frontmatter.path,
-          component: blogPost,
-
-        })
-      })
-    })
+    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      createPage({
+        path: node.frontmatter.path,
+        component: mdTemplate,
+      });
+    });
+  });
 };
 
+/*
 exports.onPostBuild = () => {
-  console.log("Copying locales");
   fs.copySync(
-    path.join(__dirname, "/src/locales"),
-    path.join(__dirname, "/public/locales"),
-    /*path.join(__dirname, "/src/img")*/
+    path.join(__dirname, "/src/img")
   );
 };
+*/

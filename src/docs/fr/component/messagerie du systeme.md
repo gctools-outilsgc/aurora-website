@@ -22,16 +22,16 @@ Les notifications d’erreur sont utilisées pour les pannes de système et les 
 Exemple d’erreur : « Votre mot de passe doit contenir au moins huit (8) caractères. »
 
 <Alert color="danger">
-    C’est une alerte en cas de danger avec un <a href="#" class="alert-link">exemple de lien.</a>.
+    C’est une alerte en cas de danger avec un <a href="#example" class="alert-link">exemple de lien.</a>.
 </Alert>
 
 <codeblock html='
     <div class="alert alert-danger" role="alert">
-        C’est une alerte en cas de danger avec un <a href="#" class="alert-link">exemple de lien.</a>.
+        C’est une alerte en cas de danger avec un <a href="" class="alert-link">exemple de lien.</a>.
     </div>
 ' react='
 <Alert color="danger">
-    C’est une alerte en cas de danger avec un <a href="#" class="alert-link">exemple de lien.</a>.
+    C’est une alerte en cas de danger avec un <a href="" class="alert-link">exemple de lien.</a>.
 </Alert>
 '></codeblock>
 
@@ -42,16 +42,16 @@ Les notifications d’avertissement sont utilisées pour les avis d’éventuell
 Exemple d’avertissement : « Verr. Maj. est activé ce qui pourrait faire en sorte que vous entriez votre mot de passe incorrectement. »
 
 <Alert color="warning">
-    C’est une alerte d’avertissement avec un  <a href="#" class="alert-link">exemple de lien.</a>.
+    C’est une alerte d’avertissement avec un  <a href="#example" class="alert-link">exemple de lien.</a>.
 </Alert>
 
 <codeblock html='
     <div class="alert alert-warning" role="alert">
-        C’est une alerte d’avertissement avec un  <a href="#" class="alert-link">exemple de lien.</a>.
+        C’est une alerte d’avertissement avec un  <a href="" class="alert-link">exemple de lien.</a>.
     </div>
 ' react='
 <Alert color="warning">
-    C’est une alerte d’avertissement avec un  <a href="#" class="alert-link">exemple de lien.</a>.
+    C’est une alerte d’avertissement avec un  <a href="" class="alert-link">exemple de lien.</a>.
 </Alert>
 '></codeblock>
 
@@ -62,16 +62,16 @@ Les notifications d’information servent à fournir des renseignements supplém
 Exemple d’information : « Vous pouvez changer votre mot de passe dans les paramètres. »
 
 <Alert color="info">
-    C’est une alerte d’information avec un <a href="#" class="alert-link">exemple de lien.</a>.
+    C’est une alerte d’information avec un <a href="#example" class="alert-link">exemple de lien.</a>.
 </Alert>
 
 <codeblock html='
     <div class="alert alert-info" role="alert">
-        C’est une alerte d’information avec un <a href="#" class="alert-link">exemple de lien.</a>.
+        C’est une alerte d’information avec un <a href="" class="alert-link">exemple de lien.</a>.
     </div>
 ' react='
 <Alert color="info">
-    C’est une alerte d’information avec un <a href="#" class="alert-link">exemple de lien.</a>.
+    C’est une alerte d’information avec un <a href="" class="alert-link">exemple de lien.</a>.
 </Alert>
 '></codeblock>
 
@@ -82,16 +82,16 @@ Les notifications de succès sont utilisées pour confirmer qu’une tâche a é
 Exemple de succès : « Votre mot de passe a été mis à jour avec succès. »
 
 <Alert color="success">
-    C’est une alerte en cas de succès avec un <a href="#" class="alert-link">exemple de lien.</a>.
+    C’est une alerte en cas de succès avec un <a href="#example" class="alert-link">exemple de lien.</a>.
 </Alert>
 
 <codeblock html='
     <div class="alert alert-success" role="alert">
-        C’est une alerte en cas de succès avec un <a href="#" class="alert-link">exemple de lien.</a>.
+        C’est une alerte en cas de succès avec un <a href="" class="alert-link">exemple de lien.</a>.
     </div>
 ' react='
 <Alert color="success">
-    C’est une alerte en cas de succès avec un <a href="#" class="alert-link">exemple de lien.</a>.
+    C’est une alerte en cas de succès avec un <a href="" name = "success" class="alert-link">exemple de lien.</a>.
 </Alert>
 '></codeblock>
 

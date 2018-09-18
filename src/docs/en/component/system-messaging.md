@@ -22,7 +22,7 @@ Error notifications are used for system failures and user errors.
 Error example: “Your password must contain at least 8 characters.”
 
 <Alert color="danger">
-    This is a danger alert with <a href="#" class="alert-link">an example link</a>.
+    This is a danger alert with <a href="#example" class="alert-link">an example link</a>.
 </Alert>
 
 <codeblock html='
@@ -42,7 +42,7 @@ Warning notifications are used for notices of potential future errors.
 Warning example: “Caps lock is on which may cause you to enter your password incorrectly.”
 
 <Alert color="warning">
-    This is a warning alert with <a href="#" class="alert-link">an example link</a>.
+    This is a warning alert with <a href="#example" class="alert-link">an example link</a>.
 </Alert>
 
 <codeblock html='
@@ -62,7 +62,7 @@ Information notifications are used to provide additional information and notes t
 Information example: “You can change your password in settings.”
 
 <Alert color="info">
-    This is an info alert with <a href="#" class="alert-link">an example link</a>.
+    This is an info alert with <a href="#example" class="alert-link">an example link</a>.
 </Alert>
 
 <codeblock html='
@@ -82,7 +82,7 @@ Success notifications are used to confirm that a task was completed successfully
 Success example: “Your password was updated successfully.”
 
 <Alert color="success">
-    This is a success alert with <a href="#" class="alert-link">an example link</a>.
+    This is a success alert with <a href="#example" class="alert-link">an example link</a>.
 </Alert>
 
 <codeblock html='

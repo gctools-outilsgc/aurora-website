@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Button } from 'reactstrap';
-import { translate } from "react-i18next";
+import PropTypes from 'prop-types';
 
 class LanguageSwitcher extends Component {
   constructor(props) {
@@ -33,7 +33,7 @@ class LanguageSwitcher extends Component {
           className="languageSwitcherButton"
           onClick={this.handleChangeLanguage}
           size="md"
-          style={ {"font-weight": "550"} }
+          style={ {"fontWeight": "550"} }
         >
         {langText}
         </Button>
@@ -43,4 +43,8 @@ class LanguageSwitcher extends Component {
 
 }
 
-export default translate("default")(LanguageSwitcher);
+LanguageSwitcher.propTypes = {
+  i18n: PropTypes.any
+};
+
+export default LanguageSwitcher;
