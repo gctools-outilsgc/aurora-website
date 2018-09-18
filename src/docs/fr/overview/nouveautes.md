@@ -18,7 +18,14 @@ le 19 septembre, 2018
 
 ![Image de marque Aurora](../../../img\aurora-banner-small.png)
 
-## Juin 2018
+Nous sommes ravis de lancer la première version du site Web du système de conception Aurora! Il est facile de trouver et de copier toutes les composantes que nous avons conçues et mises à l’essai, y compris le texte sur la méthode et l’opportunité de leur utilisation, au moyen de leur code HTML.
+
+La présente est la première version, et nous continuons de concevoir de nouvelles composantes à intégrer dans Aurora ainsi que d’ajouter du codage React.js pour chaque composante qui existe.
+
+Si vous souhaitez rester au courant de nos projets et fournir vos commentaires sur Aurora, veuillez accéder à notre Github. Restez à l’affût pour obtenir des mises à jour, alors que nous travaillons à améliorer encore plus Aurora!
+
+##  Phase II, développement
+Juin 2018
 
 Travaillant maintenant à la phase II, l’équipe de conception s’est divisée en de plus petites équipes de travail, dont des développeurs, des rédacteurs, des concepteurs et des chercheurs de l’expérience de travail. Nous procédons à des essais d’utilisation de certains de nos éléments, nous élaborons des feuilles de style et des composants HTML, et nous créons des modèles fil de fer pour construire la première itération du site Web du système de conception.
 
@@ -26,7 +33,8 @@ La première itération du système de conception fait actuellement l’objet d�
 
 Sierra a également rédigé un [billet de blogue](https://medium.com/@s.duffey121/les-sept-le%C3%A7ons-que-jai-tir%C3%A9es-en-dirigeant-un-projet-de-conception-a8db3b4e2e4d) décrivant certaines des principales leçons tirées du projet.  
 
-## Avril 2018
+## Phase I, développement
+Avril 2018
 
 L’équipe de conception Aurora travaille d’arrache-pied pour créer une première version du système de conception Aurora. Parcourez notre manuel de git afin de voir ce qui a été fait jusqu’à présent et sur quoi nous travaillons toujours!
 

@@ -11,7 +11,7 @@ title: "Introduction"
 
 # Introduction
 
-Nous avons créé le système de conception Aurora afin de normaliser le langage visuel et l’expérience-utilisateur des applications et des outils (OutilsGC) créés par la Division de la collaboration numérique.
+Nous avons créé le système de conception Aurora afin de normaliser le langage visuel et l’expérience-utilisateur des applications et des outils créés par la Division de la collaboration numérique.
 
 Le système Aurora a été créé par une équipe multidisciplinaire composée de concepteurs, de chercheurs EU, de rédacteurs et de scientifiques des données. En combinant l’expertise de tous ces rôles, nous en sommes arrivés à un système de conception doté d’une vaste gamme d’éléments.
 
@@ -39,6 +39,6 @@ En contribuant au répertoire GitHub, vous nous aidez à assurer l’élaboratio
 
 Vous pouvez également publier des commentaires sur la conception ou apporter des suggestions quant au contenu, par l’entremise de l’option des enjeux de GitHub (GitHub Issues).
 
-N'hésitez pas à proposer des modifications en créant des demandes de tirage (Pull Requests). Si vous n'avez pas accès au mode de rédaction, la modification d'un fichier créera une copie (Fork) de ce projet, vous permettant ainsi d’enregistrer les modifications que vous proposez. Le fait de proposer une modification à un fichier viendra l’ajouter à un nouvel embranchement (Branch) de votre copie (Fork), vous permettant ainsi d’envoyer une demande de tirage (Pull Request).
+N'hésitez pas à proposer des modifications en créant des demandes de tirage (Pull Requests). Si vous n'avez pas accès au mode de rédaction, la modification d'un fichier créera une copie (Fork) de ce projet, vous permettant ainsi d’enregistrer les modifications que vous proposez. Le fait de proposer une modification à un fichier viendra l’ajouter à un nouvel embranchement (Branch) de votre copie (Fork), vous permettant ainsi d’envoyer une demande de tirage (Pull Request). Membres de notre équipe vont reviser votre demande et vont travailler avec vous pour inclure vos contributions au Aurora. 
 
 Si c'est la première fois que vous contribuez à Github, ne vous en faites pas! Vous pouvez en apprendre davantage grâce à la [documentation d’aide](https://help.github.com/) de Github! (En anglais seulement.)

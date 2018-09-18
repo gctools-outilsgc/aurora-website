@@ -13,7 +13,7 @@ title: "Colour"
 
 ## Palettes
 
-Colour palettes consist of an array of colours that are used consistently within your particular application. Colour palettes are designed to work harmoniously with each other often incorporating primary colours, and secondary accent colours that are used to add variety and visual appeal to your application. The colour palette starts with primary colours, and builds on hues of that colour to create a complete and usable palette .
+Colour palettes consist of an array of colours that are used consistently within your particular application. Colour palettes are designed to work harmoniously with each other often incorporating primary colours, and secondary accent colours that are used to add variety and visual appeal to your application. The colour palette starts with primary colours, and builds on hues of that colour to create a complete and usable palette.
 
 Themes enable consistent application styling through surface shades, shadow depth and ink opacity.
 
@@ -47,7 +47,7 @@ Hex codes :
 
 Hex codes :
 
-<badge style="background-color: #0278A4;">#0278A4</badge>, <badge style="background-color: #4E474;color:black;">#4E474</badge>, <badge style="background-color: #83C3F2;color:black;">#83C3F2</badge>, <badge style="background-color: #C9DF61;color:black;">#C9DF61</badge>, <badge style="background-color: #C1D699;color:black;">#C1D699</badge>
+<badge style="background-color: #0278A4;">#0278A4</badge>, <badge style="background-color: #4E474">#4E474</badge>, <badge style="background-color: #83C3F2;color:black;">#83C3F2</badge>, <badge style="background-color: #C9DF61;color:black;">#C9DF61</badge>, <badge style="background-color: #C1D699;color:black;">#C1D699</badge>
 
 ### Applying Your Own Palettes
 

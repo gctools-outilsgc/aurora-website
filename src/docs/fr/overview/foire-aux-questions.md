@@ -31,9 +31,9 @@ Lorsque vous élaborez un nouveau produit, nous vous recommandons d’utiliser l
 
 ## Existe-t-il d’autres systèmes de conception dans le secteur public?
 
-Bien que les systèmes de c onception soient relativement nouveaux dans le secteur public, certaines organisations gouvernementales travaillent déjà sur leurs propres systèmes de conception. Par exemple, le gouvernement des États-Unis a publié [Web Design Standards](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit), l’agence de conception de l’Italie a publié [Designers Italia](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit) et le gouvernement du Royaume-Uni [prépare actuellement](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit) ses propres normes Web.
+Bien que les systèmes de c onception soient relativement nouveaux dans le secteur public, certaines organisations gouvernementales travaillent déjà sur leurs propres systèmes de conception. Par exemple, le gouvernement des États-Unis a publié Web Design Standards, l’agence de conception de l’Italie a publié Designers Italia et le gouvernement du Royaume-Uni prépare actuellement ses propres normes Web.
 
-Au Canada, tous les sites Web officiels utilisent la [Boîte à outils de l’expérience Web](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit), un guide stylistique plus rigide.
+Au Canada, tous les sites Web officiels utilisent la [Boîte à outils de l’expérience Web](https://wet-boew.github.io/v4.0-ci/index-fr.html), un guide stylistique plus rigide.
 
 ## Pourquoi avez-vous créé le système de conception Aurora?
 
@@ -47,7 +47,7 @@ Voici quelques-unes des raisons pour lesquelles nous construisons ce système de
 
 ## En quoi ce système de conception Aurora diffère-t-il des normes actuelles telles que la Boîte à outils de l’expérience Web \(BOEW\) ou le Guide de rédaction du contenu du site Canada.ca? Comment travaillent-ils tous ensemble?
 
-Les OutilsGC actuels ont été conçus à l’aide de la BOEW. Nous avons entrepris une reconstruction parce que nous voulons disposer de notre propre système ou d’un guide stylistique adapté à nos outils, incluant non seulement des modèles et des composantes de codage, mais également des éléments de conception, nos principes clés et nos lignes directrices en matière de communication. Chaque élément du système de conception sera également accompagné d’une documentation détaillée sur les pratiques exemplaires, ainsi que sur la façon et le moment d’utiliser chaque élément fourni.
+Le système de conception Aurora est un guide stylistique adapté à nos outils et applications numériques, incluant non seulement des modèles et des composantes de codage, mais également des éléments de conception, nos principes clés et nos lignes directrices en matière de communication. Chaque élément du système de conception est accompagné d’une documentation détaillée sur les pratiques exemplaires, ainsi que sur la façon et le moment d’utiliser chaque élément fourni.
 
 Ce système de conception n’est pas une solution de rechange directe à la BOEW ni au Guide de rédaction du contenu du site Canada.ca, mais il respecte les principes clés et les concepts de base de ces guides stylistiques. Nous espérons qu’au fur et à mesure que notre projet avance, nous pourrons établir des occasions de collaborer avec les concepteurs qui ont travaillé sur la BOEW afin d’améliorer les deux systèmes.
 
