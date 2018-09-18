@@ -14,8 +14,30 @@ import logo from "../img/aurora_logo.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import './header.scss';
 
-const Header = () => (
+const Header = ({ path }) => {
+  /* 
+  /* Something was wrong with v1's gatsby-link so instead I am passing down the path and  
+  /* using it to determine the active tab the way we had it done before was more broken than this way.
+  /* In the v2 version if you clicked away active status was lost.
+  */
+  if (path) {
+    if (path.length >= 10) {
+      if (path.substr(0,10) === "/component") path = "/component";
+    }
+    if (path.length >= 9) {
+      if (path.substr(0,9) === "/overview") path = "/overview";
+    }
+    if (path.length >= 8) {
+      if (path.substr(0,8) === "/content") path = "/content";
+    }
+    if (path.length >= 5) {
+      if (path.substr(0,5) === "/data") path = "/data";
+    }
+  }
+  
+  return(
   <I18n ns={["translation"]}>
     {
       (t, { i18n }) => (
@@ -48,22 +70,22 @@ const Header = () => (
               <div className="navbar-collapse nav-holder">
                 <Nav tabs className="mx-auto nav-site scroll" style={{borderBottom:'none'}} >
                   <NavItem>
-                    <Link to="/overview/introduction" className="nav-link">
+                    <Link to="/overview/introduction" className={(path == "/overview") ? "nav-link active-header-tab" : "nav-link"}>
                       {t("Overview")}
                     </Link>
                   </NavItem>
                   <NavItem>
-                    <Link to="/component/colour" className="nav-link">
+                    <Link to="/component/colour" className={(path == "/component") ? "nav-link active-header-tab" : "nav-link"}>
                       {t("Components")}
                     </Link>
                   </NavItem>
                   <NavItem>
-                    <Link to="/content/content-guidelines" className="nav-link">
+                    <Link to="/content/content-guidelines" className={(path == "/content") ? "nav-link active-header-tab" : "nav-link"}>
                       {t("Content")}
                     </Link>
                   </NavItem>
                   <NavItem>
-                    <Link to="/data/data-overview" className="nav-link">
+                    <Link to="/data/data-overview" className={(path == "/data") ? "nav-link active-header-tab" : "nav-link"}>
                       {t("Data")}
                     </Link>
                   </NavItem>
@@ -85,5 +107,6 @@ const Header = () => (
     }
   </I18n>
 );
+}
 
 export default Header;

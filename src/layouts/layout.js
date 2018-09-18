@@ -5,9 +5,9 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import Header from '../components/Header';
-
-import './layout.scss';
 import '../utils/custom.scss';
+import './layout.scss';
+
 import icon from "../img/favicon.ico";
 
 class Layout extends React.Component {
@@ -31,7 +31,7 @@ class Layout extends React.Component {
           <div style={{position:'fixed', zIndex:'99999', top: '0', left: '45%'}}>
             <a className="sr-only sr-only-focusable aurora-skip" href="#main-content">Skip to main content</a>
           </div>
-          <Header />
+          <Header path={(this.props.path) ? this.props.path : null}/>
           <w-screen mt-4 fluid id="container">
             {this.props.children}
           </w-screen>
@@ -42,24 +42,8 @@ class Layout extends React.Component {
 } 
 
 Layout.propTypes = {
-  children: PropTypes.element.isRequired
+  children: PropTypes.element.isRequired,
+  path: PropTypes.string
 };
 
 export default Layout;
-
-export const pageQuery = graphql`
-query myQuery {
-  eng:markdownRemark(frontmatter: { lang: {eq: "en"} }) {
-    html
-    frontmatter {
-      title
-    }
-  }
-  fr:markdownRemark(frontmatter: { lang: {eq: "fr"} }) {
-    html
-    frontmatter {
-      title
-    }
-  }
-}
-`;

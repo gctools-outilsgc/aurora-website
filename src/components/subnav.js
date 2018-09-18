@@ -5,7 +5,7 @@ import {
 	ListGroup,
 	ListGroupItem
 } from 'reactstrap';
-import './Subnav.scss';
+import './subnav.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
@@ -37,17 +37,15 @@ class Subnav extends React.Component {
         <Collapse isOpen={this.state.dropdownOpen}>
           <ListGroup>
             {sortedFiles.map((edges) => {
-              console.log(this.props.path, edges.node.frontmatter.path, this.props.path === edges.node.frontmatter.path);
               if (
                 ((this.props.i18n.i18n.language === "en") && (edges.node.frontmatter.lang === "en")) ||
                 ((this.props.i18n.i18n.language === "fr") && (edges.node.frontmatter.lang === "fr"))
               )
                 return (
-                  <ListGroupItem active={this.props.path === edges.node.frontmatter.path} className="subItem" style={{ "paddingLeft": "2rem",  "border": "0px"}}>
+                  <ListGroupItem className="subItem" style={{ "paddingLeft": "2rem",  "border": "0px"}}>
                     <Link
-                      className="subLink"
+                      className={(this.props.path === edges.node.frontmatter.path) ? "subLink active-nav" : "subLink"}
                       to={edges.node.frontmatter.path}
-                      activeClassName="active"
                     >
                       {edges.node.frontmatter.title}
                     </Link>
