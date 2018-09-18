@@ -21,6 +21,12 @@ Le fil d’Ariane devrait être complémentaire à la navigation principale et n
 
 Le fil d’Ariane dans le système de conception est comme suit :
 
+Chaque couche du fil d’Ariane est stylisée à l’aide du texte de lien. Le dernier élément n’est jamais un lien puisqu’il s’agit de la page actuelle et qu’il n’est pas cliquable. Le dernier élément est stylisé à l’aide du texte normal.
+
+Entre chaque couche, il y a une icône de chevron dont la couleur est le <badge style="background-color: #A0A0A0; color:black">#A0A0A0</badge>
+
+Chaque couche a un espacement de 12 px de chaque côté du chevron.
+
 <breadcrumb>
     <breadcrumbitem><a href="#">Page principale</a></breadcrumbitem>
     <breadcrumbitem><a href="#">Page secondaire</a></breadcrumbitem>
@@ -42,9 +48,3 @@ Le fil d’Ariane dans le système de conception est comme suit :
     <BreadCrumbItem active="true">Page actuelle</BreadCrumbItem>
 </Breadcrumb>
 '></codeblock>
-
-Chaque couche du fil d’Ariane est stylisée à l’aide du texte de lien. Le dernier élément n’est jamais un lien puisqu’il s’agit de la page actuelle et qu’il n’est pas cliquable. Le dernier élément est stylisé à l’aide du texte normal.
-
-Entre chaque couche, il y a une icône de chevron dont la couleur est le <badge style="background-color: #A0A0A0; color:black">#A0A0A0</badge>
-
-Chaque couche a un espacement de 12 px de chaque côté du chevron.

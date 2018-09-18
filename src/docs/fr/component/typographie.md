@@ -38,17 +38,31 @@ Certains systèmes peuvent ne pas être en mesure de télécharger ou d’affich
 
 ## Titres \(H1)
 
+Les titres apparaissent seulement dans le haut des pages et indiquent les points de navigation de haut niveau.
+
+Les titres sont affichés à l’aide de « Rubik Light » à 36 points de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
+
 <h1>En-tête 1</h1>
 
 <codeblock html='<h1>En-tête 1</h1>'
     react='<h1>En-tête 1</h1>'>
 </codeblock>
 
-Les titres apparaissent seulement dans le haut des pages et indiquent les points de navigation de haut niveau.
-
-Les titres sont affichés à l’aide de « Rubik Light » à 36 points de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
-
 ### En-tête \(H2-H6)
+
+Il y a cinq différents sous-en-têtes. Tous les sous-titres sont de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
+
+Les en-têtes ont les styles typographiques suivants :
+
+**En-tête 2 :** « Rubik Regular » à 28 points (1,75 em).
+
+**En-tête 3 :** « Rubik Medium » à 24 points (1,5 em) ayant un modificateur de suivi établi à 10.
+
+**En-tête 4 :** « Rubik Regular » à 21 points (1,312 5 em).
+
+**En-tête 5 :** « Nunito Sans Regular » à 18 points (1 125 em).
+
+**En-tête 6 :** « Nunito Sans Bold » à 16 points (1 em).
 
 <div>
     <h2>En-tête 2</h2>
@@ -76,20 +90,6 @@ Les titres sont affichés à l’aide de « Rubik Light » à 36 points de coule
     </div>'>
 </codeblock>
 
-Il y a cinq différents sous-en-têtes. Tous les sous-titres sont de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
-
-Les en-têtes ont les styles typographiques suivants :
-
-**En-tête 2 :** « Rubik Regular » à 28 points (1,75 em).
-
-**En-tête 3 :** « Rubik Medium » à 24 points (1,5 em) ayant un modificateur de suivi établi à 10.
-
-**En-tête 4 :** « Rubik Regular » à 21 points (1,312 5 em).
-
-**En-tête 5 :** « Nunito Sans Regular » à 18 points (1 125 em).
-
-**En-tête 6 :** « Nunito Sans Bold » à 16 points (1 em).
-
 ## Texte de paragraphe
 
 Le texte du paragraphe est utilisé pour la plupart du contenu de texte se trouvant dans l’application. Le texte du paragraphe est établi à la police « Nunito Sans Regular » à 16 points (1 em) avec un interlignage de 24 points. À moins d’indiquer un hyperlien ou un point de navigation, le texte du paragraphe ne devrait pas être mis en évidence davantage.
@@ -109,6 +109,12 @@ La longueur idéale pour le corps du texte est d’environ de 40 à 60 caractèr
 
 ### Citations mises en vedette
 
+Les citations mises en vedettes sont utilisées pour indiquer les phrases-clés du contenu affiché sur la page (dans des articles ou des blogues, par exemple). Elles sont intégrées aux paragraphes.
+
+Elles sont mises en retrait par 50 px avec une ligne verticale dans la couleur secondaire de l’application. La ligne est de 4 px de largeur. Le remplissage entre la ligne et le texte est de 8 px. Le texte est affiché à l’aide de la police « Nunito Sans Regular » à 1,25 em et d’une hauteur de ligne de 200 %.
+
+Voir la section sur la [couleur](couleur.md) pour obtenir des renseignements sur le choix des couleurs accessibles pour vos lignes de citation mise en vedette.
+
 <div style="margin: 0 auto">
 <p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> « Quelle belle accroche! »</p>
 </div>
@@ -116,12 +122,6 @@ La longueur idéale pour le corps du texte est d’environ de 40 à 60 caractèr
 <codeblock html='
     <p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> « Quelle belle accroche! »</p>
 ' react=''></codeblock>
-
-Les citations mises en vedettes sont utilisées pour indiquer les phrases-clés du contenu affiché sur la page (dans des articles ou des blogues, par exemple). Elles sont intégrées aux paragraphes.
-
-Elles sont mises en retrait par 50 px avec une ligne verticale dans la couleur secondaire de l’application. La ligne est de 4 px de largeur. Le remplissage entre la ligne et le texte est de 8 px. Le texte est affiché à l’aide de la police « Nunito Sans Regular » à 1,25 em et d’une hauteur de ligne de 200 %.
-
-Voir la section sur la [couleur](couleur.md) pour obtenir des renseignements sur le choix des couleurs accessibles pour vos lignes de citation mise en vedette.
 
 ## Listes
 
@@ -209,7 +209,7 @@ Vous new devriez <em><strong>jamais</strong></em> mettre du poisson au micro-ond
 
 ##### à new faire pas
 Le poivre <em><strong>ajout une saveur distincte aux aliments.</strong></em><br />
-La <em><strong>surutilisation de la mise en évidence la</strong></em> vide le sens. 
+La <em><strong>surutilisation de la mise en évidence la</strong></em> vide le sens.
 
 ## Horodateurs et texte d’espace réservé
 
@@ -226,6 +226,8 @@ Les horodateurs et le texte d’espace réservé ont les mêmes styles typograph
 
 ## Texte de bouton
 
+Le texte de bouton est affiché avec la police « Nunito Sans Bold » à 16 points et est de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou de couleur <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé. La couleur de ce texte dépend du bouton choisi et doit présenter un contraste suffisant avec la couleur de chaque type de bouton. Pour obtenir de plus amples renseignements sur le choix des couleurs, veuillez consulter la section sur les boutons.
+
 <button color="secondary" outline="true">Secondaire</button>
 <button color="secondary">Secondaire</button>
 <button color="secondary" disabled="true">Secondaire</button>
@@ -239,5 +241,3 @@ Les horodateurs et le texte d’espace réservé ont les mêmes styles typograph
     <Button color="secondary">Secondaire</Button>
     <Button color="secondary" disabled>Secondaire</Button>'>
 </codeblock>
-
-Le texte de bouton est affiché avec la police « Nunito Sans Bold » à 16 points et est de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou de couleur <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé. La couleur de ce texte dépend du bouton choisi et doit présenter un contraste suffisant avec la couleur de chaque type de bouton. Pour obtenir de plus amples renseignements sur le choix des couleurs, veuillez consulter la section sur les boutons.

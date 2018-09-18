@@ -21,26 +21,31 @@ Breadcrumbs should be complimentary to primary navigation and should never be us
 
 Breadcrumbs in this design system are as follows:
 
-![Breadcrumbs component](../../../img\components\breadcrumbs.png)
-
-<codeblock html='
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Main Page</a></li>
-            <li class="breadcrumb-item"><a href="#">Secondary Page</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Current Page</li>
-        </ol>
-    </nav>
-' react='
-<Breadcrumb>
-    <BreadCrumbItem><a href="#">Main Page</a></BreadCrumbItem>
-    <BreadCrumbItem><a href="#">Secondary Page</a></BreadCrumbItem>
-    <BreadCrumbItem active="true">Current Page</BreadCrumbItem>
-</Breadcrumb>
-'></codeblock>
 
 Each layer of breadcrumbs is styled using link text. The last item is never a link since it is the current page and not clickable. The last item is styled using standard text.
 
 In between each layer there is a chevron icon coloured <badge style="background-color: #A0A0A0;color:black">#A0A0A0</badge>
 
 Each layer has spacing of 12px on either side of the chevron.
+
+<breadcrumb>
+    <breadcrumbitem><a href="#">First Page</a></breadcrumbitem>
+    <breadcrumbitem><a href="#">Second Page</a></breadcrumbitem>
+    <breadcrumbitem active="true">Current Page</breadcrumbitem>
+</breadcrumb>
+
+<codeblock html='
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">First Page</a></li>
+            <li class="breadcrumb-item"><a href="#">Second Page</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Current Page</li>
+        </ol>
+    </nav>
+' react='
+<Breadcrumb>
+    <BreadCrumbItem><a href="#">First Page</a></BreadCrumbItem>
+    <BreadCrumbItem><a href="#">Page secondaire</a></BreadCrumbItem>
+    <BreadCrumbItem active="true">Second Page</BreadCrumbItem>
+</Breadcrumb>
+'></codeblock>

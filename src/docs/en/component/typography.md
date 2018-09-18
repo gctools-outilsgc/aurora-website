@@ -37,18 +37,32 @@ Some systems may not be able to download or display the fonts in this design sys
 
 ## Titles \(H1\)
 
+Titles appear only on the top of pages and indicate high-level navigation points.
+
+Titles are displayed using Rubik Light at 36 points  in the colour <badge style="background-color: #252525">#252525</badge> on a light background or <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge> on a dark background.
+
 <h1>Heading 1</h1>
 
 <codeblock html='<h1>Heading 1</h1>'
     react='<h1>Heading 1</h1>'>
 </codeblock>
 
-Titles appear only on the top of pages and indicate high-level navigation points.
-
-Titles are displayed using Rubik Light at 36 points  in the colour <badge style="background-color: #252525">#252525</badge> on a light background or <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge> on a dark background.
-
 
 ## Headings \(H2-H6\)
+
+There are five different sub-headings. All sub-headings use the colours <badge style="background-color: #252525">#252525</badge> on a light background or \#FFFFFF on a dark background.
+
+The headers use the following typographic styles:
+
+**Heading 2:** Rubik Regular at 28 points \(1.75 em\).
+
+**Heading 3:** Rubik Medium at 24 points \(1.5 em\) with a tracking modifier set to 10.
+
+**Heading 4:** Rubik Regular at 21 points \(1.3125 em\).
+
+**Heading 5:** Nunito Sans Regular at 18 points \(1.125 em\).
+
+**Heading 6:** Nunito Sans Bold at 16 points \(1em\).
 
 <div>
     <h2>Heading 2</h2>
@@ -76,20 +90,6 @@ Titles are displayed using Rubik Light at 36 points  in the colour <badge style=
     </div>'>
 </codeblock>
 
-There are five different sub-headings. All sub-headings use the colours <badge style="background-color: #252525">#252525</badge> on a light background or \#FFFFFF on a dark background.
-
-The headers use the following typographic styles:
-
-**Heading 2:** Rubik Regular at 28 points \(1.75 em\).
-
-**Heading 3:** Rubik Medium at 24 points \(1.5 em\) with a tracking modifier set to 10.
-
-**Heading 4:** Rubik Regular at 21 points \(1.3125 em\).
-
-**Heading 5:** Nunito Sans Regular at 18 points \(1.125 em\).
-
-**Heading 6:** Nunito Sans Bold at 16 points \(1em\).
-
 ## Paragraph Text
 
 Paragraph text is used for most text content found on the application. Paragraph text is set to Nunito Sans Regular at 16 points \(1em\) with a leading of 24 points. Unless indicating a hyperlink or navigation point, paragraph text should not have added emphasis.
@@ -114,6 +114,12 @@ The ideal length for body text is around 40-60 characters. If line length is too
 
 ## Pull Quotes
 
+Pull Quotes are used to indicate key phrases from the content displayed on the page \(i.e. in articles or blogs\). Pull quotes are integrated into paragraphs.
+
+Pull quotes are indented by 50px with a vertical line in the application's secondary colour. The line is 4px wide.  Padding between the line and the text is 8px.  The text is displayed using Nunito Sans Regular at 1.25 em,  with a line height of 200%.
+
+See [_Colour_](colour.md) for more information on choosing accessible colours for your pull quote lines.
+
 <div style="margin: 0 auto">
 <p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> " What an awesome pull quote! "</p>
 </div>
@@ -121,13 +127,6 @@ The ideal length for body text is around 40-60 characters. If line length is too
 <codeblock html='
     <p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> " What an awesome pull quote! "</p>
 ' react=''></codeblock>
-
-Pull Quotes are used to indicate key phrases from the content displayed on the page \(i.e. in articles or blogs\). Pull quotes are integrated into paragraphs.
-
-Pull quotes are indented by 50px with a vertical line in the application's secondary colour. The line is 4px wide.  Padding between the line and the text is 8px.  The text is displayed using Nunito Sans Regular at 1.25 em,  with a line height of 200%.
-
-
-See [_Colour_](colour.md) for more information on choosing accessible colours for your pull quote lines.
 
 ## Lists
 
@@ -233,6 +232,8 @@ Timestamps and placeholder text use the same typographic styles. Both use Nunito
 
 ## Button Text
 
+Button text is displayed as Nunito Sans Bold at 16 points, and uses the colours <badge style="background-color: #252525">#252525</badge> on a light background or \#FFFFFF on a dark background. The colour of this text depends on the button chosen and must provide enough contrast with the colour of each type of button. For more about colour choice see our button section.
+
 <button color="secondary" outline="true">Secondary</button>
 <button color="secondary">Secondary</button>
 <button color="secondary" disabled="true">Secondary</button>
@@ -246,5 +247,3 @@ Timestamps and placeholder text use the same typographic styles. Both use Nunito
     <Button color="secondary">secondary</Button>
     <Button color="secondary" disabled>Button</Button>'>
 </codeblock>
-
-Button text is displayed as Nunito Sans Bold at 16 points, and uses the colours <badge style="background-color: #252525">#252525</badge> on a light background or \#FFFFFF on a dark background. The colour of this text depends on the button chosen and must provide enough contrast with the colour of each type of button. For more about colour choice see our button section.

@@ -85,10 +85,10 @@ title: "Boutons"
             </mdcol>
         </row>
         <row style="margin-top: 10px">
-            <mdcol className="col-4"><h5>Dropdown Buttons</h5> </mdcol>
+            <mdcol className="col-4"><h5>Boutons de menu déroulant</h5> </mdcol>
         </row>
         <row style="margin-top: 10px">
-            <mdcol className="col-12"><mdbuttondropdown color="primary"></mdbuttondropdown> <mdbuttondropdown color="secondary"></mdbuttondropdown> <mdbuttondropdown color="primary" disabled="true"></mdbuttondropdown> <mdbuttondropdown color="secondary" disabled="true"></mdbuttondropdown></mdcol>
+            <mdcol className="col-12"><mdbuttondropdown color="primary" title="Déroulant"></mdbuttondropdown> <mdbuttondropdown color="secondary" title="Déroulant"></mdbuttondropdown> <mdbuttondropdown color="primary" disabled="true" title="Déroulant"></mdbuttondropdown> <mdbuttondropdown color="secondary" disabled="true" title="Déroulant"></mdbuttondropdown></mdcol>
         </row>
     </mdcol>
 </container>
@@ -137,25 +137,26 @@ Les boutons primaires utilisent les couleurs primaires avec du texte blanc. Les 
 
 Voici les caractéristiques de chacun des états pour les boutons primaires :
 
+
+**État normal** : Couleur primaire à 100 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px.
+
 <button style="margin-top: 5px;" color="primary">Normal</button>
 
 <codeblock html='<button type="button" class="btn btn-primary">Normal</button>' react='<Button color="primary">Normal</Button>'></codeblock>
 
-**État normal** : Couleur primaire à 100 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px.
+**État stationnaire** : Couleur primaire à 80 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px.
 
 <button color="primary" style="color: #fff; background-color: #245e83; border-color: #215679">Stationnaire</button>
 
-**État stationnaire** : Couleur primaire à 80 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px.
+**État accentué** : Couleur primaire à 80 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px. Comprends un trait de 3px dans une couleur primaire.
 
 <button color="primary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;">Accentué</button>
 
-**État accentué** : Couleur primaire à 80 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px. Comprends un trait de 3px dans une couleur primaire.
+**État désactivé** : Couleur primaire à 60 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px.
 
 <button color="primary" disabled="true">Désactivé</button>
 
 <codeblock html='<button type="button" class="btn btn-primary" disabled>Primaire</button>' react='<Button color="primary" disabled>Désactivé</Button>'></codeblock>
-
-**État désactivé** : Couleur primaire à 60 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px.
 
 ## Emplacement
 Les boutons primaires devraient être situés à l’endroit le plus important et le plus visible. Ces boutons devraient également être situés à proximité du formulaire ou des éléments qui sont touchés par l’action. En général, dans un ensemble de deux, les boutons primaires sont situés à gauche et le bouton secondaire est placé à droite.
@@ -171,30 +172,30 @@ Les boutons secondaires dans ce système sont transparents avec une couleur de t
 
 Voici les caractéristiques de chacun des états pour les boutons :
 
+**État normal** : Transparent avec un trait de 1px utilisant la couleur no002D42, le texte est écrit dans la même couleur. La bordure est d’un rayon de 4px et le remplissage de 15px.
+
 <button color="secondary">Secondaire</button>
 
 
 <codeblock html='<button type="button" class="btn btn-secondary">Secondaire</button>' react='<Button color="secondary">Secondaire</Button>'></codeblock>
 
-**État normal** : Transparent avec un trait de 1px utilisant la couleur no002D42, le texte est écrit dans la même couleur. La bordure est d’un rayon de 4px et le remplissage de 15px.
+**État stationnaire** : (texte viens bientot)
 
 <button color="secondary" style="color: #fff; background-color: #098690; border-color: #087a84">Stationnaire</button>
 
-**État stationnaire** : (still needed)
+**État sensitif** : Un rectangle coloré avec no002D42 à 80 % d’opacité, le texte est écrit en blanc. La bordure est d’un rayon de 4px et le remplissage de 15px.
 
 <button color="secondary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;">Sensitif</button>
 
-**État sensitif** : Un rectangle coloré avec no002D42 à 80 % d’opacité, le texte est écrit en blanc. La bordure est d’un rayon de 4px et le remplissage de 15px.
+**État accentué** : Transparent avec un trait de 3px utilisant no002D42, le texte est écrit en no002D42. La bordure est d’un rayon de 4px et le remplissage de 15px.
 
 <button color="secondary" style="color: #fff; background-color: #087a84; border-color: #1e4f6f;box-shadow: 0 0 0 0.2rem rgba(44, 115, 161, 0.25), inset 0 3px 5px rgba(0, 0, 0, 0.125);">Accentué</button>
 
-**État accentué** : Transparent avec un trait de 3px utilisant no002D42, le texte est écrit en no002D42. La bordure est d’un rayon de 4px et le remplissage de 15px.
+**État désactivé** : Remplissage de couleur <badge style="background-color: #CECECE;color:black;">#CECECE</badge> avec du texte blanc. La bordure est d’un rayon de 4px et le remplissage de 15px.
 
 <button color="secondary" disabled="true">Secondaire</button>
 
 <codeblock html='<button type="button" class="btn btn-secondary" disabled>Secondaire</button>' react='<Button color="secondary" disabled>Secondaire</Button>'></codeblock>
-
-**État désactivé** : Remplissage de couleur <badge style="background-color: #CECECE;color:black;">#CECECE</badge> avec du texte blanc. La bordure est d’un rayon de 4px et le remplissage de 15px.
 
 ## Emplacement
 Les boutons secondaires sont habituellement placés à proximité du bouton primaire, mais pas à un endroit où l’utilisateur peut confondre les deux. Les boutons secondaires sont habituellement placés à droite du bouton primaire. Ils devraient avoir un emplacement uniforme par rapport au bouton primaire afin d’éviter la confusion.
@@ -202,13 +203,15 @@ Les boutons secondaires sont habituellement placés à proximité du bouton prim
 ## Boutons de menu déroulant
 Cliquer sur les boutons de menu déroulant affiche une liste d’éléments. Ces boutons sont utilisés pour des processus en deux étapes qui pourraient nécessiter plus d’options particulières pour une seule action.
 
-<mdbuttondropdown color="primary">
+**État normal** : Semblables aux boutons primaires, les boutons de menu déroulant utilisent une couleur primaire à 100 % d’opacité, du texte blanc avec une bordure d’un rayon de 4px et un remplissage de 15px. La flèche du menu déroulant représente un espace de 30px par 40 px, qui est séparé du bouton primaire en utilisant une ligne blanche. La flèche utilise un espace de 15px de largeur et de 8px de hauteur.
+
+<mdbuttondropdown color="primary" title="Normal">
 </mdbuttondropdown>
 
 <codeblock html='
     <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown button
+            Normal
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#">Action</a>
@@ -219,7 +222,7 @@ Cliquer sur les boutons de menu déroulant affiche une liste d’éléments. Ces
 ' react='
 <ButtonDropdown direction="down" isOpen={this.state.dropdownOpen} toggle={this.toggle} style={{marginBottom: "15px"}} color={this.props.color}>
     <DropdownToggle caret {...this.props}>
-        Reply
+        Normal
     </DropdownToggle>
     <DropdownMenu>
         <DropdownItem>Action 1</DropdownItem>
@@ -229,19 +232,53 @@ Cliquer sur les boutons de menu déroulant affiche une liste d’éléments. Ces
 </ButtonDropdown>
 '></codeblock>
 
-**État normal** : Semblables aux boutons primaires, les boutons de menu déroulant utilisent une couleur primaire à 100 % d’opacité, du texte blanc avec une bordure d’un rayon de 4px et un remplissage de 15px. La flèche du menu déroulant représente un espace de 30px par 40 px, qui est séparé du bouton primaire en utilisant une ligne blanche. La flèche utilise un espace de 15px de largeur et de 8px de hauteur.
-
-*Éléments de bouton de menu déroulant stationnaire*
-
 **État sensitif** : Semblables aux boutons primaires, les boutons de menu déroulant utilisent une couleur primaire à 100 % d’opacité, du texte blanc avec une bordure d’un rayon de 4px et un remplissage de 15px. La flèche du menu déroulant représente un espace de 30px par 40 px, qui est séparé du bouton primaire en utilisant une ligne blanche. La flèche utilise un espace de 15px de largeur et de 8px de hauteur. Selon la partie du bouton sur laquelle vous placez votre curseur (primaire ou déroulante), celle-ci est affichée à 80 % d’opacité.
-
-*Élément de bouton de menu déroulant accentué*
 
 **État accentué** : Semblables aux boutons primaires, les boutons de menu déroulant utilisent une couleur primaire à 100 % d’opacité, du texte blanc avec une bordure d’un rayon de 4px et un remplissage de 15px. La flèche du menu déroulant représente un espace de 30px par 40 px, qui est séparé du bouton primaire en utilisant une ligne blanche. La flèche utilise un espace de 15px de largeur et de 8px de hauteur. Selon la partie du bouton sur laquelle l’accentuation est placée (primaire ou déroulante), celle-ci est affichée à 80 % d’opacité et comprend un trait de 3px dans une couleur primaire.
 
-*Élément de bouton de menu déroulant activé*
+<mdbuttondropdown color="primary" style="color: #fff; background-color: #245e83; border-color: #215679" title="Sensitif">
+</mdbuttondropdown>
 
 **État activé** : Lorsqu’on presse sur la flèche du menu déroulant, cette section du bouton est affichée à 80 % d’opacité et un menu déroulant est affiché en dessous. La boîte d’action utilise une bordure de 1px de couleur <badge style="background-color: #CECECE;color:black;">#CECECE</badge>. La boîte a une bordure d’un rayon de 4px. La largeur de la boîte est de 166px et la hauteur dépend du nombre d’actions, utilisant 40px par action. Lorsque le curseur est placé dessus, le 40px autour de l’action est affiché en utilisant <badge style="background-color: #CECECE;color:black;">#CECECE</badge>.
+
+<mdbuttondropdown color="primary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;" title="Accentué">
+</mdbuttondropdown>
+
+**État activé** : Lorsqu’on presse sur la flèche du menu déroulant, cette section du bouton est affichée à 80 % d’opacité et un menu déroulant est affiché en dessous. La boîte d’action utilise une bordure de 1px de couleur <badge style="background-color: #CECECE;color:black;">#CECECE</badge>. La boîte a une bordure d’un rayon de 4px. La largeur de la boîte est de 166px et la hauteur dépend du nombre d’actions, utilisant 40px par action. Lorsque le curseur est placé dessus, le 40px autour de l’action est affiché en utilisant <badge style="background-color: #CECECE;color:black;">#CECECE</badge>.
+
+<buttondropdownopen color="primary" style="color: #fff; background-color: #215679; border-color: #1e4f6f;box-shadow: 0 0 0 0.2rem rgba(44, 115, 161, 0.25), inset 0 3px 5px rgba(0, 0, 0, 0.125);" title="Activé" direction="down">
+</buttondropdownopen>
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
+<codeblock html='
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action 1</a>
+            <a class="dropdown-item" href="#">Action 2</a>
+            <a class="dropdown-item" href="#">Action 3</a>
+        </div>
+    </div>
+' react='
+<ButtonDropdown direction="down" isOpen="true" toggle={this.toggle} style={{marginBottom: "15px"}} color={this.props.color}>
+    <DropdownToggle caret {...this.props}>
+        Reply
+    </DropdownToggle>
+    <DropdownMenu>
+        <DropdownItem>Action 1</DropdownItem>
+        <DropdownItem>Action 2</DropdownItem>
+        <DropdownItem>Action 3</DropdownItem>
+    </DropdownMenu>
+</ButtonDropdown>
+'></codeblock>
 
 ## Groupes de boutons
 Les groupes de boutons sont une façon stylisée de mettre plusieurs boutons ensemble.

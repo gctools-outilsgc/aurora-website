@@ -21,8 +21,6 @@ Tables can be used to display both quantitative and qualitative data.
 
 Simple tables are the easiest way to display data and provide a clean look on your page. Simple tables are great for a small number of categories or values, but should include additional elements if increased readability or interactivity is required.
 
-*Simple table component*
-
 Simple tables are styled as follows:
 
 Title: Each table has a title that uses heading 3 (Rubik Medium at 24px with a 10pt tracking modifier). The table is placed 13px below the title. The table is the width of its container and the height depends on the data and how pagination is handled on the table.
@@ -31,11 +29,73 @@ Header Row: Table headers are displayed in heading 6 (Nunito Sans Bold at 16px) 
 
 Table Cell: Table cell information is displayed using regular text style (Nunito Sans Regular at 16px) and are left aligned. The text has a padding of 21px by 27px. The heading row has a bottom border of 2px using the colour <badge style="background-color: #96a8b2;color:black">#96a8b2</badge>. Each row has a bottom border of 1px using the colour <badge style="background-color: #96a8b2;color:black">#96a8b2</badge>.
 
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+<codeblock html='
+        <table class="table">
+        <thead>
+            <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            </tr>
+            <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            </tr>
+            <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table> 
+' react=''></codeblock>
+
 ## Striped Table
 
 Striped tables are often used to improve readability. If your data is more complex, or values are similar, a striped table may increase readability and comprehension of the data.
-
-*Striped table component*
 
 Striped tables are styled as follows:
 
@@ -46,6 +106,41 @@ Header Row: Table headers are displayed in heading 6 (Nunito Sans Bold at 16px) 
 Table Cell: Table cell information is displayed using regular text style (Nunito Sans Regular at 16px) and are left aligned. The text has a padding of 21px by 27px. The heading row has a bottom border of 2px using the colour <badge style="background-color: #96a8b2;color:black">#96a8b2</badge>. Each cell has a left, and bottom border of 1px with the colour <badge style="background-color: #96a8b2;color:black">#96a8b2</badge>. The last cell in each row also has a right border of 1px.
 
 Every second row has a fill of <badge style="background-color: #F2F5F6;color:black">#F2F5F6</badge>.
+
+<strippedtable></strippedtable>
+
+<codeblock html='
+    <table class="table table-striped">
+        <thead>
+            <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            </tr>
+            <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            </tr>
+            <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+            </tr>
+        </tbody>
+    </table>
+' react=''></codeblock>
 
 ## Interactive Data Table
 
