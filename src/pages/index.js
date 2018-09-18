@@ -35,9 +35,10 @@ class IndexPage extends React.Component {
         {
           (t) => (
             <main id="main-content" role="main">
+            <h1 className="sr-only">{t("AuroraDesignSystem")}</h1>
               <div className="hero-holder">
               <Container>
-                <h1 className="display-5">{t("Tagline")}</h1>
+                <h2 className="display-5">{t("Tagline")}</h2>
                 <p className="lead">
                   {t("TopIntro")}
                 </p>
@@ -81,27 +82,27 @@ class IndexPage extends React.Component {
 
                 <Row className="mb-3">
                   <Col xs="12" sm="6" md="4">
-                    <h3 className="text-primary mb-3">{t("SimpleFlexible")}</h3>
+                    <h3 className="mb-3" style={{color: '#467B8D'}}>{t("SimpleFlexible")}</h3>
                     <p>{t("SimpleFlexibleParagraph")}</p>
                   </Col>
                   <Col xs="12" sm="6" md="4">
-                    <h3 className="text-primary mb-3">{t("FunToUse")}</h3>
+                    <h3 className="mb-3" style={{color: '#467B8D'}}>{t("FunToUse")}</h3>
                     <p>{t("FunToUseParagraph")}</p>
                   </Col>
                   <Col xs="12" sm="6" md="4">
-                    <h3 className="text-primary mb-3">{t("Reusable")}</h3>
+                    <h3 className="mb-3" style={{color: '#467B8D'}}>{t("Reusable")}</h3>
                     <p>{t("ReusableParagraph")}</p>
                   </Col>
                   <Col xs="12" sm="6" md="4">
-                    <h3 className="text-primary mb-3">{t("Diverse")}</h3>
+                    <h3 className="mb-3" style={{color: '#467B8D'}}>{t("Diverse")}</h3>
                     <p>{t("DiverseParagraph")}</p>
                   </Col>
                   <Col xs="12" sm="6" md="4">
-                    <h3 className="text-primary mb-3">{t("TechnologyAgnostic")}</h3>
+                    <h3 className="mb-3" style={{color: '#467B8D'}}>{t("TechnologyAgnostic")}</h3>
                     <p>{t("TechnologyAgnosticParagraph")}</p>
                   </Col>
                   <Col xs="12" sm="6" md="4">
-                    <h3 className="text-primary mb-3">{t("Open")}</h3>
+                    <h3 className="mb-3" style={{color: '#467B8D'}}>{t("Open")}</h3>
                     <p>{t("OpenParagraph")}</p>
                   </Col>
                 </Row>
@@ -111,8 +112,10 @@ class IndexPage extends React.Component {
                     <div>
                       <p className="lead" style={{ display: 'inline-block', paddingBottom: '10px', textAlign: 'left' }}>
                         {t("BottomText")}
+                        <div>
+                          <Link to="/overview/introduction" className="btn btn-primary mt-3">{t("LearnMore")}</Link>
+                        </div>
                       </p>
-                      <Link to="/overview/introduction" className="btn btn-primary mt-3">{t("LearnMore")}</Link>
                     </div>
                   </Container>
                 </div>
