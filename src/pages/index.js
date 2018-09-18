@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../layouts/layout';
-import Eye from "../img/writer.png";
+import Eye from "../img/designer.png";
 import Gears from '../img/developer.png';
 import Pen from '../img/writer.png';
 import Pie from '../img/datasci.png';
