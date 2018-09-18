@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, UncontrolledCollapse, Row } from 'reactstrap';
+import { Button, Collapse, Row } from 'reactstrap';
 import Layout from '../layouts/layout';
 import { I18n } from "react-i18next";
 import Sidenav from "../components/sidenav";
@@ -12,12 +12,22 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 class MarkdownTemplate extends React.Component {
   constructor(props){
     super(props);
+    this.toggle = this.toggle.bind(this);
     this.state = {
       eng: this.props.data.eng,
       fr: this.props.data.fr,
       path: this.props.data.eng.frontmatter.path,
-      markdown: null
+      markdown: null,
+      collapse: false
     }
+  }
+
+  toggle() {
+    this.setState({ collapse: !this.state.collapse });
+  }
+
+  componentDidMount(){
+    this.setState({ collapse: false });
   }
 
   render() {
@@ -26,25 +36,26 @@ class MarkdownTemplate extends React.Component {
         <I18n ns={["translation"]}>
           {
             (t, i18n) => {
-              return( 
+              return(
                 <div>
                   <div id="mobile-menu-holder" className="d-sm-block d-md-none d-lg-none d-xl-none bg-primary" style={{padding: '6px', position: 'fixed', zIndex: '9999', top: '100px', width: '100%'}}>
                     <Row>
-                      <Button color="primary" id="mobile-menu" className="mr-3 sidenavToggle"><FontAwesomeIcon size="2x" icon={faBars} /><span className="sr-only">Menu</span></Button>
+                      <Button color="primary" onClick={this.toggle} id="mobile-menu"><FontAwesomeIcon size="2x" icon={faBars} /><span className="sr-only">Menu</span></Button>
                       <Search
                         lng={(i18n.lng === "en") ? "en" : "fr"}
                         placeholder={(i18n.lng === "en") ? "Search" : "Chercher"}
-                      />
+                        />
                     </Row>
                   </div>
-                  {/* 
-                  <UncontrolledCollapse toggler=".sidenavToggle">
-                    <div className="mobile-sidebar">
-                      <Sidenav path={this.state.path} data={this.props.data} i18n={ i18n } />
-                    </div>
-                    <div className="ui-mask sidenavToggle"></div>
-                  </UncontrolledCollapse>
-                  */}
+                  <div>
+                   <Collapse isOpen={this.state.collapse}>
+                     <div className="mobile-sidebar">
+                       <Sidenav path={this.state.path} data={this.props.data} i18n={ i18n } />
+                     </div>
+                      <div onClick={this.toggle} className="ui-mask"></div>
+                    </Collapse>
+                 </div>
+
                   <div className="d-none d-md-block">
                     <Sidenav path={this.state.path} data={this.props.data} i18n={ i18n } />
                   </div>
@@ -104,7 +115,7 @@ export const pageQuery = graphql`
       }
     }
     overview:allMarkdownRemark(
-      filter: 
+      filter:
         {frontmatter: {path: {regex: "/\/overview\//"}}
       },
       sort:{
@@ -124,7 +135,7 @@ export const pageQuery = graphql`
       }
     }
     content:allMarkdownRemark(
-      filter: 
+      filter:
       {frontmatter: {path: {regex: "/\/content\//"}}
       },
       sort:{
