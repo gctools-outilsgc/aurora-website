@@ -8,6 +8,7 @@ import ButtonDropdownWrapperOpen from '../components/ButtonDropdownWrapperOpen';
 import StrippedTable from '../components/StrippedTable';
 import * as reactstrap from 'reactstrap';
 import Helmet from 'react-helmet';
+import Footer from '../components/footer';
 
 class MarkdownRenderer extends React.Component {
   render() {
@@ -23,6 +24,7 @@ class MarkdownRenderer extends React.Component {
           <main id="main-content" role="main">
             {renderAst(this.props.eng.htmlAst)}
           </main>
+          <Footer/>
         </reactstrap.Container>
       );
     } else {
@@ -31,6 +33,7 @@ class MarkdownRenderer extends React.Component {
           <main id="main-content" role="main">
             {renderAst(this.props.fr.htmlAst)}
           </main>
+          <Footer/>
         </reactstrap.Container>
       );
     }

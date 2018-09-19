@@ -10,7 +10,7 @@ const Footer = () => {
       {
         (t, { i18n }) => (
           <footer className="footer">
-            <Container>
+            <Container className="foot-container">
               <ul>
                 <li><a href="https://github.com/gctools-outilsgc/design-system">GitHub</a></li>
                 <li><a href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai">{t("Download")}</a></li>

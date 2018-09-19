@@ -12,6 +12,7 @@ import {
   Col
 } from 'reactstrap';
 import { I18n } from "react-i18next";
+import Footer from '../components/footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
@@ -120,9 +121,11 @@ class IndexPage extends React.Component {
                   </Container>
                 </div>
             </main>
+
           )
         }
         </I18n>
+        <Footer/>
       </div>
       </Layout>
     );

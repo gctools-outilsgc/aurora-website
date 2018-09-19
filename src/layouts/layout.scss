@@ -7,6 +7,12 @@
 .doc-container {
   max-width: 1250px;
   padding-left: 310px;
+  .foot-container {
+    padding:0;
+  }
+  footer {
+      margin-top:35px;
+  }
 }
 
 .footer {

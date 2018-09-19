@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import Header from '../components/header';
-import Footer from '../components/footer';
 import '../utils/custom.scss';
 import './layout.scss';
 
@@ -36,7 +35,6 @@ class Layout extends React.Component {
           <w-screen mt-4 fluid id="container">
             {this.props.children}
           </w-screen>
-          <Footer/>
         </div>
       </I18nextProvider>
     );
