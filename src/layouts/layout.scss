@@ -36,7 +36,9 @@
 
 .hero-holder {
   background-image: url(https://raw.githubusercontent.com/gctools-outilsgc/design-system/master/project_mgmt/Aurora-Banner-large.png);
-  background-size: cover;
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position: right bottom;
   height: 695px;
   padding: 70px 0px;
    /*
@@ -58,7 +60,9 @@
 
 .footer-holder {
   background-image: url(https://raw.githubusercontent.com/gctools-outilsgc/design-system/master/project_mgmt/Aurora-Banner-small.png);
-  background-size: cover;
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position: left bottom;
   height: 300px;
   .lead {
     max-width:50%;

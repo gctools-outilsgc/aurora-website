@@ -34,6 +34,7 @@ const frTranslation = {
   "Identity": "Identité",
   "Content": "Contenu",
   "Data":"Données",
+  "Download":"Télécharger",
   "COPY CODE": "COPIER LE CODE",
   "Copied!": "Copié!",
   "SHOW CODE": "MONTRER LE CODE",
