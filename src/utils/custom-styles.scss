@@ -364,7 +364,7 @@ a.dropdown-item {
 
   body {
     padding-top: 110px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
   }
 
     .LanguageSwitcher__button--selected {
@@ -381,25 +381,35 @@ a.dropdown-item {
         }
     }
 
-  //Secondary Buttons 
+  //Secondary Buttons
 
   .btn-secondary {
     @include button-outline-variant($primary);
   }
 
 /* ADDED FOR DS*/
+h1, .h1 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 200;
+}
 
-h1, h2, h3, h4, h5, h6, p {
-    font-family: 'Nunito', sans-serif;
+h2, .h2, h4, .h4 {
+  font-family: 'Rubik', sans-serif;
+  font-weight:400;
+}
+
+h3, .h3 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
+
+h6, .h6 {
+  font-weight: 700;
 }
 
 .highlight {
     color: #467B8D;
     font-weight: bold;
-}
-
-.card {
-    box-shadow: none;
 }
 
 .card-title {
@@ -408,7 +418,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .btn {
     font-weight: 600!important;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .ext-links div {
@@ -421,7 +431,6 @@ a.ext-link-text {
     padding-left: 10px;
     font-size: 20px;
     vertical-align: middle;
-    font-family: 'Nunito', sans-serif;
 }
 
 .aurora-skip {
@@ -429,4 +438,8 @@ a.ext-link-text {
     background-color: $primary;
     padding: 5px;
     color: white;
+}
+
+a {
+  color: $link-color;
 }

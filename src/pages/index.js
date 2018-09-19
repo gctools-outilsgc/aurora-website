@@ -78,9 +78,9 @@ class IndexPage extends React.Component {
                   </Col>
                 </Row>
 
-                <h2 className="mt-4 mb-5" style={{textAlign: 'center'}}>{t("AboutAurora")}</h2>
+                <h2 className="mt-5 mb-5" style={{textAlign: 'center'}}>{t("AboutAurora")}</h2>
 
-                <Row className="mb-3">
+                <Row className="mb-5">
                   <Col xs="12" sm="6" md="4">
                     <h3 className="mb-3" style={{color: '#467B8D'}}>{t("SimpleFlexible")}</h3>
                     <p>{t("SimpleFlexibleParagraph")}</p>
