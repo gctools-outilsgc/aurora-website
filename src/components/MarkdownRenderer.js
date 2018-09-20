@@ -8,7 +8,7 @@ import ButtonDropdownWrapperOpen from '../components/ButtonDropdownWrapperOpen';
 import StrippedTable from '../components/StrippedTable';
 import * as reactstrap from 'reactstrap';
 import Helmet from 'react-helmet';
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 
 class MarkdownRenderer extends React.Component {
   render() {

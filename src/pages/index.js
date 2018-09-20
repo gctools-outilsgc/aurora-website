@@ -13,7 +13,7 @@ import {
   Col
 } from 'reactstrap';
 import { I18n } from "react-i18next";
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
@@ -26,11 +26,6 @@ class IndexPage extends React.Component {
         <I18n ns={["translation"]}>
           {
             (t) => (<Helmet><title>{t("AuroraDesignSystem")}</title></Helmet>)
-          }
-        </I18n>
-        <I18n ns={["translation"]}>
-          {
-            (t) => (<h1 className="sr-only">{t("AuroraDesignSystem")}</h1>)
           }
         </I18n>
         <I18n ns={["translation"]}>
