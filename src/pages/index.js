@@ -4,8 +4,13 @@ import Eye from "../img/designer.png";
 import Gears from '../img/developer.png';
 import Pen from '../img/writer.png';
 import Pie from '../img/datasci.png';
+import Developer from '../img/MASCOTS_Developer.svg';
+import Designer from '../img/MASCOTS_Designer.svg';
+import DataSci from '../img/MASCOTS_Data.svg';
+import Writer from '../img/MASCOTS_Writer.svg';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
+
 import {
   Container,
   Row,
@@ -58,22 +63,22 @@ class IndexPage extends React.Component {
 
                 <Row className="pb-2">
                   <Col xs="6" sm="6" md="6" lg="3" className="text-center">
-                    <img className="img-fluid" src={Eye} alt="" />
+                    <img className="img-fluid" src={Designer} alt="" />
                     <h3 className="mb-3 mt-3 h4">{t("Designers")}</h3>
                     <Link to="/component/colour" style={{"whiteSpace":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DesignerCTA")}</Link>
                   </Col>
                   <Col xs="6" sm="6" md="6" lg="3" className="text-center">
-                    <img className="img-fluid" src={Gears} alt="" />
+                    <img className="img-fluid" src={Developer} alt="" />
                     <h3 className="mb-3 mt-3 h4">{t("Developers")}</h3>
                     <Link to="/component/colour" style={{"whiteSpace":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DeveloperCTA")}</Link>
                   </Col>
                   <Col xs="6" sm="6" md="6" lg="3" className="text-center">
-                    <img className="img-fluid" src={Pen} alt="" />
+                    <img className="img-fluid" src={Writer} alt="" />
                     <h3 className="mb-3 mt-3 h4">{t("Writers")}</h3>
                     <Link to="/content/content-guidelines" style={{"whiteSpace":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("WriterCTA")}</Link>
                   </Col>
                   <Col xs="6" sm="6" md="6" lg="3" className="text-center">
-                    <img className="img-fluid" src={Pie} alt="" />
+                    <img className="img-fluid" src={DataSci} alt="" />
                     <h3 className="mb-3 mt-3 h4">{t("DataScientists")}</h3>
                     <Link to="/data/data-overview" style={{"whiteSpace":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DataScientistCTA")}</Link>
                   </Col>
