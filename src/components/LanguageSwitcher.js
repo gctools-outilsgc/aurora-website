@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Button } from 'reactstrap';
 import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 
 class LanguageSwitcher extends Component {
   constructor(props) {
@@ -20,11 +21,14 @@ class LanguageSwitcher extends Component {
   render() {
     const langCheck = this.state.isEnglish;
     let langText;
+    let langCode;
 
     if(langCheck) {
       langText = <span><span aria-hidden="true">FR</span><span className="sr-only" lang="fr">français</span></span>
+      langCode = "en"
     } else {
       langText = <span><span aria-hidden="true">EN</span><span className="sr-only" lang="en">english</span></span>
+      langCode = "fr"
     }
     return (
       <div className="LanguageSwitcher">
@@ -37,6 +41,10 @@ class LanguageSwitcher extends Component {
         >
         {langText}
         </Button>
+
+        <Helmet>
+          <html lang={langCode}/>
+        </Helmet>
       </div>
     );
   }

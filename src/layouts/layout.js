@@ -22,7 +22,7 @@ class Layout extends React.Component {
               { name: 'keywords', content: 'sample, something' },
             ]}
             link={[
-              { rel: 'shortcut icon', type: 'image/png', href: icon }
+              { rel: 'icon', type: 'image/png', href: icon }
             ]}
           >
             <link rel="shortcut icon" href={icon} type="image/png" />
@@ -39,7 +39,7 @@ class Layout extends React.Component {
       </I18nextProvider>
     );
   }
-} 
+}
 
 Layout.propTypes = {
   children: PropTypes.element.isRequired,

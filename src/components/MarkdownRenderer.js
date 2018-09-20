@@ -8,6 +8,7 @@ import ButtonDropdownWrapperOpen from '../components/ButtonDropdownWrapperOpen';
 import StrippedTable from '../components/StrippedTable';
 import * as reactstrap from 'reactstrap';
 import Helmet from 'react-helmet';
+import Footer from '../components/Footer';
 
 class MarkdownRenderer extends React.Component {
   render() {
@@ -19,18 +20,20 @@ class MarkdownRenderer extends React.Component {
     }).Compiler;
     if (this.props.lang === "en") {
       return(
-        <reactstrap.Container className="mt-4 mb-4 doc-container">
+        <reactstrap.Container className="mt-4 pb-4 doc-container">
           <main id="main-content" role="main">
             {renderAst(this.props.eng.htmlAst)}
           </main>
+          <Footer/>
         </reactstrap.Container>
       );
     } else {
       return(
-        <reactstrap.Container className="mt-4 mb-4 doc-container">
+        <reactstrap.Container className="mt-4 pb-4 doc-container">
           <main id="main-content" role="main">
             {renderAst(this.props.fr.htmlAst)}
           </main>
+          <Footer/>
         </reactstrap.Container>
       );
     }

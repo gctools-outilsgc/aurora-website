@@ -7,6 +7,24 @@
 .doc-container {
   max-width: 1250px;
   padding-left: 310px;
+  .foot-container {
+    padding:0;
+  }
+  footer {
+      margin-top:35px;
+  }
+}
+
+.footer {
+  ul {
+    border-top: 1px solid #CECECE;
+    list-style: none;
+    padding: 15px;
+    li {
+      display: inline-block;
+      margin-right:15px;
+    }
+  }
 }
 
 @media (max-width: 768px) {
@@ -18,7 +36,9 @@
 
 .hero-holder {
   background-image: url(https://raw.githubusercontent.com/gctools-outilsgc/design-system/master/project_mgmt/Aurora-Banner-large.png);
-  background-size: cover;
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position: right bottom;
   height: 695px;
   padding: 70px 0px;
    /*
@@ -40,7 +60,9 @@
 
 .footer-holder {
   background-image: url(https://raw.githubusercontent.com/gctools-outilsgc/design-system/master/project_mgmt/Aurora-Banner-small.png);
-  background-size: cover;
+  background-size: contain;
+  background-repeat:no-repeat;
+  background-position: left bottom;
   height: 300px;
   .lead {
     max-width:50%;

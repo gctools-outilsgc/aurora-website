@@ -1,17 +1,19 @@
 import React from 'react';
 import Layout from '../layouts/layout';
-import Eye from "../img/designer.png";
-import Gears from '../img/developer.png';
-import Pen from '../img/writer.png';
-import Pie from '../img/datasci.png';
+import Developer from '../img/MASCOTS_Developer.svg';
+import Designer from '../img/MASCOTS_Designer.svg';
+import DataSci from '../img/MASCOTS_Data.svg';
+import Writer from '../img/MASCOTS_Writer.svg';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
+
 import {
   Container,
   Row,
   Col
 } from 'reactstrap';
 import { I18n } from "react-i18next";
+import Footer from '../components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
@@ -24,11 +26,6 @@ class IndexPage extends React.Component {
         <I18n ns={["translation"]}>
           {
             (t) => (<Helmet><title>{t("AuroraDesignSystem")}</title></Helmet>)
-          }
-        </I18n>
-        <I18n ns={["translation"]}>
-          {
-            (t) => (<h1 className="sr-only">{t("AuroraDesignSystem")}</h1>)
           }
         </I18n>
         <I18n ns={["translation"]}>
@@ -57,30 +54,30 @@ class IndexPage extends React.Component {
 
                 <Row className="pb-2">
                   <Col xs="6" sm="6" md="6" lg="3" className="text-center">
-                    <img className="img-fluid" src={Eye} alt="" />
+                    <img className="img-fluid" src={Designer} alt="" />
                     <h3 className="mb-3 mt-3 h4">{t("Designers")}</h3>
                     <Link to="/component/colour" style={{"whiteSpace":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DesignerCTA")}</Link>
                   </Col>
                   <Col xs="6" sm="6" md="6" lg="3" className="text-center">
-                    <img className="img-fluid" src={Gears} alt="" />
+                    <img className="img-fluid" src={Developer} alt="" />
                     <h3 className="mb-3 mt-3 h4">{t("Developers")}</h3>
                     <Link to="/component/colour" style={{"whiteSpace":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DeveloperCTA")}</Link>
                   </Col>
                   <Col xs="6" sm="6" md="6" lg="3" className="text-center">
-                    <img className="img-fluid" src={Pen} alt="" />
+                    <img className="img-fluid" src={Writer} alt="" />
                     <h3 className="mb-3 mt-3 h4">{t("Writers")}</h3>
                     <Link to="/content/content-guidelines" style={{"whiteSpace":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("WriterCTA")}</Link>
                   </Col>
                   <Col xs="6" sm="6" md="6" lg="3" className="text-center">
-                    <img className="img-fluid" src={Pie} alt="" />
+                    <img className="img-fluid" src={DataSci} alt="" />
                     <h3 className="mb-3 mt-3 h4">{t("DataScientists")}</h3>
                     <Link to="/data/data-overview" style={{"whiteSpace":"normal"}} className="mb-2 btn btn-outline-primary btn-block">{t("DataScientistCTA")}</Link>
                   </Col>
                 </Row>
 
-                <h2 className="mt-4 mb-5" style={{textAlign: 'center'}}>{t("AboutAurora")}</h2>
+                <h2 className="mt-5 mb-5" style={{textAlign: 'center'}}>{t("AboutAurora")}</h2>
 
-                <Row className="mb-3">
+                <Row className="mb-5">
                   <Col xs="12" sm="6" md="4">
                     <h3 className="mb-3" style={{color: '#467B8D'}}>{t("SimpleFlexible")}</h3>
                     <p>{t("SimpleFlexibleParagraph")}</p>
@@ -120,9 +117,11 @@ class IndexPage extends React.Component {
                   </Container>
                 </div>
             </main>
+
           )
         }
         </I18n>
+        <Footer/>
       </div>
       </Layout>
     );

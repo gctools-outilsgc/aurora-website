@@ -20,6 +20,8 @@ class MarkdownTemplate extends React.Component {
       markdown: null,
       collapse: false
     }
+
+    this.escFunction = this.escFunction.bind(this);
   }
 
   toggle() {
@@ -28,6 +30,14 @@ class MarkdownTemplate extends React.Component {
 
   componentDidMount(){
     this.setState({ collapse: false });
+    this.contentContainer.focus();
+    document.addEventListener("keydown", this.escFunction, false);
+  }
+
+  escFunction(event){
+    if(event.keyCode === 27 && this.state.collapse == true) {
+      this.setState({ collapse: false });
+    }
   }
 
   render() {
@@ -59,9 +69,11 @@ class MarkdownTemplate extends React.Component {
                   <div className="d-none d-md-block">
                     <Sidenav path={this.state.path} data={this.props.data} i18n={ i18n } />
                   </div>
-                  {
-                    <MarkdownRenderer eng={this.state.eng} fr={this.state.fr} lang={i18n.lng} />
-                  }
+                  <div tabIndex="-1" ref={(contentContainer) => { this.contentContainer = contentContainer; }}>
+                    {
+                      <MarkdownRenderer eng={this.state.eng} fr={this.state.fr} lang={i18n.lng} />
+                    }
+                  </div>
                 </div>
               )
             }
