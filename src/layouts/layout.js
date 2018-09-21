@@ -1,6 +1,6 @@
 import React from 'react';
 import i18n from '../i18n/i18n';
-import { I18nextProvider } from 'react-i18next';
+import { I18nextProvider, I18n } from 'react-i18next';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
@@ -9,6 +9,7 @@ import '../utils/custom.scss';
 import './layout.scss';
 
 import icon from "../img/favicon.ico";
+import logo from "../img/rich-preview-logo.png";
 
 class Layout extends React.Component {
   render() {
@@ -18,8 +19,10 @@ class Layout extends React.Component {
           <Helmet
             title={"Aurora"}
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'og:title', content: 'Aurora Design System' },
+              { name: 'description', content: 'Central design guide for digital collaboration products' },
+              { name: 'og:description', content: 'Central design guide for digital collaboration products' },
+              { name: 'og:image', href: logo },
             ]}
             link={[
               { rel: 'icon', type: 'image/png', href: icon }
