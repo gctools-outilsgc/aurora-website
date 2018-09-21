@@ -9,7 +9,6 @@ import '../utils/custom.scss';
 import './layout.scss';
 
 import icon from "../img/favicon.ico";
-import logo from "../img/rich-preview-logo.png";
 
 class Layout extends React.Component {
   render() {
@@ -22,7 +21,7 @@ class Layout extends React.Component {
               { name: 'og:title', content: 'Aurora Design System' },
               { name: 'description', content: 'Central design guide for digital collaboration products' },
               { name: 'og:description', content: 'Central design guide for digital collaboration products' },
-              { name: 'og:image', href: logo },
+              { name: 'og:image', content: "https://github.com/gctools-outilsgc/design-system-code/blob/rich-preview/src/img/rich-preview-logo.png" },
             ]}
             link={[
               { rel: 'icon', type: 'image/png', href: icon }
