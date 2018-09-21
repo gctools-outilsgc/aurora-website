@@ -1,6 +1,6 @@
 import React from 'react';
 import i18n from '../i18n/i18n';
-import { I18nextProvider, I18n } from 'react-i18next';
+import { I18nextProvider } from 'react-i18next';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
