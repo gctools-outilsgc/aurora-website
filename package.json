@@ -46,7 +46,7 @@
     "format": "prettier --write 'src/**/*.js'",
     "test": "eslint src/",
     "lint-fix": "eslint src/ --fix",
-    "deploy": "rm -rf .cache/* && gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "rm -rf .cache/* && gatsby build && cp ./src/CNAME public/ && gh-pages -d public"
   },
   "devDependencies": {
     "eslint": "^5.0.1",
