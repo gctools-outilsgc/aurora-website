@@ -343,7 +343,7 @@ a.dropdown-item {
 
 .badge-tag::after {
     border-bottom: 13px solid transparent;
-    border-right: 10px solid #2C73A1;
+    border-right: 10px solid $primary;
     border-top: 13px solid transparent;
     content: '';
     position: absolute;

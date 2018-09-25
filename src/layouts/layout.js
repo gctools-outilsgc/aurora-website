@@ -18,8 +18,10 @@ class Layout extends React.Component {
           <Helmet
             title={"Aurora"}
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'og:title', content: 'Aurora Design System' },
+              { name: 'description', content: 'Central design guide for digital collaboration products' },
+              { name: 'og:description', content: 'Central design guide for digital collaboration products' },
+              { name: 'og:image', content: "https://raw.githubusercontent.com/gctools-outilsgc/design-system-code/rich-preview/src/img/rich-preview-logo.png" },
             ]}
             link={[
               { rel: 'icon', type: 'image/png', href: icon }

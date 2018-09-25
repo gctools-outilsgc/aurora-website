@@ -40,7 +40,9 @@ const frTranslation = {
   "SHOW CODE": "MONTRER LE CODE",
   "HIDE CODE": "CACHER LE CODE",
   "search_no_results": "Aucun resultat n'a été trouvé.",
-  "search_start_searching": "Lancer la recherche..."
+  "search_start_searching": "Lancer la recherche...",
+  "MainNavigation":"Navigation principale",
+  "SubNavigation":"Sous-navigation"
 };
 
 export default frTranslation;

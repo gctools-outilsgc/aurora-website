@@ -2,6 +2,7 @@ import React from 'react';
 import {
   Nav,
 } from 'reactstrap';
+import { I18n } from "react-i18next";
 import Subnav from './subnav';
 import "./sidenav.scss"
 
@@ -14,9 +15,9 @@ class Sidenav extends React.Component {
     let subNameFr = "";
     let subGroup = [];
     let subPieces = [];
-    
+
     const data = this.props.data;
-    
+
     data[this.props.path.split("/")[1]].edges.forEach((edges) => {
       if (edges.node.frontmatter.subnav.split("/")[1] !== subNameEn) {
         if (subNameEn !== "") {
@@ -50,11 +51,17 @@ class Sidenav extends React.Component {
       );
     }
     return(
-      <nav id="sidenav" role="navigation" aria-label="Sub Navigation *Translate*">
-        <Nav style={{'marginTop':'110px', 'marginBottom':'40px'}}>
-          {subPieces}
-        </Nav>
-      </nav>
+      <I18n ns={["translation"]}>
+        {
+          (t, { i18n }) => (
+            <nav id="sidenav" role="navigation" aria-label={t("SubNavigation")}>
+              <Nav style={{'marginTop':'110px', 'marginBottom':'40px'}}>
+                {subPieces}
+              </Nav>
+            </nav>
+          )
+        }
+    </I18n>
     );
   }
 }

@@ -40,7 +40,9 @@ const enTranslation = {
   "SHOW CODE": "SHOW CODE",
   "HIDE CODE": "HIDE CODE",
   "search_no_results": "No results were found.",
-  "search_start_searching": "Start searching..."
+  "search_start_searching": "Start searching...",
+  "MainNavigation":"Main Navigation",
+  "SubNavigation":"Sub Navigation"
 };
 
 export default enTranslation;
