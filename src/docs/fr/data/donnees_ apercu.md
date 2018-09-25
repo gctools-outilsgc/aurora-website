@@ -21,7 +21,7 @@ La visualisation des données devrait viser à représenter et à répondre à u
 ## Simplicité
 Pour ce qui est de la visualisation des données, il faut en règle générale garder les éléments visuels aussi simples que possible. Seuls les renseignements nécessaires tels les étiquettes, les valeurs et les barres ou les lignes devraient s’y trouver. Une clé ou une légende devrait être fournie pour les données plus complexes qui peuvent avoir plusieurs couleurs ou types d’information. Les couleurs et autres éléments visuels doivent toujours être maintenus au minimum dans la mesure du possible.
 
-Les éléments visuels ne devraient que mettre en valeur les données et ne devraient jamais distraire Les pratiques exemplaires comprennent l’élimination de l’arrière-plan, l’allégement du quadrillage et la réduction du nombre de couleurs utilisées dans un graphique.
+Les éléments visuels ne devraient que mettre en valeur les données et ne devraient jamais distraire. Les pratiques exemplaires comprennent l’élimination de l’arrière-plan, l’allégement du quadrillage et la réduction du nombre de couleurs utilisées dans un graphique.
 
 Si un graphique est trop complexe pour représenter un certain jeu de données, les données devraient être représentées dans plusieurs graphiques simples.
 
