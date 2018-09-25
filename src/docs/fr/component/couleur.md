@@ -50,7 +50,7 @@ Codes hexadécimaux:
 
 Codes hexadécimaux:
 
-<badge style="background-color: #0278A4">#0278A4</badge> <badge style="background-color: #4E474; color:black">#4E474</badge> <badge style="background-color: #83C3F2; color:black">#83C3F2</badge> <badge style="background-color: #C9DF61; color: black">#C9DF61</badge> <badge style="background-color: #C1D699; color: black">#C1D699</badge>
+<badge style="background-color: #0278A4; color:white">#0278A4</badge> <badge style="background-color: #4E474; color:white">#4E474</badge> <badge style="background-color: #83C3F2; color:black">#83C3F2</badge> <badge style="background-color: #C9DF61; color: black">#C9DF61</badge> <badge style="background-color: #C1D699; color: black">#C1D699</badge>
 
 ## Appliquer vos propres palettes
 Lors de la création de votre application ou site Web, vous pouvez appliquer votre propre palette de couleur à divers éléments. Lorsque vous préparez votre combinaison de couleurs, il est recommandé de choisir au moins une couleur primaire, deux ou trois couleurs secondaires qui sont semblables et une couleur de contraste.

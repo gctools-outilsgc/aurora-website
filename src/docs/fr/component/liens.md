@@ -19,7 +19,6 @@ En règle générale, si l’utilisateur apporte des changements à l’arrière
 ## Liens externes
 
 Si un lien amène l’utilisateur à une page Web externe, cela devrait être indiqué à l’aide d’une icône, et la page devrait ouvrir dans une nouvelle fenêtre.
-Stylisation des liens
 
 ## Style des liens
 

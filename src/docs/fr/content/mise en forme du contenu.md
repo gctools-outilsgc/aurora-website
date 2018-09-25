@@ -62,4 +62,4 @@ Les barres obligatoires sont utilisées pour indiquer des choix (et/ou, etc.). P
 Le gras peut être utilisé pour une fonction de mise en évidence. Dans ce système, le gras est privilégié pour certains types d’en-têtes (voir en-têtes). L’italique doit être évité puisqu’il n’est pas facile à lire pour certains utilisateurs.
 
 ## Guillemets
-Les guillemets sont utilisé auteur des citations directes. Les guillemets peuvent également être utilisés pour indiquer qu’un mot est utilisé de façon ironique; toutefois, cela doit être utilisé dans le corps du texte seulement, et jamais dans des textes fonctionnels ou des étiquettes.
+Les guillemets sont utilisé autour des citations directes. Les guillemets peuvent également être utilisés pour indiquer qu’un mot est utilisé de façon ironique; toutefois, cela doit être utilisé dans le corps du texte seulement, et jamais dans des textes fonctionnels ou des étiquettes.

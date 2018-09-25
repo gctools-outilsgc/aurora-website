@@ -37,7 +37,7 @@ Exemple d’erreur : « Votre mot de passe doit contenir au moins huit (8) carac
 
 ## Avertissement
 
-Les notifications d’avertissement sont utilisées pour les avis d’éventuelles erreurs.
+Les notifications d’avertissement sont utilisées pour les notifications d'erreurs futures potentielles. 
 
 Exemple d’avertissement : « Verr. Maj. est activé ce qui pourrait faire en sorte que vous entriez votre mot de passe incorrectement. »
 

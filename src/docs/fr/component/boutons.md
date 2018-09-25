@@ -20,7 +20,7 @@ Les boutons utilisés dans ce système de conception ont une taille minimum de 3
 Plus il y a de l’espace vide et de remplissage autour d’un bouton et plus ce dernier apparaît comme important sur la page. La plupart des boutons dans ce système utilisent un remplissage de 15px, à moins d’indication contraire.
 
 ## Étiquettes
-Les étiquettes de boutons devraient être claires et précises. Évitez les termes génériques comme Enregistrer, Soumettre ou Annuler. Les boutons devraient indiquer l’action exacte qui est entreprise et devraient fournir une idée claire de ce qui se passera ensuite.
+Les étiquettes de boutons devraient être claires et précises. Évitez les termes génériques comme Enregistrer, Soumettre ou Annuler. Les boutons devraient indiquer l’action exacte qui est prise et devraient fournir une idée claire de ce qui se passera ensuite.
 
 Exemples de bonnes étiquettes : Ajouter une publication au blogue, Envoyer un message, Enregistrer le brouillon.
 
@@ -141,7 +141,7 @@ Cliquer sur les boutons de menu déroulant affiche une liste d’éléments. Ces
 </ButtonDropdown>
 '></codeblock>
 
-**État sensitif** : Semblables aux boutons primaires, les boutons de menu déroulant utilisent une couleur primaire à 100 % d’opacité, du texte blanc avec une bordure d’un rayon de 4px et un remplissage de 15px. La flèche du menu déroulant représente un espace de 30px par 40 px, qui est séparé du bouton primaire en utilisant une ligne blanche. La flèche utilise un espace de 15px de largeur et de 8px de hauteur. Selon la partie du bouton sur laquelle vous placez votre curseur (primaire ou déroulante), celle-ci est affichée à 80 % d’opacité.
+**État sensitif** : Semblables aux boutons primaires, les boutons de menu déroulant utilisent une couleur primaire à 100 % d’opacité, du texte blanc avec une bordure d’un rayon de 4px et un remplissage de 15px. La flèche du menu déroulant représente un espace de 30px par 40px, qui est séparé du bouton primaire en utilisant une ligne blanche. La flèche utilise un espace de 15px de largeur et de 8px de hauteur. Selon la partie du bouton sur laquelle vous placez votre curseur (primaire ou déroulante), celle-ci est affichée à 80 % d’opacité.
 
 **État accentué** : Semblables aux boutons primaires, les boutons de menu déroulant utilisent une couleur primaire à 100 % d’opacité, du texte blanc avec une bordure d’un rayon de 4px et un remplissage de 15px. La flèche du menu déroulant représente un espace de 30px par 40 px, qui est séparé du bouton primaire en utilisant une ligne blanche. La flèche utilise un espace de 15px de largeur et de 8px de hauteur. Selon la partie du bouton sur laquelle l’accentuation est placée (primaire ou déroulante), celle-ci est affichée à 80 % d’opacité et comprend un trait de 3px dans une couleur primaire.
 

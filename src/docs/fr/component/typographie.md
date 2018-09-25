@@ -13,7 +13,7 @@ title: "Typographie"
 
 ## Polices
 
-La Division de la collaboration numérique (DCN) utilise deux familles de polices pour tous les produits numériques : « Rubik » et « Nunito Sans ». « Rubik » et « Nunito Sans » sont des polices de source ouverte et peuvent être téléchargés gratuitement à partir de [Google Fonts](https://fonts.google.com/)
+La Division de la collaboration numérique (DCN) utilise deux familles de polices pour tous les produits numériques : « Rubik » et « Nunito Sans ». « Rubik » et « Nunito Sans » sont des polices de source ouverte et peuvent être téléchargés gratuitement à partir de [Google Fonts](https://fonts.google.com/).
 
 [Rubik](https://fonts.google.com/specimen/Rubik) est utilisé pour les titres et les en-têtes, tandis que [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) est utilisé pour le texte des sous-en-têtes, des boutons et des paragraphes.
 
@@ -207,13 +207,13 @@ Le formatage typographique, tel que l’italique ou le soulignement, doit être 
 C'est une <em><strong>très</strong></em> mauvaise idée.<br />
 Vous new devriez <em><strong>jamais</strong></em> mettre du poisson au micro-ondes.
 
-##### à new faire pas
+##### à ne faire pas
 Le poivre <em><strong>ajout une saveur distincte aux aliments.</strong></em><br />
 La <em><strong>surutilisation de la mise en évidence la</strong></em> vide le sens.
 
 ## Horodateurs et texte d’espace réservé
 
-Les horodateurs et le texte d’espace réservé ont les mêmes styles typographiques. Les deux ont une police « Nunito Sans Regular » à 14 points et un interlignage de 21 points Les horodateurs et le texte d’espace réservé sont de couleur <badge style="background-color: #666666">#666666</badge> sur un arrière plan pâle ou de couleur<badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
+Les horodateurs et le texte d’espace réservé ont les mêmes styles typographiques. Les deux ont une police « Nunito Sans Regular » à 14 points et un interlignage de 21 points. Les horodateurs et le texte d’espace réservé sont de couleur <badge style="background-color: #666666">#666666</badge> sur un arrière plan pâle ou de couleur<badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
 
 <p style="font-size: 14px; color: #666666">Le 6 septembre 2018, 13 h 40</p>
 <p style="font-size: 14px; color: #666666">Le 20 décembre 2015, 6 h 45</p>

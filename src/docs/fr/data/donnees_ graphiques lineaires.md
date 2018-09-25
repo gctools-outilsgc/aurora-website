@@ -30,6 +30,6 @@ Pour plusieurs variables, utilisez une couleur différente pour chaque ligne, et
 
 Les graphiques en aires sont des graphiques linéaires pouvant être utilisés pour représenter des données quantitatives. Vous pouvez utiliser des graphiques à aires empilées pour représenter la relation d’une partie pour un tout entre les séries de données. Utilisez une opacité inférieure si les séries se chevauchent pour que toutes les séries puissent être vues. Les graphiques en aires peuvent également être utilisés pour insister sur le volume visuel pour une seule série de données d’objets distincts.
 
-Les graphiques en aires devraient être remplis de la même couleur que la ligne, mais avec 15 % d’opacité.
+Les graphiques en aires devraient être remplis de la même couleur que la ligne, mais avec 15% d’opacité.
 
 ![Image d'une graphique en aires](../../../img\components\area_fr.png)
