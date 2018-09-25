@@ -42,7 +42,9 @@ const enTranslation = {
   "search_no_results": "No results were found.",
   "search_start_searching": "Start searching...",
   "MainNavigation":"Main Navigation",
-  "SubNavigation":"Sub Navigation"
+  "SubNavigation":"Sub Navigation",
+  "Reply":"Reply",
+  "Pressed":"Pressed"
 };
 
 export default enTranslation;

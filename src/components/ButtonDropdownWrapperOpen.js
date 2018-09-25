@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem, Button } from 'reactstrap';
-import { translate } from 'react-i18next';
+import { translate, I18n } from 'react-i18next';
 
 class ButtonDropdownWrapperOpen extends React.Component {
   constructor(props) {
@@ -21,16 +21,22 @@ class ButtonDropdownWrapperOpen extends React.Component {
 
   render() {
     return (
-      <ButtonDropdown direction="down" isOpen="true" toggle={this.toggle} style={{marginBottom: '15px'}} color={this.props.color}>
-        <DropdownToggle caret {...this.props}>
-          Pressed
-        </DropdownToggle>
-        <DropdownMenu>
-          <DropdownItem>Action 1</DropdownItem>
-          <DropdownItem>Action 2</DropdownItem>
-          <DropdownItem>Action 3</DropdownItem>
-        </DropdownMenu>
-      </ButtonDropdown>
+      <I18n ns={["translation"]}>
+        {
+          (t, { i18n }) => (
+              <ButtonDropdown direction="down" isOpen="true" toggle={this.toggle} style={{marginBottom: '15px'}} color={this.props.color}>
+                <DropdownToggle caret {...this.props}>
+                  {t("Pressed")}
+                </DropdownToggle>
+                <DropdownMenu>
+                  <DropdownItem>Action 1</DropdownItem>
+                  <DropdownItem>Action 2</DropdownItem>
+                  <DropdownItem>Action 3</DropdownItem>
+                </DropdownMenu>
+              </ButtonDropdown>
+          )
+        }
+      </I18n>
     );
   }
 }

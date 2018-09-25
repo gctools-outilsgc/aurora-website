@@ -14,7 +14,7 @@ const frTranslation = {
   "WriterCTA":"Commencez à taper",
   "DataScientists": "Scientifique des données",
   "DataScientistCTA":"Commencez à analyser",
-  "AboutAurora":"À propos DU système de conception Aurora",
+  "AboutAurora":"À propos du système de conception Aurora",
   "SimpleFlexible":"Simple et flexible",
   "SimpleFlexibleParagraph":"Offre tous les éléments nécessaires sans être restrictif. Le système de conception Aurora est un système léger, qui peut être adapté à un produit particulier.",
   "FunToUse":"Agréable à utiliser",
@@ -42,7 +42,9 @@ const frTranslation = {
   "search_no_results": "Aucun resultat n'a été trouvé.",
   "search_start_searching": "Lancer la recherche...",
   "MainNavigation":"Navigation principale",
-  "SubNavigation":"Sous-navigation"
+  "SubNavigation":"Sous-navigation",
+  "Reply":"Répondre",
+  "Pressed":"Activé"
 };
 
 export default frTranslation;
