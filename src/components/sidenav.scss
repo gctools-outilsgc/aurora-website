@@ -1,0 +1,50 @@
+#sidenav{
+  background-color: #FAFAFA;
+  display: inline-block;
+  max-width: 300px;
+  width:100%;
+  border-right: 1px solid;
+  border-color: #D3D3D3;
+  margin-left: 0px !important;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+#title{ //#h2?
+  margin-top: 16px;
+  margin-left: 25px;
+  margin-bottom: 10px !important;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.75em;
+  font-weight: 400;
+}
+#mobile-menu-holder {
+  .search-form {
+    margin-top:5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile-sidebar #sidenav {
+      top: 161px !important;
+      z-index:9999;
+      .nav {
+          margin-top: 0 !important;
+          margin-bottom: 200px !important;
+      }
+  }
+}
+
+@media (max-width: 576px) {
+  #mobile-menu-holder {
+      #mobile-menu {
+          width:17%;
+      }
+      .search-form {
+          width:78% !important;
+      }
+  }
+}
