@@ -1,124 +1,124 @@
 {
   "assetsByChunkName": {
     "path---data-line-graphs": [
-      "path---data-line-graphs-e58266ba8bd088d76392.js",
-      "path---data-line-graphs-e58266ba8bd088d76392.js.map"
+      "path---data-line-graphs-fd745ed02d3d67b5562c.js",
+      "path---data-line-graphs-fd745ed02d3d67b5562c.js.map"
     ],
     "path---component-tooltips": [
-      "path---component-tooltips-8a8fb28a869ede744ded.js",
-      "path---component-tooltips-8a8fb28a869ede744ded.js.map"
+      "path---component-tooltips-bf794b3f3b944601209d.js",
+      "path---component-tooltips-bf794b3f3b944601209d.js.map"
     ],
     "path---content-glossary": [
-      "path---content-glossary-0ff551e846064c76e882.js",
-      "path---content-glossary-0ff551e846064c76e882.js.map"
+      "path---content-glossary-e2e638634b6a0c003855.js",
+      "path---content-glossary-e2e638634b6a0c003855.js.map"
     ],
     "path---data-data-overview": [
-      "path---data-data-overview-d1b15e1fef46ae0f43e8.js",
-      "path---data-data-overview-d1b15e1fef46ae0f43e8.js.map"
+      "path---data-data-overview-5d77b23a8c5809d87a9f.js",
+      "path---data-data-overview-5d77b23a8c5809d87a9f.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-83aa3de856d4ab592048.js",
       "component---src-pages-index-js-83aa3de856d4ab592048.js.map"
     ],
     "path---content-system-vocabulary": [
-      "path---content-system-vocabulary-77b0949660fa5c03e222.js",
-      "path---content-system-vocabulary-77b0949660fa5c03e222.js.map"
+      "path---content-system-vocabulary-7d1251ceebf8f02339fa.js",
+      "path---content-system-vocabulary-7d1251ceebf8f02339fa.js.map"
     ],
     "path---component-errors-and-validation": [
-      "path---component-errors-and-validation-8a9097710d1d1c65dece.js",
-      "path---component-errors-and-validation-8a9097710d1d1c65dece.js.map"
+      "path---component-errors-and-validation-44e4dde6af58c398cfae.js",
+      "path---component-errors-and-validation-44e4dde6af58c398cfae.js.map"
     ],
     "path---component-badges": [
-      "path---component-badges-9f78843ab53137c86819.js",
-      "path---component-badges-9f78843ab53137c86819.js.map"
+      "path---component-badges-f7d46b6cfed9d3251f6e.js",
+      "path---component-badges-f7d46b6cfed9d3251f6e.js.map"
     ],
     "path---overview-whats-new": [
-      "path---overview-whats-new-8c10bfe1869d875605fc.js",
-      "path---overview-whats-new-8c10bfe1869d875605fc.js.map"
+      "path---overview-whats-new-601fb5916690f9ea67b2.js",
+      "path---overview-whats-new-601fb5916690f9ea67b2.js.map"
     ],
     "path---content-content-guidelines": [
-      "path---content-content-guidelines-87d9d20922d124e8cfa9.js",
-      "path---content-content-guidelines-87d9d20922d124e8cfa9.js.map"
+      "path---content-content-guidelines-e1b5c132ed3448bd059e.js",
+      "path---content-content-guidelines-e1b5c132ed3448bd059e.js.map"
     ],
     "path---overview-frequently-asked-questions": [
-      "path---overview-frequently-asked-questions-e8f5b279340eaa13ed67.js",
-      "path---overview-frequently-asked-questions-e8f5b279340eaa13ed67.js.map"
+      "path---overview-frequently-asked-questions-42702fcc4191193f1604.js",
+      "path---overview-frequently-asked-questions-42702fcc4191193f1604.js.map"
     ],
     "path---component-grids-and-spacing": [
-      "path---component-grids-and-spacing-4a66b40d64957906bdc3.js",
-      "path---component-grids-and-spacing-4a66b40d64957906bdc3.js.map"
+      "path---component-grids-and-spacing-4f9f1acd1f6c53a3b2c8.js",
+      "path---component-grids-and-spacing-4f9f1acd1f6c53a3b2c8.js.map"
     ],
     "path---component-progress-indicators": [
-      "path---component-progress-indicators-0bf3194205a50876b2f6.js",
-      "path---component-progress-indicators-0bf3194205a50876b2f6.js.map"
+      "path---component-progress-indicators-4e23ceda40d052acec10.js",
+      "path---component-progress-indicators-4e23ceda40d052acec10.js.map"
     ],
     "path---component-file-upload": [
-      "path---component-file-upload-51e453e4edbe3f907a08.js",
-      "path---component-file-upload-51e453e4edbe3f907a08.js.map"
+      "path---component-file-upload-613bbd1a9e9502317248.js",
+      "path---component-file-upload-613bbd1a9e9502317248.js.map"
     ],
     "path---component-overall-design-and-labels": [
-      "path---component-overall-design-and-labels-4dd33e3e9b89b82008ca.js",
-      "path---component-overall-design-and-labels-4dd33e3e9b89b82008ca.js.map"
+      "path---component-overall-design-and-labels-6ba4bc3126286c5d6cc9.js",
+      "path---component-overall-design-and-labels-6ba4bc3126286c5d6cc9.js.map"
     ],
     "path---data-tables": [
-      "path---data-tables-7a2a3e68488bd98124da.js",
-      "path---data-tables-7a2a3e68488bd98124da.js.map"
+      "path---data-tables-80c35107a06f712e5113.js",
+      "path---data-tables-80c35107a06f712e5113.js.map"
     ],
     "path---data-legends-and-tooltips": [
-      "path---data-legends-and-tooltips-055f6c04852734bc04e3.js",
-      "path---data-legends-and-tooltips-055f6c04852734bc04e3.js.map"
+      "path---data-legends-and-tooltips-68715b04401618d24166.js",
+      "path---data-legends-and-tooltips-68715b04401618d24166.js.map"
     ],
     "path---component-typography": [
-      "path---component-typography-83ee5cd2ab0a86dc33f2.js",
-      "path---component-typography-83ee5cd2ab0a86dc33f2.js.map"
+      "path---component-typography-94be3ff064326255eaed.js",
+      "path---component-typography-94be3ff064326255eaed.js.map"
     ],
     "path---component-tags-chips-and-pills": [
-      "path---component-tags-chips-and-pills-c9ffef6e67538a39a07c.js",
-      "path---component-tags-chips-and-pills-c9ffef6e67538a39a07c.js.map"
+      "path---component-tags-chips-and-pills-3f4c43e395b52e5b8636.js",
+      "path---component-tags-chips-and-pills-3f4c43e395b52e5b8636.js.map"
     ],
     "path---component-search": [
-      "path---component-search-6e7f39e2b5f61e9aafd3.js",
-      "path---component-search-6e7f39e2b5f61e9aafd3.js.map"
+      "path---component-search-67908bc5b09346e0ec84.js",
+      "path---component-search-67908bc5b09346e0ec84.js.map"
     ],
     "path---component-text-inputs": [
-      "path---component-text-inputs-4b59edf66c9bb69676e9.js",
-      "path---component-text-inputs-4b59edf66c9bb69676e9.js.map"
+      "path---component-text-inputs-8b03318bfce20a90cf8a.js",
+      "path---component-text-inputs-8b03318bfce20a90cf8a.js.map"
     ],
     "path---data-column-and-bar-graphs": [
-      "path---data-column-and-bar-graphs-c6b7b005155e303454f3.js",
-      "path---data-column-and-bar-graphs-c6b7b005155e303454f3.js.map"
+      "path---data-column-and-bar-graphs-02c0327e1cbdc5be02a9.js",
+      "path---data-column-and-bar-graphs-02c0327e1cbdc5be02a9.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---component-avatars-and-thumbnails": [
-      "path---component-avatars-and-thumbnails-53163448cd719963375a.js",
-      "path---component-avatars-and-thumbnails-53163448cd719963375a.js.map"
+      "path---component-avatars-and-thumbnails-d6812e2d686eb5e42e17.js",
+      "path---component-avatars-and-thumbnails-d6812e2d686eb5e42e17.js.map"
     ],
     "path---component-pagination-scrolling": [
-      "path---component-pagination-scrolling-60e0d474c6fbddd3df52.js",
-      "path---component-pagination-scrolling-60e0d474c6fbddd3df52.js.map"
+      "path---component-pagination-scrolling-99e5ad6ef41abf4ea0c6.js",
+      "path---component-pagination-scrolling-99e5ad6ef41abf4ea0c6.js.map"
     ],
     "path---data-stylized-numbers": [
-      "path---data-stylized-numbers-4630211511446ea3a9cd.js",
-      "path---data-stylized-numbers-4630211511446ea3a9cd.js.map"
+      "path---data-stylized-numbers-2f5229ce8d9d5fb58c14.js",
+      "path---data-stylized-numbers-2f5229ce8d9d5fb58c14.js.map"
     ],
     "path---component-divider-rule": [
-      "path---component-divider-rule-89dd38f1055327916c0a.js",
-      "path---component-divider-rule-89dd38f1055327916c0a.js.map"
+      "path---component-divider-rule-74410a02f6f25313474f.js",
+      "path---component-divider-rule-74410a02f6f25313474f.js.map"
     ],
     "path---component-links": [
-      "path---component-links-901f6a9a368093138c33.js",
-      "path---component-links-901f6a9a368093138c33.js.map"
+      "path---component-links-1f83daeeb791f63f987c.js",
+      "path---component-links-1f83daeeb791f63f987c.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-2b8617b98959deacbf56.js",
       "component---src-pages-404-js-2b8617b98959deacbf56.js.map"
     ],
     "path---component": [
-      "path---component-9f14f2565e00981a09ed.js",
-      "path---component-9f14f2565e00981a09ed.js.map"
+      "path---component-be38d20ef91606bc09bb.js",
+      "path---component-be38d20ef91606bc09bb.js.map"
     ],
     "commons": [
       "commons-e4a00fb0fdf3bbc6c6e1.js",
@@ -126,75 +126,79 @@
       "commons-e4a00fb0fdf3bbc6c6e1.js.map",
       "build-js-styles.css.map"
     ],
+    "path---overview-future-updates": [
+      "path---overview-future-updates-c58a783a34356c56e632.js",
+      "path---overview-future-updates-c58a783a34356c56e632.js.map"
+    ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---content-formatting": [
-      "path---content-formatting-6ab0e745e99fda07c7f1.js",
-      "path---content-formatting-6ab0e745e99fda07c7f1.js.map"
+      "path---content-formatting-da2f40d41ac8c9d0fa94.js",
+      "path---content-formatting-da2f40d41ac8c9d0fa94.js.map"
     ],
     "path---overview-blogs": [
-      "path---overview-blogs-7088b408848ff48e3f73.js",
-      "path---overview-blogs-7088b408848ff48e3f73.js.map"
+      "path---overview-blogs-4ba01ac74418fa1bdfca.js",
+      "path---overview-blogs-4ba01ac74418fa1bdfca.js.map"
     ],
     "path---data-choosing-visualizations": [
-      "path---data-choosing-visualizations-cdcdebc33a1b75c90d25.js",
-      "path---data-choosing-visualizations-cdcdebc33a1b75c90d25.js.map"
+      "path---data-choosing-visualizations-0ba688c6eee8088be9a5.js",
+      "path---data-choosing-visualizations-0ba688c6eee8088be9a5.js.map"
     ],
     "path---component-colour": [
-      "path---component-colour-5352e6d1d9809b2c8e34.js",
-      "path---component-colour-5352e6d1d9809b2c8e34.js.map"
+      "path---component-colour-6af2448342a8e570f42f.js",
+      "path---component-colour-6af2448342a8e570f42f.js.map"
     ],
     "path---component-system-messaging": [
-      "path---component-system-messaging-a474bcf556b9066cd607.js",
-      "path---component-system-messaging-a474bcf556b9066cd607.js.map"
+      "path---component-system-messaging-51c2b5b4901f8a5dc51b.js",
+      "path---component-system-messaging-51c2b5b4901f8a5dc51b.js.map"
     ],
     "path---overview-introduction": [
-      "path---overview-introduction-b08ca85a0926d264b273.js",
-      "path---overview-introduction-b08ca85a0926d264b273.js.map"
+      "path---overview-introduction-f59701fa5303b8002217.js",
+      "path---overview-introduction-f59701fa5303b8002217.js.map"
     ],
     "path---component-button-inputs": [
-      "path---component-button-inputs-166e467cefa8b95447ca.js",
-      "path---component-button-inputs-166e467cefa8b95447ca.js.map"
+      "path---component-button-inputs-983724516709bb84bebd.js",
+      "path---component-button-inputs-983724516709bb84bebd.js.map"
     ],
     "path---component-back-to-top": [
-      "path---component-back-to-top-8354ee37790f976a43c4.js",
-      "path---component-back-to-top-8354ee37790f976a43c4.js.map"
+      "path---component-back-to-top-829823b7496047bb20a7.js",
+      "path---component-back-to-top-829823b7496047bb20a7.js.map"
     ],
     "path---component-breadcrumbs": [
-      "path---component-breadcrumbs-cfa0e0fdb2ec0157f3cd.js",
-      "path---component-breadcrumbs-cfa0e0fdb2ec0157f3cd.js.map"
+      "path---component-breadcrumbs-4123627512e3551c6a7b.js",
+      "path---component-breadcrumbs-4123627512e3551c6a7b.js.map"
     ],
     "app": [
-      "app-38bbc2bf3e3983002749.js",
+      "app-64417c92f2e36904bc73.js",
       "build-js-styles.css",
-      "app-38bbc2bf3e3983002749.js.map",
+      "app-64417c92f2e36904bc73.js.map",
       "build-js-styles.css.map"
     ],
     "path---component-cards": [
-      "path---component-cards-f0e09c49c266a2f70e12.js",
-      "path---component-cards-f0e09c49c266a2f70e12.js.map"
+      "path---component-cards-391314ee15a08f0406fe.js",
+      "path---component-cards-391314ee15a08f0406fe.js.map"
     ],
     "component---src-templates-markdown-template-js": [
       "component---src-templates-markdown-template-js-f8b85af23c3925af932e.js",
       "component---src-templates-markdown-template-js-f8b85af23c3925af932e.js.map"
     ],
     "path---component-icons": [
-      "path---component-icons-0640d9cdf467f1196b39.js",
-      "path---component-icons-0640d9cdf467f1196b39.js.map"
+      "path---component-icons-b8096b156a8643f45259.js",
+      "path---component-icons-b8096b156a8643f45259.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---data-scatterplots": [
-      "path---data-scatterplots-2a66f76ca77749dc8459.js",
-      "path---data-scatterplots-2a66f76ca77749dc8459.js.map"
+      "path---data-scatterplots-78c9dfb4ccfbddde5e6c.js",
+      "path---data-scatterplots-78c9dfb4ccfbddde5e6c.js.map"
     ],
     "path---component-buttons": [
-      "path---component-buttons-6257372c83b3026799e4.js",
-      "path---component-buttons-6257372c83b3026799e4.js.map"
+      "path---component-buttons-2c077255b324e3c58fdc.js",
+      "path---component-buttons-2c077255b324e3c58fdc.js.map"
     ]
   }
 }
