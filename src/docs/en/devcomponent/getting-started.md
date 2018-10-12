@@ -32,10 +32,12 @@ The Aurora component library provides you with two options for installing and im
 * CSS
 * React
 
+Both the CSS components and the React components make heavy use of the popular [Boostrap Framework](https://v4-alpha.getbootstrap.com/). 
+
 <h6>CSS COMPONENTS</h6>
 
 * Use CSS components if you don't have or want to build a file system for your project
-* Simply include this CSS in your HTML header to implement Aurora
+* Simply include this CSS in your HTML head to implement Aurora
 
 <codeblock html='<link rel="stylesheet" href="RYAN" />' react=''></codeblock>
 
