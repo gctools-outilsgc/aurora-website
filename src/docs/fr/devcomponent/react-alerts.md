@@ -5,3 +5,6 @@ lang: "fr"
 title: "React Alerts"
 ---
 
+## React Alerts
+
+<reactalertexample />

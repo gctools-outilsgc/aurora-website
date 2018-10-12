@@ -5,3 +5,8 @@ lang: "en"
 title: "React Alerts"
 ---
 
+## React Alerts
+
+this is a test document not final documentation!
+
+<reactalertexample />
