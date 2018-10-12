@@ -17,7 +17,7 @@ Run charts are a type of line graph that are used to show changes in data over t
 
 A useful feature to add to your run chart is the ability for users to zoom in and out to particular points of time represented on your graph.
 
-![Timeline Line Graph](../../../img\examples\line_graph.png)
+<linegraph></linegraph>
 
 
 ### Multiple Variable Line Graph
@@ -34,4 +34,4 @@ Area graphs are line graphs that can be used to represent quantitative data. You
 
 Area graphs should be filled in with the same colour as the line, but at 15% opacity.
 
-![Area graph](../../../img\examples\area_graph.png)
+<filledlinegraph></filledlinegraph>

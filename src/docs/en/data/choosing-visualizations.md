@@ -37,15 +37,15 @@ Column graphs can also be used to show comparisons across multiple variables, bu
 
 Overall, column graphs should be used over bar graphs. Bar graphs are ideal if your data labels are long and require more visual space, or if you have more than 10 items \(bars\) to show.
 
-![Bar Graph](../../../img\examples\bar_graph.png)
+<horizontalbargraph></horizontalbargraph>
 
-![Column Graph](../../../img\examples\column_graph.png)
+<bargraph></bargraph>
 
 ## Line Graphs
 
 Line graphs are ideal if you have a continuous data set and wish to show trends or changes over time. This type of visualization is also useful if you are comparing different categories of data \(i.e. using multiple lines\). Line graphs are most effective when you have at least 20 data points to show.
 
-![Line Graph](../../../img\examples\line_graph.png)
+<linegraph></linegraph>
 
 ## Scatterplots
 
@@ -53,4 +53,4 @@ Scatterplots are the best form of distribution analysis. They are best used with
 
 Scatterplots may also help to identify outliers or anomaly cases in your data set.
 
-![Scatterplot](../../../img\examples\scatterplot.png)
+<scatterplot></scatterplot>
