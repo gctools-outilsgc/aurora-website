@@ -1,6 +1,6 @@
 ---
 path: "/devcomponent/css-input-group"
-subnav: "2/CSS/CSS/2"
+subnav: "2/CSS/CSS/13"
 lang: "fr"
-title: "CSS Input Group FR"
+title: "CSS Input Group"
 ---
