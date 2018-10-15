@@ -2,9 +2,9 @@ import React from 'react';
 import { ButtonToolbar, ButtonDropdown, Button, ButtonGroup,
   DropdownToggle, DropdownMenu, DropdownItem,
   Container, Row, Col } from 'reactstrap'; // change to aurora import
-import HtmlCodeBlock from '../components/HtmlCodeBlock';
+import ReactCodeBlock from '../components/ReactCodeBlock';
 
-// basic
+// example
 class ButtonGroupExample1 extends React.Component
 {
     render() {
@@ -21,12 +21,35 @@ class ButtonGroupExample1 extends React.Component
           </Row>
           <Row>
             <Col lg="12" md="12" xs="12">
-              <HtmlCodeBlock html={`
+              <ReactCodeBlock react={`
               <ButtonGroup>
                 <Button>Left</Button>
                 <Button>Middle</Button>
                 <Button>Right</Button>
               </ButtonGroup>
+              `}
+              />
+            </Col>
+          </Row>
+        </Container>
+  );}
+}
+
+class ButtonGroupExample1Properties extends React.Component
+{
+    render() {
+      return (
+        <Container style={{paddingLeft: '0px', paddingRight: '0px', marginTop: '15px', marginBottom: '15px'}} fluid>
+          <Row>
+            <Col lg="12" md="12" xs="12">
+              <ReactCodeBlock react={`
+                ButtonGroup.propTypes = {
+                  ariaLabel: PropTypes.string,
+                  className: PropTypes.string,
+                  role: PropTypes.string,
+                  size: PropTypes.string,
+                  vertical: PropTypes.bool
+                };
               `}
               />
             </Col>
@@ -62,7 +85,7 @@ class ButtonGroupExample2 extends React.Component {
       </Row>
       <Row>
         <Col lg="12" md="12" xs="12">
-          <HtmlCodeBlock html={`
+          <ReactCodeBlock react={`
           <ButtonToolbar>
             <ButtonGroup>
               <Button>1</Button>
@@ -88,79 +111,8 @@ class ButtonGroupExample2 extends React.Component {
   };
 };
 
-// button toolbar 2
-class ButtonGroupExample3 extends React.Component {
-  render() {
-    return (
-      <Container style={{paddingLeft: '0px', paddingRight: '0px', marginTop: '15px', marginBottom: '15px'}} fluid>
-        <Row>
-          <Col lg="12" md="12" xs="12">
-            <div className="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
-              <div className="btn-group mr-2" role="group" aria-label="First group">
-                <button type="button" className="btn btn-secondary">1</button>
-                <button type="button" className="btn btn-secondary">2</button>
-                <button type="button" className="btn btn-secondary">3</button>
-                <button type="button" className="btn btn-secondary">4</button>
-              </div>
-              <div className="input-group">
-                <span className="input-group-addon" id="btnGroupAddon">@</span>
-                <input type="text" className="form-control" placeholder="Input group example" aria-describedby="btnGroupAddon" />
-              </div>
-            </div>
-
-            <div className="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-              <div className="btn-group" role="group" aria-label="First group">
-                <button type="button" className="btn btn-secondary">1</button>
-                <button type="button" className="btn btn-secondary">2</button>
-                <button type="button" className="btn btn-secondary">3</button>
-                <button type="button" className="btn btn-secondary">4</button>
-              </div>
-              <div className="input-group">
-                <span className="input-group-addon" id="btnGroupAddon2">@</span>
-                <input type="text" className="form-control" placeholder="Input group example" aria-describedby="btnGroupAddon2" />
-              </div>
-            </div>
-          </Col>
-        </Row>
-        <Row>
-          <Col lg="12" md="12" xs="12">
-            <HtmlCodeBlock html={`
-            <div className="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
-              <div className="btn-group mr-2" role="group" aria-label="First group">
-                <button type="button" className="btn btn-secondary">1</button>
-                <button type="button" className="btn btn-secondary">2</button>
-                <button type="button" className="btn btn-secondary">3</button>
-                <button type="button" className="btn btn-secondary">4</button>
-              </div>
-              <div className="input-group">
-                <span className="input-group-addon" id="btnGroupAddon">@</span>
-                <input type="text" className="form-control" placeholder="Input group example" aria-describedby="btnGroupAddon" />
-              </div>
-            </div>
-
-            <div className="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-              <div className="btn-group" role="group" aria-label="First group">
-                <button type="button" className="btn btn-secondary">1</button>
-                <button type="button" className="btn btn-secondary">2</button>
-                <button type="button" className="btn btn-secondary">3</button>
-                <button type="button" className="btn btn-secondary">4</button>
-              </div>
-              <div className="input-group">
-                <span className="input-group-addon" id="btnGroupAddon2">@</span>
-                <input type="text" className="form-control" placeholder="Input group example" aria-describedby="btnGroupAddon2" />
-              </div>
-            </div>
-            `}
-            />
-          </Col>
-        </Row>
-      </Container>
-    );
-  }
-}
-
 // Sizing
-class ButtonGroupExample4 extends React.Component {
+class ButtonGroupExample3 extends React.Component {
   render() {
     return (
       <Container style={{paddingLeft: '0px', paddingRight: '0px', marginTop: '15px', marginBottom: '15px'}} fluid>
@@ -187,7 +139,7 @@ class ButtonGroupExample4 extends React.Component {
         </Row>
         <Row>
           <Col lg="12" md="12" xs="12">
-            <HtmlCodeBlock html={`
+            <ReactCodeBlock react={`
             <ButtonGroup size="lg">
               <Button>Left</Button>
               <Button>Middle</Button>
@@ -215,7 +167,22 @@ class ButtonGroupExample4 extends React.Component {
 }
 
 // nesting
-class ButtonGroupExample5 extends React.Component {
+class ButtonGroupExample4 extends React.Component {
+  constructor (props) {
+    super(props);
+
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      dropdownOpen: false
+    };
+  }
+
+  toggle() {
+    this.setState({
+      dropdownOpen: !this.state.dropdownOpen
+    });
+  }
+
   render() {
     return (
       <Container style={{paddingLeft: '0px', paddingRight: '0px', marginTop: '15px', marginBottom: '15px'}} fluid>
@@ -224,7 +191,7 @@ class ButtonGroupExample5 extends React.Component {
             <ButtonGroup>
               <Button>1</Button>
               <Button>2</Button>
-              <ButtonDropdown isOpen='false' toggle='false'>
+              <ButtonDropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
                 <DropdownToggle caret>
                   Dropdown
                 </DropdownToggle>
@@ -238,7 +205,7 @@ class ButtonGroupExample5 extends React.Component {
         </Row>
         <Row>
           <Col lg="12" md="12" xs="12">
-            <HtmlCodeBlock html={`
+            <ReactCodeBlock react={`
             <ButtonGroup>
               <Button>1</Button>
               <Button>2</Button>
@@ -262,7 +229,22 @@ class ButtonGroupExample5 extends React.Component {
 }
 
 // vertical
-class ButtonGroupExample6 extends React.Component {
+class ButtonGroupExample5 extends React.Component {
+  constructor (props) {
+    super(props);
+
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      dropdownOpen: false
+    };
+  }
+
+  toggle() {
+    this.setState({
+      dropdownOpen: !this.state.dropdownOpen
+    });
+  }
+
   render() {
     return (
       <Container style={{paddingLeft: '0px', paddingRight: '0px', marginTop: '15px', marginBottom: '15px'}} fluid>
@@ -271,7 +253,7 @@ class ButtonGroupExample6 extends React.Component {
           <ButtonGroup vertical>
             <Button>1</Button>
             <Button>2</Button>
-            <ButtonDropdown isOpen='false' toggle='false'>
+            <ButtonDropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
               <DropdownToggle caret>
                 Dropdown
               </DropdownToggle>
@@ -285,7 +267,7 @@ class ButtonGroupExample6 extends React.Component {
         </Row>
         <Row>
           <Col lg="12" md="12" xs="12">
-            <HtmlCodeBlock html={`
+            <ReactCodeBlock react={`
             <ButtonGroup vertical>
               <Button>1</Button>
               <Button>2</Button>
@@ -308,4 +290,5 @@ class ButtonGroupExample6 extends React.Component {
   }
 }
 
-export default { ButtonGroupExample1, ButtonGroupExample2, ButtonGroupExample3, ButtonGroupExample4, ButtonGroupExample5, ButtonGroupExample6 };
+export default { ButtonGroupExample1, ButtonGroupExample1Properties, ButtonGroupExample2,
+  ButtonGroupExample3, ButtonGroupExample4, ButtonGroupExample5 };
