@@ -5,7 +5,8 @@ import {
   Dropdown,
   DropdownToggle,
   DropdownItem,
-  DropdownMenu
+  DropdownMenu,
+  Progress
 } from 'reactstrap'; // change to aurora import
 import HtmlCodeBlock from '../components/HtmlCodeBlock';
 
@@ -188,9 +189,201 @@ class Dropdown3 extends React.Component {
     }
 }
 
+class Progress1 extends React.Component {
+    render() { 
+        return(
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <div>
+                <div className="text-center">0%</div>
+                <Progress />
+                <div className="text-center">25%</div>
+                <Progress value="25" />
+                <div className="text-center">50%</div>
+                <Progress value={50} />
+                <div className="text-center">75%</div>
+                <Progress value={75} />
+                <div className="text-center">100%</div>
+                <Progress value="100" />
+                <div className="text-center">Multiple bars</div>
+                <Progress multi>
+                    <Progress bar value="15" />
+                    <Progress bar color="success" value="30" />
+                    <Progress bar color="info" value="25" />
+                    <Progress bar color="warning" value="20" />
+                    <Progress bar color="danger" value="5" />
+                </Progress>
+            </div>
+                <HtmlCodeBlock html={`
+<div>
+    <div className="text-center">0%</div>
+    <Progress />
+    <div className="text-center">25%</div>
+    <Progress value="25" />
+    <div className="text-center">50%</div>
+    <Progress value={50} />
+    <div className="text-center">75%</div>
+    <Progress value={75} />
+    <div className="text-center">100%</div>
+    <Progress value="100" />
+    <div className="text-center">Multiple bars</div>
+    <Progress multi>
+        <Progress bar value="15" />
+        <Progress bar color="success" value="30" />
+        <Progress bar color="info" value="25" />
+        <Progress bar color="warning" value="20" />
+        <Progress bar color="danger" value="5" />
+    </Progress>
+</div>
+                `} />
+        </Container>
+        );
+    }
+}
+
+class Progress2 extends React.Component {
+    render() { 
+        return(
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <div>
+                <Progress style={{marginBottom: "5px"}} value={2 * 5} />
+                <Progress style={{marginBottom: "5px"}} color="success" value="25" />
+                <Progress style={{marginBottom: "5px"}} color="info" value={50} />
+                <Progress style={{marginBottom: "5px"}} color="warning" value={75} />
+                <Progress color="danger" value="100" />
+            </div>
+                <HtmlCodeBlock html={`
+<div>
+    <Progress value={2 * 5} />
+    <Progress color="success" value="25" />
+    <Progress color="info" value={50} />
+    <Progress color="warning" value={75} />
+    <Progress color="danger" value="100" />
+</div>
+                `} />
+        </Container>
+        );
+    }
+}
+
+class Progress3 extends React.Component {
+    render() { 
+        return(
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <div>
+                <Progress style={{marginBottom: "5px"}} value="25">25%</Progress>
+                <Progress style={{marginBottom: "5px"}} value={50}>1/2</Progress>
+                <Progress style={{marginBottom: "5px"}} value={75}>You're almost there!</Progress>
+                <Progress style={{marginBottom: "5px"}} color="success" value="100">You did it!</Progress>
+                <Progress multi>
+                    <Progress bar value="15">Meh</Progress>
+                    <Progress bar color="success" value="30">Wow!</Progress>
+                    <Progress bar color="info" value="25">Cool</Progress>
+                    <Progress bar color="warning" value="20">20%</Progress>
+                    <Progress bar color="danger" value="5">!!</Progress>
+                </Progress>
+            </div>
+                <HtmlCodeBlock html={`
+<div>
+    <Progress value="25">25%</Progress>
+    <Progress value={50}>1/2</Progress>
+    <Progress value={75}>You're almost there!</Progress>
+    <Progress color="success" value="100">You did it!</Progress>
+    <Progress multi>
+        <Progress bar value="15">Meh</Progress>
+        <Progress bar color="success" value="30">Wow!</Progress>
+        <Progress bar color="info" value="25">Cool</Progress>
+        <Progress bar color="warning" value="20">20%</Progress>
+        <Progress bar color="danger" value="5">!!</Progress>
+    </Progress>
+</div>
+                `} />
+        </Container>
+        );
+    }
+}
+
+class Progress4 extends React.Component {
+    render() { 
+        return(
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <div>
+                <Progress style={{marginBottom: "5px"}} striped value={2 * 5} />
+                <Progress style={{marginBottom: "5px"}} striped color="success" value="25" />
+                <Progress style={{marginBottom: "5px"}} striped color="info" value={50} />
+                <Progress style={{marginBottom: "5px"}} striped color="warning" value={75} />
+                <Progress style={{marginBottom: "5px"}} striped color="danger" value="100" />
+                <Progress multi>
+                    <Progress striped bar value="10" />
+                    <Progress striped bar color="success" value="30" />
+                    <Progress striped bar color="warning" value="20" />
+                    <Progress striped bar color="danger" value="20" />
+                </Progress>
+            </div>
+                <HtmlCodeBlock html={`
+<div>
+    <Progress striped value={2 * 5} />
+    <Progress striped color="success" value="25" />
+    <Progress striped color="info" value={50} />
+    <Progress striped color="warning" value={75} />
+    <Progress striped color="danger" value="100" />
+    <Progress multi>
+        <Progress striped bar value="10" />
+        <Progress striped bar color="success" value="30" />
+        <Progress striped bar color="warning" value="20" />
+        <Progress striped bar color="danger" value="20" />
+    </Progress>
+</div>
+                `} />
+        </Container>
+        );
+    }
+}
+
+class Progress5 extends React.Component {
+    render() { 
+        return(
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <div>
+                <Progress style={{marginBottom: "5px"}} animated value={2 * 5} />
+                <Progress style={{marginBottom: "5px"}} animated color="success" value="25" />
+                <Progress style={{marginBottom: "5px"}} animated color="info" value={50} />
+                <Progress style={{marginBottom: "5px"}} animated color="warning" value={75} />
+                <Progress style={{marginBottom: "5px"}} animated color="danger" value="100" />
+                <Progress multi>
+                    <Progress animated bar value="10" />
+                    <Progress animated bar color="success" value="30" />
+                    <Progress animated bar color="warning" value="20" />
+                    <Progress animated bar color="danger" value="20" />
+                </Progress>
+            </div>
+                <HtmlCodeBlock html={`
+<div>
+    <Progress animated value={2 * 5} />
+    <Progress animated color="success" value="25" />
+    <Progress animated color="info" value={50} />
+    <Progress animated color="warning" value={75} />
+    <Progress animated color="danger" value="100" />
+    <Progress multi>
+        <Progress animated bar value="10" />
+        <Progress animated bar color="success" value="30" />
+        <Progress animated bar color="warning" value="20" />
+        <Progress animated bar color="danger" value="20" />
+    </Progress>
+</div>
+                `} />
+        </Container>
+        );
+    }
+}
+
 
   export { 
     Dropdown1,
     Dropdown2,
-    Dropdown3
+    Dropdown3,
+    Progress1,
+    Progress2,
+    Progress3,
+    Progress4,
+    Progress5
   };

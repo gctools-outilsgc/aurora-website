@@ -5,7 +5,8 @@ import {
   Dropdown,
   DropdownToggle,
   DropdownItem,
-  DropdownMenu
+  DropdownMenu,
+  Progress
 } from 'reactstrap'; // change to aurora import
 import HtmlCodeBlock from '../components/HtmlCodeBlock';
 
@@ -188,9 +189,176 @@ class Dropdown3 extends React.Component {
     }
 }
 
+class Progress1 extends React.Component {
+    render() { 
+        return(
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <div>
+                <div className="text-center">0%</div>
+                <Progress />
+                <div className="text-center">25%</div>
+                <Progress value="25" />
+                <div className="text-center">50%</div>
+                <Progress value={50} />
+                <div className="text-center">75%</div>
+                <Progress value={75} />
+                <div className="text-center">100%</div>
+                <Progress value="100" />
+            </div>
+                <HtmlCodeBlock html={`
+<div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+                `} />
+        </Container>
+        );
+    }
+}
+
+class Progress2 extends React.Component {
+    render() { 
+        return(
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <div>
+                <Progress style={{marginBottom: "5px"}} color="success" value="25" />
+                <Progress style={{marginBottom: "5px"}} color="info" value={50} />
+                <Progress style={{marginBottom: "5px"}} color="warning" value={75} />
+                <Progress color="danger" value="100" />
+            </div>
+                <HtmlCodeBlock html={`
+<div class="progress">
+    <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+    <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+    <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+    <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+                `} />
+        </Container>
+        );
+    }
+}
+
+class Progress3 extends React.Component {
+    render() { 
+        return(
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <div>
+                <Progress style={{marginBottom: "5px"}} value="25">25%</Progress>
+            </div>
+                <HtmlCodeBlock html={`
+<div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+</div>
+                `} />
+        </Container>
+        );
+    }
+}
+
+class Progress4 extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.toggle = this.toggle.bind(this);
+        this.state = {
+            dropdownOpen: false
+        };
+    }
+
+    toggle() {
+        this.setState(prevState => ({
+            dropdownOpen: !prevState.dropdownOpen
+        }));
+    }
+    render() { 
+        return(
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <div>
+                <Progress style={{marginBottom: "5px"}} striped value={2 * 5} />
+                <Progress style={{marginBottom: "5px"}} striped color="success" value="25" />
+                <Progress style={{marginBottom: "5px"}} striped color="info" value={50} />
+                <Progress style={{marginBottom: "5px"}} striped color="warning" value={75} />
+                <Progress style={{marginBottom: "5px"}} striped color="danger" value="100" />
+            </div>
+                <HtmlCodeBlock html={`
+<div class="progress">
+    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+    <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+    <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+</div>  
+                `} />
+        </Container>
+        );
+    }
+}
+
+class Progress5 extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.toggle = this.toggle.bind(this);
+        this.state = {
+            dropdownOpen: false
+        };
+    }
+
+    toggle() {
+        this.setState(prevState => ({
+            dropdownOpen: !prevState.dropdownOpen
+        }));
+    }
+    render() { 
+        return(
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <div>
+                <Progress style={{marginBottom: "5px"}} animated value={75} />
+            </div>
+                <HtmlCodeBlock html={`
+<div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+</div>
+                `} />
+        </Container>
+        );
+    }
+}
+
 
   export { 
     Dropdown1,
     Dropdown2,
-    Dropdown3
+    Dropdown3,
+    Progress1,
+    Progress2,
+    Progress3,
+    Progress4,
+    Progress5
   };
