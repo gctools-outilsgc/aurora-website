@@ -12,6 +12,8 @@ import Helmet from 'react-helmet';
 import Footer from '../components/Footer';
 import * as ReactExamples from '../code-examples/react-examples';
 import * as HtmlExamples from '../code-examples/html-examples';
+import * as ReactButtonExamples from '../code-examples/reactbuttons-examples';
+import * as ReactButtonGroupExamples from '../code-examples/reactbutton-group-examples';
 
 class MarkdownRenderer extends React.Component {
   render() {
@@ -30,6 +32,12 @@ class MarkdownRenderer extends React.Component {
         htmlcard2: HtmlExamples.CardExample2,
         htmlcard3: HtmlExamples.CardExample3,
         htmlcard4: HtmlExamples.CardExample4,
+        reactbuttonexample1: ReactButtonExamples.ButtonExample1, reactbuttonexample2: ReactButtonExamples.ButtonExample2, reactbuttonexample3: ReactButtonExamples.ButtonExample2,
+        reactbuttonexample4: ReactButtonExamples.ButtonExample4, reactbuttonexample5: ReactButtonExamples.ButtonExample5, reactbuttonexample6: ReactButtonExamples.ButtonExample6,
+        reactbuttonexample7: ReactButtonExamples.ButtonExample7, reactbuttonexample8: ReactButtonExamples.ButtonExample8, reactbuttonexample9: ReactButtonExamples.ButtonExample9,
+        reactbuttonexample10: ReactButtonExamples.ButtonExample10, reactbuttonExample11: ReactButtonExamples.ButtonExample11, reactbuttonexample12: ReactButtonExamples.ButtonExample12,
+        reactbuttongroupexample1: ReactButtonGroupExamples.ButtonGroupExample1, reactbuttongroupexample2: ReactButtonGroupExamples.ButtonGroupExample2, reactbuttongroupexample3: ReactButtonGroupExamples.ButtonGroupExample3,
+        reactbuttongroupexample4: ReactButtonGroupExamples.ButtonGroupExample4, reactbuttongroupexample5: ReactButtonGroupExamples.ButtonGroupExample5, reactbuttongroupexample6: ReactButtonGroupExamples.ButtonGroupExample6,
         // REACT COMPONENT EXAMPLES
         reactalert1: ReactExamples.AlertExample1, 
         reactalert2: ReactExamples.AlertExample2, 
