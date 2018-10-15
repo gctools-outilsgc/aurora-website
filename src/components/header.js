@@ -75,8 +75,13 @@ const Header = ({ path }) => {
                     </Link>
                   </NavItem>
                   <NavItem>
-                    <Link to="/component" className={(path == "/component") ? "nav-link active-header-tab" : "nav-link"}>
+                    <Link to="" className={(path == "") ? "" : "nav-link"}>
                       {t("Components")}
+                    </Link>
+                  </NavItem>
+                  <NavItem>
+                    <Link to="/component" className={(path == "/component") ? "nav-link active-header-tab" : "nav-link"}>
+                      {t("Design Principles")}
                     </Link>
                   </NavItem>
                   <NavItem>
