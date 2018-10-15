@@ -21,6 +21,7 @@ class MarkdownRenderer extends React.Component {
       createElement: React.createElement,
       components: {
         // HTML COMPONENT EXAMPLES
+        htmlmodal1: HtmlExamples1.Modal1,
         htmlpagination1: HtmlExamples1.Pagination1,
         htmlpagination2: HtmlExamples1.Pagination2,
         htmlpagination3: HtmlExamples1.Pagination3,
@@ -45,6 +46,8 @@ class MarkdownRenderer extends React.Component {
         htmlcard3: HtmlExamples.CardExample3,
         htmlcard4: HtmlExamples.CardExample4,
         // REACT COMPONENT EXAMPLES
+        reactmodal1: ReactExamples1.Modal1,
+        reactmodal2: ReactExamples1.Modal2,
         reactpagination1: ReactExamples1.Pagination1,
         reactpagination2: ReactExamples1.Pagination2,
         reactpagination3: ReactExamples1.Pagination3,

@@ -9,7 +9,12 @@ import {
   Progress,
   Pagination,
   PaginationItem,
-  PaginationLink
+  PaginationLink,
+  Modal,
+  ModalBody,
+  ModalFooter,
+  ModalHeader,
+  Button
 } from 'reactstrap'; // change to aurora import
 import HtmlCodeBlock from '../components/HtmlCodeBlock';
 
@@ -647,6 +652,148 @@ class Pagination4 extends React.Component {
     }
 }
 
+class Modal1 extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+          modal: false
+        };
+    
+        this.toggle = this.toggle.bind(this);
+    }
+    
+    toggle() {
+        this.setState({
+            modal: !this.state.modal
+        });
+    }
+    
+      render() {
+        return (
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <div>
+                <Button color="danger" onClick={this.toggle}>Modal</Button>
+                <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+                <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
+                <ModalBody>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </ModalBody>
+                <ModalFooter>
+                    <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}
+                    <Button color="secondary" onClick={this.toggle}>Cancel</Button>
+                </ModalFooter>
+                </Modal>
+            </div>
+                <HtmlCodeBlock html={`
+<div>
+    <Button color="danger" onClick={this.toggle}>Modal</Button>
+    <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+    <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
+    <ModalBody>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </ModalBody>
+    <ModalFooter>
+        <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}
+        <Button color="secondary" onClick={this.toggle}>Cancel</Button>
+    </ModalFooter>
+    </Modal>
+</div>
+                `} />
+        </Container>
+        );
+    }
+}
+
+class Modal2 extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+          modal: false,
+          nestedModal: false,
+          closeAll: false
+        };
+    
+        this.toggle = this.toggle.bind(this);
+        this.toggleNested = this.toggleNested.bind(this);
+        this.toggleAll = this.toggleAll.bind(this);
+    }
+
+    toggle() {
+        this.setState({
+            modal: !this.state.modal
+        });
+    }
+
+    toggleNested() {
+        this.setState({
+            nestedModal: !this.state.nestedModal,
+            closeAll: false
+        });
+    }
+
+    toggleAll() {
+        this.setState({
+            nestedModal: !this.state.nestedModal,
+            closeAll: true
+        });
+    }
+
+      render() {
+        return (
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <div>
+                <Button color="danger" onClick={this.toggle}>Launch Modal with Nested Example</Button>
+                <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+                <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
+                <ModalBody>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <br />
+                    <Button color="success" onClick={this.toggleNested}>Show Nested Modal</Button>
+                    <Modal isOpen={this.state.nestedModal} toggle={this.toggleNested} onClosed={this.state.closeAll ? this.toggle : undefined}>
+                    <ModalHeader>Nested Modal title</ModalHeader>
+                    <ModalBody>Stuff and things</ModalBody>
+                    <ModalFooter>
+                        <Button color="primary" onClick={this.toggleNested}>Done</Button>{' '}
+                        <Button color="secondary" onClick={this.toggleAll}>All Done</Button>
+                    </ModalFooter>
+                    </Modal>
+                </ModalBody>
+                <ModalFooter>
+                    <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}
+                    <Button color="secondary" onClick={this.toggle}>Cancel</Button>
+                </ModalFooter>
+                </Modal>
+            </div>
+                <HtmlCodeBlock html={`
+<div>
+    <Button color="danger" onClick={this.toggle}>Launch Modal with Nested Example</Button>
+    <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+    <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
+    <ModalBody>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <br />
+        <Button color="success" onClick={this.toggleNested}>Show Nested Modal</Button>
+        <Modal isOpen={this.state.nestedModal} toggle={this.toggleNested} onClosed={this.state.closeAll ? this.toggle : undefined}>
+        <ModalHeader>Nested Modal title</ModalHeader>
+        <ModalBody>Stuff and things</ModalBody>
+        <ModalFooter>
+            <Button color="primary" onClick={this.toggleNested}>Done</Button>{' '}
+            <Button color="secondary" onClick={this.toggleAll}>All Done</Button>
+        </ModalFooter>
+        </Modal>
+    </ModalBody>
+    <ModalFooter>
+        <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}
+        <Button color="secondary" onClick={this.toggle}>Cancel</Button>
+    </ModalFooter>
+    </Modal>
+</div>
+                `} />
+        </Container>
+        );
+    }
+}
+
 
   export { 
     Dropdown1,
@@ -660,5 +807,7 @@ class Pagination4 extends React.Component {
     Pagination1,
     Pagination2,
     Pagination3,
-    Pagination4
+    Pagination4,
+    Modal1,
+    Modal2
   };
