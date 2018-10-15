@@ -1,5 +1,7 @@
 import React from 'react';
 import {
+  Breadcrumb, 
+  BreadcrumbItem,
   Button,
   Badge,
   Alert,
@@ -367,11 +369,68 @@ export default class Example extends React.Component {
   }
 }
 
+class BreadcrumbExample1 extends React.Component {
+  render() {
+    return(
+      <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+        <Row>
+          <Col lg="12" md="12" xs="12">
+            <div>
+              <Breadcrumb>
+                <BreadcrumbItem active>Home</BreadcrumbItem>
+              </Breadcrumb>
+              <Breadcrumb>
+                <BreadcrumbItem><a href="#">Home</a></BreadcrumbItem>
+                <BreadcrumbItem active>Library</BreadcrumbItem>
+              </Breadcrumb>
+              <Breadcrumb>
+                <BreadcrumbItem><a href="#">Home</a></BreadcrumbItem>
+                <BreadcrumbItem><a href="#">Library</a></BreadcrumbItem>
+                <BreadcrumbItem active>Data</BreadcrumbItem>
+              </Breadcrumb>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col lg="12" md="12" xs="12">
+            <ReactCodeBlock react={`
+import React from 'react';
+import { Breadcrumb, BreadcrumbItem } from 'aurora-import';
+
+const Example = (props) => {
+  return (
+    <div>
+      <Breadcrumb>
+        <BreadcrumbItem active>Home</BreadcrumbItem>
+      </Breadcrumb>
+      <Breadcrumb>
+        <BreadcrumbItem><a href="#">Home</a></BreadcrumbItem>
+        <BreadcrumbItem active>Library</BreadcrumbItem>
+      </Breadcrumb>
+      <Breadcrumb>
+        <BreadcrumbItem><a href="#">Home</a></BreadcrumbItem>
+        <BreadcrumbItem><a href="#">Library</a></BreadcrumbItem>
+        <BreadcrumbItem active>Data</BreadcrumbItem>
+      </Breadcrumb>
+    </div>
+  );
+};
+
+export default Example;
+            `} />
+          </Col>
+        </Row>
+      </Container>
+    );
+  }
+}
+
 export { 
   AlertExample1,
   AlertExample2,
   AlertExample3,
   BadgeExample1,
   BadgeExample2,
-  BadgeExample3
+  BadgeExample3,
+  BreadcrumbExample1
 };

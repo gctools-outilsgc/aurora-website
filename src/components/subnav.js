@@ -13,23 +13,30 @@ class Subnav extends React.Component {
 	constructor(props) {
     super(props);
     // re do better later!
-    if (props.nameEn.toLowerCase() === props.path.split('/')[2].split('-')[0]) {
-      this.state = {
-        dropdownOpen: true
-		  };
+    if (props.path.split('/')[2]) {
+      if (props.nameEn.toLowerCase() === props.path.split('/')[2].split('-')[0]) {
+          this.state = {
+            dropdownOpen: true
+          };
+        } else {
+          this.state = {
+            dropdownOpen: false
+          };
+        }
+        this.toggle = this.toggle.bind(this);
     } else {
       this.state = {
-        dropdownOpen: false
-		  };
-    }
-		this.toggle = this.toggle.bind(this);
-	}
+        dropdownOpen: true
+      };
+    }  
+  }
 
 	toggle() {
 		this.setState(prevState => ({
 			dropdownOpen: !prevState.dropdownOpen
 		}));
-	}
+  }
+  
 	render() {
 
 		const sortedFiles = this.props.files.sort((a, b) =>
