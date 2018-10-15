@@ -61,7 +61,9 @@ class CodeBlock extends React.Component {
                 <NavLink
                 href="#"
                 onClick={() => this.changeOutput("react")}
-                className={(!(this.state.output === "react")) ? "" : "active"}>
+                className={(!(this.state.output === "react")) ? "" : "active"}
+                disabled={(this.props.disableReact) ? true : false}
+                >
                   React
                 </NavLink>
               </NavItem>
@@ -105,12 +107,14 @@ CodeBlock.propTypes = {
   defaultOutput: PropTypes.string,
   html: PropTypes.string,
   react: PropTypes.string,
-  isShowingCode: PropTypes.bool
+  isShowingCode: PropTypes.bool,
+  disableReact: PropTypes.bool
 };
 
 CodeBlock.defaultProps = {
   defaultOutput: "html",
-  isShowingCode: true
+  isShowingCode: true,
+  disableReact: false
 }
 
 

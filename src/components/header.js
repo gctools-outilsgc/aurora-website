@@ -23,6 +23,9 @@ const Header = ({ path }) => {
   /* In the v2 version if you clicked away active status was lost.
   */
   if (path) {
+    if (path.length >= 13) {
+      if (path.substr(0,13) === "/devcomponent") path = "/devcomponent";
+    }
     if (path.length >= 10) {
       if (path.substr(0,10) === "/component") path = "/component";
     }
@@ -75,13 +78,13 @@ const Header = ({ path }) => {
                     </Link>
                   </NavItem>
                   <NavItem>
-                    <Link to="" className={(path == "") ? "" : "nav-link"}>
+                    <Link to="/devcomponent/getting-started" className={(path == "/devcomponent") ? "nav-link active-header-tab" : "nav-link"}>
                       {t("Components")}
                     </Link>
                   </NavItem>
                   <NavItem>
                     <Link to="/component" className={(path == "/component") ? "nav-link active-header-tab" : "nav-link"}>
-                      {t("Design Principles")}
+                      Design
                     </Link>
                   </NavItem>
                   <NavItem>

@@ -106,6 +106,26 @@ export const pageQuery = graphql`
         lang
       }
     }
+    devcomponent:allMarkdownRemark(
+      filter: {
+        frontmatter: {path: {regex: "/\/devcomponent\//"}}
+      },
+      sort:{
+        fields:[frontmatter___subnav]
+      }
+    ){
+      totalCount
+        edges{
+          node {
+            frontmatter {
+              title
+              path
+              lang
+              subnav
+            }
+          }
+      }
+    }
     component:allMarkdownRemark(
       filter: {
         frontmatter: {path: {regex: "/\/component\//"}}
