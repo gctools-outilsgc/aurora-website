@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
 import { I18n } from "react-i18next";
 
 /** Component that holds code in html and react/jsx with the ability to copy the code */
-class ReactCodeBlock extends React.Component {
+class HtmlCodeBlock extends React.Component {
   /**
    * Take the inputs as well as initialize the needed state.
    * @param {props} { defaultOutput, html, react, isShowingCode } - The props not counting the i18n props
@@ -42,7 +42,7 @@ class ReactCodeBlock extends React.Component {
       <Container>
         <Row className="codeblock">
           <Col md="12" style={{ "width": "100%" }}>
-            <CopyToClipboard text={this.props.react}>
+            <CopyToClipboard text={this.props.html}>
               <Button style={{'position':'absolute', 'right':'20px', 'top':'12px'}} color="primary" size="sm" outline onClick={this.copy} className="float-right">
                 <I18n>
                   {
@@ -54,8 +54,8 @@ class ReactCodeBlock extends React.Component {
               </Button>
             </CopyToClipboard>
             <pre style={{'padding-top':'40px'}}>
-              <PrismCode className="language-jsx">
-                {this.props.react}
+              <PrismCode className="language-html">
+                {this.props.html}
               </PrismCode>
             </pre>
           </Col>
@@ -66,8 +66,8 @@ class ReactCodeBlock extends React.Component {
 }
 
 
-ReactCodeBlock.propTypes = {
-  react: PropTypes.string
+HtmlCodeBlock.propTypes = {
+  html: PropTypes.string
 };
 
-export default ReactCodeBlock;
+export default HtmlCodeBlock;

@@ -5,9 +5,10 @@ import {
   Row, 
   Col
 } from 'reactstrap'; // change to aurora import
-import ReactCodeblock from '../components/ReactCodeblock';
+import ReactCodeBlock from '../components/ReactCodeBlock';
 
-class AlertExample1 extends React.Component {
+
+class ReactAlertExample1 extends React.Component {
   render() {
     return(
       <Container fluid>
@@ -43,7 +44,7 @@ class AlertExample1 extends React.Component {
         </Row>
         <Row>
           <Col lg="12" md="12" xs="12">
-            <ReactCodeblock react={`
+            <ReactCodeBlock react={`
 import React from 'react';
 import { Alert } from 'aurora-final-export';
 
@@ -87,4 +88,4 @@ export default Example;
   }
 }
 
-export { AlertExample1 };
+export { ReactAlertExample1 };
