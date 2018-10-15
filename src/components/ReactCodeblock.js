@@ -53,7 +53,7 @@ class ReactCodeBlock extends React.Component {
                 </I18n>
               </Button>
             </CopyToClipboard>
-            <pre style={{'padding-top':'40px'}}>
+            <pre>
               <PrismCode className="language-jsx">
                 {this.props.react}
               </PrismCode>

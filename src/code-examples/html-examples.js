@@ -7,6 +7,7 @@ import {
 } from 'reactstrap'; // change to aurora import
 import HtmlCodeBlock from '../components/HtmlCodeBlock';
 
+/** ALERTS */
 
 class AlertExample1 extends React.Component {
   render() {
@@ -141,8 +142,110 @@ class AlertExample3 extends React.Component {
   }
 }
 
+/** BADGE */
+
+class BadgeExample1 extends React.Component {
+  render() {
+    return(
+      <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+        <Row>
+          <Col lg="12" md="12" xs="12">
+            <div>
+              <h1>Example heading <span className="badge badge-secondary">New</span></h1>
+              <h2>Example heading <span className="badge badge-secondary">New</span></h2>
+              <h3>Example heading <span className="badge badge-secondary">New</span></h3>
+              <h4>Example heading <span className="badge badge-secondary">New</span></h4>
+              <h5>Example heading <span className="badge badge-secondary">New</span></h5>
+              <h6>Example heading <span className="badge badge-secondary">New</span></h6>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col lg="12" md="12" xs="12">
+            <HtmlCodeBlock html={`
+<h1>Example heading <span class="badge badge-secondary">New</span></h1>
+<h2>Example heading <span class="badge badge-secondary">New</span></h2>
+<h3>Example heading <span class="badge badge-secondary">New</span></h3>
+<h4>Example heading <span class="badge badge-secondary">New</span></h4>
+<h5>Example heading <span class="badge badge-secondary">New</span></h5>
+<h6>Example heading <span class="badge badge-secondary">New</span></h6>
+            `} />
+          </Col>
+        </Row>
+      </Container>
+    );
+  }
+}
+
+class BadgeExample2 extends React.Component {
+  render() {
+    return(
+      <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+        <Row>
+          <Col lg="12" md="12" xs="12">
+            <div>
+            <button type="button" className="btn btn-primary">
+              Notifications <span className="badge badge-light">4</span>
+            </button>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col lg="12" md="12" xs="12">
+            <HtmlCodeBlock html={`
+<button type="button" class="btn btn-primary">
+  Notifications <span class="badge badge-light">4</span>
+</button>
+            `} />
+          </Col>
+        </Row>
+      </Container>
+    );
+  }
+}
+
+class BadgeExample3 extends React.Component {
+  render() {
+    return(
+      <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+        <Row>
+          <Col lg="12" md="12" xs="12">
+            <div>
+              <span className="badge badge-primary">Primary</span>
+              <span className="badge badge-secondary">Secondary</span>
+              <span className="badge badge-success">Success</span>
+              <span className="badge badge-danger">Danger</span>
+              <span className="badge badge-warning">Warning</span>
+              <span className="badge badge-info">Info</span>
+              <span className="badge badge-light">Light</span>
+              <span className="badge badge-dark">Dark</span>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col lg="12" md="12" xs="12">
+            <HtmlCodeBlock html={`
+<span class="badge badge-primary">Primary</span>
+<span class="badge badge-secondary">Secondary</span>
+<span class="badge badge-success">Success</span>
+<span class="badge badge-danger">Danger</span>
+<span class="badge badge-warning">Warning</span>
+<span class="badge badge-info">Info</span>
+<span class="badge badge-light">Light</span>
+<span class="badge badge-dark">Dark</span>
+            `} />
+          </Col>
+        </Row>
+      </Container>
+    );
+  }
+}
+
 export { 
   AlertExample1,
   AlertExample2,
-  AlertExample3
+  AlertExample3,
+  BadgeExample1,
+  BadgeExample2,
+  BadgeExample3
 };
