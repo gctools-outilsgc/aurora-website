@@ -6,7 +6,10 @@ import {
   DropdownToggle,
   DropdownItem,
   DropdownMenu,
-  Progress
+  Progress,
+  Pagination,
+  PaginationItem,
+  PaginationLink
 } from 'reactstrap'; // change to aurora import
 import HtmlCodeBlock from '../components/HtmlCodeBlock';
 
@@ -376,6 +379,274 @@ class Progress5 extends React.Component {
     }
 }
 
+class Pagination1 extends React.Component {
+    render() { 
+        return(
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <Pagination aria-label="Page navigation example">
+                <PaginationItem>
+                    <PaginationLink previous href="#" />
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        1
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        2
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        3
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        4
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        5
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink next href="#" />
+                </PaginationItem>
+            </Pagination>
+                <HtmlCodeBlock html={`
+<Pagination aria-label="Page navigation example">
+    <PaginationItem>
+        <PaginationLink previous href="#" />
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink href="#">
+            1
+        </PaginationLink>
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink href="#">
+            2
+        </PaginationLink>
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink href="#">
+            3
+        </PaginationLink>
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink href="#">
+            4
+        </PaginationLink>
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink href="#">
+            5
+        </PaginationLink>
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink next href="#" />
+    </PaginationItem>
+</Pagination>
+                `} />
+        </Container>
+        );
+    }
+}
+
+class Pagination2 extends React.Component {
+    render() { 
+        return(
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <Pagination aria-label="Page navigation example">
+                <PaginationItem disabled>
+                    <PaginationLink previous href="#" />
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        1
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        2
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        3
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        4
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        5
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink next href="#" />
+                </PaginationItem>
+            </Pagination>
+                <HtmlCodeBlock html={`
+<Pagination aria-label="Page navigation example">
+    <PaginationItem disabled>
+        <PaginationLink previous href="#" />
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink href="#">
+            1
+        </PaginationLink>
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink href="#">
+            2
+        </PaginationLink>
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink href="#">
+            3
+        </PaginationLink>
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink href="#">
+            4
+        </PaginationLink>
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink href="#">
+            5
+        </PaginationLink>
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink next href="#" />
+    </PaginationItem>
+</Pagination>
+                `} />
+        </Container>
+        );
+    }
+}
+
+class Pagination3 extends React.Component {
+    render() { 
+        return(
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <Pagination size="lg" aria-label="Page navigation example">
+                <PaginationItem>
+                    <PaginationLink previous href="#" />
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        1
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        2
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        3
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink next href="#" />
+                </PaginationItem>
+            </Pagination>
+                <HtmlCodeBlock html={`
+<Pagination size="lg" aria-label="Page navigation example">
+    <PaginationItem>
+        <PaginationLink previous href="#" />
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink href="#">
+            1
+        </PaginationLink>
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink href="#">
+            2
+        </PaginationLink>
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink href="#">
+            3
+        </PaginationLink>
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink next href="#" />
+    </PaginationItem>
+</Pagination>
+                `} />
+        </Container>
+        );
+    }
+}
+
+class Pagination4 extends React.Component {
+    render() { 
+        return(
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <Pagination aria-label="Page navigation example">
+                <PaginationItem>
+                    <PaginationLink previous href="#" />
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        1
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        2
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        3
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink next href="#" />
+                </PaginationItem>
+            </Pagination>
+                <HtmlCodeBlock html={`
+<Pagination aria-label="Page navigation example">
+    <PaginationItem>
+        <PaginationLink previous href="#" />
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink href="#">
+            1
+        </PaginationLink>
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink href="#">
+            2
+        </PaginationLink>
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink href="#">
+            3
+        </PaginationLink>
+    </PaginationItem>
+    <PaginationItem>
+        <PaginationLink next href="#" />
+    </PaginationItem>
+</Pagination>
+                `} />
+        </Container>
+        );
+    }
+}
+
 
   export { 
     Dropdown1,
@@ -385,5 +656,9 @@ class Progress5 extends React.Component {
     Progress2,
     Progress3,
     Progress4,
-    Progress5
+    Progress5,
+    Pagination1,
+    Pagination2,
+    Pagination3,
+    Pagination4
   };

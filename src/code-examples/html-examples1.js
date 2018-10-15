@@ -6,7 +6,10 @@ import {
   DropdownToggle,
   DropdownItem,
   DropdownMenu,
-  Progress
+  Progress,
+  Pagination,
+  PaginationItem,
+  PaginationLink
 } from 'reactstrap'; // change to aurora import
 import HtmlCodeBlock from '../components/HtmlCodeBlock';
 
@@ -351,6 +354,207 @@ class Progress5 extends React.Component {
     }
 }
 
+class Pagination1 extends React.Component {
+    render() { 
+        return(
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <Pagination aria-label="Page navigation example">
+                <PaginationItem>
+                    <PaginationLink previous href="#" />
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        1
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        2
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        3
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink next href="#" />
+                </PaginationItem>
+            </Pagination>
+                <HtmlCodeBlock html={`
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+            </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+                `} />
+        </Container>
+        );
+    }
+}
+
+class Pagination2 extends React.Component {
+    render() { 
+        return(
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <Pagination aria-label="Page navigation example">
+                <PaginationItem disabled>
+                    <PaginationLink href="#">
+                        Previous
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        1
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        2
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        3
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        Next
+                    </PaginationLink>
+                </PaginationItem>
+            </Pagination>
+                <HtmlCodeBlock html={`
+<nav aria-label="...">
+    <ul class="pagination">
+        <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item active">
+            <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+        </li>
+    </ul>
+</nav>
+                `} />
+        </Container>
+        );
+    }
+}
+
+class Pagination3 extends React.Component {
+    render() { 
+        return(
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <Pagination size="lg" aria-label="Page navigation example">
+                <PaginationItem>
+                    <PaginationLink previous href="#" />
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        1
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        2
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        3
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink next href="#" />
+                </PaginationItem>
+            </Pagination>
+                <HtmlCodeBlock html={`
+<nav aria-label="...">
+    <ul class="pagination pagination-lg">
+        <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+        </li>
+    </ul>
+</nav>
+                `} />
+        </Container>
+        );
+    }
+}
+
+class Pagination4 extends React.Component {
+    render() { 
+        return(
+        <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+            <Pagination aria-label="Page navigation example">
+                <PaginationItem>
+                    <PaginationLink previous href="#" />
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        1
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        2
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink href="#">
+                        3
+                    </PaginationLink>
+                </PaginationItem>
+                <PaginationItem>
+                    <PaginationLink next href="#" />
+                </PaginationItem>
+            </Pagination>
+                <HtmlCodeBlock html={`
+<nav aria-label="...">
+    <ul class="pagination">
+        <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item active">
+            <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+        </li>
+    </ul>
+</nav>
+                `} />
+        </Container>
+        );
+    }
+}
 
   export { 
     Dropdown1,
@@ -360,5 +564,9 @@ class Progress5 extends React.Component {
     Progress2,
     Progress3,
     Progress4,
-    Progress5
+    Progress5,
+    Pagination1,
+    Pagination2,
+    Pagination3,
+    Pagination4
   };
