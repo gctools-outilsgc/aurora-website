@@ -11,9 +11,9 @@ Alerts provide contextual feedback messages for user actions with the handful of
 <reactalert1 />
 
 ## Link color
-
+.
 <reactalert2 />
 
 ## Dismissing
-
+.
 <reactalert3 />
