@@ -1,5 +1,9 @@
 import React from 'react';
 import {
+  Breadcrumb, 
+  BreadcrumbItem,
+  Button,
+  Badge,
   Alert,
   Container, 
   Row, 
@@ -233,8 +237,200 @@ export default AlertExample;
   }
 }
 
+/** BADGE */
+
+class BadgeExample1 extends React.Component {
+  render() {
+    return(
+      <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+        <Row>
+          <Col lg="12" md="12" xs="12">
+            <div>
+              <h1>Heading <Badge color="secondary">New</Badge></h1>
+              <h2>Heading <Badge color="secondary">New</Badge></h2>
+              <h3>Heading <Badge color="secondary">New</Badge></h3>
+              <h4>Heading <Badge color="secondary">New</Badge></h4>
+              <h5>Heading <Badge color="secondary">New</Badge></h5>
+              <h6>Heading <Badge color="secondary">New</Badge></h6>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col lg="12" md="12" xs="12">
+            <ReactCodeBlock react={`
+import React from 'react';
+import { Badge } from 'aurora-import';
+
+export default class Example extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1>Heading <Badge color="secondary">New</Badge></h1>
+        <h2>Heading <Badge color="secondary">New</Badge></h2>
+        <h3>Heading <Badge color="secondary">New</Badge></h3>
+        <h4>Heading <Badge color="secondary">New</Badge></h4>
+        <h5>Heading <Badge color="secondary">New</Badge></h5>
+        <h6>Heading <Badge color="secondary">New</Badge></h6>
+      </div>
+    );
+  }
+}
+            `} />
+          </Col>
+        </Row>
+      </Container>
+    );
+  }
+}
+
+class BadgeExample2 extends React.Component {
+  render() {
+    return(
+      <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+        <Row>
+          <Col lg="12" md="12" xs="12">
+            <div>
+              <Button color="primary" outline>
+                Notifications <Badge color="secondary">4</Badge>
+              </Button>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col lg="12" md="12" xs="12">
+            <ReactCodeBlock react={`
+import React from 'react';
+import { Badge, Button } from 'aurora-import';
+
+export default class Example extends React.Component {
+  render() {
+    return (
+      <div>
+        <Button color="primary" outline>
+          Notifications <Badge color="secondary">4</Badge>
+        </Button>
+      </div>
+    );
+  }
+}
+            `} />
+          </Col>
+        </Row>
+      </Container>
+    );
+  }
+}
+
+class BadgeExample3 extends React.Component {
+  render() {
+    return(
+      <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+        <Row>
+          <Col lg="12" md="12" xs="12">
+            <div>
+              <Badge color="primary">Primary</Badge>
+              <Badge color="secondary">Secondary</Badge>
+              <Badge color="success">Success</Badge>
+              <Badge color="danger">Danger</Badge>
+              <Badge color="warning">Warning</Badge>
+              <Badge color="info">Info</Badge>
+              <Badge color="light">Light</Badge>
+              <Badge color="dark">Dark</Badge>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col lg="12" md="12" xs="12">
+            <ReactCodeBlock react={`
+import React from 'react';
+import { Badge } from 'aurora-import';
+
+export default class Example extends React.Component {
+  render() {
+    return (
+      <div>
+        <Badge color="primary">Primary</Badge>
+        <Badge color="secondary">Secondary</Badge>
+        <Badge color="success">Success</Badge>
+        <Badge color="danger">Danger</Badge>
+        <Badge color="warning">Warning</Badge>
+        <Badge color="info">Info</Badge>
+        <Badge color="light">Light</Badge>
+        <Badge color="dark">Dark</Badge>
+      </div>
+    );
+  }
+}
+            `} />
+          </Col>
+        </Row>
+      </Container>
+    );
+  }
+}
+
+class BreadcrumbExample1 extends React.Component {
+  render() {
+    return(
+      <Container style={{paddingLeft: "0px", paddingRight: "0px", marginTop: "15px", marginBottom: "15px"}} fluid>
+        <Row>
+          <Col lg="12" md="12" xs="12">
+            <div>
+              <Breadcrumb>
+                <BreadcrumbItem active>Home</BreadcrumbItem>
+              </Breadcrumb>
+              <Breadcrumb>
+                <BreadcrumbItem><a href="#">Home</a></BreadcrumbItem>
+                <BreadcrumbItem active>Library</BreadcrumbItem>
+              </Breadcrumb>
+              <Breadcrumb>
+                <BreadcrumbItem><a href="#">Home</a></BreadcrumbItem>
+                <BreadcrumbItem><a href="#">Library</a></BreadcrumbItem>
+                <BreadcrumbItem active>Data</BreadcrumbItem>
+              </Breadcrumb>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col lg="12" md="12" xs="12">
+            <ReactCodeBlock react={`
+import React from 'react';
+import { Breadcrumb, BreadcrumbItem } from 'aurora-import';
+
+const Example = (props) => {
+  return (
+    <div>
+      <Breadcrumb>
+        <BreadcrumbItem active>Home</BreadcrumbItem>
+      </Breadcrumb>
+      <Breadcrumb>
+        <BreadcrumbItem><a href="#">Home</a></BreadcrumbItem>
+        <BreadcrumbItem active>Library</BreadcrumbItem>
+      </Breadcrumb>
+      <Breadcrumb>
+        <BreadcrumbItem><a href="#">Home</a></BreadcrumbItem>
+        <BreadcrumbItem><a href="#">Library</a></BreadcrumbItem>
+        <BreadcrumbItem active>Data</BreadcrumbItem>
+      </Breadcrumb>
+    </div>
+  );
+};
+
+export default Example;
+            `} />
+          </Col>
+        </Row>
+      </Container>
+    );
+  }
+}
+
 export { 
   AlertExample1,
   AlertExample2,
-  AlertExample3
+  AlertExample3,
+  BadgeExample1,
+  BadgeExample2,
+  BadgeExample3,
+  BreadcrumbExample1
 };
