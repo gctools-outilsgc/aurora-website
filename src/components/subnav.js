@@ -11,11 +11,18 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 class Subnav extends React.Component {
 	constructor(props) {
-		super(props);
+    super(props);
+    // re do better later!
+    if (props.nameEn.toLowerCase() === props.path.split('/')[2].split('-')[0]) {
+      this.state = {
+        dropdownOpen: true
+		  };
+    } else {
+      this.state = {
+        dropdownOpen: false
+		  };
+    }
 		this.toggle = this.toggle.bind(this);
-		this.state = {
-      dropdownOpen: true
-		};
 	}
 
 	toggle() {
