@@ -12,7 +12,9 @@ import Helmet from 'react-helmet';
 import Footer from '../components/Footer';
 import * as ReactExamples from '../code-examples/react-examples';
 import * as HtmlExamples from '../code-examples/html-examples';
+import * as HtmlButtonExamples from '../code-examples/htmlbuttons-examples';
 import * as ReactButtonExamples from '../code-examples/reactbuttons-examples';
+import * as HtmlButtonGroupExamples from '../code-examples/htmlbutton-group-examples';
 import * as ReactButtonGroupExamples from '../code-examples/reactbutton-group-examples';
 
 class MarkdownRenderer extends React.Component {
@@ -21,7 +23,7 @@ class MarkdownRenderer extends React.Component {
       createElement: React.createElement,
       components: {
         // HTML COMPONENT EXAMPLES
-        htmlalert1: HtmlExamples.AlertExample1, 
+        htmlalert1: HtmlExamples.AlertExample1,
         htmlalert2: HtmlExamples.AlertExample2, 
         htmlalert3: HtmlExamples.AlertExample3, 
         htmlbadge1: HtmlExamples.BadgeExample1, 
@@ -32,12 +34,12 @@ class MarkdownRenderer extends React.Component {
         htmlcard2: HtmlExamples.CardExample2,
         htmlcard3: HtmlExamples.CardExample3,
         htmlcard4: HtmlExamples.CardExample4,
-        reactbuttonexample1: ReactButtonExamples.ButtonExample1, reactbuttonexample2: ReactButtonExamples.ButtonExample2, reactbuttonexample3: ReactButtonExamples.ButtonExample2,
-        reactbuttonexample4: ReactButtonExamples.ButtonExample4, reactbuttonexample5: ReactButtonExamples.ButtonExample5, reactbuttonexample6: ReactButtonExamples.ButtonExample6,
-        reactbuttonexample7: ReactButtonExamples.ButtonExample7, reactbuttonexample8: ReactButtonExamples.ButtonExample8, reactbuttonexample9: ReactButtonExamples.ButtonExample9,
-        reactbuttonexample10: ReactButtonExamples.ButtonExample10, reactbuttonExample11: ReactButtonExamples.ButtonExample11, reactbuttonexample12: ReactButtonExamples.ButtonExample12,
-        reactbuttongroupexample1: ReactButtonGroupExamples.ButtonGroupExample1, reactbuttongroupexample2: ReactButtonGroupExamples.ButtonGroupExample2, reactbuttongroupexample3: ReactButtonGroupExamples.ButtonGroupExample3,
-        reactbuttongroupexample4: ReactButtonGroupExamples.ButtonGroupExample4, reactbuttongroupexample5: ReactButtonGroupExamples.ButtonGroupExample5, reactbuttongroupexample6: ReactButtonGroupExamples.ButtonGroupExample6,
+        htmlbuttonexample1: HtmlButtonExamples.ButtonExample1, htmlbuttonexample2: HtmlButtonExamples.ButtonExample2, htmlbuttonexample3: HtmlButtonExamples.ButtonExample3,
+        htmlbuttonexample4: HtmlButtonExamples.ButtonExample4, htmlbuttonexample5: HtmlButtonExamples.ButtonExample5, htmlbuttonexample6: HtmlButtonExamples.ButtonExample6,
+        htmlbuttonexample7: HtmlButtonExamples.ButtonExample7, htmlbuttonexample8: HtmlButtonExamples.ButtonExample8, htmlbuttonexample9: HtmlButtonExamples.ButtonExample9,
+        htmlbuttonexample10: HtmlButtonExamples.ButtonExample10, htmlbuttonExample11: HtmlButtonExamples.ButtonExample11, htmlbuttonexample12: HtmlButtonExamples.ButtonExample12,
+        htmlbuttongroupexample1: HtmlButtonGroupExamples.ButtonGroupExample1, htmlbuttongroupexample2: HtmlButtonGroupExamples.ButtonGroupExample2, htmlbuttongroupexample3: HtmlButtonGroupExamples.ButtonGroupExample3,
+        htmlbuttongroupexample4: HtmlButtonGroupExamples.ButtonGroupExample4, htmlbuttongroupexample5: HtmlButtonGroupExamples.ButtonGroupExample5, htmlbuttongroupexample6: HtmlButtonGroupExamples.ButtonGroupExample6,
         // REACT COMPONENT EXAMPLES
         reactalert1: ReactExamples.AlertExample1, 
         reactalert2: ReactExamples.AlertExample2, 
@@ -46,6 +48,12 @@ class MarkdownRenderer extends React.Component {
         reactbadge2: ReactExamples.BadgeExample2, 
         reactbadge3: ReactExamples.BadgeExample3, 
         reactbreadcrumb1: ReactExamples.BreadcrumbExample1,
+        reactbuttonexample1: ReactButtonExamples.ButtonExample1, reactbuttonexample2: ReactButtonExamples.ButtonExample2, reactbuttonexample3: ReactButtonExamples.ButtonExample3,
+        reactbuttonexample4: ReactButtonExamples.ButtonExample4, reactbuttonexample5: ReactButtonExamples.ButtonExample5, reactbuttonexample6: ReactButtonExamples.ButtonExample6,
+        reactbuttonexample7: ReactButtonExamples.ButtonExample7, reactbuttonexample8: ReactButtonExamples.ButtonExample8, reactbuttonexample9: ReactButtonExamples.ButtonExample9,
+        reactbuttonexample10: ReactButtonExamples.ButtonExample10, reactbuttonExample11: ReactButtonExamples.ButtonExample11, reactbuttonexample12: ReactButtonExamples.ButtonExample12,
+        reactbuttongroupexample1: ReactButtonGroupExamples.ButtonGroupExample1, reactbuttongroupexample2: ReactButtonGroupExamples.ButtonGroupExample2, reactbuttongroupexample3: ReactButtonGroupExamples.ButtonGroupExample3,
+        reactbuttongroupexample4: ReactButtonGroupExamples.ButtonGroupExample4, reactbuttongroupexample5: ReactButtonGroupExamples.ButtonGroupExample5, reactbuttongroupexample6: ReactButtonGroupExamples.ButtonGroupExample6,
         // OTHER
         componentnav: ComponentNav, strippedtable: StrippedTable, buttondropdownopen: ButtonDropdownWrapperOpen, helmet: Helmet, togglecodeblock: ToggleCodeBlock, codeblock: CodeBlock, mdbuttondropdown: ButtonDropdownWrapper, alert: reactstrap.Alert, badge: reactstrap.Badge, breadcrumb: reactstrap.Breadcrumb, breadcrumbitem: reactstrap.BreadcrumbItem, button: reactstrap.Button, buttondropdown: reactstrap.ButtonDropdown, buttongroup: reactstrap.ButtonGroup, buttontoolbar: reactstrap.ButtonToolbar, card: reactstrap.Card, cardblock: reactstrap.CardBlock, cardbody: reactstrap.CardBody, cardcolumns: reactstrap.CardColumns, carddeck: reactstrap.CardDeck, cardfooter: reactstrap.CardFooter, cardgroup: reactstrap.CardGroup, cardheader: reactstrap.CardHeader, cardimg: reactstrap.CardImg, cardimgoverlay: reactstrap.CardImgOverlay, cardlink: reactstrap.CardLink, cardsubtitle: reactstrap.CardSubtitle, cardtext: reactstrap.CardText, cardtitle: reactstrap.CardTitle, carousel: reactstrap.Carousel, carouselcaption: reactstrap.CarouselCaption, carouselcontrol: reactstrap.CarouselControl, carouselindicators: reactstrap.CarouselIndicators, carouselitem: reactstrap.CarouselItem, mdcol: reactstrap.Col, collapse: reactstrap.Collapse, container: reactstrap.Container, custominput: reactstrap.CustomInput, dropdown: reactstrap.Dropdown, dropdownitem: reactstrap.DropdownItem, dropdownmenu: reactstrap.DropdownMenu, dropdowntoggle: reactstrap.DropdownToggle, fade: reactstrap.Fade, form: reactstrap.Form, formfeedback: reactstrap.FormFeedback, formgroup: reactstrap.FormGroup, formtext: reactstrap.FormText, input: reactstrap.Input, inputgroup: reactstrap.InputGroup, inputgroupaddon: reactstrap.InputGroupAddon, inputgroupbutton: reactstrap.InputGroupButton, inputgroupbuttondropdown: reactstrap.InputGroupButtonDropdown, inputgrouptext: reactstrap.InputGroupText, jumbotron: reactstrap.Jumbotron, label: reactstrap.Label, listgroup: reactstrap.ListGroup, listgroupitem: reactstrap.ListGroupItem, listgroupitemheading: reactstrap.ListGroupItemHeading, listgroupitemtext: reactstrap.ListGroupItemText, media: reactstrap.Media, modal: reactstrap.Modal, modalbody: reactstrap.ModalBody, modalfooter: reactstrap.ModalFooter, modalheader: reactstrap.ModalHeader, nav: reactstrap.Nav, navbar: reactstrap.Navbar, navbarbrand: reactstrap.NavbarBrand, navbartoggler: reactstrap.NavbarToggler, navdropdown: reactstrap.NavDropdown, navitem: reactstrap.NavItem, navlink: reactstrap.NavLink, pagination: reactstrap.Pagination, paginationitem: reactstrap.PaginationItem, paginationlink: reactstrap.PaginationLink, popover: reactstrap.Popover, popoverbody: reactstrap.PopoverBody, popovercontent: reactstrap.PopoverContent, popoverheader: reactstrap.PopoverHeader, popovertitle: reactstrap.PopoverTitle, poppercontent: reactstrap.PopperContent, poppertargethelper: reactstrap.PopperTargetHelper, progress: reactstrap.Progress, row: reactstrap.Row, tabcontent: reactstrap.TabContent, table: reactstrap.Table, tabpane: reactstrap.TabPane, tooltip: reactstrap.Tooltip, uncontrolledalert: reactstrap.UncontrolledAlert, uncontrolledbuttondropdown: reactstrap.UncontrolledButtonDropdown, uncontrolledcarousel: reactstrap.UncontrolledCarousel, uncontrolledcollapse: reactstrap.UncontrolledCollapse, uncontrolleddropdown: reactstrap.UncontrolledDropdown, uncontrollednavdropdown: reactstrap.UncontrolledNavDropdown, uncontrolledtooltip: reactstrap.UncontrolledTooltip
       }
