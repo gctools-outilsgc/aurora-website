@@ -5,8 +5,15 @@ lang: "en"
 title: "React Alerts"
 ---
 
-## React Alerts
+# Alerts
 
-this is a test document not final documentation!
+Alerts provide contextual feedback messages for user actions with the handful of available and flexible alert messages.
+<reactalertexample1 />
 
-<reactalertexample />
+## Link color
+
+<reactalertexample2 />
+
+## Dismissing
+
+<reactalertexample3 />
