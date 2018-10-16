@@ -60,6 +60,7 @@ class MarkdownRenderer extends React.Component {
         reactbuttongroupexample4: ReactButtonGroupExamples.ButtonGroupExample4, reactbuttongroupexample5: ReactButtonGroupExamples.ButtonGroupExample5,
         htmlbuttondropdownexample1: HtmlButtonDropdownExamples.ButtonDropdownExample1, htmlbuttondropdownexample2: HtmlButtonDropdownExamples.ButtonDropdownExample2,
         htmlbuttondropdownexample3: HtmlButtonDropdownExamples.ButtonDropdownExample3, htmlbuttondropdownexample4: HtmlButtonDropdownExamples.ButtonDropdownExample4,
+        htmlbuttondropdownexample5: HtmlButtonDropdownExamples.ButtonDropdownExample5, htmlbuttondropdownexample6: HtmlButtonDropdownExamples.ButtonDropdownExample6,
         reactbuttondropdownexample1: ReactButtonDropdownExamples.ButtonDropDownExample1, reactbuttondropdownexample1properties : ReactButtonDropdownExamples.ButtonDropDownExample1Properties,
         reactbuttondropdownexample2 : ReactButtonDropdownExamples.ButtonDropDownExample2, reactbuttondropdownexample3: ReactButtonDropdownExamples.ButtonDropDownExample3,
         reactbuttondropdownexample4 : ReactButtonDropdownExamples.ButtonDropDownExample4, reactbuttondropdownexample5: ReactButtonDropdownExamples.ButtonDropDownExample5,

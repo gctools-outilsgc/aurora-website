@@ -26,3 +26,11 @@ Similarly, create split button dropdowns with virtually the same markup as singl
 
 We use this extra class to reduce the horizontal `padding` on either side of the caret by 25% and remove the `margin-left` that’s added for regular button dropdowns. Those extra changes keep the caret centered in the split button and provide a more appropriately sized hit area next to the main button.
 <htmlbuttondropdownexample4 />
+
+##Sizing
+Button dropdowns work with buttons of all sizes, including default and split dropdown buttons.
+<htmlbuttondropdownexample5 />
+
+##Dropup variation
+Trigger dropdown menus above elements by adding `.dropup` to the parent element.
+<htmlbuttondropdownexample6 />
