@@ -21,6 +21,7 @@ import * as ReactButtonDropdownExamples from '../code-examples/reactbuttondropdo
 import * as HtmlTooltipExamples from '../code-examples/htmltooltip-examples'
 import * as ReactTooltipExamples from '../code-examples/reacttooltip-examples'
 import * as HtmlTableExamples from '../code-examples/html-tableexamples'
+import * as HtmlPopoversExamples from '../code-examples/htmlpopovers-examples'
 
 class MarkdownRenderer extends React.Component {
   render() {
@@ -61,7 +62,12 @@ class MarkdownRenderer extends React.Component {
         htmltableexample13: HtmlTableExamples.TableExample13, htmltableexample14: HtmlTableExamples.TableExample14, htmltableexample15: HtmlTableExamples.TableExample15,
         htmltableexample16: HtmlTableExamples.TableExample16, htmltableexample17: HtmlTableExamples.TableExample17, htmltableexample18: HtmlTableExamples.TableExample18,
         htmltableexample19: HtmlTableExamples.TableExample19, htmltableexample20: HtmlTableExamples.TableExample20,
-
+        htmlpopoversexample1: HtmlPopoversExamples.PopoversExample1, htmlpopoversexample2: HtmlPopoversExamples.PopoversExample2, htmlpopoversexample3: HtmlPopoversExamples.PopoversExample3,
+        htmlpopoversexample4: HtmlPopoversExamples.PopoversExample4, htmlpopoversexample5: HtmlPopoversExamples.PopoversExample5, htmlpopoversexample6: HtmlPopoversExamples.PopoversExample6,
+        htmlpopoversexample7: HtmlPopoversExamples.PopoversExample7, htmlpopoversexample8: HtmlPopoversExamples.PopoversExample8, htmlpopoversexample9: HtmlPopoversExamples.PopoversExample9,
+        htmlpopoversexample10: HtmlPopoversExamples.PopoversExample10, htmlpopoversexample11: HtmlPopoversExamples.PopoversExample11, htmlpopoversexample12: HtmlPopoversExamples.PopoversExample12,
+        htmlpopoversexample13: HtmlPopoversExamples.PopoversExample13, htmlpopoversexample14: HtmlPopoversExamples.PopoversExample14, htmlpopoversexample15: HtmlPopoversExamples.PopoversExample15,
+        htmlpopoversexample16: HtmlPopoversExamples.PopoversExample16, htmlpopoversexample17: HtmlPopoversExamples.PopoversExample17,
         // REACT COMPONENT EXAMPLES
         reactalert1: ReactExamples.AlertExample1, 
         reactalert2: ReactExamples.AlertExample2, 
