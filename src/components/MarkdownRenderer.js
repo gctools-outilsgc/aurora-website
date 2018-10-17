@@ -23,6 +23,7 @@ import * as ReactTooltipExamples from '../code-examples/reacttooltip-examples'
 import * as HtmlTableExamples from '../code-examples/html-tableexamples'
 import * as HtmlPopoversExamples from '../code-examples/htmlpopovers-examples'
 import * as ReactPopoversExamples from '../code-examples/reactpopovers-examples'
+import * as HtmlMediaExamples from '../code-examples/htmlmedia-examples'
 
 class MarkdownRenderer extends React.Component {
   render() {
@@ -70,6 +71,9 @@ class MarkdownRenderer extends React.Component {
         htmlpopoversexample10: HtmlPopoversExamples.PopoversExample10, htmlpopoversexample11: HtmlPopoversExamples.PopoversExample11, htmlpopoversexample12: HtmlPopoversExamples.PopoversExample12,
         htmlpopoversexample13: HtmlPopoversExamples.PopoversExample13, htmlpopoversexample14: HtmlPopoversExamples.PopoversExample14, htmlpopoversexample15: HtmlPopoversExamples.PopoversExample15,
         htmlpopoversexample16: HtmlPopoversExamples.PopoversExample16, htmlpopoversexample17: HtmlPopoversExamples.PopoversExample17,
+        htmlmediaexample1: HtmlMediaExamples.MediaExample1, htmlmediaexample2: HtmlMediaExamples.MediaExample2, htmlmediaexample3: HtmlMediaExamples.MediaExample3,
+        htmlmediaexample4: HtmlMediaExamples.MediaExample4, htmlmediaexample5: HtmlMediaExamples.MediaExample5, htmlmediaexample6: HtmlMediaExamples.MediaExample6,
+        htmlmediaexample7: HtmlMediaExamples.MediaExample7,
         // REACT COMPONENT EXAMPLES
         reactalert1: ReactExamples.AlertExample1, 
         reactalert2: ReactExamples.AlertExample2, 
