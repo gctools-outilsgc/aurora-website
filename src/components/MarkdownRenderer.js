@@ -18,6 +18,7 @@ import * as HtmlButtonGroupExamples from '../code-examples/htmlbutton-group-exam
 import * as ReactButtonGroupExamples from '../code-examples/reactbutton-group-examples';
 import * as HtmlButtonDropdownExamples from '../code-examples/htmlbuttondropdown-examples';
 import * as ReactButtonDropdownExamples from '../code-examples/reactbuttondropdown-examples';
+import * as HtmlTooltipExamples from '../code-examples/htmltooltip-examples'
 
 class MarkdownRenderer extends React.Component {
   render() {
@@ -42,6 +43,15 @@ class MarkdownRenderer extends React.Component {
         htmlbuttonexample10: HtmlButtonExamples.ButtonExample10, htmlbuttonExample11: HtmlButtonExamples.ButtonExample11, htmlbuttonexample12: HtmlButtonExamples.ButtonExample12,
         htmlbuttongroupexample1: HtmlButtonGroupExamples.ButtonGroupExample1, htmlbuttongroupexample2: HtmlButtonGroupExamples.ButtonGroupExample2, htmlbuttongroupexample3: HtmlButtonGroupExamples.ButtonGroupExample3,
         htmlbuttongroupexample4: HtmlButtonGroupExamples.ButtonGroupExample4, htmlbuttongroupexample5: HtmlButtonGroupExamples.ButtonGroupExample5, htmlbuttongroupexample6: HtmlButtonGroupExamples.ButtonGroupExample6,
+        htmlbuttondropdownexample1: HtmlButtonDropdownExamples.ButtonDropdownExample1, htmlbuttondropdownexample2: HtmlButtonDropdownExamples.ButtonDropdownExample2,
+        htmlbuttondropdownexample3: HtmlButtonDropdownExamples.ButtonDropdownExample3, htmlbuttondropdownexample4: HtmlButtonDropdownExamples.ButtonDropdownExample4,
+        htmlbuttondropdownexample5: HtmlButtonDropdownExamples.ButtonDropdownExample5, htmlbuttondropdownexample6: HtmlButtonDropdownExamples.ButtonDropdownExample6,
+        htmltootlipexample1: HtmlTooltipExamples.TooltipExample1, htmltooltipexample2: HtmlTooltipExamples.TooltipExample2, htmltooltipexample3: HtmlTooltipExamples.TooltipExample3,
+        htmltooltipexample4: HtmlTooltipExamples.TooltipExample4, htmltooltipexample5: HtmlTooltipExamples.TooltipExample5, htmltooltipexample6: HtmlTooltipExamples.TooltipExample6,
+        htmltooltipexample7: HtmlTooltipExamples.TooltipExample7, htmltooltipexample8: HtmlTooltipExamples.TooltipExample8, htmltooltipexample9: HtmlTooltipExamples.TooltipExample9,
+        htmltooltipexample10: HtmlTooltipExamples.TooltipExample10, htmltooltipexample11: HtmlTooltipExamples.TooltipExample11, htmltooltipexample12: HtmlTooltipExamples.TooltipExample12,
+        htmltooltipexample13: HtmlTooltipExamples.TooltipExample13, htmltooltipexample14: HtmlTooltipExamples.TooltipExample14, htmltooltipexample15: HtmlTooltipExamples.TooltipExample15,
+        htmltooltipexample16: HtmlTooltipExamples.TooltipExample16,
         // REACT COMPONENT EXAMPLES
         reactalert1: ReactExamples.AlertExample1, 
         reactalert2: ReactExamples.AlertExample2, 
@@ -58,9 +68,6 @@ class MarkdownRenderer extends React.Component {
         reactbuttongroupexample1: ReactButtonGroupExamples.ButtonGroupExample1, reactbuttongroupexample1properties: ReactButtonGroupExamples.ButtonGroupExample1Properties,
         reactbuttongroupexample2: ReactButtonGroupExamples.ButtonGroupExample2, reactbuttongroupexample3: ReactButtonGroupExamples.ButtonGroupExample3,
         reactbuttongroupexample4: ReactButtonGroupExamples.ButtonGroupExample4, reactbuttongroupexample5: ReactButtonGroupExamples.ButtonGroupExample5,
-        htmlbuttondropdownexample1: HtmlButtonDropdownExamples.ButtonDropdownExample1, htmlbuttondropdownexample2: HtmlButtonDropdownExamples.ButtonDropdownExample2,
-        htmlbuttondropdownexample3: HtmlButtonDropdownExamples.ButtonDropdownExample3, htmlbuttondropdownexample4: HtmlButtonDropdownExamples.ButtonDropdownExample4,
-        htmlbuttondropdownexample5: HtmlButtonDropdownExamples.ButtonDropdownExample5, htmlbuttondropdownexample6: HtmlButtonDropdownExamples.ButtonDropdownExample6,
         reactbuttondropdownexample1: ReactButtonDropdownExamples.ButtonDropDownExample1, reactbuttondropdownexample1properties : ReactButtonDropdownExamples.ButtonDropDownExample1Properties,
         reactbuttondropdownexample2 : ReactButtonDropdownExamples.ButtonDropDownExample2, reactbuttondropdownexample3: ReactButtonDropdownExamples.ButtonDropDownExample3,
         reactbuttondropdownexample4 : ReactButtonDropdownExamples.ButtonDropDownExample4, reactbuttondropdownexample5: ReactButtonDropdownExamples.ButtonDropDownExample5,
