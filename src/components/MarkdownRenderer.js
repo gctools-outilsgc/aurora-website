@@ -20,6 +20,7 @@ import * as HtmlButtonDropdownExamples from '../code-examples/htmlbuttondropdown
 import * as ReactButtonDropdownExamples from '../code-examples/reactbuttondropdown-examples';
 import * as HtmlTooltipExamples from '../code-examples/htmltooltip-examples'
 import * as ReactTooltipExamples from '../code-examples/reacttooltip-examples'
+import * as HtmlTableExamples from '../code-examples/html-tableexamples'
 
 class MarkdownRenderer extends React.Component {
   render() {
@@ -53,6 +54,14 @@ class MarkdownRenderer extends React.Component {
         htmltooltipexample10: HtmlTooltipExamples.TooltipExample10, htmltooltipexample11: HtmlTooltipExamples.TooltipExample11, htmltooltipexample12: HtmlTooltipExamples.TooltipExample12,
         htmltooltipexample13: HtmlTooltipExamples.TooltipExample13, htmltooltipexample14: HtmlTooltipExamples.TooltipExample14, htmltooltipexample15: HtmlTooltipExamples.TooltipExample15,
         htmltooltipexample16: HtmlTooltipExamples.TooltipExample16,
+        htmltableexample1: HtmlTableExamples.TableExample1, htmltableexample2: HtmlTableExamples.TableExample2, htmltableexample3: HtmlTableExamples.TableExample3,
+        htmltableexample4: HtmlTableExamples.TableExample4, htmltableexample5: HtmlTableExamples.TableExample5, htmltableexample6: HtmlTableExamples.TableExample6,
+        htmltableexample7: HtmlTableExamples.TableExample7, htmltableexample8: HtmlTableExamples.TableExample8, htmltableexample9: HtmlTableExamples.TableExample9,
+        htmltableexample10: HtmlTableExamples.TableExample10, htmltableexample11: HtmlTableExamples.TableExample11, htmltableexample12: HtmlTableExamples.TableExample12,
+        htmltableexample13: HtmlTableExamples.TableExample13, htmltableexample14: HtmlTableExamples.TableExample14, htmltableexample15: HtmlTableExamples.TableExample15,
+        htmltableexample16: HtmlTableExamples.TableExample16, htmltableexample17: HtmlTableExamples.TableExample17, htmltableexample18: HtmlTableExamples.TableExample18,
+        htmltableexample19: HtmlTableExamples.TableExample19, htmltableexample20: HtmlTableExamples.TableExample20,
+
         // REACT COMPONENT EXAMPLES
         reactalert1: ReactExamples.AlertExample1, 
         reactalert2: ReactExamples.AlertExample2, 
