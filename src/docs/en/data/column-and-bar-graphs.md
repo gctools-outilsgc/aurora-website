@@ -25,7 +25,17 @@ Column graphs use vertical bars to represent data.
 
 If you are using time as a variable in your visualization, always use a column graph.
 
-![Column Graph](../../../img\examples\column_graph.png)
+<bargraph></bargraph>
+<codeblock 
+    react = '
+    <BasicBarPlot 
+    title="Graph Title"
+    xData={["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"]}
+    yData={[9, 18, 26, 18,39, 38, 19]}
+    type="bar"
+    xAxis="Category Axis Title"
+    yAxis="Category Axis Title"
+    filled = {false}/>'></codeblock>
 
 
 ## Bar Graphs
@@ -35,4 +45,16 @@ Bar graphs follow the same standards as column graphs, simply using horizontal i
 * If data labels are long and require more visual space
 * If you are showing more than 10 items.
 
-![Bar Graph](../../../img\examples\bar_graph.png)
+<bargraphhorizontal></bargraphhorizontal>
+<codeblock 
+    react = '
+    <BasicBarPlot 
+    title="Graph Title"
+    xData={[15, 145]}
+    yData={["Naw", "Yee"]}
+    type="bar"
+    xAxis="Category Axis Title"
+    yAxis="Category Axis Title"
+    filled = {false}
+    orientation = "h"
+    color = {["#ADE18D", "#467B8D"]}/>'></codeblock>
