@@ -5,6 +5,6 @@ lang: "en"
 title: "React Navbar"
 ---
 
-#NavBar
-
-<reactnavbar />
+#Navbar
+Nav bars are used for keeping navigation components together in one place.
+<reactnavbar1 />
