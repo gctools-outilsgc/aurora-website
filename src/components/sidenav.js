@@ -10,7 +10,18 @@ import "./sidenav.scss"
  *  Data is passed into it from a query made in MarkdownTemplate and then passed down to subnavs
   */
 class Sidenav extends React.Component {
-  render() {
+  constructor(props) {
+    super(props);
+    this.createSidenav = this.createSidenav.bind(this);
+
+    this.state = {
+      currentGroup: props.data.eng.frontmatter.subnav.split("/")[1],
+    }
+
+  }
+
+
+  createSidenav() {
     let subNameEn = "";
     let subNameFr = "";
     let subGroup = [];
@@ -20,9 +31,12 @@ class Sidenav extends React.Component {
 
     data[this.props.path.split("/")[1]].edges.forEach((edges) => {
       if (edges.node.frontmatter.subnav.split("/")[1] !== subNameEn) {
+        // If the subname is new, create a new group and push the old one
         if (subNameEn !== "") {
+          
           subPieces.push(
             <Subnav
+              dropdownOpen={ (subNameEn === this.state.currentGroup) ? true : false }
               files={ subGroup }
               nameEn={ subNameEn }
               nameFr={ subNameFr }
@@ -32,6 +46,7 @@ class Sidenav extends React.Component {
             />
           );
         }
+        // change the group to the new subname
         subGroup = [];
         subNameEn = edges.node.frontmatter.subnav.split("/")[1];
         subNameFr = edges.node.frontmatter.subnav.split("/")[2];
@@ -41,6 +56,7 @@ class Sidenav extends React.Component {
     if (subGroup.push.length !== 0) {
       subPieces.push(
         <Subnav
+          dropdownOpen={ (subNameEn === this.state.currentGroup) ? true : false }
           files={ subGroup }
           nameEn={ subNameEn }
           nameFr={ subNameFr }
@@ -50,13 +66,18 @@ class Sidenav extends React.Component {
         />
       );
     }
+    
+    return subPieces;
+  }
+
+  render() {
     return(
       <I18n ns={["translation"]}>
         {
           (t, { i18n }) => (
             <nav id="sidenav" role="navigation" aria-label={t("SubNavigation")}>
               <Nav style={{'marginTop':'110px', 'marginBottom':'40px'}}>
-                {subPieces}
+                {this.createSidenav()}
               </Nav>
             </nav>
           )

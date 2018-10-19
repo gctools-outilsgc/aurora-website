@@ -6,15 +6,17 @@ import {
 	ListGroupItem
 } from 'reactstrap';
 import './subnav.scss';
+import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 class Subnav extends React.Component {
 	constructor(props) {
-		super(props);
-		this.toggle = this.toggle.bind(this);
+    super(props);
+    this.toggle = this.toggle.bind(this);
+
 		this.state = {
-      dropdownOpen: true
+      dropdownOpen: props.dropdownOpen
 		};
 	}
 
@@ -59,4 +61,13 @@ class Subnav extends React.Component {
 		);
 	}
 }
+
+Subnav.propTypes = {
+  dropdownOpen: PropTypes.bool
+};
+
+Subnav.defaultProps = {
+  dropdownOpen: false
+}
+
 export default Subnav;

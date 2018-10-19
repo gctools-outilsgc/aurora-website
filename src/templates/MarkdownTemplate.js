@@ -12,6 +12,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 class MarkdownTemplate extends React.Component {
   constructor(props){
     super(props);
+    
     this.toggle = this.toggle.bind(this);
     this.state = {
       eng: this.props.data.eng,
@@ -95,6 +96,7 @@ export const pageQuery = graphql`
         title
         path
         lang
+        subnav
       }
     }
     fr:markdownRemark(frontmatter: { path: { eq: $path }, lang: {eq: "fr"} }) {
@@ -104,6 +106,7 @@ export const pageQuery = graphql`
         title
         path
         lang
+        subnav
       }
     }
     component:allMarkdownRemark(

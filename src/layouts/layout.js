@@ -11,6 +11,9 @@ import './layout.scss';
 import icon from "../img/favicon.ico";
 
 class Layout extends React.Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
     return(
       <I18nextProvider i18n={ i18n }>
