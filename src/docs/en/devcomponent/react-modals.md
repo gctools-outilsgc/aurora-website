@@ -6,5 +6,9 @@ title: "React Modals"
 ---
 
 #Modals
-Modals are used to add dialogues to a site.
-<reactmodal1 />
+
+<reactmodal1></reactmodal1>
+
+#Nested Modals
+
+<reactmodal2></reactmodal2>

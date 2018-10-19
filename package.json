@@ -21,6 +21,7 @@
     "gatsby-source-filesystem": "latest",
     "gatsby-transformer-remark": "latest",
     "gatsby-transformer-sharp": "latest",
+    "holderjs": "^2.9.4",
     "i18next": "^11.9.0",
     "lunr": "^2.3.3",
     "popper.js": "^1.14.4",
