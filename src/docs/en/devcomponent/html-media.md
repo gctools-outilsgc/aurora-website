@@ -1,6 +1,6 @@
 ---
 path: "/devcomponent/css-media"
-subnav: "2/CSS/CSS/16"
+subnav: "2/CSS/CSS/17"
 lang: "en"
 title: "CSS Media"
 ---

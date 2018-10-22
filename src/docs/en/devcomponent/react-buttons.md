@@ -1,6 +1,6 @@
 ---
 path: "/devcomponent/react-button"
-subnav: "3/React/React/4"
+subnav: "3/React/React/6"
 lang: "en"
 title: "React Buttons"
 ---

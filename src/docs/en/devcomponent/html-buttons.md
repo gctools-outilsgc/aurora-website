@@ -1,6 +1,6 @@
 ---
-path: "/devcomponent/css-buttons"
-subnav: "2/CSS/CSS/1"
+path: "/devcomponent/css-button"
+subnav: "2/CSS/CSS/6"
 lang: "en"
 title: "CSS Buttons"
 ---

@@ -1,6 +1,6 @@
 ---
 path: "/devcomponent/css-jumbotron"
-subnav: "2/CSS/CSS/13"
+subnav: "2/CSS/CSS/14"
 lang: "en"
 title: "CSS Jumbotron"
 ---

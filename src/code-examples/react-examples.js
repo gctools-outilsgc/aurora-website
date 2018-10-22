@@ -1,12 +1,5 @@
 import React from 'react';
 import {
-  Form, FormGroup, Label, Input, FormText,
-  Card, CardImg, CardTitle, CardText, CardColumns,
-  CardSubtitle, CardBody, CardLink,
-  Breadcrumb, 
-  BreadcrumbItem,
-  Button,
-  Badge,
   Alert,
   Container, 
   Row, 
@@ -3878,7 +3871,7 @@ class TooltipExampleBase extends React.Component {
   }
 }
 
-export default class TooltipAutoHideExample extends React.Component {
+class TooltipAutoHideExample extends React.Component {
   constructor(props) {
     super(props);
 
@@ -6379,6 +6372,8 @@ class NavBarExample1 extends React.Component {
 //   }
 // }
 
+
+
 export { 
   AlertExample1,
   AlertExample2,
@@ -6425,6 +6420,9 @@ export {
   TooltipExample3,
   TooltipExample4,
   TooltipExample5,
+  TooltipExampleBase,
+  TooltipAutoHideExample,
+  TooltipExampleMulti,
   PopoversExample1,
   PopoversExample2,
   PopoversExample3,
@@ -6445,8 +6443,12 @@ export {
   ButtonDropDownExample4, 
   ButtonDropDownExample5, 
   ButtonDropDownExample6,
-  ButtonGroupExample1, ButtonGroupExample1Properties, ButtonGroupExample2,
-  ButtonGroupExample3, ButtonGroupExample4, ButtonGroupExample5,
+  ButtonGroupExample1, 
+  ButtonGroupExample1Properties, 
+  ButtonGroupExample2,
+  ButtonGroupExample3, 
+  ButtonGroupExample4, 
+  ButtonGroupExample5,
   CarouselExample1,
   CollapseExample1,
   // JumbotronExample1,
@@ -6461,6 +6463,8 @@ export {
   NavExample2,
   NavExample3,
   NavBarExample1,
-  // ModalExample1
-
+  // ModalExample1,
+  BaseExample,
+  PopoverItem,
+  PopoverExampleMulti,
 };

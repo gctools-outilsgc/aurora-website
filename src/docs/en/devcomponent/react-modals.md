@@ -1,6 +1,6 @@
 ---
 path: "/devcomponent/react-modals"
-subnav: "3/React/React/17"
+subnav: "3/React/React/18"
 lang: "en"
 title: "React Modals"
 ---

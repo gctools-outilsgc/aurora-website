@@ -1,6 +1,6 @@
 ---
 path: "/devcomponent/css-tabs"
-subnav: "2/CSS/CSS/24"
+subnav: "2/CSS/CSS/25"
 lang: "en"
-title: "CSS Navs"
+title: "CSS Tabs"
 ---

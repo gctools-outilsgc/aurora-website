@@ -1,6 +1,6 @@
 ---
 path: "/devcomponent/css-navs"
-subnav: "2/CSS/CSS/19"
+subnav: "2/CSS/CSS/20"
 lang: "en"
 title: "CSS Navs"
 ---

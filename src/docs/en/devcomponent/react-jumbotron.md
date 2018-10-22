@@ -1,13 +1,13 @@
 ---
 path: "/devcomponent/react-jumbotron"
-subnav: "3/React/React/13"
+subnav: "3/React/React/14"
 lang: "en"
 title: "React Jumbotron"
 ---
 
 #Jumbotron
 .
-<reactjumbotron1 />
+<reactjumbotron />
 
 .
-<reactjumbotron2 />
+<reactjumbotron />

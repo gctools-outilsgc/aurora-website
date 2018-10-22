@@ -1,6 +1,6 @@
 ---
 path: "/devcomponent/react-tables"
-subnav: "3/React/React/23"
+subnav: "3/React/React/24"
 lang: "en"
 title: "React Tables"
 ---

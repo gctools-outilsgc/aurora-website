@@ -1,6 +1,6 @@
 ---
 path: "/devcomponent/react-button-group"
-subnav: "3/React/React/6"
+subnav: "3/React/React/5"
 lang: "en"
 title: "React Button Group"
 ---

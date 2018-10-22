@@ -1,6 +1,6 @@
 ---
 path: "/devcomponent/react-navbar"
-subnav: "3/React/React/18"
+subnav: "3/React/React/19"
 lang: "en"
 title: "React Navbar"
 ---
