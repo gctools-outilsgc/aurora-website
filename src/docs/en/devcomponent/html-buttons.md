@@ -30,10 +30,10 @@ In need of a button, but not the hefty background colors they bring? Replace the
 Fancy larger or smaller buttons? Add `.btn-lg` or `.btn-sm` for additional sizes.
 <htmlbuttonexample4 />
 
+&nbsp;
 <htmlbuttonexample5 />
 
 Create block level buttons—those that span the full width of a parent—by adding `.btn-block`.
-
 <htmlbuttonexample6 />
 
 ##Active state
@@ -74,15 +74,12 @@ The checked state for these buttons is **only updated via `click` event** on the
 Note that pre-checked buttons require you to manually add the `.active` class to the input’s `<label>`.
 <htmlbuttonexample11 />
 
+&nbsp;
 <htmlbuttonexample12 />
 
+### Methods
 
-###Methods
-
-Method
-
-Description
-
-`$().button('toggle')`
-
-Toggles push state. Gives the button the appearance that it has been activated.
+| Method | Description |
+| --- | --- |
+| `$().button('toggle')` | Toggles push state. Gives the button the appearance that it has been activated. |
+| `$().button('dispose')` | Destroys an element's button. |
