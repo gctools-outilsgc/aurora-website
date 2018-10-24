@@ -13,7 +13,7 @@ Documentation and examples for Bootstrap’s media object to construct highly re
 The [media object](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/) helps build complex and repetitive components where some media is positioned alongside content that doesn't wrap around said media. Plus, it does this with only two required classes thanks to flexbox.
 
 Below is an example of a single media object. Only two classes are required—the wrapping `.media` and the `.media-body` around your content. Optional padding and margin can be controlled through [spacing utilities](../component/grids-and-spacing).
-<htmlmediaexample2 />
+<htmlmediaexample1 />
 
 ##### Flexbug #12: Inline elements aren't treated as flex items
 

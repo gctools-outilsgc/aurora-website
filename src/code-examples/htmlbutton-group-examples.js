@@ -356,4 +356,4 @@ class ButtonGroupExample7 extends React.Component {
   }
 }
 
-export default { ButtonGroupExample1, ButtonGroupExample2, ButtonGroupExample3, ButtonGroupExample4, ButtonGroupExample5, ButtonGroupExample6, ButtonGroupExample7 };
+export { ButtonGroupExample1, ButtonGroupExample2, ButtonGroupExample3, ButtonGroupExample4, ButtonGroupExample5, ButtonGroupExample6, ButtonGroupExample7 };
