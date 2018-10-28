@@ -12,12 +12,12 @@ Badges are bootstrap's small count and labelling component. Aurora gives these b
 ## Example
 
 Badges scale to match the size of the immediate parent element by using relative font-sizing and `em` units.
-<htmlbadge1 />
+<htmlbadge1></htmlbadge1>
 
 Badges can be used as part of links or buttons to provide a counter.
-<htmlbadge2 />
+<htmlbadge2></htmlbadge2>
 
 ## Contextual variations
 
 Add any of the below mentioned modifier classes to change the appearance of a badge.
-<htmlbadge3 />
+<htmlbadge3></htmlbadge3>

@@ -13,24 +13,24 @@ Wrap the dropdown’s toggle (your button or link) and the dropdown menu within 
 
 ###Single button dropdowns
 Any single `.btn` can be turned into a dropdown toggle with some markup changes. Here’s how you can put them to work with either `<button>` elements:
-<htmlbuttondropdownexample1 />
+<htmlbuttondropdownexample1></htmlbuttondropdownexample1>
 
 And with `<a>` elements:
-<htmlbuttondropdownexample2 />
+<htmlbuttondropdownexample2></htmlbuttondropdownexample2>
 
 The best part is you can do this with any button variant, too:
-<htmlbuttondropdownexample3 />
+<htmlbuttondropdownexample3></htmlbuttondropdownexample3>
 
 ###Split button dropdowns
 Similarly, create split button dropdowns with virtually the same markup as single button dropdowns, but with the addition of `.dropdown-toggle-split` for proper spacing around the dropdown caret.
 
 We use this extra class to reduce the horizontal `padding` on either side of the caret by 25% and remove the `margin-left` that’s added for regular button dropdowns. Those extra changes keep the caret centered in the split button and provide a more appropriately sized hit area next to the main button.
-<htmlbuttondropdownexample4 />
+<htmlbuttondropdownexample4></htmlbuttondropdownexample4>
 
 ##Sizing
 Button dropdowns work with buttons of all sizes, including default and split dropdown buttons.
-<htmlbuttondropdownexample5 />
+<htmlbuttondropdownexample5></htmlbuttondropdownexample5>
 
 ##Dropup variation
 Trigger dropdown menus above elements by adding `.dropup` to the parent element.
-<htmlbuttondropdownexample6 />
+<htmlbuttondropdownexample6></htmlbuttondropdownexample6>

@@ -12,17 +12,14 @@ For more detailed usage info [see our design-oriented documentation on cards](/c
 ## Examples
 
 #### Basic card
-.
-<htmlcard1 />
+
+<htmlcard1></htmlcard1>
 
 #### Image card
-.
-<htmlcard2 />
+<htmlcard2></htmlcard2>
 
 #### Actionable card
-.
-<htmlcard3 />
+<htmlcard3></htmlcard3>
 
 #### Complex card
-.
-<htmlcard4 />
+<htmlcard4></htmlcard4>

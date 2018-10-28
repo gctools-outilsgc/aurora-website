@@ -27,27 +27,27 @@ Got all that? Great, let's see how they work with some examples.
 ## Example: Enable tooltips everywhere
 
 One way to initialize all tooltips on a page would be to select them by their `data-toggle` attribute:
-<htmltootlipexample1 />
+<htmltootlipexample1></htmltootlipexample1>
 
 ## Examples
 Hover over the links below to see tooltips:
 
 Hover over the buttons below to see the four tooltips directions: top, right, bottom, and left.
-<htmltooltipexample2 />
+<htmltooltipexample2></htmltooltipexample2>
 
 And with custom HTML added:
-<htmltooltipexample3 />
+<htmltooltipexample3></htmltooltipexample3>
 
 ## Usage
 The tooltip plugin generates content and markup on demand, and by default places tooltips after their trigger element.
 
 Trigger the tooltip via JavaScript:
-<htmltooltipexample4 />
+<htmltooltipexample4></htmltooltipexample4>
 
 ##### Overflow `auto` and `scroll`
 
 Tooltip position attempts to automatically change when a parent container has `overflow: auto` or `overflow: scroll` like our `.table-responsive`, but still keeps the original placement's positioning. To resolve, set the `boundary` option to anything other than default value, `'scrollParent'`, such as `'window'`:
-<htmltooltipexample5 />
+<htmltooltipexample5></htmltooltipexample5>
 
 ### Markup
 
@@ -58,12 +58,12 @@ The required markup for a tooltip is only a `data` attribute and `title` on the 
 You should only add tooltips to HTML elements that are traditionally keyboard-focusable and interactive (such as links or form controls). Although arbitrary HTML elements (such as `<span>`s) can be made focusable by adding the `tabindex="0"` attribute, this will add potentially annoying and confusing tab stops on non-interactive elements for keyboard users. In addition, most assistive technologies currently do not announce the tooltip in this situation.
 
 Additionally, do not rely solely on `hover` as the trigger for your tooltip, as this will make your tooltips impossible to trigger for keyboard users.
-<htmltooltipexample6 />
+<htmltooltipexample6></htmltooltipexample6>
 
 ### Disabled elements
 
 Elements with the `disabled` attribute aren't interactive, meaning users cannot focus, hover, or click them to trigger a tooltip (or popover). As a workaround, you'll want to trigger the tooltip from a wrapper `<div>` or `<span>`, ideally made keyboard-focusable using `tabindex="0"`, and override the `pointer-events` on the disabled element.
-<htmltooltipexample7 />
+<htmltooltipexample7></htmltooltipexample7>
 
 ### Options
 
@@ -192,42 +192,42 @@ Attaches a tooltip handler to an element collection.
 #### `.tooltip('show')`
 
 Reveals an element's tooltip. **Returns to the caller before the tooltip has actually been shown** (i.e. before the `shown.bs.tooltip` event occurs). This is considered a "manual" triggering of the tooltip. Tooltips with zero-length titles are never displayed.
-<htmltooltipexample8 />
+<htmltooltipexample8></htmltooltipexample8>
 
 #### `.tooltip('hide')`
 
 Hides an element's tooltip. **Returns to the caller before the tooltip has actually been hidden** (i.e. before the `hidden.bs.tooltip` event occurs). This is considered a "manual" triggering of the tooltip.
-<htmltooltipexample9 />
+<htmltooltipexample9></htmltooltipexample9>
 
 #### `.tooltip('toggle')`
 
 Toggles an element's tooltip. **Returns to the caller before the tooltip has actually been shown or hidden** (i.e. before the `shown.bs.tooltip` or `hidden.bs.tooltip` event occurs). This is considered a "manual" triggering of the tooltip.
-<htmltooltipexample10 />
+<htmltooltipexample10></htmltooltipexample10>
 
 #### `.tooltip('dispose')`
 
 Hides and destroys an element's tooltip. Tooltips that use delegation (which are created using [the `selector` option](#options)) cannot be individually destroyed on descendant trigger elements.
-<htmltooltipexample11 />
+<htmltooltipexample11></htmltooltipexample11>
 
 #### `.tooltip('enable')`
 
 Gives an element's tooltip the ability to be shown. **Tooltips are enabled by default.**
-<htmltooltipexample12 />
+<htmltooltipexample12></htmltooltipexample12>
 
 #### `.tooltip('disable')`
 
 Removes the ability for an element's tooltip to be shown. The tooltip will only be able to be shown if it is re-enabled.
-<htmltooltipexample13 />
+<htmltooltipexample13></htmltooltipexample13>
 
 #### `.tooltip('toggleEnabled')`
 
 Toggles the ability for an element's tooltip to be shown or hidden.
-<htmltooltipexample14 />
+<htmltooltipexample14></htmltooltipexample14>
 
 #### `.tooltip('update')`
 
 Updates the position of an element's tooltip.
-<htmltooltipexample15 />
+<htmltooltipexample15></htmltooltipexample15>
 
 ### Events
 
@@ -261,4 +261,5 @@ Updates the position of an element's tooltip.
     </tr>
   </tbody>
 </table>
-<htmltootlipexample16 />
+
+<htmltootlipexample16></htmltootlipexample16>

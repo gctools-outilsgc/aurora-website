@@ -8,12 +8,10 @@ title: "React Alerts"
 # Alerts
 
 Alerts provide contextual feedback messages for user actions with the handful of available and flexible alert messages.
-<reactalert1 />
+<reactalert1></reactalert1>
 
 ## Link color
-.
-<reactalert2 />
+<reactalert2></reactalert2>
 
 ## Dismissing
-.
-<reactalert3 />
+<reactalert3></reactalert3>

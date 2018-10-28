@@ -28,21 +28,20 @@ Keep reading to see how popovers work with some examples.
 ## Example: Enable popovers everywhere
 
 One way to initialize all popovers on a page would be to select them by their `data-toggle` attribute:
-<htmlpopoversexample1 />
+<htmlpopoversexample1></htmlpopoversexample1>
 
 ## Example: Using the `container` option
 
 When you have some styles on a parent element that interfere with a popover, you'll want to specify a custom `container` so that the popover's HTML appears within that element instead.
-<htmlpopoversexample2 />
+<htmlpopoversexample2></htmlpopoversexample2>
 
 ## Example
-.
-<htmlpopoversexample3 />
+<htmlpopoversexample3></htmlpopoversexample3>
 
 ### Four directions
 
 Four options are available: top, right, bottom, and left aligned.
-<htmlpopoversexample4 />
+<htmlpopoversexample4></htmlpopoversexample4>
 
 ### Dismiss on next click
 
@@ -50,22 +49,21 @@ Use the `focus` trigger to dismiss popovers on the user's next click of a differ
 
 #### Specific markup required for dismiss-on-next-click
 For proper cross-browser and cross-platform behavior, you must use the `<a>` tag, _not_ the `<button>` tag, and you also must include a [`tabindex`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex) attribute.
-<htmlpopoversexample5 />
+<htmlpopoversexample5></htmlpopoversexample5>
 
-.
-<htmlpopoversexample6 />
+<htmlpopoversexample6></htmlpopoversexample6>
 
 ### Disabled elements
 
 Elements with the `disabled` attribute aren't interactive, meaning users cannot hover or click them to trigger a popover (or tooltip). As a workaround, you'll want to trigger the popover from a wrapper `<div>` or `<span>` and override the `pointer-events` on the disabled element.
 
 For disabled popover triggers, you may also prefer `data-trigger="hover"` so that the popover appears as immediate visual feedback to your users as they may not expect to _click_ on a disabled element.
-<htmlpopoversexample7 />
+<htmlpopoversexample7></htmlpopoversexample7>
 
 ## Usage
 
 Enable popovers via JavaScript:
-<htmlpopoversexample8 />
+<htmlpopoversexample8></htmlpopoversexample8>
 
 ### Options
 
@@ -203,42 +201,42 @@ Initializes popovers for an element collection.
 #### `.popover('show')`
 
 Reveals an element's popover. **Returns to the caller before the popover has actually been shown** (i.e. before the `shown.bs.popover` event occurs). This is considered a "manual" triggering of the popover. Popovers whose both title and content are zero-length are never displayed.
-<htmlpopoversexample9 />
+<htmlpopoversexample9></htmlpopoversexample9>
 
 #### `.popover('hide')`
 
 Hides an element's popover. **Returns to the caller before the popover has actually been hidden** (i.e. before the `hidden.bs.popover` event occurs). This is considered a "manual" triggering of the popover.
-<htmlpopoversexample10 />
+<htmlpopoversexample10></htmlpopoversexample10>
 
 #### `.popover('toggle')`
 
 Toggles an element's popover. **Returns to the caller before the popover has actually been shown or hidden** (i.e. before the `shown.bs.popover` or `hidden.bs.popover` event occurs). This is considered a "manual" triggering of the popover.
-<htmlpopoversexample11 />
+<htmlpopoversexample11></htmlpopoversexample11>
 
 #### `.popover('dispose')`
 
 Hides and destroys an element's popover. Popovers that use delegation (which are created using [the `selector` option](#options)) cannot be individually destroyed on descendant trigger elements.
-<htmlpopoversexample12 />
+<htmlpopoversexample12></htmlpopoversexample12>
 
 #### `.popover('enable')`
 
 Gives an element's popover the ability to be shown. **Popovers are enabled by default.**
-<htmlpopoversexample13 />
+<htmlpopoversexample13></htmlpopoversexample13>
 
 #### `.popover('disable')`
 
 Removes the ability for an element's popover to be shown. The popover will only be able to be shown if it is re-enabled.
-<htmlpopoversexample14 />
+<htmlpopoversexample14></htmlpopoversexample14>
 
 #### `.popover('toggleEnabled')`
 
 Toggles the ability for an element's popover to be shown or hidden.
-<htmlpopoversexample15 />
+<htmlpopoversexample15></htmlpopoversexample15>
 
 #### `.popover('update')`
 
 Updates the position of an element's popover.
-<htmlpopoversexample16 />
+<htmlpopoversexample16></htmlpopoversexample16>
 
 ### Events
 
@@ -273,5 +271,4 @@ Updates the position of an element's popover.
   </tbody>
 </table>
 
-.
-<htmlpopoversexample17 />
+<htmlpopoversexample17></htmlpopoversexample17>
