@@ -4,3 +4,7 @@ subnav: "3/React/React/11"
 lang: "fr"
 title: "React Fade"
 ---
+
+# Fade
+
+<reactfade1 />

@@ -1,6 +1,6 @@
 ---
 path: "/devcomponent/react-popovers"
-subnav: "3/React/React/21"
+subnav: "3/React/React/22"
 lang: "en"
 title: "React Popovers"
 ---
