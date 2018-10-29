@@ -8,17 +8,13 @@ title: "React Card"
 # Cards
 
 #### Basic Card
-.
-<reactcard1 />
+<reactcard1></reactcard1>
 
 #### Image Card
-.
-<reactcard2 />
+<reactcard2></reactcard2>
 
 #### Complex Card
-.
-<reactcard3 />
+<reactcard3></reactcard3>
 
 #### Card columns with custom formatting
-.
-<reactcard4 />
+<reactcard4></reactcard4>

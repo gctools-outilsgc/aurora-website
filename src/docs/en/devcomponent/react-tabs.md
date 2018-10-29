@@ -7,4 +7,4 @@ title: "React Tabs"
 
 #Tabs
 
-<reacttabs />
+<reacttabs></reacttabs>

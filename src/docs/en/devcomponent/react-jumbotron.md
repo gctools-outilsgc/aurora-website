@@ -6,8 +6,6 @@ title: "React Jumbotron"
 ---
 
 #Jumbotron
-.
-<reactjumbotron />
+<reactjumbotron></reactjumbotron>
 
-.
-<reactjumbotron />
+<reactjumbotron></reactjumbotron>

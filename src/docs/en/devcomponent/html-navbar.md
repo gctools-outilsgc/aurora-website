@@ -7,4 +7,4 @@ title: "CSS Navbar"
 
 #Navbar
 Nav bars are used for keeping navigation components together in one place.
-<htmlnavbar1 />
+<htmlnavbar1></htmlnavbar1>

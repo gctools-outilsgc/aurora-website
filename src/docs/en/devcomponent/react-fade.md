@@ -7,4 +7,4 @@ title: "React Fade"
 
 # Fade
 
-<reactfade1 />
+<reactfade1></reactfade1>

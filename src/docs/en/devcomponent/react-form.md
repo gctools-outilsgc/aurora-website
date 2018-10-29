@@ -7,4 +7,4 @@ title: "React Form"
 
 # Forms
 
-<reactform1 />
+<reactform1></reactform1>

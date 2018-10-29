@@ -7,4 +7,4 @@ title: "React Collapse"
 
 #Collapse
 
-<reactcollapse1 />
+<reactcollapse1></reactcollapse1>

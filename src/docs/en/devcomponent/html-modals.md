@@ -7,4 +7,4 @@ title: "CSS Modals"
 
 #Modals
 Modals are used to add dialogues to a site.
-<htmlmodal1 />
+<htmlmodal1></htmlmodal1>

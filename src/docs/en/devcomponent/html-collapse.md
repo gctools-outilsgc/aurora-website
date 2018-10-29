@@ -7,4 +7,4 @@ title: "CSS Collapse"
 
 #Collapse
 
-<htmlcollapse1 />
+<htmlcollapse1></htmlcollapse1>

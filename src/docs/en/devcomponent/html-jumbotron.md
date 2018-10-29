@@ -6,8 +6,7 @@ title: "CSS Jumbotron"
 ---
 
 #Jumbotron
-.
-<htmljumbotron1 />
 
-.
-<htmljumbotron2 />
+<htmljumbotron1></htmljumbotron1>
+
+<htmljumbotron2></htmljumbotron2>

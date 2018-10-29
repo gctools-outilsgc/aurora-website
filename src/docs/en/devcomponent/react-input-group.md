@@ -9,13 +9,12 @@ title: "React Input Group"
 Extends form controls by adding text, buttons, or button groups on either side of textual inputs, custom selects, and custom file inputs.
 
 ##Basic example
-.
-<reactinputgroup1 />
+<reactinputgroup1></reactinputgroup1>
 
 ##Sizing
 Add the relative form sizing classes to the .input-group itself and contents within will automatically resize—no need for repeating the form control size classes on each element.
-<reactinputgroup2 />
+<reactinputgroup2></reactinputgroup2>
 
 ##Dropdowns and buttons
 Dropdowns and buttons can be added to the beginning or end of input groups.
-<reactinputgroup3 />
+<reactinputgroup3></reactinputgroup3>

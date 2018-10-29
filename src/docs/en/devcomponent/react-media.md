@@ -7,4 +7,4 @@ title: "React Media"
 
 # Media
 
-<reactmedia />
+<reactmedia></reactmedia>

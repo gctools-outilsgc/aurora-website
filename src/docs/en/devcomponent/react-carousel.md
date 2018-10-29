@@ -6,4 +6,4 @@ title: "React Carousel"
 ---
 
 #Carousel
-<reactcarousel1 />
+<reactcarousel1></reactcarousel1>
