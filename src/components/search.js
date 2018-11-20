@@ -40,13 +40,13 @@ export default class Search extends Component {
       } else {
         return null;
       }
-      
+
     }
 
     search = event => {
         const query = event.target.value;
         const results = this.getSearchResults(query);
-        
+
         if (results) {
           this.setState({
             results: results.slice(0, 5),
@@ -58,7 +58,7 @@ export default class Search extends Component {
             query,
           })
         }
-        
+
     }
 
     render() {
