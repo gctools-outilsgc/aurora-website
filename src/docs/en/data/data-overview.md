@@ -85,30 +85,6 @@ Some data formats should always use abbreviations:
   </tbody>
 </table>
 
-<codeblock html='
-    <table class="table">
-      <thead>
-        <tr>
-          <th scope="col">Days of the week</th>
-          <th scope="col">Mon, Tues, Wed, Thurs, Fri, Sat, Sun</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Months</td>
-          <td>Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec</td>
-        </tr>
-        <tr>
-          <td>12-hour time</td>
-          <td>1am, 2pm, 12pm etc.</td>
-        </tr>
-        <tr>
-          <td>Standard money abbreviations</td>
-          <td>$1.2k, $3.4m, $6.2b, etc.</td>
-        </tr>
-      </tbody>
-    </table>
-' react=''>
 
 ## Colours and Textures
 
