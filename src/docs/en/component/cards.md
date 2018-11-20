@@ -20,7 +20,7 @@ Cards can make your web product more engaging. However, you should consider the 
 
 If multiple cards are placed on a page, they should be placed 16px apart on all sides.
 
-### Components of a card
+## Components of a card
 
 Elements that can be used in a card are:
 
@@ -33,7 +33,7 @@ Elements that can be used in a card are:
 
 Not all of these elements are necessary in every card. You can choose the elements which you think best fit the purpose of the card. However, every card should have a main title.
 
-#### Basic card template
+## Basic card template
 
 Basic cards can be used as containers for any type of information are sized depending on the content. Basic cards form the foundation for more complex cards which may include any combination of elements.
 
@@ -62,8 +62,7 @@ White (<badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>) re
 ' react='' />
 
 
-
-#### Image Cards
+## Image Cards
 
 Image cards use the basic card template but include an image above the header.
 

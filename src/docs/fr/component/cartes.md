@@ -33,7 +33,7 @@ Les éléments qui peuvent être utilisés dans une carte sont les suivants :
 
 Tous ces éléments ne sont pas nécessaires dans chaque carte. Vous pouvez choisir les éléments qui vous conviennent le mieux au but de la carte. Cependant, chaque carte devrait avoir un titre principal.
 
-### Modèle de carte de base
+## Modèle de carte de base
 
 Les cartes de base peuvent être utilisées comme contenants pour n’importe quel type d’information et varient en grosseur selon le contenu. Les cartes de base constituent le fondement pour des cartes plus complexes, ce qui peut comprendre toute combinaison des éléments.
 
@@ -61,7 +61,7 @@ Un rectangle blanc (<badge style="background-color: #FFFFFF; color:black">#FFFFF
     </div>
 ' react='' />
 
-### Les cartes d'image
+## Les cartes d'image
 
 Les cartes d’image utilisent le modèle de carte de base, mais comprennent une image au-dessus de l’en-tête.
 
