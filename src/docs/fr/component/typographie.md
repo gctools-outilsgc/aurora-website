@@ -42,12 +42,6 @@ Les titres apparaissent seulement dans le haut des pages et indiquent les points
 
 Les titres sont affichés à l’aide de « Rubik Light » à 36 points de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
 
-<h1>En-tête 1</h1>
-
-<codeblock html='<h1>En-tête 1</h1>'
-    react='<h1>En-tête 1</h1>'>
-</codeblock>
-
 ### En-tête \(H2-H6)
 
 Il y a cinq différents sous-en-têtes. Tous les sous-titres sont de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
@@ -71,24 +65,6 @@ Les en-têtes ont les styles typographiques suivants :
     <h5>En-tête 5</h5>
     <h6>En-tête 6</h6>
 </div>
-
-<codeblock html='
-    <div>
-        <h2>En-tête 2</h2>
-        <h3>En-tête 3</h3>
-        <h4>En-tête 4</h4>
-        <h5>En-tête 5</h5>
-        <h6>En-tête 6</h6>
-    </div>'
-    react='
-    <div>
-        <h2>En-tête 2</h2>
-        <h3>En-tête 3</h3>
-        <h4>En-tête 4</h4>
-        <h5>En-tête 5</h5>
-        <h6>En-tête 6</h6>
-    </div>'>
-</codeblock>
 
 ## Texte de paragraphe
 
@@ -135,15 +111,6 @@ Il existe trois différents types de listes :
     <li>Point 3</li>
 </ul>
 
-<codeblock html='
-    <ul>
-        <li>Point 1</li>
-        <li>Point 2</li>
-        <li>Point 3</li>
-    </ul>'
-    react=''>
-</codeblock>
-
 **Listes numérotées :** Les listes numérotées comportent des numéros pour indiquer le contenu qui nécessite une hiérarchie.
 
 <ol>
@@ -151,15 +118,6 @@ Il existe trois différents types de listes :
     <li>Point 2</li>
     <li>Point 3</li>
 </ol>
-
-<codeblock html='
-    <ol>
-        <li>Point 1</li>
-        <li>Point 2</li>
-        <li>Point 3</li>
-    </ol>'
-    react=''>
-</codeblock>
 
 **Listes interactives :** Les listes interactives comprennent du contenu cliquable. Ces listes comprennent un pointage et un état de clic et agissent comme des points de navigation mineurs.
 
@@ -169,15 +127,6 @@ Il existe trois différents types de listes :
     <li><a href="#">Point 3</a></li>
 </ul>
 
-<codeblock html='
-    <ul>
-        <li><a href="#">Point 1</a></li>
-        <li><a href="#">Point 2</a></li>
-        <li><a href="#">Point 3</a></li>
-    </ul>'
-    react=''>
-</codeblock>
-
 ## Hyperliens
 
 Le texte de lien est utilisé dans les paragraphes afin d’indiquer les hyperliens et les points de navigation. Les hyperliens et les points de navigation sont de police « Nunito Sans Regular » à 16 points (1 em) et ont un interlignage de 24 points.
@@ -186,30 +135,11 @@ Il est recommandé que le texte de lien soit souligné et affiché dans une coul
 
 Les liens visités doivent être indiqués par une couleur différente. Habituellement, une pratique exemplaire pour les liens visités consiste à utiliser une version voilée de la couleur de votre hyperlien, une couleur secondaire ou le violet standard : <badge style="background-color: #551A8B">#551A8B</badge>.
 
-<div style="margin: 0 auto">
-<p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> Vous voudriez peut-être voir <a href="#">le haut de cette page.</a></p>
-</div>
-
-<codeblock html='
-    <div style="margin: 0 auto">
-        <p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> Vous voudriez peut-être voir <a href="#">le haut de cette page.</a></p>
-    </div>'
-    react=''>
-</codeblock>
-
 ## Accentuation
 
 À des fins d’accessibilité, la couleur ne peut être la seule source de l’accentuation. Assurez-vous d’accentuer le texte en mettant la police de caractères en caractères gras et en augmentant le contraste.
 
 Le formatage typographique, tel que l’italique ou le soulignement, doit être utilisé avec parcimonie et seulement lorsqu’il améliore véritablement la communication avec tous les lecteurs.
-
-##### à faire
-C'est une <em><strong>très</strong></em> mauvaise idée.<br />
-Vous new devriez <em><strong>jamais</strong></em> mettre du poisson au micro-ondes.
-
-##### à ne faire pas
-Le poivre <em><strong>ajout une saveur distincte aux aliments.</strong></em><br />
-La <em><strong>surutilisation de la mise en évidence la</strong></em> vide le sens.
 
 ## Horodateurs et texte d’espace réservé
 
@@ -218,11 +148,6 @@ Les horodateurs et le texte d’espace réservé ont les mêmes styles typograph
 <p style="font-size: 14px; color: #666666">Le 6 septembre 2018, 13 h 40</p>
 <p style="font-size: 14px; color: #666666">Le 20 décembre 2015, 6 h 45</p>
 
-<codeblock html='
-    <p style="font-size: 14px; color: #666666">Le 6 septembre 2018, 13 h 40</p>
-    <p style="font-size: 14px; color: #666666">Le 20 décembre 2015, 6 h 45</p>'
-    react=''>
-</codeblock>
 
 ## Texte de bouton
 
@@ -231,13 +156,3 @@ Le texte de bouton est affiché avec la police « Nunito Sans Bold » à 16 poin
 <button color="secondary" outline="true">Secondaire</button>
 <button color="secondary">Secondaire</button>
 <button color="secondary" disabled="true">Secondaire</button>
-
-<codeblock html='
-    <button color="secondary" outline="true">Secondaire</button>
-    <button color="secondary">Secondaire</button>
-    <button color="secondary" disabled="true">Secondaire</button>
-    ' react='
-    <Button outline color="secondary">Secondaire</Button>
-    <Button color="secondary">Secondaire</Button>
-    <Button color="secondary" disabled>Secondaire</Button>'>
-</codeblock>
