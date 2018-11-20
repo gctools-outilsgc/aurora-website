@@ -53,4 +53,4 @@ Les diagrammes de dispersion sont la meilleure forme d’analyse de distribution
 
 Ils peuvent aussi aider à relever les valeurs aberrantes ou des cas d’anomalie dans votre jeu de données.
 
-![Image d'une diagramme de dispersion](../../../img\components\scatterplot_fr.png)
+![Image d'une diagramme de dispersion](../../../img\components\scatterplot_2_fr.png)

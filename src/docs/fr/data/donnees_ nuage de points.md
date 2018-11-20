@@ -21,5 +21,5 @@ Les lignes de tendance ne sont pas nécessaires, mais peuvent aider à mettre l�
 
 Pour montrer une grappe de données, utilisez divers niveaux d’opacité sur les chevauchements ou les quasi-chevauchements des points de données pour illustrer les couches et rendez chaque point visuellement distinct.
 
-![Image d'une diagramme de dispersion](../../../img\components\scatterplot_fr.png)
+![Image exemplaire du style d'une diagramme de dispersion](../../../img\examples\scatterplot_2_fr.png)
 
