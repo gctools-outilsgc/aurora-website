@@ -29,7 +29,8 @@ Pour les formulaires complexes, les renseignements doivent être publiés à l�
 <form>
   <div class="form-group">
     <label for="inputEmail3">Courriel</label>
-    <input type="email" class="form-control" id="inputEmail3" >
+    <input type="email" class="form-control" id="inputEmail3" aria-describedby="emailHelp1">
+    <small id="emailHelp1" class="form-text text-muted">Nous ne partagerons jamais votre adresse e-mail avec quiconque.</small>
   </div>
 
   <div class="form-group">

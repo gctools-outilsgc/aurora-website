@@ -29,7 +29,8 @@ For complicated forms, information should be displayed using multiple steps or p
 <form>
   <div class="form-group">
     <label for="inputEmail3">Email</label>
-    <input type="email" class="form-control" id="inputEmail3" >
+    <input type="email" class="form-control" id="inputEmail3" aria-describedby="emailHelp1">
+    <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
 
   <div class="form-group">
@@ -161,7 +162,7 @@ If there is more than one line the text wraps and has a leading of 18pts.
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
   </div>
 <form>
 
