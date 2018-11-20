@@ -13,7 +13,7 @@ title: "What's new?"
 
 Latest updates to the Aurora Design System.
 
-### Version 1
+## Version 1
 September 19, 2018
 
 ![Aurora banner](../../../img\aurora-banner-small.png)
@@ -23,7 +23,7 @@ We’re excited to launch the first iteration of Aurora design system! All of th
 This is the first iteration, and we are continuing to design new aspects to add to Aurora, as well as adding React.js code for each of our existing components. [See our Github](https://github.com/gctools-outilsgc/design-system-code) to stay up-to-date with what we are working on, or to give feedback about Aurora. Stay tuned for updates as we work on making Aurora even better!
 
 
-### Development Phase II
+## Development Phase II
 June 2018
 
 Now in Phase II, the design team has split into smaller working teams, including developers, writers, designers, and UX researchers. We are conducting usability testing on some of our elements, developing style sheets and HTML components, and creating wire-frames to build the first iteration of the design system website.
@@ -32,7 +32,7 @@ The first iteration of the design system is in review. We are making small chang
 
 Sierra also wrote a [blog post](https://medium.com/@s.duffey121/7-things-i-learned-from-leading-a-design-project-7b003d25b5e2) outlining some of the key lessons learned from the project.
 
-### Development Phase I
+## Development Phase I
 April 2018
 
 The Aurora design team is hard at work creating a first draft of the Aurora Design System. Browse through our Gitbook to see what's been done so far and what we're still working on!

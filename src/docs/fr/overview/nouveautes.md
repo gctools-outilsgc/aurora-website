@@ -24,7 +24,7 @@ La présente est la première version, et nous continuons de concevoir de nouvel
 
 Si vous souhaitez rester au courant de nos projets et fournir vos commentaires sur Aurora, veuillez accéder à notre Github. Restez à l’affût pour obtenir des mises à jour, alors que nous travaillons à améliorer encore plus Aurora!
 
-##  Phase II, développement
+## Phase II, développement
 Juin 2018
 
 Nous travaillons maintenant sur la phase II. L’équipe de conception s’est divisée en de plus petites équipes de travail, dont des développeurs, des rédacteurs, des concepteurs et des chercheurs de l’expérience de travail. Nous procédons à des essais d’utilisation de certains de nos éléments, nous élaborons des feuilles de style et des composants HTML, et nous créons des modèles fil de fer pour construire la première itération du site Web du système de conception.
