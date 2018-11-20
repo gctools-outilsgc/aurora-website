@@ -23,55 +23,54 @@ Typically forms start with the most important or common information such as user
 
 For complicated forms, information should be displayed using multiple steps or pages. If this is the case, it is important to include a progress bar throughout the form, as well as a way to navigate both forwards and backwards between steps.
 
+<div class="card mb-3">
+  <div class="card-body">
+      <h3 class="card-title h5">Example form</h3>
 <form>
-  <div class="form-group row">
-    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="with a placeholder">
+  <div class="form-group">
+    <label for="inputEmail3">Email</label>
+    <input type="email" class="form-control" id="inputEmail3" >
+  </div>
+
+  <div class="form-group">
+    <label for="inputPassword3">Password</label>
+    <input type="password" class="form-control" id="inputPassword3" >
+  </div>
+
+  <div class="form-group">
+    <label for="inputSelect">Select</label>
+    <select class="form-control" id="inputSelect">
+      <option selected></option>
+      <option>...</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="inputSelect2">Select</label>
+    <select class="custom-select" id="inputSelect2" multiple>
+      <option selected>Open this select menu</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Text Area</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+
+  <div class="form-group">
+    <div class="custom-file">
+        <label class="custom-file-label" for="customFile">File upload</label>
+        <input type="file" id="file" class="custom-file-input" aria-label="upload a file">
+        <span class="custom-file-control"></span>
     </div>
   </div>
-  <div class="form-group row">
-    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-    <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword3" placeholder="password placeholder">
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="inputSelect" class="col-sm-2 col-form-label">Select</label>
-    <div class="col-sm-10">
-      <select class="form-control" id="inputSelect">
-        <option selected></option>
-        <option>...</option>
-      </select>
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="inputSelect2" class="col-sm-2 col-form-label">Select</label>
-    <div class="col-sm-10">
-        <select class="custom-select" id="inputSelect2" multiple>
-            <option selected>Open this select menu</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-        </select>
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label">Text Area</label>
-    <div class="col-sm-10">
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="exampleFormControlFile1" class="col-sm-2 col-form-label">File</label>
-    <div class="col-sm-10">
-      <input type="file" class="form-control-file" id="exampleFormControlFile1">
-    </div>
-  </div>
-  <fieldset class="form-group">
-    <div class="row">
-      <legend class="col-form-label col-sm-2 pt-0">Radio Buttons</legend>
-      <div class="col-sm-10">
+
+  <div class="form-group">
+    <fieldset>
+      <legend>Radio Buttons</legend>
         <div class="form-check">
           <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
           <label class="form-check-label" for="gridRadios1">
@@ -90,26 +89,32 @@ For complicated forms, information should be displayed using multiple steps or p
             Third disabled radio
           </label>
         </div>
-      </div>
-    </div>
-  </fieldset>
-  <div class="form-group row">
-    <div class="col-sm-2">Checkbox</div>
-    <div class="col-sm-10">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck1">
-        <label class="form-check-label" for="gridCheck1">
-          Example checkbox
-        </label>
-      </div>
-    </div>
+    </fieldset>
   </div>
-  <div class="form-group row">
-    <div class="col-sm-10">
-      <button href="#example">Se connecter</button>
-    </div>
+
+  <div class="form-group">
+    <fieldset>
+      <legend>Checkbox</legend>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck1">
+          <label class="form-check-label" for="gridCheck1">
+            Example checkbox
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck2" disabled>
+          <label class="form-check-label" for="gridCheck2">
+            Example disabled checkbox
+          </label>
+        </div>
+    </fieldset>
+  </div>
+  <div class="form-group">
+    <button color="primary" href="#example">Submit</button>
   </div>
 </form>
+  </div>
+</div>
 
 
 
