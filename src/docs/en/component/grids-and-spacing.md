@@ -24,10 +24,10 @@ If the size of columns are not defined, they will automatically be set to equal 
 
 <container style="width: 100%; margin-bottom: 20px">
     <row>
-        <mdcol><button color="primary" style="width: 100%">Col 1</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Col 2</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Col 3</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Col 4</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 1</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 2</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 3</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 4</button></mdcol>
     </row>
 </container>
 
@@ -64,10 +64,10 @@ When you set the size for one column, sibling columns will automatically resize.
 
 <container style="width: 100%; margin-bottom: 20px">
     <row>
-        <mdcol><button color="primary" style="width: 100%">Col 1</button></mdcol>
-        <mdcol xs="6"><button outline="true" color="primary" style="width: 100%">Col 2</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Col 3</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Col 4</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 1</button></mdcol>
+        <mdcol xs="6" className="mb-2"><button outline="true" color="primary" style="width: 100%">Col 2</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 3</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 4</button></mdcol>
     </row>
 </container>
 
@@ -103,16 +103,16 @@ You can set columns to automatically fit the content they contain. Sibling colum
 
 <div class="container">
     <div class="row">
-        <div class="col-sm">
+        <div class="col-sm" className="mb-2">
             <button color="primary" class="btn-block">Col 1</button>
         </div>
-        <div class="col-sm">
+        <div class="col-sm" className="mb-2">
             <button color="primary" class="btn-block">Col 2</button>
         </div>
-        <div class="col-sm">
+        <div class="col-sm" className="mb-2">
             <button color="primary" class="btn-block">This is the third and largest column due to auto-sizing</button>
         </div>
-        <div class="col-sm">
+        <div class="col-sm" className="mb-2">
             <button color="primary" class="btn-block">Col 4</button>
         </div>
     </div>
@@ -150,16 +150,16 @@ Multiple equal columns and rows can be set with a line break.
 
 <container style="width: 100%; margin-bottom: 20px">
     <row>
-        <mdcol><button color="primary" style="width: 100%">Col 1</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Col 2</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Col 3</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Col 4</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 1</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 2</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 3</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 4</button></mdcol>
     </row>
     <row style="margin-top: 10px">
-        <mdcol><button color="primary" style="width: 100%">Col 1</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Col 2</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Col 3</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Col 4</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 1</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 2</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 3</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 4</button></mdcol>
     </row>
 </container>
 

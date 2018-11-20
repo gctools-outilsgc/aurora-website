@@ -22,10 +22,10 @@ Si la taille des colonnes n’est pas définie, elles vont automatiquement être
 
 <container style="width: 100%; margin-bottom: 20px">
     <row>
-        <mdcol><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Colonne 2</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 2</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
     </row>
 </container>
 
@@ -61,10 +61,10 @@ Lorsque vous établissez la taille d’une colonne, les colonnes sœurs seront a
 
 <container style="width: 100%; margin-bottom: 20px">
     <row>
-        <mdcol><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
-        <mdcol xs="6"><button outline="true" color="primary" style="width: 100%">Colonne 2</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
+        <mdcol xs="6" className="mb-2"><button outline="true" color="primary" style="width: 100%">Colonne 2</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
     </row>
 </container>
 
@@ -99,10 +99,10 @@ Vous pouvez établir des colonnes pour correspondre automatiquement au contenu q
 
 <container style="width: 100%; margin-bottom: 20px">
     <row>
-        <mdcol><button color="primary" class="btn-block">Colonne 1</button></mdcol>
-        <mdcol><button color="primary" class="btn-block">Colonne 2</button></mdcol>
-        <mdcol xs="auto"><button color="primary" class="btn-block">C’est la troisième et la plus large colonne en raison de la grandeur automatique</button></mdcol>
-        <mdcol><button color="primary" class="btn-block">Colonne 4</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" class="btn-block">Colonne 1</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" class="btn-block">Colonne 2</button></mdcol>
+        <mdcol xs="auto" className="mb-2"><button color="primary" class="btn-block">C’est la troisième et la plus large colonne en raison de la grandeur automatique</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" class="btn-block">Colonne 4</button></mdcol>
     </row>
 </container>
 
@@ -137,16 +137,16 @@ De multiples colonnes et rangées peuvent être fixées à l’aide d’un saut 
 
 <container style="width: 100%; margin-bottom: 20px">
     <row>
-        <mdcol><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Colonne 2</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 2</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
     </row>
     <row style="margin-top: 10px">
-        <mdcol><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Colonne 2</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
-        <mdcol><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 2</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
     </row>
 </container>
 
