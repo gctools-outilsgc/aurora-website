@@ -15,7 +15,7 @@ const Footer = () => {
                 <li><a href="https://github.com/gctools-outilsgc/design-system">GitHub</a></li>
                 <li><a href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai">{t("Download")}</a></li>
               </ul>
-              <img style={{"width":"160px"}} className="float-right pb-3" src={Watermark} alt="" />
+              <img style={{"width":"160px"}} className="float-right pb-3" src={Watermark} alt={t("CanadaSymbol")} />
             </Container>
           </footer>
         )

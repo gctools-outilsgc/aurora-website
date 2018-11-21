@@ -1,4 +1,5 @@
 const frTranslation = {
+  "GovernmentofCanada":"Gouvernement du Canada",
   "AuroraDesignSystem":"Système de conception Aurora",
   "Tagline":"D’excellentes applications ont besoin de systèmes de conception. Voici Aurora.",
   "TopIntro": "Le système de conception Aurora est un guide de conception central créé par la Division de la collaboration numérique du gouvernement du Canada pour nos produits numériques. Tout ce dont vous avez besoin pour créer des produits numériques attrayants, cohésifs, pratiques, accessibles et agréables se trouve dans notre système de conception. Le système de conception Aurora sera toujours gratuit, ouvert, collaboratif et en évolution.",
@@ -44,7 +45,8 @@ const frTranslation = {
   "MainNavigation":"Navigation principale",
   "SubNavigation":"Sous-navigation",
   "Reply":"Répondre",
-  "Pressed":"Activé"
+  "Pressed":"Activé",
+  "CanadaSymbol":"Symbole du gouvernement du Canada"
 };
 
 export default frTranslation;

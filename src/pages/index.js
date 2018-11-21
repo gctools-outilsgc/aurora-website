@@ -42,7 +42,7 @@ class IndexPage extends React.Component {
                 <div>
                   <Link to="/component" className="mb-1 btn btn-primary btn-lg">{t("MainCTA")}</Link>
                   <div className="mb-3 mt-2">
-                    <a className="ext-link-text mr-3 mt-2" href="https://github.com/gctools-outilsgc/design-system"><FontAwesomeIcon className="mr-2" style={{"fontSize":"1.5em", "color":"black"}} icon={faGithub} />{t("GithubLink")}</a>
+                    <a className="ext-link-text mr-3 mt-2" href="https://github.com/gctools-outilsgc/design-system-code"><FontAwesomeIcon className="mr-2" style={{"fontSize":"1.5em", "color":"black"}} icon={faGithub} />{t("GithubLink")}</a>
                     <a className="ext-link-text mt-2" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai"><FontAwesomeIcon className="mr-2" style={{"fontSize":"1.5em", "color":"black"}} icon={faDownload} />{t("DownloadLink")}</a>
                   </div>
                 </div>
