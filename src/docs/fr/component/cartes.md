@@ -53,7 +53,7 @@ Un rectangle blanc (<badge style="background-color: #FFFFFF; color:black">#FFFFF
 <codeblock html='
     <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
         <div class="card-body">
-            <h class="card-title h5">Titre de la carte</h3>
+            <h3 class="card-title h5">Titre de la carte</h3>
             <div class="card-subtitle text-muted">Méta-information</div>
             <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte. Voici quelques renseignements supplémentaires, cela pourrait être quelque chose de merveilleux!</p>
             <a href="#" class="card-link">Un autre lien</a>
