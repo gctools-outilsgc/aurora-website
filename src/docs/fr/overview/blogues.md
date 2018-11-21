@@ -15,7 +15,7 @@ En novembre, deux développeurs et moi avons commencé à travailler sur un syst
 
 Aujourd’hui, nous avons quatre développeurs, trois rédacteurs et trois chercheurs en expérience d’utilisateur, et l’équipe de projet tout entière possède une expertise dans le domaine de la conception. Nous avons collaboré avec six partenaires de quatre organisations différentes. Plus important encore, au cours des derniers mois, nous avons créé et compilé un vaste [répertoire de contenu](https://github.com/gctools-outilsgc/design-system/tree/master/documentation/pages) qui correspond aux normes de qualité des entreprises privées de haute technologie et qui s’harmonise aux diverses ressources, politiques et ressources d’apprentissage numériques du gouvernement du Canada.
 
-![Exemple de la documentation de notre systeme](../../../img\blogs\documenation_example.png)
+![Exemple d'un page de la documentation de notre systeme, sur Gitbook](../../../img\blogs\documenation_example.png)
 
 *Exemple de la documentation de notre système*
 
@@ -25,7 +25,7 @@ Après avoir géré un projet pendant six mois, j’ai certainement appris beauc
 
 **Créer quelque chose de nouveau peut s’avérer un processus compliqué.** Essayez de gérer le chaos de votre mieux, mais acceptez le fait que vous allez parfois vous sentir dépassé par l’incertitude et les questions difficiles.
 
-![Image des personnes qui travaillent ensemble](../../../img\blogs\generic_people_doing_stuff.jpeg)
+![Image générique des personnes qui travaillent ensemble](../../../img\blogs\generic_people_doing_stuff.jpeg)
 
 **Être stratégique lorsqu’il est question de travailler avec les autres.** Les partenaires et les collaborateurs sont précieux, mais ils peuvent également élargir le projet bien au-delà de sa portée originale. Tenez-vous-en à vos objectifs initiaux et établissez dès le départ un plan clair quant aux personnes que vous devez mobiliser et au moment où vous devez le faire.
 

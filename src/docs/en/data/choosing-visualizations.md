@@ -53,4 +53,4 @@ Scatterplots are the best form of distribution analysis. They are best used with
 
 Scatterplots may also help to identify outliers or anomaly cases in your data set.
 
-![Scatterplot](../../../img\examples\scatterplot.png)
+![Scatterplot](../../../img\examples\scatterplot_2.png)

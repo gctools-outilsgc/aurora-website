@@ -81,30 +81,6 @@ Il faut toujours utiliser des abréviations pour certains formats de données.
   </tbody>
 </table>
 
-<codeblock html='
-    <table class="table">
-      <thead>
-        <tr>
-          <th scope="col">Jours de la semaine</th>
-          <th scope="col">lun, mar, mer, jeu, ven, sam, dim</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Mois</td>
-          <td>janv, févr, mar, avr, mai, jun, juil, aoû, sept, oct, nov, déc</td>
-        </tr>
-        <tr>
-          <td>Heures</td>
-          <td>1 h, 14 h, 12 h, etc.</td>
-        </tr>
-        <tr>
-          <td>Abréviations monétaires standard</td>
-          <td>1,2 K$, 3,4 M$, 6,2 G$, etc.</td>
-        </tr>
-      </tbody>
-    </table>
-' react=''>
 
 ## Couleurs et textures
 Les graphiques et les visualisations devraient toujours comporter aussi peu de couleurs que possible. Si plusieurs couleurs sont requises, elles devraient être dans une palette complémentaire pour qu’elles se distinguent lorsqu’elles sont placées à proximité. Pour le choix de la couleur, il faut éviter le préjugé (p. ex., rouge ou vert), sauf s’il est spécifiquement lié aux données (une diminution ou une augmentation, par exemple). Toute couleur est acceptable pour une visualisation pourvu qu’elle réponde aux exigences de contraste.

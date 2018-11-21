@@ -27,13 +27,13 @@ Le cercle intérieur est blanc (<badge style="background-color: #FFFFFF; color:b
 Entre les étapes, il y a une ligne centrée dont l’épaisseur est de 3px.
 Cette ligne devrait être de la même couleur que le cercle extérieur.
 
-![Composante des étapes en commencant](../../../img\components\steps indicator_1.png)
+![Composante des étapes en commencant](../../../img\components\steps_indicator_1.png)
 
 Les étapes en cours et achevées sont indiquées au moyen d’un cercle de couleur et d’une ligne. Le cercle extérieur est de couleur (#FEC04F) ou de la couleur secondaire de votre choix. La ligne est également remplie de cette couleur.
 
-![Composante des étapes à étape 2](../../../img\components\steps indicator_2.png)
+![Composante des étapes à étape 2](../../../img\components\steps_indicator_2.png)
 
-![Composante des étapes à étape 3](../../../img\components\steps indicator_3.png)
+![Composante des étapes à étape 3](../../../img\components\steps_indicator_3.png)
 
 ## Barres de progression
 

@@ -27,13 +27,13 @@ The inner circle is white \(<badge style="background-color: #FFFFFF;color:black;
 
 In between steps there is a centred line with a thickness of 3px. This line should be the same colour as the outer circle.
 
-![Steps indicator component on step 1](../../../img\components\steps indicator_1.png)
+![Steps indicator component on step 1](../../../img\components\steps_indicator_1.png)
 
 In progress, completed steps use a coloured circle and line. The outer circle is filled with the colour \(<badge style="background-color: #FEC04F;color:black;">#FEC04F</badge>\)\ or the secondary colour of your choice. The line is also filled with this colour.
 
-![Steps indicator component on step 2](../../../img\components\steps indicator_2.png)
+![Steps indicator component on step 2](../../../img\components\steps_indicator_2.png)
 
-![Steps indicator component on step 3](../../../img\components\steps indicator_3.png)
+![Steps indicator component on step 3](../../../img\components\steps_indicator_3.png)
 
 ## Progress Bars
 

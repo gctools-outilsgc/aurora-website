@@ -70,3 +70,10 @@ The same as option 1 with a border radius of 17px.
         </div>
     </form>
 ' react=''></codeblock>
+
+## Using an icon
+
+Search bars may include a magnifying glass icon depending on the functionality of the search bar. 
+
+If completing a query leads to a new search results page, use the icon. If the search results are auto-populated below the search bar, no icon is required. 
+

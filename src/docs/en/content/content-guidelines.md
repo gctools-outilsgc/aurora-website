@@ -10,7 +10,7 @@ title: "Content guidelines"
 
 # Content Guidelines
 
-## Reading level and plain language
+## Plain language
 
 Plain language is a style of writing designed to make text easy to read and understand.
 
@@ -18,7 +18,7 @@ Plain language is achieved through several techniques:
 
 * **Write in short sentences.** Sentences should incorporate only one main idea or point in order to be as clear as possible. Aim for no more than 20 words per sentence unless necessary.
 
-* **Use the active voice.** Active voice means that the subject does the action, rather than the subject being acted upon. The active voice is closer to the way we talk, and is more dynamic and easy to read. Active voice typically follows the structure of - the subject (noun) action (verb) what/where (object). Example: The dog (subject/noun) fetched (action/verb) the ball (object). One good rule is to remember that things don't happen to people, people DO things.
+* **Prefer the active voice.** Active voice means that the subject does the action, rather than the subject being acted upon. The active voice is closer to the way we talk, and is more dynamic and easy to read. Active voice typically follows the structure of - the subject (noun) action (verb) what/where (object). Example: The dog (subject/noun) fetched (action/verb) the ball (object). One good rule is to remember that things don't happen to people, people DO things.
 
 * **Use words appropriate for the situation and user.** Write clearly using the simplest words which say what you mean. Only use jargon if you know that your reader will understand. Avoid buzzwords or words that only make sense to a very specific audience.
 
