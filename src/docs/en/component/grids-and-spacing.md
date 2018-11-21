@@ -103,18 +103,10 @@ You can set columns to automatically fit the content they contain. Sibling colum
 
 <div class="container">
     <div class="row">
-        <div class="col-sm" className="mb-2">
-            <button color="primary" class="btn-block">Col 1</button>
-        </div>
-        <div class="col-sm" className="mb-2">
-            <button color="primary" class="btn-block">Col 2</button>
-        </div>
-        <div class="col-sm" className="mb-2">
-            <button color="primary" class="btn-block">This is the third and largest column due to auto-sizing</button>
-        </div>
-        <div class="col-sm" className="mb-2">
-            <button color="primary" class="btn-block">Col 4</button>
-        </div>
+        <mdcol className="mb-2"><button color="primary" class="btn-block">Col 1</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" class="btn-block">Col 2</button></mdcol>
+        <mdcol xs="auto" className="mb-2"><button color="primary" class="btn-block">This is the third and largest column due to auto-sizing</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" class="btn-block">Col 4</button></mdcol>
     </div>
 </div>
 
