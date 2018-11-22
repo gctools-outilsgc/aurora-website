@@ -27,6 +27,15 @@
   }
 }
 
+.aurora-search-results {
+  border-radius: 0.35rem;
+}
+
+.aurora-search-results a:hover, .aurora-search-results a:focus {
+  color: #fff;
+  background:#467B8D;
+}
+
 @media (max-width: 768px) {
   .doc-container {
       padding-left: 15px;

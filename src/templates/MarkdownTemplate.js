@@ -54,6 +54,7 @@ class MarkdownTemplate extends React.Component {
                       <Search
                         lng={(i18n.lng === "en") ? "en" : "fr"}
                         placeholder={(i18n.lng === "en") ? "Search" : "Chercher"}
+                        section="mobile"
                         />
                     </Row>
                   </div>
