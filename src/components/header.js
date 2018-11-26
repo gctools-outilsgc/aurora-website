@@ -50,6 +50,7 @@ const Header = ({ path }) => {
                     <Search
                       lng={(i18n.language === "en") ? "en" : "fr"}
                       placeholder={(i18n.language === "en") ? "Search" : "Chercher"}
+                      section="desktop"
                     />
                   </span>
                   <span className="float-right">

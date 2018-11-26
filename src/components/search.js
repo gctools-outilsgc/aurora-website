@@ -1,13 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
-import {
-    Dropdown,
-    DropdownToggle,
-    DropdownMenu,
-    Input,
-    ListGroupItem,
-    Label
-} from 'reactstrap';
+import { Input, Label } from 'reactstrap';
 import {indexEN, indexFR, searchValuesEN, searchValuesFR} from './SearchIndex';
 import {I18n} from 'react-i18next';
 
@@ -16,6 +9,7 @@ export default class Search extends Component {
     constructor(props) {
         super(props)
         this.toggle = this.toggle.bind(this);
+        this.onBlur = this.onBlur.bind(this);
         this.getSearchResults = this.getSearchResults.bind(this);
         this.state = {
           query: ``,
@@ -51,47 +45,70 @@ export default class Search extends Component {
           this.setState({
             results: results.slice(0, 5),
             query,
+            dropdownOpen: true,
           })
         } else {
           this.setState({
             results: [],
             query,
+            dropdownOpen: true,
           })
         }
 
     }
 
+    onBlur(e) {
+      var currentTarget = e.currentTarget;
+
+      setTimeout(() => {
+        if (!currentTarget.contains(document.activeElement)) {
+            this.setState({
+              dropdownOpen: false
+            })
+        }
+      }, 0);
+    }
+
     render() {
       return (
-        <div className="search-form search-form-round" style={{width:'300px'}}>
-          <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-            <Label for="search" className="sr-only">
-              {this.props.placeholder}
-            </Label>
-            <DropdownToggle
-              tag={Input}
-              type="text"
-              id="search"
-              value={this.state.query}
-              onChange={this.search}
-              placeholder={this.props.placeholder}
-            />
-            <DropdownMenu className="container-fluid">
-              {(this.state.results.length !== 0) ?
+        <div className="search-form search-form-round dropdown"  onBlur={this.onBlur} style={{width:'300px'}}>
+          <Label for={"search-" + this.props.section} className="sr-only">
+            {this.props.placeholder}
+          </Label>
+          <Input
+            tag={Input}
+            type="text"
+            id={"search-" + this.props.section}
+            value={this.state.query}
+            onChange={this.search}
+            placeholder={this.props.placeholder}
+            aria-owns={"results-" + this.props.section}
+          />
 
-                this.state.results.map(page =>
-                    <ListGroupItem tag={Link} to={page.ref}>
-                        {
-                          (this.props.lng === "en") ?
-                          searchValuesEN[page.ref]
-                          :
-                          searchValuesFR[page.ref]
-                        }
-                    </ListGroupItem>
-                )
+          {(this.state.results.length !== 0) ?
+            <div id={"results-" + this.props.section} className={"container-fluid dropdown-menu aurora-search-results " + (this.state.dropdownOpen ? "show" : "")}>
+              <span aria-live="assertive" class="sr-only">
+                {(this.props.lng == "en") ?
+                  "Showing " + this.state.results.length + " results."
                 :
-                (this.state.query.length > 0) ?
-                <ListGroupItem toggle={"false"}>
+                  "Indication du " + this.state.results.length + " des résultats."
+                }
+              </span>
+              {this.state.results.map(page =>
+                  <Link className="list-group-item" to={page.ref}>
+                      {
+                        (this.props.lng === "en") ?
+                        searchValuesEN[page.ref]
+                        :
+                        searchValuesFR[page.ref]
+                      }
+                  </Link>
+              )}
+            </div>
+            :
+            (this.state.query.length > 0) &&
+              <div id={"results-" + this.props.section} className={"container-fluid dropdown-menu " + (this.state.dropdownOpen ? "show" : "")}>
+                <div className="list-group-item" aria-live="assertive" style={{"position":"relative", "display":"block", "padding":"0.75rem 1.25rem"}}>
                   <I18n ns={["translation"]}>
                     {
                       (t) => (
@@ -99,21 +116,12 @@ export default class Search extends Component {
                       )
                     }
                   </I18n>
-                </ListGroupItem>
-                :
-                <ListGroupItem toggle={"false"}>
-                  <I18n ns={["translation"]}>
-                    {
-                      (t) => (
-                        t("search_start_searching")
-                      )
-                    }
-                  </I18n>
-                </ListGroupItem>
-              }
-            </DropdownMenu>
-          </Dropdown>
+                </div>
+              </div>
+          }
         </div>
+
+
       )
   }
 }
