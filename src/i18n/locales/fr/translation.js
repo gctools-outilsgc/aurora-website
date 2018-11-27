@@ -44,7 +44,8 @@ const frTranslation = {
   "MainNavigation":"Navigation principale",
   "SubNavigation":"Sous-navigation",
   "Reply":"Répondre",
-  "Pressed":"Activé"
+  "Pressed":"Activé",
+  "Design":"Conception"
 };
 
 export default frTranslation;

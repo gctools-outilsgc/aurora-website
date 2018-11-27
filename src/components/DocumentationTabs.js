@@ -2,6 +2,7 @@ import React from 'react';
 import { Nav, NavItem, NavLink } from 'reactstrap';
 import { withCookies, Cookies } from 'react-cookie';
 import { instanceOf } from 'prop-types';
+import {I18n} from 'react-i18next';
 
 /*
   Creates tabs to render HTML/React/Design tabs. To be used with DocumentationTabPanel component.
@@ -16,6 +17,7 @@ import { instanceOf } from 'prop-types';
       <doctabpanel type="design">
       </doctabpanel>
     </documentationtabs>
+
   */
 class DocumentationTabs extends React.Component {
   static propTypes = {
@@ -77,7 +79,13 @@ class DocumentationTabs extends React.Component {
             onClick={() => this.changeOutput("design")}
             className={(!(this.state.output === "design")) ? "" : "active"}
             >
-              Design
+            <I18n ns={["translation"]}>
+              {
+                (t) => (
+                  t("Design")
+                )
+              }
+            </I18n>
             </NavLink>
           </NavItem>
         </Nav>
