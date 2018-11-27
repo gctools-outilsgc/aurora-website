@@ -29,6 +29,7 @@ Header Row: Table headers are displayed in heading 6 (Nunito Sans Bold at 16px) 
 
 Table Cell: Table cell information is displayed using regular text style (Nunito Sans Regular at 16px) and are left aligned. The text has a padding of 21px by 27px. The heading row has a bottom border of 2px using the colour <badge style="background-color: #96a8b2;color:black">#96a8b2</badge>. Each row has a bottom border of 1px using the colour <badge style="background-color: #96a8b2;color:black">#96a8b2</badge>.
 
+<h3>Simple Table Example</h3>
 <table class="table">
   <thead>
     <tr>
@@ -90,7 +91,7 @@ Table Cell: Table cell information is displayed using regular text style (Nunito
             <td>@twitter</td>
             </tr>
         </tbody>
-    </table> 
+    </table>
 ' react=''></codeblock>
 
 ## Striped Table
@@ -107,6 +108,7 @@ Table Cell: Table cell information is displayed using regular text style (Nunito
 
 Every second row has a fill of <badge style="background-color: #F2F5F6;color:black">#F2F5F6</badge>.
 
+<h3>Stripped Table Example</h3>
 <strippedtable></strippedtable>
 
 <codeblock html='

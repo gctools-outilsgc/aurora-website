@@ -51,32 +51,32 @@ Les barres de progression sont stylisées au moyen d’un rectangle d’environ 
 Le pourcentage peut être soit aligné à la droite de la barre, soit centré dans la portion colorée de la barre.
 
 <div class="progress">
-  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
 </div>
 
 <codeblock html='
     <div class="progress">
-        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
     </div>
 ' react='' />
 
 <div class="progress">
-  <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
 </div>
 
 <codeblock html='
     <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
     </div>
 ' react='' />
 
 <div class="progress">
-  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
 </div>
 
 <codeblock html='
     <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
     </div>
 ' react='' />
 
@@ -90,9 +90,9 @@ Les barres de progression sont vides au début et se remplissent graduellement d
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </helmet>
-<i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"></i>
-<i class="fa fa-refresh fa-spin" style="font-size:24px"></i>
-<i class="fa fa-spinner fa-spin" style="font-size:24px"></i>
+<i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"><span class="sr-only">Notch circle spinner</span></i>
+<i class="fa fa-refresh fa-spin" style="font-size:24px"><span class="sr-only">Refresh spinner</span></i>
+<i class="fa fa-spinner fa-spin" style="font-size:24px"><span class="sr-only">Dot spinner</span></i>
 
 Les boucles de progression sont utilisées pour indiquer le chargement d’une page ou d’une fonction. Une règle générale est d’utiliser des boucles de progression pour les processus qui durent moins de 4 secondes. Les boucles de progression indiquent des niveaux de progrès indéterminés, ce qui signifie qu’il n’y a pas d’achèvement clair et que la boucle d’animation se poursuit jusqu’à ce que le processus soit terminé.
 

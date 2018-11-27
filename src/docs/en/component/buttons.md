@@ -67,11 +67,7 @@ Each of the states for primary buttons are as follows:
 
 **Focus state:** primary colour at 80% opacity, white text, with a border radius of 4px and padding of 15px. Includes a 3px stroke in the primary colour.
 
-<button color="primary" disabled="true">Primary</button>
-
 <button color="primary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;">Focus</button>
-
-<button color="primary" style="color: #fff; background-color: #215679; border-color: #1e4f6f;box-shadow: 0 0 0 0.2rem rgba(44, 115, 161, 0.25), inset 0 3px 5px rgba(0, 0, 0, 0.125);">Active</button>
 
 **Disabled state:** primary colour at 60% opacity, white text, with a border radius of 4px and padding of 15px.
 
