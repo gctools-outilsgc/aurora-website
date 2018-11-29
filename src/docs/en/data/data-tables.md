@@ -108,7 +108,7 @@ Table Cell: Table cell information is displayed using regular text style (Nunito
 
 Every second row has a fill of <badge style="background-color: #F2F5F6;color:black">#F2F5F6</badge>.
 
-<h3>Stripped Table Example</h3>
+<h3>Striped Table Example</h3>
 <strippedtable></strippedtable>
 
 <codeblock html='
