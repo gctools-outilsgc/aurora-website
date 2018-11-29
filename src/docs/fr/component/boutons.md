@@ -56,21 +56,21 @@ Voici les caractéristiques de chacun des états pour les boutons primaires :
 
 **État normal** : Couleur primaire à 100 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px.
 
-<button style="margin-top: 5px;" color="primary">Normal</button>
+<button aria-label="Exemple d'un bouton primaire en état normal" style="margin-top: 5px;" color="primary">Normal</button>
 
 <codeblock html='<button type="button" class="btn btn-primary">Normal</button>' react='<Button color="primary">Normal</Button>'></codeblock>
 
 **État stationnaire** : Couleur primaire à 80 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px.
 
-<button color="primary" style="color: #fff; background-color: #245e83; border-color: #215679">Stationnaire</button>
+<button aria-label="Exemple d'un bouton primaire en état sensitif" color="primary" style="color: #fff; background-color: #245e83; border-color: #215679">Stationnaire</button>
 
 **État accentué** : Couleur primaire à 80 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px. Comprends un trait de 3px dans une couleur primaire.
 
-<button color="primary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;">Accentué</button>
+<button aria-label="Exemple d'un bouton primaire en état accentué" color="primary" style="background-color: #002D42; box-shadow: 0 0 0 0.2rem rgba(0, 45, 66, 0.25);">Accentué</button>
 
 **État désactivé** : Couleur primaire à 60 % d’opacité, texte blanc avec une bordure d’un rayon de 4px et d’un remplissage de 15px.
 
-<button color="primary" disabled="true">Désactivé</button>
+<button aria-label="Exemple d'un bouton primaire en état désactivé" color="primary" disabled="true">Désactivé</button>
 
 <codeblock html='<button type="button" class="btn btn-primary" disabled>Primaire</button>' react='<Button color="primary" disabled>Désactivé</Button>'></codeblock>
 
@@ -88,21 +88,23 @@ Les boutons secondaires dans ce système sont transparents avec une couleur de t
 
 Voici les caractéristiques de chacun des états pour les boutons :
 
-**État normal** : Transparent avec un trait de 1px utilisant la couleur <badge style="background-color: #002D42;color:black;">##002D42</badge>, le texte est écrit dans la même couleur. La bordure est d’un rayon de 4px et le remplissage de 15px.
+**État normal** : Transparent avec un trait de 1px utilisant la couleur <badge style="background-color: #002D42;color:white;">#002D42</badge>, le texte est écrit dans la même couleur. La bordure est d’un rayon de 4px et le remplissage de 15px.
 
-<button color="secondary">Secondaire</button>
+<button aria-label="Exemple d'un bouton secondaires en état normal" color="secondary">Secondaire</button>
 
 <codeblock html='<button type="button" class="btn btn-secondary">Secondaire</button>' react='<Button color="secondary">Secondaire</Button>'></codeblock>
 
 **État sensitif** : Un rectangle coloré avec no002D42 à 80 % d’opacité, le texte est écrit en blanc. La bordure est d’un rayon de 4px et le remplissage de 15px.
 
-**État accentué** : Transparent avec un trait de 3px utilisant no002D42, le texte est écrit en <badge style="background-color: #002D42;color:black;">##002D42</badge>. La bordure est d’un rayon de 4px et le remplissage de 15px.
+<button aria-label="Exemple d'un bouton secondaires en état sensitif" color="secondary" style="color: #fff; background-color: #002D42;">Sensitif</button>
 
-<button color="secondary" style="color: #fff; background-color: #087a84; border-color: #1e4f6f;box-shadow: 0 0 0 0.2rem rgba(44, 115, 161, 0.25), inset 0 3px 5px rgba(0, 0, 0, 0.125);">Accentué</button>
+**État accentué** : Transparent avec un trait de 3px utilisant no002D42, le texte est écrit en <badge style="background-color: #002D42;color:white;">#002D42</badge>. La bordure est d’un rayon de 4px et le remplissage de 15px.
+
+<button aria-label="Exemple d'un bouton secondaires en état accentué" color="secondary" style="color: #002D42; background-color: transparent; box-shadow: 0 0 0 0.2rem rgba(0, 45, 66, 0.25);">Accentué</button>
 
 **État désactivé** : Remplissage de couleur <badge style="background-color: #CECECE;color:black;">#CECECE</badge> avec du texte blanc. La bordure est d’un rayon de 4px et le remplissage de 15px.
 
-<button color="secondary" disabled="true">Secondaire</button>
+<button aria-label="Exemple d'un bouton secondaires en état désactivé" color="secondary" disabled="true">Secondaire</button>
 
 <codeblock html='<button type="button" class="btn btn-secondary" disabled>Secondaire</button>' react='<Button color="secondary" disabled>Secondaire</Button>'></codeblock>
 
@@ -150,7 +152,7 @@ Cliquer sur les boutons de menu déroulant affiche une liste d’éléments. Ces
 
 **État activé** : Lorsqu’on presse sur la flèche du menu déroulant, cette section du bouton est affichée à 80 % d’opacité et un menu déroulant est affiché en dessous. La boîte d’action utilise une bordure de 1px de couleur <badge style="background-color: #CECECE;color:black;">#CECECE</badge>. La boîte a une bordure d’un rayon de 4px. La largeur de la boîte est de 166px et la hauteur dépend du nombre d’actions, utilisant 40px par action. Lorsque le curseur est placé dessus, le 40px autour de l’action est affiché en utilisant <badge style="background-color: #CECECE;color:black;">#CECECE</badge>.
 
-<mdbuttondropdown color="primary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;" title="Accentué">
+<mdbuttondropdown color="primary" style=" box-shadow: 0 0 0 0.2rem rgba(0, 45, 66, 0.25);" title="Accentué">
 </mdbuttondropdown>
 
 **État activé** : Lorsqu’on presse sur la flèche du menu déroulant, cette section du bouton est affichée à 80 % d’opacité et un menu déroulant est affiché en dessous. La boîte d’action utilise une bordure de 1px de couleur <badge style="background-color: #CECECE;color:black;">#CECECE</badge>. La boîte a une bordure d’un rayon de 4px. La largeur de la boîte est de 166px et la hauteur dépend du nombre d’actions, utilisant 40px par action. Lorsque le curseur est placé dessus, le 40px autour de l’action est affiché en utilisant <badge style="background-color: #CECECE;color:black;">#CECECE</badge>.

@@ -42,7 +42,7 @@ Buttons should include normal, hover, focus, active and disabled states:
 
 **Focus:** Similar to hover states, focus states indicate that the user has tabbed to the specific button.
 
-**Active/Pressed:** Usually indicated by a change in colour or animation, this indicates that the user has clicked or pressed a button/
+**Active/Pressed:** Usually indicated by a change in colour or animation, this indicates that the user has clicked or pressed a button
 
 **Disabled:** Usually a ghosted version of the normal state, this indicates to the user that the action is unavailable.
 
@@ -58,20 +58,20 @@ Each of the states for primary buttons are as follows:
 
 **Regular state:** primary colour at 100% opacity, white text, with a border radius of 4px and padding of 15px.
 
-<button color="primary">Regular</button>
+<button aria-label="Example of primary button in regular state" color="primary">Regular</button>
 <codeblock html='<button type="button" class="btn btn-primary">Primary</button>' react='<Button color="primary">Primary</Button>'></codeblock>
 
 **Hover state:** primary colour at 80% opacity, white text, with a border radius of 4px and padding of 15px.
 
-<button color="primary" style="color: #fff; background-color: #245e83; border-color: #215679">Hover</button>
+<button aria-label="Example of primary button in hover state" color="primary" style="color: #fff; background-color: #245e83; border-color: #215679">Hover</button>
 
 **Focus state:** primary colour at 80% opacity, white text, with a border radius of 4px and padding of 15px. Includes a 3px stroke in the primary colour.
 
-<button color="primary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;">Focus</button>
+<button aria-label="Example of primary button in focus state" color="primary" style="background-color: #002D42; box-shadow: 0 0 0 0.2rem rgba(0, 45, 66, 0.25);">Focus</button>
 
 **Disabled state:** primary colour at 60% opacity, white text, with a border radius of 4px and padding of 15px.
 
-<button color="primary" disabled="true">Disabled</button>
+<button aria-label="Example of primary button in disabled state" color="primary" disabled="true">Disabled</button>
 <codeblock html='
     <button type="button" class="btn btn-primary" disabled>Disabled</button>
 ' react=''></codeblock>
@@ -92,21 +92,23 @@ Secondary buttons in this system are transparent with a stroke colour. Text chan
 
 Each of the states for secondary buttons are as follows:
 
-**Regular state:** transparent with a 1px stroke using the  colour <badge style="background-color: ##002D42;">##002D42</badge>, the text is written in the same colour. Border radius of 4px and padding of 15px.
+**Regular state:** transparent with a 1px stroke using the  colour <badge style="background-color: #002D42;">#002D42</badge>, the text is written in the same colour. Border radius of 4px and padding of 15px.
 
-<button color="secondary">Regular</button>
+<button aria-label="Example of secondary button in regular state" color="secondary">Regular</button>
 
 <codeblock html='<button type="button" class="btn btn-secondary">Secondary</button>' react='<Button color="secondary">Secondary</Button>'></codeblock>
 
-**Hover state:** rectangle coloured with <badge style="background-color: ##002D42;">##002D42</badge> at 80% opacity, the text is displayed in white. Border radius of 4px and padding of 15px.
+**Hover state:** rectangle coloured with <badge style="background-color:#002D42;">#002D42</badge> at 80% opacity, the text is displayed in white. Border radius of 4px and padding of 15px.
 
-**Focus state:** transparent with a 3px stroke using <badge style="background-color: #0ba7b4;">#0ba7b4</badge>, the text is displayed in <badge style="background-color: #fff; color: black;">#fff</badge>. Border radius of 4px and padding of 15px.
+<button aria-label="Example of secondary button in hover state" color="secondary" style="background-color:#002D42; color:white;">Hover</button>
 
-<button color="secondary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;">Focus</button>
+**Focus state:** transparent with a 3px stroke using <badge style="background-color: #002d42;">#002d42</badge>, the text is displayed in <badge style="background-color: #fff; color: black;">#FFFFFF</badge>. Border radius of 4px and padding of 15px.
+
+<button aria-label="Example of secondary button in focus state" color="secondary" style="color: #002D42; background-color: transparent; box-shadow: 0 0 0 0.2rem rgba(0, 45, 66, 0.25);">Focus</button>
 
 **Disabled state:** Fill colour of <badge style="background-color: #CECECE;color:black;">#CECECE</badge>, with white text. Border radius of 4px and padding of 15px.
 
-<button color="secondary" disabled="true">Disabled</button>
+<button aria-label="Example of secondary button in disabled state" color="secondary" disabled="true">Disabled</button>
 
 <codeblock html='<button type="button" class="btn btn-secondary" disabled>Secondary</button>' react='<Button color="secondary" disabled>Secondary</Button>'></codeblock>
 
@@ -155,7 +157,7 @@ Drop down buttons display a list of items when clicked. They are used for two-st
 
 **Focus State:** Similar to the primary button, drop-down buttons use the primary colour at 100% opacity, white text, with a border radius of 4px and padding of 15px. The drop-down arrow represents a space of 30px by 40px, which is separated from the primary button using a white line. The arrow uses a space of 15px width and 8px in height. Whichever piece of the button \(primary or drop-down section\) is being focused on is shown at 80% opacity and includes a stroke of 3px in the primary colour.
 
-<mdbuttondropdown color="primary" style="outline: 1px dotted; outline: 5px auto -webkit-focus-ring-color;" title="Focus">
+<mdbuttondropdown color="primary" style=" box-shadow: 0 0 0 0.2rem rgba(0, 45, 66, 0.25);" title="Focus">
 </mdbuttondropdown>
 
 **Pressed State:** When the drop-down arrow is pressed, this arrow section of the button is displayed at 80% opacity and a drop-down menu is displayed below. The action box uses a 1px border using <badge style="background-color: #CECECE;color:black;">#CECECE</badge>. The box has a border radius of 4px. The width of the box is 166px, and the height depends on the number of actions, using 40px per action. On hover, the 40px around the action is displayed using <badge style="background-color: #CECECE;color:black;">#CECECE</badge>.

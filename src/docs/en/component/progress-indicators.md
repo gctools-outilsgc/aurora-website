@@ -91,10 +91,10 @@ Progress bars start empty and gradually fill with colour using an animation. The
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </helmet>
-<i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"><span class="sr-only">Notch circle spinner</span></i>
-<i class="fa fa-refresh fa-spin" style="font-size:24px"><span class="sr-only">Refresh spinner</span></i>
-<i class="fa fa-spinner fa-spin" style="font-size:24px"><span class="sr-only">Dot spinner</span></i>
+<i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"><span class="sr-only">Example of notch circle spinner</span></i>
+<i class="fa fa-refresh fa-spin" style="font-size:24px"><span class="sr-only">Example of refresh spinner</span></i>
+<i class="fa fa-spinner fa-spin" style="font-size:24px"><span class="sr-only">Example of dot spinner</span></i>
 
 Spinners are used to indicate that a page or function is loading. A general rule is to use spinners for processes that take less than 4 seconds. Spinners show indeterminate levels of progress, meaning there is no clear completion and the animation loops until the process is complete.
 
-The spinner used in this design system is displayed using the spinner icon from Font Awesome. Font Awesome provides multiple icons that may work well as a spinner, depending on your content. You can refer to [Font Awesome's documentation](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit) to animate the spinner to demonstrate a loading page or function.
+The spinner used in this design system is displayed using the spinner icon from Font Awesome. Font Awesome provides multiple icons that may work well as a spinner, depending on your content. You can refer to [Font Awesome's documentation](https://fontawesome.com/how-to-use/on-the-web/styling/animating-icons) to animate the spinner to demonstrate a loading page or function.
