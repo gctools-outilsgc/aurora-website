@@ -13,8 +13,6 @@ title: "Choosing visualizations"
 
 ## Tables
 
-<strippedtable></strippedtable>
-
 Tables are a raw format for displaying data sets. If a more complex visualization is used, a table should also be present somewhere on the page so users can choose how they view and analyze data.
 
 Tables may be all you need to visualize your data. Simply using a table is great if:

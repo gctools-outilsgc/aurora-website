@@ -13,8 +13,6 @@ title: "Choisir les visualizations"
 
 ## Tableaux
 
-<strippedtable></strippedtable>
-
 Les tableaux constituent le format brut pour la publication des jeux de données. Si une visualisation plus complexe est utilisée, un tableau devrait également se trouver quelque part sur la page afin que les utilisateurs puissent choisir la façon dont ils affichent et analysent les données.
 
 Les tableaux peuvent être tout ce dont vous avez besoin pour visualiser vos données. Il est formidable d’utiliser un tableau si :

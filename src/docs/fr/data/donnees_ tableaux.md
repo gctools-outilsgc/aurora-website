@@ -29,6 +29,7 @@ Rangée d’en-têtes : les en-têtes du tableau sont affichés en en-tête 6 (N
 
 Cellule du tableau : l’information de la cellule du tableau est affichée en utilisant un style de texte normal (Nunito sans régulier à 16px) et est alignée à gauche. Le texte a un remplissage de 21px par 27px. La rangée d’en-têtes a une bordure inférieure de 2px utilisant la couleur <badge style="background-color: #96a8b2; color:black">#96A8B2</badge>. Chaque rangée a une bordure inférieure de 1px utilisant la couleur <badge style="background-color: #96a8b2; color:black">#96A8B2</badge>.
 
+<h3>Exemple de tableau simple</h3>
 <table class="table">
   <thead>
     <tr>
@@ -90,7 +91,7 @@ Cellule du tableau : l’information de la cellule du tableau est affichée en u
             <td>@twitter</td>
             </tr>
         </tbody>
-    </table> 
+    </table>
 ' react=''></codeblock>
 
 ## Tableau rayé
@@ -107,6 +108,7 @@ Cellule du tableau : l’information de la cellule du tableau est affichée en u
 
 Chaque seconde rangée a un remplissage de <badge style="background-color: #F2F5F6; color:black">#F2F5F6</badge>.
 
+<h3>Exemple de tableau rayé</h3>
 <strippedtable></strippedtable>
 
 <codeblock html='
