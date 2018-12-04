@@ -126,3 +126,5 @@ l’utilisateur ou du sujet connexe destinées à un utilisateur.
 **Démarrer** – Dirige l’utilisateur vers un aperçu d’une page de renvoi générale de l’application.
 
 **En savoir plus** – Dirige l’utilisateur vers une page contenant des renseignements plus détaillés sur le sujet connexe.
+
+**Soumettre** - Un appel à l’action qui indique que l’information qui a été fournie par l’utilisateur sera traitée et sauvegardée dans l’application, en arrière-plan.
