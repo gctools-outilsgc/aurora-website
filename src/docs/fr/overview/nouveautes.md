@@ -11,33 +11,23 @@ title: "Nouveautés"
 
 # Nouveautés
 
-Dernières mises à jour au système de conception Aurora.
+Dernières mises à jour au système de conception Aurora. Cette liste comprend les principales mises à jour de contenu et les correctifs pour le Web. Pour une liste complète des mises à jour et des demandes d’extraction, veuillez lire nos notes de publication sur Github.
 
-##Version 1
-le 19 septembre, 2018
+Pour plus d'information sur mises à jours futurs, visitez la [page d'Aurora](https://wiki.gccollab.ca/Aurora) sur GCwiki.
 
-![Image de marque Aurora](../../../img\aurora-banner-small.png)
+![Aurora banner](../../../img\aurora-banner-small.png)
 
-Nous sommes ravis de lancer la première version du site Web du système de conception Aurora! Il est facile de trouver et de copier toutes les composantes que nous avons conçues et mises à l’essai, y compris le texte sur la méthode et l’opportunité de leur utilisation, au moyen de leur code HTML.
+## V 0.3.1
+Le 14 décembre 2018
 
-La présente est la première version, et nous continuons de concevoir de nouvelles composantes à intégrer dans Aurora ainsi que d’ajouter du codage React.js pour chaque composante qui existe.
+* Améliorations apportées à l’accessibilité, y compris de meilleurs textes alternatifs, des corrections à la barre de recherche, des corrections au contraste, une meilleure navigation sur mobile et plus encore. 
+* Corrections mineures pour assurer la cohérence entre les composantes et la documentation.
+* Modifications du contenu, y compris des ajouts au vocabulaire du système et une clarification dans la composante de recherche. 
+* Nouvelle structure pour la page Nouveautés.
 
-Si vous souhaitez rester au courant de nos projets et fournir vos commentaires sur Aurora, veuillez accéder à notre Github. Restez à l’affût pour obtenir des mises à jour, alors que nous travaillons à améliorer encore plus Aurora!
+## V 0.3
+Le 26 septembre 2018
 
-## Phase II, développement
-Juin 2018
+Premier lancement public
 
-Nous travaillons maintenant sur la phase II. L’équipe de conception s’est divisée en de plus petites équipes de travail, dont des développeurs, des rédacteurs, des concepteurs et des chercheurs de l’expérience de travail. Nous procédons à des essais d’utilisation de certains de nos éléments, nous élaborons des feuilles de style et des composants HTML, et nous créons des modèles fil de fer pour construire la première itération du site Web du système de conception.
-
-La première itération du système de conception fait actuellement l’objet d’un examen. Nous apportons de petits changements aux composantes, en nous assurant de l’uniformité de notre [trousse d’interface utilisateur](https://github.com/gctools-outilsgc/design-system/tree/master/user%20interface%20kit) et de notre documentation d’édition. Jetez un coup d’œil à notre Github pour certains de nos [rapports de recherches](https://github.com/gctools-outilsgc/design-system/tree/master/ux%20testing) et des [exemples de prototypes!](https://github.com/gctools-outilsgc/design-system/tree/master/page%20prototypes)
-
-Sierra a également rédigé un [billet de blogue](https://medium.com/@s.duffey121/les-sept-le%C3%A7ons-que-jai-tir%C3%A9es-en-dirigeant-un-projet-de-conception-a8db3b4e2e4d) décrivant certaines des principales leçons tirées du projet.  
-
-## Phase I, développement
-Avril 2018
-
-L’équipe de conception Aurora travaille d’arrache-pied pour créer une première version du système de conception Aurora. Parcourez notre manuel de git afin de voir ce qui a été fait jusqu’à présent et sur quoi nous travaillons toujours!
-
-La première phase du système de conception portera sur les principaux éléments de conception et une trousse d’interface utilisateur téléchargeable. Nous sommes à terminer les derniers éléments liés à la navigation, à la visualisation des données et à l’animation, ainsi qu’à l’examen des travaux précédents.
-
-Les travaux de développement pour les éléments de conception commenceront à la mi mai. Vous souhaitez nous aider à codifier nos composantes? [Communiquez avec nous!](mailto:%20sierra.duffey@tbs-sct.gc.ca)
+* Lancement du site Web Aurora, notamment la page d’accueil, les sections Aperçu, Composantes, Contenu et Données, les liens vers Github et la trousse UI; une barre de recherche fonctionnelle.
