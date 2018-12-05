@@ -103,7 +103,6 @@ Call-to-actions should always be placed in close proximity to their related subj
 
 ### Common call-to-actions
 
-
 **Contact us** - Directs the user to a page containing the information required to reach your team. This may include email, phone number or a link to help desk.
 
 **Give us feedback** - Opens a page or window where a user can enter information about the related application or feature.
@@ -125,3 +124,5 @@ Call-to-actions should always be placed in close proximity to their related subj
 **Get started** - Directs the user to an overview landing pafe for the application.
 
 **Learn more** - Directs the user to a page with more in-depth information about the related topic.
+
+**Submit** - A call-to-action which indicates that the information the user provided will be processed and saved in the back-end of the application.
