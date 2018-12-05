@@ -54,7 +54,7 @@ class Sidenav extends React.Component {
       <I18n ns={["translation"]}>
         {
           (t, { i18n }) => (
-            <nav id="sidenav" role="navigation" aria-label={t("SubNavigation")}>
+            <nav class="sidenav" role="navigation" aria-label={t("SubNavigation")}>
               <Nav style={{'marginTop':'110px', 'marginBottom':'40px'}}>
                 {subPieces}
               </Nav>

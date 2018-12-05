@@ -1,4 +1,4 @@
-#sidenav{
+.sidenav{
   background-color: #FAFAFA;
   display: inline-block;
   max-width: 300px;
@@ -28,7 +28,7 @@
 }
 
 @media (max-width: 768px) {
-  .mobile-sidebar #sidenav {
+  .mobile-sidebar .sidenav {
       top: 161px !important;
       z-index:9999;
       .nav {

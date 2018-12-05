@@ -60,7 +60,7 @@ const Header = ({ path }) => {
             </div>
           </div>
           <div>
-            <Navbar color="white" expand className="main-nav" style={{paddingBottom:'0'}} aria-label={t("MainNavigation")} role="navigation">
+            <Navbar color="white" expand className="main-nav" style={{paddingBottom:'0', paddingRight:'0'}} aria-label={t("MainNavigation")} role="navigation">
               <Link to="/#!" className="text-dark logo">
                 <img src={logo} alt="Logo" className="float-left" style={{width:'30px', margin:'5px'}} />
                 <span className="h2 d-none d-md-block float-left font-weight-normal">

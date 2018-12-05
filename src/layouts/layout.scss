@@ -1,3 +1,11 @@
+/* Proper anchor link fpcus */
+:target::before {
+  content: "";
+  display: block;
+  height: 110px;
+  margin: -110px 0 0;
+}
+
 #container{
   margin-left: 0px !important;
   height: 100%;
@@ -113,6 +121,12 @@ position:fixed;
       .lead {
         max-width:100%;
       }
+  }
+  :target::before {
+    content: "";
+    display: block;
+    height: 170px;
+    margin: -170px 0 0;
   }
 
 }
