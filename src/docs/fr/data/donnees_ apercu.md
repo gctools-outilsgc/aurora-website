@@ -26,7 +26,49 @@ Si un graphique est trop complexe pour représenter un certain jeu de données, 
 ### Formats multiples
 Lorsque vous utilisez des visualisations de données, il est recommandé de représenter les données dans plusieurs formats dans la mesure du possible. Peu importe le type de visualisation que vous utilisez, un simple tableau de données ou d’autres façons de publier les données brutes, devrait se trouver quelque part sur la page, ce qui permet aux utilisateurs de visualiser et d’analyser les données de la façon qui leur convient, ainsi que d’identifier facilement les points de données individuels.
 
+<div class="card mb-3">
+  <div class="card-body">
+      <h4 class="card-title h5">Exemple de formats multiples</h4>
+
 ![Image d'un exemple d'utilisant les formats multiples](../../../img/do_dont/Aurora_multiple_formats_do_fr_multiple_formats_do.png)
+
+<h5 class="h3">Nombre d'employé(e)s qui travaillent à distance</h5>
+
+<table class="table">
+<thead>
+          <tr>
+            <th scope="col">Journée de la semaine</th>
+            <th scope="col">Nombre d'employées</th>
+          </tr>
+</thead>
+<tbody>
+          <tr>
+            <td>Lundi</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>Mardi</td>
+            <td>19</td>
+          </tr>
+          <tr>
+            <td>Mercredi</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>Jeudi</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>Vendredi</td>
+            <td>39</td>
+          </tr>
+</tbody>
+</table>
+<h5>Employées qui travaillent à distance</h5>
+<p>Avec des nouveax technologies numérique,s c'est plus facile de travailler de votre maison ou d'autres locations autour du monde. Notre équipe utilise une approche de numérique en premier ce que signifie que les employées peuvent travailler n'importe quand. La plupart des employées travaillent dehors le bureau au mercredi et vendredi.</p>
+
+  </div>
+</div>
 
 ## Étiquettes
 

@@ -28,7 +28,49 @@ If one graph is too complex to represent a certain dataset, the data should be r
 
 When you use data visualizations, it is recommended to represent the data in multiple formats where possible. Regardless of the type of visualization you use, a simple data table, or other ways of viewing the raw data, should be available somewhere on the page. This allows users to view and analyze the data in a way that makes the most sense to them, as well as easily identify individual data points.
 
-![Example image of data visualization using varying formats, a graph, a table and a paragraph for context](../../../img/do_dont/multiple_formats_do.png)
+<div class="card mb-3">
+  <div class="card-body">
+      <h4 class="card-title h5">Multiple formats example</h4>
+
+![Bar graph showing number of employees working remotely throughout the week](../../../img/do_dont/multiple_formats_do.png)
+
+<h5 class="h3">Number of Employees Working Remotely</h5>
+
+<table class="table">
+<thead>
+          <tr>
+            <th scope="col">Days of the Week</th>
+            <th scope="col">Number of Employees</th>
+          </tr>
+</thead>
+<tbody>
+          <tr>
+            <td>Monday</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>19</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>39</td>
+          </tr>
+</tbody>
+</table>
+<h5>Employees working remotely</h5>
+<p>With new digital technologies, it is easier for employees to work from home or other locations across the globe. Our team takes a digital-first approach which means employees are able to work from anywhere, anytime. Most employees tend to work outside the office on Wednesdays and Fridays.</p>
+
+  </div>
+</div>
 
 ## Labels
 
