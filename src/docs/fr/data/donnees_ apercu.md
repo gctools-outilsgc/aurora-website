@@ -15,9 +15,6 @@ La visualisation des données prend de nombreuses formes et constitue un moyen v
 
 La visualisation des données devrait viser à représenter et à répondre à une seule question. Le but est de donner un aperçu des données et de raconter une histoire visuelle qui a du sens pour l’utilisateur. Les graphes devraient servir à représenter des jeux de données d’une manière dont les tableaux ne peuvent pas. Si les données sont faciles à comprendre sans visualisation, habituellement l’option la plus simple (un tableau) est la meilleure.
 
-![Image de l'application des statistiques GCcollab ](../../../img/examples/GCcollab_stats_fr.PNG)
-*L'application des statistiques GCcollab, qui utilise le système de conception d'Aurora pour créer un page de statistiques des groupes GCcollab*
-
 ## Simplicité
 Pour ce qui est de la visualisation des données, il faut en règle générale garder les éléments visuels aussi simples que possible. Seuls les renseignements nécessaires tels les étiquettes, les valeurs et les barres ou les lignes devraient s’y trouver. Une clé ou une légende devrait être fournie pour les données plus complexes qui peuvent avoir plusieurs couleurs ou types d’information. Les couleurs et autres éléments visuels doivent toujours être maintenus au minimum dans la mesure du possible.
 
@@ -58,14 +55,19 @@ Dans la mesure du possible, il faut éviter les abréviations pour les étiquett
 
 Il faut toujours utiliser des abréviations pour certains formats de données.
 
+<h4 class="h3">Abréviations Communes</h4>
 <table class="table">
   <thead>
     <tr>
-      <th scope="col">Jours de la semaine</th>
-      <th scope="col">lun, mar, mer, jeu, ven, sam, dim</th>
+      <th scope="col">Unité</th>
+      <th scope="col">Abréviations</th>
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>Jours de la semaine</td>
+      <td>lun, mar, mer, jeu, ven, sam, dim</td>
+    </tr>
     <tr>
       <td>Mois</td>
       <td>janv, févr, mar, avr, mai, jun, juil, aoû, sept, oct, nov, déc</td>
@@ -91,4 +93,4 @@ Voir les types précis de visualisation pour l’utilisation des couleurs. En g�
 
 Les lignes d’axe devraient être en gris clair \(<badge style="background-color: #E0E0E0;color:black"> #E0E0E0</badge>\) pour ne pas laisser distraire le lecteur par les autres couleurs utilisées dans la visualisation.
 
-Pour obtenir de plus amples renseignements sur le choix des couleurs, veuillez consulter la [section sur les couleurs.](couleur.md)
+Pour obtenir de plus amples renseignements sur le choix des couleurs, veuillez consulter la [section sur les couleurs.](/component/colour)

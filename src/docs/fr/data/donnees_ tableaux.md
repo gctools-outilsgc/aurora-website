@@ -34,9 +34,9 @@ Cellule du tableau : l’information de la cellule du tableau est affichée en u
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="col">Prénom</th>
+      <th scope="col">Nom de famille</th>
+      <th scope="col">Compte</th>
     </tr>
   </thead>
   <tbody>
@@ -66,9 +66,9 @@ Cellule du tableau : l’information de la cellule du tableau est affichée en u
         <thead>
             <tr>
             <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">Prénom</th>
+            <th scope="col">Nom de famille</th>
+            <th scope="col">Compte</th>
             </tr>
         </thead>
         <tbody>
@@ -109,16 +109,45 @@ Cellule du tableau : l’information de la cellule du tableau est affichée en u
 Chaque seconde rangée a un remplissage de <badge style="background-color: #F2F5F6; color:black">#F2F5F6</badge>.
 
 <h3>Exemple de tableau rayé</h3>
-<strippedtable></strippedtable>
+<table class="table table-striped">
+    <thead>
+        <tr>
+        <th scope="col">#</th>
+        <th scope="col">Prénom</th>
+        <th scope="col">Nom de famille</th>
+        <th scope="col">Compte</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        </tr>
+        <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+        </tr>
+        <tr>
+        <th scope="row">3</th>
+        <td>Larry</td>
+        <td>the Bird</td>
+        <td>@twitter</td>
+        </tr>
+    </tbody>
+</table>
 
 <codeblock html='
     <table class="table table-striped">
         <thead>
             <tr>
             <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">Prénom</th>
+            <th scope="col">Nom de famille</th>
+            <th scope="col">Compte</th>
             </tr>
         </thead>
         <tbody>
@@ -153,7 +182,7 @@ Si les cases à cocher sont incluses dans le tableau, les rangées actives devra
 D’autres exemples d’éléments interactifs à ajouter à un tableau de données sont : la pagination, des filtres, des barres de recherche, des boutons icône, des icônes de tri, etc.
 
 ![Interactive data table 1](../../../img\examples\interactive_table_1.png)
-
+<br>
 ![Interactive data table 2](../../../img\examples\interactive_table_2.png)
-
+<br>
 ![Interactive data table 3](../../../img\examples\interactive_table_3.png)

@@ -34,8 +34,8 @@ Table Cell: Table cell information is displayed using regular text style (Nunito
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
+      <th scope="col">First name</th>
+      <th scope="col">Last name</th>
       <th scope="col">Handle</th>
     </tr>
   </thead>
@@ -66,8 +66,8 @@ Table Cell: Table cell information is displayed using regular text style (Nunito
         <thead>
             <tr>
             <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
+            <th scope="col">First name</th>
+            <th scope="col">Last name</th>
             <th scope="col">Handle</th>
             </tr>
         </thead>
@@ -109,15 +109,44 @@ Table Cell: Table cell information is displayed using regular text style (Nunito
 Every second row has a fill of <badge style="background-color: #F2F5F6;color:black">#F2F5F6</badge>.
 
 <h3>Striped Table Example</h3>
-<strippedtable></strippedtable>
+<table class="table table-striped">
+    <thead>
+        <tr>
+        <th scope="col">#</th>
+        <th scope="col">First name</th>
+        <th scope="col">Last name</th>
+        <th scope="col">Handle</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+        </tr>
+        <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+        </tr>
+        <tr>
+        <th scope="row">3</th>
+        <td>Larry</td>
+        <td>the Bird</td>
+        <td>@twitter</td>
+        </tr>
+    </tbody>
+</table>
 
 <codeblock html='
     <table class="table table-striped">
         <thead>
             <tr>
             <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
+            <th scope="col">First name</th>
+            <th scope="col">Last name</th>
             <th scope="col">Handle</th>
             </tr>
         </thead>
@@ -153,7 +182,7 @@ If checkboxes are included in the table, active rows should be highlighted with 
 Some other examples of interactive elements to add to a data table are: pagination, filters, search bars, icon buttons, sorting icons, etc.
 
 ![Interactive data table 1](../../../img\examples\interactive_table_1.png)
-
+<br>
 ![Interactive data table 2](../../../img\examples\interactive_table_2.png)
-
+<br>
 ![Interactive data table 3](../../../img\examples\interactive_table_3.png)

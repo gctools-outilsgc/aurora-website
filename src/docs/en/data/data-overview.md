@@ -15,10 +15,6 @@ Data visualizations come in many forms, and are a visual means to represent a da
 
 Data visualizations should aim to represent and answer one question. The goal is to provide a brief overview of the data, and tell a visual story that makes sense to the user. Graphs should be used to visually represent datasets in ways that tables cannot. If the data is easy to understand without a visualization, usually the simplest option \(a table\) is best.
 
-![Screenshot of the GCcollab Data Application](../../../img/examples/GCcollab_stats.PNG)
-
-*The GCcollab Data Application, which uses the Aurora Design System style to create a data dashboard with statistics from GCcollab groups.*
-
 ## Simplicity
 
 A general rule for data visualizations is to keep the visual elements as simple as possible. Only necessary information such as labels, values, and bars or lines should be present. A key or legend should be provided for more complex data that may have multiple colours or types of information. Colours and other visual elements should always be kept to a minimum when possible.
@@ -38,11 +34,11 @@ When you use data visualizations, it is recommended to represent the data in mul
 
 ### Graph Titles
 
-Graph and table titles in this design system use the typography style for [heading 2. ](typography.md)Titles should be as short as possible, and accurately reflect the question the dataset is trying to represent. Titles always use title-case capitalization.
+Graph and table titles in this design system use the typography style for [heading 2. ](/component/typography)Titles should be as short as possible, and accurately reflect the question the dataset is trying to represent. Titles always use title-case capitalization.
 
 ### Axis Labelling
 
-Both the x and y-axes should always be labeled. Labels should be placed outside of the data area. Labels should use simple and clear language, and accurately represent the data being shown. Axis labels use the typographic style for[ heading 4](typography.md).
+Both the x and y-axes should always be labeled. Labels should be placed outside of the data area. Labels should use simple and clear language, and accurately represent the data being shown. Axis labels use the typographic style for[ heading 4](/component/typography).
 
 For quantitative labels, the unit of measurement should be included in the label.
 
@@ -54,7 +50,7 @@ In some visualizations with many axis points, skipping labels is an effective wa
 
 On the x-axis, value labels should be centered to their corresponding tick mark. For y-axis labels, they should be left-aligned and kept above the y-axis lines. Long text labels should be rotated 45 degrees around an origin directly below their corresponding axis tick.
 
-![Exampl image of correct us of data increments](../../../img/do_dont/data_increments_do.png)
+![Example image of correct us of data increments](../../../img/do_dont/data_increments_do.png)
 
 
 ### Data Formats and Abbreviations
@@ -62,14 +58,20 @@ On the x-axis, value labels should be centered to their corresponding tick mark.
 When possible, labels and values should avoid abbreviations unless it is a conventional data format. If spacing is a concern, it is recommended to skip labels in a way that makes sense for the data.
 
 Some data formats should always use abbreviations:
+
+<h4 class="h3">Common Abbreviations</h4>
 <table class="table">
   <thead>
     <tr>
-      <th scope="col">Days of the week</th>
-      <th scope="col">Mon, Tues, Wed, Thurs, Fri, Sat, Sun</th>
+      <th scope="col">Unit</th>
+      <th scope="col">Abbreviations</th>
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>Days of the week</td>
+      <td>Mon, Tues, Wed, Thurs, Fri, Sat, Sun</td>
+    </tr>
     <tr>
       <td>Months</td>
       <td>Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec</td>
@@ -96,4 +98,4 @@ See specific types of visualizations for use of colour. In general, each variabl
 
 Axis lines should use light grey \(<badge style="background-color: #E0E0E0;color:black">#E0E0E0</badge>\), to not distract from other colours used in the visualization
 
-For more information about colour choice, visit the [colour section](colour.md).
+For more information about colour choice, visit the [colour section](/component/colour).
