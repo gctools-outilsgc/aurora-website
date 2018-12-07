@@ -124,8 +124,3 @@ Les commutateurs ont quatre états différents :
 
 **Activé, Pointage et focus :**
 32px sur 18px, rayon de bordure de 9px, couleur d’arrière-plan de curseur <badge style="background-color: #FEC04F; color:black">#FEC04F</badge>, couleur de bouton <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, ayant une bordure de 3px et une couleur de bordure <badge style="background-color: #E3E4E5; color: black" >#E3E4E5</badge>, une bordure de 1px dont la couleur est le <badge style="background-color: #66666">#66666</badge>. Le bouton est à droite du curseur.
-
-## Boutons d’action
-
-Les boutons dans les formulaires doivent indiquer clairement le résultat du fait d’appuyer sur le bouton. En particulier dans les formulaires, le bouton devrait comprendre une forme quelconque d’animation ou de validation pour informer l’utilisateur que son action a été reçue (une confirmation que le formulaire a été transmis, sauvegardé ou annulé).
-Pour obtenir de plus amples renseignements à ce sujet, veuillez consulter la [section Boutons](boutons.md)
