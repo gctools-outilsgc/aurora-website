@@ -97,7 +97,7 @@ Dans la mesure du possible, il faut éviter les abréviations pour les étiquett
 
 Il faut toujours utiliser des abréviations pour certains formats de données.
 
-<h4 class="h3">Abréviations Communes</h4>
+<h4 class="h3">Abréviations communes</h4>
 <table class="table">
   <thead>
     <tr>

@@ -108,7 +108,7 @@ Cellule du tableau : l’information de la cellule du tableau est affichée en u
 
 Chaque seconde rangée a un remplissage de <badge style="background-color: #F2F5F6; color:black">#F2F5F6</badge>.
 
-<h3>Exemple de tableau rayé</h3>
+<h3>Exemple d'un tableau rayé</h3>
 <table class="table table-striped">
     <thead>
         <tr>

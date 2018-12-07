@@ -25,7 +25,7 @@ Les tableaux peuvent être tout ce dont vous avez besoin pour visualiser vos don
 
 Dans ce cas, fournissez un effort supplémentaire pour rendre votre tableau aussi lisible que possible et envisagez d’ajouter de l’interactivité (p. ex., des filtres et des fonctions de tri) à votre tableau afin que les utilisateurs puissent manipuler et afficher les éléments-clés du jeu de données.
 
-<h3>Exemple de tableau</h3>
+<h3>Exemple d'un tableau</h3>
 <table class="table">
   <thead>
     <tr>
