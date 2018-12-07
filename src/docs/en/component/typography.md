@@ -16,6 +16,8 @@ The Digital Collaboration Division uses two font families for all digital produc
 
 [Rubik](https://fonts.google.com/specimen/Rubik) is used for titles and headings, while [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) is used for sub-headings, buttons and paragraph text.
 
+If only system fonts are available, use Calibri or another similar sans-serif typeface as a replacement. Use similar sizing and weight as shown below, with small adjustments as needed.  
+
 **Rubik**
 ![Rubik Font](../../../img/examples/Rubik_image.PNG)
 **Nunito Sans**
