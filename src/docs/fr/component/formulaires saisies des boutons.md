@@ -34,21 +34,9 @@ Les cases à cocher ont quatre états différents :
     </div>
 ' react='' />
 
-**Normal :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #F9F9F9; color: black" >#F9F9F9</badge>, couleur de bordure <badge style="background-color: #96A8B2;color:black">#96A8B2</badge> de 1px.
-
-<div class="custom-control custom-checkbox">
-    <input type="checkbox" class="custom-control-input" id="customCheck2">
-    <label class="custom-control-label" for="customCheck2">Vérification personnalisée</label>
-</div>
-
 **Pointage :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, couleur de bordure <badge style="background-color: #4D5D6C" >#4D5D6C</badge> de 1px.
 
 **Focus :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, couleur de bordure <badge style="background-color: #4D5D6C" >#4D5D6C</badge> de 3px.
-
-<div class="custom-control custom-checkbox">
-    <input type="checkbox" class="custom-control-input" id="customCheck4">
-    <label class="custom-control-label" for="customCheck4">Vérification personnalisée</label>
-</div>
 
 **Active :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #4D5D6C" >#4D5D6C</badge>, couleur de bordure <badge style="background-color: #96A8B2; color:black">#96A8B2</badge> . Comprend une icône de contrôle blanc centré dans la case.
 
@@ -66,22 +54,23 @@ Les étiquettes des boutons « radio » sont alignées à droite du bouton.
 
 <div class="custom-control custom-radio">
     <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-    <label class="custom-control-label" for="customRadio1">Radio personnalisée</label>
+    <label class="custom-control-label" for="customRadio1">Radio personnalisée 1</label>
+</div>
+<div class="custom-control custom-radio">
+    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio2">Radio personnalisée 2</label>
 </div>
 
 <codeblock html='
     <div class="custom-control custom-radio">
-        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-        <label class="custom-control-label" for="customRadio1">Radio personnalisée</label>
+      <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+      <label class="custom-control-label" for="customRadio1">Radio personnalisée 1</label>
+    </div>
+    <div class="custom-control custom-radio">
+      <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+      <label class="custom-control-label" for="customRadio2">CRadio personnalisée 2</label>
     </div>
 ' react='' />
-
-**Normal :** cercle de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan #F9F9F9, couleur de bordure <badge style="background-color: #96A8B2; color:black">#96A8B2</badge> de 1px.
-
-<div class="custom-control custom-radio">
-    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-    <label class="custom-control-label" for="customRadio2">Radio personnalisée</label>
-</div>
 
 **Pointage :** cercle de 18px sur 18px, couleur d’arrière-plan <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, couleur de bordure #4D5D6C de 1px.
 
