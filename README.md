@@ -82,16 +82,16 @@ title: "Badges"
 ---
 ```
 
-- The `path` should be the **same** for both english and french file.
+- The `path` should be the **same** for both English and French file.
 - The `subnav` is the `order_of_the_subnav`/`subnav_english_name`/`subnav_french_name`/`order_in_the_subnav`. It should be the **same** in both files.
 - The `lang` should be either `en` or `fr`. 
-- The `title` will be added in the side naviguation of the section. It should be in french in the french file.
+- The `title` will be added in the side navigation of the section. It should be in French in the French file.
 
 Now the file should be processed by Gatsby and should appear at the `path` specified in both frontmatters.
 
-The dynamic side naviguation should show your new documentation section when you run the `yarn run develop` command. If it does not appear on the path, try deleting the `public` and `.cache` folder before running the `yarn run develop` command again.
+The dynamic side navigation should show your new documentation section when you run the `yarn run develop` command. If it does not appear on the path, try deleting the `public` and `.cache` folder before running the `yarn run develop` command again.
 
-When you see that your documentation has appeared in both french and english, you may commit your changes and push upstream. Run the `yarn run deploy` command to update the live site.
+When you see that your documentation has appeared in both French and English, you may commit your changes and push upstream. Run the `yarn run deploy` command to update the live site.
 
 **If you do not interact with commands when working with a github project**, you can add your files to a new branch and it will be tested and merged. 
 
