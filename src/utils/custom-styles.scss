@@ -201,21 +201,21 @@ button.switch {
     top:0.125rem;
     width: 1.125rem;
     height:1.125rem;
-    background-size: 80% 80%;
+    background-size: 78% 78%;
   }
 }
 
 .custom-radio {
   .custom-control-label::after {
     top:0.125rem;
-    left:-1.45rem;
+    left:-1.5rem;
     width: 1.125rem;
     height:1.125rem;
     background-size: 78% 78%;
   }
 
   .custom-control-input:checked ~ .custom-control-label::after {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='" + $primary + "'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23002D42'/%3E%3C/svg%3E");
   }
 
   .custom-control-input:checked ~ .custom-control-label::before {
