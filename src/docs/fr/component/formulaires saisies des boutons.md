@@ -84,32 +84,28 @@ Les commutateurs sont utilisés seulement lorsque l’une des deux options peut 
 
 Les commutateurs peuvent être utilisés dans toutes sortes de formulaires ou d’autres types de fonctions tels que Paramètres, Options de profil, etc.
 
-Les commutateurs ont quatre états différents :
-
-**Désactivé  :** 32px sur 18px, rayon de bordure de 9px, couleur d’arrière-plan de curseur <badge style="background-color: #E3E4E5; color: black" >#E3E4E5</badge>, couleur de bouton <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, bordure de 1px avec une couleur <badge style="background-color: #66666">#66666</badge>. Le bouton est à gauche du curseur.
-
 <label class="switch">
-    <input type="checkbox" tabindex="-1">
-    <span class="slider round"></span>
+  <input type="checkbox" />
+  <span class="switch__toggle"></span>
+  Toggle switch
 </label>
 
-<codeblock html='
-    <label class="switch">
-        <input type="checkbox" tabindex="-1">
-        <span class="slider round"></span>
-    </label>
+<codeblock html='<label class="switch">
+  <input type="checkbox" />
+  <span class="switch__toggle"></span>
+  Toggle switch
+</label>
 ' react='' />
+
+Les commutateurs ont quatre états différents :
+
+**Désactivé  :** 32px sur 18px, rayon de bordure de 9px, couleur d’arrière-plan de curseur <badge style="background-color: #E3E4E5; color: black" >#E3E4E5</badge>, couleur de bouton <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, bordure de 1px avec une couleur <badge style="background-color: #666666">#666666</badge>. Le bouton est à gauche du curseur.
 
 **Désactivé, pointage et focus**
 32px sur 18px, rayon de bordure de 9px, couleur d’arrière-plan de curseur <badge style="background-color: #E3E4E5; color: black" >#E3E4E5</badge>, couleur de bouton <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, avec une bordure de 3px et une couleur de bordure #4D5D6C, une bordure de 1px avec une couleur <badge style="background-color: #66666">#66666</badge>. Le bouton est à gauche du curseur.
 
 
-**Activé**  : 32px sur 18px, rayon de bordure de 9px, couleur d’arrière-plan de curseur <badge style="background-color: #FEC04F; color:black">#FEC04F</badge>, couleur de bouton <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, bordure de 1px ayant la couleur <badge style="background-color: #66666">#66666</badge>. Le bouton est à droite du curseur.
-
-<label class="switch">
-    <input type="checkbox" checked>
-    <span class="slider round"></span>
-</label>
+**Activé**  : 32px sur 18px, rayon de bordure de 9px, couleur d’arrière-plan de curseur <badge style="background-color: #FEC04F; color:black">#FEC04F</badge>, couleur de bouton <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, bordure de 1px ayant la couleur <badge style="background-color: #666666">#666666</badge>. Le bouton est à droite du curseur.
 
 **Activé, Pointage et focus :**
-32px sur 18px, rayon de bordure de 9px, couleur d’arrière-plan de curseur <badge style="background-color: #FEC04F; color:black">#FEC04F</badge>, couleur de bouton <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, ayant une bordure de 3px et une couleur de bordure <badge style="background-color: #E3E4E5; color: black" >#E3E4E5</badge>, une bordure de 1px dont la couleur est le <badge style="background-color: #66666">#66666</badge>. Le bouton est à droite du curseur.
+32px sur 18px, rayon de bordure de 9px, couleur d’arrière-plan de curseur <badge style="background-color: #FEC04F; color:black">#FEC04F</badge>, couleur de bouton <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, ayant une bordure de 3px et une couleur de bordure <badge style="background-color: #E3E4E5; color: black" >#E3E4E5</badge>, une bordure de 1px dont la couleur est le <badge style="background-color: #666666">#666666</badge>. Le bouton est à droite du curseur.

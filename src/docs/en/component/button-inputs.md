@@ -87,21 +87,22 @@ Switches are used when only one of two options can be selected. They represent s
 
 Switches can be used in all kinds of forms, or other types of functions such as Settings, Profile Options etc.
 
-Switches have four different states:
-
-**Off:** 32px by 18px, border radius of 9px, slider background colour of <badge style="background-color: #E3E4E5;color:black;">#E3E4E5</badge>, knob colour <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, border 1px with a colour of <badge style="background-color: #66666">#66666</badge>. The knob is on the left of the slider.
-
 <label class="switch">
-    <input type="checkbox" tabindex="-1">
-    <span class="slider round"></span>
+  <input type="checkbox" />
+  <span class="switch__toggle"></span>
+  Toggle switch
 </label>
 
-<codeblock html='
-    <label class="switch">
-        <input type="checkbox" tabindex="-1">
-        <span class="slider round"></span>
-    </label>
+<codeblock html='<label class="switch">
+  <input type="checkbox" />
+  <span class="switch__toggle"></span>
+  Toggle switch
+</label>
 ' react='' />
+
+Switches have four different states:
+
+**Off:** 32px by 18px, border radius of 9px, slider background colour of <badge style="background-color: #E3E4E5;color:black;">#E3E4E5</badge>, knob colour <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, border 1px with a colour of <badge style="background-color: #666666">#666666</badge>. The knob is on the left of the slider.
 
 **Off, Hover/Focus:**
 
@@ -109,13 +110,8 @@ Switches have four different states:
 
 **On:**
 
-32px by 18px, border radius of 9px, slider background colour of <badge style="background-color: #FEC04F;color:black;">#FEC04F</badge>, knob colour <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, border 1px with a colour of <badge style="background-color: #66666">#66666</badge>. The knob is on the right of the slider.
-
-<label class="switch">
-    <input type="checkbox" checked>
-    <span class="slider round"></span>
-</label>
+32px by 18px, border radius of 9px, slider background colour of <badge style="background-color: #FEC04F;color:black;">#FEC04F</badge>, knob colour <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, border 1px with a colour of <badge style="background-color: #666666">#666666</badge>. The knob is on the right of the slider.
 
 **On, Hover/Focus:**
 
-32px by 18px, border radius of 9px, slider background colour of <badge style="background-color: #FEC04F;color:black;">#FEC04F</badge>, knob colour <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge> with a border of 3px and colour of <badge style="background-color: #4D5D6C;">#4D5D6C</badge>, border 1px with a colour of <badge style="background-color: #66666;">#66666</badge>. The knob is on the right of the slider.
+32px by 18px, border radius of 9px, slider background colour of <badge style="background-color: #FEC04F;color:black;">#FEC04F</badge>, knob colour <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge> with a border of 3px and colour of <badge style="background-color: #4D5D6C;">#4D5D6C</badge>, border 1px with a colour of <badge style="background-color: #666666;">#666666</badge>. The knob is on the right of the slider.
