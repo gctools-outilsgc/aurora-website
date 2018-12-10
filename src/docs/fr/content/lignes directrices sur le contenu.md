@@ -11,14 +11,14 @@ title: "Lignes directrices sur le contenu"
 
 # Lignes directrices sur le contenu
 
-## Niveau de lecture et langage clair et simple
+## Langage clair et simple
 Le langage clair et simple est un style de rédaction conçu pour rendre le texte facile à lire et à comprendre.
 
 Plusieurs techniques permettent d’utiliser le langage clair et simple :
 
 •	 **Rédigez des phrases courtes.** Les phrases ne doivent comprendre qu’une seule idée principale ou un seul point afin d’être le plus clair possible. Visez un écart d’au plus 20 mots par phrase, sauf si nécessaire.
 
-•	**Utilisez la voix active.** La voix active signifie que c’est le sujet qui fait l’action, plutôt que le sujet qui fait l’objet de l’action. La voix active est plus proche de la façon dont nous parlons et est plus dynamique et facile à lire. La voix active suit habituellement la structure de - sujet (nom) action (verbe) quoi ou où (objet). Exemple : Le chien (sujet ou nom) a tiré (action ou verbe) le ballon (objet). Une bonne règle est de se rappeler que les choses n’arrivent pas aux gens, les gens FONT des choses.
+•	**Préférez la voix active.** La voix active signifie que c’est le sujet qui fait l’action, plutôt que le sujet qui fait l’objet de l’action. La voix active est plus proche de la façon dont nous parlons et est plus dynamique et facile à lire. La voix active suit habituellement la structure de - sujet (nom) action (verbe) quoi ou où (objet). Exemple : Le chien (sujet ou nom) a tiré (action ou verbe) le ballon (objet). Une bonne règle est de se rappeler que les choses n’arrivent pas aux gens, les gens FONT des choses.
 
 •	**Utilisez des mots appropriés à la situation et à l’utilisateur.** Écrivez clairement en utilisant les mots les plus simples qui disent ce que vous voulez dire. Utilisez du jargon seulement si vous savez que votre lecteur comprendra. Évitez les mots à la mode ou les mots qui n’ont de sens que pour un public très précis.
 

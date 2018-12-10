@@ -13,8 +13,6 @@ title: "Choisir les visualizations"
 
 ## Tableaux
 
-<strippedtable></strippedtable>
-
 Les tableaux constituent le format brut pour la publication des jeux de données. Si une visualisation plus complexe est utilisée, un tableau devrait également se trouver quelque part sur la page afin que les utilisateurs puissent choisir la façon dont ils affichent et analysent les données.
 
 Les tableaux peuvent être tout ce dont vous avez besoin pour visualiser vos données. Il est formidable d’utiliser un tableau si :
@@ -27,7 +25,37 @@ Les tableaux peuvent être tout ce dont vous avez besoin pour visualiser vos don
 
 Dans ce cas, fournissez un effort supplémentaire pour rendre votre tableau aussi lisible que possible et envisagez d’ajouter de l’interactivité (p. ex., des filtres et des fonctions de tri) à votre tableau afin que les utilisateurs puissent manipuler et afficher les éléments-clés du jeu de données.
 
-![Banded Table](../../../img\examples\banded_table.png)
+<h3>Exemple d'un tableau</h3>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Prénom</th>
+      <th scope="col">Nom de famille</th>
+      <th scope="col">Compte</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Graphiques à barres et à colonnes
 
@@ -53,4 +81,4 @@ Les diagrammes de dispersion sont la meilleure forme d’analyse de distribution
 
 Ils peuvent aussi aider à relever les valeurs aberrantes ou des cas d’anomalie dans votre jeu de données.
 
-![Image d'une diagramme de dispersion](../../../img\components\scatterplot_fr.png)
+![Image d'une diagramme de dispersion](../../../img\components\scatterplot_2_fr.png)

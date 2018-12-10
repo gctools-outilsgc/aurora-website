@@ -15,9 +15,6 @@ La visualisation des données prend de nombreuses formes et constitue un moyen v
 
 La visualisation des données devrait viser à représenter et à répondre à une seule question. Le but est de donner un aperçu des données et de raconter une histoire visuelle qui a du sens pour l’utilisateur. Les graphes devraient servir à représenter des jeux de données d’une manière dont les tableaux ne peuvent pas. Si les données sont faciles à comprendre sans visualisation, habituellement l’option la plus simple (un tableau) est la meilleure.
 
-![Image de l'application des statistiques GCcollab ](../../../img/examples/GCcollab_stats_fr.PNG)
-*L'application des statistiques GCcollab, qui utilise le système de conception d'Aurora pour créer un page de statistiques des groupes GCcollab*
-
 ## Simplicité
 Pour ce qui est de la visualisation des données, il faut en règle générale garder les éléments visuels aussi simples que possible. Seuls les renseignements nécessaires tels les étiquettes, les valeurs et les barres ou les lignes devraient s’y trouver. Une clé ou une légende devrait être fournie pour les données plus complexes qui peuvent avoir plusieurs couleurs ou types d’information. Les couleurs et autres éléments visuels doivent toujours être maintenus au minimum dans la mesure du possible.
 
@@ -29,7 +26,49 @@ Si un graphique est trop complexe pour représenter un certain jeu de données, 
 ### Formats multiples
 Lorsque vous utilisez des visualisations de données, il est recommandé de représenter les données dans plusieurs formats dans la mesure du possible. Peu importe le type de visualisation que vous utilisez, un simple tableau de données ou d’autres façons de publier les données brutes, devrait se trouver quelque part sur la page, ce qui permet aux utilisateurs de visualiser et d’analyser les données de la façon qui leur convient, ainsi que d’identifier facilement les points de données individuels.
 
+<div class="card mb-3">
+  <div class="card-body">
+      <h4 class="card-title h5">Exemple de formats multiples</h4>
+
 ![Image d'un exemple d'utilisant les formats multiples](../../../img/do_dont/Aurora_multiple_formats_do_fr_multiple_formats_do.png)
+
+<h5 class="h3">Nombre d'employé(e)s qui travaillent à distance</h5>
+
+<table class="table">
+<thead>
+          <tr>
+            <th scope="col">Journée de la semaine</th>
+            <th scope="col">Nombre d'employées</th>
+          </tr>
+</thead>
+<tbody>
+          <tr>
+            <td>Lundi</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td>Mardi</td>
+            <td>19</td>
+          </tr>
+          <tr>
+            <td>Mercredi</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>Jeudi</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>Vendredi</td>
+            <td>39</td>
+          </tr>
+</tbody>
+</table>
+<h5>Employées qui travaillent à distance</h5>
+<p>Avec des nouveax technologies numérique,s c'est plus facile de travailler de votre maison ou d'autres locations autour du monde. Notre équipe utilise une approche de numérique en premier ce que signifie que les employées peuvent travailler n'importe quand. La plupart des employées travaillent dehors le bureau au mercredi et vendredi.</p>
+
+  </div>
+</div>
 
 ## Étiquettes
 
@@ -58,14 +97,19 @@ Dans la mesure du possible, il faut éviter les abréviations pour les étiquett
 
 Il faut toujours utiliser des abréviations pour certains formats de données.
 
+<h4 class="h3">Abréviations communes</h4>
 <table class="table">
   <thead>
     <tr>
-      <th scope="col">Jours de la semaine</th>
-      <th scope="col">lun, mar, mer, jeu, ven, sam, dim</th>
+      <th scope="col">Unité</th>
+      <th scope="col">Abréviations</th>
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>Jours de la semaine</td>
+      <td>lun, mar, mer, jeu, ven, sam, dim</td>
+    </tr>
     <tr>
       <td>Mois</td>
       <td>janv, févr, mar, avr, mai, jun, juil, aoû, sept, oct, nov, déc</td>
@@ -81,30 +125,6 @@ Il faut toujours utiliser des abréviations pour certains formats de données.
   </tbody>
 </table>
 
-<codeblock html='
-    <table class="table">
-      <thead>
-        <tr>
-          <th scope="col">Jours de la semaine</th>
-          <th scope="col">lun, mar, mer, jeu, ven, sam, dim</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Mois</td>
-          <td>janv, févr, mar, avr, mai, jun, juil, aoû, sept, oct, nov, déc</td>
-        </tr>
-        <tr>
-          <td>Heures</td>
-          <td>1 h, 14 h, 12 h, etc.</td>
-        </tr>
-        <tr>
-          <td>Abréviations monétaires standard</td>
-          <td>1,2 K$, 3,4 M$, 6,2 G$, etc.</td>
-        </tr>
-      </tbody>
-    </table>
-' react=''>
 
 ## Couleurs et textures
 Les graphiques et les visualisations devraient toujours comporter aussi peu de couleurs que possible. Si plusieurs couleurs sont requises, elles devraient être dans une palette complémentaire pour qu’elles se distinguent lorsqu’elles sont placées à proximité. Pour le choix de la couleur, il faut éviter le préjugé (p. ex., rouge ou vert), sauf s’il est spécifiquement lié aux données (une diminution ou une augmentation, par exemple). Toute couleur est acceptable pour une visualisation pourvu qu’elle réponde aux exigences de contraste.
@@ -115,4 +135,4 @@ Voir les types précis de visualisation pour l’utilisation des couleurs. En g�
 
 Les lignes d’axe devraient être en gris clair \(<badge style="background-color: #E0E0E0;color:black"> #E0E0E0</badge>\) pour ne pas laisser distraire le lecteur par les autres couleurs utilisées dans la visualisation.
 
-Pour obtenir de plus amples renseignements sur le choix des couleurs, veuillez consulter la [section sur les couleurs.](couleur.md)
+Pour obtenir de plus amples renseignements sur le choix des couleurs, veuillez consulter la [section sur les couleurs.](/component/colour)

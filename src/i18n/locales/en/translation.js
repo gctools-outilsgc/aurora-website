@@ -1,4 +1,5 @@
 const enTranslation = {
+  "GovernmentofCanada":"Government of Canada",
   "AuroraDesignSystem":"Aurora Design System",
   "Tagline":"Excellent applications need design systems. This is Aurora.",
   "TopIntro": "Aurora design system is a central design guide created by the Digital Collaboration Division within the Government of Canada for our digital products. Everything you need to create attractive, cohesive, practical, accessible and enjoyable digital products can be found in our design system. Aurora design system will always be free, open, collaborative and evolving.",
@@ -45,7 +46,8 @@ const enTranslation = {
   "SubNavigation":"Sub Navigation",
   "Reply":"Reply",
   "Pressed":"Pressed",
-  "Design":"Design"
+  "Design":"Design",
+  "CanadaSymbol":"Symbol of the Government of Canada"
 };
 
 export default enTranslation;

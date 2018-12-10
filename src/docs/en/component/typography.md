@@ -16,6 +16,8 @@ The Digital Collaboration Division uses two font families for all digital produc
 
 [Rubik](https://fonts.google.com/specimen/Rubik) is used for titles and headings, while [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) is used for sub-headings, buttons and paragraph text.
 
+If only system fonts are available, use Calibri or another similar sans-serif typeface as a replacement. Use similar sizing and weight as shown below, with small adjustments as needed.  
+
 **Rubik**
 ![Rubik Font](../../../img/examples/Rubik_image.PNG)
 **Nunito Sans**
@@ -40,12 +42,6 @@ Some systems may not be able to download or display the fonts in this design sys
 Titles appear only on the top of pages and indicate high-level navigation points.
 
 Titles are displayed using Rubik Light at 36 points  in the colour <badge style="background-color: #252525">#252525</badge> on a light background or <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge> on a dark background.
-
-<h1>Heading 1</h1>
-
-<codeblock html='<h1>Heading 1</h1>'
-    react='<h1>Heading 1</h1>'>
-</codeblock>
 
 
 ## Headings \(H2-H6\)
@@ -72,23 +68,6 @@ The headers use the following typographic styles:
     <h6>Heading 6</h6>
 </div>
 
-<codeblock html='
-    <div>
-        <h2>Heading 2</h2>
-        <h3>Heading 3</h3>
-        <h4>Heading 4</h4>
-        <h5>Heading 5</h5>
-        <h6>Heading 6</h6>
-    </div>'
-    react='
-    <div>
-        <h2>Heading 2</h2>
-        <h3>Heading 3</h3>
-        <h4>Heading 4</h4>
-        <h5>Heading 5</h5>
-        <h6>Heading 6</h6>
-    </div>'>
-</codeblock>
 
 ## Paragraph Text
 
@@ -140,14 +119,6 @@ There are three different types of lists:
     <li>Item 3</li>
 </ul>
 
-<codeblock html='
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>'
-    react=''>
-</codeblock>
 
 **Ordered lists:** Ordered lists use numbers to indicate content that requires a hierarchy.
 
@@ -157,15 +128,6 @@ There are three different types of lists:
     <li>Item 3</li>
 </ol>
 
-<codeblock html='
-    <ol>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ol>'
-    react=''>
-</codeblock>
-
 **Interactive lists:** Interactive lists include content that is clickable. These lists include a hover and click state, and act as minor navigation points.
 
 <ul>
@@ -174,14 +136,6 @@ There are three different types of lists:
     <li><a href="#">Item 3</a></li>
 </ul>
 
-<codeblock html='
-    <ul>
-        <li><a href="#">Item 1</a></li>
-        <li><a href="#">Item 2</a></li>
-        <li><a href="#">Item 3</a></li>
-    </ul>'
-    react=''>
-</codeblock>
 
 ## Hyperlinks
 
@@ -191,30 +145,12 @@ It is recommended that the link text be underlined and displayed in a secondary 
 
 Visited links should be indicated by a different colour. Typically, a best practice for visited links is to use a muted version of your hyperlink colour, a secondary colour, or the standard purple: <badge style="background-color: #551A8B">#551A8B</badge>.
 
-<div style="margin: 0 auto">
-<p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> You may want to see the <a href="#">top of this page.</a></p>
-</div>
-
-<codeblock html='
-    <div style="margin: 0 auto">
-        <p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> You may want to see the <a href="#">top of this page.</a></p>
-    </div>'
-    react=''>
-</codeblock>
 
 ## Emphasis
 
 For accessibility purposes, colour cannot be the sole source of emphasis. Be sure to add emphasis to text by making the font bold and increasing the contrast.
 
 Typographic formatting such as italics or underlining should be used sparingly and only when they genuinely enhance communication with all readers.
-
-##### do
-That is a <em><strong>very</strong></em> bad idea.<br />
-You should <em><strong>never</strong></em> microwave fish.
-
-##### don't
-Pepper <em><strong>adds a distinct flavour to foods.</strong></em><br />
-<em><strong>Overusing emphasis</strong></em> makes <em><strong>it</strong></em> meaningless.
 
 
 ## Timestamps and Placeholder Text
@@ -224,11 +160,6 @@ Timestamps and placeholder text use the same typographic styles. Both use Nunito
 <p style="font-size: 14px; color: #666666">September 6th, 2018. 1:40 pm</p>
 <p style="font-size: 14px; color: #666666">December 20th, 2015. 6:45 am</p>
 
-<codeblock html='
-    <p style="font-size: 14px; color: #666666">September 6th, 2018. 1:40 pm</p>
-    <p style="font-size: 14px; color: #666666">December 20th, 2015. 6:45 am</p>'
-    react=''>
-</codeblock>
 
 ## Button Text
 
@@ -237,13 +168,3 @@ Button text is displayed as Nunito Sans Bold at 16 points, and uses the colours 
 <button color="secondary" outline="true">Secondary</button>
 <button color="secondary">Secondary</button>
 <button color="secondary" disabled="true">Secondary</button>
-
-<codeblock html='
-    <button color="secondary" outline="true">Secondary</button>
-    <button color="secondary">Secondary</button>
-    <button color="secondary" disabled="true">Secondary</button>
-    ' react='
-    <Button outline color="secondary">secondary</Button>
-    <Button color="secondary">secondary</Button>
-    <Button color="secondary" disabled>Button</Button>'>
-</codeblock>

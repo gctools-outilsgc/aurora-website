@@ -1,3 +1,11 @@
+/* Proper anchor link fpcus */
+:target::before {
+  content: "";
+  display: block;
+  height: 110px;
+  margin: -110px 0 0;
+}
+
 #container{
   margin-left: 0px !important;
   height: 100%;
@@ -25,6 +33,15 @@
       margin-right:15px;
     }
   }
+}
+
+.aurora-search-results {
+  border-radius: 0.35rem;
+}
+
+.aurora-search-results a:hover, .aurora-search-results a:focus {
+  color: #fff;
+  background:#467B8D;
 }
 
 @media (max-width: 768px) {
@@ -108,6 +125,12 @@ position:fixed;
       .lead {
         max-width:100%;
       }
+  }
+  :target::before {
+    content: "";
+    display: block;
+    height: 170px;
+    margin: -170px 0 0;
   }
 
 }

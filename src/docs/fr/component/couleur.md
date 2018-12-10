@@ -74,7 +74,7 @@ La palette de couleurs utilisées dans ce système est intitulée **Aurore boré
 
 Le texte dans ce système de conception est affiché dans une couleur noire. Le texte noir peut être utilisé sur un fond clair (voir : thème clair) ou sur tout bouton ou élément qui utilise une couleur pâle. Lors d’ajout de texte sur un fond qui n’est pas noir, il est essentiel de vérifier le contraste pour son accessibilité. Un grand contraste entre les couleurs de fond ou d’éléments et le texte assure la lisibilité, même pour les personnes atteintes de troubles visuels comme le daltonisme.
 
-Veuillez consulter la Typographie pour plus de renseignements au sujet de l’utilisation de la couleur du texte.
+Veuillez consulter la [Typographie](/component/typography) pour plus de renseignements au sujet de l’utilisation de la couleur du texte.
 
 Code hexadécimal : <badge style="background-color: #252525">#252525</badge>
 
@@ -84,7 +84,7 @@ Du texte clair dans ce système de conception est affiché dans une couleur blan
 
 Un grand contraste entre les couleurs de fond ou d’éléments et le texte assure la lisibilité, même pour les personnes atteintes de troubles visuels comme le daltonisme.
 
-Veuillez consulter la Typographie pour plus de renseignements au sujet de l’utilisation de la couleur du texte.
+Veuillez consulter la [Typographie](/component/typography) pour plus de renseignements au sujet de l’utilisation de la couleur du texte.
 
 
 Code hexadécimal : <badge style="background-color: #FFFFFF; color: black">#FFFFFF</badge>
@@ -93,7 +93,7 @@ Code hexadécimal : <badge style="background-color: #FFFFFF; color: black">#FFFF
 
 Le texte atténué est utilisé pour des éléments de texte secondaire tels que les légendes, les espaces de texte réservés et les horodatages. La couleur de ce texte atténué fonctionne seulement sur des fonds clairs (voir : thème clair) ou sur des éléments de couleur claire. Pour les fonds sombres ou les éléments foncés ou brillants, utilisez du texte blanc.
 
-Veuillez consulter la Typographie pour plus de renseignements au sujet de l’utilisation de la couleur du texte.
+Veuillez consulter la [Typographie](/component/typography) pour plus de renseignements au sujet de l’utilisation de la couleur du texte.
 
 Code hexadécimal : <badge style="background-color: #666666">#666666</badge>
 

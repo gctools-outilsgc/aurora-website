@@ -70,3 +70,9 @@ La même chose que l’option, mais avec un rayon de bordure de 17 px.
         </div>
     </form>
 ' react=''></codeblock>
+
+## Utiliser l'icône
+
+Les barres de recherche peuvent inclure une icône d'une loupe dependant du fonctionnement de barre de recherche. 
+
+Si compléter le recherche s'ouvre un nouveau page des résultats, utilisez l'icône. Si les résultats sont suggérés en bas de la barre, l'icône n'est pas nécessaire.

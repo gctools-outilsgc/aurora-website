@@ -13,8 +13,6 @@ title: "Choosing visualizations"
 
 ## Tables
 
-<strippedtable></strippedtable>
-
 Tables are a raw format for displaying data sets. If a more complex visualization is used, a table should also be present somewhere on the page so users can choose how they view and analyze data.
 
 Tables may be all you need to visualize your data. Simply using a table is great if:
@@ -27,7 +25,37 @@ Tables may be all you need to visualize your data. Simply using a table is great
 
 In this case, put extra effort to make your table as readable as possible, and consider adding interactivity \(i.e. filters, sort functions\) to your table so users can manipulate and view key pieces of the data set.
 
-![Banded Table](../../../img\examples\banded_table.png)
+<h3>Table Example</h3>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First name</th>
+      <th scope="col">Last name</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Bar and Column Graphs
 
@@ -53,4 +81,4 @@ Scatterplots are the best form of distribution analysis. They are best used with
 
 Scatterplots may also help to identify outliers or anomaly cases in your data set.
 
-![Scatterplot](../../../img\examples\scatterplot.png)
+![Scatterplot](../../../img\examples\scatterplot_2.png)

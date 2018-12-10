@@ -76,7 +76,7 @@ The palette used in this system is titled **Aurora Borealis** and uses the follo
 
 Text in this design system is displayed in an off-black colour. Black text can be used on any light background \(see: Light Theme\) or any button or element that uses a light colour. When adding text to any background that is not black it is essential to check the contrast for accessibility. Significant contrast between the background/element colour and the text ensures readability, even for those with visual impairments such as colour blindness.
 
-Please see [_Typography_](/typography.md) for more information about using text colour.
+Please see [Typography](/component/typography) for more information about using text colour.
 
 Hex code: <badge style="background-color: #252525;">#252525</badge>
 
@@ -84,7 +84,7 @@ Hex code: <badge style="background-color: #252525;">#252525</badge>
 
 Light text in this design system is displayed in an off-white colour. White text can be used on any dark background \(see: Dark Theme\) or any button or element that uses a dark or light colour. When adding white text it is essential to check the contrast for accessibility. Significant contrast between the background/element colour and the text ensures readability, even for those with visual impairments such as colour blindness.
 
-Please see [_Typography_ ](/typography.md)for more information about using text colour.
+Please see [Typography](/component/typography) for more information about using text colour.
 
 Hex code: <badge style="background-color: #FFFFFF; color:black;">#FFFFFF</badge>
 
@@ -92,7 +92,7 @@ Hex code: <badge style="background-color: #FFFFFF; color:black;">#FFFFFF</badge>
 
 Muted text is used for secondary text elements such as captions, placeholder text and timestamps. This muted text colour only works on light backgrounds \(see: Light Theme\) or light-coloured elements. For dark backgrounds or bright/dark elements, use white text.
 
-Please see [_Typography_](/typography.md) for more information about using text colour.
+Please see [Typography](/component/typography) for more information about using text colour.
 
 Hex code: <badge style="background-color: #666666;">#666666</badge>
 

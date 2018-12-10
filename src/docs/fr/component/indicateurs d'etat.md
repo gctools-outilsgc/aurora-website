@@ -27,13 +27,13 @@ Le cercle intérieur est blanc (<badge style="background-color: #FFFFFF; color:b
 Entre les étapes, il y a une ligne centrée dont l’épaisseur est de 3px.
 Cette ligne devrait être de la même couleur que le cercle extérieur.
 
-![Composante des étapes en commencant](../../../img\components\steps indicator_1.png)
+![Composante des étapes en commencant](../../../img\components\steps_indicator_1.png)
 
 Les étapes en cours et achevées sont indiquées au moyen d’un cercle de couleur et d’une ligne. Le cercle extérieur est de couleur (#FEC04F) ou de la couleur secondaire de votre choix. La ligne est également remplie de cette couleur.
 
-![Composante des étapes à étape 2](../../../img\components\steps indicator_2.png)
+![Composante des étapes à étape 2](../../../img\components\steps_indicator_2.png)
 
-![Composante des étapes à étape 3](../../../img\components\steps indicator_3.png)
+![Composante des étapes à étape 3](../../../img\components\steps_indicator_3.png)
 
 ## Barres de progression
 
@@ -51,32 +51,32 @@ Les barres de progression sont stylisées au moyen d’un rectangle d’environ 
 Le pourcentage peut être soit aligné à la droite de la barre, soit centré dans la portion colorée de la barre.
 
 <div class="progress">
-  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
 </div>
 
 <codeblock html='
     <div class="progress">
-        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
     </div>
 ' react='' />
 
 <div class="progress">
-  <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
 </div>
 
 <codeblock html='
     <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
     </div>
 ' react='' />
 
 <div class="progress">
-  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
 </div>
 
 <codeblock html='
     <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
     </div>
 ' react='' />
 
@@ -90,10 +90,10 @@ Les barres de progression sont vides au début et se remplissent graduellement d
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </helmet>
-<i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"></i>
-<i class="fa fa-refresh fa-spin" style="font-size:24px"></i>
-<i class="fa fa-spinner fa-spin" style="font-size:24px"></i>
+<i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"><span class="sr-only">Exemple d'une girouette circulaire</span></i>
+<i class="fa fa-refresh fa-spin" style="font-size:24px"><span class="sr-only">Exemple d'une girouette pour rafraîchir</span></i>
+<i class="fa fa-spinner fa-spin" style="font-size:24px"><span class="sr-only">Exemple d'une girouette avec des points</span></i>
 
 Les boucles de progression sont utilisées pour indiquer le chargement d’une page ou d’une fonction. Une règle générale est d’utiliser des boucles de progression pour les processus qui durent moins de 4 secondes. Les boucles de progression indiquent des niveaux de progrès indéterminés, ce qui signifie qu’il n’y a pas d’achèvement clair et que la boucle d’animation se poursuit jusqu’à ce que le processus soit terminé.
 
-La boucle de progression utilisée dans ce système de conception est affichée au moyen de l’icône de boucle de progression de la police Awesome. La police Awesome possède de multiples icônes qui pourraient bien fonctionner comme boucle de progression, selon votre contenu. Vous pouvez consulter la [documentation sur la police Awesome]((https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit)) afin d’animer la boucle de pression pour démontrer le chargement d’une page ou d’une fonction.
+La boucle de progression utilisée dans ce système de conception est affichée au moyen de l’icône de boucle de progression de la police Awesome. La police Awesome possède de multiples icônes qui pourraient bien fonctionner comme boucle de progression, selon votre contenu. Vous pouvez consulter la [documentation sur la police Awesome](https://fontawesome.com/how-to-use/on-the-web/styling/animating-icons) afin d’animer la boucle de pression pour démontrer le chargement d’une page ou d’une fonction.

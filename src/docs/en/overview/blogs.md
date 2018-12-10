@@ -19,7 +19,7 @@ In November, two developers and I started working on a design system for Governm
 
 Fast forward to today and we have four developers, three writers, three user experience researchers as well as design expertise across the whole project team. We’ve collaborated with six partners across four different organizations. Most importantly, over the past months, we’ve built and compiled a large [repository of content](https://github.com/gctools-outilsgc/design-system/tree/master/documentation/pages) that matches the calibre of private tech companies, and connects the Government of Canada’s various digital resources, policies and learning material.
 
-![Example of our design system documentation](../../../img\blogs\documenation_example.png)
+![Example of our design system documentation page on Gitbook](../../../img\blogs\documenation_example.png)
 
 *Example of our design system documentation*
 
@@ -29,7 +29,7 @@ After six months of managing a project, I’ve definitely learned many things ab
 
 **Building anything new is a messy process.** Try to organize the chaos best you can, but accept that the amount of uncertainty and tough questions will feel overwhelming at times.
 
-![Image of people working collaboratively](../../../img\blogs\generic_people_doing_stuff.jpeg)
+![Stock image of people working collaboratively](../../../img\blogs\generic_people_doing_stuff.jpeg)
 
 **Be strategic about working with others.** Partners and collaborators are valuable, but can also broaden the project far beyond its original scope. Stick to your original goals and have a clear plan from the start on who to engage with, and when to engage them.
 
@@ -66,7 +66,7 @@ I‘m in my early 20s, still in school, and completely new to design. But somewh
 
 As I come into work, I wonder (with awe) how I got here. That’s the beauty of working with a flexible and competent team like the GCTools! After only four months here, I’ve been welcomed into the team with open arms and encouraged to learn on the go. Along the way I’ve definitely had to come to terms with the occasional imposter syndrome, but that means you’re on the right track to building something new.
 
-![Pie chart about job advancement](../../../img\blogs\job_pie_chart.jpeg)
+![Pie chart comic about job advancement](../../../img\blogs\job_pie_chart.jpeg)
 
 All of this makes the DCD team a perfect environment to embrace a new challenge like the design system project.
 

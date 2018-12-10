@@ -27,13 +27,13 @@ The inner circle is white \(<badge style="background-color: #FFFFFF;color:black;
 
 In between steps there is a centred line with a thickness of 3px. This line should be the same colour as the outer circle.
 
-![Steps indicator component on step 1](../../../img\components\steps indicator_1.png)
+![Steps indicator component on step 1](../../../img\components\steps_indicator_1.png)
 
 In progress, completed steps use a coloured circle and line. The outer circle is filled with the colour \(<badge style="background-color: #FEC04F;color:black;">#FEC04F</badge>\)\ or the secondary colour of your choice. The line is also filled with this colour.
 
-![Steps indicator component on step 2](../../../img\components\steps indicator_2.png)
+![Steps indicator component on step 2](../../../img\components\steps_indicator_2.png)
 
-![Steps indicator component on step 3](../../../img\components\steps indicator_3.png)
+![Steps indicator component on step 3](../../../img\components\steps_indicator_3.png)
 
 ## Progress Bars
 
@@ -52,32 +52,32 @@ Progress bars are styled using a rectangle with 16px height and variable width. 
 Percentage can be either aligned to the right of the bar, or the percentage can be centred within the coloured portion of the bar.
 
 <div class="progress">
-  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
 </div>
 
 <codeblock html='
     <div class="progress">
-        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
     </div>
 ' react='' />
 
 <div class="progress">
-  <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
 </div>
 
 <codeblock html='
     <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
     </div>
 ' react='' />
 
 <div class="progress">
-  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
 </div>
 
 <codeblock html='
     <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
     </div>
 ' react='' />
 
@@ -91,10 +91,10 @@ Progress bars start empty and gradually fill with colour using an animation. The
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </helmet>
-<i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"></i>
-<i class="fa fa-refresh fa-spin" style="font-size:24px"></i>
-<i class="fa fa-spinner fa-spin" style="font-size:24px"></i>
+<i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"><span class="sr-only">Example of notch circle spinner</span></i>
+<i class="fa fa-refresh fa-spin" style="font-size:24px"><span class="sr-only">Example of refresh spinner</span></i>
+<i class="fa fa-spinner fa-spin" style="font-size:24px"><span class="sr-only">Example of dot spinner</span></i>
 
 Spinners are used to indicate that a page or function is loading. A general rule is to use spinners for processes that take less than 4 seconds. Spinners show indeterminate levels of progress, meaning there is no clear completion and the animation loops until the process is complete.
 
-The spinner used in this design system is displayed using the spinner icon from Font Awesome. Font Awesome provides multiple icons that may work well as a spinner, depending on your content. You can refer to [Font Awesome's documentation](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit) to animate the spinner to demonstrate a loading page or function.
+The spinner used in this design system is displayed using the spinner icon from Font Awesome. Font Awesome provides multiple icons that may work well as a spinner, depending on your content. You can refer to [Font Awesome's documentation](https://fontawesome.com/how-to-use/on-the-web/styling/animating-icons) to animate the spinner to demonstrate a loading page or function.

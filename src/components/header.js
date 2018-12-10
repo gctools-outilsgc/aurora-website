@@ -44,12 +44,13 @@ const Header = ({ path }) => {
         <header className="fixed-top bg-white shadow-sm" role="banner">
           <div>
             <div style={{height:'50px', padding:'10px'}}>
-              <img src={fip} alt="FIP"/>
+              <img src={fip} alt={t("GovernmentofCanada")}/>
               <div className="float-right">
                   <span className="float-left mr-3 d-none d-md-block">
                     <Search
                       lng={(i18n.language === "en") ? "en" : "fr"}
                       placeholder={(i18n.language === "en") ? "Search" : "Chercher"}
+                      section="desktop"
                     />
                   </span>
                   <span className="float-right">
@@ -59,7 +60,7 @@ const Header = ({ path }) => {
             </div>
           </div>
           <div>
-            <Navbar color="white" expand className="main-nav" style={{paddingBottom:'0'}} aria-label={t("MainNavigation")} role="navigation">
+            <Navbar color="white" expand className="main-nav" style={{paddingBottom:'0', paddingRight:'0'}} aria-label={t("MainNavigation")} role="navigation">
               <Link to="/#!" className="text-dark logo">
                 <img src={logo} alt="Logo" className="float-left" style={{width:'30px', margin:'5px'}} />
                 <span className="h2 d-none d-md-block float-left font-weight-normal">
@@ -93,7 +94,7 @@ const Header = ({ path }) => {
               </div>
                 <Nav className="ml-auto" navbar>
                   <NavItem className="d-none d-md-block">
-                    <NavLink style={{"color":"black"}} target="_blank"  href="https://github.com/gctools-outilsgc/design-system"><FontAwesomeIcon style={{"fontSize":"1.5em"}} icon={faGithub} /><span className="sr-only">GitHub</span></NavLink>
+                    <NavLink style={{"color":"black"}} target="_blank"  href="https://github.com/gctools-outilsgc/design-system-code"><FontAwesomeIcon style={{"fontSize":"1.5em"}} icon={faGithub} /><span className="sr-only">GitHub</span></NavLink>
                   </NavItem>
                   <NavItem className="d-none d-md-block">
                     <NavLink style={{"color":"black"}} target="_blank" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai"><FontAwesomeIcon style={{"fontSize":"1.5em"}} icon={faDownload} /><span className="sr-only">{t("DownloadLink")}</span></NavLink>
