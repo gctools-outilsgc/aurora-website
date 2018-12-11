@@ -20,7 +20,7 @@ Les cartes peuvent rendre votre produit Web plus attrayant. Toutefois, vous devr
 
 Si plusieurs cartes sont placées sur une page, elles devraient être placées à une distance de 16px de chaque côté.
 
-##Composantes d’une carte
+## Composantes d’une carte
 
 Les éléments qui peuvent être utilisés dans une carte sont les suivants :
 
@@ -32,6 +32,87 @@ Les éléments qui peuvent être utilisés dans une carte sont les suivants :
 * Renseignements supplémentaires – tout renseignement additionnel qui renforce le message de la carte.
 
 Tous ces éléments ne sont pas nécessaires dans chaque carte. Vous pouvez choisir les éléments qui vous conviennent le mieux au but de la carte. Cependant, chaque carte devrait avoir un titre principal.
+
+<documentationtabs>
+      <doctabpanel type="html">
+          
+<codeblock html='
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+        <div class="card-body">
+            <h3 class="card-title h5">Titre de la carte</h3>
+            <div class="card-subtitle text-muted">Méta-information</div>
+            <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte. Voici quelques renseignements supplémentaires, cela pourrait être quelque chose de merveilleux!</p>
+            <a href="#" class="card-link">Un autre lien</a>
+        </div>
+    </div>
+    ' react='' /></codeblock>  
+    
+<codeblock html='
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+            <img class="card-img-top" src="image.png" alt="Limite de l’image">
+        <div class="card-body">
+            <h3 class="card-title h5">Titre de la carte</h3>
+            <div class="card-subtitle text-muted">Méta-information</div>
+            <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte. Voici quelques renseignements supplémentaires, cela pourrait être quelque chose de merveilleux!</p>
+            <a href="#" class="card-link">Un autre lien</a>
+        </div>
+    </div>
+' react='' /></codeblock>
+
+<codeblock html='
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+        <img class="card-img-top" src="image.png" alt="Limite de l’image">
+        <div class="card-body">
+            <h3 class="card-title h5">Titre de la carte</h3>
+            <div class="card-subtitle text-muted">Méta-information</div>
+            <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte. Voici quelques renseignements supplémentaires, cela pourrait être quelque chose de merveilleux!</p>
+        </div>
+        <div class="card-footer">
+            <button type="button" class="btn btn-primary">Primaire</button>
+            <button type="button" class="btn btn-outline-primary">Secondaire</button>
+        </div>
+    </div>
+' react='' /></codeblock>
+          
+<codeblock html='
+    <div class="card card-profile mb-2 d-inline-block" style="max-width: 18rem;">  
+        <img class="card-img-top" style="height: 100px;" src="http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg">
+        <div class="card-body">
+            <img alt="..." class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
+            <div>
+            <h3 class="card-title h5">Name or Group</h3>
+            <p class="text-muted">Titre du poste ou méta-information</p>
+            <button type="button" class="btn btn-primary">Appel à l’action</button>
+            </div>        
+        </div>
+    </div>
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+        <div class="card-body">
+            <h3 class="card-title h5">Titre de la carte</h3>
+            <div class="card-subtitle text-muted">Méta-information</div>
+            <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte. Voici quelques renseignements supplémentaires, cela pourrait être quelque chose de merveilleux!.</p>
+            <button type="button" class="btn btn-light"><span class="fa fa-heart"></span><span class="sr-only">Aimer</span></button>
+            <button type="button" class="btn btn-light"><span class="fa fa-comment"></span><span class="sr-only">Comment</span></button>
+        </div>
+    </div>
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+            <h3 class="card-title h5">Titre de la carte</h3>
+            <div class="card-subtitle text-muted">Méta-information</div>
+            <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte. Voici quelques renseignements supplémentaires, cela pourrait être quelque chose de merveilleux!</p>
+            <button type="button" class="btn btn-primary">Primaire</button>
+            <button type="button" class="btn btn-outline-primary">Primaire</button>
+        </div>
+        <div class="card-footer">Renseignements supplémentaires</div>
+    </div>
+' react='' /></codeblock>
+      
+</doctabpanel>
+      <doctabpanel type="react">
+      </doctabpanel>
+      <doctabpanel type="design">
+          
 
 ## Modèle de carte de base
 
@@ -49,17 +130,6 @@ Un rectangle blanc (<badge style="background-color: #FFFFFF; color:black">#FFFFF
         <a href="#" class="card-link">Un autre lien</a>
     </div>
 </div>
-
-<codeblock html='
-    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-        <div class="card-body">
-            <h3 class="card-title h5">Titre de la carte</h3>
-            <div class="card-subtitle text-muted">Méta-information</div>
-            <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte. Voici quelques renseignements supplémentaires, cela pourrait être quelque chose de merveilleux!</p>
-            <a href="#" class="card-link">Un autre lien</a>
-        </div>
-    </div>
-' react='' />
 
 ## Les cartes d'image
 
@@ -80,18 +150,6 @@ L’image est placée 20px au-dessus de l’en-tête. L’image s’étend sur t
     <a href="#" class="card-link">Un autre lien</a>
     </div>
 </div>
-
-<codeblock html='
-    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-            <img class="card-img-top" src="image.png" alt="Limite de l’image">
-        <div class="card-body">
-            <h3 class="card-title h5">Titre de la carte</h3>
-            <div class="card-subtitle text-muted">Méta-information</div>
-            <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte. Voici quelques renseignements supplémentaires, cela pourrait être quelque chose de merveilleux!</p>
-            <a href="#" class="card-link">Un autre lien</a>
-        </div>
-    </div>
-' react='' />
 
 ## Cartes actionnables
 
@@ -115,21 +173,6 @@ Un deuxième diviseur de 12px est placé sous le contenu. Des points actionnable
     <button type="button" class="btn btn-outline-primary">Secondaire</button>
     </div>
 </div>
-
-<codeblock html='
-    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-        <img class="card-img-top" src="image.png" alt="Limite de l’image">
-        <div class="card-body">
-            <h3 class="card-title h5">Titre de la carte</h3>
-            <div class="card-subtitle text-muted">Méta-information</div>
-            <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte. Voici quelques renseignements supplémentaires, cela pourrait être quelque chose de merveilleux!</p>
-        </div>
-        <div class="card-footer">
-            <button type="button" class="btn btn-primary">Primaire</button>
-            <button type="button" class="btn btn-outline-primary">Secondaire</button>
-        </div>
-    </div>
-' react='' />
 
 ## Cartes complexes
 
@@ -168,36 +211,8 @@ Les cartes peuvent techniquement comprendre un certain nombre de combinaisons d�
     <div class="card-footer">Renseignements supplémentaires</div>
 </div>
 
-<codeblock html='
-    <div class="card card-profile mb-2 d-inline-block" style="max-width: 18rem;">  
-        <img class="card-img-top" style="height: 100px;" src="http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg">
-        <div class="card-body">
-            <img alt="..." class="avatar avatar-lg" src="https://api.adorable.io/avatars/170/abott@adorable.png">
-            <div>
-            <h3 class="card-title h5">Name or Group</h3>
-            <p class="text-muted">Titre du poste ou méta-information</p>
-            <button type="button" class="btn btn-primary">Appel à l’action</button>
-            </div>        
-        </div>
-    </div>
-    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-        <div class="card-body">
-            <h3 class="card-title h5">Titre de la carte</h3>
-            <div class="card-subtitle text-muted">Méta-information</div>
-            <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte. Voici quelques renseignements supplémentaires, cela pourrait être quelque chose de merveilleux!.</p>
-            <button type="button" class="btn btn-light"><span class="fa fa-heart"></span><span class="sr-only">Aimer</span></button>
-            <button type="button" class="btn btn-light"><span class="fa fa-comment"></span><span class="sr-only">Comment</span></button>
-        </div>
-    </div>
-    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-            <h3 class="card-title h5">Titre de la carte</h3>
-            <div class="card-subtitle text-muted">Méta-information</div>
-            <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte. Voici quelques renseignements supplémentaires, cela pourrait être quelque chose de merveilleux!</p>
-            <button type="button" class="btn btn-primary">Primaire</button>
-            <button type="button" class="btn btn-outline-primary">Primaire</button>
-        </div>
-        <div class="card-footer">Renseignements supplémentaires</div>
-    </div>
-' react='' />
+
+</doctabpanel>
+    </documentationtabs>
+
+

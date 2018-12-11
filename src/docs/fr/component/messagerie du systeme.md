@@ -13,18 +13,9 @@ title: "Messagerie du système"
 
 Les notifications du système sont de courts messages qui apparaissent pour communiquer de l’information à l’utilisateur. Des notifications apparaissent comme des bannières en premier plan qui ont besoin d’être fermées ou qui se ferment après une période de temps. Il y a quatre niveaux de gravité qui peuvent être appliqués à la notification : erreur, avertissement, information et succès.
 
-Les notifications conçues du système en ordre décroissant de sévérité :
-
-## Erreur
-
-Les notifications d’erreur sont utilisées pour les pannes de système et les erreurs de l’utilisateur.
-
-Exemple d’erreur : « Votre mot de passe doit contenir au moins huit (8) caractères. »
-
-<Alert color="danger">
-    C’est une alerte en cas de danger avec un <a href="#example" class="alert-link">exemple de lien.</a>.
-</Alert>
-
+<documentationtabs>
+      <doctabpanel type="html">
+    
 <codeblock html='
     <div class="alert alert-danger" role="alert">
         C’est une alerte en cas de danger avec un <a href="" class="alert-link">exemple de lien.</a>.
@@ -34,16 +25,6 @@ Exemple d’erreur : « Votre mot de passe doit contenir au moins huit (8) carac
     C’est une alerte en cas de danger avec un <a href="" class="alert-link">exemple de lien.</a>.
 </Alert>
 '></codeblock>
-
-## Avertissement
-
-Les notifications d’avertissement sont utilisées pour les notifications d'erreurs futures potentielles. 
-
-Exemple d’avertissement : « Verr. Maj. est activé ce qui pourrait faire en sorte que vous entriez votre mot de passe incorrectement. »
-
-<Alert color="warning">
-    C’est une alerte d’avertissement avec un  <a href="#example" class="alert-link">exemple de lien.</a>.
-</Alert>
 
 <codeblock html='
     <div class="alert alert-warning" role="alert">
@@ -55,16 +36,6 @@ Exemple d’avertissement : « Verr. Maj. est activé ce qui pourrait faire en s
 </Alert>
 '></codeblock>
 
-## Information
-
-Les notifications d’information servent à fournir des renseignements supplémentaires et des notes à l’utilisateur qu’elles peuvent trouver utiles selon le contexte.
-
-Exemple d’information : « Vous pouvez changer votre mot de passe dans les paramètres. »
-
-<Alert color="info">
-    C’est une alerte d’information avec un <a href="#example" class="alert-link">exemple de lien.</a>.
-</Alert>
-
 <codeblock html='
     <div class="alert alert-info" role="alert">
         C’est une alerte d’information avec un <a href="" class="alert-link">exemple de lien.</a>.
@@ -75,16 +46,6 @@ Exemple d’information : « Vous pouvez changer votre mot de passe dans les par
 </Alert>
 '></codeblock>
 
-## Succès
-
-Les notifications de succès sont utilisées pour confirmer qu’une tâche a été achevée avec succès.
-
-Exemple de succès : « Votre mot de passe a été mis à jour avec succès. »
-
-<Alert color="success">
-    C’est une alerte en cas de succès avec un <a href="#example" class="alert-link">exemple de lien.</a>.
-</Alert>
-
 <codeblock html='
     <div class="alert alert-success" role="alert">
         C’est une alerte en cas de succès avec un <a href="" class="alert-link">exemple de lien.</a>.
@@ -94,6 +55,53 @@ Exemple de succès : « Votre mot de passe a été mis à jour avec succès. »
     C’est une alerte en cas de succès avec un <a href="" name = "success" class="alert-link">exemple de lien.</a>.
 </Alert>
 '></codeblock>
+
+</doctabpanel>
+      <doctabpanel type="react">
+      </doctabpanel>
+      <doctabpanel type="design">
+
+
+## Erreur
+
+Les notifications d’erreur sont utilisées pour les pannes de système et les erreurs de l’utilisateur.
+
+Exemple d’erreur : « Votre mot de passe doit contenir au moins huit (8) caractères. »
+
+<Alert color="danger">
+    C’est une alerte en cas de danger avec un <a href="#example" class="alert-link">exemple de lien.</a>.
+</Alert>
+
+## Avertissement
+
+Les notifications d’avertissement sont utilisées pour les notifications d'erreurs futures potentielles. 
+
+Exemple d’avertissement : « Verr. Maj. est activé ce qui pourrait faire en sorte que vous entriez votre mot de passe incorrectement. »
+
+<Alert color="warning">
+    C’est une alerte d’avertissement avec un  <a href="#example" class="alert-link">exemple de lien.</a>.
+</Alert>
+
+
+## Information
+
+Les notifications d’information servent à fournir des renseignements supplémentaires et des notes à l’utilisateur qu’elles peuvent trouver utiles selon le contexte.
+
+Exemple d’information : « Vous pouvez changer votre mot de passe dans les paramètres. »
+
+<Alert color="info">
+    C’est une alerte d’information avec un <a href="#example" class="alert-link">exemple de lien.</a>.
+</Alert>
+
+## Succès
+
+Les notifications de succès sont utilisées pour confirmer qu’une tâche a été achevée avec succès.
+
+Exemple de succès : « Votre mot de passe a été mis à jour avec succès. »
+
+<Alert color="success">
+    C’est une alerte en cas de succès avec un <a href="#example" class="alert-link">exemple de lien.</a>.
+</Alert>
 
 ## Style de notifications
 
@@ -134,3 +142,8 @@ Les notifications sont de 62px par 425px. Le texte a un remplissage de 15px sur 
 Les messages de notification devraient être simples et aussi courts que possible et devraient aussi utiliser des mots clés. Les messages longs peuvent être imprécis et peuvent avoir une incidence sur la taille et la lisibilité du message.
 
 Exemple d’une notification claire : Votre photo de profil a été modifiée avec succès.
+      
+</doctabpanel>
+    </documentationtabs>
+
+

@@ -16,19 +16,9 @@ Le système de grilles est fondé sur une série de conteneurs, de colonnes et d
 
 Le cadre de grilles contient 12 colonnes dimensionnées en fonction de la fenêtre d’affichage du périphérique de l’utilisateur. Une personnalisation plus poussée des grilles et de la disposition des colonnes, comme le décalage et l’imbrication, est possible à l’aide du cadre de la boîte à outils de l’expérience Web. La largeur de la fenêtre d’affichage est en pixels et ne change pas la taille de la police.
 
-## Exemples de mise en page automatique de grille
-### De largeur égale
-Si la taille des colonnes n’est pas définie, elles vont automatiquement être fixées de la même largeur.
-
-<container style="width: 100%; margin-bottom: 20px">
-    <row>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 2</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
-    </row>
-</container>
-
+<documentationtabs>
+      <doctabpanel type="html">
+          
 <codeblock react='
 <Container style="width: 100%">
     <Row>
@@ -56,18 +46,6 @@ Si la taille des colonnes n’est pas définie, elles vont automatiquement être
     </div>
 '></codeblock>
 
-### De largeur inégale
-Lorsque vous établissez la taille d’une colonne, les colonnes sœurs seront automatiquement redimensionnées.
-
-<container style="width: 100%; margin-bottom: 20px">
-    <row>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
-        <mdcol xs="6" className="mb-2"><button outline="true" color="primary" style="width: 100%">Colonne 2</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
-    </row>
-</container>
-
 <codeblock html='
     <div class="container">
         <div class="row">
@@ -94,18 +72,6 @@ Lorsque vous établissez la taille d’une colonne, les colonnes sœurs seront a
     </Row>
 </Container> '></codeblock>
 
-### Contenu de largeur variable
-Vous pouvez établir des colonnes pour correspondre automatiquement au contenu qu’elles contiennent. Les colonnes sœurs seront automatiquement redimensionnées.
-
-<container style="width: 100%; margin-bottom: 20px">
-    <row>
-        <mdcol className="mb-2"><button color="primary" class="btn-block">Colonne 1</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" class="btn-block">Colonne 2</button></mdcol>
-        <mdcol xs="auto" className="mb-2"><button color="primary" class="btn-block">C’est la troisième et la plus large colonne en raison de la grandeur automatique</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" class="btn-block">Colonne 4</button></mdcol>
-    </row>
-</container>
-
 <codeblock html='
     <div class="container">
         <div class="row">
@@ -131,24 +97,6 @@ Vous pouvez établir des colonnes pour correspondre automatiquement au contenu q
         <Col><Button color="primary" style="width: 100%">Colonne 4</Button></Col>
     </Row>
 </Container> '></codeblock>
-
-### Multiples rangés de largeur égale
-De multiples colonnes et rangées peuvent être fixées à l’aide d’un saut de ligne.
-
-<container style="width: 100%; margin-bottom: 20px">
-    <row>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 2</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
-    </row>
-    <row style="margin-top: 10px">
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 2</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
-    </row>
-</container>
 
 <codeblock html='
     <div class="container">
@@ -196,3 +144,71 @@ De multiples colonnes et rangées peuvent être fixées à l’aide d’un saut 
         <Col><Button color="primary" style="width: 100%">Colonne 4</Button></Col>
     </Row>
 </Container> '></codeblock>
+
+</doctabpanel>
+      <doctabpanel type="react">
+      </doctabpanel>
+      <doctabpanel type="design">
+          
+
+## Exemples de mise en page automatique de grille
+### De largeur égale
+Si la taille des colonnes n’est pas définie, elles vont automatiquement être fixées de la même largeur.
+
+<container style="width: 100%; margin-bottom: 20px">
+    <row>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 2</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
+    </row>
+</container>
+
+
+### De largeur inégale
+Lorsque vous établissez la taille d’une colonne, les colonnes sœurs seront automatiquement redimensionnées.
+
+<container style="width: 100%; margin-bottom: 20px">
+    <row>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
+        <mdcol xs="6" className="mb-2"><button outline="true" color="primary" style="width: 100%">Colonne 2</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
+    </row>
+</container>
+
+### Contenu de largeur variable
+Vous pouvez établir des colonnes pour correspondre automatiquement au contenu qu’elles contiennent. Les colonnes sœurs seront automatiquement redimensionnées.
+
+<container style="width: 100%; margin-bottom: 20px">
+    <row>
+        <mdcol className="mb-2"><button color="primary" class="btn-block">Colonne 1</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" class="btn-block">Colonne 2</button></mdcol>
+        <mdcol xs="auto" className="mb-2"><button color="primary" class="btn-block">C’est la troisième et la plus large colonne en raison de la grandeur automatique</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" class="btn-block">Colonne 4</button></mdcol>
+    </row>
+</container>
+
+
+### Multiples rangés de largeur égale
+De multiples colonnes et rangées peuvent être fixées à l’aide d’un saut de ligne.
+
+<container style="width: 100%; margin-bottom: 20px">
+    <row>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 2</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
+    </row>
+    <row style="margin-top: 10px">
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 2</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
+        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
+    </row>
+</container>
+
+</doctabpanel>
+    </documentationtabs>
+
+
