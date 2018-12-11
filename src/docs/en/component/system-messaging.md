@@ -13,18 +13,9 @@ title: "System messaging"
 
 System notifications are short messages that appear to communicate information to the user. Notifications appear as pop-up banners which need to be dismissed or timed-out. There are four levels of severity which can be applied to the notifications: error, warning, information and success.
 
-Design systems notifications in descending level of severity:
-
-## Error
-
-Error notifications are used for system failures and user errors.
-
-Error example: “Your password must contain at least 8 characters.”
-
-<Alert color="danger">
-    This is a danger alert with <a href="#example" class="alert-link">an example link</a>.
-</Alert>
-
+<documentationtabs>
+      <doctabpanel type="html">
+          
 <codeblock html='
     <div class="alert alert-danger" role="alert">
         This is a danger alert with <a href="#" class="alert-link">an example link</a>.
@@ -34,16 +25,6 @@ Error example: “Your password must contain at least 8 characters.”
     This is a danger alert with <a href="#" class="alert-link">an example link</a>.
 </Alert>
 '></codeblock>
-
-## Warning
-
-Warning notifications are used for notices of potential future errors.
-
-Warning example: “Caps lock is on which may cause you to enter your password incorrectly.”
-
-<Alert color="warning">
-    This is a warning alert with <a href="#example" class="alert-link">an example link</a>.
-</Alert>
 
 <codeblock html='
     <div class="alert alert-warning" role="alert">
@@ -55,6 +36,52 @@ Warning example: “Caps lock is on which may cause you to enter your password i
 </Alert>
 '></codeblock>
 
+<codeblock html='
+    <div class="alert alert-info" role="alert">
+        This is an info alert with <a href="#" class="alert-link">an example link</a>.
+    </div>
+' react='
+<Alert color="info">
+    This is an info alert with <a href="#" class="alert-link">an example link</a>.
+</Alert>
+'></codeblock>
+
+<codeblock html='
+    <div class="alert alert-success" role="alert">
+        This is a success alert with <a href="#" class="alert-link">an example link</a>.
+    </div>
+' react='
+<Alert color="success">
+    This is a success alert with <a href="#" class="alert-link">an example link</a>.
+</Alert>
+'></codeblock>
+
+</doctabpanel>
+      <doctabpanel type="react">
+      </doctabpanel>
+      <doctabpanel type="design">
+
+## Error
+
+Error notifications are used for system failures and user errors.
+
+Error example: “Your password must contain at least 8 characters.”
+
+<Alert color="danger">
+    This is a danger alert with <a href="#example" class="alert-link">an example link</a>.
+</Alert>
+
+## Warning
+
+Warning notifications are used for notices of potential future errors.
+
+Warning example: “Caps lock is on which may cause you to enter your password incorrectly.”
+
+<Alert color="warning">
+    This is a warning alert with <a href="#example" class="alert-link">an example link</a>.
+</Alert>
+
+
 ## Information
 
 Information notifications are used to provide additional information and notes to the user which they may find helpful in context.
@@ -65,15 +92,6 @@ Information example: “You can change your password in settings.”
     This is an info alert with <a href="#example" class="alert-link">an example link</a>.
 </Alert>
 
-<codeblock html='
-    <div class="alert alert-info" role="alert">
-        This is an info alert with <a href="#" class="alert-link">an example link</a>.
-    </div>
-' react='
-<Alert color="info">
-    This is an info alert with <a href="#" class="alert-link">an example link</a>.
-</Alert>
-'></codeblock>
 
 ## Success
 
@@ -85,15 +103,6 @@ Success example: “Your password was updated successfully.”
     This is a success alert with <a href="#example" class="alert-link">an example link</a>.
 </Alert>
 
-<codeblock html='
-    <div class="alert alert-success" role="alert">
-        This is a success alert with <a href="#" class="alert-link">an example link</a>.
-    </div>
-' react='
-<Alert color="success">
-    This is a success alert with <a href="#" class="alert-link">an example link</a>.
-</Alert>
-'></codeblock>
 
 ## Style of Notifications
 
@@ -134,3 +143,7 @@ Notifications are 62px by 425px. The text has a 15px padding on the top and on t
 The notification messages should straightforward and as short as possible, and use key words. Long messages can be unclear and may affect the sizing and readability of the message.
 
 Example of a clear notification: Your profile picture has been changed successfully.
+
+</doctabpanel>
+    </documentationtabs>
+

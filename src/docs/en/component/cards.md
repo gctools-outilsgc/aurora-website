@@ -33,6 +33,87 @@ Elements that can be used in a card are:
 
 Not all of these elements are necessary in every card. You can choose the elements which you think best fit the purpose of the card. However, every card should have a main title.
 
+<documentationtabs>
+      <doctabpanel type="html">
+          
+<codeblock html='
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+        <div class="card-body">
+            <h3 class="card-title h5">Card title</h3>
+            <div class="card-subtitle text-muted">Meta Information</div>
+            <p class="card-text">Some quick example text to build on the card title</p>
+            <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+' react='' /></codeblock>
+
+<codeblock html='
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+            <img class="card-img-top" src="image.png" alt="Card image cap">
+        <div class="card-body">
+            <h3 class="card-title h5">Card title</h3>
+            <div class="card-subtitle text-muted">Meta Information</div>
+            <p class="card-text">Some quick example text to build on the card title</p>
+            <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+' react='' /></codeblock>
+
+<codeblock html='
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+        <img class="card-img-top" src="image.png" alt="Card image cap">
+        <div class="card-body">
+            <h3 class="card-title h5">Card title</h3>
+            <div class="card-subtitle text-muted">Meta Information</div>
+            <p class="card-text">Some quick example text to build on the card title</p>
+        </div>
+        <div class="card-footer">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-outline-primary">Secondary</button>
+        </div>
+    </div>
+' react='' /></codeblock>
+
+<codeblock html='
+    <div class="card card-profile mb-2 d-inline-block" style="max-width: 18rem;">  
+        <img class="card-img-top" style="height: 100px;" src="http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg">
+        <div class="card-body">
+            <img alt="..." class="avatar avatar-lg" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
+            <div>
+            <h3 class="card-title h5">Name or Group</h3>
+            <p class="text-muted">Job title or meta information</p>
+            <button type="button" class="btn btn-primary">Call to Action</button>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+        <div class="card-body">
+            <h3 class="card-title h5">Card title</h3>
+            <div class="card-subtitle text-muted">Meta Information</div>
+            <p class="card-text">Some quick example text to build on the card title. Here is some extra information, this could be something wonderful!</p>
+            <button type="button" class="btn btn-light"><span class="fa fa-heart"></span><span class="sr-only">Like</span></button>
+            <button type="button" class="btn btn-light"><span class="fa fa-comment"></span><span class="sr-only">Comment</span></button>
+        </div>
+    </div>
+    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+            <h3 class="card-title h5">Card title</h3>
+            <div class="card-subtitle text-muted">Meta Information</div>
+            <p class="card-text">Some quick example text to build on the card title</p>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+        </div>
+        <div class="card-footer">Extra information</div>
+    </div>
+' react='' />
+
+</doctabpanel>
+      <doctabpanel type="react">
+      </doctabpanel>
+      <doctabpanel type="design">
+          
+
 ## Basic card template
 
 Basic cards can be used as containers for any type of information are sized depending on the content. Basic cards form the foundation for more complex cards which may include any combination of elements.
@@ -49,17 +130,6 @@ White (<badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>) re
         <a href="#" class="card-link">Another link</a>
     </div>
 </div>
-
-<codeblock html='
-    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-        <div class="card-body">
-            <h3 class="card-title h5">Card title</h3>
-            <div class="card-subtitle text-muted">Meta Information</div>
-            <p class="card-text">Some quick example text to build on the card title</p>
-            <a href="#" class="card-link">Another link</a>
-        </div>
-    </div>
-' react='' />
 
 
 ## Image Cards
@@ -81,18 +151,6 @@ The image is placed 20px above the header. The image spans the entire width of t
     <a href="#" class="card-link">Another link</a>
     </div>
 </div>
-
-<codeblock html='
-    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-            <img class="card-img-top" src="image.png" alt="Card image cap">
-        <div class="card-body">
-            <h3 class="card-title h5">Card title</h3>
-            <div class="card-subtitle text-muted">Meta Information</div>
-            <p class="card-text">Some quick example text to build on the card title</p>
-            <a href="#" class="card-link">Another link</a>
-        </div>
-    </div>
-' react='' />
 
 ## Actionable Cards
 
@@ -116,21 +174,6 @@ A second divider is placed 12px below the content. Actionable items (i.e. button
     <button type="button" class="btn btn-outline-primary">Secondary</button>
     </div>
 </div>
-
-<codeblock html='
-    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-        <img class="card-img-top" src="image.png" alt="Card image cap">
-        <div class="card-body">
-            <h3 class="card-title h5">Card title</h3>
-            <div class="card-subtitle text-muted">Meta Information</div>
-            <p class="card-text">Some quick example text to build on the card title</p>
-        </div>
-        <div class="card-footer">
-            <button type="button" class="btn btn-primary">Primary</button>
-            <button type="button" class="btn btn-outline-primary">Secondary</button>
-        </div>
-    </div>
-' react='' />
 
 ## Complex Cards
 
@@ -169,36 +212,8 @@ Cards can technically include any number of component combinations. Using the ba
     <div class="card-footer">Extra information</div>
 </div>
 
-<codeblock html='
-    <div class="card card-profile mb-2 d-inline-block" style="max-width: 18rem;">  
-        <img class="card-img-top" style="height: 100px;" src="http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg">
-        <div class="card-body">
-            <img alt="..." class="avatar avatar-lg" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
-            <div>
-            <h3 class="card-title h5">Name or Group</h3>
-            <p class="text-muted">Job title or meta information</p>
-            <button type="button" class="btn btn-primary">Call to Action</button>
-            </div>
-        </div>
-    </div>
-    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-        <div class="card-body">
-            <h3 class="card-title h5">Card title</h3>
-            <div class="card-subtitle text-muted">Meta Information</div>
-            <p class="card-text">Some quick example text to build on the card title. Here is some extra information, this could be something wonderful!</p>
-            <button type="button" class="btn btn-light"><span class="fa fa-heart"></span><span class="sr-only">Like</span></button>
-            <button type="button" class="btn btn-light"><span class="fa fa-comment"></span><span class="sr-only">Comment</span></button>
-        </div>
-    </div>
-    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-            <h3 class="card-title h5">Card title</h3>
-            <div class="card-subtitle text-muted">Meta Information</div>
-            <p class="card-text">Some quick example text to build on the card title</p>
-            <button type="button" class="btn btn-primary">Primary</button>
-            <button type="button" class="btn btn-outline-primary">Primary</button>
-        </div>
-        <div class="card-footer">Extra information</div>
-    </div>
-' react='' />
+
+</doctabpanel>
+    </documentationtabs>
+
+

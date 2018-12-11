@@ -9,6 +9,7 @@ title: "Avatars and thumbnails"
 <title> Images, Avatars and Thumbnails - Aurora Design System </title>
 </helmet>
 
+
 # Images, Avatars and Thumbnails
 
 <div class="mt-3">
@@ -36,6 +37,26 @@ title: "Avatars and thumbnails"
     </div>
     </div>
 </div>
+
+<br>
+
+<documentationtabs>
+    <doctabpanel type="html">
+        
+        <codeblock html='<img alt="medium avatar" class="avatar" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
+' react='' ></codeblock>
+        
+<codeblock html='<img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
+' react='' /></codeblock>
+
+<codeblock html='<img alt="large avatar" class="avatar avatar-lg" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
+' react='' /></codeblock>
+
+</doctabpanel>
+      <doctabpanel type="react">
+      </doctabpanel>
+      <doctabpanel type="design">
+          
 
 ## Block Images
 
@@ -66,8 +87,6 @@ Used on small components where the user would need to be identified, such as tag
 
 <img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 
-<codeblock html='<img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
-' react='' />
 
 **Medium:** Square image with corners rounded by 4px. Sized at 50 x 50 pixels.
 
@@ -75,17 +94,12 @@ Used in combination with other components such as comments, chat, cards and anyw
 
 <img alt="medium avatar" class="avatar" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 
-<codeblock html='<img alt="medium avatar" class="avatar" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
-' react='' />
-
 **Large**: Square image with corners rounded by 4px. Sized at 115 x 115 pixels.
 
 Used directly on the user's profile.
 
 <img alt="large avatar" class="avatar avatar-lg" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 
-<codeblock html='<img alt="large avatar" class="avatar avatar-lg" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
-' react='' />
 
 ## Thumbnails
 
@@ -96,3 +110,9 @@ Thumbnails are small versions of an image that are used as previews to content. 
 Thumbnails are always square with a border radius 1px. They have a black stroke width of 0.25px. They are sized at 115 x 115 pixels
 
 Thumbnails do not crop the image but simply re-scale it. Thumbnails are typically left-aligned when combined with other components.
+      </doctabpanel>
+    </documentationtabs>
+
+
+
+
