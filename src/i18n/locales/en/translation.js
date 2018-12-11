@@ -46,6 +46,7 @@ const enTranslation = {
   "SubNavigation":"Sub Navigation",
   "Reply":"Reply",
   "Pressed":"Pressed",
+  "Design":"Design",
   "CanadaSymbol":"Symbol of the Government of Canada"
 };
 

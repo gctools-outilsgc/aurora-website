@@ -46,6 +46,7 @@ const frTranslation = {
   "SubNavigation":"Sous-navigation",
   "Reply":"Répondre",
   "Pressed":"Activé",
+  "Design":"Conception",
   "CanadaSymbol":"Symbole du gouvernement du Canada"
 };
 

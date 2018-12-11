@@ -97,6 +97,10 @@ background-color: rgba(0,0,0,.4);
 position:fixed;
 }
 
+.doc-hidden {
+  display:none;
+}
+
 @media (max-width: 768px) {
   .hero-holder {
       background-size: contain;
