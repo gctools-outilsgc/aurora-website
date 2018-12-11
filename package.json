@@ -17,10 +17,10 @@
     "gatsby-plugin-google-fonts": "^0.0.4",
     "gatsby-plugin-react-helmet": "^2.0.11",
     "gatsby-plugin-sass": "^1.0.26",
-    "gatsby-remark-images": "latest",
-    "gatsby-source-filesystem": "latest",
-    "gatsby-transformer-remark": "latest",
-    "gatsby-transformer-sharp": "latest",
+    "gatsby-remark-images": "^2.0.4",
+    "gatsby-source-filesystem": "^2.0.5",
+    "gatsby-transformer-remark": "^2.1.8",
+    "gatsby-transformer-sharp": "^2.1.4",
     "i18next": "^11.9.0",
     "lunr": "^2.3.3",
     "popper.js": "^1.14.4",
@@ -45,7 +45,8 @@
     "build": "gatsby build",
     "develop": "gatsby develop -H 0.0.0.0",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "eslint src/",
+    "lint": "markdownlint -i node_modules \"**/*.md\"",
+    "test": "eslint src/ && npm run lint",
     "lint-fix": "eslint src/ --fix",
     "deploy": "rm -rf .cache/* && gatsby build && cp ./src/CNAME public/ && gh-pages -d public"
   },
@@ -57,6 +58,7 @@
     "eslint-plugin-react": "^7.10.0",
     "gh-pages": "^1.2.0",
     "loader-utils": "^1.1.0",
+    "markdownlint-cli": "^0.13.0",
     "prettier": "^1.13.7"
   },
   "eslintConfig": {
