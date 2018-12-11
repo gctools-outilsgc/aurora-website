@@ -34,21 +34,9 @@ Les cases à cocher ont quatre états différents :
     </div>
 ' react='' />
 
-**Normal :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #F9F9F9; color: black" >#F9F9F9</badge>, couleur de bordure <badge style="background-color: #96A8B2;color:black">#96A8B2</badge> de 1px.
-
-<div class="custom-control custom-checkbox">
-    <input type="checkbox" class="custom-control-input" id="customCheck2">
-    <label class="custom-control-label" for="customCheck2">Vérification personnalisée</label>
-</div>
-
 **Pointage :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, couleur de bordure <badge style="background-color: #4D5D6C" >#4D5D6C</badge> de 1px.
 
 **Focus :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, couleur de bordure <badge style="background-color: #4D5D6C" >#4D5D6C</badge> de 3px.
-
-<div class="custom-control custom-checkbox">
-    <input type="checkbox" class="custom-control-input" id="customCheck4">
-    <label class="custom-control-label" for="customCheck4">Vérification personnalisée</label>
-</div>
 
 **Active :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #4D5D6C" >#4D5D6C</badge>, couleur de bordure <badge style="background-color: #96A8B2; color:black">#96A8B2</badge> . Comprend une icône de contrôle blanc centré dans la case.
 
@@ -66,22 +54,23 @@ Les étiquettes des boutons « radio » sont alignées à droite du bouton.
 
 <div class="custom-control custom-radio">
     <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-    <label class="custom-control-label" for="customRadio1">Radio personnalisée</label>
+    <label class="custom-control-label" for="customRadio1">Radio personnalisée 1</label>
+</div>
+<div class="custom-control custom-radio">
+    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio2">Radio personnalisée 2</label>
 </div>
 
 <codeblock html='
     <div class="custom-control custom-radio">
-        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-        <label class="custom-control-label" for="customRadio1">Radio personnalisée</label>
+      <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+      <label class="custom-control-label" for="customRadio1">Radio personnalisée 1</label>
+    </div>
+    <div class="custom-control custom-radio">
+      <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+      <label class="custom-control-label" for="customRadio2">CRadio personnalisée 2</label>
     </div>
 ' react='' />
-
-**Normal :** cercle de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan #F9F9F9, couleur de bordure <badge style="background-color: #96A8B2; color:black">#96A8B2</badge> de 1px.
-
-<div class="custom-control custom-radio">
-    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-    <label class="custom-control-label" for="customRadio2">Radio personnalisée</label>
-</div>
 
 **Pointage :** cercle de 18px sur 18px, couleur d’arrière-plan <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, couleur de bordure #4D5D6C de 1px.
 
@@ -95,37 +84,28 @@ Les commutateurs sont utilisés seulement lorsque l’une des deux options peut 
 
 Les commutateurs peuvent être utilisés dans toutes sortes de formulaires ou d’autres types de fonctions tels que Paramètres, Options de profil, etc.
 
-Les commutateurs ont quatre états différents :
-
-**Désactivé  :** 32px sur 18px, rayon de bordure de 9px, couleur d’arrière-plan de curseur <badge style="background-color: #E3E4E5; color: black" >#E3E4E5</badge>, couleur de bouton <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, bordure de 1px avec une couleur <badge style="background-color: #66666">#66666</badge>. Le bouton est à gauche du curseur.
-
 <label class="switch">
-    <input type="checkbox" tabindex="-1">
-    <span class="slider round"></span>
+  <input type="checkbox" />
+  <span class="switch__toggle"></span>
+  Toggle switch
 </label>
 
-<codeblock html='
-    <label class="switch">
-        <input type="checkbox" tabindex="-1">
-        <span class="slider round"></span>
-    </label>
+<codeblock html='<label class="switch">
+  <input type="checkbox" />
+  <span class="switch__toggle"></span>
+  Toggle switch
+</label>
 ' react='' />
+
+Les commutateurs ont quatre états différents :
+
+**Désactivé  :** 32px sur 18px, rayon de bordure de 9px, couleur d’arrière-plan de curseur <badge style="background-color: #E3E4E5; color: black" >#E3E4E5</badge>, couleur de bouton <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, bordure de 1px avec une couleur <badge style="background-color: #666666">#666666</badge>. Le bouton est à gauche du curseur.
 
 **Désactivé, pointage et focus**
 32px sur 18px, rayon de bordure de 9px, couleur d’arrière-plan de curseur <badge style="background-color: #E3E4E5; color: black" >#E3E4E5</badge>, couleur de bouton <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, avec une bordure de 3px et une couleur de bordure #4D5D6C, une bordure de 1px avec une couleur <badge style="background-color: #66666">#66666</badge>. Le bouton est à gauche du curseur.
 
 
-**Activé**  : 32px sur 18px, rayon de bordure de 9px, couleur d’arrière-plan de curseur <badge style="background-color: #FEC04F; color:black">#FEC04F</badge>, couleur de bouton <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, bordure de 1px ayant la couleur <badge style="background-color: #66666">#66666</badge>. Le bouton est à droite du curseur.
-
-<label class="switch">
-    <input type="checkbox" checked>
-    <span class="slider round"></span>
-</label>
+**Activé**  : 32px sur 18px, rayon de bordure de 9px, couleur d’arrière-plan de curseur <badge style="background-color: #FEC04F; color:black">#FEC04F</badge>, couleur de bouton <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, bordure de 1px ayant la couleur <badge style="background-color: #666666">#666666</badge>. Le bouton est à droite du curseur.
 
 **Activé, Pointage et focus :**
-32px sur 18px, rayon de bordure de 9px, couleur d’arrière-plan de curseur <badge style="background-color: #FEC04F; color:black">#FEC04F</badge>, couleur de bouton <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, ayant une bordure de 3px et une couleur de bordure <badge style="background-color: #E3E4E5; color: black" >#E3E4E5</badge>, une bordure de 1px dont la couleur est le <badge style="background-color: #66666">#66666</badge>. Le bouton est à droite du curseur.
-
-## Boutons d’action
-
-Les boutons dans les formulaires doivent indiquer clairement le résultat du fait d’appuyer sur le bouton. En particulier dans les formulaires, le bouton devrait comprendre une forme quelconque d’animation ou de validation pour informer l’utilisateur que son action a été reçue (une confirmation que le formulaire a été transmis, sauvegardé ou annulé).
-Pour obtenir de plus amples renseignements à ce sujet, veuillez consulter la [section Boutons](boutons.md)
+32px sur 18px, rayon de bordure de 9px, couleur d’arrière-plan de curseur <badge style="background-color: #FEC04F; color:black">#FEC04F</badge>, couleur de bouton <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, ayant une bordure de 3px et une couleur de bordure <badge style="background-color: #E3E4E5; color: black" >#E3E4E5</badge>, une bordure de 1px dont la couleur est le <badge style="background-color: #666666">#666666</badge>. Le bouton est à droite du curseur.
