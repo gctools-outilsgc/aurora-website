@@ -23,52 +23,17 @@ You should organize the page structure so that the most important information ap
 
 Pagination splits content into multiple discrete pages. It is best used when the user is trying to accomplish a goal, for instance trying to find a particular article from a list. Breaking the content list into multiple pages stops the user from feeling overwhelmed. A user can see the size of the data set, so they know how much more content there is to investigate. Pagination also allows the user to feel more in control of the content they are viewing as they can decide whether or not to click to the next page. Every click should lead the user closer to achieving their goal.
 
-Pagination is styled as follows:
+### Best Practices
 
-Secondary button on the left with the copy "Prev." With numbers in the middle and another secondary button on the right with the copy "Next"
+Through pagination, a user should be able understand the amount of content there is; you should include a link to the last page of the content in the pagination bar, unless the data set fluctuates in size. Also include a link to the first page on every page.
 
-The numbers are displayed with Nunito Sans Bold at 14px. Each number has padding of 10px.
+Each page should contain the same amount of objects, you may want to include an option for the user to change how many objects are shown on each page. Depending on the type of content, you may want to allow users to filter and organize which page the objects appear on.
 
-The active page number is shown in a rectangle with a padding of 10px, with a border radius of 4px. The box is displayed using the same colour as primary buttons <badge style="background-color: #002D42">#002D42</badge>, and the number uses white text.
+The user should be able to clearly tell which page they are currently on. Place this number in the middle of the pagination bar and give it the heaviest visual weight. The user should also be able to see what content page they have already viewed so they do not have to revisit content that they have already seen. You can show this by changing the colour, typically a secondary colour, of already visited pages versus pages the user has yet to visit.
 
-<pagination aria-label="Page navigation example">
-    <paginationitem>
-        <paginationlink href="#example">
-        « <!-- previous="true" doesn't work, this needs a solution  -->
-        </paginationlink>
-    </paginationitem>
-    <paginationitem>
-        <paginationlink href="#example">
-        1
-        </paginationlink>
-    </paginationitem>
-    <paginationitem>
-        <paginationlink href="#example">
-        2
-        </paginationlink>
-    </paginationitem>
-    <paginationitem>
-        <paginationlink href="#example">
-        3
-        </paginationlink>
-    </paginationitem>
-    <paginationitem>
-        <paginationlink href="#example">
-        4
-        </paginationlink>
-    </paginationitem>
-    <paginationitem>
-        <paginationlink href="#example">
-        5
-        </paginationlink>
-    </paginationitem>
-    <paginationitem>
-        <paginationlink href="#example">
-        »
-        </paginationlink>
-    </paginationitem>
-</pagination>
-
+<documentationtabs>
+      <doctabpanel type="html">
+          
 <codeblock
     react='
     <Pagination>
@@ -124,12 +89,60 @@ The active page number is shown in a rectangle with a padding of 10px, with a bo
             </li>
         </ul>
     </nav>'>
-</codebloack>
+</codeblock>
 
-### Best Practices
+</doctabpanel>
 
-Through pagination, a user should be able understand the amount of content there is; you should include a link to the last page of the content in the pagination bar, unless the data set fluctuates in size. Also include a link to the first page on every page.
+<doctabpanel type="react">
+      </doctabpanel>
+      <doctabpanel type="design">
+      </doctabpanel>
+    </documentationtabs>
+    
+Pagination is styled as follows:
 
-Each page should contain the same amount of objects, you may want to include an option for the user to change how many objects are shown on each page. Depending on the type of content, you may want to allow users to filter and organize which page the objects appear on.
+Secondary button on the left with the copy "Prev." With numbers in the middle and another secondary button on the right with the copy "Next"
 
-The user should be able to clearly tell which page they are currently on. Place this number in the middle of the pagination bar and give it the heaviest visual weight. The user should also be able to see what content page they have already viewed so they do not have to revisit content that they have already seen. You can show this by changing the colour, typically a secondary colour, of already visited pages versus pages the user has yet to visit.
+The numbers are displayed with Nunito Sans Bold at 14px. Each number has padding of 10px.
+
+The active page number is shown in a rectangle with a padding of 10px, with a border radius of 4px. The box is displayed using the same colour as primary buttons <badge style="background-color: #002D42">#002D42</badge>, and the number uses white text.
+
+<pagination aria-label="Page navigation example">
+    <paginationitem>
+        <paginationlink href="#example">
+        « <!-- previous="true" doesn't work, this needs a solution  -->
+        </paginationlink>
+    </paginationitem>
+    <paginationitem>
+        <paginationlink href="#example">
+        1
+        </paginationlink>
+    </paginationitem>
+    <paginationitem>
+        <paginationlink href="#example">
+        2
+        </paginationlink>
+    </paginationitem>
+    <paginationitem>
+        <paginationlink href="#example">
+        3
+        </paginationlink>
+    </paginationitem>
+    <paginationitem>
+        <paginationlink href="#example">
+        4
+        </paginationlink>
+    </paginationitem>
+    <paginationitem>
+        <paginationlink href="#example">
+        5
+        </paginationlink>
+    </paginationitem>
+    <paginationitem>
+        <paginationlink href="#example">
+        »
+        </paginationlink>
+    </paginationitem>
+</pagination>
+
+

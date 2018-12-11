@@ -17,6 +17,44 @@ Les barres de recherche se trouvent dans le coin supérieur droit de la page Web
 
 Les barres de recherche dans ce système comportent un texte d’espace réservé qui indique le terme *Recherche*.
 
+## Utiliser l'icône
+
+Les barres de recherche peuvent inclure une icône d'une loupe dependant du fonctionnement de barre de recherche. 
+
+Si compléter le recherche s'ouvre un nouveau page des résultats, utilisez l'icône. Si les résultats sont suggérés en bas de la barre, l'icône n'est pas nécessaire.
+
+   <documentationtabs>
+      <doctabpanel type="html">
+          
+<codeblock html='
+    <form>
+        <div class="form-inline search-form">
+            <label for="search" class="sr-only">Recherche</label>
+            <input type="text" class="form-control" id="search" placeholder="Recherche">
+            <span class="search-form-addon">
+            <button type="submit"><span class="sr-only">Recherche</span><span class="fa fa-search"></span></button>
+            </span>
+        </div>
+    </form>
+' react=''></codeblock>
+
+<codeblock html='
+    <form>
+        <div class="form-inline search-form search-form-round">
+            <label for="search" class="sr-only">Recherche</label>
+            <input type="text" class="form-control" id="search" placeholder="Recherche">
+            <span class="search-form-addon">
+            <button type="submit"><span class="sr-only">Recherche</span><span class="fa fa-search"></span></button>
+            </span>
+        </div>
+    </form>
+' react=''></codeblock>
+
+</doctabpanel>
+      <doctabpanel type="react">
+      </doctabpanel>
+      <doctabpanel type="design">
+          
 Il y a deux options de style pour la recherche :
 
 **Option 1**
@@ -33,18 +71,6 @@ Le champ de texte ayant un remplissage de 12 px. À droite du champ, il y a une 
     </div>
 </form>
 
-<codeblock html='
-    <form>
-        <div class="form-inline search-form">
-            <label for="search" class="sr-only">Recherche</label>
-            <input type="text" class="form-control" id="search" placeholder="Recherche">
-            <span class="search-form-addon">
-            <button type="submit"><span class="sr-only">Recherche</span><span class="fa fa-search"></span></button>
-            </span>
-        </div>
-    </form>
-' react=''></codeblock>
-
 **Option 2**
 
 La même chose que l’option, mais avec un rayon de bordure de 17 px.
@@ -59,20 +85,6 @@ La même chose que l’option, mais avec un rayon de bordure de 17 px.
     </div>
 </form>
 
-<codeblock html='
-    <form>
-        <div class="form-inline search-form search-form-round">
-            <label for="search" class="sr-only">Recherche</label>
-            <input type="text" class="form-control" id="search" placeholder="Recherche">
-            <span class="search-form-addon">
-            <button type="submit"><span class="sr-only">Recherche</span><span class="fa fa-search"></span></button>
-            </span>
-        </div>
-    </form>
-' react=''></codeblock>
+</doctabpanel>
+    </documentationtabs>
 
-## Utiliser l'icône
-
-Les barres de recherche peuvent inclure une icône d'une loupe dependant du fonctionnement de barre de recherche. 
-
-Si compléter le recherche s'ouvre un nouveau page des résultats, utilisez l'icône. Si les résultats sont suggérés en bas de la barre, l'icône n'est pas nécessaire.

@@ -19,20 +19,9 @@ Le fil d’Ariane de ce système de conception est fondé sur l’emplacement, c
 
 Le fil d’Ariane devrait être complémentaire à la navigation principale et ne devrait jamais être utilisé pour remplacer l’ensemble des éléments de navigation. Il est subtil et ne devrait pas dominer visuellement sur la page. Tous les éléments de la liste du fil d’Ariane doivent être des liens, sauf le dernier élément.
 
-Le fil d’Ariane dans le système de conception est comme suit :
-
-Chaque couche du fil d’Ariane est stylisée à l’aide du texte de lien. Le dernier élément n’est jamais un lien puisqu’il s’agit de la page actuelle et qu’il n’est pas cliquable. Le dernier élément est stylisé à l’aide du texte normal.
-
-Entre chaque couche, il y a une icône de chevron dont la couleur est le <badge style="background-color: #A0A0A0; color:black">#A0A0A0</badge>
-
-Chaque couche a un espacement de 12 px de chaque côté du chevron.
-
-<breadcrumb>
-    <breadcrumbitem><a href="#">Page principale</a></breadcrumbitem>
-    <breadcrumbitem><a href="#">Page secondaire</a></breadcrumbitem>
-    <breadcrumbitem active="true">Page actuelle</breadcrumbitem>
-</breadcrumb>
-
+<documentationtabs>
+      <doctabpanel type="html">
+          
 <codeblock html='
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -48,3 +37,28 @@ Chaque couche a un espacement de 12 px de chaque côté du chevron.
     <BreadCrumbItem active="true">Page actuelle</BreadCrumbItem>
 </Breadcrumb>
 '></codeblock>
+
+</doctabpanel>
+      <doctabpanel type="react">
+      </doctabpanel>
+      <doctabpanel type="design">
+          
+Le fil d’Ariane dans le système de conception est comme suit :
+
+
+Chaque couche du fil d’Ariane est stylisée à l’aide du texte de lien. Le dernier élément n’est jamais un lien puisqu’il s’agit de la page actuelle et qu’il n’est pas cliquable. Le dernier élément est stylisé à l’aide du texte normal.
+
+Entre chaque couche, il y a une icône de chevron dont la couleur est le <badge style="background-color: #A0A0A0; color:black">#A0A0A0</badge>
+
+Chaque couche a un espacement de 12 px de chaque côté du chevron.
+
+<breadcrumb>
+    <breadcrumbitem><a href="#">Page principale</a></breadcrumbitem>
+    <breadcrumbitem><a href="#">Page secondaire</a></breadcrumbitem>
+    <breadcrumbitem active="true">Page actuelle</breadcrumbitem>
+</breadcrumb>
+
+</doctabpanel>
+    </documentationtabs>
+
+
