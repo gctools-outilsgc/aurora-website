@@ -37,6 +37,7 @@ const frTranslation = {
   "Data":"Données",
   "Download":"Télécharger",
   "COPY CODE": "COPIER LE CODE",
+  "Copy": "Copier",
   "Copied!": "Copié!",
   "SHOW CODE": "MONTRER LE CODE",
   "HIDE CODE": "CACHER LE CODE",

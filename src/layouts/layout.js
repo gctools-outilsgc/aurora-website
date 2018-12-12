@@ -30,7 +30,6 @@ class Layout extends React.Component {
               ]}
             >
               <link rel="shortcut icon" href={icon} type="image/png" />
-              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/themes/prism.min.css" />
             </Helmet>
             <div style={{position:'fixed', zIndex:'99999', top: '0', left: '45%'}}>
               <a className="sr-only sr-only-focusable aurora-skip" href="#main-content">Skip to main content</a>

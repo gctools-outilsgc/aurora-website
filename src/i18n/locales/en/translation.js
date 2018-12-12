@@ -37,6 +37,7 @@ const enTranslation = {
   "Data":"Data",
   "Download":"Download",
   "COPY CODE": "COPY CODE",
+  "Copy": "Copy",
   "Copied!": "Copied!",
   "SHOW CODE": "SHOW CODE",
   "HIDE CODE": "HIDE CODE",
