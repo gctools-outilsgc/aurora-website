@@ -34,7 +34,8 @@ Les éléments qui peuvent être utilisés dans une carte sont les suivants :
 Tous ces éléments ne sont pas nécessaires dans chaque carte. Vous pouvez choisir les éléments qui vous conviennent le mieux au but de la carte. Cependant, chaque carte devrait avoir un titre principal.
 
 <documentationtabs>
-      <doctabpanel type="html">
+    
+<doctabpanel type="html">
           
 <codeblock html='
     <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
@@ -82,7 +83,7 @@ Tous ces éléments ne sont pas nécessaires dans chaque carte. Vous pouvez choi
             <div>
             <h3 class="card-title h5">Name or Group</h3>
             <p class="text-muted">Titre du poste ou méta-information</p>
-            <button type="button" class="btn btn-primary">Appel à l’action</button>
+            <button type="button" class="btn btn-primary">Appel à l'action</button>
             </div>        
         </div>
     </div>
@@ -109,10 +110,12 @@ Tous ces éléments ne sont pas nécessaires dans chaque carte. Vous pouvez choi
 ' react='' /></codeblock>
       
 </doctabpanel>
-      <doctabpanel type="react">
+      
+<doctabpanel type="react">
       </doctabpanel>
-      <doctabpanel type="design">
-          
+      
+<doctabpanel type="design">  
+    
 
 ## Modèle de carte de base
 
@@ -210,7 +213,6 @@ Les cartes peuvent techniquement comprendre un certain nombre de combinaisons d�
     </div>
     <div class="card-footer">Renseignements supplémentaires</div>
 </div>
-
 
 </doctabpanel>
     </documentationtabs>

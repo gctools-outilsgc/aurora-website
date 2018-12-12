@@ -118,7 +118,7 @@ Buttons should include normal, hover, focus, active and disabled states:
 </doctabpanel>
       <doctabpanel type="react">
       </doctabpanel>
-      <doctabpanel type="design">
+<doctabpanel type="design">
 
 
 ## Size and Padding
@@ -197,7 +197,6 @@ Drop down buttons display a list of items when clicked. They are used for two-st
 **Regular State:** Similar to the primary button, drop-down buttons use the primary colour at 100% opacity, white text, with a border radius of 4px and padding of 15px. The drop-down arrow represents a space of 30px by 40px, which is separated from the primary button using a white line. The arrow uses a space of 15px width and 8px in height.
 
 <mdbuttondropdown color="primary" title="Regular">
-
 </mdbuttondropdown>
 
 **Hover States:** Similar to the primary button, drop-down buttons use the primary colour at 100% opacity, white text, with a border radius of 4px and padding of 15px. The drop-down arrow represents a space of 30px by 40px, which is separated from the primary button using a white line. The arrow uses a space of 15px width and 8px in height. Whichever piece of the button \(primary or drop-down section\) is being hovered over is shown at 80% opacity.

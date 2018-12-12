@@ -11,12 +11,10 @@ title: "Badges"
 
 # Badges
 
-
 Badges are used to show notifications and other alerts related to a particular element. Badges do not stand alone, but are combined with text, icons or buttons to show a change or action related to that feature. For example, a badge beside your Inbox link to show the number of unread emails.
 
 <documentationtabs>
-    
-<doctabpanel type="html">
+    <doctabpanel type="html">
         
 When coding badges, the alternative text that will be read by screen readers should also include context. For example, the badge should read "40 unread emails" instead of just "40".
 
@@ -48,9 +46,10 @@ When coding badges, the alternative text that will be read by screen readers sho
         
 </doctabpanel>
 
-      <doctabpanel type="react">
+<doctabpanel type="react">
       </doctabpanel>
-      <doctabpanel type="design">
+
+<doctabpanel type="design">
 
 Badges in this design system appear as follows:
 
@@ -64,6 +63,7 @@ Rectangle with a width of 28px and height of 19px. Border radius of 8px. Backgro
 </div>
 
 <h2>Variations</h2>
+
 <div class="mt-3 mb-3">
   <span class="badge badge-primary">Primary</span>
   <span class="badge badge-secondary">Secondary</span>
@@ -76,5 +76,4 @@ Rectangle with a width of 28px and height of 19px. Border radius of 8px. Backgro
 </div>
 
 </doctabpanel>
-
-</documentationtabs>
+    </documentationtabs>

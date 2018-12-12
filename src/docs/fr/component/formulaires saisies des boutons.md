@@ -11,6 +11,40 @@ title: "Saisies des boutons"
 
 # Saisies des boutons
 
+<documentationtabs>
+      <doctabpanel type="html">
+          
+<codeblock html='
+    <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="customCheck1">
+        <label class="custom-control-label" for="customCheck1">Vérification personnalisée</label>
+    </div>
+' react='' /></codeblock> 
+
+<codeblock html='
+    <div class="custom-control custom-radio">
+      <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+      <label class="custom-control-label" for="customRadio1">Radio personnalisée 1</label>
+    </div>
+    <div class="custom-control custom-radio">
+      <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+      <label class="custom-control-label" for="customRadio2">CRadio personnalisée 2</label>
+    </div>
+' react='' /></codeblock> 
+
+<codeblock html='<label class="switch">
+  <input type="checkbox" />
+  <span class="switch__toggle"></span>
+  Toggle switch
+</label>
+' react='' /></codeblock> 
+
+</doctabpanel>
+      <doctabpanel type="react">
+      </doctabpanel>
+      <doctabpanel type="design">
+          
+
 ## Cases à cocher
 
 Les cases à cocher sont utilisées lorsque l’utilisateur peut choisir plusieurs options à partir d’une liste donnée. Elles sont également utilisées pour confirmer certains énoncés : « J’accepte les modalités » ou « Envoyez-moi des courriels de mise à jour ».
@@ -18,21 +52,16 @@ S’il y a une option Autre, ce devrait comprendre un champ ouvert pour que les 
 
 Les étiquettes pour les cases à cocher sont alignées à droite de la case.
 
-Les cases à cocher ont quatre états différents :
-
-**Normal :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #F9F9F9; color: black" >#F9F9F9</badge>, couleur de bordure <badge style="background-color: #96A8B2;color:black">#96A8B2</badge> de 1px.
-
 <div class="custom-control custom-checkbox">
     <input type="checkbox" class="custom-control-input" id="customCheck1">
     <label class="custom-control-label" for="customCheck1">Vérification personnalisée</label>
 </div>
 
-<codeblock html='
-    <div class="custom-control custom-checkbox">
-        <input type="checkbox" class="custom-control-input" id="customCheck1">
-        <label class="custom-control-label" for="customCheck1">Vérification personnalisée</label>
-    </div>
-' react='' />
+<br> 
+
+Les cases à cocher ont quatre états différents :
+
+**Normal :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #F9F9F9; color: black" >#F9F9F9</badge>, couleur de bordure <badge style="background-color: #96A8B2;color:black">#96A8B2</badge> de 1px.
 
 **Pointage :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, couleur de bordure <badge style="background-color: #4D5D6C" >#4D5D6C</badge> de 1px.
 
@@ -50,8 +79,6 @@ S’il y a une option Autre, ce devrait comprendre un champ ouvert pour que les 
 
 Les étiquettes des boutons « radio » sont alignées à droite du bouton.
 
-**Normal :** cercle de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan #F9F9F9, couleur de bordure <badge style="background-color: #96A8B2; color:black">#96A8B2</badge> de 1px.
-
 <div class="custom-control custom-radio">
     <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
     <label class="custom-control-label" for="customRadio1">Radio personnalisée 1</label>
@@ -60,17 +87,9 @@ Les étiquettes des boutons « radio » sont alignées à droite du bouton.
     <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
     <label class="custom-control-label" for="customRadio2">Radio personnalisée 2</label>
 </div>
+<br> 
 
-<codeblock html='
-    <div class="custom-control custom-radio">
-      <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-      <label class="custom-control-label" for="customRadio1">Radio personnalisée 1</label>
-    </div>
-    <div class="custom-control custom-radio">
-      <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-      <label class="custom-control-label" for="customRadio2">CRadio personnalisée 2</label>
-    </div>
-' react='' />
+**Normal :** cercle de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan #F9F9F9, couleur de bordure <badge style="background-color: #96A8B2; color:black">#96A8B2</badge> de 1px.
 
 **Pointage :** cercle de 18px sur 18px, couleur d’arrière-plan <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, couleur de bordure #4D5D6C de 1px.
 
@@ -90,12 +109,8 @@ Les commutateurs peuvent être utilisés dans toutes sortes de formulaires ou d�
   Toggle switch
 </label>
 
-<codeblock html='<label class="switch">
-  <input type="checkbox" />
-  <span class="switch__toggle"></span>
-  Toggle switch
-</label>
-' react='' />
+<br> 
+<br>
 
 Les commutateurs ont quatre états différents :
 
@@ -109,3 +124,8 @@ Les commutateurs ont quatre états différents :
 
 **Activé, Pointage et focus :**
 32px sur 18px, rayon de bordure de 9px, couleur d’arrière-plan de curseur <badge style="background-color: #FEC04F; color:black">#FEC04F</badge>, couleur de bouton <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, ayant une bordure de 3px et une couleur de bordure <badge style="background-color: #E3E4E5; color: black" >#E3E4E5</badge>, une bordure de 1px dont la couleur est le <badge style="background-color: #666666">#666666</badge>. Le bouton est à droite du curseur.
+    
+</doctabpanel>
+    </documentationtabs>
+
+

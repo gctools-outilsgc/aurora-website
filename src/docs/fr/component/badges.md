@@ -27,8 +27,7 @@ Au moment de coder les badges, le texte alternatif qui sera lu par les lecteurs 
   <span class="sr-only">message(s) non lus</span>
 </a>'></codeblock>
 
-<codeblock html='
-<span class="badge badge-primary">Primaire</span>
+<codeblock html='<span class="badge badge-primary">Primaire</span>
 <span class="badge badge-secondary">Secondaire</span>
 <span class="badge badge-success">Succès</span>
 <span class="badge badge-danger">Danger</span>
@@ -43,8 +42,7 @@ Au moment de coder les badges, le texte alternatif qui sera lu par les lecteurs 
 <Badge color="warning">Avertissement</Badge>
 <Badge color="info">Info</Badge>
 <Badge color="light">Jour</Badge>
-<Badge color="dark">Nuit</Badge>'>
-</codeblock>
+<Badge color="dark">Nuit</Badge>'></codeblock>
 
 </doctabpanel>
 
@@ -52,6 +50,7 @@ Au moment de coder les badges, le texte alternatif qui sera lu par les lecteurs 
       </doctabpanel>
 
 <doctabpanel type="design">
+    
 Les badges dans ce système de conception s’affichent comme suit :
 
 Rectangle d’une largeur de 28px et d’une hauteur de 19px. Rayon de la bordure de 8px. Couleur de l’arrière-plan no <badge style="background-color: #4D5D6C">#4D5D6C</badge>. Couleur de texte <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>. Texte centré dans le rectangle.

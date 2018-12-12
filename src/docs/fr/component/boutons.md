@@ -12,9 +12,11 @@ title: "Boutons"
 # Boutons
 
 ## Pratiques exemplaires
+
 Les boutons ont tendance à avoir une importance visuelle sur n’importe quelle page ou fenêtre. Les boutons primaires, les boutons qui indiquent un appel à l’action, sont les plus importants. Les boutons secondaires, qui sont moins couramment utilisés, devraient être moins apparents que les boutons primaires. Les boutons indiquent toujours une action et ne doivent pas être utilisés pour la navigation. Les boutons sont placés où un utilisateur s’attend à les voir, c’est-à-dire à proximité des autres éléments liés à l’action concernée.
 
 ## Étiquettes
+
 Les étiquettes de boutons devraient être claires et précises. Évitez les termes génériques comme Enregistrer, Soumettre ou Annuler. Les boutons devraient indiquer l’action exacte qui est prise et devraient fournir une idée claire de ce qui se passera ensuite.
 
 Exemples de bonnes étiquettes : Ajouter une publication au blogue, Envoyer un message, Enregistrer le brouillon.
@@ -113,17 +115,18 @@ Les boutons devraient comprendre les états normal, sensitif, accentué, actif e
 '></codeblock>
       
 </doctabpanel>
-      <doctabpanel type="react">
+    <doctabpanel type="react">
       </doctabpanel>
-<doctabpanel type="design">
-          
-
+      <doctabpanel type="design">
+                
 ## Taille et remplissage
+
 Les boutons utilisés dans ce système de conception ont une taille minimum de 30px par 30px. C’est la taille moyenne du coussinet tactile utilisé pour une application sur un appareil mobile. Pour le Web, cette taille minimale est également uniforme.
 
 Plus il y a de l’espace vide et de remplissage autour d’un bouton et plus ce dernier apparaît comme important sur la page. La plupart des boutons dans ce système utilisent un remplissage de 15px, à moins d’indication contraire.
 
 ## Boutons primaires
+
 Les boutons primaires identifient un appel à l’action. Utilisez ces boutons pour des actions qu’un utilisateur est encouragé à prendre comme : ajouter une publication à un blogue, envoyer un message ou ouvrir une séance. Essayez de limiter les étiquettes de boutons à un ou deux mots.
 
 Les boutons primaires sont conçus pour avoir un haut contraste avec le fond d’écran et pour avoir le plus de poids visuel. Ils utilisent généralement des couleurs plus vives que les autres éléments sur le formulaire ou la mise en page et sont situés dans un espace visible et accessible de la page.
@@ -150,9 +153,11 @@ Voici les caractéristiques de chacun des états pour les boutons primaires :
 
 
 ## Emplacement
+
 Les boutons primaires devraient être situés à l’endroit le plus important et le plus visible. Ces boutons devraient également être situés à proximité du formulaire ou des éléments qui sont touchés par l’action. En général, dans un ensemble de deux, les boutons primaires sont situés à gauche et le bouton secondaire est placé à droite.
 
 ## Boutons secondaires
+
 Les boutons secondaires sont utilisés pour des actions qui sont nécessaires, mais dont les utilisateurs peuvent utiliser moins souvent. Voici quelques exemples d’actions : Annuler la soumission, Supprimer ou Enregistrer un brouillon. Ces boutons ont un poids visuel qui est équivalent ou moindre à celui de la majorité des éléments sur la page. Le bouton secondaire est habituellement placé à proximité du bouton primaire. Essayez de limiter les étiquettes de boutons à un ou deux mots.
 
 Les boutons secondaires, surtout ceux utilisés pour des actions de destruction, devraient être conçus d’une manière qui dissuade les utilisateurs de cliquer sur celui-ci. Cela aide à réduire le nombre d’erreurs.
@@ -180,9 +185,11 @@ Voici les caractéristiques de chacun des états pour les boutons :
 <button aria-label="Exemple d'un bouton secondaires en état désactivé" color="secondary" disabled="true">Secondaire</button>
 
 ## Emplacement
+
 Les boutons secondaires sont habituellement placés à proximité du bouton primaire, mais pas à un endroit où l’utilisateur peut confondre les deux. Les boutons secondaires sont habituellement placés à droite du bouton primaire. Ils devraient avoir un emplacement uniforme par rapport au bouton primaire afin d’éviter la confusion.
 
 ## Boutons de menu déroulant
+
 Cliquer sur les boutons de menu déroulant affiche une liste d’éléments. Ces boutons sont utilisés pour des processus en deux étapes qui pourraient nécessiter plus d’options particulières pour une seule action.
 
 **État normal** : Semblables aux boutons primaires, les boutons de menu déroulant utilisent une couleur primaire à 100 % d’opacité, du texte blanc avec une bordure d’un rayon de 4px et un remplissage de 15px. La flèche du menu déroulant représente un espace de 30px par 40 px, qui est séparé du bouton primaire en utilisant une ligne blanche. La flèche utilise un espace de 15px de largeur et de 8px de hauteur.

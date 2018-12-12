@@ -96,8 +96,6 @@ The user should be able to clearly tell which page they are currently on. Place 
 <doctabpanel type="react">
       </doctabpanel>
       <doctabpanel type="design">
-      </doctabpanel>
-    </documentationtabs>
     
 Pagination is styled as follows:
 
@@ -144,5 +142,10 @@ The active page number is shown in a rectangle with a padding of 10px, with a bo
         </paginationlink>
     </paginationitem>
 </pagination>
+
+</doctabpanel>
+    </documentationtabs>
+    
+
 
 
