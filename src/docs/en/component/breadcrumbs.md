@@ -22,6 +22,9 @@ Breadcrumbs should be complimentary to primary navigation and should never be us
 <documentationtabs>
       <doctabpanel type="html">
           
+Breadcrumbs indicate the current page's location within a navigational hierarchy. 
+<htmlbreadcrumb1 />
+          
 <codeblock html='
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">

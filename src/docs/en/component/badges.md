@@ -16,6 +16,22 @@ Badges are used to show notifications and other alerts related to a particular e
 <documentationtabs>
     <doctabpanel type="html">
         
+
+## Example
+
+Badges scale to match the size of the immediate parent element by using relative font-sizing and `em` units.
+<htmlbadge1 />
+
+Badges can be used as part of links or buttons to provide a counter.
+<htmlbadge2 />
+
+## Contextual variations
+
+Add any of the below mentioned modifier classes to change the appearance of a badge.
+<htmlbadge3 />
+
+## Accessbility considerations
+        
 When coding badges, the alternative text that will be read by screen readers should also include context. For example, the badge should read "40 unread emails" instead of just "40".
 
 <codeblock html='<a href="#">

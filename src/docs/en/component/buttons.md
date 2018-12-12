@@ -43,6 +43,149 @@ Buttons should include normal, hover, focus, active and disabled states:
 <documentationtabs>
       <doctabpanel type="html">
 
+## Examples
+Bootstrap includes six predefined button styles, each serving its own semantic purpose.
+<htmlbuttonexample1 />
+
+#### Conveying meaning to assistive technologies
+
+Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the `.sr-only` class.
+
+## Button tags
+The `.btn` classes are designed to be used with the `<button>` element. However, you can also use these classes on `<a>` or `<input>` elements (though some browsers may apply a slightly different rendering).
+
+When using button classes on `<a>` elements that are used to trigger in-page functionality (like collapsing content), rather than linking to new pages or sections within the current page, these links should be given a `role="button"` to appropriately convey their purpose to assistive technologies such as screen readers.
+<htmlbuttonexample2 />
+
+## Outline buttons
+In need of a button, but not the hefty background colors they bring? Replace the default modifier classes with the `.btn-outline-*` ones to remove all background images and colors on any button.
+<htmlbuttonexample3 />
+
+## Sizes
+Fancy larger or smaller buttons? Add `.btn-lg` or `.btn-sm` for additional sizes.
+<htmlbuttonexample4 />
+
+<htmlbuttonexample5 />
+
+Create block level buttons—those that span the full width of a parent—by adding `.btn-block`.
+
+<htmlbuttonexample6 />
+
+## Active state
+Buttons will appear pressed (with a darker background, darker border, and inset shadow) when active. **There’s no need to add a class to `<button>`s as they use a pseudo-class**. However, you can still force the same active appearance with `.active` (and include the `aria-pressed="true"` attribute) should you need to replicate the state programmatically.
+<htmlbuttonexample7 />
+
+## Disabled state
+Make buttons look inactive by adding the `disabled` boolean attribute to any `<button>` element.
+<htmlbuttonexample8 />
+
+Disabled buttons using the `<a>` element behave a bit different:
+
+*   `<a>`s don’t support the `disabled` attribute, so you must add the `.disabled` class to make it visually appear disabled.
+*   Some future-friendly styles are included to disable all `pointer-events` on anchor buttons. In browsers which support that property, you won’t see the disabled cursor at all.
+*   Disabled buttons should include the `aria-disabled="true"` attribute to indicate the state of the element to assistive technologies.
+<htmlbuttonexample9 />
+
+#### Link functionality caveat
+
+The `.disabled` class uses `pointer-events: none` to try to disable the link functionality of `<a>`s, but that CSS property is not yet standardized. In addition, even in browsers that do support `pointer-events: none`, keyboard navigation remains unaffected, meaning that sighted keyboard users and users of assistive technologies will still be able to activate these links. So to be safe, add a `tabindex="-1"` attribute on these links (to prevent them from receiving keyboard focus) and use custom JavaScript to disable their functionality.
+
+#Button plugin
+Do more with buttons. Control button states or create groups of buttons for more components like toolbars.
+
+## Toggle states
+
+Add `data-toggle="button"` to toggle a button’s `active` state. If you’re pre-toggling a button, you must manually add the `.active` class **and** `aria-pressed="true"` to the `<button>`.
+
+Single toggle
+<htmlbuttonexample10 />
+
+### Checkbox and radio buttons
+
+Bootstrap’s `.button` styles can be applied to other elements, such as `<label>`s, to provide checkbox or radio style button toggling. Add `data-toggle="buttons"` to a `.btn-group` containing those modified buttons to enable toggling in their respective styles.
+
+The checked state for these buttons is **only updated via `click` event** on the button. If you use another method to update the input—e.g., with `<input type="reset">` or by manually applying the input’s `checked` property—you’ll need to toggle `.active` on the `<label>` manually.
+
+Note that pre-checked buttons require you to manually add the `.active` class to the input’s `<label>`.
+<htmlbuttonexample11 />
+
+<htmlbuttonexample12 />
+
+### Methods
+
+Method
+
+Description
+
+`$().button('toggle')`
+
+Toggles push state. Gives the button the appearance that it has been activated.
+          
+## Dropdowns
+Dropdowns are toggleable, contextual overlays for displaying lists of links and more. They’re made interactive with the included Bootstrap dropdown JavaScript plugin. They’re toggled by clicking, not by hovering; this is [an intentional design decision.](http://markdotto.com/2012/02/27/bootstrap-explained-dropdowns/)
+
+## Examples
+Wrap the dropdown’s toggle (your button or link) and the dropdown menu within `.dropdown`, or another element that declares `position: relative;`. Dropdowns can be triggered from `<a>` or `<button>` elements to better fit your potential needs.
+
+### Single button dropdowns
+Any single `.btn` can be turned into a dropdown toggle with some markup changes. Here’s how you can put them to work with either `<button>` elements:
+<htmlbuttondropdownexample1 />
+
+And with `<a>` elements:
+<htmlbuttondropdownexample2 />
+
+The best part is you can do this with any button variant, too:
+<htmlbuttondropdownexample3 />
+
+### Split button dropdowns
+Similarly, create split button dropdowns with virtually the same markup as single button dropdowns, but with the addition of `.dropdown-toggle-split` for proper spacing around the dropdown caret.
+
+We use this extra class to reduce the horizontal `padding` on either side of the caret by 25% and remove the `margin-left` that’s added for regular button dropdowns. Those extra changes keep the caret centered in the split button and provide a more appropriately sized hit area next to the main button.
+<htmlbuttondropdownexample4 />
+
+## Sizing
+Button dropdowns work with buttons of all sizes, including default and split dropdown buttons.
+<htmlbuttondropdownexample5 />
+
+## Dropup variation
+Trigger dropdown menus above elements by adding `.dropup` to the parent element.
+<htmlbuttondropdownexample6 />
+
+#Button group
+
+Group a series of buttons together on a single line with the button group. Add on optional JavaScript radio and checkbox style behavior with [our buttons plugin](/components/buttons/#button-plugin).
+
+## Basic example
+
+Wrap a series of buttons with `.btn` in `.btn-group`.
+<htmlbuttongroupexample1 />
+
+## Button toolbar
+
+Combine sets of button groups into button toolbars for more complex components. Use utility classes as needed to space out groups, buttons, and more.
+<htmlbuttongroupexample2 />
+
+Feel free to mix input groups with button groups in your toolbars. Similar to the example above, you’ll likely need some utilities though to space things properly.
+<htmlbuttongroupexample3 />
+
+## Sizing
+
+Instead of applying button sizing classes to every button in a group, just add `.btn-group-*` to each `.btn-group`, including each one when nesting multiple groups.
+<htmlbuttongroupexample4 />
+
+## Nesting
+
+Place a `.btn-group` within another `.btn-group` when you want dropdown menus mixed with a series of buttons.
+<htmlbuttongroupexample5 />
+
+##Vertical variation
+
+Make a set of buttons appear vertically stacked rather than horizontally. **Split button dropdowns are not supported here.**
+<htmlbuttongroupexample6 />
+
+.
+<htmlbuttongroupexample7 />
+
 <codeblock html='<button type="button" class="btn btn-secondary" disabled>Secondary</button>' react='<Button color="secondary" disabled>Secondary</Button>'></codeblock>
 
 <codeblock html='
