@@ -1,124 +1,124 @@
 {
   "assetsByChunkName": {
     "path---data-line-graphs": [
-      "path---data-line-graphs-fd745ed02d3d67b5562c.js",
-      "path---data-line-graphs-fd745ed02d3d67b5562c.js.map"
+      "path---data-line-graphs-3a15c1725f0317850964.js",
+      "path---data-line-graphs-3a15c1725f0317850964.js.map"
     ],
     "path---component-tooltips": [
-      "path---component-tooltips-bf794b3f3b944601209d.js",
-      "path---component-tooltips-bf794b3f3b944601209d.js.map"
+      "path---component-tooltips-d7e14c5adfbdd609dcee.js",
+      "path---component-tooltips-d7e14c5adfbdd609dcee.js.map"
     ],
     "path---content-glossary": [
-      "path---content-glossary-e2e638634b6a0c003855.js",
-      "path---content-glossary-e2e638634b6a0c003855.js.map"
+      "path---content-glossary-c883ec5cef4e6b254dde.js",
+      "path---content-glossary-c883ec5cef4e6b254dde.js.map"
     ],
     "path---data-data-overview": [
-      "path---data-data-overview-5d77b23a8c5809d87a9f.js",
-      "path---data-data-overview-5d77b23a8c5809d87a9f.js.map"
+      "path---data-data-overview-28b0d4904139e2f8b3ed.js",
+      "path---data-data-overview-28b0d4904139e2f8b3ed.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-83aa3de856d4ab592048.js",
-      "component---src-pages-index-js-83aa3de856d4ab592048.js.map"
+      "component---src-pages-index-js-52df0cd15ca035447fa8.js",
+      "component---src-pages-index-js-52df0cd15ca035447fa8.js.map"
     ],
     "path---content-system-vocabulary": [
-      "path---content-system-vocabulary-7d1251ceebf8f02339fa.js",
-      "path---content-system-vocabulary-7d1251ceebf8f02339fa.js.map"
+      "path---content-system-vocabulary-099ec2b7936efe445710.js",
+      "path---content-system-vocabulary-099ec2b7936efe445710.js.map"
     ],
     "path---component-errors-and-validation": [
-      "path---component-errors-and-validation-44e4dde6af58c398cfae.js",
-      "path---component-errors-and-validation-44e4dde6af58c398cfae.js.map"
+      "path---component-errors-and-validation-6229125961595abbaae7.js",
+      "path---component-errors-and-validation-6229125961595abbaae7.js.map"
     ],
     "path---component-badges": [
-      "path---component-badges-f7d46b6cfed9d3251f6e.js",
-      "path---component-badges-f7d46b6cfed9d3251f6e.js.map"
+      "path---component-badges-128db26a493c3b7f3613.js",
+      "path---component-badges-128db26a493c3b7f3613.js.map"
     ],
     "path---overview-whats-new": [
-      "path---overview-whats-new-601fb5916690f9ea67b2.js",
-      "path---overview-whats-new-601fb5916690f9ea67b2.js.map"
+      "path---overview-whats-new-cb33ed1a30452963ee2f.js",
+      "path---overview-whats-new-cb33ed1a30452963ee2f.js.map"
     ],
     "path---content-content-guidelines": [
-      "path---content-content-guidelines-e1b5c132ed3448bd059e.js",
-      "path---content-content-guidelines-e1b5c132ed3448bd059e.js.map"
+      "path---content-content-guidelines-1059b519da2ac59a77eb.js",
+      "path---content-content-guidelines-1059b519da2ac59a77eb.js.map"
     ],
     "path---overview-frequently-asked-questions": [
-      "path---overview-frequently-asked-questions-42702fcc4191193f1604.js",
-      "path---overview-frequently-asked-questions-42702fcc4191193f1604.js.map"
+      "path---overview-frequently-asked-questions-a832d4870acc414251c7.js",
+      "path---overview-frequently-asked-questions-a832d4870acc414251c7.js.map"
     ],
     "path---component-grids-and-spacing": [
-      "path---component-grids-and-spacing-4f9f1acd1f6c53a3b2c8.js",
-      "path---component-grids-and-spacing-4f9f1acd1f6c53a3b2c8.js.map"
+      "path---component-grids-and-spacing-8b8c9b7b096c406c5481.js",
+      "path---component-grids-and-spacing-8b8c9b7b096c406c5481.js.map"
     ],
     "path---component-progress-indicators": [
-      "path---component-progress-indicators-4e23ceda40d052acec10.js",
-      "path---component-progress-indicators-4e23ceda40d052acec10.js.map"
+      "path---component-progress-indicators-17a03eb307d11de48ee0.js",
+      "path---component-progress-indicators-17a03eb307d11de48ee0.js.map"
     ],
     "path---component-file-upload": [
-      "path---component-file-upload-613bbd1a9e9502317248.js",
-      "path---component-file-upload-613bbd1a9e9502317248.js.map"
+      "path---component-file-upload-088b0897d0770cb02612.js",
+      "path---component-file-upload-088b0897d0770cb02612.js.map"
     ],
     "path---component-overall-design-and-labels": [
-      "path---component-overall-design-and-labels-6ba4bc3126286c5d6cc9.js",
-      "path---component-overall-design-and-labels-6ba4bc3126286c5d6cc9.js.map"
+      "path---component-overall-design-and-labels-f7d4becd14af01e513ad.js",
+      "path---component-overall-design-and-labels-f7d4becd14af01e513ad.js.map"
     ],
     "path---data-tables": [
-      "path---data-tables-80c35107a06f712e5113.js",
-      "path---data-tables-80c35107a06f712e5113.js.map"
+      "path---data-tables-db2c2bface8da7d2ef44.js",
+      "path---data-tables-db2c2bface8da7d2ef44.js.map"
     ],
     "path---data-legends-and-tooltips": [
-      "path---data-legends-and-tooltips-68715b04401618d24166.js",
-      "path---data-legends-and-tooltips-68715b04401618d24166.js.map"
+      "path---data-legends-and-tooltips-b46376c17d419872dfb9.js",
+      "path---data-legends-and-tooltips-b46376c17d419872dfb9.js.map"
     ],
     "path---component-typography": [
-      "path---component-typography-94be3ff064326255eaed.js",
-      "path---component-typography-94be3ff064326255eaed.js.map"
+      "path---component-typography-bb56d07c28bdaa30406d.js",
+      "path---component-typography-bb56d07c28bdaa30406d.js.map"
     ],
     "path---component-tags-chips-and-pills": [
-      "path---component-tags-chips-and-pills-3f4c43e395b52e5b8636.js",
-      "path---component-tags-chips-and-pills-3f4c43e395b52e5b8636.js.map"
+      "path---component-tags-chips-and-pills-85ed13033651a4b2c47c.js",
+      "path---component-tags-chips-and-pills-85ed13033651a4b2c47c.js.map"
     ],
     "path---component-search": [
-      "path---component-search-67908bc5b09346e0ec84.js",
-      "path---component-search-67908bc5b09346e0ec84.js.map"
+      "path---component-search-b4381ed4219322638615.js",
+      "path---component-search-b4381ed4219322638615.js.map"
     ],
     "path---component-text-inputs": [
-      "path---component-text-inputs-8b03318bfce20a90cf8a.js",
-      "path---component-text-inputs-8b03318bfce20a90cf8a.js.map"
+      "path---component-text-inputs-2c7f122262f83c98641a.js",
+      "path---component-text-inputs-2c7f122262f83c98641a.js.map"
     ],
     "path---data-column-and-bar-graphs": [
-      "path---data-column-and-bar-graphs-02c0327e1cbdc5be02a9.js",
-      "path---data-column-and-bar-graphs-02c0327e1cbdc5be02a9.js.map"
+      "path---data-column-and-bar-graphs-dae81da644dcdfd6b0b1.js",
+      "path---data-column-and-bar-graphs-dae81da644dcdfd6b0b1.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---component-avatars-and-thumbnails": [
-      "path---component-avatars-and-thumbnails-d6812e2d686eb5e42e17.js",
-      "path---component-avatars-and-thumbnails-d6812e2d686eb5e42e17.js.map"
+      "path---component-avatars-and-thumbnails-af024f7651cb9b468118.js",
+      "path---component-avatars-and-thumbnails-af024f7651cb9b468118.js.map"
     ],
     "path---component-pagination-scrolling": [
-      "path---component-pagination-scrolling-99e5ad6ef41abf4ea0c6.js",
-      "path---component-pagination-scrolling-99e5ad6ef41abf4ea0c6.js.map"
+      "path---component-pagination-scrolling-e08537a7c9471e2a4986.js",
+      "path---component-pagination-scrolling-e08537a7c9471e2a4986.js.map"
     ],
     "path---data-stylized-numbers": [
-      "path---data-stylized-numbers-2f5229ce8d9d5fb58c14.js",
-      "path---data-stylized-numbers-2f5229ce8d9d5fb58c14.js.map"
+      "path---data-stylized-numbers-e97dc35ae95ae698930a.js",
+      "path---data-stylized-numbers-e97dc35ae95ae698930a.js.map"
     ],
     "path---component-divider-rule": [
-      "path---component-divider-rule-74410a02f6f25313474f.js",
-      "path---component-divider-rule-74410a02f6f25313474f.js.map"
+      "path---component-divider-rule-90c05168dc7bf0f78d25.js",
+      "path---component-divider-rule-90c05168dc7bf0f78d25.js.map"
     ],
     "path---component-links": [
-      "path---component-links-1f83daeeb791f63f987c.js",
-      "path---component-links-1f83daeeb791f63f987c.js.map"
+      "path---component-links-6fa82eba61360d4b5011.js",
+      "path---component-links-6fa82eba61360d4b5011.js.map"
     ],
     "component---src-pages-404-js": [
-      "component---src-pages-404-js-2b8617b98959deacbf56.js",
-      "component---src-pages-404-js-2b8617b98959deacbf56.js.map"
+      "component---src-pages-404-js-e0dc55c5f7acb1807d27.js",
+      "component---src-pages-404-js-e0dc55c5f7acb1807d27.js.map"
     ],
     "path---component": [
-      "path---component-be38d20ef91606bc09bb.js",
-      "path---component-be38d20ef91606bc09bb.js.map"
+      "path---component-3a31e9d275fafe7fe4e4.js",
+      "path---component-3a31e9d275fafe7fe4e4.js.map"
     ],
     "commons": [
       "commons-e4a00fb0fdf3bbc6c6e1.js",
@@ -126,79 +126,75 @@
       "commons-e4a00fb0fdf3bbc6c6e1.js.map",
       "build-js-styles.css.map"
     ],
-    "path---overview-future-updates": [
-      "path---overview-future-updates-c58a783a34356c56e632.js",
-      "path---overview-future-updates-c58a783a34356c56e632.js.map"
-    ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---content-formatting": [
-      "path---content-formatting-da2f40d41ac8c9d0fa94.js",
-      "path---content-formatting-da2f40d41ac8c9d0fa94.js.map"
+      "path---content-formatting-9e2c33a6f78cc37095e0.js",
+      "path---content-formatting-9e2c33a6f78cc37095e0.js.map"
     ],
     "path---overview-blogs": [
-      "path---overview-blogs-4ba01ac74418fa1bdfca.js",
-      "path---overview-blogs-4ba01ac74418fa1bdfca.js.map"
+      "path---overview-blogs-ae847c8cd9dd46feb037.js",
+      "path---overview-blogs-ae847c8cd9dd46feb037.js.map"
     ],
     "path---data-choosing-visualizations": [
-      "path---data-choosing-visualizations-0ba688c6eee8088be9a5.js",
-      "path---data-choosing-visualizations-0ba688c6eee8088be9a5.js.map"
+      "path---data-choosing-visualizations-343a377eda29005dec2f.js",
+      "path---data-choosing-visualizations-343a377eda29005dec2f.js.map"
     ],
     "path---component-colour": [
-      "path---component-colour-6af2448342a8e570f42f.js",
-      "path---component-colour-6af2448342a8e570f42f.js.map"
+      "path---component-colour-db53005d068bd20d9661.js",
+      "path---component-colour-db53005d068bd20d9661.js.map"
     ],
     "path---component-system-messaging": [
-      "path---component-system-messaging-51c2b5b4901f8a5dc51b.js",
-      "path---component-system-messaging-51c2b5b4901f8a5dc51b.js.map"
+      "path---component-system-messaging-d8184c2178ef392fbbce.js",
+      "path---component-system-messaging-d8184c2178ef392fbbce.js.map"
     ],
     "path---overview-introduction": [
-      "path---overview-introduction-f59701fa5303b8002217.js",
-      "path---overview-introduction-f59701fa5303b8002217.js.map"
+      "path---overview-introduction-0309b96c4f433192bd4c.js",
+      "path---overview-introduction-0309b96c4f433192bd4c.js.map"
     ],
     "path---component-button-inputs": [
-      "path---component-button-inputs-983724516709bb84bebd.js",
-      "path---component-button-inputs-983724516709bb84bebd.js.map"
+      "path---component-button-inputs-c55e3897c7966aab13ad.js",
+      "path---component-button-inputs-c55e3897c7966aab13ad.js.map"
     ],
     "path---component-back-to-top": [
-      "path---component-back-to-top-829823b7496047bb20a7.js",
-      "path---component-back-to-top-829823b7496047bb20a7.js.map"
+      "path---component-back-to-top-7b05feff0d3450d38402.js",
+      "path---component-back-to-top-7b05feff0d3450d38402.js.map"
     ],
     "path---component-breadcrumbs": [
-      "path---component-breadcrumbs-4123627512e3551c6a7b.js",
-      "path---component-breadcrumbs-4123627512e3551c6a7b.js.map"
+      "path---component-breadcrumbs-bbbd1966314ad389abe8.js",
+      "path---component-breadcrumbs-bbbd1966314ad389abe8.js.map"
     ],
     "app": [
-      "app-64417c92f2e36904bc73.js",
+      "app-860538cacbc6e921faa9.js",
       "build-js-styles.css",
-      "app-64417c92f2e36904bc73.js.map",
+      "app-860538cacbc6e921faa9.js.map",
       "build-js-styles.css.map"
     ],
     "path---component-cards": [
-      "path---component-cards-391314ee15a08f0406fe.js",
-      "path---component-cards-391314ee15a08f0406fe.js.map"
+      "path---component-cards-77a996d5a2c1bf36bf1f.js",
+      "path---component-cards-77a996d5a2c1bf36bf1f.js.map"
     ],
     "component---src-templates-markdown-template-js": [
-      "component---src-templates-markdown-template-js-f8b85af23c3925af932e.js",
-      "component---src-templates-markdown-template-js-f8b85af23c3925af932e.js.map"
+      "component---src-templates-markdown-template-js-e8220e9d2fa107a32ace.js",
+      "component---src-templates-markdown-template-js-e8220e9d2fa107a32ace.js.map"
     ],
     "path---component-icons": [
-      "path---component-icons-b8096b156a8643f45259.js",
-      "path---component-icons-b8096b156a8643f45259.js.map"
+      "path---component-icons-5a357019177900d06e4f.js",
+      "path---component-icons-5a357019177900d06e4f.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---data-scatterplots": [
-      "path---data-scatterplots-78c9dfb4ccfbddde5e6c.js",
-      "path---data-scatterplots-78c9dfb4ccfbddde5e6c.js.map"
+      "path---data-scatterplots-194e8ca32ee3cafa92d8.js",
+      "path---data-scatterplots-194e8ca32ee3cafa92d8.js.map"
     ],
     "path---component-buttons": [
-      "path---component-buttons-2c077255b324e3c58fdc.js",
-      "path---component-buttons-2c077255b324e3c58fdc.js.map"
+      "path---component-buttons-86f5ebf78646cb345bd4.js",
+      "path---component-buttons-86f5ebf78646cb345bd4.js.map"
     ]
   }
 }
