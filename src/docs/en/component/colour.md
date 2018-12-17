@@ -19,7 +19,19 @@ Themes enable consistent application styling through surface shades, shadow dept
 
 We have created other sample colour palettes that you may wish to use in your own system. Please see each swatch for corresponding text colour.
 
+All colour palettes provided in this system meet WCAG 2.1 Standards for colour contrast if used with the correct text colours provided. 
+
+#### Canada.ca Theme
+
+The official colour palette for Canada.ca web pages and other external-facing applications. Provides lots of neutrals, and a signature blue and red used for accents , headers and footers.  
+
+Hex codes
+
+<badge style="background-color: #333000;">#333000</badge>,<badge style="background-color: #26374a;">#26374a</badge>,<badge style="background-color: #AF3C43">#AF3C43</badge>,<badge style="background-color: #F5F5F5; color:black;">#F5F5F5</badge>, <badge style="background-color: #FFFFFF;color: black; ">#FFFFFF </badge>,
+
 #### Aurora Borealis
+
+The colour palette used for the Government of Canada's Open, Accessible Digital Workspace (GCTools). 
 
 Hex codes :
 
@@ -27,11 +39,15 @@ Hex codes :
 
 #### Thunder and Lightning
 
+Optional colour palette. Neutrals with a signature yellow for a small pop of colour. 
+
 Hex codes :
 
 <badge style="background-color: #002D42;">#002D42</badge>, <badge style="background-color: #4D5D6C;">#4D5D6C</badge>, <badge style="background-color: #96A8B2; color:black;">#96A8B2</badge>, <badge style="background-color: #CECECE ; color:black;">#CECECE </badge>, <badge style="background-color: #FEC04F;color:black;">#FEC04F</badge>
 
 #### Blue Complimentary
+
+Optional colour palette that uses a complimentary colour scheme. Blue is used to convey trust, while orange and yellow provides a small splash of colour to applications. 
 
 Hex codes :
 
@@ -39,11 +55,15 @@ Hex codes :
 
 #### Triad
 
+Optional colour palette. A versatile set of colours that provides lots of options for a colourful but sophisticated application. 
+
 Hex codes :
 
 <badge style="background-color: #7E0C33;">#7E0C33</badge>, <badge style="background-color: #024571;">#024571</badge>, <badge style="background-color: #5DC1BE; color:black;">#5DC1BE</badge>, <badge style="background-color: #F6CF22; color:black;">#F6CF22</badge>, <badge style="background-color: #EDDB7C; color:black;">#EDDB7C</badge>
 
 #### Green and Blue
+
+Optional colour palette. A bright cool-toned colour palette that provides a fresh look for web applications. 
 
 Hex codes :
 
