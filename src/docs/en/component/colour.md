@@ -21,14 +21,6 @@ We have created other sample colour palettes that you may wish to use in your ow
 
 All colour palettes provided in this system meet WCAG 2.1 Standards for colour contrast if used with the correct text colours provided. 
 
-### Canada.ca Theme
-
-The official colour palette for Canada.ca web pages and other external-facing applications. Provides lots of neutrals, and a signature blue and red used for accents , headers and footers.  
-
-Hex codes:
-
-<badge style="background-color: #333000;">#333000</badge>,<badge style="background-color: #26374a;">#26374a</badge>,<badge style="background-color: #AF3C43">#AF3C43</badge>,<badge style="background-color: #F5F5F5; color:black;">#F5F5F5</badge>, <badge style="background-color: #FFFFFF;color: black; ">#FFFFFF </badge>
-
 ### Aurora Borealis
 
 The colour palette used for the Government of Canada's Open, Accessible Digital Workspace (GCTools). 
@@ -36,6 +28,14 @@ The colour palette used for the Government of Canada's Open, Accessible Digital 
 Hex codes :
 
  <badge style="background-color: #000A3D;">#000A3D</badge>, <badge style="background-color: #467B8D;">#467B8D</badge>, <badge style="background-color: #5DC1BE;color: black; ">#5DC1BE</badge>, <badge style="background-color: #55C0A3; color:black;">#55C0A3</badge>, <badge style="background-color: #ADE18D; color:black;">#ADE18D</badge>
+
+### Canada.ca Theme
+
+The official colour palette for Canada.ca web pages and other external-facing applications. Provides lots of neutrals, and a signature blue and red used for accents , headers and footers.  
+
+Hex codes:
+
+<badge style="background-color: #333000;">#333000</badge>,<badge style="background-color: #26374a;">#26374a</badge>,<badge style="background-color: #AF3C43">#AF3C43</badge>,<badge style="background-color: #F5F5F5; color:black;">#F5F5F5</badge>, <badge style="background-color: #FFFFFF;color: black; ">#FFFFFF </badge>
 
 ### Thunder and Lightning
 

@@ -18,6 +18,14 @@ Des thèmes permettent une application uniforme par les nuances de surface, la p
 
 Nous avons créé d’autres échantillons de palettes de couleurs que vous pouvez utiliser dans votre propre système. Veuillez voir chaque échantillon pour la couleur de texte correspondante.
 
+### Aurore boréale
+
+La palette de couleur utilisée pour l’espace de travail numérique, ouvert et accessible du gouvernement du Canada (OutilsGC).
+
+Codes hexadécimaux:
+
+<badge style="background-color: #000A3D">#000A3D</badge>, <badge style="background-color: #467B8D">#467B8D</badge>, <badge style="background-color: #5DC1BE; color:black">#5DC1BE</badge>, <badge style="background-color: #55C0A3; color:black">#55C0A3</badge>, <badge style="background-color: #ADE18D; color: black">#ADE18D</badge>
+
 ### Thème canada.ca
 
 La palette de couleurs officielles des pages Web de canada.ca et d’autres applications externes. Offre plusieurs neutres ainsi que des bleus et rouges caractéristiques utilisés pour les accents, les en-têtes et les bas de page. 
@@ -26,13 +34,6 @@ Codes hexadécimaux:
 
 <badge style="background-color: #333000;">#333000</badge>,<badge style="background-color: #26374a;">#26374a</badge>,<badge style="background-color: #AF3C43">#AF3C43</badge>,<badge style="background-color: #F5F5F5; color:black;">#F5F5F5</badge>, <badge style="background-color: #FFFFFF;color: black; ">#FFFFFF </badge>,
 
-### Aurore boréale
-
-La palette de couleur utilisée pour l’espace de travail numérique, ouvert et accessible du gouvernement du Canada (OutilsGC).
-
-Codes hexadécimaux:
-
-<badge style="background-color: #000A3D">#000A3D</badge>, <badge style="background-color: #467B8D">#467B8D</badge>, <badge style="background-color: #5DC1BE; color:black">#5DC1BE</badge>, <badge style="background-color: #55C0A3; color:black">#55C0A3</badge>, <badge style="background-color: #ADE18D; color: black">#ADE18D</badge>
 
 ### Tonnerre et éclair
 
