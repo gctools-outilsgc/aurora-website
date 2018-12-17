@@ -18,13 +18,25 @@ Des thèmes permettent une application uniforme par les nuances de surface, la p
 
 Nous avons créé d’autres échantillons de palettes de couleurs que vous pouvez utiliser dans votre propre système. Veuillez voir chaque échantillon pour la couleur de texte correspondante.
 
-###Aurore boréale
+### Thème canada.ca
+
+La palette de couleurs officielles des pages Web de canada.ca et d’autres applications externes. Offre plusieurs neutres ainsi que des bleus et rouges caractéristiques utilisés pour les accents, les en-têtes et les bas de page. 
+
+Codes hexadécimaux:
+
+<badge style="background-color: #333000;">#333000</badge>,<badge style="background-color: #26374a;">#26374a</badge>,<badge style="background-color: #AF3C43">#AF3C43</badge>,<badge style="background-color: #F5F5F5; color:black;">#F5F5F5</badge>, <badge style="background-color: #FFFFFF;color: black; ">#FFFFFF </badge>,
+
+### Aurore boréale
+
+La palette de couleur utilisée pour l’espace de travail numérique, ouvert et accessible du gouvernement du Canada (OutilsGC).
 
 Codes hexadécimaux:
 
 <badge style="background-color: #000A3D">#000A3D</badge>, <badge style="background-color: #467B8D">#467B8D</badge>, <badge style="background-color: #5DC1BE; color:black">#5DC1BE</badge>, <badge style="background-color: #55C0A3; color:black">#55C0A3</badge>, <badge style="background-color: #ADE18D; color: black">#ADE18D</badge>
 
-###Tonnerre et éclair
+### Tonnerre et éclair
+
+Palette de couleurs optionnelle. Tons neutres avec un jaune caractéristique qui offre un peu de couleur. 
 
 Codes hexadécimaux:
 
@@ -34,19 +46,25 @@ Codes hexadécimaux:
 <badge style="background-color: #CECECE; color: black">#CECECE</badge>,
 <badge style="background-color: #FEC04F; color: black">#FEC04F</badge>
 
-###Bleu complémentaire
+### Bleu complémentaire
+
+Palette de couleurs optionnelle qui utilise une gamme de couleurs complémentaires. Le bleu est utilisé pour inspirer confiance, alors que l’orange et le jaune offrent une touche de couleur aux applications. 
 
 Codes hexadécimaux:
 
 <badge style="background-color: #0D467D">#0D467D</badge>, <badge style="background-color: #137991">#137991</badge>, <badge style="background-color: #6DD2DA; color:black">#6DD2DA</badge>, <badge style="background-color: #FF9F40; color:black">#FF9F40</badge>, <badge style="background-color: #FEC04F; color: black">#FEC04F</badge>
 
-###Triade
+### Triade
+
+Palette de couleurs optionnelle. Une gamme de couleurs versatile qui offre de nombreuses options pour une application colorée, tout en étant sophistiquée. 
 
 Codes hexadécimaux:
 
 <badge style="background-color: #7E0C33">#7E0C33</badge>, <badge style="background-color: #024571">#024571</badge>, <badge style="background-color: #5DC1BE; color:black">#5DC1BE</badge>, <badge style="background-color: #F6CF22F; color:black">#F6CF22</badge>, <badge style="background-color: #EDDB7C; color: black">#EDDB7C</badge>
 
-###Vert et bleu
+### Vert et bleu
+
+Palette de couleurs optionnelle. Une gamme de couleurs vives aux tons froids qui offre un style moderne aux applications Web.
 
 Codes hexadécimaux:
 
@@ -70,7 +88,7 @@ La palette de couleurs utilisées dans ce système est intitulée **Aurore boré
 
 ## Couleurs de texte
 
-###Texte noir
+### Texte noir
 
 Le texte dans ce système de conception est affiché dans une couleur noire. Le texte noir peut être utilisé sur un fond clair (voir : thème clair) ou sur tout bouton ou élément qui utilise une couleur pâle. Lors d’ajout de texte sur un fond qui n’est pas noir, il est essentiel de vérifier le contraste pour son accessibilité. Un grand contraste entre les couleurs de fond ou d’éléments et le texte assure la lisibilité, même pour les personnes atteintes de troubles visuels comme le daltonisme.
 
@@ -78,7 +96,7 @@ Veuillez consulter la [Typographie](/component/typography) pour plus de renseign
 
 Code hexadécimal : <badge style="background-color: #252525">#252525</badge>
 
-###Texte blanc
+### Texte blanc
 
 Du texte clair dans ce système de conception est affiché dans une couleur blanc cassé. Le texte blanc peut être utilisé sur un fond sombre (voir : thème foncé) ou sur tout bouton ou élément qui utilise une couleur claire ou foncée. Lors d’ajout de texte blanc, il est essentiel de vérifier le contraste pour son accessibilité.
 
@@ -89,7 +107,7 @@ Veuillez consulter la [Typographie](/component/typography) pour plus de renseign
 
 Code hexadécimal : <badge style="background-color: #FFFFFF; color: black">#FFFFFF</badge>
 
-###Texte atténué
+### Texte atténué
 
 Le texte atténué est utilisé pour des éléments de texte secondaire tels que les légendes, les espaces de texte réservés et les horodatages. La couleur de ce texte atténué fonctionne seulement sur des fonds clairs (voir : thème clair) ou sur des éléments de couleur claire. Pour les fonds sombres ou les éléments foncés ou brillants, utilisez du texte blanc.
 
@@ -99,13 +117,13 @@ Code hexadécimal : <badge style="background-color: #666666">#666666</badge>
 
 ## Thèmes de couleur
 
-###Thème clair
+### Thème clair
 
 Par défaut, la plupart des applications suivront le thème clair. Ce thème comprend divers tons de blanc pour différents niveaux d’arrière-plan et d’avant-plan. Pour la majorité des applications #FAFAFA est un bon ton à utiliser comme couleur de fond, avec du blanc (#FFFFFF) comme couleur du contenant ou de la carte.
 
 Codes hexadécimaux : <badge style="background-color: #CCCCCC; color: black">#CCCCCC</badge>, <badge style="background-color: #F5F5F5; color: black">#F5F5F5</badge>, <badge style="background-color: #FAFAFA; color: black">#FAFAFA</badge>, <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>
 
-###Thème foncé
+### Thème foncé
 
 Certaines applications peuvent également intégrer un thème foncé. Ce thème comprend divers tons de noir et de gris pour différents niveaux d’arrière-plan et d’avant-plan.
 
@@ -117,25 +135,25 @@ Ce système de conception utilise les mêmes couleurs d’alertes et de messager
 
 Veuillez vous référer à la section des alertes et à la section de couleur pour de plus amples renseignements.
 
-###Couleurs d’erreur
+### Couleurs d’erreur
 
 Les couleurs d’erreur sont utilisées pour indiquer les pannes et les défaillances.
 
 Codes hexadécimaux d’erreur : <badge style="background-color: #923534">#923534</badge>, <badge style="background-color: #D3080C">#D3080C</badge>, <badge style="background-color: #F3E9E8; color: black">#F3E9E8</badge>
 
-###Couleurs d’avertissement
+### Couleurs d’avertissement
 
 Les couleurs d’avertissement sont utilisées pour les avis qui exigent la reconnaissance de l’utilisateur.
 
 Codes hexadécimaux d’avertissement : <badge style="background-color: #66512C">#66512C</badge>, <badge style="background-color: #FF9900; color:black">#FF9900</badge>, <badge style="background-color: #F9F4D4; color: black">#F9F4D4</badge>
 
-###Les couleurs de succès
+### Les couleurs de succès
 
 Les couleurs de succès sont utilisées lors de la confirmation que les commentaires de l’utilisateur ont été couronnés de succès.
 
 Codes hexadécimaux de succès : <badge style="background-color: #2B542C">#2B542C</badge>, <badge style="background-color: #278400">#278400</badge>, <badge style="background-color: #D8EECA; color: black">#D8EECA</badge>
 
-###Couleurs d’information
+### Couleurs d’information
 
 Les couleurs d’information sont utilisées lorsqu’elles fournissent de l’information supplémentaire et des remarques à l’utilisateur.
 
