@@ -23,6 +23,10 @@ Breadcrumbs should be complimentary to primary navigation and should never be us
       <doctabpanel type="html">
           
 Breadcrumbs indicate the current page's location within a navigational hierarchy. 
+
+Accessibility
+Since breadcrumbs provide a navigation, it’s a good idea to add a meaningful label such as aria-label="breadcrumb" to describe the type of navigation provided in the '<nav>' element, as well as applying an aria-current="page" to the last item of the set to indicate that it represents the current page.
+    
 <htmlbreadcrumb1 />
           
 <codeblock html='

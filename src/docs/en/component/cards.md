@@ -36,6 +36,41 @@ Not all of these elements are necessary in every card. You can choose the elemen
 <documentationtabs>
       <doctabpanel type="html">
           
+A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options. 
+
+Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components. They have no margin by default, so use spacing utilities as needed.
+
+Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they’ll naturally fill the full width of its parent element. This is easily customized with our various sizing options.
+
+## Content types
+Cards support a wide variety of content, including images, text, list groups, links, and more. Below are examples of what’s supported.
+
+### Body
+The building block of a card is the .card-body. Use it whenever you need a padded section within a card.
+
+### Titles, text, and links
+Card titles are used by adding .card-title to a <h*> tag. In the same way, links are added and placed next to each other by adding .card-link to an <a> tag.
+
+Subtitles are used by adding a .card-subtitle to a <h*> tag. If the .card-title and the .card-subtitle items are placed in a .card-body item, the card title and subtitle are aligned nicely.
+
+### Images
+.card-img-top places an image to the top of the card. With .card-text, text can be added to the card. Text within .card-text can also be styled with the standard HTML tags.
+
+## Sizing
+Cards assume no specific width to start, so they’ll be 100% wide unless otherwise stated. You can change this as needed with custom CSS, grid classes, grid Sass mixins, or utilities.
+
+### Using grid markup
+Using the grid, wrap cards in columns and rows as needed.
+
+### Using custom CSS
+Use custom CSS in your stylesheets or as inline styles to set a width.
+
+## Images
+Cards include a few options for working with images. Choose from appending “image caps” at either end of a card, overlaying images with card content, or simply embedding the image in a card.
+
+### Image caps
+Similar to headers and footers, cards can include top and bottom “image caps”—images at the top or bottom of a card.
+          
 <codeblock html='
     <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
         <div class="card-body">

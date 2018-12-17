@@ -20,6 +20,16 @@ _Choose file_ is the action button to be selected by the user. Once clicked, the
 <documentationtabs>
       <doctabpanel type="html">
           
+## File browser
+The file input is the most gnarly of the bunch and requires additional JavaScript if you’d like to hook them up with functional Choose file… and selected file name text.
+
+We hide the default file <input> via opacity and instead style the <label>. The button is generated and positioned with ::after. Lastly, we declare a width and height on the <input> for proper spacing for surrounding content.
+
+### Translating or customizing the strings
+The :lang() pseudo-class is used to allow for translation of the “Browse” text into other languages. Override or add entries to the $custom-file-text Sass variable with the relevant language tag and localized strings. The English strings can be customized the same way. For example, here’s how one might add a Spanish translation (Spanish’s language code is es):
+
+You’ll need to set the language of your document (or subtree thereof) correctly in order for the correct text to be shown. This can be done using the lang attribute on the <html> element or the Content-Language HTTP header, among other methods.
+          
 <codeblock html='
     <div class="custom-file">
         <input type="file" id="file" class="custom-file-input">

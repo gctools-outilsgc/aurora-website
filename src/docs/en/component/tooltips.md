@@ -23,6 +23,7 @@ Tooltips are always used for supplemental information. Essential information tha
 <documentationtabs>
       <doctabpanel type="html">
           
+
 ## Overview
 
 Things to know when using the tooltip plugin:

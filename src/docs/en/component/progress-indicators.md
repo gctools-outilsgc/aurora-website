@@ -38,6 +38,18 @@ Spinners are used to indicate that a page or function is loading. A general rule
 <documentationtabs>
       <doctabpanel type="html">
           
+## How it works
+Progress components are built with two HTML elements, some CSS to set the width, and a few attributes. We don’t use the HTML5 <progress> element, ensuring you can stack progress bars, animate them, and place text labels over them.
+
+We use the .progress as a wrapper to indicate the max value of the progress bar.
+We use the inner .progress-bar to indicate the progress so far.
+The .progress-bar requires an inline style, utility class, or custom CSS to set their width.
+The .progress-bar also requires some role and aria attributes to make it accessible.
+Put that all together, and you have the following examples.
+
+### Labels
+Add labels to your progress bars by placing text within the .progress-bar.
+          
 
 ## Progress Bars
 
