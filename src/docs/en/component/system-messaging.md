@@ -16,27 +16,26 @@ System notifications are short messages that appear to communicate information t
 <documentationtabs>
       <doctabpanel type="html">
           
+
 ## Examples
-Alerts are available for any length of text, as well as an optional dismiss button. For proper styling, use one of the eight required contextual classes (e.g., .alert-success). For inline dismissal, use the alerts jQuery plugin.
-          
+Alerts are available for any length of text, as well as an optional dismiss button. For proper styling, use one of the eight required contextual classes (e.g., `.alert-success`). 
 
-## Conveying meaning to assistive technologies
+<Alert color="danger">
+    This is a danger alert with <a href="#example" class="alert-link">an example link</a>.
+</Alert>
 
-Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the `.sr-only` class. ([Source](https://getbootstrap.com/docs/4.1/components/alerts/))
+<Alert color="warning">
+    This is a warning alert with <a href="#example" class="alert-link">an example link</a>.
+</Alert>
 
-## Link color
+<Alert color="info">
+    This is an info alert with <a href="#example" class="alert-link">an example link</a>.
+</Alert>
 
-Use the `.alert-link` utility class to quickly provide matching colored links within any alert.
-<htmlalert2 />
+<Alert color="success">
+    This is a success alert with <a href="#example" class="alert-link">an example link</a>.
+</Alert>
 
-## Dismissing
-
-Aurora automatically imports the bootstrap javascript required for interactive functionality. Here is how you make use of the alert JavaScript plugin:
-
-* On the dismiss button, add the `data-dismiss="alert"` attribute, which triggers the JavaScript functionality. Be sure to use the `<button>` element with it for proper behavior across all devices.
-* To animate alerts when dismissing them, be sure to add the .fade and .show classes.
-<htmlalert3 />
-          
 <codeblock html='
     <div class="alert alert-danger" role="alert">
         This is a danger alert with <a href="#" class="alert-link">an example link</a>.
@@ -76,6 +75,37 @@ Aurora automatically imports the bootstrap javascript required for interactive f
     This is a success alert with <a href="#" class="alert-link">an example link</a>.
 </Alert>
 '></codeblock>
+
+          
+## Conveying meaning to assistive technologies
+
+Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the `.sr-only` class.
+
+## Link color
+
+Use the `.alert-link` utility class to quickly provide matching colored links within any alert.
+
+<Alert color="success">
+    This is a success alert with <a href="#example" class="alert-link">an example link</a>.
+</Alert>
+
+<codeblock html='
+    <div class="alert alert-danger" role="alert">
+        This is a danger alert with <a href="#" class="alert-link">an example link</a>.
+    </div>
+' react='
+<Alert color="danger">
+    This is a danger alert with <a href="#" class="alert-link">an example link</a>.
+</Alert>
+'></codeblock>
+
+## Dismissing
+
+Aurora automatically imports the bootstrap javascript required for interactive functionality. Here is how you make use of the alert JavaScript plugin:
+
+* On the dismiss button, add the `data-dismiss="alert"` attribute, which triggers the JavaScript functionality. Be sure to use the `<button>` element with it for proper behavior across all devices.
+* To animate alerts when dismissing them, be sure to add the .fade and .show classes.
+          
 
 </doctabpanel>
       <doctabpanel type="react">

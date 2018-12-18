@@ -12,38 +12,23 @@ title: "Avatars and thumbnails"
 
 # Images, Avatars and Thumbnails
 
-<div class="mt-3">
-    <div class="card">
-    <div class="card-body">
-        <ul class="list-unstyled">
-        <li class="media media-comment">
-            <a href="#!">
-                <img alt="..." class="avatar" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
-            </a>
-            <div class="media-body">
-                <div class="media-heading">
-                <a href="#!">John Doe</a>
-                <small class="text-muted">1 hour ago</small>
-                </div>
-                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin sem augue, porttitor eleifend eros tincidunt in. Duis mattis erat orci. Fusce aliquet sapien sit amet ex suscipit, eu pellentesque est posuere. Pellentesque varius massa nec turpis interdum tincidunt. Fusce volutpat rutrum nunc, non accumsan lacus consequat vel.
-                </div>
-                <div class="media-footer">
-                <a href="#!"><small>Reply</small></a>
-                <a href="#!"><small>Like</small></a>
-                </div>
-            </div>
-        </li>
-        </ul>
-    </div>
-    </div>
-</div>
-
-<br>
+*Intro text here* 
 
 <documentationtabs>
     <doctabpanel type="html">
         
-        <codeblock html='<img alt="medium avatar" class="avatar" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
+
+## Avatars
+
+Sizing classes, small medium and large. `.avatar-sm`, `.avatar-lg`
+        
+<img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
+
+<img alt="medium avatar" class="avatar" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
+
+<img alt="large avatar" class="avatar avatar-lg" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
+        
+<codeblock html='<img alt="medium avatar" class="avatar" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 ' react='' ></codeblock>
         
 <codeblock html='<img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
@@ -51,6 +36,10 @@ title: "Avatars and thumbnails"
 
 <codeblock html='<img alt="large avatar" class="avatar avatar-lg" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
 ' react='' /></codeblock>
+
+## Thumbnails
+
+`.img-thumbnail` to add 0.25px border and 1px border radius. 
 
 </doctabpanel>
       <doctabpanel type="react">
