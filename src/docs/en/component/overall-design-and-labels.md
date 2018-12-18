@@ -148,45 +148,6 @@ Placeholder text is styled using Nunito Sans Regular at 14px, <badge style="back
 
 For more information about placeholder text styles, refer to the [_Typography_](typography.md) section.
 
-## Micro-Copy
-
-Microcopy is text below and input field that provides additional information about that field. Microcopy is meant to be brief sentences that instruct the user how to complete the field.
-
-Micro-copy is styled as follows:
-
-10px below the input field. The text is displayed the same as placeholder text; Nunito Sans Regular at 14px, <badge style="background-color: #666666;">#666666</badge>
-
-If there is more than one line the text wraps and has a leading of 18pts.
-
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
-  </div>
-<form>
-
-<codeblock
-    html='
-    <form>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We will never share your email with anyone else.</small>
-        </div>
-    <form>'
-    react='
-    <Form>
-       <FormGroup>
-          <Label for="exampleEmail">Email address</Label>
-          <Input />
-          <FormFeedback>You will not be able to see this</FormFeedback>
-          <FormText>We will never share your email with anyone else.</FormText>
-        </FormGroup>
-    </Form>
-    ' />
-</codeblock>
-
 ## Grouping / Field Sets
 
 To help users better understand a form, it may be useful to group inputs into categories or field sets. Field sets should be grouped visually on the page and labelled using Header 3 with a divider underneath.

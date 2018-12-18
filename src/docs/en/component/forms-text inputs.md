@@ -15,31 +15,40 @@ Input fields allow users to provide information by inputting text into a page. I
 
 <documentationtabs>
       <doctabpanel type="html">
-          
-<codeblock html='
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" aria-describedby="Password1Error" id="exampleInputPassword1" placeholder="Password">
-    <small id="Password1Error" class="form-text text-muted">8-character minimum, case sensitive</small>
-' react='
-' /></codeblock>
 
-<codeblock html='
-    <label for="exampleInputEmail1">Form label</label>
-    <input type="email" class="form-control" id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-            placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">Form Text - To give hints and things</small>
-' react='
-' /></codeblock>
 
-<codeblock html='
-    <label for="exampleInputEmail1">Form label</label>
-    <input type="email" class="form-control" id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-            placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">Form Text - To give hints and things</small>
-' react='
-' /></codeblock>
+## Form controls
+Textual form controls—like `<input>`, `<select>`, and `<textarea>`—are styled with the `.form-control` class. Included are styles for general appearance, focus state, sizing, and more.
+
+## Text Inputs
+
+  <div class="form-group">
+    <label for="inputEmail3">Email</label>
+    <input type="email" class="form-control" id="inputEmail3" aria-describedby="emailHelp1">
+  </div>
+
+*Codeblock*
+
+## Text Area
+
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Text Area</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  
+  *Codeblock*
+
+## Select Field
+
+<div class="mt-2">
+    <label for="carSelect">Cars:</label>
+    <select id="carSelect" class="form-control">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+    </select>
+</div>
 
 <codeblock html='
     <div class="mt-2">
@@ -53,23 +62,28 @@ Input fields allow users to provide information by inputting text into a page. I
     </div>
 ' react='' /></codeblock>
 
+## Microcopy
+
+Help text should be explicitly associated with the form control it relates to using the `aria-describedby` attribute. This will ensure that assistive technologies, such as screen readers, will announce this help text when the user focuses or enters the control.
+
+Help text below inputs can be styled with `.form-text`. This class includes `display: block` and adds some top margin for easy spacing from the inputs above.
+
 </doctabpanel>
       <doctabpanel type="react">
       </doctabpanel>
       <doctabpanel type="design">
           
 
-## Text Area
+## Text Inputs
 
-The text field a user has selected should indicated visually. Outlining the selected text box in blue shows the user which field they are inputting without too much visual weight.
+The text field a user has selected should be indicated visually. Outlining the selected text box in blue shows the user which field they are inputting without too much visual weight.
 
-When there is an error within a text field, outlining the field in red shows a greater level of significance than blue. See errors and validation for more information about input errors.
+When there is an error within a text field, outlining the field in red shows a greater level of significance than blue. See [Errors and Validation](/component/errors-and-validation) for more information about input errors.
 
 Text input fields may also include interactive elements to the right of the field. Interactive elements will always be displayed using an icon, such as an eye to demonstrate a visible or hidden password.
 
 <label for="exampleInputPassword1">Password</label>
 <input type="password" class="form-control" aria-describedby="Password1Error" id="exampleInputPassword1" placeholder="Password">
-<small id="Password1Error" class="form-text text-muted">8-character minimum, case sensitive</small>
 
 Text fields are styled as follows:
 
@@ -88,6 +102,9 @@ Text fields are styled as follows:
         aria-describedby="emailHelp"
         placeholder="Enter email">
 <small id="emailHelp" class="form-text text-muted">Form Text - To give hints and things</small>
+
+## Text Area
+
 
 ## Select Field
 
@@ -111,6 +128,24 @@ Select fields are styled as follows:
 **Focus**: Rectangle with a height of 42px and a border radius of 4px. Stroke width of 1px coloured <badge style="background-color: #269ABC;color:black;">#269ABC</badge>. The drop down control is right-aligned 27px from the edge of the input. The line on the edge is 1px coloured <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge> and extends until 5px from the top and bottom of the input. 15 by 27 by 15 by 12. The chevron icon is aligned with the text and is 9px from the left edge, and 18px from the top and bottom.
 
 *Focus select field component*
+
+## Micro-Copy
+
+Microcopy is text below an input field that provides additional information about that field. Microcopy is meant to be brief sentences that instruct the user how to complete the field.
+
+Micro-copy is styled as follows:
+
+10px below the input field. The text is displayed the same as placeholder text; Nunito Sans Regular at 14px, <badge style="background-color: #666666;">#666666</badge>
+
+If there is more than one line the text wraps and has a leading of 18pts.
+
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+  </div>
+<form>
 
 </doctabpanel>
     </documentationtabs>
