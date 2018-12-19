@@ -24,7 +24,7 @@ Download ready-to-use code for Aurora. Includes:
 * Minified CSS bundles
 * Minified JavaScript plugins
 
-<a class="btn btn-secondary" href="#">Download</a>
+<a class="btn btn-secondary" href="/static/aurora.zip" download>Download</a>
 
 ## User interface kit
 
