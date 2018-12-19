@@ -13,6 +13,20 @@ title: "Text inputs"
 
 Input fields allow users to provide information by inputting text into a page. Information can be entered through a variety of different input fields such as text fields (text area), checkboxes, radio buttons, and date inputs. Input fields typically appear in forms and should clearly indicate that users can input information through labels, tooltips, placeholder text, and appropriate styling.
 
+## Microcopy
+
+Microcopy is text below an input field that provides additional information about that field. Microcopy is meant to be brief sentences that instruct the user how to complete the field.
+
+## Placeholder Text
+
+Placeholder text is used only to provide supplemental information or additional guidance on how to complete a text field. Placeholder text DOES NOT replace a label or microcopy. Placeholder text should only be used if an example of a text input improves the user experience, rather than as a replacement to other important information indicators.
+
+Placeholder text is text that appears directly in the input field. This text is not meant to be used as a label, but can provide supplemental information or an example for the user.
+
+Placeholder text is meant to help the user more accurately complete the field rather than be the primary indicator of field content. It may also be complementary to micro-copy, with placeholder text providing an example, and micro-copy providing additional information or context.
+
+As soon as the user starts typing in the field, the placeholder text should disappear.
+
 <documentationtabs>
       <doctabpanel type="html">
 
@@ -129,9 +143,14 @@ Select fields are styled as follows:
 
 *Focus select field component*
 
-## Micro-Copy
+## Placeholder Text
 
-Microcopy is text below an input field that provides additional information about that field. Microcopy is meant to be brief sentences that instruct the user how to complete the field.
+Placeholder text is styled using Nunito Sans Regular at 14px, <badge style="background-color: #666666;">#666666</badge>
+
+
+For more information about placeholder text styles, refer to the [_Typography_](typography.md) section.
+
+## Micro-Copy
 
 Micro-copy is styled as follows:
 

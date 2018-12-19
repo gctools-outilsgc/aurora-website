@@ -133,20 +133,6 @@ Labels should follow the vertical format of the form. Place labels above their r
 
 How labels are written affects their legibility. Do not write labels in all caps as this diminishes their readability. Labels should not be the same as placeholder text, they should both be separate. Don’t use symbols to represent required content.
 
-## Placeholder Text
-
-Placeholder text is used only to provide supplemental information or additional guidance on how to complete a text field. Placeholder text DOES NOT replace a label or microcopy. Placeholder text should only be used if an example of a text input improves the user experience, rather than as a replacement to other important information indicators.
-
-Placeholder text is text that appears directly in the input field. This text is not meant to be used as a label, but can provide supplemental information or an example for the user.
-
-Placeholder text is meant to help the user more accurately complete the field rather than be the primary indicator of field content. It may also be complementary to micro-copy, with placeholder text providing an example, and micro-copy providing additional information or context.
-
-As soon as the user starts typing in the field, the placeholder text should disappear.
-
-Placeholder text is styled using Nunito Sans Regular at 14px, <badge style="background-color: #666666;">#666666</badge>
-
-
-For more information about placeholder text styles, refer to the [_Typography_](typography.md) section.
 
 ## Grouping / Field Sets
 

@@ -36,7 +36,3 @@ Il y a d’autres options de couleur pour les liens visités. Les pratiques exem
 
 <a href="#">C'est un lien</a>
 
-<codeblock html='
-    <a href="#">Cest un lien</a>
-' react='' />
-</codeblock>
