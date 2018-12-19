@@ -11,7 +11,7 @@ title: "Text inputs"
 
 # Text Inputs
 
-Input fields allow users to provide information by inputting text into a page. Information can be entered through a variety of different input fields such as text fields (text area), checkboxes, radio buttons, and date inputs. Input fields typically appear in forms and should clearly indicate that users can input information through labels, tooltips, placeholder text, and appropriate styling.
+Input fields allow users to provide information by inputting text into a page. Information can be entered through a variety of different input fields such as text fields, text area, checkboxes, radio buttons, and date inputs. Input fields typically appear in forms and should clearly indicate that users can input information through labels, tooltips, placeholder text, and appropriate styling.
 
 ## Microcopy
 
@@ -36,8 +36,14 @@ Textual form controls—like `<input>`, `<select>`, and `<textarea>`—are style
 
 ## Text Inputs
 
+The `<input>` tag specifies an input field where the user can enter data.
+
+`<input>` elements are used within a `<form>` element to declare input controls that allow users to input data.
+
+Be sure to use an appropriate `type` attribute on all inputs (e.g., `email` for email address or `number` for numerical information) to take advantage of newer input controls like email verification, number selection, and more.
+
   <div class="form-group">
-    <label for="inputEmail3">Email</label>
+    <label for="inputEmail3">Email Address</label>
     <input type="email" class="form-control" id="inputEmail3" aria-describedby="emailHelp1">
   </div>
 
@@ -45,15 +51,21 @@ Textual form controls—like `<input>`, `<select>`, and `<textarea>`—are style
 
 ## Text Area
 
+The `<textarea>` tag defines a multi-line text input control.
+
   <div class="form-group">
-    <label for="exampleFormControlTextarea1">Text Area</label>
+    <label for="exampleFormControlTextarea1">Comments</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
   
-  *Codeblock*
+*Codeblock*
 
 ## Select Field
 
+The `<select>` element is used to create a drop-down list.
+
+The `<option>` tags inside the `<select>` element define the available options in the list.
+    
 <div class="mt-2">
     <label for="carSelect">Cars:</label>
     <select id="carSelect" class="form-control">
@@ -78,9 +90,9 @@ Textual form controls—like `<input>`, `<select>`, and `<textarea>`—are style
 
 ## Microcopy
 
-Help text should be explicitly associated with the form control it relates to using the `aria-describedby` attribute. This will ensure that assistive technologies, such as screen readers, will announce this help text when the user focuses or enters the control.
+Help text should be explicitly associated with the form control it relates to using the `aria-describedby` attribute. This will ensure that assistive technologies, such as screen readers, will announce this microcopy when the user focuses or enters the control.
 
-Help text below inputs can be styled with `.form-text`. This class includes `display: block` and adds some top margin for easy spacing from the inputs above.
+Microcopy below inputs can be styled with `.form-text`. This class includes `display: block` and adds some top margin for easy spacing from the inputs above. Inline help text can be flexibly implemented using any inline HTML element and utility classes like `.text-muted.`
 
 </doctabpanel>
       <doctabpanel type="react">
@@ -90,35 +102,32 @@ Help text below inputs can be styled with `.form-text`. This class includes `dis
 
 ## Text Inputs
 
-The text field a user has selected should be indicated visually. Outlining the selected text box in blue shows the user which field they are inputting without too much visual weight.
-
-When there is an error within a text field, outlining the field in red shows a greater level of significance than blue. See [Errors and Validation](/component/errors-and-validation) for more information about input errors.
-
-Text input fields may also include interactive elements to the right of the field. Interactive elements will always be displayed using an icon, such as an eye to demonstrate a visible or hidden password.
-
-<label for="exampleInputPassword1">Password</label>
-<input type="password" class="form-control" aria-describedby="Password1Error" id="exampleInputPassword1" placeholder="Password">
-
 Text fields are styled as follows:
+
+<label for="exampleInputEmail1">Email</label>
+<input type="email" class="form-control" id="exampleInputEmail1"
+        aria-describedby="emailHelp"
+        placeholder="sierra@example.com">
 
 **Normal**: Rectangle with a height of 42px, and a border radius of 4px. Stroke width of 1px with the colour <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. There is 10px of padding between the field and the label. The input field a padding of 15px by 12px.
 
-<label for="exampleInputEmail1">Form label</label>
-<input type="email" class="form-control" id="exampleInputEmail1"
-        aria-describedby="emailHelp"
-        placeholder="Enter email">
-<small id="emailHelp" class="form-text text-muted">Form Text - To give hints and things</small>
-
 **Focus**: Rectangle with a height of 42px, and a border radius of 4px. Stroke width of 1px <badge style="background-color: #269ABC;color:black;">#269ABC</badge>. There is 10px of padding between the field and the label. The input field a padding of 15px by 12px.
 
-<label for="exampleInputEmail2">Form label</label>
-<input type="email" class="form-control" id="exampleInputEmail2"
-        aria-describedby="emailHelp"
-        placeholder="Enter email">
-<small id="emailHelp" class="form-text text-muted">Form Text - To give hints and things</small>
+The text field a user has selected should be indicated visually. Outlining the selected text box in blue shows the user which field they are inputting without too much visual weight.
+
+When there is an error within a text field, the field will be outlined in red. See [Errors and Validation](/component/errors-and-validation) for more information about input errors.
+
+Text input fields may also include interactive elements to the right of the field. Interactive elements will always be displayed using an icon, such as an eye to demonstrate a visible or hidden password.
+
 
 ## Text Area
 
+Text areas have the same styling as other text inputs, but with a greater height. Text areas are used typically for open ended questions, where the user is asked to provide descriptions or additional information. 
+
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Comments</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
 
 ## Select Field
 
@@ -161,7 +170,7 @@ If there is more than one line the text wraps and has a leading of 18pts.
 <form>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="sierra@example.com">
     <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
   </div>
 <form>

@@ -133,6 +133,15 @@ Labels should follow the vertical format of the form. Place labels above their r
 
 How labels are written affects their legibility. Do not write labels in all caps as this diminishes their readability. Labels should not be the same as placeholder text, they should both be separate. Don’t use symbols to represent required content.
 
+## Required Fields
+
+Inputs should be clearly indicated as optional or required.
+
+If most fields in the form are required, indicate only the optional fields.
+
+If most fields in the form are optional, indicate only the required fields.
+
+Indications should be located beside the input field. The terms \(Required\) or \(Optional\) should be present only where necessary. Indicator text uses the colour: <badge style="background-color: #252525;">#252525</badge> and follows the same typography design as labels.
 
 ## Grouping / Field Sets
 
