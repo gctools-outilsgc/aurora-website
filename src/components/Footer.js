@@ -1,6 +1,7 @@
 import React from 'react';
 import { I18n } from "react-i18next";
 import { Container } from 'reactstrap';
+import Link from 'gatsby-link';
 import Watermark from '../img/wmms-spl.svg';
 
 const Footer = () => {
@@ -13,7 +14,7 @@ const Footer = () => {
             <Container className="foot-container">
               <ul>
                 <li><a href="https://github.com/gctools-outilsgc/design-system">GitHub</a></li>
-                <li><a href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai">{t("Download")}</a></li>
+                <li><Link to="/overview/download">{t("Download")}</Link></li>
               </ul>
               <img style={{"width":"160px"}} className="float-right pb-3" src={Watermark} alt={t("CanadaSymbol")} />
             </Container>
