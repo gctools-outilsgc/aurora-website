@@ -1,6 +1,6 @@
 ---
 path: "/overview/resources"
-subnav: "3/Resources/Ressources/1"
+subnav: "3/Resources/Ressources/2"
 lang: "fr"
 title: "Ressources utiles"
 ---
