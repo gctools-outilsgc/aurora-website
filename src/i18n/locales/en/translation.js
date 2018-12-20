@@ -5,7 +5,7 @@ const enTranslation = {
   "TopIntro": "Aurora design system is a central design guide created by the Digital Collaboration Division within the Government of Canada for our digital products. Everything you need to create attractive, cohesive, practical, accessible and enjoyable digital products can be found in our design system. Aurora design system will always be free, open, collaborative and evolving.",
   "MainCTA":"Get started",
   "GithubLink":"Find us on GitHub",
-  "DownloadLink":"Download UI kit",
+  "DownloadLink":"Download Aurora",
   "IAM":"I am a...",
   "Designers": "Designer",
   "DesignerCTA":"Start drawing",

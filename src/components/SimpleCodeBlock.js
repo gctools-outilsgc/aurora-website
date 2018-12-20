@@ -42,7 +42,7 @@ class SimpleCodeBlock extends React.Component {
         <Row className="codeblock" style={(this.props.isShowingCode) ? { "display": "flex" } : { "display": "none" }}>
 
           <Col md="12" style={{ "width": "100%" }}>
-            <CopyToClipboard>
+            <CopyToClipboard text={this.props.code}>
               <Button style={{'position':'absolute', 'right':'20px', 'top':'12px'}} color="primary" size="sm" outline onClick={this.copy} className="float-right">
                 <I18n>
                   {

@@ -11,13 +11,6 @@ title: "Download"
 
 # Download
 
-## AuroraCDN
-
-Add Aurora to your project instantly by adding this link to our CDN into your page head. Get started right away, without needing to download anything.
-
-<simplecodeblock language='html' code='<script src="https://aurora.gccollab.ca/cdn/aurora.min.js" type="text/javascript"></script>'></simplecodeblock>
-
-
 ## Compiled CSS and JS
 
 Download ready-to-use code for Aurora. Includes:
