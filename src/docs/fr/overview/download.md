@@ -17,7 +17,7 @@ Téléchargez un code prêt à utiliser pour Aurora, y compris :
 * des fichiers minifiés codés en CSS;
 * des modules externes minifiés codés en JavaScript.
 
-<a class="btn btn-secondary" href="/static/aurora.zip" download>Téléchargement</a>
+<a class="btn btn-secondary" href="/static/aurora.zip" download>Téléchargez</a>
 
 ## Trousse de l’interface de l’utilisateur (IU)
 
