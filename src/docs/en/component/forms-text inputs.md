@@ -47,6 +47,19 @@ Be sure to use an appropriate `type` attribute on all inputs (e.g., `email` for 
     <input type="email" class="form-control" id="inputEmail3" aria-describedby="emailHelp1">
   </div>
 
+
+
+<simplecodeblock code='
+    <div class="form-group"> 
+        <label for="inputEmail3">Email Address</label> 
+        <input type="email" class="form-control" id="inputEmail3" aria-describedby="emailHelp1"> 
+    </div>
+' 
+language='html'>
+</simplecodeblock>
+
+
+
 *Codeblock*
 
 ## Text Area
@@ -76,7 +89,7 @@ The `<option>` tags inside the `<select>` element define the available options i
     </select>
 </div>
 
-<codeblock html='
+<simplecodeblock code='
     <div class="mt-2">
         <label for="carSelect">Cars:</label>
         <select id="carSelect" class="form-control">
@@ -86,7 +99,7 @@ The `<option>` tags inside the `<select>` element define the available options i
         <option value="audi">Audi</option>
         </select>
     </div>
-' react='' /></codeblock>
+' language='html' /></simplecodeblock>
 
 ## Microcopy
 
