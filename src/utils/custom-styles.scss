@@ -328,6 +328,30 @@ a.dropdown-item {
   background-color: transparent;
 }
 
+//Nav pagination
+.pagination {
+
+  .page-link {
+    border:none;
+    background:transparent;
+    margin: 0 3px;
+    border-radius:$border-radius;
+  }
+
+  .page-item:first-child,
+  .page-item:last-child {
+    .page-link {
+        border:1px solid $primary;
+    }
+  }
+
+  .page-link:hover {
+    background-color: $primary;
+    color:white;
+  }
+
+}
+
 //Modals
 .modal-header, .modal-footer {
     border: none;
