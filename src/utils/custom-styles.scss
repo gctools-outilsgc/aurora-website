@@ -224,6 +224,20 @@ button.switch {
   }
 }
 
+
+// custom checkbox/radio validation
+.was-validated .custom-control-input:invalid ~ .custom-control-label::before,
+.custom-control-input.is-invalid ~ .custom-control-label::before {
+  background-color: transparent;
+  border-color: $danger;
+}
+
+.was-validated .custom-control-input:valid ~ .custom-control-label::before,
+.custom-control-input.is-valid ~ .custom-control-label::before {
+  background-color: transparent;
+  border-color: $success;
+}
+
 //Cards
 
 .card {
