@@ -25,6 +25,112 @@ Toutes les étiquettes devraient mettre seulement la première lettre en majuscu
 
 Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouton. Voir les couleurs pour plus de renseignements au sujet d’un contraste acceptable.
 
+<documentationtabs remove="react">
+      <doctabpanel type="html">
+          
+
+## Exemples
+
+*texte ici*
+<br>
+          
+<button type="button" color="primary" >Primaire</button>
+<button type="button" color="secondary">Secondaire</button>
+<button type="button" color="success">Success</button>
+<button type="button" color="danger">Danger</button>
+<button type="button" color="warning">Warning</button>
+<button type="button" color="info">Info</button>
+<button type="button" color="light">Light</button>
+<button type="button" color="dark">Dark</button>
+
+
+```html
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+```
+
+### Conveying meaning to assistive technologies
+
+*texte ici*
+
+## Sizes
+
+*texte ici*
+
+<button type="button" color="primary" size="sm">Bouton petit</button>
+<button type="button" color="primary" size="lg">Bouton large</button>
+
+```html
+<button type="button" class="btn btn-primary btn-sm">Bouton petit</button>
+<button type="button" class="btn btn-primary btn-lg">Bouton large</button>
+```
+
+*texte ici*
+
+<button type="button" color="primary" block="true">Block Button</button>
+
+```html
+<button type="button" class="btn btn-primary btn-block">Block Button</button>
+```
+
+## Boutons de menu déroulant
+
+*texte ici*
+
+### Exemple
+
+*texte ici*
+
+<mdbuttondropdown color="primary" title="Normal">
+</mdbuttondropdown>
+
+```html
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Dropdown button
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Un autre action</a>
+        <a class="dropdown-item" href="#">Une autre chose ici</a>
+    </div>
+</div>
+```
+
+## Groupes de boutons
+
+*texte ici*
+
+<div class="mt-2">
+    <div class="btn-group" role="group" aria-label="Basic example of button group">
+        <button type="button" color="primary">Gauche</button>
+        <button type="button" color="primary">Centre</button>
+        <button type="button" color="primary">Droite</button>
+    </div>
+</div>
+
+```html
+<div class="btn-group" role="group" aria-label="Basic example of button group">
+    <button type="button" class="btn btn-primary">Gauche</button>
+    <button type="button" class="btn btn-primary">Centre</button>
+    <button type="button" class="btn btn-primary">Droite</button>
+</div>
+```
+
+### Sizing
+
+*texte ici*
+      
+</doctabpanel>
+    <doctabpanel type="design">
+
+
 ## États variables
 
 Les boutons ne sont pas des objets ayant un seul état. La plupart des utilisateurs reconnaissent un bouton en raison de son état stationnaire et son état actif. Les divers états offrent également de la rétroaction à l’utilisateur à chaque étape de l’exécution de l’action.
@@ -41,82 +147,6 @@ Les boutons devraient comprendre les états normal, sensitif, accentué, actif e
 
 **Désactivé** : habituellement une version fantôme de l’état normal, cela indique à l’utilisateur que l’action n’est pas disponible.
 
-<documentationtabs remove="react">
-      <doctabpanel type="html">
-          
-<codeblock html='<button type="button" class="btn btn-primary">Normal</button>' react='<Button color="primary">Normal</Button>'></codeblock>
-
-<codeblock html='<button type="button" class="btn btn-primary" disabled>Primaire</button>' react='<Button color="primary" disabled>Désactivé</Button>'></codeblock>
-
-<codeblock html='<button type="button" class="btn btn-secondary">Secondaire</button>' react='<Button color="secondary">Secondaire</Button>'></codeblock>
-
-<codeblock html='<button type="button" class="btn btn-secondary" disabled>Secondaire</button>' react='<Button color="secondary" disabled>Secondaire</Button>'></codeblock>
-
-<codeblock html='
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Normal
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-    </div>
-' react='
-<ButtonDropdown direction="down" isOpen={this.state.dropdownOpen} toggle={this.toggle} style={{marginBottom: "15px"}} color={this.props.color}>
-    <DropdownToggle caret {...this.props}>
-        Normal
-    </DropdownToggle>
-    <DropdownMenu>
-        <DropdownItem>Action 1</DropdownItem>
-        <DropdownItem>Action 2</DropdownItem>
-        <DropdownItem>Action 3</DropdownItem>
-    </DropdownMenu>
-</ButtonDropdown>
-'></codeblock>
-
-<codeblock html='
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            Dropdown button
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Action 1</a>
-            <a class="dropdown-item" href="#">Action 2</a>
-            <a class="dropdown-item" href="#">Action 3</a>
-        </div>
-    </div>
-' react='
-<ButtonDropdown direction="down" isOpen="true" toggle={this.toggle} style={{marginBottom: "15px"}} color={this.props.color}>
-    <DropdownToggle caret {...this.props}>
-        Reply
-    </DropdownToggle>
-    <DropdownMenu>
-        <DropdownItem>Action 1</DropdownItem>
-        <DropdownItem>Action 2</DropdownItem>
-        <DropdownItem>Action 3</DropdownItem>
-    </DropdownMenu>
-</ButtonDropdown>
-'></codeblock>
-
-<codeblock html='
-    <div class="btn-group" role="group" aria-label="Basic example of button group">
-        <button type="button" class="btn btn-primary">Gauche</button>
-        <button type="button" class="btn btn-primary">Centre</button>
-        <button type="button" class="btn btn-primary">Droite</button>
-    </div>
-' react='
-<ButtonGroup style="margin-bottom: 15px">
-    <Button color="primary">Gauche</Button>
-    <Button color="primary">Centre</Button>
-    <Button color="primary">Droite</Button>
-</ButtonGroup>
-'></codeblock>
-      
-</doctabpanel>
-
-<doctabpanel type="design">
                 
 ## Taille et remplissage
 

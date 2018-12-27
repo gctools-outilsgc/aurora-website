@@ -11,61 +11,13 @@ title: "Saisies des boutons"
 
 # Saisies des boutons
 
-<documentationtabs remove="react">
-      <doctabpanel type="html">
-          
-<codeblock html='
-    <div class="custom-control custom-checkbox">
-        <input type="checkbox" class="custom-control-input" id="customCheck1">
-        <label class="custom-control-label" for="customCheck1">Vérification personnalisée</label>
-    </div>
-' react='' /></codeblock> 
-
-<codeblock html='
-    <div class="custom-control custom-radio">
-      <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-      <label class="custom-control-label" for="customRadio1">Radio personnalisée 1</label>
-    </div>
-    <div class="custom-control custom-radio">
-      <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-      <label class="custom-control-label" for="customRadio2">CRadio personnalisée 2</label>
-    </div>
-' react='' /></codeblock> 
-
-<codeblock html='<label class="switch">
-  <input type="checkbox" />
-  <span class="switch__toggle"></span>
-  Toggle switch
-</label>
-' react='' /></codeblock> 
-
-</doctabpanel>
-      <doctabpanel type="design">
-          
-
 ## Cases à cocher
 
-Les cases à cocher sont utilisées lorsque l’utilisateur peut choisir plusieurs options à partir d’une liste donnée. Elles sont également utilisées pour confirmer certains énoncés : « J’accepte les modalités » ou « Envoyez-moi des courriels de mise à jour ».
+Les cases à cocher sont utilisées lorsque l’utilisateur peut choisir plusieurs options à partir d’une liste donnée. Elles sont également utilisées pour confirmer certains énoncés : « J’accepte les modalités » ou « Envoyez-moi des courriels de mise à jour».
+
 S’il y a une option Autre, ce devrait comprendre un champ ouvert pour que les utilisateurs puissent inscrire des renseignements supplémentaires.
 
 Les étiquettes pour les cases à cocher sont alignées à droite de la case.
-
-<div class="custom-control custom-checkbox">
-    <input type="checkbox" class="custom-control-input" id="customCheck1">
-    <label class="custom-control-label" for="customCheck1">Vérification personnalisée</label>
-</div>
-
-<br> 
-
-Les cases à cocher ont quatre états différents :
-
-**Normal :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #F9F9F9; color: black" >#F9F9F9</badge>, couleur de bordure <badge style="background-color: #96A8B2;color:black">#96A8B2</badge> de 1px.
-
-**Pointage :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, couleur de bordure <badge style="background-color: #4D5D6C" >#4D5D6C</badge> de 1px.
-
-**Focus :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, couleur de bordure <badge style="background-color: #4D5D6C" >#4D5D6C</badge> de 3px.
-
-**Active :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #4D5D6C" >#4D5D6C</badge>, couleur de bordure <badge style="background-color: #96A8B2; color:black">#96A8B2</badge> . Comprend une icône de contrôle blanc centré dans la case.
 
 ## Boutons « radio »
 
@@ -76,6 +28,112 @@ Les boutons « radio » doivent suivre le format vertical du formulaire. Ils dev
 S’il y a une option Autre, ce devrait comprendre un champ ouvert pour que les utilisateurs puissent inscrire des renseignements supplémentaires.
 
 Les étiquettes des boutons « radio » sont alignées à droite du bouton.
+
+## Commutateurs
+
+Les commutateurs sont utilisés seulement lorsque l’une des deux options peut être sélectionnée. Ils représentent des questions simples comme des options de style oui non ou activé-désactivé. Habituellement, l’option oui-non est plus colorée et plus en évidence que l’option activé-désactivée.
+
+Les commutateurs peuvent être utilisés dans toutes sortes de formulaires ou d’autres types de fonctions tels que Paramètres, Options de profil, etc.
+
+<documentationtabs remove="react">
+      <doctabpanel type="html">
+          
+
+## Cases à cocher
+
+*texte ici*
+
+<div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" id="customCheck1">
+    <label class="custom-control-label" for="customCheck1">Vérification personnalisée</label>
+</div>
+
+```html
+<div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" id="customCheck1">
+    <label class="custom-control-label" for="customCheck1">Vérification personnalisée</label>
+</div>
+```
+
+## Boutons « radio »
+
+*texte ici*
+
+<div class="custom-control custom-radio">
+    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio1">Radio personnalisée 1</label>
+</div>
+<div class="custom-control custom-radio">
+    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio2">Radio personnalisée 2</label>
+</div>
+
+```html
+<div class="custom-control custom-radio">
+    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio1">Radio personnalisée 1</label>
+</div>
+
+<div class="custom-control custom-radio">
+    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio2">Radio personnalisée 2</label>
+</div>
+```
+
+## Disabled
+
+*texte ici*
+
+### Default (stacked)
+
+*texte ici*
+
+### Using Bootstrap defaults
+
+*texte ici*
+
+## Commutateurs
+
+*texte ici*
+
+<label class="switch">
+  <input type="checkbox" />
+  <span class="switch__toggle"></span>
+  Toggle switch
+</label>
+
+```html
+<label class="switch">
+  <input type="checkbox" />
+  <span class="switch__toggle"></span>
+  Toggle switch
+</label>
+```
+
+</doctabpanel>
+      <doctabpanel type="design">
+          
+
+## Cases à cocher
+
+Les cases à cocher ont quatre états différents :
+
+<div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" id="customCheck1">
+    <label class="custom-control-label" for="customCheck1">Vérification personnalisée</label>
+</div>
+
+<br> 
+
+**Normal :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #F9F9F9; color: black" >#F9F9F9</badge>, couleur de bordure <badge style="background-color: #96A8B2;color:black">#96A8B2</badge> de 1px.
+
+**Pointage :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, couleur de bordure <badge style="background-color: #4D5D6C" >#4D5D6C</badge> de 1px.
+
+**Focus :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, couleur de bordure <badge style="background-color: #4D5D6C" >#4D5D6C</badge> de 3px.
+
+**Active :** case de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #4D5D6C" >#4D5D6C</badge>, couleur de bordure <badge style="background-color: #96A8B2; color:black">#96A8B2</badge> . Comprend une icône de contrôle blanc centré dans la case.
+
+## Boutons « radio »
 
 <div class="custom-control custom-radio">
     <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">

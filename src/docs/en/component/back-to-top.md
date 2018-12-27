@@ -18,9 +18,7 @@ Back to top buttons are necessary for web pages with continuous scrolling, or a 
 <documentationtabs remove="react">
     <doctabpanel type="html">
       </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
-      <doctabpanel type="design">
+    <doctabpanel type="design">
           
 This button should always be labelled _Back to top_ since this is the most descriptive and expected label for the function.
 
@@ -37,7 +35,8 @@ There is an arrow icon centred in the circle \(_Arrow up_ from Font Awesome\). T
 The text has a 9px by 15px padding with a 1px border colours <badge style="background-color: #CECECE;color:black;">#CECECE</badge>  and a border radius of 16px. The arrow icon is aligned to the left of the text.
 
 ![Back to top web component](../../../img\components\back_to_top.png)
-              </doctabpanel>
-    </documentationtabs>
+
+</doctabpanel>
+</documentationtabs>
 
 

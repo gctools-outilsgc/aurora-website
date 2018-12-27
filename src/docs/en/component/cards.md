@@ -157,10 +157,7 @@ Buttons require no additional classes, and can be added to a card by simply addi
 ```
           
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
-      
-<doctabpanel type="design">
+    <doctabpanel type="design">
 
 Cards should have a different colour than the main background colour of the site. If your site's background colour is <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, you will need to modify the card colour to have more contrast. 
           

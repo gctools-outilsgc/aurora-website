@@ -16,37 +16,59 @@ Les badges sont utilisés pour montrer des notifications et d’autres alertes l
 <documentationtabs remove="react">
       <doctabpanel type="html">
           
+
+## Exemple
+
+*Texte ici*
+
+<div class="mt-3 mb-3">
+  <a href="#">
+    Profile <span class="badge badge-secondary">9</span>
+    <span class="sr-only">unread messages</span>
+  </a>
+</div>
+
+```html 
+<a href="#">
+    Profile <span class="badge badge-secondary">9</span>
+    <span class="sr-only">unread messages</span>
+</a>
+```
+
+## Contextual Variations
+
+*Texte ici*
+
+<div class="mt-3 mb-3">
+  <span class="badge badge-primary">Primary</span>
+  <span class="badge badge-secondary">Secondary</span>
+  <span class="badge badge-success">Success</span>
+  <span class="badge badge-danger">Danger</span>
+  <span class="badge badge-warning">Warning</span>
+  <span class="badge badge-info">Info</span>
+  <span class="badge badge-light">Light</span>
+  <span class="badge badge-dark">Dark</span>
+</div>
+
+```html
+<span class="badge badge-primary">Primary</span>
+<span class="badge badge-secondary">Secondary</span>
+<span class="badge badge-success">Success</span>
+<span class="badge badge-danger">Danger</span>
+<span class="badge badge-warning">Warning</span>
+<span class="badge badge-info">Info</span>
+<span class="badge badge-light">Light</span>
+<span class="badge badge-dark">Dark</span>
+```
+
+## Accessibility considerations
+          
 Au moment de coder les badges, le texte alternatif qui sera lu par les lecteurs d’écran doit également inclure le contexte. Par exemple, le badge devrait indiquer « 40 courriels non lus » au lieu de « 40 ».
 
-<codeblock html='<a href="#">
-  Profil <span class="badge badge-secondary">9</span>
-  <span class="sr-only">message(s) non lus</span>
-</a>
-' react='<a href="#">
-  Profil <Badge color="secondary">9</Badge>
-  <span class="sr-only">message(s) non lus</span>
-</a>'></codeblock>
-
-<codeblock html='<span class="badge badge-primary">Primaire</span>
-<span class="badge badge-secondary">Secondaire</span>
-<span class="badge badge-success">Succès</span>
-<span class="badge badge-danger">Danger</span>
-<span class="badge badge-warning">Avertissement</span>
-<span class="badge badge-info">Info</span>
-<span class="badge badge-light">Jour</span>
-<span class="badge badge-dark">Nuit</span>
-' react='<Badge color="primary">Primaire</Badge>
-<Badge color="secondary">Secondaire</Badge>
-<Badge color="success">Succès</Badge>
-<Badge color="danger">Danger</Badge>
-<Badge color="warning">Avertissement</Badge>
-<Badge color="info">Info</Badge>
-<Badge color="light">Jour</Badge>
-<Badge color="dark">Nuit</Badge>'></codeblock>
+### Conveying meaning to assistive technologies
 
 </doctabpanel>
-
-<doctabpanel type="design">
+    <doctabpanel type="design">
     
 Les badges dans ce système de conception s’affichent comme suit :
 

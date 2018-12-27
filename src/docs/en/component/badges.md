@@ -74,11 +74,7 @@ Using color to add meaning only provides a visual indication, which will not be 
 
         
 </doctabpanel>
-
-<doctabpanel type="react">
-      </doctabpanel>
-
-<doctabpanel type="design">
+    <doctabpanel type="design">
 
 Badges in this design system appear as follows:
 

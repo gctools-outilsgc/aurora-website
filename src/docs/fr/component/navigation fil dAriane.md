@@ -22,24 +22,30 @@ Le fil d’Ariane devrait être complémentaire à la navigation principale et n
 <documentationtabs remove="react">
       <doctabpanel type="html">
           
-<codeblock html='
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Page principale</a></li>
-            <li class="breadcrumb-item"><a href="#">Page secondaire</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Page actuelle</li>
-        </ol>
-    </nav>
-' react='
-<Breadcrumb>
-    <BreadCrumbItem><a href="#">Page principale</a></BreadCrumbItem>
-    <BreadCrumbItem><a href="#">Page secondaire</a></BreadCrumbItem>
-    <BreadCrumbItem active="true">Page actuelle</BreadCrumbItem>
-</Breadcrumb>
-'></codeblock>
+*Texte ici*
+
+<breadcrumb>
+    <breadcrumbitem><a href="#">Page principale</a></breadcrumbitem>
+    <breadcrumbitem><a href="#">Page secondaire</a></breadcrumbitem>
+    <breadcrumbitem active="true">Page actuelle</breadcrumbitem>
+</breadcrumb>
+
+```html
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Page principale</a></li>
+        <li class="breadcrumb-item"><a href="#">Page secondaire</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Page actuelle</li>
+    </ol>
+</nav>
+```
+
+## Accessibility
+
+*texte ici*
 
 </doctabpanel>
-      <doctabpanel type="design">
+    <doctabpanel type="design">
           
 Le fil d’Ariane dans le système de conception est comme suit :
 

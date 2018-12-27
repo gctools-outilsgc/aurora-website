@@ -44,9 +44,7 @@ Breadcrumbs indicate the current page's location within a navigational hierarchy
 Since breadcrumbs provide a navigation, it’s a good idea to add a meaningful label such as `aria-label="breadcrumb"` to describe the type of navigation provided in the `<nav>` element, as well as applying an `aria-current="page"` to the last item of the set to indicate that it represents the current page.
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
-      <doctabpanel type="design">
+    <doctabpanel type="design">
           
 Breadcrumbs in this design system are as follows:
 

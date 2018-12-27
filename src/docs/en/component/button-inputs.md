@@ -37,7 +37,7 @@ Switches can be used in all kinds of forms, or other types of functions such as 
 
 
 <documentationtabs remove="react">
-      <doctabpanel type="html">
+    <doctabpanel type="html">
           
 
 ## Checkboxes
