@@ -25,7 +25,7 @@ All labels should capitalize only the first letter of the label.
 Label text has high contrast with the button colour. See Colour for more information about acceptable contrast.
 
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
           
 

@@ -17,7 +17,7 @@ The user does not input text into the input field; it automatically gets filled 
 
 _Choose file_ is the action button to be selected by the user. Once clicked, the button opens a new window where the user can choose a file. File types are determined by the system parameters.
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
           
 

@@ -33,7 +33,7 @@ Elements that can be used in a card are:
 
 Not all of these elements are necessary in every card. You can choose the elements which you think best fit the purpose of the card. However, every card should have a main title.
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
 
 

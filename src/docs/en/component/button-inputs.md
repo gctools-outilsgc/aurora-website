@@ -36,7 +36,7 @@ Switches are used when only one of two options can be selected. They represent s
 Switches can be used in all kinds of forms, or other types of functions such as Settings, Profile Options etc.
 
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
           
 

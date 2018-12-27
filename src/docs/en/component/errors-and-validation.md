@@ -25,7 +25,7 @@ As well, have an error box appear at the beginning of the form listing the error
 
 Fields should be validated when the user has completed the required field information, but prior to the user submitting or completing the entire form.
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
           
 

@@ -13,7 +13,7 @@ title: "Badges"
 
 Badges are used to show notifications and other alerts related to a particular element. Badges do not stand alone, but are combined with text, icons or buttons to show a change or action related to that feature. For example, a badge beside your Inbox link to show the number of unread emails.
 
-<documentationtabs>
+<documentationtabs remove="react">
     <doctabpanel type="html">
         
 

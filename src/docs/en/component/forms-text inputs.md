@@ -27,7 +27,7 @@ Placeholder text is meant to help the user more accurately complete the field ra
 
 As soon as the user starts typing in the field, the placeholder text should disappear.
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
 
 

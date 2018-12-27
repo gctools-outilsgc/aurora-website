@@ -15,7 +15,7 @@ Back to top is a navigation button that allows users to quickly revert back to t
 
 Back to top buttons are necessary for web pages with continuous scrolling, or a page that includes a long amount of content. A good guideline is to include a Back to top button for any web page that is longer than 4 screens.
 
-<documentationtabs>
+<documentationtabs remove="react">
     <doctabpanel type="html">
       </doctabpanel>
       <doctabpanel type="react">

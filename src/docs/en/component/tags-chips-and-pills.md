@@ -26,7 +26,7 @@ Chips represent contact information, typically including a user's avatar and nam
 
 Pills are similar to chips, but aren't necessarily associated with a particular user. They are styled the same but without the left-aligned avatar.
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
 
 

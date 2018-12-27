@@ -19,7 +19,7 @@ The breadcrumbs in this design system are location-based, which is a representat
 
 Breadcrumbs should be complimentary to primary navigation and should never be used to replace overall navigation elements. Breadcrumbs are subtle and should not take visual prominence over the page. All items in the breadcrumb list should be links except for the last item.
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
           
 Breadcrumbs indicate the current page's location within a navigational hierarchy. 

@@ -35,7 +35,7 @@ Progress bars show determinate levels of progress, meaning there is a clear poin
 
 Spinners are used to indicate that a page or function is loading. A general rule is to use spinners for processes that take less than 4 seconds. Spinners show indeterminate levels of progress, meaning there is no clear completion and the animation loops until the process is complete.
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
           
 

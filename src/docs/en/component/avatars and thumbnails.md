@@ -14,7 +14,7 @@ title: "Avatars and thumbnails"
 
 *Intro text here* 
 
-<documentationtabs>
+<documentationtabs remove="react">
     <doctabpanel type="html">
         
 

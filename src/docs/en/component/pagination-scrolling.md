@@ -31,7 +31,7 @@ Each page should contain the same amount of objects, you may want to include an 
 
 The user should be able to clearly tell which page they are currently on. Place this number in the middle of the pagination bar and give it the heaviest visual weight. The user should also be able to see what content page they have already viewed so they do not have to revisit content that they have already seen. You can show this by changing the colour, typically a secondary colour, of already visited pages versus pages the user has yet to visit.
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
           
 
