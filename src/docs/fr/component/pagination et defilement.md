@@ -31,7 +31,7 @@ Chaque page doit contenir la même quantité d’objets, vous voudrez peut-être
 
 L’utilisateur doit être en mesure de dire clairement sur quelle page il se trouve. Placez ce nombre au milieu de la barre de pagination et donnez-lui le plus lourd poids visuel. L’utilisateur doit également être en mesure de voir quelles pages de contenu il a déjà vues de sorte qu’il n’a pas besoin de revoir le contenu qu’il a déjà vu. Vous pouvez montrer cela en changeant la couleur, habituellement une couleur secondaire, des pages déjà visitées et des pages que l’utilisateur n’a pas encore visitées.
 
- <documentationtabs>
+ <documentationtabs remove="react">
       <doctabpanel type="html">
           
 <codeblock
@@ -92,9 +92,8 @@ L’utilisateur doit être en mesure de dire clairement sur quelle page il se tr
 </codeblock>
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
-      <doctabpanel type="design">
+    
+<doctabpanel type="design">
           
 La pagination est conçue comme suit :
 

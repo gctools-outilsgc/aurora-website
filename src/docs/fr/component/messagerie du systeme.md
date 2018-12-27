@@ -13,7 +13,7 @@ title: "Messagerie du système"
 
 Les notifications du système sont de courts messages qui apparaissent pour communiquer de l’information à l’utilisateur. Des notifications apparaissent comme des bannières en premier plan qui ont besoin d’être fermées ou qui se ferment après une période de temps. Il y a quatre niveaux de gravité qui peuvent être appliqués à la notification : erreur, avertissement, information et succès.
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
     
 <codeblock html='
@@ -57,9 +57,8 @@ Les notifications du système sont de courts messages qui apparaissent pour comm
 '></codeblock>
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
-      <doctabpanel type="design">
+
+<doctabpanel type="design">
 
 
 ## Erreur

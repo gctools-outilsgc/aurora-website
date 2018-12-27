@@ -23,7 +23,7 @@ Les barres de recherche peuvent inclure une icône d'une loupe dependant du fonc
 
 Si compléter le recherche s'ouvre un nouveau page des résultats, utilisez l'icône. Si les résultats sont suggérés en bas de la barre, l'icône n'est pas nécessaire.
 
-   <documentationtabs>
+   <documentationtabs remove="react">
       <doctabpanel type="html">
           
 <codeblock html='
@@ -51,9 +51,8 @@ Si compléter le recherche s'ouvre un nouveau page des résultats, utilisez l'ic
 ' react=''></codeblock>
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
-      <doctabpanel type="design">
+
+<doctabpanel type="design">
           
 Il y a deux options de style pour la recherche :
 

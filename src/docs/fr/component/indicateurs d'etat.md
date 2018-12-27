@@ -36,7 +36,7 @@ Les barres de progression déterminent les niveaux de progrès, ce qui signifie 
 
 Les boucles de progression sont utilisées pour indiquer le chargement d’une page ou d’une fonction. Une règle générale est d’utiliser des boucles de progression pour les processus qui durent moins de 4 secondes. Les boucles de progression indiquent des niveaux de progrès indéterminés, ce qui signifie qu’il n’y a pas d’achèvement clair et que la boucle d’animation se poursuit jusqu’à ce que le processus soit terminé.
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
 
 ## Indicateur des étapes 
@@ -66,8 +66,6 @@ Les barres de progression devraient toujours inclure un indicateur de texte, en 
 ## Boucles de progression
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
       <doctabpanel type="design">
           
 

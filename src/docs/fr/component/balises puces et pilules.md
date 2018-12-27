@@ -25,7 +25,7 @@ Les puces représentent les coordonnées, dont habituellement l’avatar et le n
 
 Les pilules sont semblables aux puces, mais ne sont pas nécessairement associées à un utilisateur en particulier. Ils ont le même style, mais sans
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
           
 <codeblock html='
@@ -63,8 +63,6 @@ Les pilules sont semblables aux puces, mais ne sont pas nécessairement associé
 ' react='' /></codeblock>
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
 <doctabpanel type="design">
           
 

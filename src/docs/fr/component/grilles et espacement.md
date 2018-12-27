@@ -16,7 +16,7 @@ Le système de grilles est fondé sur une série de conteneurs, de colonnes et d
 
 Le cadre de grilles contient 12 colonnes dimensionnées en fonction de la fenêtre d’affichage du périphérique de l’utilisateur. Une personnalisation plus poussée des grilles et de la disposition des colonnes, comme le décalage et l’imbrication, est possible à l’aide du cadre de la boîte à outils de l’expérience Web. La largeur de la fenêtre d’affichage est en pixels et ne change pas la taille de la police.
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
           
 <codeblock react='
@@ -146,8 +146,6 @@ Le cadre de grilles contient 12 colonnes dimensionnées en fonction de la fenêt
 </Container> '></codeblock>
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
       <doctabpanel type="design">
           
 

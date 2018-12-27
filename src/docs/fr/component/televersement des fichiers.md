@@ -17,7 +17,7 @@ L’utilisateur ne saisit pas de texte dans le champ de saisie; celui-ci est rem
 
 *Choisir le fichier* est le bouton d’action que l’utilisateur doit sélectionner. Une fois que l’utilisateur clique sur le bouton, une nouvelle fenêtre apparaît et l’utilisateur peut choisir un fichier. Les types de fichiers sont déterminés par les paramètres du système.
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
           
 <codeblock html='
@@ -53,8 +53,6 @@ L’utilisateur ne saisit pas de texte dans le champ de saisie; celui-ci est rem
 ' react='' /></codeblock>
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
       <doctabpanel type="design">
           
 Les saisies de téléversement de fichiers ont quatre états :

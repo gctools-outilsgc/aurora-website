@@ -33,7 +33,7 @@ Les éléments qui peuvent être utilisés dans une carte sont les suivants :
 
 Tous ces éléments ne sont pas nécessaires dans chaque carte. Vous pouvez choisir les éléments qui vous conviennent le mieux au but de la carte. Cependant, chaque carte devrait avoir un titre principal.
 
-<documentationtabs>
+<documentationtabs remove="react">
     
 <doctabpanel type="html">
           
@@ -110,9 +110,6 @@ Tous ces éléments ne sont pas nécessaires dans chaque carte. Vous pouvez choi
 ' react='' /></codeblock>
       
 </doctabpanel>
-      
-<doctabpanel type="react">
-      </doctabpanel>
       
 <doctabpanel type="design">  
     

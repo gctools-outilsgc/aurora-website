@@ -41,7 +41,7 @@ Les boutons devraient comprendre les états normal, sensitif, accentué, actif e
 
 **Désactivé** : habituellement une version fantôme de l’état normal, cela indique à l’utilisateur que l’action n’est pas disponible.
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
           
 <codeblock html='<button type="button" class="btn btn-primary">Normal</button>' react='<Button color="primary">Normal</Button>'></codeblock>
@@ -115,9 +115,8 @@ Les boutons devraient comprendre les états normal, sensitif, accentué, actif e
 '></codeblock>
       
 </doctabpanel>
-    <doctabpanel type="react">
-      </doctabpanel>
-      <doctabpanel type="design">
+
+<doctabpanel type="design">
                 
 ## Taille et remplissage
 

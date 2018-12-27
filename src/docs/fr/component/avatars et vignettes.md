@@ -36,7 +36,7 @@ title: "Images, avatars et vignettes"
     </div>
 </div>
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
           
 <codeblock html='<img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
@@ -49,9 +49,8 @@ title: "Images, avatars et vignettes"
 ' react='' /><codeblock>
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
-      <doctabpanel type="design">
+
+<doctabpanel type="design">
           
 
 ## Images en série

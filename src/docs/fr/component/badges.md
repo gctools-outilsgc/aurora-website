@@ -13,7 +13,7 @@ title: "Badges"
 
 Les badges sont utilisés pour montrer des notifications et d’autres alertes liées à un élément donné. Les badges ne sont pas autonomes, mais sont combinés à du texte, à des icônes ou à des boutons pour montrer un changement ou une action liée à cette fonctionnalité. Par exemple, un badge à côté du lien de votre boîte de réception indique le nombre de courriels non lus.
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
           
 Au moment de coder les badges, le texte alternatif qui sera lu par les lecteurs d’écran doit également inclure le contexte. Par exemple, le badge devrait indiquer « 40 courriels non lus » au lieu de « 40 ».
@@ -45,9 +45,6 @@ Au moment de coder les badges, le texte alternatif qui sera lu par les lecteurs 
 <Badge color="dark">Nuit</Badge>'></codeblock>
 
 </doctabpanel>
-
-<doctabpanel type="react">
-      </doctabpanel>
 
 <doctabpanel type="design">
     

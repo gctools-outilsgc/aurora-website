@@ -18,10 +18,8 @@ Les infobulles doivent être aussi courtes que possible et fournissent de l’in
 
 Les infobulles sont toujours utilisées pour de l’information supplémentaire. L’information essentielle qui clarifie une action ou démontre les exigences d’une entrée de formulaire devrait toujours être immédiatement visible sur la page.
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
-      </doctabpanel>
-      <doctabpanel type="react">
       </doctabpanel>
       <doctabpanel type="design">
           

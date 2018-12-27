@@ -13,7 +13,7 @@ title: "Saisies textuelles"
 
 Les champs de saisie permettent aux utilisateurs de fournir de l’information en entrant du texte dans une page. L’information peut être entrée au moyen d’une variété de champs de saisie différents comme les champs de texte (zone de texte), les cases à cocher, les boutons radio et la saisie de données. Les champs de saisie apparaissent typiquement dans les formulaires et devraient clairement indiquer que l’utilisateur peut saisir de l’information à l’aide d’étiquettes, d’infobulles, d’espace réservé de texte et d’un style approprié.
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
           
 <codeblock html='
@@ -47,8 +47,6 @@ Les champs de saisie permettent aux utilisateurs de fournir de l’information e
 ' react='' /></codeblock>
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
       <doctabpanel type="design">
           
 

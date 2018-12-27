@@ -11,7 +11,7 @@ title: "Saisies des boutons"
 
 # Saisies des boutons
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
           
 <codeblock html='
@@ -40,8 +40,6 @@ title: "Saisies des boutons"
 ' react='' /></codeblock> 
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
       <doctabpanel type="design">
           
 

@@ -19,7 +19,7 @@ Le fil d’Ariane de ce système de conception est fondé sur l’emplacement, c
 
 Le fil d’Ariane devrait être complémentaire à la navigation principale et ne devrait jamais être utilisé pour remplacer l’ensemble des éléments de navigation. Il est subtil et ne devrait pas dominer visuellement sur la page. Tous les éléments de la liste du fil d’Ariane doivent être des liens, sauf le dernier élément.
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
           
 <codeblock html='
@@ -39,8 +39,6 @@ Le fil d’Ariane devrait être complémentaire à la navigation principale et n
 '></codeblock>
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
       <doctabpanel type="design">
           
 Le fil d’Ariane dans le système de conception est comme suit :

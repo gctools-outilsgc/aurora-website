@@ -15,12 +15,11 @@ Le bouton « Haut de page » permet aux utilisateurs de retourner en haut de la 
 
 Les boutons « Haut de la page » sont nécessaires pour les pages Web ayant un défilement continu ou une page qui comprend beaucoup de contenu. Une bonne façon de procéder consiste à inclure un bouton « Haut de page » pour toute page Web plus longue que quatre écrans.
 
-<documentationtabs>
+<documentationtabs remove="react">
       <doctabpanel type="html">
       </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
-      <doctabpanel type="design">
+    
+<doctabpanel type="design">
           
 Ce bouton devrait toujours porter la mention « Haut de page » puisqu’il s’agit de l’étiquette la plus descriptive et la plus attendue pour la fonction.
 
@@ -37,7 +36,7 @@ Il y a une icône de flèche centrée dans le cercle (flèche vers le haut à pa
 Le texte comporte un remplissage de 9 px sur 15, ayant la couleur de bordure <badge style="background-color: #CECECE;color:black;">#CECECE</badge> de 1 px et un rayon de bordure de 16 px. L’icône de la flèche est alignée à gauche du texte.
 
 ![Compasante web de « Haut de la page »](../../../img\components\haut_de_la_page.png)           
-      </doctabpanel>
-    </documentationtabs>
+    </doctabpanel>
+</documentationtabs>
 
 
