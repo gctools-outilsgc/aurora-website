@@ -31,14 +31,27 @@ Label text has high contrast with the button colour. See Colour for more informa
 
 ## Examples
 Aurora includes various button styles, each serving its own semantic purpose.
+<br>
         
-<button aria-label="Example of primary button in regular state" color="primary">Regular</button> 
-
-<button aria-label="Example of secondary button in regular state" color="secondary">Regular</button>
+<button type="button" color="primary" >Primary</button>
+<button type="button" color="secondary">Secondary</button>
+<button type="button" color="success">Success</button>
+<button type="button" color="danger">Danger</button>
+<button type="button" color="warning">Warning</button>
+<button type="button" color="info">Info</button>
+<button type="button" color="light">Light</button>
+<button type="button" color="dark">Dark</button>
 
 
 ```html
 <button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
 ```
 
 ### Conveying meaning to assistive technologies
@@ -48,7 +61,8 @@ Using color to add meaning only provides a visual indication, which will not be 
 ## Sizes
 Buttons can easily be customized to be larger or smaller. Add `.btn-lg` or `.btn-sm` for additional sizes.
 
-<button aria-label="Example of primary button in regular state" color="primary">Regular</button>
+<button type="button" color="primary" size="sm">Small Button</button>
+<button type="button" color="primary" size="lg">Large Button</button>
 
 ```html
 <button type="button" class="btn btn-primary btn-sm">Small Button</button>
@@ -57,7 +71,7 @@ Buttons can easily be customized to be larger or smaller. Add `.btn-lg` or `.btn
 
 Create block level buttons—those that span the full width of a parent—by adding `.btn-block`.
 
-<button aria-label="Example of primary button in regular state" color="primary">Regular</button>
+<button type="button" color="primary" block="true">Block Button</button>
 
 ```html
 <button type="button" class="btn btn-primary btn-block">Block Button</button>
@@ -97,9 +111,9 @@ Wrap a series of buttons with `.btn` in `.btn-group`.
 
 <div class="mt-2">
     <div class="btn-group" role="group" aria-label="Basic example of button group">
-        <button type="button" class="btn btn-primary">Left</button>
-        <button type="button" class="btn btn-primary">Middle</button>
-        <button type="button" class="btn btn-primary">Right</button>
+        <button type="button" color="primary">Left</button>
+        <button type="button" color="primary">Middle</button>
+        <button type="button" color="primary">Right</button>
     </div>
 </div>
 

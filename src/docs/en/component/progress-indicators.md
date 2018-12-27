@@ -39,6 +39,8 @@ Spinners are used to indicate that a page or function is loading. A general rule
       <doctabpanel type="html">
           
 
+## Step Indicators
+
 ## How it works
 Progress components are built with two HTML elements, some CSS to set the width, and a few attributes. We don’t use the HTML5 `<progress>` element, ensuring you can stack progress bars, animate them, and place text labels over them.
 
@@ -85,8 +87,6 @@ Progress bars should always include a text indicator as well as the visual to pr
     <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
 </div>
 ```
-
-## Step Indicators
 
 ## Spinners
 
