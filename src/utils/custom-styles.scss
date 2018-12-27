@@ -156,6 +156,26 @@ button.switch {
     }
   }
 
+  /* Custom file upload */
+
+.custom-file-label {
+  padding: 0.375rem 6.5rem;
+}
+
+.custom-file-label::after {
+  left:0;
+  right:auto;
+  border-left: none;
+  border-right: 1px solid #CCCCCC;
+  border-radius: $border-radius 0 0 $border-radius;
+  background-color:$primary;
+  color:white;
+}
+
+.custom-file-input:disabled ~ .custom-file-label::after {
+  opacity:0.55;
+}
+
   /* Search box */
 .search-form .form-control {
     padding-right: 40px;
