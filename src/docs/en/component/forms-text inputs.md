@@ -76,8 +76,8 @@ The `<select>` element is used to create a drop-down list.
 
 The `<option>` tags inside the `<select>` element define the available options in the list.
     
-<div class="mt-2">
-    <label for="carSelect">Cars:</label>
+<div class="form-group">
+    <label for="carSelect">Cars</label>
     <select id="carSelect" class="form-control">
     <option value="volvo">Volvo</option>
     <option value="saab">Saab</option>
@@ -87,8 +87,8 @@ The `<option>` tags inside the `<select>` element define the available options i
 </div>
 
 ```html
-<div class="mt-2">
-    <label for="carSelect">Cars:</label>
+<div class="form-group">
+    <label for="carSelect">Cars</label>
     <select id="carSelect" class="form-control">
     <option value="volvo">Volvo</option>
     <option value="saab">Saab</option>
@@ -147,8 +147,8 @@ Select fields are styled as follows:
 
 **Normal**: Rectangle with a height of 42px and a border radius of 4px. Stroke width of 1px coloured <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. The drop down control is right-aligned 27px from the edge of the input. The line on the edge is 1px coloured <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge> and extends until 5px from the top and bottom of the input. 15 by 27 by 15 by 12. The chevron icon is aligned with the text and is 9px from the left edge, and 18px from the top and bottom.
 
-<div class="mt-2">
-    <label for="carSelect">Cars:</label>
+<div class="form-group">
+    <label for="carSelect">Cars</label>
     <select id="carSelect" class="form-control">
     <option value="volvo">Volvo</option>
     <option value="saab">Saab</option>
