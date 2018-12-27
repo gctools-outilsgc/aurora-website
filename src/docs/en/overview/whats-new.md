@@ -17,6 +17,14 @@ For more information about what might be included in future updates, visit the [
 
 ![Aurora banner](../../../img\aurora-banner-small.png)
 
+## V 0.3.2
+December 28, 2018
+
+* New download page that includes the Aurora UI kit and compiled CSS and JavaScript
+* Updated download links throughout the site
+* Helpful resources page that includes links to other Government of Canada and web design resources
+* Updates to colour palettes on the Colour page, including the Canada.ca theme
+
 ## V 0.3.1
 December 14,2018
 
