@@ -18,6 +18,8 @@ import {I18n} from 'react-i18next';
       </doctabpanel>
     </documentationtabs>
 
+  To remove tab link add remove="{section}" ex: <documentationtabs remove="react">
+
   */
 class DocumentationTabs extends React.Component {
   static propTypes = {
@@ -30,8 +32,14 @@ class DocumentationTabs extends React.Component {
     this.changeOutput = this.changeOutput.bind(this);
     const { cookies } = this.props;
 
+    if(this.props.remove == cookies.get('role')){
+      var out = (cookies.get('role') === "html") ? "react" : "html"
+    } else {
+      var out = cookies.get('role');
+    }
+
     this.state = {
-      output: cookies.get('role') || 'html'
+      output: out || 'html'
     };
   }
 
@@ -55,39 +63,47 @@ class DocumentationTabs extends React.Component {
     return (
       <div>
         <Nav className="nav-justified mb-4" tabs>
-          <NavItem>
-            <NavLink
-            href="#"
-            data-toggle="tab"
-            onClick={() => this.changeOutput("html")}
-            className={(!(this.state.output === "html")) ? "" : "active"}>
-              HTML
-            </NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink
-            href="#"
-            onClick={() => this.changeOutput("react")}
-            className={(!(this.state.output === "react")) ? "" : "active"}
-            >
-              React
-            </NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink
-            href="#"
-            onClick={() => this.changeOutput("design")}
-            className={(!(this.state.output === "design")) ? "" : "active"}
-            >
-            <I18n ns={["translation"]}>
-              {
-                (t) => (
-                  t("Design")
-                )
-              }
-            </I18n>
-            </NavLink>
-          </NavItem>
+          {this.props.remove != "html" &&
+            <NavItem>
+              <NavLink
+              href="#"
+              data-toggle="tab"
+              onClick={() => this.changeOutput("html")}
+              className={(!(this.state.output === "html")) ? "" : "active"}>
+                HTML
+              </NavLink>
+            </NavItem>
+          }
+          {this.props.remove != "react" &&
+            <NavItem>
+              <NavLink
+              href="#"
+              data-toggle="tab"
+              onClick={() => this.changeOutput("react")}
+              className={(!(this.state.output === "react")) ? "" : "active"}
+              >
+                React
+              </NavLink>
+            </NavItem>
+          }
+          {this.props.remove != "design" &&
+            <NavItem>
+              <NavLink
+              href="#"
+              data-toggle="tab"
+              onClick={() => this.changeOutput("design")}
+              className={(!(this.state.output === "design")) ? "" : "active"}
+              >
+              <I18n ns={["translation"]}>
+                {
+                  (t) => (
+                    t("Design")
+                  )
+                }
+              </I18n>
+              </NavLink>
+            </NavItem>
+          }
         </Nav>
         {tabPanels}
       </div>
