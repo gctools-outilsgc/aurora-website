@@ -28,33 +28,33 @@ Pills are similar to chips, but aren't necessarily associated with a particular 
 
 <documentationtabs>
       <doctabpanel type="html">
-          
+
+
 ```html
-    <div class="mt-2">
-        <a href="#!" class="badge badge-primary badge-tag">HTML</a>
-        <a href="#!" class="badge badge-primary badge-tag">CSS</a>
-        <a href="#!" class="badge badge-primary badge-tag">JavaScript</a>
-    </div>
-    <div class="mt-2">
-        <a href="#!" class="badge badge-primary badge-tag">
+<div class="mt-2">
+    <a href="#" class="badge badge-primary badge-tag">HTML</a>
+    <a href="#" class="badge badge-primary badge-tag">CSS</a>
+    <a href="#" class="badge badge-primary badge-tag">JavaScript</a>
+</div>
+<div class="mt-2">
+    <a href="#" class="badge badge-primary badge-tag">
         HTML
         <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
-        </a>
-        <a href="#!" class="badge badge-primary badge-tag">
+    </a>
+    <a href="#" class="badge badge-primary badge-tag">
         CSS
         <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
-        </a>
-        <a href="#!" class="badge badge-primary badge-tag">
+    </a>
+    <a href="#" class="badge badge-primary badge-tag">
         JavaScript
         <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
-        </a>
-    </div>
+    </a>
+</div>
 ```
 
 ```html
-    <span class="badge badge-primary"><img alt="small user avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow"> User 1</span>
-    <span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow"> User 2</span>
-' react='' />
+<span class="badge badge-primary"><img alt="small user avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow"> User 1</span>
+<span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow"> User 2</span>
 ```
 
 ```html
@@ -62,7 +62,6 @@ Pills are similar to chips, but aren't necessarily associated with a particular 
         <span class="badge badge-primary">Primary</span>
         <span class="badge badge-secondary">Secondary</span>
     </div>
-' react='' />
 ```
 
 </doctabpanel>
