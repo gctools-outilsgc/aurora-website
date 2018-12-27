@@ -50,11 +50,10 @@ Aurora uses a custom style for checkboxes. See the example below:
 </div>
 
 ```html
-    <div class="custom-control custom-checkbox">
-        <input type="checkbox" class="custom-control-input" id="customCheck1">
-        <label class="custom-control-label" for="customCheck1">Custom check</label>
-    </div>
-' react='' />
+<div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" id="customCheck1">
+    <label class="custom-control-label" for="customCheck1">Custom check</label>
+</div>
 ```
 
 ## Radio Buttons
@@ -71,15 +70,15 @@ Aurora uses a custom style for radio buttons. See the example below:
 </div>
 
 ```html
-    <div class="custom-control custom-radio">
-      <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-      <label class="custom-control-label" for="customRadio1">Custom radio 1</label>
-    </div>
-    <div class="custom-control custom-radio">
-      <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-      <label class="custom-control-label" for="customRadio2">Custom radio 2</label>
-    </div>
-' react='' />
+<div class="custom-control custom-radio">
+    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio1">Custom radio 1</label>
+</div>
+
+<div class="custom-control custom-radio">
+    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio2">Custom radio 2</label>
+</div>
 ```
 
 ### Disabled
@@ -119,7 +118,6 @@ Switches are a custom component used when there is only a yes/no or on/off optio
   <span class="switch__toggle"></span>
   Toggle switch
 </label>
-' react='' />
 ```
           
 </doctabpanel>

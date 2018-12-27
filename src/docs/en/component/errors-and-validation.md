@@ -41,14 +41,14 @@ Fields should be validated when the user has completed the required field inform
 </section>
 
 ```html
-    <section class="alert alert-danger alert-icon-border">
-        <h2>Field error or required</h2>
-        <ul class="list-unstyled">
+<section class="alert alert-danger alert-icon-border">
+    <h2>Field error or required</h2>
+    <ul class="list-unstyled">
         <li><a href="#exampleInputText1-html" class="alert-link">1 - Username already exists</a></li>
         <li><a href="#customCheck1-html" class="alert-link">2 - You must agreed to the Terms and Conditions</a></li>
         <li><a href="#customRadio2-html" class="alert-link">3 - You must select one option</a></li>
-        </ul>
-    </section>
+    </ul>
+</section>
 ```
 
 ## Inline Errors
@@ -122,6 +122,31 @@ Fields should be validated when the user has completed the required field inform
     <input type="radio" id="customRadio4-html" name="customRadio2-html" class="custom-control-input  is-valid">
     <label class="custom-control-label" for="customRadio4-html">Custom radio 2</label>
 </div>
+
+```html
+<div class="form-group">
+    <label for="exampleInputText1-html">Username</label>
+    <input type="text" class="form-control is-invalid" aria-describedby="Text1Error-html" id="exampleInputText1-html" placeholder="aurora.design">
+    <small id="Text1Error-html" class="invalid-feedback">Username already exists</small>
+</div>                
+
+<div class="custom-control custom-checkbox mb-3">
+    <input type="checkbox" class="custom-control-input is-invalid" id="customCheck1-html" aria-describedby="CheckboxError-html">
+    <label class="custom-control-label" for="customCheck1-html">Agree to Terms and Conditions</label>
+    <small id="CheckboxError-html" class="invalid-feedback">You must agree to the Terms and Conditions</small>
+</div>
+
+<div class="custom-control custom-radio">
+    <input type="radio" id="customRadio1-html" name="customRadio-html" class="custom-control-input is-invalid" aria-describedby="RadioError-html">
+    <label class="custom-control-label" for="customRadio1-html">Custom radio 1</label>
+</div> 
+
+<div class="custom-control custom-radio mb-3">
+    <input type="radio" id="customRadio2-html" name="customRadio-html" class="custom-control-input  is-invalid" aria-describedby="RadioError-html">
+    <label class="custom-control-label" for="customRadio2-html">Custom radio 2</label>
+    <small id="RadioError-html" class="invalid-feedback">You must select one option</small>
+</div>
+```
 
 </doctabpanel>
       <doctabpanel type="react">

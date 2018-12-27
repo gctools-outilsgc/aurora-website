@@ -29,22 +29,15 @@ Breadcrumbs indicate the current page's location within a navigational hierarchy
     <breadcrumbitem><a href="#">Second Page</a></breadcrumbitem>
     <breadcrumbitem active="true">Current Page</breadcrumbitem>
 </breadcrumb>
-          
+
 ```html
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">First Page</a></li>
-            <li class="breadcrumb-item"><a href="#">Second Page</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Current Page</li>
-        </ol>
-    </nav>
-' react='
-<Breadcrumb>
-    <BreadCrumbItem><a href="#">First Page</a></BreadCrumbItem>
-    <BreadCrumbItem><a href="#">Page secondaire</a></BreadCrumbItem>
-    <BreadCrumbItem active="true">Second Page</BreadCrumbItem>
-</Breadcrumb>
-'>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">First Page</a></li>
+        <li class="breadcrumb-item"><a href="#">Second Page</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Current Page</li>
+    </ol>
+</nav>
 ```
 
 ## Accessibility

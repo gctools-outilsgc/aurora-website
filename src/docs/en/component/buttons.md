@@ -38,7 +38,7 @@ Aurora includes various button styles, each serving its own semantic purpose.
 
 
 ```html
-    <button type="button" class="btn btn-primary" disabled>Disabled</button>
+<button type="button" class="btn btn-primary">Primary</button>
 ```
 
 ### Conveying meaning to assistive technologies
@@ -51,8 +51,8 @@ Buttons can easily be customized to be larger or smaller. Add `.btn-lg` or `.btn
 <button aria-label="Example of primary button in regular state" color="primary">Regular</button>
 
 ```html
-    <button type="button" class="btn btn-primary" disabled>Disabled</button>
-' react=''>
+<button type="button" class="btn btn-primary btn-sm">Small Button</button>
+<button type="button" class="btn btn-primary btn-lg">Large Button</button>
 ```
 
 Create block level buttons—those that span the full width of a parent—by adding `.btn-block`.
@@ -60,7 +60,7 @@ Create block level buttons—those that span the full width of a parent—by add
 <button aria-label="Example of primary button in regular state" color="primary">Regular</button>
 
 ```html
-    <button type="button" class="btn btn-primary" disabled>Disabled</button>
+<button type="button" class="btn btn-primary btn-block">Block Button</button>
 ```
 
 ## Dropdowns
@@ -77,27 +77,16 @@ Any single `.btn` can be turned into a dropdown toggle with some markup changes.
 </mdbuttondropdown>
 
 ```html
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            Dropdown button
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Dropdown button
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
     </div>
-' react='
-<ButtonDropdown direction="down" isOpen="true" toggle={this.toggle} style={{marginBottom: "15px"}} color={this.props.color}>
-    <DropdownToggle caret {...this.props}>
-        Reply
-    </DropdownToggle>
-    <DropdownMenu>
-        <DropdownItem>Action 1</DropdownItem>
-        <DropdownItem>Action 2</DropdownItem>
-        <DropdownItem>Action 3</DropdownItem>
-    </DropdownMenu>
-</ButtonDropdown>
+</div>
 ```
 
 
@@ -115,19 +104,12 @@ Wrap a series of buttons with `.btn` in `.btn-group`.
 </div>
 
 ```html
-    <div class="btn-group" role="group" aria-label="Basic example of button group">
-        <button type="button" class="btn btn-primary">Left</button>
-        <button type="button" class="btn btn-primary">Middle</button>
-        <button type="button" class="btn btn-primary">Right</button>
-    </div>
-' react='
-<ButtonGroup style="margin-bottom: 15px">
-    <Button color="primary">Left</Button>
-    <Button color="primary">Middle</Button>
-    <Button color="primary">Right</Button>
-</ButtonGroup>
+<div class="btn-group" role="group" aria-label="Basic example of button group">
+    <button type="button" class="btn btn-primary">Left</button>
+    <button type="button" class="btn btn-primary">Middle</button>
+    <button type="button" class="btn btn-primary">Right</button>
+</div>
 ```
-
 
 ### Sizing
 

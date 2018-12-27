@@ -47,20 +47,12 @@ Be sure to use an appropriate `type` attribute on all inputs (e.g., `email` for 
     <input type="email" class="form-control" id="inputEmail3" aria-describedby="emailHelp1">
   </div>
 
-
-
-<simplecodeblock code='
-    <div class="form-group"> 
-        <label for="inputEmail3">Email Address</label> 
-        <input type="email" class="form-control" id="inputEmail3" aria-describedby="emailHelp1"> 
-    </div>
-' 
-language='html'>
-</simplecodeblock>
-
-
-
-*Codeblock*
+```html
+<div class="form-group"> 
+    <label for="inputEmail3">Email Address</label> 
+    <input type="email" class="form-control" id="inputEmail3" aria-describedby="emailHelp1"> 
+</div>
+```
 
 ## Text Area
 
@@ -70,8 +62,13 @@ The `<textarea>` tag defines a multi-line text input control.
     <label for="exampleFormControlTextarea1">Comments</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
-  
-*Codeblock*
+
+```html
+<div class="form-group">
+    <label for="exampleFormControlTextarea1">Comments</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+```
 
 ## Select Field
 
@@ -89,17 +86,17 @@ The `<option>` tags inside the `<select>` element define the available options i
     </select>
 </div>
 
-<simplecodeblock code='
-    <div class="mt-2">
-        <label for="carSelect">Cars:</label>
-        <select id="carSelect" class="form-control">
-        <option value="volvo">Volvo</option>
-        <option value="saab">Saab</option>
-        <option value="mercedes">Mercedes</option>
-        <option value="audi">Audi</option>
-        </select>
-    </div>
-' language='html' /></simplecodeblock>
+```html
+<div class="mt-2">
+    <label for="carSelect">Cars:</label>
+    <select id="carSelect" class="form-control">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+    </select>
+</div>
+```
 
 ## Microcopy
 

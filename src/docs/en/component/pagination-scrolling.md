@@ -61,60 +61,25 @@ In addition, as pages likely have more than one such navigation section, it’s 
 </nav>
 
 ```html
-    react='
-    <Pagination>
-        <PaginationItem>
-          <PaginationLink previous href="#" />
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink href="#">
-            1
-          </PaginationLink>
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink href="#">
-            2
-          </PaginationLink>
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink href="#">
-            3
-          </PaginationLink>
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink href="#">
-            4
-          </PaginationLink>
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink href="#">
-            5
-          </PaginationLink>
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink next href="#" />
-        </PaginationItem>
-    </Pagination>'
-    html='
-    <nav aria-label="Page navigation pages"> 
-        <ul class="pagination">
-            <li class="page-item">
-            <a class="page-link" href="#" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-                <span class="sr-only">Previous</span>
-            </a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item">
-            <a class="page-link" href="#" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-                <span class="sr-only">Next</span>
-            </a>
-            </li>
-        </ul>
-    </nav>'>
+<nav aria-label="Page navigation pages"> 
+    <ul class="pagination">
+        <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+        </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+        </a>
+        </li>
+    </ul>
+</nav>
 ```
     
 Looking to use an icon or symbol in place of text for some pagination links? Be sure to provide proper screen reader support with aria attributes and the `.sr-only` utility.
@@ -147,61 +112,26 @@ You can optionally swap out active or disabled anchors for `<span>`, or omit the
 </nav>
 
 ```html
-<Pagination>
-    <PaginationItem>
-        <PaginationLink previous href="#" />
-    </PaginationItem>
-    <PaginationItem>
-        <PaginationLink href="#">
-        1
-        </PaginationLink>
-    </PaginationItem>
-    <PaginationItem>
-        <PaginationLink href="#">
-        2
-        </PaginationLink>
-    </PaginationItem>
-    <PaginationItem>
-        <PaginationLink href="#">
-        3
-        </PaginationLink>
-    </PaginationItem>
-    <PaginationItem>
-        <PaginationLink href="#">
-        4
-        </PaginationLink>
-    </PaginationItem>
-    <PaginationItem>
-        <PaginationLink href="#">
-        5
-        </PaginationLink>
-    </PaginationItem>
-    <PaginationItem>
-        <PaginationLink next href="#" />
-    </PaginationItem>
-</Pagination>
-
 <nav aria-label="Page navigation pages">
     <ul class="pagination">
-    <li class="page-item disabled">
-    <a class="page-link" href="#" tabindex="-1" aria-label="Previous">
+        <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1" aria-label="Previous">
         <span aria-hidden="true">&laquo;</span>
         <span class="sr-only">Previous</span>
-    </a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item active"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-    <a class="page-link" href="#" aria-label="Next">
+        </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item active"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
         <span aria-hidden="true">&raquo;</span>
         <span class="sr-only">Next</span>
-    </a>
-    </li>
-</ul>
+        </a>
+        </li>
+    </ul>
 </nav>
 ```
-
 
 </doctabpanel>
 

@@ -55,15 +55,14 @@ Below is an example of a basic card with mixed content and a fixed width. Cards 
 </div>
 
 ```html
-    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-        <div class="card-body">
-            <h3 class="card-title h5">Card title</h3>
-            <div class="card-subtitle text-muted">Meta Information</div>
-            <p class="card-text">Some quick example text to build on the card title</p>
-            <a href="#" class="card-link">Another link</a>
-        </div>
+<div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+    <div class="card-body">
+        <h3 class="card-title h5">Card title</h3>
+        <div class="card-subtitle text-muted">Meta Information</div>
+        <p class="card-text">Some quick example text to build on the card title</p>
+        <a href="#" class="card-link">Another link</a>
     </div>
-' react='' />
+</div>
 ```
 
 ### Body
@@ -76,12 +75,11 @@ The building block of a card is the .card-body. Use it whenever you need a padde
 </div>
 
 ```html
-    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title</p>
-        </div>
+<div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+    <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title</p>
     </div>
-' react='' />
+</div>
 ```
 
 ### Titles, text, and links
@@ -99,15 +97,14 @@ Subtitles are used by adding a `.card-subtitle` to a `<h*>` tag. If the `.card-t
 </div>
 
 ```html
-    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-        <div class="card-body">
-            <h3 class="card-title h5">Card title</h3>
-            <div class="card-subtitle text-muted">Meta Information</div>
-            <p class="card-text">Some quick example text to build on the card title</p>
-            <a href="#" class="card-link">Another link</a>
-        </div>
+<div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+    <div class="card-body">
+        <h3 class="card-title h5">Card title</h3>
+        <div class="card-subtitle text-muted">Meta Information</div>
+        <p class="card-text">Some quick example text to build on the card title</p>
+        <a href="#" class="card-link">Another link</a>
     </div>
-' react='' />
+</div>
 ```
 
 ### Images
@@ -123,13 +120,12 @@ Subtitles are used by adding a `.card-subtitle` to a `<h*>` tag. If the `.card-t
 </div>
 
 ```html
-    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-        <div class="card-body">
-            <h3 class="card-title h5">Card title</h3>
-            <p class="card-text">Some quick example text to build on the card title</p>
-        </div>
+<div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+    <div class="card-body">
+        <h3 class="card-title h5">Card title</h3>
+        <p class="card-text">Some quick example text to build on the card title</p>
     </div>
-' react='' />
+</div>
 ```
 
 ### Buttons
@@ -148,17 +144,16 @@ Buttons require no additional classes, and can be added to a card by simply addi
 </div>
 
 ```html
-    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-        <div class="card-body">
-            <h3 class="card-title h5">Card title</h3>
-            <p class="card-text">Some quick example text to build on the card title</p>
-        </div>
-        <div class="card-footer">
-            <button type="button" class="btn btn-primary">Primary</button>
-            <button type="button" class="btn btn-outline-primary">Secondary</button>
-        </div>
+<div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+    <div class="card-body">
+        <h3 class="card-title h5">Card title</h3>
+         <p class="card-text">Some quick example text to build on the card title</p>
     </div>
-' react='' />
+    <div class="card-footer">
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-outline-primary">Secondary</button>
+    </div>
+</div>
 ```
           
 </doctabpanel>

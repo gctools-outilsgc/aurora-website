@@ -58,10 +58,10 @@ Pills are similar to chips, but aren't necessarily associated with a particular 
 ```
 
 ```html
-    <div class="mt-2">
-        <span class="badge badge-primary">Primary</span>
-        <span class="badge badge-secondary">Secondary</span>
-    </div>
+<div class="mt-2">
+    <span class="badge badge-primary">Primary</span>
+    <span class="badge badge-secondary">Secondary</span>
+</div>
 ```
 
 </doctabpanel>

@@ -28,16 +28,15 @@ When used on cards, dividers are placed underneath the card heading.
 </div>
 
 ```html
-    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <hr />
-            <div class="card-subtitle text-muted">Meta Information</div>
-            <p class="card-text">Some quick example text to build on the card title</p>
-            <a href="#" class="card-link">Another link</a>
-        </div>
+<div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <hr />
+        <div class="card-subtitle text-muted">Meta Information</div>
+        <p class="card-text">Some quick example text to build on the card title</p>
+        <a href="#" class="card-link">Another link</a>
     </div>
-' react='' />
+</div>
 ```
 
 <p>Hello. I'm a little bit of body text. Plain and simple.</p>
@@ -45,8 +44,7 @@ When used on cards, dividers are placed underneath the card heading.
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin sem augue, porttitor eleifend eros tincidunt in. Duis mattis erat orci. Fusce aliquet sapien sit amet ex suscipit, eu pellentesque est posuere.</p>
 
 ```html
-    <p>Hello. Im a little bit of body text. Plain and simple.</p>
-    <hr />
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin sem augue, porttitor eleifend eros tincidunt in. Duis mattis erat orci. Fusce aliquet sapien sit amet ex suscipit, eu pellentesque est posuere.</p>
-' react='' />
+<p>Hello. Im a little bit of body text. Plain and simple.</p>
+<hr />
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin sem augue, porttitor eleifend eros tincidunt in. Duis mattis erat orci. Fusce aliquet sapien sit amet ex suscipit, eu pellentesque est posuere.</p>
 ```

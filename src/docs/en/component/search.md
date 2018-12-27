@@ -47,7 +47,12 @@ We have two custom variations of Search fields.
     <input type="text" class="form-control" id="search" placeholder="Search">
     <span class="search-form-addon"></span>
 </div>
-'react=''>
+
+<div class="form-inline search-form search-form-round">
+    <label for="search2" class="sr-only">Search</label>
+    <input type="text" class="form-control" id="search2" placeholder="Search">
+    <span class="search-form-addon"></span>
+</div>
 ```
 
 </doctabpanel>
