@@ -36,45 +36,43 @@ Alerts are available for any length of text, as well as an optional dismiss butt
     This is a success alert with <a href="#example" class="alert-link">an example link</a>.
 </Alert>
 
-<codeblock html='
-    <div class="alert alert-danger" role="alert">
+```html
+<div class="alert alert-danger" role="alert">
         This is a danger alert with <a href="#" class="alert-link">an example link</a>.
     </div>
 ' react='
 <Alert color="danger">
     This is a danger alert with <a href="#" class="alert-link">an example link</a>.
 </Alert>
-'></codeblock>
-
-<codeblock html='
-    <div class="alert alert-warning" role="alert">
+'>
+    
+<div class="alert alert-warning" role="alert">
         This is a warning alert with <a href="#" class="alert-link">an example link</a>.
     </div>
 ' react='
 <Alert color="warning">
     This is a warning alert with <a href="#" class="alert-link">an example link</a>.
 </Alert>
-'></codeblock>
+'>
 
-<codeblock html='
-    <div class="alert alert-info" role="alert">
+<div class="alert alert-info" role="alert">
         This is an info alert with <a href="#" class="alert-link">an example link</a>.
     </div>
 ' react='
 <Alert color="info">
     This is an info alert with <a href="#" class="alert-link">an example link</a>.
 </Alert>
-'></codeblock>
+'>
 
-<codeblock html='
-    <div class="alert alert-success" role="alert">
+<div class="alert alert-success" role="alert">
         This is a success alert with <a href="#" class="alert-link">an example link</a>.
     </div>
 ' react='
 <Alert color="success">
     This is a success alert with <a href="#" class="alert-link">an example link</a>.
 </Alert>
-'></codeblock>
+'>
+```
 
           
 ## Conveying meaning to assistive technologies
@@ -89,7 +87,7 @@ Use the `.alert-link` utility class to quickly provide matching colored links wi
     This is a success alert with <a href="#example" class="alert-link">an example link</a>.
 </Alert>
 
-<codeblock html='
+```html
     <div class="alert alert-danger" role="alert">
         This is a danger alert with <a href="#" class="alert-link">an example link</a>.
     </div>
@@ -97,7 +95,8 @@ Use the `.alert-link` utility class to quickly provide matching colored links wi
 <Alert color="danger">
     This is a danger alert with <a href="#" class="alert-link">an example link</a>.
 </Alert>
-'></codeblock>
+'>
+```
 
 ## Dismissing
 

@@ -56,23 +56,26 @@ Add labels to your progress bars by placing text within the .progress-bar.
 
 Progress bars should always include a text indicator as well as the visual to provide more context. This text should be included in the `<alt>` tag.
 
-<codeblock html='
+```html
     <div class="progress">
         <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
     </div>
-' react='' /></codeblock>
+' react='' />
+```
 
-<codeblock html='
+```html
     <div class="progress">
         <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
     </div>
-' react='' /></codeblock>
+' react='' />
+```
 
-<codeblock html='
+```html
     <div class="progress">
         <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
     </div>
-' react='' /></codeblock>
+' react='' />
+```
 
 ## Step Indicators
 

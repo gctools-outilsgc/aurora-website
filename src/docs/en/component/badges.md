@@ -30,14 +30,17 @@ Badges can be used as part of links or buttons to provide a counter.
   </a>
 </div>
 
-<codeblock html='<a href="#">
-  Profile <span class="badge badge-secondary">9</span>
-  <span class="sr-only">unread messages</span>
-</a>
-' react='<a href="#">
-  Profile <Badge color="secondary">9</Badge>
-  <span class="sr-only">unread messages</span>
-</a>'></codeblock>
+```html 
+    <a href="#">
+        Profile <span class="badge badge-secondary">9</span>
+        <span class="sr-only">unread messages</span>
+    </a>
+    ' react='<a href="#">
+    Profile <Badge color="secondary">9</Badge>
+    <span class="sr-only">unread messages</span>
+</a>'>
+
+```
 
 
 ## Contextual variations
@@ -56,22 +59,27 @@ Add any of the below mentioned modifier classes to change the appearance of a ba
   <span class="badge badge-dark">Dark</span>
 </div>
 
-<codeblock html='<span class="badge badge-primary">Primary</span>
-<span class="badge badge-secondary">Secondary</span>
-<span class="badge badge-success">Success</span>
-<span class="badge badge-danger">Danger</span>
-<span class="badge badge-warning">Warning</span>
-<span class="badge badge-info">Info</span>
-<span class="badge badge-light">Light</span>
-<span class="badge badge-dark">Dark</span>
-' react='<Badge color="primary">Primary</Badge>
-<Badge color="secondary">Secondary</Badge>
-<Badge color="success">Success</Badge>
-<Badge color="danger">Danger</Badge>
-<Badge color="warning">Warning</Badge>
-<Badge color="info">Info</Badge>
-<Badge color="light">Light</Badge>
-<Badge color="dark">Dark</Badge>'></codeblock>
+```html
+    <span class="badge badge-primary">Primary</span>
+    <span class="badge badge-secondary">Secondary</span>
+    <span class="badge badge-success">Success</span>
+    <span class="badge badge-danger">Danger</span>
+    <span class="badge badge-warning">Warning</span>
+    <span class="badge badge-info">Info</span>
+    <span class="badge badge-light">Light</span>
+    <span class="badge badge-dark">Dark</span>
+
+    ' react='<Badge color="primary">Primary</Badge>
+        <Badge color="secondary">Secondary</Badge>
+        <Badge color="success">Success</Badge>
+        <Badge color="danger">Danger</Badge>
+        <Badge color="warning">Warning</Badge>
+        <Badge color="info">Info</Badge>
+        <Badge color="light">Light</Badge>
+        <Badge color="dark">Dark</Badge>'>
+
+```
+
 
 ## Accessbility considerations
         

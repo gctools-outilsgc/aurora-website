@@ -33,13 +33,14 @@ If you want more information about customizing this component, visit [Bootstrap'
     <label class="custom-file-label" for="customFile">Choose file</label>
 </div>
 
-<codeblock html='
+```html
     <div class="custom-file">
         <input type="file" id="file" class="custom-file-input">
         <span class="custom-file-control"></span>
         <label class="custom-file-label" for="customFile">Choose file</label>
     </div>
-' react='' /></codeblock>
+' react='' />
+```
 
 </doctabpanel>
       <doctabpanel type="react">

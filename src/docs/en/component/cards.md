@@ -54,7 +54,7 @@ Below is an example of a basic card with mixed content and a fixed width. Cards 
     </div>
 </div>
 
-<codeblock html='
+```html
     <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
         <div class="card-body">
             <h3 class="card-title h5">Card title</h3>
@@ -63,7 +63,8 @@ Below is an example of a basic card with mixed content and a fixed width. Cards 
             <a href="#" class="card-link">Another link</a>
         </div>
     </div>
-' react='' /></codeblock>
+' react='' />
+```
 
 ### Body
 The building block of a card is the .card-body. Use it whenever you need a padded section within a card.
@@ -74,13 +75,14 @@ The building block of a card is the .card-body. Use it whenever you need a padde
     </div>
 </div>
 
-<codeblock html='
+```html
     <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
         <div class="card-body">
             <p class="card-text">Some quick example text to build on the card title</p>
         </div>
     </div>
-' react='' /></codeblock>
+' react='' />
+```
 
 ### Titles, text, and links
 Card titles are used by adding `.card-title` to a `<h*>` tag. In the same way, links are added and placed next to each other by adding `.card-link` to an `<a>` tag.
@@ -96,7 +98,7 @@ Subtitles are used by adding a `.card-subtitle` to a `<h*>` tag. If the `.card-t
     </div>
 </div>
 
-<codeblock html='
+```html
     <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
         <div class="card-body">
             <h3 class="card-title h5">Card title</h3>
@@ -105,7 +107,8 @@ Subtitles are used by adding a `.card-subtitle` to a `<h*>` tag. If the `.card-t
             <a href="#" class="card-link">Another link</a>
         </div>
     </div>
-' react='' /></codeblock>
+' react='' />
+```
 
 ### Images
 
@@ -119,14 +122,15 @@ Subtitles are used by adding a `.card-subtitle` to a `<h*>` tag. If the `.card-t
     </div>
 </div>
 
-<codeblock html='
+```html
     <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
         <div class="card-body">
             <h3 class="card-title h5">Card title</h3>
             <p class="card-text">Some quick example text to build on the card title</p>
         </div>
     </div>
-' react='' /></codeblock>
+' react='' />
+```
 
 ### Buttons
 
@@ -143,7 +147,7 @@ Buttons require no additional classes, and can be added to a card by simply addi
     </div>
 </div>
 
-<codeblock html='
+```html
     <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
         <div class="card-body">
             <h3 class="card-title h5">Card title</h3>
@@ -154,9 +158,9 @@ Buttons require no additional classes, and can be added to a card by simply addi
             <button type="button" class="btn btn-outline-primary">Secondary</button>
         </div>
     </div>
-' react='' /></codeblock>
+' react='' />
+```
           
-
 </doctabpanel>
       <doctabpanel type="react">
       </doctabpanel>

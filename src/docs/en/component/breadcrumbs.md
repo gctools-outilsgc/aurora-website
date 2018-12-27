@@ -30,7 +30,7 @@ Breadcrumbs indicate the current page's location within a navigational hierarchy
     <breadcrumbitem active="true">Current Page</breadcrumbitem>
 </breadcrumb>
           
-<codeblock html='
+```html
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">First Page</a></li>
@@ -44,7 +44,8 @@ Breadcrumbs indicate the current page's location within a navigational hierarchy
     <BreadCrumbItem><a href="#">Page secondaire</a></BreadCrumbItem>
     <BreadCrumbItem active="true">Second Page</BreadCrumbItem>
 </Breadcrumb>
-'></codeblock>
+'>
+```
 
 ## Accessibility
 Since breadcrumbs provide a navigation, it’s a good idea to add a meaningful label such as `aria-label="breadcrumb"` to describe the type of navigation provided in the `<nav>` element, as well as applying an `aria-current="page"` to the last item of the set to indicate that it represents the current page.

@@ -60,7 +60,7 @@ In addition, as pages likely have more than one such navigation section, it’s 
     </ul>
 </nav>
 
-<codeblock
+```html
     react='
     <Pagination>
         <PaginationItem>
@@ -115,7 +115,7 @@ In addition, as pages likely have more than one such navigation section, it’s 
             </li>
         </ul>
     </nav>'>
-</codeblock>
+```
     
 Looking to use an icon or symbol in place of text for some pagination links? Be sure to provide proper screen reader support with aria attributes and the `.sr-only` utility.
 
@@ -146,7 +146,7 @@ You can optionally swap out active or disabled anchors for `<span>`, or omit the
     </ul>
 </nav>
           
-<codeblock
+```html
     react='
     <Pagination>
         <PaginationItem>
@@ -201,7 +201,7 @@ You can optionally swap out active or disabled anchors for `<span>`, or omit the
         </li>
     </ul>
 </nav>'>
-</codeblock>
+```
 
 </doctabpanel>
 

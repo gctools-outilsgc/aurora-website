@@ -36,9 +36,10 @@ Aurora includes various button styles, each serving its own semantic purpose.
 
 <button aria-label="Example of secondary button in regular state" color="secondary">Regular</button>
 
-<codeblock html='
+
+```html
     <button type="button" class="btn btn-primary" disabled>Disabled</button>
-' react=''></codeblock>
+```
 
 ### Conveying meaning to assistive technologies
 
@@ -49,17 +50,18 @@ Buttons can easily be customized to be larger or smaller. Add `.btn-lg` or `.btn
 
 <button aria-label="Example of primary button in regular state" color="primary">Regular</button>
 
-<codeblock html='
+```html
     <button type="button" class="btn btn-primary" disabled>Disabled</button>
-' react=''></codeblock>
+' react=''>
+```
 
 Create block level buttons—those that span the full width of a parent—by adding `.btn-block`.
 
 <button aria-label="Example of primary button in regular state" color="primary">Regular</button>
 
-<codeblock html='
+```html
     <button type="button" class="btn btn-primary" disabled>Disabled</button>
-' react=''></codeblock>
+```
 
 ## Dropdowns
 Dropdowns are toggleable, contextual overlays for displaying lists of links and more. They’re made interactive with the included Bootstrap dropdown JavaScript plugin. They’re toggled by clicking, not by hovering. 
@@ -74,7 +76,7 @@ Any single `.btn` can be turned into a dropdown toggle with some markup changes.
 <mdbuttondropdown color="primary" title="Regular">
 </mdbuttondropdown>
 
-<codeblock html='
+```html
     <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
             Dropdown button
@@ -96,7 +98,7 @@ Any single `.btn` can be turned into a dropdown toggle with some markup changes.
         <DropdownItem>Action 3</DropdownItem>
     </DropdownMenu>
 </ButtonDropdown>
-'></codeblock>
+```
 
 
 ## Button group
@@ -112,7 +114,7 @@ Wrap a series of buttons with `.btn` in `.btn-group`.
     </div>
 </div>
 
-<codeblock html='
+```html
     <div class="btn-group" role="group" aria-label="Basic example of button group">
         <button type="button" class="btn btn-primary">Left</button>
         <button type="button" class="btn btn-primary">Middle</button>
@@ -124,7 +126,7 @@ Wrap a series of buttons with `.btn` in `.btn-group`.
     <Button color="primary">Middle</Button>
     <Button color="primary">Right</Button>
 </ButtonGroup>
-'></codeblock>
+```
 
 
 ### Sizing

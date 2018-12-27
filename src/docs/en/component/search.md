@@ -41,13 +41,14 @@ We have two custom variations of Search fields.
     <span class="search-form-addon"></span>
 </div>
 
-<codeblock html='
+```html
 <div class="form-inline search-form">
     <label for="search" class="sr-only">Search</label>
     <input type="text" class="form-control" id="search" placeholder="Search">
     <span class="search-form-addon"></span>
 </div>
-'react=''></codeblock>
+'react=''>
+```
 
 </doctabpanel>
       <doctabpanel type="react">
