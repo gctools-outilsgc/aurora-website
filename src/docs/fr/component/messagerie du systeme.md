@@ -21,36 +21,36 @@ Les notifications du système sont de courts messages qui apparaissent pour comm
 *texte ici*
     
 <Alert color="danger">
-    This is a danger alert with <a href="#example" class="alert-link">an example link</a>.
+    C’est une alerte en cas de danger avec un <a href="#example" class="alert-link">exemple de lien.</a>
 </Alert>
 
 <Alert color="warning">
-    This is a warning alert with <a href="#example" class="alert-link">an example link</a>.
+    C’est une alerte d’avertissement avec un <a href="#example" class="alert-link">exemple de lien.</a>
 </Alert>
 
 <Alert color="info">
-    This is an info alert with <a href="#example" class="alert-link">an example link</a>.
+   C’est une alerte d’information avec un <a href="#example" class="alert-link">exemple de lien.</a>.
 </Alert>
 
 <Alert color="success">
-    This is a success alert with <a href="#example" class="alert-link">an example link</a>.
+    C’est une alerte en cas de succès avec un <a href="#example" class="alert-link">exemple de lien.</a>.
 </Alert>
 
 ```html
 <div class="alert alert-danger" role="alert">
-    This is a danger alert with <a href="#" class="alert-link">an example link</a>.
+    C’est une alerte en cas de danger avec un <a href="#example" class="alert-link">exemple de lien.</a>
 </div>
 
 <div class="alert alert-warning" role="alert">
-    This is a warning alert with <a href="#" class="alert-link">an example link</a>.
+    C’est une alerte d’avertissement avec un <a href="#example" class="alert-link">exemple de lien.</a>
 </div>
 
 <div class="alert alert-info" role="alert">
-    This is an info alert with <a href="#" class="alert-link">an example link</a>.
+    C’est une alerte d’information avec un <a href="#example" class="alert-link">exemple de lien.</a>.
 </div>
 
 <div class="alert alert-success" role="alert">
-    This is a success alert with <a href="#" class="alert-link">an example link</a>.
+    C’est une alerte en cas de succès avec un <a href="#example" class="alert-link">exemple de lien.</a>
 </div>
 ```
 
@@ -62,13 +62,14 @@ Les notifications du système sont de courts messages qui apparaissent pour comm
 
 *texte ici*
 
-<Alert color="success">
-    This is a success alert with <a href="#example" class="alert-link">an example link</a>.
+<Alert color="danger">
+    C’est une alerte en cas de danger avec un <a href="#example" class="alert-link">exemple de lien.</a>
 </Alert>
+
 
 ```html
 <div class="alert alert-danger" role="alert">
-    This is a danger alert with <a href="#" class="alert-link">an example link</a>.
+    C’est une alerte en cas de danger avec un <a href="#example" class="alert-link">exemple de lien.</a>
 </div>
 ```
 
@@ -87,7 +88,7 @@ Les notifications d’erreur sont utilisées pour les pannes de système et les 
 Exemple d’erreur : « Votre mot de passe doit contenir au moins huit (8) caractères. »
 
 <Alert color="danger">
-    C’est une alerte en cas de danger avec un <a href="#example" class="alert-link">exemple de lien.</a>.
+    C’est une alerte en cas de danger avec un <a href="#example" class="alert-link">exemple de lien.</a>
 </Alert>
 
 ## Avertissement
@@ -97,7 +98,7 @@ Les notifications d’avertissement sont utilisées pour les notifications d'err
 Exemple d’avertissement : « Verr. Maj. est activé ce qui pourrait faire en sorte que vous entriez votre mot de passe incorrectement. »
 
 <Alert color="warning">
-    C’est une alerte d’avertissement avec un  <a href="#example" class="alert-link">exemple de lien.</a>.
+    C’est une alerte d’avertissement avec un <a href="#example" class="alert-link">exemple de lien.</a>.
 </Alert>
 
 
@@ -118,7 +119,7 @@ Les notifications de succès sont utilisées pour confirmer qu’une tâche a é
 Exemple de succès : « Votre mot de passe a été mis à jour avec succès. »
 
 <Alert color="success">
-    C’est une alerte en cas de succès avec un <a href="#example" class="alert-link">exemple de lien.</a>.
+    C’est une alerte en cas de succès avec un <a href="#example" class="alert-link">exemple de lien.</a>
 </Alert>
 
 ## Style de notifications
