@@ -130,10 +130,7 @@ You can optionally swap out active or disabled anchors for `<span>`, or omit the
 ```
 
 </doctabpanel>
-
-<doctabpanel type="react">
-      </doctabpanel>
-      <doctabpanel type="design">
+    <doctabpanel type="design">
     
 Pagination is styled as follows:
 

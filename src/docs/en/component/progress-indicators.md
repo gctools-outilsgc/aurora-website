@@ -36,7 +36,7 @@ Progress bars show determinate levels of progress, meaning there is a clear poin
 Spinners are used to indicate that a page or function is loading. A general rule is to use spinners for processes that take less than 4 seconds. Spinners show indeterminate levels of progress, meaning there is no clear completion and the animation loops until the process is complete.
 
 <documentationtabs remove="react">
-      <doctabpanel type="html">
+    <doctabpanel type="html">
           
 
 ## Step Indicators
@@ -91,16 +91,14 @@ Progress bars should always include a text indicator as well as the visual to pr
 ## Spinners
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
-      <doctabpanel type="design">
+    <doctabpanel type="design">
           
 
 ## Steps Indicator
           
 If a label is required for your step indicator, the label should be placed at the top of the element and left-aligned.
 
-Colours for the step indicator can vary, but ensure that contrast requirements are met. Visit the [colour section](colour.md) for more information on choosing accessible colours.
+Colours for the step indicator can vary, but ensure that contrast requirements are met. Visit the [colour section](/component/colour) for more information on choosing accessible colours.
 
 Step indicators are styled as follows: 44px using the colour <badge style="background-color: #CECECE;color:black;">#CECECE</badge>.
 
@@ -118,7 +116,7 @@ In progress, completed steps use a coloured circle and line. The outer circle is
 
 ## Progress Bars
 
-Colours for the progress bar can vary, but ensure that contrast requirements are met. Visit the [colour section](colour.md) for more information on choosing accessible colours.
+Colours for the progress bar can vary, but ensure that contrast requirements are met. Visit the [colour section](/components/colour) for more information on choosing accessible colours.
 
 Progress bars can be filled with any colour you choose, but be sure to use text that meets minimum contrast requirements. For more information about accessible colours, visit the colour section.
 

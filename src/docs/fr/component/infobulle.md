@@ -10,20 +10,39 @@ title: "Infobulles"
 </helmet>
 
 # Infobulle
+
 ## Utilisation
+
 Les infobulles sont des étiquettes de texte contenant du texte informatif qui apparaît lorsque des utilisateurs placent leur curseur sur un élément, effectuent un long clic sur un élément ou l’accentuent. Les infobulles fournissent un court texte descriptif au sujet de leur élément associé.
 
 ## Pratiques exemplaires
+
 Les infobulles doivent être aussi courtes que possible et fournissent de l’information supplémentaire pour les boutons ou les entrées de formulaire.
 
 Les infobulles sont toujours utilisées pour de l’information supplémentaire. L’information essentielle qui clarifie une action ou démontre les exigences d’une entrée de formulaire devrait toujours être immédiatement visible sur la page.
 
 <documentationtabs remove="react">
-      <doctabpanel type="html">
-      </doctabpanel>
-      <doctabpanel type="design">
-          
+    <doctabpanel type="html">
 
+## Overview
+
+*texte ici*
+
+## Exemples
+
+*texte ici*
+
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+  Tooltip on top
+</button>
+
+*Codeblock here*
+
+*texte ici*
+
+</doctabpanel>
+    <doctabpanel type="design">
+          
 ## Style
 Dans leur état normal, les infobulles sont stylisées comme suit :
 

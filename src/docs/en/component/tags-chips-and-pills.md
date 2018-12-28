@@ -29,7 +29,6 @@ Pills are similar to chips, but aren't necessarily associated with a particular 
 <documentationtabs remove="react">
       <doctabpanel type="html">
 
-
 ```html
 <div class="mt-2">
     <a href="#" class="badge badge-primary badge-tag">HTML</a>
@@ -65,9 +64,7 @@ Pills are similar to chips, but aren't necessarily associated with a particular 
 ```
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
-      <doctabpanel type="design">
+    <doctabpanel type="design">
            
 
 ## Tags
@@ -132,7 +129,8 @@ Pills have three variations which are stylized as follows:
 **User-control:** Same as normal, but there is an additional remove icon on the right. This icon is <badge style="background-color: #4D5D6C;">#4D5D6C</badge> with a transparent x, and is right-aligned.
 
 **Hover:** Same as the user-controlled chip but has a background colour of <badge style="background-color: #4D5D6C;">#4D5D6C</badge> and the remove icon is white with a transparent x.
-      </doctabpanel>
-    </documentationtabs>
+
+</doctabpanel>
+</documentationtabs>
 
 

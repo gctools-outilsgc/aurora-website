@@ -28,42 +28,42 @@ Les pilules sont semblables aux puces, mais ne sont pas nécessairement associé
 <documentationtabs remove="react">
       <doctabpanel type="html">
           
-<codeblock html='
-    <div class="mt-2">
-        <a href="#!" class="badge badge-primary badge-tag">HTML</a>
-        <a href="#!" class="badge badge-primary badge-tag">CSS</a>
-        <a href="#!" class="badge badge-primary badge-tag">JavaScript</a>
-    </div>
-    <div class="mt-2">
-        <a href="#!" class="badge badge-primary badge-tag">
+```html
+<div class="mt-2">
+    <a href="#" class="badge badge-primary badge-tag">HTML</a>
+    <a href="#" class="badge badge-primary badge-tag">CSS</a>
+    <a href="#" class="badge badge-primary badge-tag">JavaScript</a>
+</div>
+<div class="mt-2">
+    <a href="#" class="badge badge-primary badge-tag">
         HTML
         <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
-        </a>
-        <a href="#!" class="badge badge-primary badge-tag">
+    </a>
+    <a href="#" class="badge badge-primary badge-tag">
         CSS
         <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
-        </a>
-        <a href="#!" class="badge badge-primary badge-tag">
+    </a>
+    <a href="#" class="badge badge-primary badge-tag">
         JavaScript
         <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
-        </a>
-    </div>
-' react='' /></codeblock> 
+    </a>
+</div>
+```
 
-<codeblock html='
-    <span class="badge badge-primary"><img alt="avatar d'utilisateur petit" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow"> Utilisateur 1</span>
-    <span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow"> Utilisateur 2</span>
-' react='' /></codeblock>
+```html
+<span class="badge badge-primary"><img alt="small user avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow"> User 1</span>
+<span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow"> User 2</span>
+```
 
-<codeblock html='
-    <div class="mt-2">
-        <span class="badge badge-primary">Primaire</span>
-        <span class="badge badge-secondary">Secondaire</span>
-    </div>
-' react='' /></codeblock>
+```html
+<div class="mt-2">
+    <span class="badge badge-primary">Primary</span>
+    <span class="badge badge-secondary">Secondary</span>
+</div>
+```
 
 </doctabpanel>
-<doctabpanel type="design">
+    <doctabpanel type="design">
           
 
 ## Balises
@@ -128,7 +128,6 @@ Les pilules ont trois variations qui sont stylisées comme suit:
 
 **Pointage** : Même chose que le style « contrôle de l’utilisateur », mais a une couleur d’arrière-plan <badge style="background-color: #4D5D6C">#4D5D6C</badge>, et l’icône de suppression est blanche, et un « x » transparent y figure.
 
-
 </doctabpanel>
-    </documentationtabs>
+</documentationtabs>
 

@@ -14,51 +14,67 @@ title: "Messagerie du système"
 Les notifications du système sont de courts messages qui apparaissent pour communiquer de l’information à l’utilisateur. Des notifications apparaissent comme des bannières en premier plan qui ont besoin d’être fermées ou qui se ferment après une période de temps. Il y a quatre niveaux de gravité qui peuvent être appliqués à la notification : erreur, avertissement, information et succès.
 
 <documentationtabs remove="react">
-      <doctabpanel type="html">
+    <doctabpanel type="html">
+        
+## Exemples
+*texte ici*
     
-<codeblock html='
-    <div class="alert alert-danger" role="alert">
-        C’est une alerte en cas de danger avec un <a href="" class="alert-link">exemple de lien.</a>.
-    </div>
-' react='
 <Alert color="danger">
-    C’est une alerte en cas de danger avec un <a href="" class="alert-link">exemple de lien.</a>.
+    This is a danger alert with <a href="#example" class="alert-link">an example link</a>.
 </Alert>
-'></codeblock>
 
-<codeblock html='
-    <div class="alert alert-warning" role="alert">
-        C’est une alerte d’avertissement avec un  <a href="" class="alert-link">exemple de lien.</a>.
-    </div>
-' react='
 <Alert color="warning">
-    C’est une alerte d’avertissement avec un  <a href="" class="alert-link">exemple de lien.</a>.
+    This is a warning alert with <a href="#example" class="alert-link">an example link</a>.
 </Alert>
-'></codeblock>
 
-<codeblock html='
-    <div class="alert alert-info" role="alert">
-        C’est une alerte d’information avec un <a href="" class="alert-link">exemple de lien.</a>.
-    </div>
-' react='
 <Alert color="info">
-    C’est une alerte d’information avec un <a href="" class="alert-link">exemple de lien.</a>.
+    This is an info alert with <a href="#example" class="alert-link">an example link</a>.
 </Alert>
-'></codeblock>
 
-<codeblock html='
-    <div class="alert alert-success" role="alert">
-        C’est une alerte en cas de succès avec un <a href="" class="alert-link">exemple de lien.</a>.
-    </div>
-' react='
 <Alert color="success">
-    C’est une alerte en cas de succès avec un <a href="" name = "success" class="alert-link">exemple de lien.</a>.
+    This is a success alert with <a href="#example" class="alert-link">an example link</a>.
 </Alert>
-'></codeblock>
+
+```html
+<div class="alert alert-danger" role="alert">
+    This is a danger alert with <a href="#" class="alert-link">an example link</a>.
+</div>
+
+<div class="alert alert-warning" role="alert">
+    This is a warning alert with <a href="#" class="alert-link">an example link</a>.
+</div>
+
+<div class="alert alert-info" role="alert">
+    This is an info alert with <a href="#" class="alert-link">an example link</a>.
+</div>
+
+<div class="alert alert-success" role="alert">
+    This is a success alert with <a href="#" class="alert-link">an example link</a>.
+</div>
+```
+
+## Conveying meaning to assistive technologies
+
+## Link colour
+
+*texte ici*
+
+<Alert color="success">
+    This is a success alert with <a href="#example" class="alert-link">an example link</a>.
+</Alert>
+
+```html
+<div class="alert alert-danger" role="alert">
+    This is a danger alert with <a href="#" class="alert-link">an example link</a>.
+</div>
+```
+
+## Dismissing 
+
+*texte ici*
 
 </doctabpanel>
-
-<doctabpanel type="design">
+    <doctabpanel type="design">
 
 
 ## Erreur

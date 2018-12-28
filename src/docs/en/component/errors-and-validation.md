@@ -149,9 +149,7 @@ Fields should be validated when the user has completed the required field inform
 ```
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
-      <doctabpanel type="design">
+    <doctabpanel type="design">
     
 
 ## Error Boxes

@@ -166,7 +166,6 @@ Select fields are styled as follows:
 
 Placeholder text is styled using Nunito Sans Regular at 14px, <badge style="background-color: #666666;">#666666</badge>
 
-
 For more information about placeholder text styles, refer to the [_Typography_](typography.md) section.
 
 ## Micro-Copy

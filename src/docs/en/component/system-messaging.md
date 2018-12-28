@@ -14,7 +14,7 @@ title: "System messaging"
 System notifications are short messages that appear to communicate information to the user. Notifications appear as pop-up banners which need to be dismissed or timed-out. There are four levels of severity which can be applied to the notifications: error, warning, information and success.
 
 <documentationtabs remove="react">
-      <doctabpanel type="html">
+    <doctabpanel type="html">
           
 
 ## Examples
@@ -58,7 +58,7 @@ Alerts are available for any length of text, as well as an optional dismiss butt
 
 Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the `.sr-only` class.
 
-## Link color
+## Link colour
 
 Use the `.alert-link` utility class to quickly provide matching colored links within any alert.
 
@@ -81,9 +81,7 @@ Aurora automatically imports the bootstrap javascript required for interactive f
           
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
-      <doctabpanel type="design">
+    <doctabpanel type="design">
 
 ## Error
 

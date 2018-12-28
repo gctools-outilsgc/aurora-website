@@ -42,9 +42,7 @@ If you want more information about customizing this component, visit [Bootstrap'
 ```
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
-      <doctabpanel type="design">
+    <doctabpanel type="design">
           
           
 File upload inputs have four states:

@@ -24,7 +24,7 @@ Search bars may include a magnifying glass icon depending on the functionality o
 If completing a query leads to a new search results page, use the icon. If the search results are auto-populated below the search bar, no icon is required. 
 
 <documentationtabs remove="react">
-      <doctabpanel type="html">
+    <doctabpanel type="html">
           
 We have two custom variations of Search fields. 
     
@@ -56,9 +56,7 @@ We have two custom variations of Search fields.
 ```
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
-      <doctabpanel type="design">
+    <doctabpanel type="design">
           
 There are two style options for search:
 

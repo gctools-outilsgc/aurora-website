@@ -130,58 +130,16 @@ Les étiquettes devraient suivre le format vertical du formulaire. Placez les é
 
 La façon dont les étiquettes sont écrites a un effet sur leur lisibilité. Il ne faut pas écrire toutes les étiquettes en majuscules, car cela réduit leur lisibilité. Les étiquettes ne doivent pas être les mêmes que le texte d’espace réservé, parce les deux doivent être séparés. N’utilisez pas les symboles pour représenter le contenu requis.
 
-## Texte d’espace réservé
+## Champs obligatoires
 
-Le texte d’espace réservé est le texte qui apparaît directement dans le champ de saisie. Ce texte n’est pas censé être utilisé comme une étiquette, mais peut fournir des renseignements supplémentaires ou être une exemple pour l’utilisateur.
+Les saisies devraient être clairement indiquées comme facultatives ou obligatoires.
 
-Le texte d’espace réservé vise à aider l’utilisateur à remplir avec plus d’exactitude le champ au lieu d’être l’indicateur principal du contenu du champ. Il peut être complémentaire à la microcopie, avec un texte d’espace réservé donnant un exemple et une microcopie fournissant des renseignements supplémentaires ou un contexte.
+Si la plupart des champs dans le formulaire sont obligatoires, veuillez indiquer seulement les champs facultatifs.
 
-Dès que l’utilisateur commence à taper dans le champ, le texte d’espace réservé devrait disparaître.
+Si la plupart des champs dans le formulaire sont facultatifs, veuillez indiquer seulement les champs obligatoires.
 
-Le style de police du texte d’espace réservé est le « Nunito Sans Regular », à 14 px, <badge style="background-color: #666666">#666666</badge>.
+Des indications devraient être situées à côté du champ de saisie. Les termes (obligatoire) ou (facultatif) devraient être présents seulement lorsque cela est nécessaire. Le texte indicateur utilise la couleur <badge style="background-color: #252525">#252525</badge> et suit la même conception typographique que les étiquettes.
 
-
-Pour obtenir de plus amples renseignements sur les styles de polices du texte d’espace réservé, veuillez consulter la section sur la [_typographie_](typographie.md).
-
-
-## Microcopie
-La microcopie est le texte dessous et le champ de saisie qui fournit des renseignements supplémentaires sur ce champ. Les microcopies devraient être des phrases brèves qui indiquent à l’utilisateur comment remplir le champ.
-
-Le style des nombres est comme suit :
-10 px sous le champ de saisie. Le texte est affiché de la même façon que le texte d’espace réservé; Nunito Sans Regular à 14 px, <badge style="background-color: #666666">#666666</badge>
-
-S’il y a plus d’une ligne, le texte retourne à ligne et a un interlignage sur 18 points.
-
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Adresse e-mail
-</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="entrer l'adresse e-mail
-">
-    <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre adresse e-mail avec quiconque.</small>
-  </div>
-<form>
-
-<codeblock
-    html='
-    <form>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Adresse de courriel</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="entrer ladresse e-mail">
-            <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre adresse e-mail avec quiconque.</small>
-        </div>
-    <form>'
-    react='
-    <Form>
-       <FormGroup>
-          <Label for="exampleEmail">Adresse de courriel</Label>
-          <Input />
-          <FormFeedback>You will not be able to see this</FormFeedback>
-          <FormText>Nous ne partagerons jamais votre adresse e-mail avec quiconque.</FormText>
-        </FormGroup>
-    </Form>
-    ' />
-</codeblock>
 
 ### Regroupement et ensembles de champs
 
@@ -190,13 +148,8 @@ Pour aider les utilisateurs à mieux comprendre un formulaire, il peut s’avér
 ## Indicateurs d’étapes
 
 S’il est possible de le faire, il est recommandé de limiter les formulaires à une seule page. Si un formulaire compte plus d’une page, utilisez un indicateur d’étape.
-Si un formulaire compte plus d’une page, il est recommandé de fournir à l’utilisateur une représentation visuelle de progression pour qu’il connaisse son niveau d’achèvement. Le style des indicateurs d’étape est écrit dans sa propre section du présent document.
 
-![Step indicator component at step 1](../../../img\components\steps_indicator_1.png)
-
-![Step indicator component at step 2](../../../img\components\steps_indicator_2.png)
-
-![Step indicator component at step 3](../../../img\components\steps_indicator_3.png)
+Si un formulaire compte plus d’une page, il est recommandé de fournir à l’utilisateur une représentation visuelle de progression pour qu’il connaisse son niveau d’achèvement. Le style des [indicateurs d’étape](/component/progress-indicators) est écrit dans sa propre section du présent document.
 
 ## Navigation
 Il peut être nécessaire de naviguer vers différentes pages pour les inclure dans un formulaire. S’ils sont liés à un champ particulier, par exemple « J’ai oublié le mot de passe? », il faut inclure le lien en ligne et en dessous du champ connexe. Si le lien est lié à l’ensemble du formulaire, par exemple, « Inscrivez-vous ici », inscrivez le lien au bas du formulaire, séparé sur le plan visuel.

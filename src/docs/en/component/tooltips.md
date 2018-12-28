@@ -56,9 +56,7 @@ For more information about using tooltips, reference [Bootstrap's documentation]
 
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
-      <doctabpanel type="design">
+    <doctabpanel type="design">
           
 
 ## Styling

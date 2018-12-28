@@ -23,7 +23,6 @@ Les barres de progression sont utilisées afin de représenter visuellement une 
 
 Les barres de progression déterminent les niveaux de progrès, ce qui signifie qu’il y a un point d’achèvement clair. Lorsque la barre de pression est remplie et qu’elle atteint 100 %, l’application devrait terminer le processus.
 
-    
 ## Boucles de progression
     
 <helmet>
@@ -37,42 +36,62 @@ Les barres de progression déterminent les niveaux de progrès, ce qui signifie 
 Les boucles de progression sont utilisées pour indiquer le chargement d’une page ou d’une fonction. Une règle générale est d’utiliser des boucles de progression pour les processus qui durent moins de 4 secondes. Les boucles de progression indiquent des niveaux de progrès indéterminés, ce qui signifie qu’il n’y a pas d’achèvement clair et que la boucle d’animation se poursuit jusqu’à ce que le processus soit terminé.
 
 <documentationtabs remove="react">
-      <doctabpanel type="html">
+    <doctabpanel type="html">
 
 ## Indicateur des étapes 
+
+## How it works
+
+*texte ici*
+
+### Labels
+
+*texte ici*
 
 ## Barres de progression
 
 Les barres de progression devraient toujours inclure un indicateur de texte, en plus de la représentation visuelle pour donner plus de contexte. Ce texte devrait être inclus dans l’étiquette <alt>.
           
-<codeblock html='
-    <div class="progress">
-        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
-    </div>
-' react='' /></codeblock>
+div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+</div>
 
-<codeblock html='
-    <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-    </div>
-' react='' /></codeblock>
+<br>
 
-<codeblock html='
-    <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
-    </div>
-' react='' /></codeblock>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+</div>
+
+<br>
+
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+</div>
+
+```html
+<div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+</div>
+
+<div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+</div>
+
+<div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+</div>
+```
 
 ## Boucles de progression
 
 </doctabpanel>
-      <doctabpanel type="design">
+    <doctabpanel type="design">
           
 
 ## Indicateur des étapes
 
 Si une étiquette est requise pour votre indicateur d’étape, l’étiquette doit être placée au haut de l’élément et alignée à la gauche.
-Les couleurs de l’indicateur d’étapes peuvent varier, mais assurez-vous que les exigences de contraste sont respectées. Visitez la section sur les couleurs pour plus de renseignements sur le choix de couleurs accessibles.
+Les couleurs de l’indicateur d’étapes peuvent varier, mais assurez-vous que les exigences de contraste sont respectées. Visitez la section sur les couleurs [section sur les couleurs](/component/colour) pour plus de renseignements sur le choix de couleurs accessibles.
 
 Les indicateurs d’étapes sont stylisés comme suit : 44px en utilisant la couleur <badge style="background-color: #CECECE; color:black">#CECECE</badge>.
 
@@ -93,7 +112,7 @@ Les étapes en cours et achevées sont indiquées au moyen d’un cercle de coul
 
 Les couleurs de la barre de progression peuvent varier, mais veillez à ce que les exigences de contraste soient respectées. Visitez la section sur les couleurs pour obtenir de plus amples renseignements sur le choix de couleurs accessibles.
 
-Les barres de progression peuvent être remplies de n’importe laquelle des couleurs de votre choix, mais veillez à ce que le texte respecte les exigences minimales de contraste. Pour obtenir de plus amples renseignements sur les couleurs accessibles, visitez la section des couleurs.
+Les barres de progression peuvent être remplies de n’importe laquelle des couleurs de votre choix, mais veillez à ce que le texte respecte les exigences minimales de contraste. Pour obtenir de plus amples renseignements sur les couleurs accessibles, visitez la [section des couleurs](/components/colour).
 
 Les barres de progression sont stylisées au moyen d’un rectangle d’environ 16px de hauteur et d’une largeur variable. Le rectangle possède une bordure de 1px de couleur #ADACAC, avec un rayon de contour de 4px.
 
