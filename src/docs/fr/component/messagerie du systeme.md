@@ -16,6 +16,7 @@ Les notifications du système sont de courts messages qui apparaissent pour comm
 <documentationtabs remove="react">
     <doctabpanel type="html">
         
+
 ## Exemples
 *texte ici*
     
@@ -54,6 +55,8 @@ Les notifications du système sont de courts messages qui apparaissent pour comm
 ```
 
 ## Conveying meaning to assistive technologies
+
+*texte ici*
 
 ## Link colour
 

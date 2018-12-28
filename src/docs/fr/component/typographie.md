@@ -44,7 +44,7 @@ Les titres apparaissent seulement dans le haut des pages et indiquent les points
 
 Les titres sont affichés à l’aide de « Rubik Light » à 36 points de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
 
-### En-tête \(H2-H6)
+## En-tête \(H2-H6)
 
 Il y a cinq différents sous-en-têtes. Tous les sous-titres sont de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
 
@@ -97,9 +97,9 @@ Voir la section sur la [couleur](couleur.md) pour obtenir des renseignements sur
 <p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> « Quelle belle accroche! »</p>
 </div>
 
-<codeblock html='
-    <p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> « Quelle belle accroche! »</p>
-' react=''></codeblock>
+```html
+<p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> « Quelle belle accroche! »</p>
+```
 
 ## Listes
 

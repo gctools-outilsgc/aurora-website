@@ -80,7 +80,7 @@ Les commutateurs peuvent être utilisés dans toutes sortes de formulaires ou d�
 </div>
 ```
 
-## Disabled
+### Disabled
 
 *texte ici*
 
@@ -154,10 +154,6 @@ Les cases à cocher ont quatre états différents :
 **Actif :** cercle de 18px sur 18px, rayon de bordure de 4px, couleur d’arrière-plan <badge style="background-color: #4D5D6C">#4D5D6C</badge>, couleur de bordure <badge style="background-color: #96A8B2; color:black">#96A8B2</badge>. Comprend un remplissage dans un plus petit cercle dans le bouton complet.
 
 ## Commutateurs
-
-Les commutateurs sont utilisés seulement lorsque l’une des deux options peut être sélectionnée. Ils représentent des questions simples comme des options de style oui non ou activé-désactivé. Habituellement, l’option oui-non est plus colorée et plus en évidence que l’option activé-désactivée.
-
-Les commutateurs peuvent être utilisés dans toutes sortes de formulaires ou d’autres types de fonctions tels que Paramètres, Options de profil, etc.
 
 <label class="switch">
   <input type="checkbox" />

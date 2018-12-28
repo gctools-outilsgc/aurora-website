@@ -23,28 +23,26 @@ Lorsque des cartes sont utilisées, les séparateurs sont placés sous l’en-t�
     <hr />
     <div class="card-subtitle text-muted">Méta-information</div>
     <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte.</p>
-    <a href="#" class="card-link">Un autre lien</a>
     </div>
 </div>
 
-<codeblock html='
-    <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Titre de la carte</h5>
-            <hr />
-            <div class="card-subtitle text-muted">Méta-information</div>
-            <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte.</p>
-            <a href="#" class="card-link">Un autre lien</a>
-        </div>
+```html
+<div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">>Titre de la carte</h5>
+        <hr />
+        <div class="card-subtitle text-muted">Méta-information</div>
+        <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte.</p>
     </div>
-' react='' />
+</div>
+```
 
 <p>Bonjour, je suis texte pour une paragraphe. </p>
 <hr />
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin sem augue, porttitor eleifend eros tincidunt in. Duis mattis erat orci. Fusce aliquet sapien sit amet ex suscipit, eu pellentesque est posuere.</p>
 
-<codeblock html='
-    <p>Bonjour, je suis texte pour une paragraphe. </p>
-    <hr />
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin sem augue, porttitor eleifend eros tincidunt in. Duis mattis erat orci. Fusce aliquet sapien sit amet ex suscipit, eu pellentesque est posuere.</p>
-' react='' />
+```html
+<p>Bonjour, je suis texte pour une paragraphe.</p>
+<hr />
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin sem augue, porttitor eleifend eros tincidunt in. Duis mattis erat orci. Fusce aliquet sapien sit amet ex suscipit, eu pellentesque est posuere.</p>
+```

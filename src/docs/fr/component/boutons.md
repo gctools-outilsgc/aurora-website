@@ -26,7 +26,7 @@ Toutes les étiquettes devraient mettre seulement la première lettre en majuscu
 Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouton. Voir les couleurs pour plus de renseignements au sujet d’un contraste acceptable.
 
 <documentationtabs remove="react">
-      <doctabpanel type="html">
+    <doctabpanel type="html">
           
 
 ## Exemples
@@ -36,23 +36,23 @@ Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouto
           
 <button type="button" color="primary" >Primaire</button>
 <button type="button" color="secondary">Secondaire</button>
-<button type="button" color="success">Success</button>
+<button type="button" color="success">Succès</button>
 <button type="button" color="danger">Danger</button>
-<button type="button" color="warning">Warning</button>
+<button type="button" color="warning">Avertissement</button>
 <button type="button" color="info">Info</button>
-<button type="button" color="light">Light</button>
-<button type="button" color="dark">Dark</button>
+<button type="button" color="light">Jour</button>
+<button type="button" color="dark">Nuit</button>
 
 
 ```html
 <button type="button" class="btn btn-primary">Primary</button>
 <button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-success">Succès</button>
 <button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-warning">Avertissement</button>
 <button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-light">Jour</button>
+<button type="button" class="btn btn-dark">Nuit</button>
 ```
 
 ### Conveying meaning to assistive technologies
@@ -96,9 +96,9 @@ Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouto
     Dropdown button
     </button>
     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Un autre action</a>
-        <a class="dropdown-item" href="#">Une autre chose ici</a>
+        <a class="dropdown-item" href="#">Action 1</a>
+        <a class="dropdown-item" href="#">Action 2</a>
+        <a class="dropdown-item" href="#">Action 3</a>
     </div>
 </div>
 ```
@@ -126,7 +126,7 @@ Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouto
 ### Sizing
 
 *texte ici*
-      
+
 </doctabpanel>
     <doctabpanel type="design">
 
@@ -180,8 +180,7 @@ Voici les caractéristiques de chacun des états pour les boutons primaires :
 
 <button aria-label="Exemple d'un bouton primaire en état désactivé" color="primary" disabled="true">Désactivé</button>
 
-
-## Emplacement
+### Emplacement
 
 Les boutons primaires devraient être situés à l’endroit le plus important et le plus visible. Ces boutons devraient également être situés à proximité du formulaire ou des éléments qui sont touchés par l’action. En général, dans un ensemble de deux, les boutons primaires sont situés à gauche et le bouton secondaire est placé à droite.
 
@@ -213,7 +212,7 @@ Voici les caractéristiques de chacun des états pour les boutons :
 
 <button aria-label="Exemple d'un bouton secondaires en état désactivé" color="secondary" disabled="true">Secondaire</button>
 
-## Emplacement
+### Emplacement
 
 Les boutons secondaires sont habituellement placés à proximité du bouton primaire, mais pas à un endroit où l’utilisateur peut confondre les deux. Les boutons secondaires sont habituellement placés à droite du bouton primaire. Ils devraient avoir un emplacement uniforme par rapport au bouton primaire afin d’éviter la confusion.
 
@@ -228,12 +227,10 @@ Cliquer sur les boutons de menu déroulant affiche une liste d’éléments. Ces
 
 **État sensitif** : Semblables aux boutons primaires, les boutons de menu déroulant utilisent une couleur primaire à 100 % d’opacité, du texte blanc avec une bordure d’un rayon de 4px et un remplissage de 15px. La flèche du menu déroulant représente un espace de 30px par 40px, qui est séparé du bouton primaire en utilisant une ligne blanche. La flèche utilise un espace de 15px de largeur et de 8px de hauteur. Selon la partie du bouton sur laquelle vous placez votre curseur (primaire ou déroulante), celle-ci est affichée à 80 % d’opacité.
 
-**État accentué** : Semblables aux boutons primaires, les boutons de menu déroulant utilisent une couleur primaire à 100 % d’opacité, du texte blanc avec une bordure d’un rayon de 4px et un remplissage de 15px. La flèche du menu déroulant représente un espace de 30px par 40 px, qui est séparé du bouton primaire en utilisant une ligne blanche. La flèche utilise un espace de 15px de largeur et de 8px de hauteur. Selon la partie du bouton sur laquelle l’accentuation est placée (primaire ou déroulante), celle-ci est affichée à 80 % d’opacité et comprend un trait de 3px dans une couleur primaire.
-
 <mdbuttondropdown color="primary" style="color: #fff; background-color: #245e83; border-color: #215679" title="Sensitif">
 </mdbuttondropdown>
 
-**État activé** : Lorsqu’on presse sur la flèche du menu déroulant, cette section du bouton est affichée à 80 % d’opacité et un menu déroulant est affiché en dessous. La boîte d’action utilise une bordure de 1px de couleur <badge style="background-color: #CECECE;color:black;">#CECECE</badge>. La boîte a une bordure d’un rayon de 4px. La largeur de la boîte est de 166px et la hauteur dépend du nombre d’actions, utilisant 40px par action. Lorsque le curseur est placé dessus, le 40px autour de l’action est affiché en utilisant <badge style="background-color: #CECECE;color:black;">#CECECE</badge>.
+**État accentué** : Semblables aux boutons primaires, les boutons de menu déroulant utilisent une couleur primaire à 100 % d’opacité, du texte blanc avec une bordure d’un rayon de 4px et un remplissage de 15px. La flèche du menu déroulant représente un espace de 30px par 40 px, qui est séparé du bouton primaire en utilisant une ligne blanche. La flèche utilise un espace de 15px de largeur et de 8px de hauteur. Selon la partie du bouton sur laquelle l’accentuation est placée (primaire ou déroulante), celle-ci est affichée à 80 % d’opacité et comprend un trait de 3px dans une couleur primaire.
 
 <mdbuttondropdown color="primary" style=" box-shadow: 0 0 0 0.2rem rgba(0, 45, 66, 0.25);" title="Accentué">
 </mdbuttondropdown>
@@ -258,9 +255,9 @@ Les actions primaires sont alignées à gauche, les actions secondaires sont au 
 
 <div class="mt-2">
     <div class="btn-group" role="group" aria-label="Basic example of button group">
-        <button type="button" class="btn btn-primary">Gauche</button>
-        <button type="button" class="btn btn-primary">Centre</button>
-        <button type="button" class="btn btn-primary">Droite</button>
+        <button type="button" color="primary">Gauche</button>
+        <button type="button" color="primary">Centre</button>
+        <button type="button" color="primary">Droite</button>
     </div>
 </div>
 

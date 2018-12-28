@@ -26,8 +26,8 @@ Les puces représentent les coordonnées, dont habituellement l’avatar et le n
 Les pilules sont semblables aux puces, mais ne sont pas nécessairement associées à un utilisateur en particulier. Ils ont le même style, mais sans
 
 <documentationtabs remove="react">
-      <doctabpanel type="html">
-          
+    <doctabpanel type="html">
+
 ```html
 <div class="mt-2">
     <a href="#" class="badge badge-primary badge-tag">HTML</a>
@@ -57,8 +57,8 @@ Les pilules sont semblables aux puces, mais ne sont pas nécessairement associé
 
 ```html
 <div class="mt-2">
-    <span class="badge badge-primary">Primary</span>
-    <span class="badge badge-secondary">Secondary</span>
+    <span class="badge badge-primary">Primaire</span>
+    <span class="badge badge-secondary">Secondaire</span>
 </div>
 ```
 
@@ -102,10 +102,10 @@ Les puces sont de forme rectangulaire et ont un rayon de bordure de 4px. Une ima
 
 Les puces ont trois différentes variations et sont affichées comme suit :
 
-**Normal** : Case rectangulaire remplie avec <badge style="background-color: #CECECE; color: black">#CECECE</badge>. Texte noir. Petit avatar (26px sur 26px) aligné à gauche.
-
 <span class="badge badge-primary"><img alt="avatar d'utilisateur petit" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow"> Utilisateur 1</span>
 <span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow"> Utilisateur 2</span>
+
+**Normal** : Case rectangulaire remplie avec <badge style="background-color: #CECECE; color: black">#CECECE</badge>. Texte noir. Petit avatar (26px sur 26px) aligné à gauche.
 
 **Contrôle de l’utilisateur** : Même chose que normal, mais il y a un icône de suppression supplémentaire à droite. Cette icône a la couleur <badge style="background-color: #4D5D6C">#4D5D6C</badge> ainsi qu’un « x » transparent et elle est alignée à droite. Petit avatar (26px sur 26px) aligné à gauche.
 
@@ -117,12 +117,12 @@ Les puces ont trois différentes variations et sont affichées comme suit :
 
 Les pilules ont trois variations qui sont stylisées comme suit:
 
-**Normal** : Case rectangulaire remplie en <badge style="background-color: #CECECE; color: black">#CECECE</badge>. Texte noir.
-
-<div class="mt-2">
+<div class="mt-2 mb-2">
     <span class="badge badge-primary">Primaire</span>
     <span class="badge badge-secondary">Secondaire</span>
 </div>
+
+**Normal** : Case rectangulaire remplie en <badge style="background-color: #CECECE; color: black">#CECECE</badge>. Texte noir.
 
 **Contrôle de l’utilisateur** : Même chose que le style « normal », mais il y a une icône de suppressions supplémentaire à droite. Cette icône a la couleur <badge style="background-color: #4D5D6C">#4D5D6C</badge>, un « x » transparent y figure, et elle est alignée à droite.
 

@@ -160,13 +160,11 @@ Select fields are styled as follows:
 
 **Focus**: Rectangle with a height of 42px and a border radius of 4px. Stroke width of 1px coloured <badge style="background-color: #269ABC;color:black;">#269ABC</badge>. The drop down control is right-aligned 27px from the edge of the input. The line on the edge is 1px coloured <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge> and extends until 5px from the top and bottom of the input. 15 by 27 by 15 by 12. The chevron icon is aligned with the text and is 9px from the left edge, and 18px from the top and bottom.
 
-*Focus select field component*
-
 ## Placeholder Text
 
 Placeholder text is styled using Nunito Sans Regular at 14px, <badge style="background-color: #666666;">#666666</badge>
 
-For more information about placeholder text styles, refer to the [_Typography_](typography.md) section.
+For more information about placeholder text styles, refer to the [Typography](/components/typography) section.
 
 ## Micro-Copy
 

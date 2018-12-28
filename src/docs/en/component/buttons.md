@@ -24,9 +24,8 @@ All labels should capitalize only the first letter of the label.
 
 Label text has high contrast with the button colour. See Colour for more information about acceptable contrast.
 
-
 <documentationtabs remove="react">
-      <doctabpanel type="html">
+    <doctabpanel type="html">
           
 
 ## Examples
@@ -96,13 +95,12 @@ Any single `.btn` can be turned into a dropdown toggle with some markup changes.
     Dropdown button
     </button>
     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#">Action</a>
-        <a class="dropdown-item" href="#">Another action</a>
-        <a class="dropdown-item" href="#">Something else here</a>
+        <a class="dropdown-item" href="#">Action 1</a>
+        <a class="dropdown-item" href="#">Action 2</a>
+        <a class="dropdown-item" href="#">Action 3</a>
     </div>
 </div>
 ```
-
 
 ## Button group
 
@@ -131,7 +129,7 @@ Instead of applying button sizing classes to every button in a group, just add `
 
 </doctabpanel>
     <doctabpanel type="design">
-    
+
 
 ## Varying States
 
@@ -258,13 +256,13 @@ Primary actions are aligned to the left, while secondary actions are placed in t
 
 <div class="mt-2">
     <div class="btn-group" role="group" aria-label="Basic example of button group">
-        <button type="button" class="btn btn-primary">Left</button>
-        <button type="button" class="btn btn-primary">Middle</button>
-        <button type="button" class="btn btn-primary">Right</button>
+        <button type="button" color="primary">Left</button>
+        <button type="button" color="primary">Middle</button>
+        <button type="button" color="primary">Right</button>
     </div>
 </div>
 
- </doctabpanel>
-    </documentationtabs>
+</doctabpanel>
+</documentationtabs>
 
 

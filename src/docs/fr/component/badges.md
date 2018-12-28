@@ -40,25 +40,25 @@ Les badges sont utilisés pour montrer des notifications et d’autres alertes l
 *Texte ici*
 
 <div class="mt-3 mb-3">
-  <span class="badge badge-primary">Primary</span>
-  <span class="badge badge-secondary">Secondary</span>
-  <span class="badge badge-success">Success</span>
+  <span class="badge badge-primary">Primaire</span>
+  <span class="badge badge-secondary">Secondaire</span>
+  <span class="badge badge-success">Succès</span>
   <span class="badge badge-danger">Danger</span>
-  <span class="badge badge-warning">Warning</span>
+  <span class="badge badge-warning">Avertissement</span>
   <span class="badge badge-info">Info</span>
-  <span class="badge badge-light">Light</span>
-  <span class="badge badge-dark">Dark</span>
+  <span class="badge badge-light">Jour</span>
+  <span class="badge badge-dark">Nuit</span>
 </div>
 
 ```html
-<span class="badge badge-primary">Primary</span>
-<span class="badge badge-secondary">Secondary</span>
-<span class="badge badge-success">Success</span>
+<span class="badge badge-primary">Primaire</span>
+<span class="badge badge-secondary">Secondaire</span>
+<span class="badge badge-success">Succès</span>
 <span class="badge badge-danger">Danger</span>
-<span class="badge badge-warning">Warning</span>
+<span class="badge badge-warning">Avertissement</span>
 <span class="badge badge-info">Info</span>
-<span class="badge badge-light">Light</span>
-<span class="badge badge-dark">Dark</span>
+<span class="badge badge-light">Jour</span>
+<span class="badge badge-dark">Nuit</span>
 ```
 
 ## Accessibility considerations
@@ -66,6 +66,8 @@ Les badges sont utilisés pour montrer des notifications et d’autres alertes l
 Au moment de coder les badges, le texte alternatif qui sera lu par les lecteurs d’écran doit également inclure le contexte. Par exemple, le badge devrait indiquer « 40 courriels non lus » au lieu de « 40 ».
 
 ### Conveying meaning to assistive technologies
+
+*texte ici*
 
 </doctabpanel>
     <doctabpanel type="design">

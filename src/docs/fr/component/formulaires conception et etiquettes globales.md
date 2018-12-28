@@ -99,13 +99,13 @@ Pour les formulaires complexes, les renseignements doivent être publiés à l�
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="gridCheck1">
         <label class="form-check-label" for="gridCheck1">
-          exemple case à cocher
+          Exemple case à cocher
         </label>
       </div>
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="gridCheck2" disabled>
         <label class="form-check-label" for="gridCheck2">
-          exemple case à cocher désactivé
+          Exemple case à cocher désactivé
         </label>
       </div>
     </fieldset>
@@ -141,7 +141,7 @@ Si la plupart des champs dans le formulaire sont facultatifs, veuillez indiquer 
 Des indications devraient être situées à côté du champ de saisie. Les termes (obligatoire) ou (facultatif) devraient être présents seulement lorsque cela est nécessaire. Le texte indicateur utilise la couleur <badge style="background-color: #252525">#252525</badge> et suit la même conception typographique que les étiquettes.
 
 
-### Regroupement et ensembles de champs
+## Regroupement et ensembles de champs
 
 Pour aider les utilisateurs à mieux comprendre un formulaire, il peut s’avérer utile de regrouper des saisies dans des catégories ou des ensembles de champs. Les ensembles de champs devraient être regroupés visuellement sur la page et étiquetés à l’aide de l’en-tête 3, ainsi qu’un séparateur en dessous.
 

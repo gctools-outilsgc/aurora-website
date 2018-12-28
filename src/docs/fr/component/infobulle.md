@@ -43,6 +43,7 @@ Les infobulles sont toujours utilisées pour de l’information supplémentaire.
 </doctabpanel>
     <doctabpanel type="design">
           
+
 ## Style
 Dans leur état normal, les infobulles sont stylisées comme suit :
 

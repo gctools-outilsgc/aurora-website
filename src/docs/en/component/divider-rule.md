@@ -23,7 +23,6 @@ When used on cards, dividers are placed underneath the card heading.
     <hr />
     <div class="card-subtitle text-muted">Meta Information</div>
     <p class="card-text">Some quick example text to build on the card title</p>
-    <a href="#" class="card-link">Another link</a>
     </div>
 </div>
 
@@ -34,7 +33,6 @@ When used on cards, dividers are placed underneath the card heading.
         <hr />
         <div class="card-subtitle text-muted">Meta Information</div>
         <p class="card-text">Some quick example text to build on the card title</p>
-        <a href="#" class="card-link">Another link</a>
     </div>
 </div>
 ```

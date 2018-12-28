@@ -15,177 +15,102 @@ Ce système de conception utilise le même cadre de grilles que [la Boîte à ou
 Le système de grilles est fondé sur une série de conteneurs, de colonnes et de rangées afin de construire une mise en page et d’aligner le contenu. Les conteneurs sont centrés et organisent le contenu horizontalement. Les colonnes sont le cadre sur lequel l’emplacement du contenu est bâti. Les rangées servent d’emballage pour les colonnes.
 
 Le cadre de grilles contient 12 colonnes dimensionnées en fonction de la fenêtre d’affichage du périphérique de l’utilisateur. Une personnalisation plus poussée des grilles et de la disposition des colonnes, comme le décalage et l’imbrication, est possible à l’aide du cadre de la boîte à outils de l’expérience Web. La largeur de la fenêtre d’affichage est en pixels et ne change pas la taille de la police.
-
-<documentationtabs remove="react">
-      <doctabpanel type="html">
-          
-<codeblock react='
-<Container style="width: 100%">
-    <Row>
-        <Col><Button color="primary" style="width: 100%">Colonne 1</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Colonne 2</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Colonne 3</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Colonne 4</Button></Col>
-    </Row>
-</Container> ' html='
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Colonne 1</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Colonne 2</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Colonne 3</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Colonne 3</button>
-            </div>
-        </div>
-    </div>
-'></codeblock>
-
-<codeblock html='
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Colonne 1</button>
-            </div>
-            <div class="col-6">
-                <button type="button" class="btn btn-outline-secondary btn-block">Colonne 2</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Colonne 3</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Colonne 3</button>
-            </div>
-        </div>
-    </div>' react='
-<Container style="width: 100%">
-    <Row>
-        <Col><Button color="primary" style="width: 100%">Colonne 1</Button></Col>
-        <Col xs="6"><Button outline="true" color="primary" style="width: 100%">Colonne 2</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Colonne 3</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Colonne 4</Button></Col>
-    </Row>
-</Container> '></codeblock>
-
-<codeblock html='
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <button type="button" class="btn btn-outline-secondary btn-block">Colonne 1</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-outline-secondary btn-block">Colonne 2</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">C’est la troisième et la plus large colonne en raison de la grandeur automatique</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-outline-secondary btn-block">Colonne 4</button>
-            </div>
-        </div>
-    </div>' react='
-<Container style="width: 100%">
-    <Row>
-        <Col><Button color="primary" style="width: 100%">Colonne 1</Button></Col>
-        <Col xs="6"><Button outline="true" color="primary" style="width: 100%">Colonne 2</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Colonne 3</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Colonne 4</Button></Col>
-    </Row>
-</Container> '></codeblock>
-
-<codeblock html='
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Colonne 1</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Colonne 2</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Colonne 3</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Colonne 4</button>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Colonne 1</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Colonne 2</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Colonne 3</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-secondary btn-block">Colonne 4</button>
-            </div>
-        </div>
-    </div>
-' react='
-<Container style="width: 100%">
-    <Row>
-        <Col><Button color="primary" style="width: 100%">Colonne 1</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Colonne 2</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Colonne 3</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Colonne 4</Button></Col>
-    </Row>
-    <Row style="margin-top: 10px">
-        <Col><Button color="primary" style="width: 100%">Colonne 1</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Colonne 2</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Colonne 3</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Colonne 4</Button></Col>
-    </Row>
-</Container> '></codeblock>
-
-</doctabpanel>
-      <doctabpanel type="design">
           
 
 ## Exemples de mise en page automatique de grille
+
 ### De largeur égale
 Si la taille des colonnes n’est pas définie, elles vont automatiquement être fixées de la même largeur.
 
 <container style="width: 100%; margin-bottom: 20px">
     <row>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 2</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
+        <mdcol className="mb-2 gr-example"> Colonne 1 </mdcol>
+        <mdcol className="mb-2 gr-example"> Colonne 2</mdcol>
+        <mdcol className="mb-2 gr-example"> Colonne 3</mdcol>
+        <mdcol className="mb-2 gr-example">Colonne 4</mdcol>
     </row>
 </container>
 
+```html
+<div class="container">
+  <div class="row">
+    <div class="col">
+     Colonne 1
+    </div>
+    <div class="col">
+      Colonne 2
+    </div>
+    <div class="col">
+      Colonne 3
+    </div>
+    <div class="col">
+      Colonne 4
+    </div>
+  </div>
+</div>
+```
 
 ### De largeur inégale
+
 Lorsque vous établissez la taille d’une colonne, les colonnes sœurs seront automatiquement redimensionnées.
 
 <container style="width: 100%; margin-bottom: 20px">
     <row>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
-        <mdcol xs="6" className="mb-2"><button outline="true" color="primary" style="width: 100%">Colonne 2</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
+        <mdcol xs="6" className="mb-2 gr-example"> Colonne 1 </mdcol>
+        <mdcol className="mb-2 gr-example"> Colonne 2</mdcol>
+        <mdcol className="mb-2 gr-example"> Colonne 3</mdcol>
+        <mdcol className="mb-2 gr-example">Colonne 4</mdcol>
     </row>
 </container>
 
+```html
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+     Colonne 1
+    </div>
+    <div class="col">
+      Colonne 2
+    </div>
+    <div class="col">
+      Colonne 3
+    </div>
+    <div class="col">
+      Colonne 4
+    </div>
+  </div>
+</div>
+```
 ### Contenu de largeur variable
 Vous pouvez établir des colonnes pour correspondre automatiquement au contenu qu’elles contiennent. Les colonnes sœurs seront automatiquement redimensionnées.
 
-<container style="width: 100%; margin-bottom: 20px">
-    <row>
-        <mdcol className="mb-2"><button color="primary" class="btn-block">Colonne 1</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" class="btn-block">Colonne 2</button></mdcol>
-        <mdcol xs="auto" className="mb-2"><button color="primary" class="btn-block">C’est la troisième et la plus large colonne en raison de la grandeur automatique</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" class="btn-block">Colonne 4</button></mdcol>
-    </row>
-</container>
+<div class="container">
+    <div class="row">
+        <mdcol className="mb-2 gr-example">Colonne 1</mdcol>
+        <mdcol className="mb-2 gr-example">Colonne 2</mdcol>
+        <mdcol xs="auto" className="mb-2 gr-example">This is the third and largest column due to auto-sizing</mdcol>
+        <mdcol className="mb-2 gr-example">Colonne 4</mdcol>
+    </div>
+</div>
+
+```html
+<div class="container">
+  <div class="row">
+    <div class="col">
+     Colonne 1
+    </div>
+    <div class="col">
+      Colonne 2
+    </div>
+    <div class="col">
+      This is the third and largest column due to auto-sizing
+    </div>
+    <div class="col">
+      Colonne 4
+    </div>
+  </div>
+</div>
+```
 
 
 ### Multiples rangés de largeur égale
@@ -193,20 +118,50 @@ De multiples colonnes et rangées peuvent être fixées à l’aide d’un saut 
 
 <container style="width: 100%; margin-bottom: 20px">
     <row>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 2</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
+        <mdcol className="mb-2 gr-example">Colonne 1</mdcol>
+        <mdcol className="mb-2 gr-example">Colonne 2</mdcol>
+        <mdcol className="mb-2 gr-example">Colonne 3</mdcol>
+        <mdcol className="mb-2 gr-example">Colonne 4</mdcol>
     </row>
     <row style="margin-top: 10px">
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 1</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 2</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 3</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Colonne 4</button></mdcol>
+        <mdcol className="mb-2 gr-example">Colonne 1</mdcol>
+        <mdcol className="mb-2 gr-example">Colonne 2</mdcol>
+        <mdcol className="mb-2 gr-example">Colonne 3</mdcol>
+        <mdcol className="mb-2 gr-example">Colonne 4</mdcol>
     </row>
 </container>
 
-</doctabpanel>
-    </documentationtabs>
+```html
+<div class="container">
+  <div class="row">
+    <div class="col">
+     Colonne 1
+    </div>
+    <div class="col">
+      Colonne 2
+    </div>
+    <div class="col">
+      Colonne 3
+    </div>
+    <div class="col">
+      Colonne 4
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+     Colonne 1
+    </div>
+    <div class="col">
+      Colonne 2
+    </div>
+    <div class="col">
+      Colonne 3
+    </div>
+    <div class="col">
+      Colonne 4
+    </div>
+  </div>
+</div>
+```
 
 

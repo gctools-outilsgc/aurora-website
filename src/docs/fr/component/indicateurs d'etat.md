@@ -52,7 +52,7 @@ Les boucles de progression sont utilisées pour indiquer le chargement d’une p
 
 Les barres de progression devraient toujours inclure un indicateur de texte, en plus de la représentation visuelle pour donner plus de contexte. Ce texte devrait être inclus dans l’étiquette <alt>.
           
-div class="progress">
+<div class="progress">
   <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
 </div>
 
