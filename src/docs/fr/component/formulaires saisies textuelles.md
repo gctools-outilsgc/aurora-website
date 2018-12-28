@@ -107,7 +107,6 @@ Les champs de texte sont conçus comme suit :
 <input type="email" class="form-control" id="exampleInputEmail1"
         aria-describedby="emailHelp"
         placeholder="Entrer le courriel">
-<small id="emailHelp" class="form-text text-muted">Structure du texte – pour donner des indices et des choses</small>
 
 **Normal** : un rectangle ayant une hauteur de 42px et une bordure de 4px. Un trait d’une largeur de 1px avec la couleur <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. Il y a 10px de remplissage entre le champ et l’étiquette. Le champ de saisie a un remplissage de 15px par 12px.
 

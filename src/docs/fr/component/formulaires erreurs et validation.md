@@ -19,8 +19,6 @@ Les erreurs de saisie devraient être affichées de sorte qu’il est clair à l
 
 Une boîte d’erreur devrait apparaître au début du formulaire répertoriant les erreurs. Dans la boîte d’erreur, spécifiez le nombre d’erreurs, et faites-en la liste numérique dans l’ordre auxquelles elles apparaissent dans le formulaire. Pour chaque erreur, donnez la raison de l’erreur et un lien qui dirige l’utilisateur à l’erreur. Si l’utilisateur essaie de soumettre le formulaire avec des champs obligatoires vides, dirigez-les vers cette boîte d’erreur.
 
-##
-
 ## Confirmation
 
 Les champs devraient être confirmés lorsque l’utilisateur a terminé de remplir l’information des champs obligatoires, mais avant que l’utilisateur soumette ou termine le formulaire en entier.
@@ -28,6 +26,7 @@ Les champs devraient être confirmés lorsque l’utilisateur a terminé de remp
 <documentationtabs remove="react">
       <doctabpanel type="html">
           
+
 ## Boîtes d’erreur
 
 <section class="alert alert-danger alert-icon-border">
