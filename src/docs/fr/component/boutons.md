@@ -40,8 +40,8 @@ Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouto
 <button type="button" color="danger">Danger</button>
 <button type="button" color="warning">Avertissement</button>
 <button type="button" color="info">Info</button>
-<button type="button" color="light">Jour</button>
-<button type="button" color="dark">Nuit</button>
+<button type="button" color="light">Clair</button>
+<button type="button" color="dark">Foncé</button>
 
 
 ```html
@@ -51,8 +51,8 @@ Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouto
 <button type="button" class="btn btn-danger">Danger</button>
 <button type="button" class="btn btn-warning">Avertissement</button>
 <button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Jour</button>
-<button type="button" class="btn btn-dark">Nuit</button>
+<button type="button" class="btn btn-light">Clair</button>
+<button type="button" class="btn btn-dark">Foncé</button>
 ```
 
 ### Conveying meaning to assistive technologies

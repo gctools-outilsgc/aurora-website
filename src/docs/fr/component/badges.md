@@ -46,8 +46,8 @@ Les badges sont utilisés pour montrer des notifications et d’autres alertes l
   <span class="badge badge-danger">Danger</span>
   <span class="badge badge-warning">Avertissement</span>
   <span class="badge badge-info">Info</span>
-  <span class="badge badge-light">Jour</span>
-  <span class="badge badge-dark">Nuit</span>
+  <span class="badge badge-light">Clair</span>
+  <span class="badge badge-dark">Foncé</span>
 </div>
 
 ```html
@@ -57,8 +57,8 @@ Les badges sont utilisés pour montrer des notifications et d’autres alertes l
 <span class="badge badge-danger">Danger</span>
 <span class="badge badge-warning">Avertissement</span>
 <span class="badge badge-info">Info</span>
-<span class="badge badge-light">Jour</span>
-<span class="badge badge-dark">Nuit</span>
+<span class="badge badge-light">Clair</span>
+<span class="badge badge-dark">Foncé</span>
 ```
 
 ## Accessibility considerations
@@ -92,8 +92,8 @@ Rectangle d’une largeur de 28px et d’une hauteur de 19px. Rayon de la bordur
   <span class="badge badge-danger">Danger</span>
   <span class="badge badge-warning">Avertissement</span>
   <span class="badge badge-info">Info</span>
-  <span class="badge badge-light">Jour</span>
-  <span class="badge badge-dark">Nuit</span>
+  <span class="badge badge-light">Clair</span>
+  <span class="badge badge-dark">Foncé</span>
 </div>
 
 </doctabpanel>
