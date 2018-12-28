@@ -17,6 +17,14 @@ Pour plus d'information sur mises à jours futurs, visitez la [page d'Aurora](ht
 
 ![Aurora banner](../../../img\aurora-banner-small.png)
 
+## V 0.3.2
+Le 28 décembre, 2018
+
+* Une nouvelle page de téléchargement qui comprend la trousse Aurora UI et une compilation de CSS et de JavaScript.
+* Les liens de téléchargement ont été mis à jour à l’échelle du site. 
+* Une page de ressources utiles qui comprend des liens à d’autres ressources du gouvernement du Canada et de conception Web. 
+* Des mises à jour ont été apportées aux palettes de couleurs de la page Couleur, y compris le thème canada.ca.
+
 ## V 0.3.1
 Le 14 décembre 2018
 
