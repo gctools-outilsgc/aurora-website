@@ -599,6 +599,32 @@ a.dropdown-item {
     @include button-outline-variant($primary);
   }
 
+  //back to top Buttons
+  .btn-backtotop {
+    border: 1px solid #CECECE;
+    border-radius: 1.5rem;
+    box-shadow: $input-box-shadow;
+    color:#666666;
+    font-weight:600;
+
+    .icon {
+      margin-right: 5px;
+    }
+  }
+
+  .btn-backtotop:hover {
+    color:white;
+    background-color: $primary;
+  }
+
+  .btn-backtotop.mobile {
+    font-size: 1.45rem;
+
+    .icon {
+      margin:0;
+    }
+  }
+
 /* ADDED FOR DS*/
 h1, .h1 {
   font-family: 'Rubik', sans-serif;
