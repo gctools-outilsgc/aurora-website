@@ -19,17 +19,17 @@ Input errors are displayed underneath the input field, and tell the user how to 
 
 ## Error Boxes
 
-As well, have an error box appear at the beginning of the form listing the errors. In the error box specify the number of errors, and list them numerically in the order in which they appear in the form. For each error provide the reason for the error and a link that directs the user to the error. If the user attempts to submit the form with incomplete necessary fields, direct them to this error box.
+The error box provides a summary of validation errors. After a user has submitted a form, this box will show applicable errors in particular fields. The error box appears at the top of the form. 
 
-## Validation
-
-Fields should be validated when the user has completed the required field information, but prior to the user submitting or completing the entire form.
+Each error listed in the box is a link to that respective input field. Error messaages should be concise but descriptive of the error. More information is provided inline. 
 
 <documentationtabs remove="react">
       <doctabpanel type="html">
           
 
 ## Error Boxes
+
+The error box uses the `.alert`,`.alert-danger` and `.alert-danger-banner` classes to create the component. Use the `.alert-link` to apply the correct styling to error links. 
 
 <section class="alert alert-danger alert-danger-banner">
     <h2>Field error or required</h2>
@@ -42,17 +42,22 @@ Fields should be validated when the user has completed the required field inform
 </section>
 
 ```html
-<section class="alert alert-danger alert-icon-border">
+<section class="alert alert-danger alert-danger-banner">
     <h2>Field error or required</h2>
+    <p>Please verify the following fields:</p>
     <ul class="list-unstyled">
-        <li><a href="#exampleInputText1-html" class="alert-link">1 - Username already exists</a></li>
-        <li><a href="#customCheck1-html" class="alert-link">2 - You must agreed to the Terms and Conditions</a></li>
-        <li><a href="#customRadio2-html" class="alert-link">3 - You must select one option</a></li>
+    <li><a href="#exampleInputText1-html" class="alert-link">1 - Username already exists</a></li>
+    <li><a href="#customCheck1-html" class="alert-link">2 - You must agree to the Terms and Conditions</a></li>
+    <li><a href="#customRadio2-html" class="alert-link">3 - You must select one option</a></li>
     </ul>
 </section>
 ```
 
 ## Inline Errors
+
+Inline errors use the `.is-invalid` class to add error styling to the specified form element. 
+
+Microcopy text that provides information to the user is styled using the `.invalid-feedback` class. Use `.aria-describedby` to associate the microcopy with the invalid input. 
 
 <div class="form-group">
     <label for="exampleInputText1-html">Username</label>
@@ -104,6 +109,10 @@ Fields should be validated when the user has completed the required field inform
 ```
 
 ## Validated Errors
+
+Validated errors use the `.is-valid` class to show that the information provided in the input is valid. 
+
+Microcopy text that provides information to the user is styled using the `.invalid-feedback` class. Use `.aria-describedby` to associate the microcopy with the valid input. 
 
 <div class="form-group">
     <label for="exampleInputText2-html">Username</label>
@@ -157,12 +166,13 @@ Fields should be validated when the user has completed the required field inform
           
 Error boxes are styled as follows:
 
-<section class="alert alert-danger alert-icon-border">
+<section class="alert alert-danger alert-danger-banner">
     <h2>Field error or required</h2>
+    <p>Please verify the following fields:</p>
     <ul class="list-unstyled">
-    <li><a href="#exampleInputText1-design" class="alert-link">1 - Username already exists</a></li>
-    <li><a href="#customCheck1-design" class="alert-link">2 - You must agree to the Terms and Conditions</a></li>
-    <li><a href="#customRadio2-design" class="alert-link">3 - You must select one option</a></li>
+    <li><a href="#exampleInputText1-html" class="alert-link">1 - Username already exists</a></li>
+    <li><a href="#customCheck1-html" class="alert-link">2 - You must agree to the Terms and Conditions</a></li>
+    <li><a href="#customRadio2-html" class="alert-link">3 - You must select one option</a></li>
     </ul>
 </section>
 

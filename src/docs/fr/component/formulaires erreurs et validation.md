@@ -17,11 +17,7 @@ Les erreurs de saisie devraient être affichées de sorte qu’il est clair à l
 
 ## Boîtes d’erreur
 
-Une boîte d’erreur devrait apparaître au début du formulaire répertoriant les erreurs. Dans la boîte d’erreur, spécifiez le nombre d’erreurs, et faites-en la liste numérique dans l’ordre auxquelles elles apparaissent dans le formulaire. Pour chaque erreur, donnez la raison de l’erreur et un lien qui dirige l’utilisateur à l’erreur. Si l’utilisateur essaie de soumettre le formulaire avec des champs obligatoires vides, dirigez-les vers cette boîte d’erreur.
-
-## Confirmation
-
-Les champs devraient être confirmés lorsque l’utilisateur a terminé de remplir l’information des champs obligatoires, mais avant que l’utilisateur soumette ou termine le formulaire en entier.
+*texte ici*
 
 <documentationtabs remove="react">
       <doctabpanel type="html">
@@ -29,8 +25,11 @@ Les champs devraient être confirmés lorsque l’utilisateur a terminé de remp
 
 ## Boîtes d’erreur
 
-<section class="alert alert-danger alert-icon-border">
+*texte ici*
+
+<section class="alert alert-danger alert-danger-banner">
     <h2>Field error or required</h2>
+    <p> Please verify the following fields: </p>
     <ul class="list-unstyled">
     <li><a href="#exampleInputText1-html" class="alert-link">1 - Nom d’utilisateur existe déjà</a></li>
     <li><a href="#customCheck1-html" class="alert-link">2 - You must agree to the Terms and Conditions</a></li>
@@ -39,16 +38,19 @@ Les champs devraient être confirmés lorsque l’utilisateur a terminé de remp
 </section>
 
 ```html
-<section class="alert alert-danger alert-icon-border">
+<section class="alert alert-danger alert-danger-banner">
     <h2>Field error or required</h2>
+    <p> Please verify the following fields: </p>
     <ul class="list-unstyled">
-        <li><a href="#exampleInputText1-html" class="alert-link">1 - Nom d’utilisateur existe déjà</a></li>
-        <li><a href="#customCheck1-html" class="alert-link">2 - You must agreed to the Terms and Conditions</a></li>
-        <li><a href="#customRadio2-html" class="alert-link">3 - You must select one option</a></li>
+    <li><a href="#exampleInputText1-html" class="alert-link">1 - Nom d’utilisateur existe déjà</a></li>
+    <li><a href="#customCheck1-html" class="alert-link">2 - You must agree to the Terms and Conditions</a></li>
+    <li><a href="#customRadio2-html" class="alert-link">3 - You must select one option</a></li>
     </ul>
 </section>
 ```
 ## Erreurs en ligne
+
+*texte ici*
 
 <div class="form-group">
     <label for="exampleInputText1-html">Username</label>
@@ -100,6 +102,8 @@ Les champs devraient être confirmés lorsque l’utilisateur a terminé de remp
 ```
 
 ## Validated Errors
+
+*texte ici*
 
 <div class="form-group">
     <label for="exampleInputText2-html">Username</label>
@@ -153,12 +157,13 @@ Les champs devraient être confirmés lorsque l’utilisateur a terminé de remp
 
 Les boîtes d’erreur sont conçues comme suit :
 
-<section class="alert alert-danger alert-icon-border">
-    <h2>Erreur dans le champ ou champ obligatoire</h2>
+<section class="alert alert-danger alert-danger-banner">
+    <h2>Field error or required</h2>
+    <p> Please verify the following fields: </p>
     <ul class="list-unstyled">
-    <li><a href="#" class="alert-link">1 - Nom d’utilisateur existe déjà</a></li>
-    <li><a href="#" class="alert-link">2 - Courriel invalide</a></li>
-    <li><a href="#" class="alert-link">3 - Les mots de passe doivent correspondre</a></li>
+    <li><a href="#exampleInputText1-html" class="alert-link">1 - Nom d’utilisateur existe déjà</a></li>
+    <li><a href="#customCheck1-html" class="alert-link">2 - You must agree to the Terms and Conditions</a></li>
+    <li><a href="#customRadio2-html" class="alert-link">3 - You must select one option</a></li>
     </ul>
 </section>
 
@@ -200,13 +205,7 @@ L’icône « x » à la gauche du texte d’erreur. L’erreur est placée 10px
 
 ## Validated Errors
 
-When a user has corrected input errors, the error box disappears and individual inputs show the user that the error was corrected. 
-
-Validated errors are styles as follows:
-
-The input field border will be shown using the colour <badge style="background-color: #2B542C;">#2B542C</badge>. If there is an error on a button input, the label is displayed using this same colour.
-
-The text with information about the error disappears from below the input field. 
+*texte ici*
 
 <label for="exampleInputText2">Username</label>
 <input type="text" class="form-control is-valid" aria-describedby="Text1Error" id="exampleInputText2" placeholder="aurora.design">

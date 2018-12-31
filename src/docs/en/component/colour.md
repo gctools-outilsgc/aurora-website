@@ -102,7 +102,9 @@ Hex code: <badge style="background-color: #252525;">#252525</badge>
 
 ### White Text
 
-Light text in this design system is displayed in an off-white colour. White text can be used on any dark background \(see: Dark Theme\) or any button or element that uses a dark or light colour. When adding white text it is essential to check the contrast for accessibility. Significant contrast between the background/element colour and the text ensures readability, even for those with visual impairments such as colour blindness.
+Light text in this design system is displayed in an off-white colour. White text can be used on any dark background \(see: Dark Theme\) or any button or element that uses a dark or light colour. 
+
+When adding white text it is essential to check the contrast for accessibility. Significant contrast between the background/element colour and the text ensures readability, even for those with visual impairments such as colour blindness.
 
 Please see [Typography](/component/typography) for more information about using text colour.
 

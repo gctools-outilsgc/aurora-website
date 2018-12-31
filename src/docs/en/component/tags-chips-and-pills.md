@@ -29,35 +29,71 @@ Pills are similar to chips, but aren't necessarily associated with a particular 
 <documentationtabs remove="react">
       <doctabpanel type="html">
 
-```html
+
+## Tags
+
+
 <div class="mt-2">
-    <a href="#" class="badge badge-primary badge-tag">HTML</a>
-    <a href="#" class="badge badge-primary badge-tag">CSS</a>
-    <a href="#" class="badge badge-primary badge-tag">JavaScript</a>
+    <a href="#!" class="badge badge-primary badge-tag">HTML</a>
+    <a href="#!" class="badge badge-primary badge-tag">CSS</a>
+    <a href="#!" class="badge badge-primary badge-tag">JavaScript</a>
 </div>
 <div class="mt-2">
-    <a href="#" class="badge badge-primary badge-tag">
-        HTML
-        <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
+    <a href="#!" class="badge badge-primary badge-tag">
+    HTML
+    <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
     </a>
-    <a href="#" class="badge badge-primary badge-tag">
-        CSS
-        <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
+    <a href="#!" class="badge badge-primary badge-tag">
+    CSS
+    <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
     </a>
-    <a href="#" class="badge badge-primary badge-tag">
-        JavaScript
-        <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
+    <a href="#!" class="badge badge-primary badge-tag">
+    JavaScript
+    <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
+    </a>
+</div>
+
+```html
+<div class="mt-2">
+    <a href="#!" class="badge badge-primary badge-tag">HTML</a>
+    <a href="#!" class="badge badge-primary badge-tag">CSS</a>
+    <a href="#!" class="badge badge-primary badge-tag">JavaScript</a>
+</div>
+<div class="mt-2">
+    <a href="#!" class="badge badge-primary badge-tag">
+    HTML
+    <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
+    </a>
+    <a href="#!" class="badge badge-primary badge-tag">
+    CSS
+    <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
+    </a>
+    <a href="#!" class="badge badge-primary badge-tag">
+    JavaScript
+    <button type="button" class="close" aria-describedby="Close / Delete"><span aria-hidden="true">×</span></button>
     </a>
 </div>
 ```
 
-```html
-<span class="badge badge-primary"><img alt="small user avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow"> User 1</span>
-<span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow"> User 2</span>
-```
+## Chips
+
+<span class="badge badge-primary"><img alt="small user avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 1</span>
+<span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 2</span>
 
 ```html
-<div class="mt-2">
+<span class="badge badge-primary"><img alt="small user avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 1</span>
+<span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 2</span>
+```
+
+## Pills
+
+<div class="mt-2 mb-2">
+    <span class="badge badge-primary">Primary</span>
+    <span class="badge badge-secondary">Secondary</span>
+</div>
+
+```html
+<div class="mt-2 mb-2">
     <span class="badge badge-primary">Primary</span>
     <span class="badge badge-secondary">Secondary</span>
 </div>
@@ -104,8 +140,8 @@ Chips are rectangular with a border radius of 4px. An avatar image is displayed 
 
 Chips have 3 different variations and are displayed as follows:
 
-<span class="badge badge-primary"><img alt="small user avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow"> User 1</span>
-<span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow"> User 2</span>
+<span class="badge badge-primary"><img alt="small user avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 1</span>
+<span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 2</span>
 
 **Normal:** Rectangular box filled in with <badge style="background-color: #CECECE;color:black;">#CECECE</badge>. Black text. Small avatar \(26 x 26px\) aligned to the left.
 
