@@ -31,8 +31,9 @@ Fields should be validated when the user has completed the required field inform
 
 ## Error Boxes
 
-<section class="alert alert-danger alert-icon-border">
+<section class="alert alert-danger alert-danger-banner">
     <h2>Field error or required</h2>
+    <p>Please verify the following fields:</p>
     <ul class="list-unstyled">
     <li><a href="#exampleInputText1-html" class="alert-link">1 - Username already exists</a></li>
     <li><a href="#customCheck1-html" class="alert-link">2 - You must agree to the Terms and Conditions</a></li>

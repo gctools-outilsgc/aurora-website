@@ -114,6 +114,37 @@ In progress, completed steps use a coloured circle and line. The outer circle is
 
 ![Steps indicator component on step 3](../../../img\components\steps_indicator_3.png)
 
+Non-interactive steps
+
+<div role="group" aria-label="progress" class="step-indicator">
+     <ul class="steps">
+         <li class="complete">login<span class="sr-only">completed</span></li>
+         <li class="active" aria-current="true">choose interest</li>
+         <li>add friends<span class="sr-only">not completed</span></li>
+         <li>View map<span class="sr-only">not completed</span></li>
+      </ul>
+ </div>
+
+ Step indicator with links
+
+ <nav aria-label="progress" class="step-indicator">
+      <ul class="steps">
+          <li class="complete">
+            <a href="#">login</a><span class="sr-only">completed</span>
+          </li>
+          <li class="active" aria-current="true">
+            <a href="#">choose interest</a>
+          </li>
+          <li>
+            <a href="#">add friends</a><span class="sr-only">not completed</span>
+          </li>
+          <li>
+            <a href="#">View map</a><span class="sr-only">not completed</span>
+          </li>
+       </ul>
+  </nav>
+
+
 ## Progress Bars
 
 Colours for the progress bar can vary, but ensure that contrast requirements are met. Visit the [colour section](/components/colour) for more information on choosing accessible colours.
