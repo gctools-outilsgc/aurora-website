@@ -11,9 +11,9 @@ title: "Progress indicators"
 
 # Progress Indicators
 
-## Steps Indicator
-
 Progress indicators are key for visibility of system status. They visually represent a path to completion of a particular task or process. Step indicators help the user identify how much of the process the user has completed, and how much is still left.
+
+## Steps Indicator
 
 Step indicators are used for tasks that require multiple steps. To visually represent a page or element that is loading, use a spinner or progress bar rather than a steps indicator.
 
@@ -29,9 +29,6 @@ Progress bars show determinate levels of progress, meaning there is a clear poin
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </helmet>
-<i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"><span class="sr-only">Example of notch circle spinner</span></i>
-<i class="fa fa-refresh fa-spin" style="font-size:24px"><span class="sr-only">Example of refresh spinner</span></i>
-<i class="fa fa-spinner fa-spin" style="font-size:24px"><span class="sr-only">Example of dot spinner</span></i>
 
 Spinners are used to indicate that a page or function is loading. A general rule is to use spinners for processes that take less than 4 seconds. Spinners show indeterminate levels of progress, meaning there is no clear completion and the animation loops until the process is complete.
 
@@ -41,22 +38,92 @@ Spinners are used to indicate that a page or function is loading. A general rule
 
 ## Step Indicators
 
-## How it works
-Progress components are built with two HTML elements, some CSS to set the width, and a few attributes. We don’t use the HTML5 `<progress>` element, ensuring you can stack progress bars, animate them, and place text labels over them.
+Step indicators in Aurora are a custom component. This component is built using the `<ul>` element. 
 
-We use the .progress as a wrapper to indicate the max value of the progress bar.
-We use the inner .progress-bar to indicate the progress so far.
-The .progress-bar requires an inline style, utility class, or custom CSS to set their width.
-The .progress-bar also requires some role and aria attributes to make it accessible.
-Put that all together, and you have the following examples.
+See examples below:
 
-### Labels
-Add labels to your progress bars by placing text within the .progress-bar.
-          
+### Regular step indicator
+The regular steps indicator is used simply as a visual indication of progress. The `<ul>` will be contained within a `<div>` element with the class of `.step-indicator`
+
+<div role="group" aria-label="progress" class="step-indicator">
+     <ul class="steps">
+         <li class="complete">login<span class="sr-only">completed</span></li>
+         <li class="active" aria-current="true">choose interest</li>
+         <li>add friends<span class="sr-only">not completed</span></li>
+         <li>View map<span class="sr-only">not completed</span></li>
+      </ul>
+ </div>
+
+```html
+<div role="group" aria-label="progress" class="step-indicator">
+     <ul class="steps">
+         <li class="complete">login<span class="sr-only">completed</span></li>
+         <li class="active" aria-current="true">choose interest</li>
+         <li>add friends<span class="sr-only">not completed</span></li>
+         <li>View map<span class="sr-only">not completed</span></li>
+      </ul>
+ </div>
+```
+
+
+### Navigation step indicator
+
+Depending on the page content, you may wish to add navigation links as part of your steps indicator. In this case, your `<ul>` element will be encapsulated within a `<nav>` element. You can then wrap your text with a`<a>`element to make a link within the list item. 
+
+ <nav aria-label="progress" class="step-indicator">
+      <ul class="steps">
+          <li class="complete">
+            <a href="#">login</a><span class="sr-only">completed</span>
+          </li>
+          <li class="active" aria-current="true">
+            <a href="#">choose interest</a>
+          </li>
+          <li>
+            <a href="#">add friends</a><span class="sr-only">not completed</span>
+          </li>
+          <li>
+            <a href="#">View map</a><span class="sr-only">not completed</span>
+          </li>
+       </ul>
+  </nav>
+
+```html
+ <nav aria-label="progress" class="step-indicator">
+      <ul class="steps">
+          <li class="complete">
+            <a href="#">login</a><span class="sr-only">completed</span>
+          </li>
+          <li class="active" aria-current="true">
+            <a href="#">choose interest</a>
+          </li>
+          <li>
+            <a href="#">add friends</a><span class="sr-only">not completed</span>
+          </li>
+          <li>
+            <a href="#">View map</a><span class="sr-only">not completed</span>
+          </li>
+       </ul>
+  </nav>
+```
+
+### Conveying meaning to assistive technologies
+Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the `.sr-only` class.
+
+You will also need to add `aria-current="true"` to the current active step to provide more context.  
 
 ## Progress Bars
 
+Progress components are built with two HTML elements, some CSS to set the width, and a few attributes. We don’t use the HTML5 `<progress>` element, ensuring you can stack progress bars, animate them, and place text labels over them.
+
+We use the `.progress` as a wrapper to indicate the max value of the progress bar.
+We use the inner .progress-bar to indicate the progress so far.
+The .progress-bar requires an inline style, utility class, or custom CSS to set their width.
+The `.progress-bar` also requires some role and aria attributes to make it accessible.
+Put that all together, and you have the following examples.
+
 Progress bars should always include a text indicator as well as the visual to provide more context. This text should be included in the `<alt>` tag.
+
+Add labels to your progress bars by placing text within the `.progress-bar`.
 
 <div class="progress">
   <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
@@ -87,8 +154,20 @@ Progress bars should always include a text indicator as well as the visual to pr
     <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
 </div>
 ```
-
+          
 ## Spinners
+
+You can refer to [Font Awesome's documentation](https://fontawesome.com/how-to-use/on-the-web/styling/animating-icons) to animate the spinner to demonstrate a loading page or function.
+
+<i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"><span class="sr-only">Example of notch circle spinner</span></i>
+<i class="fa fa-refresh fa-spin" style="font-size:24px"><span class="sr-only">Example of refresh spinner</span></i>
+<i class="fa fa-spinner fa-spin" style="font-size:24px"><span class="sr-only">Example of dot spinner</span></i>
+
+```html
+<i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"><span class="sr-only">Example of notch circle spinner</span></i>
+<i class="fa fa-refresh fa-spin" style="font-size:24px"><span class="sr-only">Example of refresh spinner</span></i>
+<i class="fa fa-spinner fa-spin" style="font-size:24px"><span class="sr-only">Example of dot spinner</span></i>
+```
 
 </doctabpanel>
     <doctabpanel type="design">
@@ -98,21 +177,24 @@ Progress bars should always include a text indicator as well as the visual to pr
           
 If a label is required for your step indicator, the label should be placed at the top of the element and left-aligned.
 
-Colours for the step indicator can vary, but ensure that contrast requirements are met. Visit the [colour section](/component/colour) for more information on choosing accessible colours.
+Colours for the step indicator can vary to better match individual applications, but ensure that contrast requirements are met. Visit the [colour section](/component/colour) for more information on choosing accessible colours.
 
-Step indicators are styled as follows: 44px using the colour <badge style="background-color: #CECECE;color:black;">#CECECE</badge>.
+Step indicators are styled as follows: 
 
-The inner circle is white \(<badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>\) and 34px. it is centred within the outer circle. The text is heading 2 style, Rubik Regular at 21 points.  The inner circle has a black \(<badge style="background-color: #000000;">#000000</badge>\) drop shadow of 20% opacity, offset of 0 for x and y, and 4px blur.
+Each circle is 40px with a border of 4px and the colour <badge style="background-color: #CECECE;color:black;">#CECECE</badge>
 
-In between steps there is a centred line with a thickness of 3px. This line should be the same colour as the outer circle.
+The numbers within each step use heading 2 style, Rubik Regular at 21 points.
 
-![Steps indicator component on step 1](../../../img\components\steps_indicator_1.png)
+In between steps there is a centred line with a height of 4px. This line should be the same colour as the outer circle.
 
-In progress, completed steps use a coloured circle and line. The outer circle is filled with the colour \(<badge style="background-color: #FEC04F;color:black;">#FEC04F</badge>\)\ or the secondary colour of your choice. The line is also filled with this colour.
+Completed steps use a checkmark icon instead of the number and the border is coloured <badge style="background-color: #0278A4">#0278A4</badge>. The checkbox also uses this colour. 
 
-![Steps indicator component on step 2](../../../img\components\steps_indicator_2.png)
+The line between completed and active steps is also filled with <badge style="background-color: #0278A4">#0278A4</badge>.
 
-![Steps indicator component on step 3](../../../img\components\steps_indicator_3.png)
+The active step still uses the number and both the number and the border is filled in with the colour <badge style="background-color: #0278A4">#0278A4</badge>. The active step has a drop shadow of (x)
+
+Each step should also include text underneath for context. Limit this text to one or two words. This text has a font size of 12px, center-aligned, and is all uppercase. 
+Each step should also include text underneath for context. Limit this text to one or two words. This text has a font size of 12px, center-aligned, and is all uppercase. 
 
 Non-interactive steps
 
@@ -173,11 +255,11 @@ Percentage can be either aligned to the right of the bar, or the percentage can 
 
 <br>
 
-### Animation
-
-Progress bars start empty and gradually fill with colour using an animation. The percentage shown should match the level of colour that fills the bar.
-
 ## Spinners
+
+<i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"><span class="sr-only">Example of notch circle spinner</span></i>
+<i class="fa fa-refresh fa-spin" style="font-size:24px"><span class="sr-only">Example of refresh spinner</span></i>
+<i class="fa fa-spinner fa-spin" style="font-size:24px"><span class="sr-only">Example of dot spinner</span></i>
 
 The spinner used in this design system is displayed using the spinner icon from Font Awesome. Font Awesome provides multiple icons that may work well as a spinner, depending on your content. You can refer to [Font Awesome's documentation](https://fontawesome.com/how-to-use/on-the-web/styling/animating-icons) to animate the spinner to demonstrate a loading page or function.
 
