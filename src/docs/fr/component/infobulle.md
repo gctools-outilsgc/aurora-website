@@ -1,6 +1,6 @@
 ---
 path: "/component/tooltips"
-subnav: "2/Standard/Standard/10"
+subnav: "2/Standard/Standard/9"
 lang: "fr"
 title: "Infobulles"
 ---
