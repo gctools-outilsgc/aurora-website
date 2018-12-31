@@ -11,6 +11,7 @@ title: "Images, avatars et vignettes"
 
 # Images, avatars et vignettes
 
+
 ## Images
 
 *Texte ici*
