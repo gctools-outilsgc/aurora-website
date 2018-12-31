@@ -25,8 +25,9 @@ Rectangle with the same width as the form container. 4px border radius and a str
 
 The box heading uses Heading 2 style, and the text uses the paragraph style. Error copy is displayed in a numbered list using <badge style="background-color: #923534;">#923534</badge>. Each error is a link which leads the user to the inline error on the page.  
 
-<section class="alert alert-danger alert-icon-border">
+<section class="alert alert-danger alert-danger-banner">
     <h2>Field error or required</h2>
+    <p>Please verify the following fields:</p>
     <ul class="list-unstyled">
     <li><a href="#" class="alert-link">1 - Username already exists</a></li>
     <li><a href="#" class="alert-link">2 - Invalid Email</a></li>

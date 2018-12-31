@@ -38,6 +38,23 @@
     background-color: $white;
 }
 
+.alert-danger-banner {
+  border:1px solid #923534;
+  background-color: $white;
+
+  p {
+    margin-bottom: .5rem;
+  }
+
+  ul {
+    padding-left: 1rem;
+  }
+
+  .alert-link {
+    color: #923534;
+  }
+}
+
 //Forms
 
 .form-control {
