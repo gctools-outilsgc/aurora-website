@@ -6,7 +6,9 @@ title: "Progress indicators"
 ---
 
 <helmet>
-<title> Progress Indicators - Aurora Design System </title>
+    <title> Progress Indicators - Aurora Design System </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </helmet>
 
 # Progress Indicators
@@ -24,11 +26,6 @@ Progress bars are used to visually represent a page or feature that is loading o
 Progress bars show determinate levels of progress, meaning there is a clear point of completion. When the progress bar is filled and hits 100%, the application should complete the process.
 
 ## Spinners
-
-<helmet>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</helmet>
 
 Spinners are used to indicate that a page or function is loading. A general rule is to use spinners for processes that take less than 4 seconds. Spinners show indeterminate levels of progress, meaning there is no clear completion and the animation loops until the process is complete.
 
@@ -196,8 +193,6 @@ The active step still uses the number and both the number and the border is fill
 Each step should also include text underneath for context. Limit this text to one or two words. This text has a font size of 12px, center-aligned, and is all uppercase. 
 Each step should also include text underneath for context. Limit this text to one or two words. This text has a font size of 12px, center-aligned, and is all uppercase. 
 
-Non-interactive steps
-
 <div role="group" aria-label="progress" class="step-indicator">
      <ul class="steps">
          <li class="complete">login<span class="sr-only">completed</span></li>
@@ -206,26 +201,6 @@ Non-interactive steps
          <li>View map<span class="sr-only">not completed</span></li>
       </ul>
  </div>
-
- Step indicator with links
-
- <nav aria-label="progress" class="step-indicator">
-      <ul class="steps">
-          <li class="complete">
-            <a href="#">login</a><span class="sr-only">completed</span>
-          </li>
-          <li class="active" aria-current="true">
-            <a href="#">choose interest</a>
-          </li>
-          <li>
-            <a href="#">add friends</a><span class="sr-only">not completed</span>
-          </li>
-          <li>
-            <a href="#">View map</a><span class="sr-only">not completed</span>
-          </li>
-       </ul>
-  </nav>
-
 
 ## Progress Bars
 
