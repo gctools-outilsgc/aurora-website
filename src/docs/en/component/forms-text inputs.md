@@ -104,6 +104,24 @@ Help text should be explicitly associated with the form control it relates to us
 
 Microcopy below inputs can be styled with `.form-text`. This class includes `display: block` and adds some top margin for easy spacing from the inputs above. Inline help text can be flexibly implemented using any inline HTML element and utility classes like `.text-muted.`
 
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="sierra@example.com">
+    <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+  </div>
+<form>
+
+```html
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="sierra@example.com">
+    <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+  </div>
+<form>
+```
+
 </doctabpanel>
       <doctabpanel type="react">
       </doctabpanel>
