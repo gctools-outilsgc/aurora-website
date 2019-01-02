@@ -544,27 +544,45 @@ a.dropdown-item {
     top: 10px;
 }
 
-.badge-tag::after {
-    border-bottom: 13px solid transparent;
-    border-right: 10px solid $primary;
-    border-top: 13px solid transparent;
-    content: '';
-    position: absolute;
-    left: -8px;
-    top: 0;
-    width: 0;
-    height: 0;
-    border-radius: 20px;
+@each $color, $value in $theme-colors {
+  .badge-#{$color}.badge-tag::after {
+      border-bottom: 13px solid transparent;
+      border-right: 10px solid #{$value};
+      border-top: 13px solid transparent;
+      content: '';
+      position: absolute;
+      left: -8px;
+      top: 0;
+      width: 0;
+      height: 0;
+      border-radius: 20px;
+    }
+
+    a.badge-#{$color}.badge-tag:hover::after {
+      border-right-color: darken($value, 10%);
+    }
+}
+
+.badge-chip {
+  position:relative;
+  padding-left:30px;
+  height: auto;
+
+  img {
+    position:absolute;
+    top:-1px;
+    left:0;
+    width:26px;
+    height:26px;
   }
+}
 
 .badge-secondary {
   color: #fff;
-  background-color: #4D5D6C;
 }
 
 .badge-info {
-  background-color:#245269;
-  color:#ffffff;
+  color:#000000;
 }
 
   //Table
