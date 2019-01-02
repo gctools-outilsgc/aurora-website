@@ -7,6 +7,7 @@ title: "Back to top"
 
 <helmet>
 <title> Back to Top - Aurora Design System </title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </helmet>
 
 # Back to top
@@ -26,9 +27,12 @@ There is an arrow icon centred in the circle \(_Arrow up_ from Font Awesome\). T
 
 ![Back to top mobile component](../../../img\components\back_to_top_mobile.png)
 
+<a href="#main-content" class="btn btn-backtotop mobile"><i class="fa fa-arrow-up icon" aria-hidden="true"></i><span class="sr-only">Back to top</span></a>
 
 **Web:** The text Back to top is styled using button text \(Nunito Sans Bold, 14px\), with the colour <badge style="background-color: #666666;">#666666</badge>.
 
 The text has a 9px by 15px padding with a 1px border colours <badge style="background-color: #CECECE;color:black;">#CECECE</badge>  and a border radius of 16px. The arrow icon is aligned to the left of the text.
 
 ![Back to top web component](../../../img\components\back_to_top.png)
+
+<a href="#main-content" class="btn btn-backtotop"><i class="fa fa-arrow-up icon"></i>Back to top</a>
