@@ -27,6 +27,7 @@ Les vignettes sont de petites versions d’une image qui sont utilisées comme a
 <documentationtabs remove="react">
       <doctabpanel type="html">
           
+
 ## Images
 
 *texte ici*
@@ -80,11 +81,13 @@ Les avatars sont utilisés en trois tailles et sont stylisés comme suit :
 <img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx">
 
 **Petit** : image carrée avec les coins arrondis par 4px. Taille à 26 x 26 pixels.
+
 Utilisés sur les petits éléments où l’utilisateur a besoin d’être identifié comme sur des mots-clés ou le clavardage.
 
 <img alt="medium avatar" class="avatar" src="https://bit.ly/2GLjkzx">
 
 **Moyen** : image carrée avec les coins arrondis par 4px. Taille à 50 x 50 pixels.
+
 Utilisée en combinaison avec d’autres éléments tels que des commentaires, le clavardage, des cartes et tout autre endroit où vous auriez besoin d’identifier l’utilisateur.
 
 <img alt="large avatar" class="avatar avatar-lg" src="https://bit.ly/2GLjkzx">

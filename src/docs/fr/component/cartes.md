@@ -47,7 +47,7 @@ Tous ces éléments ne sont pas nécessaires dans chaque carte. Vous pouvez choi
     <div class="card-body">
         <h3 class="card-title h5">Titre de la carte</h3>
         <div class="card-subtitle text-muted">Méta-information</div>
-        <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte. Voici quelques renseignements supplémentaires, cela pourrait être quelque chose de merveilleux!</p>
+        <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte.</p>
         <a href="#" class="card-link">Un autre lien</a>
     </div>
 </div>
@@ -57,7 +57,7 @@ Tous ces éléments ne sont pas nécessaires dans chaque carte. Vous pouvez choi
     <div class="card-body">
         <h3 class="card-title h5">Titre de la carte</h3>
         <div class="card-subtitle text-muted">Méta-information</div>
-        <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte. Voici quelques renseignements supplémentaires, cela pourrait être quelque chose de merveilleux!</p>
+        <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte.</p>
         <a href="#" class="card-link">Another link</a>
     </div>
 </div>
@@ -158,7 +158,6 @@ Tous ces éléments ne sont pas nécessaires dans chaque carte. Vous pouvez choi
     <doctabpanel type="design">  
     
 Les cartes ont habituellement une couleur de fond <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, qui les sépare de l’ensemble de la couleur de fond de la page (<badge style="background-color: #FAFAFA; color:black">#FAFAFA</badge>).
-
 
 ## Modèle de carte de base
 

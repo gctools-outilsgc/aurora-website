@@ -79,7 +79,6 @@ Create block level buttons—those that span the full width of a parent—by add
 ## Dropdowns
 Dropdowns are toggleable, contextual overlays for displaying lists of links and more. They’re made interactive with the included Bootstrap dropdown JavaScript plugin. They’re toggled by clicking, not by hovering. 
 
-### Example
 Wrap the dropdown’s toggle (your button or link) and the dropdown menu within `.dropdown`, or another element that declares `position: relative;`. Dropdowns can be triggered from `<a>` or `<button>` elements to better fit your potential needs.
 
 Button dropdowns work with buttons of all sizes and variants. 

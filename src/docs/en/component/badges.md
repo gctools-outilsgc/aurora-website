@@ -123,7 +123,7 @@ Chips are badges with an image. Add your image to the badge using the `<img>` el
 They are used to show complex information (e.g. a user) in a compact space.
 
 <span class="badge badge-primary badge-chip"><img alt="small user avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 1</span>
-<span class="badge badge-primary badge-chips"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 2</span>
+<span class="badge badge-primary badge-chip"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 2</span>
 
 ```html
 <span class="badge badge-primary badge-chip"><img alt="small user avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 1</span>
@@ -206,7 +206,7 @@ Chips are rectangular with a border radius of 4px. An avatar image is displayed 
 Chips have 3 different variations and are displayed as follows:
 
 <span class="badge badge-primary badge-chip"><img alt="small user avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 1</span>
-<span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 2</span>
+<span class="badge badge-primary badge-chip"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 2</span>
 
 **Normal:** Rectangular box filled in with <badge style="background-color: ##002D42">##002D42</badge>. Black text. Small avatar \(26 x 26px\) aligned to the left.
 

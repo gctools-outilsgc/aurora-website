@@ -83,8 +83,6 @@ Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouto
 
 *texte ici*
 
-### Exemple
-
 *texte ici*
 
 <mdbuttondropdown color="primary" title="Normal">

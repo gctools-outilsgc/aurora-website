@@ -39,7 +39,7 @@ L’utilisateur doit être en mesure de dire clairement sur quelle page il se tr
 
 *texte ici*
 
-nav aria-label="Page navigation pages">
+<nav aria-label="Page navigation pages">
     <ul class="pagination">
         <li class="page-item">
         <a class="page-link" href="#" aria-label="Previous">
