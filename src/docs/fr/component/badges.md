@@ -194,7 +194,7 @@ Les puces ont trois différentes variations et sont affichées comme suit :
 <span class="badge badge-primary"><img alt="small user avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 1</span>
 <span class="badge badge-primary"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 2</span>
 
-**Normal** : Case rectangulaire remplie avec <badge style="background-color: #CECECE; color: black">#CECECE</badge>. Texte noir. Petit avatar (26px sur 26px) aligné à gauche.
+**Normal** : Case rectangulaire remplie avec <badge style="background-color: ##002D42">##002D42</badge>. Texte noir. Petit avatar (26px sur 26px) aligné à gauche.
 
 **Contrôle de l’utilisateur** : Même chose que normal, mais il y a un icône de suppression supplémentaire à droite. Cette icône a la couleur <badge style="background-color: #4D5D6C">#4D5D6C</badge> ainsi qu’un « x » transparent et elle est alignée à droite. Petit avatar (26px sur 26px) aligné à gauche.
 
