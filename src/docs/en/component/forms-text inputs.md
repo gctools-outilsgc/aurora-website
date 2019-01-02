@@ -35,7 +35,6 @@ As soon as the user starts typing in the field, the placeholder text should disa
 Textual form controls—like `<input>`, `<select>`, and `<textarea>`—are styled with the `.form-control` class. Included are styles for general appearance, focus state, sizing, and more.
 
 ## Text Inputs
-
 The `<input>` tag specifies an input field where the user can enter data.
 
 `<input>` elements are used within a `<form>` element to declare input controls that allow users to input data.
@@ -55,7 +54,6 @@ Be sure to use an appropriate `type` attribute on all inputs (e.g., `email` for 
 ```
 
 ## Text Area
-
 The `<textarea>` tag defines a multi-line text input control.
 
   <div class="form-group">
@@ -71,7 +69,6 @@ The `<textarea>` tag defines a multi-line text input control.
 ```
 
 ## Select Field
-
 The `<select>` element is used to create a drop-down list.
 
 The `<option>` tags inside the `<select>` element define the available options in the list.
@@ -99,37 +96,29 @@ The `<option>` tags inside the `<select>` element define the available options i
 ```
 
 ## Microcopy
-
 Help text should be explicitly associated with the form control it relates to using the `aria-describedby` attribute. This will ensure that assistive technologies, such as screen readers, will announce this microcopy when the user focuses or enters the control.
 
 Microcopy below inputs can be styled with `.form-text`. This class includes `display: block` and adds some top margin for easy spacing from the inputs above. Inline help text can be flexibly implemented using any inline HTML element and utility classes like `.text-muted.`
 
-<form>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="sierra@example.com">
     <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
   </div>
-<form>
 
 ```html
-<form>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="sierra@example.com">
     <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
   </div>
-<form>
 ```
 
 </doctabpanel>
-      <doctabpanel type="react">
-      </doctabpanel>
-      <doctabpanel type="design">
-          
+    <doctabpanel type="design">
+
 
 ## Text Inputs
-
 Text fields are styled as follows:
 
 <label for="exampleInputEmail1">Email</label>
@@ -146,7 +135,6 @@ The text field a user has selected should be indicated visually. Outlining the s
 When there is an error within a text field, the field will be outlined in red. See [Errors and Validation](/component/errors-and-validation) for more information about input errors.
 
 Text input fields may also include interactive elements to the right of the field. Interactive elements will always be displayed using an icon, such as an eye to demonstrate a visible or hidden password.
-
 
 ## Text Area
 
@@ -192,13 +180,11 @@ Micro-copy is styled as follows:
 
 If there is more than one line the text wraps and has a leading of 18pts.
 
-<form>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="sierra@example.com">
     <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
   </div>
-<form>
 
 </doctabpanel>
     </documentationtabs>

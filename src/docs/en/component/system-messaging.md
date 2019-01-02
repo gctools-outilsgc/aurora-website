@@ -22,7 +22,7 @@ System messages should straightforward and as short as possible, and use key wor
 
 Example of a clear message: "Your profile picture has been changed successfully."
 
-Notifications should be located at the top of the page, or wherever is most convenient and visible for the user.
+System messages should be located at the top of the page, or wherever is most convenient and visible for the user.
 
 ### When to Use
 
