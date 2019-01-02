@@ -13,6 +13,7 @@
       padding:0;
       position: relative;
       display: flex;
+      margin-bottom: 1rem;
       .icon {
           font-size: $font-size-lg;
           color: $white;
@@ -20,10 +21,25 @@
           width:50px;
           border-top-left-radius: 0.35rem;
           border-bottom-left-radius: 0.35rem;
+          display:flex;
+          align-items:center;
+          justify-content:center;
       }
       .message {
           padding: $alert-padding-y $alert-padding-x;
           flex: 1;
+          background:white;
+
+          h2, h3, h4, h5, h6 {
+            font-family: 'Nunito Sans', sans-serif;
+            font-weight:500;
+            font-size: 1.25em;
+            margin-bottom:0;
+          }
+
+          p {
+            margin-bottom:0.5em;
+          }
       }
       }
 
