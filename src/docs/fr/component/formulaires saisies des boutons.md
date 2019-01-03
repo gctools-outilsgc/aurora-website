@@ -41,7 +41,7 @@ Les commutateurs peuvent être utilisés dans toutes sortes de formulaires ou d�
 
 ## Cases à cocher
 
-*texte ici*
+Aurora utilise un style personnalisé pour les cases à cocher. Consultez l’exemple ci-dessous : 
 
 <div class="custom-control custom-checkbox">
     <input type="checkbox" class="custom-control-input" id="customCheck1">
@@ -57,7 +57,7 @@ Les commutateurs peuvent être utilisés dans toutes sortes de formulaires ou d�
 
 ## Boutons « radio »
 
-*texte ici*
+Aurora utilise un style personnalisé pour les boutons de radio. Consultez l’exemple ci-dessous :
 
 <div class="custom-control custom-radio">
     <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
@@ -80,17 +80,20 @@ Les commutateurs peuvent être utilisés dans toutes sortes de formulaires ou d�
 </div>
 ```
 
-### Disabled
+### Désactivation
 
-*texte ici*
+Les cases à cocher et les radios personnalisées peuvent être désactivées. Ajoutez l’attribut `disabled` boolean à `<input>` et l’indicateur personnalisé et la description d’étiquette seront automatiquement stylisés.
 
-### Default (stacked)
+### Défaut (superposé)
 
-*texte ici*
+Par défaut, toutes les cases à cocher et les radios qui sont de parenté immédiate seront superposées verticalement et espacées de manière approximative au moyen de `.form-check.`
 
-### Using Bootstrap defaults
+Afin de veiller à ce que les saisies de bouton soient alignées plutôt que superposées, ajoutez la classe `.custom-control-inline` au `.custom-control` `<div>`.
 
-*texte ici*
+
+### Utilisation des options par défaut de Bootstrap
+
+Si vous souhaitez utiliser les styles par défaut de Bootstrap pour les boutons de cases à cocher et de radio, consultez l’exemple ci-dessous : 
 
 <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -138,19 +141,19 @@ Les commutateurs peuvent être utilisés dans toutes sortes de formulaires ou d�
 
 ## Commutateurs
 
-*texte ici*
+Les commutateurs sont des composantes personnalisées utilisées lorsque l’option du champ peut seulement être « oui » ou « non », ou bien « activé » ou « désactivé ».
 
 <label class="switch">
   <input type="checkbox" />
   <span class="switch__toggle"></span>
-  Toggle switch
+  Commutateur
 </label>
 
 ```html
 <label class="switch">
   <input type="checkbox" />
   <span class="switch__toggle"></span>
-  Toggle switch
+  Commutateur
 </label>
 ```
 
@@ -202,7 +205,7 @@ Les cases à cocher ont quatre états différents :
 <label class="switch">
   <input type="checkbox" />
   <span class="switch__toggle"></span>
-  Toggle switch
+  Commutateur
 </label>
 
 <br> 

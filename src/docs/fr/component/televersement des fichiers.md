@@ -21,9 +21,12 @@ L’utilisateur ne saisit pas de texte dans le champ de saisie; celui-ci est rem
       <doctabpanel type="html">
           
 
-## File Browser 
+## Fureteur de fichier 
 
-*texte ici*
+On dispose d’un système de téléversement personnalisé de fichiers dont le plein fonctionnement nécessite JavaScript.
+
+Si vous souhaitez obtenir des renseignements supplémentaires à propos de la personnalisation de cette composante, consultez les [documents de Bootstrap](https://getbootstrap.com/docs/4.1/components/forms/#file-browser) sur les fureteurs de fichiers.
+
 
 <div class="custom-file">
     <input type="file" id="file" class="custom-file-input" aria-label="upload a file">

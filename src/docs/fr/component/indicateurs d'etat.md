@@ -2,16 +2,16 @@
 path: "/component/progress-indicators"
 subnav: "4/Forms/Formulaires/5"
 lang: "fr"
-title: "Indicateurs d'état"
+title: "Indicateurs de progrès"
 ---
 
 <helmet>
-    <title> Indicateurs d'état - Aurora Design System </title>
+    <title> Indicateurs de progrès - Aurora Design System </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </helmet>
 
-# Indicateurs d'états
+# Indicateurs de progrès
 
 Les indicateurs de progrès sont la clé pour la visibilité de l’état du système. Ils représentent une voie vers l’achèvement d’une tâche ou d’un processus particulier. Les indicateurs d’étapes aident l’utilisateur à déterminer ce qu’il a terminé dans le processus, et ce qu’il lui reste à faire.
 
@@ -64,17 +64,20 @@ Les boucles de progression sont utilisées pour indiquer le chargement d’une p
 
 *texte ici*
 
-### Conveying meaning to assistive technologies
+### Donner un sens aux technologies d’assistance
 
-*texte ici*
+L’utilisation de couleurs pour ajouter du sens fournit seulement une indication visuelle qui n’est pas transmise aux utilisateurs de technologies d’assistance, comme les lecteurs d’écran. Veillez à ce que les renseignements indiqués par la couleur se différencient de manière évidente du contenu (p. ex., le texte visible) ou qu’ils soient inclus de différentes manières, par l’ajout de texte caché avec la classe `.sr-only`, par exemple.
 
 ## Barres de progression
 
-*texte ici*
+Les composantes de progrès sont conçues à l’aide de deux éléments de HTML, certains éléments de CSS pour l’établissement de la largeur et quelques attributs. On n’utilise pas l’élément `<progress>` d’HTML5 afin de veiller à ce que vous puissiez superposer des barres de progrès, les animer et y poser des étiquettes de texte.
+
+On utilise `.progress` comme enveloppeur pour indiquer la valeur maximale de la barre de progrès. On se sert d’inner `.progress-ba`r pour indiquer le progrès réalisé. La barre .progress-bar nécessite un style en ligne, une classe utilitaire ou une feuille de style en cascade CSS personnalisée pour l’établissement de la largeur. La barre .progress-bar nécessite également certains attributs de rôle et d’aria pour être accessible. Si vous regroupez tous ces éléments, vous obtenez les exemples suivants.
+
 
 Les barres de progression devraient toujours inclure un indicateur de texte, en plus de la représentation visuelle pour donner plus de contexte. Ce texte devrait être inclus dans l’étiquette `<alt>`.
 
-*texte ici*
+Ajoutez des étiquettes à vos barres de progrès en plaçant du texte sur la barre `.progress-bar.`
           
 <div class="progress">
   <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
@@ -108,7 +111,7 @@ Les barres de progression devraient toujours inclure un indicateur de texte, en 
 
 ## Boucles de progression
 
-*texte ici*
+Vous pouvez consulter la [documentation sur la police Awesome](https://fontawesome.com/how-to-use/on-the-web/styling/animating-icons) afin d’animer la boucle de pression pour démontrer le chargement d’une page ou d’une fonction.
 
 <i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"><span class="sr-only">Exemple d'une girouette circulaire</span></i>
 <i class="fa fa-refresh fa-spin" style="font-size:24px"><span class="sr-only">Exemple d'une girouette pour rafraîchir</span></i>

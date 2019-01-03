@@ -83,7 +83,7 @@ Aurora uses a custom style for radio buttons. See the example below:
 
 ### Disabled
 
-Custom checkboxes and radios can also be disabled. Add the disabled boolean attribute to the `<input>` and the custom indicator and label description will be automatically styled.
+Custom checkboxes and radios can also be disabled. Add the `disabled` boolean attribute to the `<input>` and the custom indicator and label description will be automatically styled.
 
 ### Default (stacked)
 By default, any number of checkboxes and radios that are immediate sibling will be vertically stacked and appropriately spaced with `.form-check`.
