@@ -48,7 +48,9 @@ const enTranslation = {
   "Reply":"Reply",
   "Pressed":"Pressed",
   "Design":"Design",
-  "CanadaSymbol":"Symbol of the Government of Canada"
+  "CanadaSymbol":"Symbol of the Government of Canada",
+  "tooltip":"Tooltip",
+  "tooltipexample":"More information here"
 };
 
 export default enTranslation;

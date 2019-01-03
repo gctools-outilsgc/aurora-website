@@ -7,6 +7,8 @@ title: "System messaging"
 
 <helmet>
 <title> System Messaging - Aurora Design System </title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/regular.css" integrity="sha384-aubIA90W7NxJ+Ly4QHAqo1JBSwQ0jejV75iHhj59KRwVjLVHjuhS3LkDAoa/ltO4" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous">
 </helmet>
 
 # System Messaging
@@ -21,9 +23,25 @@ Error notifications are used for system failures and user errors.
 
 Error example: “Your password must contain at least 8 characters.”
 
-<Alert color="danger">
-    This is a danger alert with <a href="#example" class="alert-link">an example link</a>.
-</Alert>
+<div class="alert alert-danger alert-dismissible" role="alert'">
+  This is a danger alert with <a href="#example" class="alert-link">an example link</a>.
+  <button color="link" type="button" class="close" data-dismiss="alert" aria-label="Close">
+     <span aria-hidden="true">&times;</span>
+   </button>
+</div>
+
+<div class="alert-icon alert-info alert-dismissible fade show" role="alert">
+ <div class="icon" aria-hidden="true">
+   <i class="far fa-times-circle" style="font-size:40px"></i>
+ </div>
+ <div class="message">
+   <h3>Notification title</h3>
+   <p>This is a danger icon alert with <a href="#example" class="alert-link">an example link</a>.</p>
+ </div>
+ <button color="link" type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+</button>
+</div>
 
 <codeblock html='
     <div class="alert alert-danger" role="alert">
