@@ -44,12 +44,11 @@ Le bouton Haut de la page dans le système de conception a le style suivant :
 
 Le texte comporte un remplissage de 9 px sur 15, ayant la couleur de bordure <badge style="background-color: #CECECE;color:black;">#CECECE</badge> de 1 px et un rayon de bordure de 16 px. L’icône de la flèche est alignée à gauche du texte.
 
-Il y a une icône de flèche centrée dans le cercle (flèche vers le haut à partir de la police « Awesome »). La flèche est de couleur <badge style="background-color: #666666;">#666666</badge>.
-
 <a href="#main-content" class="btn btn-backtotop mb-3"><i class="fa fa-arrow-up icon"></i>Haut de la page</a>
 
 **Mobile:** Cercle blanc ayant un rayon de 43 px. La bordure est de 1 px, <badge style="background-color: #CECECE;color:black;">#CECECE</badge>. Ombre portée de <badge style="background-color: #000000;">#000000</badge>, 20 % d’opacité, 0 décalage pour x, décalage 2 px pour y, 2 px flou.
 
+Il y a une icône de flèche centrée dans le cercle (flèche vers le haut à partir de la police « Awesome »). La flèche est de couleur <badge style="background-color: #666666;">#666666</badge>.
 
 <a href="#main-content" class="btn btn-backtotop mobile"><i class="fa fa-arrow-up icon" aria-hidden="true"></i><span class="sr-only">Haut de la page</span></a>
 
