@@ -36,10 +36,10 @@ System messages should be located at the top of the page, or wherever is most co
 
 <documentationtabs remove="react">
     <doctabpanel type="html">
-          
+
 
 ## Default Alerts
-Alerts are available for any length of text, as well as an optional dismiss button. For proper styling, use one of the four contextual classes: `.alert-danger`, `.alert-warning`, `.alert-info` or `.alert-success`. 
+Alerts are available for any length of text, as well as an optional dismiss button. For proper styling, use one of the four contextual classes: `.alert-danger`, `.alert-warning`, `.alert-info` or `.alert-success`.
 
 Use the `.alert-link` utility class to quickly provide matching colored links within any alert.
 
@@ -79,7 +79,7 @@ Use the `.alert-link` utility class to quickly provide matching colored links wi
 
 ## Custom Icon Alerts
 
-In addition to Bootstrap default alerts, Aurora uses custom icon alerts for different types of message contexts. 
+In addition to Bootstrap default alerts, Aurora uses custom icon alerts for different types of message contexts.
 
 Use the `.alert-icon` class to create the custom icon alert. The custom icon alert includes both a `.icon` section and a `.message` section. Your icon can be added to the `<div>.icon`.
 
@@ -220,10 +220,10 @@ Aurora automatically imports the Bootstrap Javascript required for interactive f
   </button>
 </div>
 ```
-        
+
 </doctabpanel>
     <doctabpanel type="design">
-    
+
 
 ## Default Alerts
 
@@ -231,13 +231,13 @@ Default alert messages are provided in Bootstrap. Aurora uses these alerts as we
 
 Default alerts are styled as follows:
 
-Rectangle the width of the container, with a border radius of 4px. The height is dependent on the size of the message text with a padding of 12px by 20px. 
+Rectangle the width of the container, with a border radius of 4px. The height is dependent on the size of the message text with a padding of 12px by 20px.
 
 The message box includes a drop shadow with no offset and a blur of 5px. The drop shadow is black (<badge style="background-color: #000000"> #000000</badge>) with 15% opacity.  
 
-The message text uses the Aurora paragraph style: Nunito Sans at 16 points. 
+The message text uses the Aurora paragraph style: Nunito Sans at 16 points.
 
-The colour of the message depends on the type of alert. Refer to [Colour](component/colour) for more information. Default messages use a muted colour as a fill for the message box. 
+The colour of the message depends on the type of alert. Refer to [Colour](component/colour) for more information. Default messages use a muted colour as a fill for the message box.
 
 <Alert color="danger">
     This is a danger alert with <a href="#example" class="alert-link">an example link</a>.
@@ -260,7 +260,7 @@ The colour of the message depends on the type of alert. Refer to [Colour](compon
 
 Custom icon alerts are styled as follows:
 
-The box is the same width as the container. The height of the message is dependent on the text. The padding around the text is 12px by 20px. The message box has a border radius of 4px. 
+The box is the same width as the container. The height of the message is dependent on the text. The padding around the text is 12px by 20px. The message box has a border radius of 4px.
 
 The coloured box on the side of the message is 60px wide with a border radius on the top left and bottom left corners are 4px. The colour depends on the type of alert. Refer to [Colour](component/colour) for more information. Custom icon alerts use the bright
 
@@ -312,4 +312,3 @@ Aurora uses Font Awesome for the icons in the message box, but these icons are c
 
 </doctabpanel>
     </documentationtabs>
-

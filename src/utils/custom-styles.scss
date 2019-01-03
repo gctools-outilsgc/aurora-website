@@ -14,11 +14,14 @@
       position: relative;
       display: flex;
       margin-bottom: 1rem;
+      background:white;
+      border-top-left-radius: 0.35rem;
+      border-bottom-left-radius: 0.35rem;
       .icon {
           font-size: $font-size-lg;
           color: $white;
           background-color: theme-color-level($color, -2);
-          width:50px;
+          width:60px;
           border-top-left-radius: 0.35rem;
           border-bottom-left-radius: 0.35rem;
           display:flex;
@@ -26,9 +29,9 @@
           justify-content:center;
       }
       .message {
-          padding: $alert-padding-y $alert-padding-x;
+          padding: 0 $alert-padding-x;
+          margin: $alert-padding-y 60px $alert-padding-y $alert-padding-x;
           flex: 1;
-          background:white;
 
           h2, h3, h4, h5, h6 {
             font-family: 'Nunito Sans', sans-serif;
@@ -40,13 +43,14 @@
           p {
             margin-bottom:0.5em;
           }
-      }
+        }
       }
 
       .alert-icon.alert-dismissible .message {
-          padding: 0 $alert-padding-x;
-          margin: $alert-padding-y 60px $alert-padding-y $alert-padding-x;
           border-right: 1px solid #e0e0e0;
+      }
+      .alert-icon.alert-dismissible .close {
+        padding: 1.75rem 1.25rem;
       }
 }
 
@@ -362,6 +366,38 @@ button.switch {
       border-color: #058abc;
       box-shadow:0 0 0 0.2rem rgba(5, 138, 188, 0.25);
   }
+}
+
+//tooltip
+.tooltip-inner {
+  background: #666666;
+  opacity:90%;
+  border-radius: $border-radius;
+}
+
+.bs-tooltip-top    { margin-top: -5px; }
+.bs-tooltip-right  { margin-left: 5px; }
+.bs-tooltip-bottom { margin-top: 5px;   }
+.bs-tooltip-left   { margin-left: -5px; }
+
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before,
+.tooltip.bs-tooltip-top .arrow::before {
+    border-top-color: transparent;
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=right] .arrow::before,
+.tooltip.bs-tooltip-right .arrow::before {
+    border-right-color: transparent;
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+.tooltip.bs-tooltip-bottom .arrow::before {
+    border-bottom-color: transparent;
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=left] .arrow::before,
+.tooltip.bs-tooltip-left .arrow::before {
+    border-left-color: transparent;
 }
 
 //Cards
