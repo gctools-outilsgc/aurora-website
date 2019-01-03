@@ -48,7 +48,9 @@ const frTranslation = {
   "Reply":"Répondre",
   "Pressed":"Activé",
   "Design":"Conception",
-  "CanadaSymbol":"Symbole du gouvernement du Canada"
+  "CanadaSymbol":"Symbole du gouvernement du Canada",
+  "tooltip":"infobulle",
+  "tooltipexample":"Plus d'information ici"
 };
 
 export default frTranslation;
