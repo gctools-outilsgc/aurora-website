@@ -82,13 +82,13 @@ In addition, as pages likely have more than one such navigation section, it’s 
 </nav>
 ```
     
-Looking to use an icon or symbol in place of text for some pagination links? Be sure to provide proper screen reader support with aria attributes and the `.sr-only` utility.
+Looking to use an icon or symbol in place of text for some pagination links? Be sure to provide proper screen reader support with `aria` attributes and the `.sr-only` utility.
 
 ## Disabled and active states
-Pagination links are customizable for different circumstances. Use .disabled for links that appear un-clickable and .active to indicate the current page.
+Pagination links are customizable for different circumstances. Use `.disabled` for links that appear un-clickable and `.active` to indicate the current page.
 
-While the .disabled class uses pointer-events: none to try to disable the link functionality of `<a>`s, that CSS property is not yet standardized and doesn’t account for keyboard navigation. As such, you should always add `tabindex="-1"` on disabled links and use custom JavaScript to fully disable their functionality.
-    
+While the `.disabled` class uses `pointer-events: none` to try to disable the link functionality of `<a>`s, that CSS property is not yet standardized and doesn’t account for keyboard navigation. As such, you should always add `tabindex="-1"` on disabled links and use custom JavaScript to fully disable their functionality.
+
 You can optionally swap out active or disabled anchors for `<span>`, or omit the anchor in the case of the prev/next arrows, to remove click functionality and prevent keyboard focus while retaining intended styles.
 
 <nav aria-label="Page navigation pages">

@@ -120,6 +120,7 @@ Pour les formulaires complexes, les renseignements doivent être publiés à l�
 ## Étiquettes
 
 Les utilisateurs doivent être en mesure de lire facilement les étiquettes et de comprendre intuitivement comment l’étiquette est liée à son champ. Le langage des étiquettes devrait concis, et elles devraient renfermer suffisamment de renseignements pour que l’utilisateur puisse inscrire les renseignements requis.
+
 Si des renseignements supplémentaires sont nécessaires au-delà de l’étiquette, ces renseignements devraient être publiés dans une infobulle ou une microcopie séparée.
 
 ### Placement des étiquettes
@@ -147,9 +148,9 @@ Pour aider les utilisateurs à mieux comprendre un formulaire, il peut s’avér
 
 ## Indicateurs d’étapes
 
-S’il est possible de le faire, il est recommandé de limiter les formulaires à une seule page. Si un formulaire compte plus d’une page, utilisez un indicateur d’étape.
+S’il est possible de le faire, il est recommandé de limiter les formulaires à une seule page. Si un formulaire compte plus d’une page, utilisez un [indicateur d’étape](/component/progress-indicators).
 
-Si un formulaire compte plus d’une page, il est recommandé de fournir à l’utilisateur une représentation visuelle de progression pour qu’il connaisse son niveau d’achèvement. Le style des [indicateurs d’étape](/component/progress-indicators) est écrit dans sa propre section du présent document.
+Si un formulaire compte plus d’une page, il est recommandé de fournir à l’utilisateur une représentation visuelle de progression pour qu’il connaisse son niveau d’achèvement. Le style des [Indicateurs d’étape](/component/progress-indicators) est écrit dans sa propre section du présent document.
 
 ## Navigation
 Il peut être nécessaire de naviguer vers différentes pages pour les inclure dans un formulaire. S’ils sont liés à un champ particulier, par exemple « J’ai oublié le mot de passe? », il faut inclure le lien en ligne et en dessous du champ connexe. Si le lien est lié à l’ensemble du formulaire, par exemple, « Inscrivez-vous ici », inscrivez le lien au bas du formulaire, séparé sur le plan visuel.

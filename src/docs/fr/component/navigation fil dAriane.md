@@ -22,7 +22,7 @@ Le fil d’Ariane devrait être complémentaire à la navigation principale et n
 <documentationtabs remove="react">
       <doctabpanel type="html">
           
-*Texte ici*
+Le fil d’Ariane indique l’emplacement de la page actuelle dans la hiérarchie de navigation.
 
 <breadcrumb>
     <breadcrumbitem><a href="#">Page principale</a></breadcrumbitem>
@@ -40,9 +40,10 @@ Le fil d’Ariane devrait être complémentaire à la navigation principale et n
 </nav>
 ```
 
-## Accessibility
+## Accessibilité
 
-*texte ici*
+Vu que le fil d’Ariane fournit une fonction de navigation, il peut être bon d’ajouter une étiquette utile comme `aria-label="breadcrumb"` pour décrire le type de navigation fournie dans l’élément `<nav>`, ainsi qu’`aria-current="page"` au dernier élément de l’ensemble pour indiquer qu’il représente la page actuelle.
+
 
 </doctabpanel>
     <doctabpanel type="design">

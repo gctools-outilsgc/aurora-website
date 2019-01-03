@@ -43,9 +43,10 @@ title: "Badges"
 </div>
 ```
 
-### Accessibility Considerations
+### Donner un sens aux technologies d’assistance 
 
-*texte ici*
+L’utilisation de couleurs pour ajouter du sens fournit seulement une indication visuelle qui n’est pas transmise aux utilisateurs de technologies d’assistance, comme les lecteurs d’écran. Veillez à ce que les renseignements indiqués par la couleur se différencient de manière évidente du contenu (p. ex., le texte visible) ou qu’ils soient inclus de différentes manières, par l’ajout de texte caché avec la classe `.sr-only`, par exemple. 
+
 
 ## Notification Badges
 

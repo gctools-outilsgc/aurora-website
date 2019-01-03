@@ -24,12 +24,12 @@ Tooltips are always used for supplemental information. Essential information tha
       <doctabpanel type="html">
           
 
-## Overview
+## How to Use 
 
 Things to know when using the tooltip plugin:
 
-- Tooltips rely on the 3rd party library [Popper.js](https://popper.js.org/) for positioning. You must include [popper.min.js]({{ site.cdn.popper }}) before bootstrap.js or use `bootstrap.bundle.min.js` / `bootstrap.bundle.js` which contains Popper.js in order for tooltips to work!
-- If you're building our JavaScript from source, it [requires `util.js`]({{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/javascript/#util).
+- Tooltips rely on the 3rd party library [Popper.js](https://popper.js.org/) for positioning. You must include [popper.min.js](site.cdn.popper) before aurora.js. 
+- If you're building our JavaScript from source, it [requires util.js](https://getbootstrap.com/docs/4.2/getting-started/javascript/#util).
 - Tooltips are opt-in for performance reasons, so **you must initialize them yourself**.
 - Tooltips with zero-length titles are never displayed.
 - Specify `container: 'body'` to avoid rendering problems in more complex components (like our input groups, button groups, etc).
@@ -39,21 +39,17 @@ Things to know when using the tooltip plugin:
 - Tooltips must be hidden before their corresponding elements have been removed from the DOM.
 
 
-## Examples
-Hover over the links below to see tooltips:
+## Example
+Hover over the button below to see a tooltip:
 
-<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-  Tooltip on top
+<tooltipexample id="html-tooltip"></tooltipexample>
+
+```html
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+  Tooltip on bottom
 </button>
-
-*Codeblock here* 
-
-Hover over the buttons below to see the four tooltips directions: top, right, bottom, and left.
-
-And with custom HTML added. 
-
+```
 For more information about using tooltips, reference [Bootstrap's documentation](https://getbootstrap.com/docs/4.1/components/tooltips/).
-
 
 </doctabpanel>
     <doctabpanel type="design">
@@ -63,9 +59,9 @@ For more information about using tooltips, reference [Bootstrap's documentation]
 
 In their regular state, tooltips are styled as follows:
 
-Tooltips are placed 12px away from the element it is describing. Tooltips are contained within a rectangle with a padding of 5px by 7px, with a border radius of 4px, and a fill colour of <badge style="background-color: #666666">#666666</badge> with a 90%. The text is displayed using Nunito Sans Regular at 14px in <badge style="background-color: #FFFFFF; color: black">#FFFFFF</badge>.
+Tooltips are placed 5px away from the element it is describing. Tooltips are contained within a rectangle with a padding of 5px by 7px, with a border radius of 4px, and a fill colour of <badge style="background-color: #666666">#666666</badge> with a 90% opacity. The text is displayed using Nunito Sans Regular at 14px in <badge style="background-color: #FFFFFF; color: black">#FFFFFF</badge>.
 
-![Tooltip component](../../../img\components\tooltip.png)
+<tooltipexample id="design-tooltip"></tooltipexample>
 
 </doctabpanel>
     </documentationtabs>

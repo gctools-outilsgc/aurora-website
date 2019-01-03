@@ -26,7 +26,7 @@ Si compléter le recherche s'ouvre un nouveau page des résultats, utilisez l'ic
 <documentationtabs remove="react">
     <doctabpanel type="html">
         
-*texte ici*
+Il existe deux variations personnalisées des champs de recherche.
 
 <div class="form-inline search-form mb-3 mt-3">
     <label for="search" class="sr-only">Recherche</label>

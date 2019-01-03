@@ -49,7 +49,7 @@ const frTranslation = {
   "Pressed":"Activé",
   "Design":"Conception",
   "CanadaSymbol":"Symbole du gouvernement du Canada",
-  "tooltip":"infobulle",
+  "tooltip":"Infobulle",
   "tooltipexample":"Plus d'information ici"
 };
 

@@ -39,7 +39,10 @@ Exemple d’une notification claire : Votre photo de profil a été modifiée av
         
 
 ## Default Alerts
-*texte ici*
+Des alertes et un bouton optionnel de rejet sont disponibles pour toutes les longueurs de texte. Pour vous assurer d’avoir un style approprié, utilisez une des quatre classes contextuelles: `.alert-danger`, `.alert-warning`, `.alert-info`ou `.alert-success`
+
+Utilisez la classe d’utilitaire `.alert-link` pour rapidement fournir des liens de couleurs correspondants à l’intérieur de toute alerte.
+
     
 <Alert color="danger">
     C’est une alerte en cas de danger avec <a href="#example" class="alert-link">un exemple de lien</a>.
@@ -161,13 +164,17 @@ Exemple d’une notification claire : Votre photo de profil a été modifiée av
 </div>
 ```
 
-## Conveying meaning to assistive technologies
+## Donner un sens aux technologies d’assistance
+L’utilisation de couleurs pour ajouter du sens fournit seulement une indication visuelle qui n’est pas transmise aux utilisateurs de technologies d’assistance, comme les lecteurs d’écran. Veillez à ce que les renseignements indiqués par la couleur se différencient de manière évidente du contenu (p. ex., le texte visible) ou qu’ils soient inclus de différentes manières, par l’ajout de texte caché avec la classe `.sr-only`, par exemple.
 
 *texte ici*
 
-## Dismissing
+## Rejet
 
-*texte ici*
+Aurora importe automatiquement l’application Bootstrap, de JavaScript, nécessaire pour une fonctionnalité interactive. Voici la manière d’utiliser le module d’extension d’alerte de JavaScript : 
+* sur le bouton de rejet, ajoutez l’attribut `data-dismiss="alert"`, ce qui active la fonctionnalité de JavaScript et assurez-vous de l’accompagner de l’élément `<button>` pour avoir un comportement adéquat sur l’ensemble des appareils; 
+* pour animer les alertes lorsqu’on les rejette, assurez-vous d’ajouter les classes `.fade` et `.show`.
+
 
 <div class="alert alert-info alert-dismissible fade show" role="alert">
     C’est une alerte d'information avec <a href="#example" class="alert-link">un exemple de lien</a>.

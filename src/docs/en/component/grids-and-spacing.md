@@ -2,7 +2,7 @@
 path: "/component/grids-and-spacing"
 subnav: "2/Standard/Standard/7"
 lang: "en"
-title: "Grids and Spacing"
+title: "Grids and spacing"
 ---
 <helmet>
 <title> Grids and Spacing - Aurora Design System </title>

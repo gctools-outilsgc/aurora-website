@@ -150,7 +150,7 @@ To help users better understand a form, it may be useful to group inputs into ca
 ## Step Indicators
 If possible, it is recommended to limit forms to one page. If a form has more than one page, use a [step indicator](/component/progress-indicators).
 
-If a form has more than one page, it is recommended to provide the user with a visual representation of progression so that they are aware of their level of completion. Styling for step indicators is written in its own section of this documentation.
+If a form has more than one page, it is recommended to provide the user with a visual representation of progression so that they are aware of their level of completion. Styling for [Step Indicators](/component/progress-indicators) is written in its own section of this documentation.
 
 ## Navigation
 Navigation to different pages may be necessary to include in a form. If they are related to a specific field, for example "Forgot password?", include the link inline and underneath the related field. If the link is related to the entire form, for example "Register here", include the link at the bottom of the form in a way that is visually separate.

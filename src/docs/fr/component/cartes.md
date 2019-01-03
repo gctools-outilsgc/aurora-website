@@ -41,7 +41,11 @@ Tous ces éléments ne sont pas nécessaires dans chaque carte. Vous pouvez choi
 
 ## Exemple
 
-*texte ici*
+Une carte comprend du contenu souple et extensible. Elle est composée d’options pour les en-têtes et les pieds de pages, d’une grande variété de contenu, de couleurs de fond contextuelles et d’options d’affichage puissantes.
+
+Les cartes sont conçues avec le moins de balises et de styles possibles, mais parviennent tout de même à offrir beaucoup de contrôle et d’options de personnalisation. Conçues à l’aide de Flexbox, les cartes offrent une harmonisation facile et se combinent bien à d’autres composantes de Bootstrap. Par défaut, les cartes n’ont pas de marge, alors utilisez l’utilitaire d’espacement au besoin.
+
+Vous trouverez ci-dessous un exemple de carte de base dotée d’un contenu mixte et d’une largeur fixe. Les cartes n’ont initialement pas de largeur fixe et, ainsi, couvrent normalement la pleine largeur de leur élément parent. Cet aspect peut facilement être personnalisé grâce à différentes options de taille.  Utilisez des feuilles de style en cascade (CSS) personnalisées pour vos feuilles de style ou servez-vous-en comme styles en ligne pour établir une largeur. 
 
 <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
     <div class="card-body">
@@ -58,14 +62,14 @@ Tous ces éléments ne sont pas nécessaires dans chaque carte. Vous pouvez choi
         <h3 class="card-title h5">Titre de la carte</h3>
         <div class="card-subtitle text-muted">Méta-information</div>
         <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte.</p>
-        <a href="#" class="card-link">Another link</a>
+        <a href="#" class="card-link">Un autre lien</a>
     </div>
 </div>
 ```
 
-### Body
+### Contenu
 
-*texte ici*
+La composante de base d’une carte est `.card-body`. Servez-vous-en lorsque vous avez besoin d’une section de remplissage dans une carte.
 
 <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
     <div class="card-body">
@@ -81,9 +85,12 @@ Tous ces éléments ne sont pas nécessaires dans chaque carte. Vous pouvez choi
 </div>
 ```         
 
-### Titles, text and links
+### Titres, texte et des liens
 
-*texte ici*
+On peut utiliser des titres de carte en ajoutant `.card-title` à une étiquette `<h*>`. De la même manière, on peut ajouter des liens et les placer un à côté de l’autre en incluant `.card-lin`k à une étiquette `<a>`.
+
+Des sous-titres sont utilisés par l’ajout de `.card-subtitle` à une étiquette `<h*>`. Si les éléments `.card-title`  et `.card-subtitle` sont placés dans un élément `.card-body`, le titre et le sous-titre de la carte s’harmonisent bien.
+
 
 <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
     <div class="card-body">
@@ -107,7 +114,7 @@ Tous ces éléments ne sont pas nécessaires dans chaque carte. Vous pouvez choi
 
 ### Images
 
-*texte ici*
+L’élément `.card-img-top` permet de placer une image sur la carte.
 
 <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
           <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1638953b4a7%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1638953b4a7%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2299.125%22%20y%3D%2296.3%22%3EImage%20cap%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
@@ -128,7 +135,7 @@ Tous ces éléments ne sont pas nécessaires dans chaque carte. Vous pouvez choi
 
 ### Boutons
 
-*texte ici*
+Les boutons n’exigent pas de classe supplémentaire et peuvent être inclus dans une carte par le simple ajout de l’élément `<button>`.
 
 <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
     <div class="card-body">

@@ -88,7 +88,7 @@ Vous pouvez établir des colonnes pour correspondre automatiquement au contenu q
     <div class="row">
         <mdcol className="mb-2 gr-example">Colonne 1</mdcol>
         <mdcol className="mb-2 gr-example">Colonne 2</mdcol>
-        <mdcol xs="auto" className="mb-2 gr-example">This is the third and largest column due to auto-sizing</mdcol>
+        <mdcol xs="auto" className="mb-2 gr-example">Il s’agit de la troisième colonne, en raison de l’ajustement automatique de la taille.</mdcol>
         <mdcol className="mb-2 gr-example">Colonne 4</mdcol>
     </div>
 </div>
@@ -103,7 +103,7 @@ Vous pouvez établir des colonnes pour correspondre automatiquement au contenu q
       Colonne 2
     </div>
     <div class="col">
-      This is the third and largest column due to auto-sizing
+      Il s’agit de la troisième colonne, en raison de l’ajustement automatique de la taille.
     </div>
     <div class="col">
       Colonne 4

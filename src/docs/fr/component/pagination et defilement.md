@@ -35,9 +35,12 @@ L’utilisateur doit être en mesure de dire clairement sur quelle page il se tr
     <doctabpanel type="html">
           
 
-## Overview
+## Aperçu
 
-*texte ici*
+On se sert d’un bloc important de liens connectés pour la pagination, ce qui permet de veiller à ce que les liens soient difficiles à manquer et faciles à appliquer sur une échelle supérieure. De plus, cela assure une zone cible plus importante. La pagination est conçue à l’aide d’une liste d’éléments HTML afin que les lecteurs d’écran puissent indiquer le nombre de liens accessibles. Utilisez un élément enveloppeur `<nav>` pour l’identifier comme section de navigation aux lecteurs d’écran et aux autres technologies d’assistance. 
+
+De plus, vu que les pages ont probablement plus d’une telle section de navigation, il est recommandé de fournir une étiquette descriptive aria pour illustrer l’objectif de la composante `<nav>`. À titre d’exemple, si un élément de pagination est utilisé pour naviguer entre un ensemble de résultats de recherche, une étiquette adéquate pourrait être `aria-label="Search results pages "`.
+
 
 <nav aria-label="Page navigation pages">
     <ul class="pagination">
@@ -81,11 +84,16 @@ L’utilisateur doit être en mesure de dire clairement sur quelle page il se tr
 </nav>
 ```
 
-*texte ici*
+Vous souhaitez utiliser une icône ou un symbole plutôt que du texte pour certains liens de pagination? Assurez vous de fournir le soutien de lecteur d’écran adéquat avec des attributs `aria` et `.sr-only` utility.
 
-## Disabled and active states
+## États activé et désactivé
 
-*texte ici*
+Les liens de pagination sont personnalisables, afin de répondre à différentes circonstances. Utilisez `.disabled` pour des liens qui semblent impossibles à cliquer et `.active` pour indiquer la page actuelle.
+
+Bien que la classe .disabled utilise `pointer-events: none` pour essayer de désactiver la fonctionnalité de lien des `<a>`, cette propriété CSS n’est pas encore normalisée et ne tient pas compte de la navigation au clavier. Ainsi, vous devriez toujours ajouter `tabindex="-1"` aux liens désactivés et utiliser le langage JavaScript personnalisé pour complètement désactiver leur fonctionnalité. 
+
+Vous avez la possibilité d’échanger des points d’ancrage actifs et inactifs par `<span>`, ignorer le point d’ancrage dans le cas des flèches « précédent » ou « suivant » ou supprimer la fonctionnalité du clic et empêcher la cible du clavier tout en conservant les styles souhaités.
+
 
 <nav aria-label="Page navigation pages">
     <ul class="pagination">

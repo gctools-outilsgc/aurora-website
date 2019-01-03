@@ -31,8 +31,7 @@ Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouto
 
 ## Exemples
 
-*texte ici*
-<br>
+Aurora comprend différents styles de boutons, chacun ayant son propre objectif sémantique. <br>
           
 <button type="button" color="primary" >Primaire</button>
 <button type="button" color="secondary">Secondaire</button>
@@ -55,13 +54,12 @@ Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouto
 <button type="button" class="btn btn-dark">Foncé</button>
 ```
 
-### Conveying meaning to assistive technologies
+### Donner un sens aux technologies d’assistance
+L’utilisation de couleurs pour ajouter du sens fournit seulement une indication visuelle qui n’est pas transmise aux utilisateurs de technologies d’assistance, comme les lecteurs d’écran. Veillez à ce que les renseignements indiqués par la couleur se différencient de manière évidente du contenu (p. ex., le texte visible) ou qu’ils soient inclus de différentes manières, par l’ajout de texte caché avec la classe `.sr-only`, par exemple.
 
-*texte ici*
+## Tailles
 
-## Sizes
-
-*texte ici*
+Les boutons peuvent facilement être personnalisés pour être agrandis ou rapetissés. Ajoutez `.btn-lg` ou `.btn-sm` pour obtenir des tailles supplémentaires. 
 
 <button type="button" color="primary" size="sm">Bouton petit</button>
 <button type="button" color="primary" size="lg">Bouton large</button>
@@ -71,7 +69,7 @@ Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouto
 <button type="button" class="btn btn-primary btn-lg">Bouton large</button>
 ```
 
-*texte ici*
+Créez des boutons de niveau de bloc – ceux qui couvrent la largeur d’un élément parent – en ajoutant `.btn-block`.
 
 <button type="button" color="primary" block="true">Block Button</button>
 
@@ -81,9 +79,13 @@ Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouto
 
 ## Boutons de menu déroulant
 
-*texte ici*
+Les menus déroulants peuvent être alternés. On peut également afficher des listes de liens à l’aide de superpositions contextuelles, et plus. L’inclusion du module d’extension déroulant Boostrap, de JavaScript, rend les menus interactifs. On les bascule par le clic d’un bouton, et non au moyen du survol de la souris.
 
-*texte ici*
+Enveloppez la bascule du menu déroulant (votre bouton ou votre lien) et le menu déroulant dans l’élément `.dropdown`, ou un autre élément qui indique position: relative. Les menus déroulants peuvent être activés par les éléments `<a>` ou `<button>` pour mieux répondre à vos besoins.
+
+Les boutons de menus déroulants fonctionnent avec des boutons de toutes les tailles et variétés.
+
+Tout élément `.btn` unique peut devenir un menu déroulant à bascule grâce à quelques changements de balise. Voici comment vous pouvez les employer avec l’un ou l’autre des éléments `<button> `:
 
 <mdbuttondropdown color="primary" title="Normal">
 </mdbuttondropdown>
@@ -103,7 +105,7 @@ Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouto
 
 ## Groupes de boutons
 
-*texte ici*
+Regroupez une série de boutons sur une seule ligne avec le groupe bouton, puis enveloppez une série de boutons `.btn` dans `.btn-group`.
 
 <div class="mt-2">
     <div class="btn-group" role="group" aria-label="Basic example of button group">
@@ -121,9 +123,9 @@ Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouto
 </div>
 ```
 
-### Sizing
+## Taille
 
-*texte ici*
+Plutôt que d’appliquer des classes de tailles de bouton à chaque bouton d’un groupe, ajoutez simplement `.btn-group-*` à chaque `.btn-group`, y compris chaque groupe lorsque vous emboîtez plusieurs groupes.
 
 </doctabpanel>
     <doctabpanel type="design">
