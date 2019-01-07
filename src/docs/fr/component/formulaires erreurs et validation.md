@@ -15,6 +15,9 @@ title: "Erreurs et validation"
 
 Les erreurs de saisie devraient être affichées de sorte qu’il est clair à l’utilisateur qu’il a fait une erreur, ce qu’est cette erreur et où elle se trouve. Pour afficher les erreurs dans un formulaire de présentation, utiliser les boîtes d’erreur et les erreurs en ligne. Pour chaque erreur, les copies utilisées à la fois pour la boîte d’erreur et l’erreur en ligne devraient être identiques.
 
+Les erreurs en ligne sont affichées sous le champ de saisie et indiquent à l’utilisateur la façon de corriger l’erreur. Les erreurs en ligne devraient être aussi concises que possible et limitées à une ligne qui tient en dessous du champ de saisie.
+
+
 ## Boîtes d’erreur
 
 *texte ici*
@@ -25,11 +28,11 @@ Les erreurs de saisie devraient être affichées de sorte qu’il est clair à l
 
 ## Boîtes d’erreur
 
-*texte ici*
+La boîte d’erreur utilise les classes `.alert`, `.alert-danger` et `.alert-danger-banner` pour créer le composant. Utilisez `.alert-link` pour appliquer le bon style aux liens d’erreur.
 
 <section class="alert alert-danger alert-danger-banner">
-    <h2>Field error or required</h2>
-    <p> Please verify the following fields: </p>
+    <h2>Erreur relative à un champ ou champ obligatoire</h2>
+    <p> Veuillez vérifier les champs suivants: </p>
     <ul class="list-unstyled">
     <li><a href="#exampleInputText1-html" class="alert-link">1 - Nom d’utilisateur existe déjà</a></li>
     <li><a href="#customCheck1-html" class="alert-link">2 – Vous devez accepter les conditions.
@@ -40,8 +43,8 @@ Les erreurs de saisie devraient être affichées de sorte qu’il est clair à l
 
 ```html
 <section class="alert alert-danger alert-danger-banner">
-    <h2>Field error or required</h2>
-    <p> Please verify the following fields: </p>
+    <h2>Erreur relative à un champ ou champ obligatoire</h2>
+    <p> Veuillez vérifier les champs suivants: </p>
     <ul class="list-unstyled">
     <li><a href="#exampleInputText1-html" class="alert-link">1 - Nom d’utilisateur existe déjà</a></li>
     <li><a href="#customCheck1-html" class="alert-link">2 – Vous devez accepter les conditions.
@@ -52,7 +55,10 @@ Les erreurs de saisie devraient être affichées de sorte qu’il est clair à l
 ```
 ## Erreurs en ligne
 
-*texte ici*
+Pour les erreurs en ligne, utilisez la classe `.is-invalid` pour ajouter un style d’erreur à l’élément du formulaire précisé.
+
+Le texte de la microcopie qui fournit des renseignements à l’utilisateur est stylisé à l’aide de la classe `.invalid-feedback`. Utilisez `.aria-describedby` pour associer la microcopie à l’entrée invalide.
+
 
 <div class="form-group">
     <label for="exampleInputText1-html">Nom d'utilisateur</label>
@@ -104,9 +110,12 @@ Les erreurs de saisie devraient être affichées de sorte qu’il est clair à l
 </div>
 ```
 
-## Validated Errors
+## Erreurs validées
 
-*texte ici*
+Pour les erreurs validées, utilisez la classe `.is-valid` pour montrer que les renseignements fournis dans la saisie sont valides.
+
+Le texte de la microcopie qui fournit des renseignements à l’utilisateur est stylisé à l’aide de la classe `.invalid-feedback`. Utilisez `.aria-describedby` pour associer la microcopie à l’entrée valide.
+
 
 <div class="form-group">
     <label for="exampleInputText2-html">Nom d'utilisateur</label>
@@ -161,8 +170,8 @@ Les erreurs de saisie devraient être affichées de sorte qu’il est clair à l
 Les boîtes d’erreur sont conçues comme suit :
 
 <section class="alert alert-danger alert-danger-banner">
-    <h2>Field error or required</h2>
-    <p> Please verify the following fields: </p>
+    <h2>Erreur relative à un champ ou champ obligatoire</h2>
+    <p> Veuillez vérifier les champs suivants: </p>
     <ul class="list-unstyled">
     <li><a href="#exampleInputText1-html" class="alert-link">1 - Nom d’utilisateur existe déjà</a></li>
     <li><a href="#customCheck1-html" class="alert-link">2 – Vous devez accepter les conditions.
@@ -179,8 +188,6 @@ L’en-tête de la boîte utilise le style d’en-tête 2 et le texte utilise le
 ## Erreurs en ligne
 
 La bordure du champ de saisie sera visible à l’aide de la couleur <badge style="background-color: #923534;">#923534</badge>. S’il y a une erreur sur un bouton de saisie, l’étiquette est affichée à l’aide de la même couleur.
-
-Les erreurs en ligne sont affichées sous le champ de saisie et indiquent à l’utilisateur la façon de corriger l’erreur. Les erreurs en ligne devraient être aussi concises que possible et limitées à une ligne qui tient en dessous du champ de saisie.
 
 Les erreurs en ligne sont conçues comme suit :
 

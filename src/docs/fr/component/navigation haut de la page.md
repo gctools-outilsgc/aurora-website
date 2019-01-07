@@ -19,7 +19,10 @@ Les boutons « Haut de la page » sont nécessaires pour les pages Web ayant un 
 <documentationtabs remove="react">
     <doctabpanel type="html">
         
-*texte ici* 
+
+Les boutons de retour en haut de la page sont un composant personnalisé conçu pour Aurora. Les boutons de retour en haut de la page comprennent une version Web et une version mobile. Utilisez la classe `.btn-backtotop` pour créer le bouton. La classe `.mobile` peut être ajoutée pour créer la version mobile. Veuillez noter que la version mobile nécessitera une icône.
+
+Dans la version mobile, assurez-vous d’utiliser la classe `.sr-only` pour fournir le contexte du bouton. 
 
 <a href="#main-content" class="btn btn-backtotop mb-3 mt-3"><i class="fa fa-arrow-up icon"></i>Haut de la page</a>
 
@@ -48,7 +51,7 @@ Le texte comporte un remplissage de 9 px sur 15, ayant la couleur de bordure <ba
 
 **Mobile:** Cercle blanc ayant un rayon de 43 px. La bordure est de 1 px, <badge style="background-color: #CECECE;color:black;">#CECECE</badge>. Ombre portée de <badge style="background-color: #000000;">#000000</badge>, 20 % d’opacité, 0 décalage pour x, décalage 2 px pour y, 2 px flou.
 
-Il y a une icône de flèche centrée dans le cercle (flèche vers le haut à partir de la police « Awesome »). La flèche est de couleur <badge style="background-color: #666666;">#666666</badge>.
+Il y a une icône de flèche centrée dans le cercle (flèche vers le haut à partir de Font Awesome). La flèche est de couleur <badge style="background-color: #666666;">#666666</badge>.
 
 <a href="#main-content" class="btn btn-backtotop mobile"><i class="fa fa-arrow-up icon" aria-hidden="true"></i><span class="sr-only">Haut de la page</span></a>
 

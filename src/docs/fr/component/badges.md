@@ -11,13 +11,16 @@ title: "Badges"
 
 # Badges
 
-*texte ici*
+Les badges sont très polyvalents. À titre d’exemple, ils peuvent être utilisés pour montrer les avis, le contenu des étiquettes ou afficher les auteurs du contenu.
+
+Les badges peuvent être stylisés comme des balises ou inclure des images pour créer des jetons.
+
 
 <documentationtabs remove="react">
       <doctabpanel type="html">
           
 
-*Texte ici*
+Les badges utilisent la classe `.badge`. Vous pouvez ajouter des classes de modification pour changer les couleurs d’une badge.
 
 <div class="mt-3 mb-3">
   <span class="badge badge-primary">Primaire</span>
@@ -112,9 +115,11 @@ L’utilisation de couleurs pour ajouter du sens fournit seulement une indicatio
 </div>
 ```
 
-## Puces
+## Jetons
 
-*texte ici*
+Les jetons sont des laissez-passer avec une image. Ajoutez votre image au laissez-passer en utilisant l’élément `<img>`.
+
+Ils sont utilisés pour afficher des renseignements complexes (p. ex., un utilisateur) dans un espace restreint.
 
 <span class="badge badge-primary badge-chip"><img alt="small user avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 1</span>
 <span class="badge badge-primary badge-chip"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 2</span>
@@ -127,7 +132,11 @@ L’utilisation de couleurs pour ajouter du sens fournit seulement une indicatio
 </doctabpanel>
     <doctabpanel type="design">
     
-*texte ici*
+Les badges peuvent utiliser différentes couleurs pour transmettre différents renseignements aux utilisateurs.
+
+Les laissez-passer ont un remplissage de 4px par 6,4px. Les laissez-passer auront une taille adaptée selon le texte. Ils ont un rayon de contour de 4px.
+
+Les laissez-passer ont différentes couleurs, comme on peut le voir ci-dessous. Consultez la section [Couleur](/component/colour) pour de plus amples renseignements sur la façon d’utiliser certaines couleurs.
 
 <div class="mt-3 mb-3">
   <span class="badge badge-primary">Primaire</span>
@@ -155,7 +164,7 @@ Rectangle d’une largeur de 28px et d’une hauteur de 19px. Rayon de la bordur
 
 ## Balises
 
-*texte ici* 
+Les balises sont une forme stylisée des badges.
 
 Les balises sont de forme rectangulaire et ont un rayon de bordure de 4 px. Le côté gauche de la balise est stylisé à l’aide d’un triangle et d’un cercle blanc. Les balises utilisent les couleurs secondaires dans la palette choisie, et la couleur du texte sera soit noire soit blanche selon la couleur de la balise. Reportez-vous à la [section de couleur](component/colour) pour obtenir de plus amples renseignements sur les couleurs de textes à utiliser.  
 
@@ -184,16 +193,16 @@ Les étiquettes sont dimensionnées de façon à correspondre à la longueur des
 </div>
 <br>
 
-## Puces
+## Jetons
 
-*texte ici*
+Les jetons sont semblables à un laissez-passer ordinaire, mais avec une image. Ils sont utilisés pour afficher des renseignements complexes (p. ex., un utilisateur) dans un espace restreint.
 
-Les puces sont de forme rectangulaire et ont un rayon de bordure de 4px. Une image d’avatar est affichée à gauche de la puce. Les puces sont d’une dimension qui correspond à la longueur du nom du profil de l’utilisateur. Les puces ont un remplissage de 7px sur tous les côtés.
+Les jetons sont de forme rectangulaire et ont un rayon de bordure de 4px. Une image d’avatar est affichée à gauche de la puce. Les puces sont d’une dimension qui correspond à la longueur du nom du profil de l’utilisateur. Les jetons ont un remplissage de 7px sur tous les côtés.
 
-Les puces ont trois différentes variations et sont affichées comme suit :
+Les jetons ont trois différentes variations et sont affichées comme suit :
 
-<span class="badge badge-primary badge-chip"><img alt="small user avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 1</span>
-<span class="badge badge-primary badge-chip"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 2</span>
+<span class="badge badge-primary badge-chip"><img alt="avatar petit" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 1</span>
+<span class="badge badge-primary badge-chip"><img alt="avatar petit" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 2</span>
 
 **Normal** : Case rectangulaire remplie avec <badge style="background-color: ##002D42">##002D42</badge>. Texte noir. Petit avatar (26px sur 26px) aligné à gauche.
 

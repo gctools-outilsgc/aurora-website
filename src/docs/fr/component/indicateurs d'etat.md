@@ -34,39 +34,80 @@ Les boucles de progression sont utilisées pour indiquer le chargement d’une p
 
 ## Indicateur des étapes 
 
-*texte ici*
+Les indicateurs d’étape dans Aurora sont une composante personnalisée. Cette composante est construite à l’aide de l’élément `<ul>`.
 
-### Regular step indicator
+Voir les exemples ci-dessous :
 
-*texte ici*
+### Indicateur d’étape régulier
+
+L’indicateur d’étapes régulier est utilisé simplement comme une indication visuelle de la progression. L’élément `<ul>` sera contenu dans l’élément `<div>` avec la classe `.step-indicator`.
 
 <div role="group" aria-label="progress" class="step-indicator">
      <ul class="steps">
-         <li class="complete">login<span class="sr-only">completed</span></li>
-         <li class="active" aria-current="true">choose interest</li>
-         <li>add friends<span class="sr-only">not completed</span></li>
-         <li>View map<span class="sr-only">not completed</span></li>
+         <li class="complete">Ouvrir une séance<span class="sr-only">completed</span></li>
+         <li class="active" aria-current="true">choisir un intérêt</li>
+         <li>ajouter des amis<span class="sr-only">not completed</span></li>
+         <li>visualiser la carte<span class="sr-only">not completed</span></li>
       </ul>
  </div>
 
 ```html
 <div role="group" aria-label="progress" class="step-indicator">
      <ul class="steps">
-         <li class="complete">login<span class="sr-only">completed</span></li>
-         <li class="active" aria-current="true">choose interest</li>
-         <li>add friends<span class="sr-only">not completed</span></li>
-         <li>View map<span class="sr-only">not completed</span></li>
+         <li class="complete">Ouvrir une séance<span class="sr-only">completed</span></li>
+         <li class="active" aria-current="true">choisir un intérêt</li>
+         <li>ajouter des amis<span class="sr-only">not completed</span></li>
+         <li>visualiser la carte<span class="sr-only">not completed</span></li>
       </ul>
  </div>
 ```
 
-### Navigation step indicator
+### Indicateur d’étape de navigation
 
-*texte ici*
+Selon le contenu de la page, vous pouvez ajouter des liens de navigation dans l’indicateur d’étapes. Dans ce cas, votre élément `<ul>` sera inclus dans un élément `<nav>`. Vous pouvez ensuite effectuer un renvoi de votre texte à l’aide d’un élément `<a>` pour faire un lien dans l’élément de liste.
+Vous devrez également ajouter aria-current="true" à l’étape active actuelle pour fournir plus de contexte.
+
+ <nav aria-label="progress" class="step-indicator">
+      <ul class="steps">
+          <li class="complete">
+            <a href="#">Ouvrir une séance</a><span class="sr-only">completed</span>
+          </li>
+          <li class="active" aria-current="true">
+            <a href="#">choisir un intérêt</a>
+          </li>
+          <li>
+            <a href="#">ajouter des amis</a><span class="sr-only">not completed</span>
+          </li>
+          <li>
+            <a href="#">visualiser la carte</a><span class="sr-only">not completed</span>
+          </li>
+       </ul>
+  </nav>
+
+```html
+ <nav aria-label="progress" class="step-indicator">
+      <ul class="steps">
+          <li class="complete">
+            <a href="#">Ouvrir une séance</a><span class="sr-only">completed</span>
+          </li>
+          <li class="active" aria-current="true">
+            <a href="#">choisir un intérêt</a>
+          </li>
+          <li>
+            <a href="#">ajouter des amis</a><span class="sr-only">not completed</span>
+          </li>
+          <li>
+            <a href="#">visualiser la carte</a><span class="sr-only">not completed</span>
+          </li>
+       </ul>
+  </nav>
+```
 
 ### Donner un sens aux technologies d’assistance
 
 L’utilisation de couleurs pour ajouter du sens fournit seulement une indication visuelle qui n’est pas transmise aux utilisateurs de technologies d’assistance, comme les lecteurs d’écran. Veillez à ce que les renseignements indiqués par la couleur se différencient de manière évidente du contenu (p. ex., le texte visible) ou qu’ils soient inclus de différentes manières, par l’ajout de texte caché avec la classe `.sr-only`, par exemple.
+
+Vous devrez également ajouter `aria-current="true"` à l’étape active actuelle pour fournir plus de contexte.
 
 ## Barres de progression
 
@@ -135,14 +176,27 @@ Les couleurs de l’indicateur d’étapes peuvent varier, mais assurez-vous que
 
 Les indicateurs d’étapes sont stylisés comme suit : 
 
-*texte ici*
+Chaque cercle est de 40px avec une bordure de 4px et la couleur <badge style="background-color: #CECECE; color:black;"> #CECECE</badge>.
+
+Les numéros de chaque étape utilisent le style de titre 2, « Rubik Regular » à 21 points.
+
+Entre les étapes, il y a une ligne centrale d’une hauteur de 4px. Cette ligne devrait être de la même couleur que le cercle extérieur.
+
+Pour les étapes terminées, on utilise une icône de crochet au lieu du numéro et la bordure est de couleur <badge style="background-color: #0278A4"> #0278A4</badge>. On utilise également cette couleur pour la case à cocher.
+
+La ligne entre les étapes terminées et les étapes actives est également remplie à l’aide du no <badge style="background-color: #0278A4"> #0278A4</badge>.
+
+Pour l’étape active, on utilise toujours le numéro. De plus, le numéro et la bordure sont remplis à l’aide de la couleur <badge style="background-color: #0278A4"> #0278A4</badge>. Pour l’étape active, l’ombrage est de (x).
+
+Chaque étape devrait également comprendre du texte en dessous pour le contexte. Limitez ce texte à un ou deux mots. La police de caractères de ce texte est de 12px, alignée au centre, et le texte est entièrement en majuscule.
+
 
 <div role="group" aria-label="progress" class="step-indicator">
      <ul class="steps">
-         <li class="complete">login<span class="sr-only">completed</span></li>
-         <li class="active" aria-current="true">choose interest</li>
-         <li>add friends<span class="sr-only">not completed</span></li>
-         <li>View map<span class="sr-only">not completed</span></li>
+         <li class="complete">Ouvrir une séance<span class="sr-only">completed</span></li>
+         <li class="active" aria-current="true">choisir un intérêt</li>
+         <li>ajouter des amis<span class="sr-only">not completed</span></li>
+         <li>visualiser la carte<span class="sr-only">not completed</span></li>
       </ul>
  </div>
 
@@ -179,7 +233,7 @@ Le pourcentage peut être soit aligné à la droite de la barre, soit centré da
 <i class="fa fa-refresh fa-spin" style="font-size:24px"><span class="sr-only">Example of refresh spinner</span></i>
 <i class="fa fa-spinner fa-spin" style="font-size:24px"><span class="sr-only">Example of dot spinner</span></i>
 
-La boucle de progression utilisée dans ce système de conception est affichée au moyen de l’icône de boucle de progression de la police Awesome. La police Awesome possède de multiples icônes qui pourraient bien fonctionner comme boucle de progression, selon votre contenu. Vous pouvez consulter la [documentation sur la police Awesome](https://fontawesome.com/how-to-use/on-the-web/styling/animating-icons) afin d’animer la boucle de pression pour démontrer le chargement d’une page ou d’une fonction.
+La boucle de progression utilisée dans ce système de conception est affichée au moyen de l’icône de boucle de progression de la police Awesome. La police Awesome possède de multiples icônes qui pourraient bien fonctionner comme boucle de progression, selon votre contenu. Vous pouvez consulter la [documentation sur Font Awesome](https://fontawesome.com/how-to-use/on-the-web/styling/animating-icons) afin d’animer la boucle de pression pour démontrer le chargement d’une page ou d’une fonction.
 
 </doctabpanel>
     </documentationtabs>

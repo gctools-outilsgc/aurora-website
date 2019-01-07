@@ -138,7 +138,7 @@ Badges can use varying colours to convey different information to users.
 
 Badges have padding of 4px x 6.4px. Badges will have responsive sizing depending on the text. They have a border radius of 4px. 
 
-Badges have varying colours, as seen belo. Refer to [Colour](/component/colour) for more information on when to use certain colours. 
+Badges have varying colours, as seen below. Refer to [Colour](/component/colour) for more information on when to use certain colours. 
 
 <div class="mt-3 mb-3">
   <span class="badge badge-primary">Primary</span>

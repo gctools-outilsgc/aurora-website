@@ -17,6 +17,27 @@ Pour plus d'information sur mises à jours futurs, visitez la [page d'Aurora](ht
 
 ![Aurora banner](../../../img\aurora-banner-small.png)
 
+## V.0.3.3
+Le 11 janvier 2019
+* La section des composantes comporte désormais des onglets à toutes les pages. Ces onglets
+permettent de garder distinctes la documentation HTML s’adressant aux développeurs et les normes
+de conception.
+* La documentation HTML destinée aux développeurs a été ajoutée pour toutes les composantes
+concernées.
+* Les blocs de code figurant sous les onglets HTML ont été simplifiés, et le bouton de copie a été
+éliminé temporairement.
+* Le contenu de la page Balises, puces et pilules a été réduit, de façon à ce qu’il puisse tenir sur la
+page Badges. La page Balises, puces et pilules a été éliminée de la barre latérale.
+* Le graphisme a été corrigé dans la zone d’affichage des messages contextuels d’erreur ou de
+validation qui apparaît lors de l’activation des boutons, ainsi que sur les étiquettes, les boutons de
+pagination, le formulaire de téléversement de fichiers et les infobulles.
+* Des composantes sur mesure ont été créées pour les alertes relatives aux boutons personnalisés,
+les indicateurs d’état, le bouton « haut de la page », ainsi que les puces destinées aux badges.
+* La documentation de conception ainsi que les exemples relatifs aux composantes ont été clarifiés
+pour toutes les pages.
+* La page Grilles et espacement a été remaniée de manière à faciliter la consultation des exemples
+de grilles.
+
 ## V 0.3.2
 Le 28 décembre, 2018
 
