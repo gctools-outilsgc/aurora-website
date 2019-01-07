@@ -18,6 +18,8 @@ Des thèmes permettent une application uniforme par les nuances de surface, la p
 
 Nous avons créé d’autres échantillons de palettes de couleurs que vous pouvez utiliser dans votre propre système. Veuillez voir chaque échantillon pour la couleur de texte correspondante.
 
+Toutes les palettes de couleurs fournies dans ce système sont conformes aux Règles pour l’accessibilité des contenus Web (WCAG) 2.1 pour le contraste des couleurs si elles sont utilisées avec les bonnes couleurs de texte fournies.
+
 ### Aurore boréale
 
 La palette de couleur utilisée pour l’espace de travail numérique, ouvert et accessible du gouvernement du Canada (OutilsGC).

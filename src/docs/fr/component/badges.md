@@ -48,12 +48,16 @@ Les badges utilisent la classe `.badge`. Vous pouvez ajouter des classes de modi
 
 ### Donner un sens aux technologies d’assistance 
 
+Lors du codage des badges, le texte alternatif qui sera lu par les lecteurs d’écran doit également inclure le contexte. Par exemple, le badge devrait indiquer « 40 courriels non lus » plutôt que « 40 » uniquement.
+
 L’utilisation de couleurs pour ajouter du sens fournit seulement une indication visuelle qui n’est pas transmise aux utilisateurs de technologies d’assistance, comme les lecteurs d’écran. Veillez à ce que les renseignements indiqués par la couleur se différencient de manière évidente du contenu (p. ex., le texte visible) ou qu’ils soient inclus de différentes manières, par l’ajout de texte caché avec la classe `.sr-only`, par exemple. 
 
 
-## Notification Badges
+## Badges de notification
 
-*texte ici*
+Les badges de notification s’adaptent à la taille de l’élément parent immédiat en utilisant la taille relative des polices et les unités `em`.
+
+Les badges de notification peuvent être utilisés dans des liens ou des boutons pour fournir un compteur.
 
 <div class="mt-3 mb-3">
   <a href="#">
@@ -71,7 +75,9 @@ L’utilisation de couleurs pour ajouter du sens fournit seulement une indicatio
 
 ## Balises
 
-*texte ici*
+Les balises sont une version stylisée des badges. Les balises ont tendance à être utilisées pour des éléments plus interactifs. Ajoutez la classe `.badge-tag` à un badge ordinaire pour en faire une balise.
+
+Vous pouvez ajouter certains éléments interactifs à vos balises, comme des liens ou des boutons de suppression.
 
 <div class="mt-2">
     <a href="#!" class="badge badge-primary badge-tag">HTML</a>
@@ -198,7 +204,7 @@ Les étiquettes sont dimensionnées de façon à correspondre à la longueur des
 
 Les jetons sont semblables à une badge ordinaire, mais avec une image. Ils sont utilisés pour afficher des renseignements complexes (p. ex., un utilisateur) dans un espace restreint.
 
-Les jetons sont de forme rectangulaire et ont un rayon de bordure de 4px. Une image d’avatar est affichée à gauche de la puce. Les puces sont d’une dimension qui correspond à la longueur du nom du profil de l’utilisateur. Les jetons ont un remplissage de 7px sur tous les côtés.
+Les jetons sont de forme rectangulaire et ont un rayon de bordure de 4px. Une image d’avatar est affichée à gauche du jeton. Les jetons sont d’une dimension qui correspond à la longueur du nom du profil de l’utilisateur. Les jetons ont un remplissage de 7px sur tous les côtés.
 
 Les jetons ont trois différentes variations et sont affichées comme suit :
 

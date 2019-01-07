@@ -20,7 +20,9 @@ Les erreurs en ligne sont affichées sous le champ de saisie et indiquent à l�
 
 ## Boîtes d’erreur
 
-*texte ici*
+La boîte d’erreur fournit un résumé des erreurs de validation. Après qu’un utilisateur a soumis un formulaire, cette boîte affichera les erreurs applicables dans les champs particuliers. La boîte d’erreur apparaît en haut du formulaire.
+
+Chaque erreur répertoriée dans la boîte constitue un lien vers le champ de saisie correspondant. Les messages d’erreur doivent être concis, mais descriptifs de l’erreur. Plus de renseignements sont fournis en ligne.
 
 <documentationtabs remove="react">
       <doctabpanel type="html">

@@ -18,7 +18,7 @@ La microcopie est le texte dessous et le champ de saisie qui fournit des renseig
 
 ## Texte d’espace réservé
 
-*texte ici*
+Le texte contenu dans les espaces réservés n’est utilisé que pour fournir des renseignements supplémentaires ou des directives supplémentaires sur la façon de remplir une zone de texte. Le texte contenu dans les espaces réservés NE remplace PAS une étiquette ou une microcopie. Le texte contenu dans les espaces réservés ne devrait être utilisé que si un exemple d’entrée de texte améliore l’expérience de l’utilisateur, plutôt que pour remplacer d’autres indicateurs de renseignements importants.
 
 Le texte d’espace réservé est le texte qui apparaît directement dans le champ de saisie. Ce texte n’est pas censé être utilisé comme une étiquette, mais peut fournir des renseignements supplémentaires ou être une exemple pour l’utilisateur.
 

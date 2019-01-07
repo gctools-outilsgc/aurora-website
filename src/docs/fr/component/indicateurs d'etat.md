@@ -65,7 +65,6 @@ L’indicateur d’étapes régulier est utilisé simplement comme une indicatio
 ### Indicateur d’étape de navigation
 
 Selon le contenu de la page, vous pouvez ajouter des liens de navigation dans l’indicateur d’étapes. Dans ce cas, votre élément `<ul>` sera inclus dans un élément `<nav>`. Vous pouvez ensuite effectuer un renvoi de votre texte à l’aide d’un élément `<a>` pour faire un lien dans l’élément de liste.
-Vous devrez également ajouter aria-current="true" à l’étape active actuelle pour fournir plus de contexte.
 
  <nav aria-label="progress" class="step-indicator">
       <ul class="steps">
