@@ -22,7 +22,7 @@ Examples of good button labels: Add a blog post, Send message, Save draft.
 
 All labels should capitalize only the first letter of the label.
 
-Label text has high contrast with the button colour. See Colour for more information about acceptable contrast.
+Label text has high contrast with the button colour. See [Colour](/component/colour) for more information about acceptable contrast.
 
 <documentationtabs remove="react">
     <doctabpanel type="html">
@@ -214,7 +214,7 @@ Each of the states for secondary buttons are as follows:
 
 ### Position
 
-Secondary buttons are usually in close proximity to the primary button, but not in a location where the user might mistake the two. Secondary buttons are usually placed to the right of the primary button\_. \_They should have a consistent placement relative to the primary button to avoid confusion.
+Secondary buttons are usually in close proximity to the primary button, but not in a location where the user might mistake the two. Secondary buttons are usually placed to the right of the primary button. They should have a consistent placement relative to the primary button to avoid confusion.
 
 ## Drop-Down Buttons
 

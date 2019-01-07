@@ -54,6 +54,7 @@ Les images en série peuvent être harmonisées à l’aide de `.float-right` `.
 ## Avatars
 
 Les avatars utilisent la classe `.avatar` pour appliquer un style à une image.
+
 Les avatars ont deux classes de tailles de rechange: petit `.avatar-sm` et grand `.avatar-lg`.
 
 
@@ -112,7 +113,7 @@ Utilisé directement sur le profil de l’utilisateur.
 
 <img src="https://bit.ly/2LFHA5a" alt="Exemple d'une vignette" class="img-thumbnail" style="width: 115px; height: 115px;">
 
-Les vignettes sont toujours carrées avec une bordure d’un rayon de 1px. Elles ont un trait noir d’une largeur de 0,25 px. Elles ont une taille de 115 x 115 pixels.
+Les vignettes sont toujours carrées avec une bordure d’un rayon de 1px. Elles ont un trait avec le couleur <badge style="background-color: #CCCCCC; color: black">#CCCCCC</badge> d’une largeur de 1px. Elles ont une taille de 115 x 115 pixels.
 
 Les vignettes ne rognent pas l’image, mais la redimensionnent. Les vignettes sont généralement alignées à gauche lorsqu’elles sont combinées à d’autres éléments.
 

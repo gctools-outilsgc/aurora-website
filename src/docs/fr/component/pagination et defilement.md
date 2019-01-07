@@ -84,7 +84,7 @@ De plus, vu que les pages ont probablement plus d’une telle section de navigat
 </nav>
 ```
 
-Vous souhaitez utiliser une icône ou un symbole plutôt que du texte pour certains liens de pagination? Assurez vous de fournir le soutien de lecteur d’écran adéquat avec des attributs `aria` et `.sr-only` utility.
+Vous souhaitez utiliser une icône ou un symbole plutôt que du texte pour certains liens de pagination? Assurez vous de fournir le soutien de lecteur d’écran adéquat avec des attributs `aria` et l'utilité `.sr-only`.
 
 ## États activé et désactivé
 

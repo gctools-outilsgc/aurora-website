@@ -13,7 +13,7 @@ title: "Typographie"
 
 ## Polices
 
-La Division de la collaboration numérique (DCN) utilise deux familles de polices pour tous les produits numériques : « Rubik » et « Nunito Sans ». « Rubik » et « Nunito Sans » sont des polices de source ouverte et peuvent être téléchargés gratuitement à partir de [Google Fonts](https://fonts.google.com/).
+Aurora utilise deux familles de polices pour tous les produits numériques : « Rubik » et « Nunito Sans ». « Rubik » et « Nunito Sans » sont des polices de source ouverte et peuvent être téléchargés gratuitement à partir de [Google Fonts](https://fonts.google.com/).
 
 [Rubik](https://fonts.google.com/specimen/Rubik) est utilisé pour les titres et les en-têtes, tandis que [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) est utilisé pour le texte des sous-en-têtes, des boutons et des paragraphes.
 
@@ -76,7 +76,7 @@ Le texte de paragraphe est de couleur <badge style="background-color: #252525">#
 
 ### Rupture de ligne
 
-Le système de conception de la DCN est conforme aux pratiques exemplaires suivantes pour les ruptures de lignes :
+Le système de conception d'Aurora est conforme aux pratiques exemplaires suivantes pour les ruptures de lignes :
 * évitez les coupures de mots à la fin d’une ligne;
 * évitez de laisser des blancs ou des orphelins sur une ligne;
 * évitez des mises en retrait trop grandes.

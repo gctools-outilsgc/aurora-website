@@ -132,9 +132,10 @@ Ils sont utilisés pour afficher des renseignements complexes (p. ex., un utilis
 </doctabpanel>
     <doctabpanel type="design">
     
+
 Les badges peuvent utiliser différentes couleurs pour transmettre différents renseignements aux utilisateurs.
 
-Les laissez-passer ont un remplissage de 4px par 6,4px. Les laissez-passer auront une taille adaptée selon le texte. Ils ont un rayon de contour de 4px.
+Les badges ont un remplissage de 4px par 6,4px. Les laissez-passer auront une taille adaptée selon le texte. Ils ont un rayon de contour de 4px.
 
 Les laissez-passer ont différentes couleurs, comme on peut le voir ci-dessous. Consultez la section [Couleur](/component/colour) pour de plus amples renseignements sur la façon d’utiliser certaines couleurs.
 
@@ -195,7 +196,7 @@ Les étiquettes sont dimensionnées de façon à correspondre à la longueur des
 
 ## Jetons
 
-Les jetons sont semblables à un laissez-passer ordinaire, mais avec une image. Ils sont utilisés pour afficher des renseignements complexes (p. ex., un utilisateur) dans un espace restreint.
+Les jetons sont semblables à une badge ordinaire, mais avec une image. Ils sont utilisés pour afficher des renseignements complexes (p. ex., un utilisateur) dans un espace restreint.
 
 Les jetons sont de forme rectangulaire et ont un rayon de bordure de 4px. Une image d’avatar est affichée à gauche de la puce. Les puces sont d’une dimension qui correspond à la longueur du nom du profil de l’utilisateur. Les jetons ont un remplissage de 7px sur tous les côtés.
 

@@ -18,6 +18,8 @@ La microcopie est le texte dessous et le champ de saisie qui fournit des renseig
 
 ## Texte d’espace réservé
 
+*texte ici*
+
 Le texte d’espace réservé est le texte qui apparaît directement dans le champ de saisie. Ce texte n’est pas censé être utilisé comme une étiquette, mais peut fournir des renseignements supplémentaires ou être une exemple pour l’utilisateur.
 
 Le texte d’espace réservé vise à aider l’utilisateur à remplir avec plus d’exactitude le champ au lieu d’être l’indicateur principal du contenu du champ. Il peut être complémentaire à la microcopie, avec un texte d’espace réservé donnant un exemple et une microcopie fournissant des renseignements supplémentaires ou un contexte.

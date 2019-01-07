@@ -164,7 +164,7 @@ Les boutons n’exigent pas de classe supplémentaire et peuvent être inclus da
 </doctabpanel>
     <doctabpanel type="design">  
     
-Les cartes ont habituellement une couleur de fond <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, qui les sépare de l’ensemble de la couleur de fond de la page (<badge style="background-color: #FAFAFA; color:black">#FAFAFA</badge>).
+Les cartes ont habituellement une couleur de fond <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>, qui les sépare de l’ensemble de la couleur de fond de la page.
 
 ## Modèle de carte de base
 

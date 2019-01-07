@@ -78,7 +78,7 @@ Paragraph text uses the colours <badge style="background-color: #252525">#252525
 
 ### Line-Breaking
 
-The DCD design system is consistent with the following best practices for line-breaks:
+The Aurora design system is consistent with the following best practices for line-breaks:
 
 • Avoid hyphenation at the end of a line.
 

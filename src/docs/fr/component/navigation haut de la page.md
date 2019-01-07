@@ -38,8 +38,8 @@ Dans la version mobile, assurez-vous d’utiliser la classe `.sr-only` pour four
     
 <doctabpanel type="design">
           
-Ce bouton devrait toujours porter la mention « Haut de page » puisqu’il s’agit de l’étiquette la plus descriptive et la plus attendue pour la fonction.
 
+Ce bouton devrait toujours porter la mention « Haut de page » puisqu’il s’agit de l’étiquette la plus descriptive et la plus attendue pour la fonction.
 
 Le bouton Haut de la page dans le système de conception a le style suivant :
 

@@ -113,7 +113,7 @@ Thumbnails are styled as follows:
 
 <img src="https://bit.ly/2LFHA5a" alt="thumbnail class example" class="img-thumbnail" style="width: 115px; height: 115px;">
 
-Thumbnails are always square with a border radius 1px. They have aborder width of 1px using the colour <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. They are sized at 115 x 115 pixels
+Thumbnails are always square with a border radius 1px. They have a border width of 1px using the colour <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. They are sized at 115 x 115 pixels
 
 Thumbnails do not crop the image but simply re-scale it. Thumbnails are typically left-aligned when combined with other components.
     </doctabpanel>

@@ -23,7 +23,7 @@ Exemples de bonnes étiquettes : Ajouter une publication au blogue, Envoyer un m
 
 Toutes les étiquettes devraient mettre seulement la première lettre en majuscule.
 
-Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouton. Voir les couleurs pour plus de renseignements au sujet d’un contraste acceptable.
+Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouton. Voir la [section Couleurs](/component/colour) pour plus de renseignements au sujet d’un contraste acceptable.
 
 <documentationtabs remove="react">
     <doctabpanel type="html">
@@ -81,7 +81,7 @@ Créez des boutons de niveau de bloc – ceux qui couvrent la largeur d’un él
 
 Les menus déroulants peuvent être alternés. On peut également afficher des listes de liens à l’aide de superpositions contextuelles, et plus. L’inclusion du module d’extension déroulant Boostrap, de JavaScript, rend les menus interactifs. On les bascule par le clic d’un bouton, et non au moyen du survol de la souris.
 
-Enveloppez la bascule du menu déroulant (votre bouton ou votre lien) et le menu déroulant dans l’élément `.dropdown`, ou un autre élément qui indique position: relative. Les menus déroulants peuvent être activés par les éléments `<a>` ou `<button>` pour mieux répondre à vos besoins.
+Enveloppez la bascule du menu déroulant (votre bouton ou votre lien) et le menu déroulant dans l’élément `.dropdown`, ou un autre élément qui indique `position: relative`. Les menus déroulants peuvent être activés par les éléments `<a>` ou `<button>` pour mieux répondre à vos besoins.
 
 Les boutons de menus déroulants fonctionnent avec des boutons de toutes les tailles et variétés.
 
@@ -123,7 +123,7 @@ Regroupez une série de boutons sur une seule ligne avec le groupe bouton, puis 
 </div>
 ```
 
-## Taille
+### Taille
 
 Plutôt que d’appliquer des classes de tailles de bouton à chaque bouton d’un groupe, ajoutez simplement `.btn-group-*` à chaque `.btn-group`, y compris chaque groupe lorsque vous emboîtez plusieurs groupes.
 

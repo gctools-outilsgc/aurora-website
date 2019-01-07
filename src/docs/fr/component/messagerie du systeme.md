@@ -39,7 +39,7 @@ Les messages du système doivent se trouver au haut de la page ou à l’endroit
         
 
 ## Alertes par défaut
-Des alertes et un bouton optionnel de rejet sont disponibles pour toutes les longueurs de texte. Pour vous assurer d’avoir un style approprié, utilisez une des quatre classes contextuelles: `.alert-danger`, `.alert-warning`, `.alert-info`ou `.alert-success`
+Des alertes et un bouton optionnel de rejet sont disponibles pour toutes les longueurs de texte. Pour vous assurer d’avoir un style approprié, utilisez une des quatre classes contextuelles: `.alert-danger`, `.alert-warning`, `.alert-info` ou `.alert-success`
 
 Utilisez la classe d’utilitaire `.alert-link` pour rapidement fournir des liens de couleurs correspondants à l’intérieur de toute alerte.
 
@@ -80,7 +80,7 @@ Utilisez la classe d’utilitaire `.alert-link` pour rapidement fournir des lien
 
 ## Icônes d’alertes personnalisées
 
-En plus des alertes par défaut du bootstrap, Aurora utilise des icônes d’alertes personnalisées pour différents types de contextes de messages.
+En plus des alertes par défaut du Bootstrap, Aurora utilise des icônes d’alertes personnalisées pour différents types de contextes de messages.
 
 Utilisez la classe `.alert-icon` pour créer une icône d’alerte personnalisée. L’icône d’alerte personnalisée comprend une section .icon et une section `.message`. Votre icône peut être ajoutée à l’icône `<div>`.
 
@@ -225,9 +225,10 @@ Aurora importe automatiquement l’application Bootstrap, de JavaScript, nécess
 
 ## Alertes par défaut
 
-Les messages d’alerte par défaut sont fournis dans le bootstrap. Aurora utilise ces alertes ainsi que les alertes personnalisées (voir ci-dessous).
+Les messages d’alerte par défaut sont fournis dans le Bootstrap. Aurora utilise ces alertes ainsi que les alertes personnalisées (voir ci-dessous).
 
 Les alertes par défaut sont présentées comme suit :
+
 Rectangle de la largeur du contenant, avec un rayon de contour 4px. La hauteur dépend de la taille du texte du message avec un remplissage de 12px par 20px.
 
 La boîte de message comprend un ombrage non décalé et un flou de 5px. L’ombrage est noir (<badge style="background-color: #000000"> #000000</badge>) avec 15 % d’opacité.
@@ -259,9 +260,10 @@ Les icônes d’alertes personnalisées sont présentées comme suit :
 
 La boîte possède la même largeur que le contenant. La hauteur du message dépend du texte. Le remplissage autour du texte est de 12px par 20px. La boîte de message a un rayon de contour de 4px.
 
-La boîte de couleurs sur le côté du message possède une largeur de 60px et le rayon de contour dans le coin supérieur gauche et le coin inférieur gauche est de 4px. La couleur dépend du type d’alerte. Reportez-vous à la section Couleur pour de plus amples renseignements. Les alertes personnalisées utilisent une couleur brillante.
+La boîte de couleurs sur le côté du message possède une largeur de 60px et le rayon de contour dans le coin supérieur gauche et le coin inférieur gauche est de 4px. La couleur dépend du type d’alerte. Reportez-vous à la section [Couleur](/component/colour) pour de plus amples renseignements. 
 
 La boîte de message comprend un ombrage non décalé et un flou de 5px. L’ombrage est noir (<badge style="background-color: #000000"> #000000</badge>) avec 15 % d’opacité.
+
 Le titre de la notification utilise le style H5 : Nunito Sans, à 18 points. Le texte du message utilise le style de paragraphe ordinaire : Nunito Sans à 16 points.
 
 Aurora utilise Font Awesome pour les icônes de la boîte de messages, mais ces icônes sont personnalisables et servent simplement à des fins de conception. Consultez les icônes pour de plus amples renseignements. Pour les alertes personnalisées, la couleur la plus brillante est utilisée pour la boîte d’icône; le reste de la boîte de message est blanc (<badge style="background-color: #FFFFFF; color:black;"> #FFFFFF</badge>)

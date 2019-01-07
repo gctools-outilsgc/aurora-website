@@ -262,7 +262,7 @@ Custom icon alerts are styled as follows:
 
 The box is the same width as the container. The height of the message is dependent on the text. The padding around the text is 12px by 20px. The message box has a border radius of 4px.
 
-The coloured box on the side of the message is 60px wide with a border radius on the top left and bottom left corners are 4px. The colour depends on the type of alert. Refer to [Colour](component/colour) for more information. Custom icon alerts use the bright
+The coloured box on the side of the message is 60px wide with a border radius on the top left and bottom left corners are 4px. The colour depends on the type of alert. Refer to [Colour](component/colour) for more information.
 
 The message box includes a drop shadow with no offset and a blur of 5px. The drop shadow is black (<badge style="background-color: #000000"> #000000</badge>) with 15% opacity.  
 
