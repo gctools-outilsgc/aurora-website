@@ -82,7 +82,7 @@ Utilisez la classe d’utilitaire `.alert-link` pour rapidement fournir des lien
 
 En plus des alertes par défaut du Bootstrap, Aurora utilise des icônes d’alertes personnalisées pour différents types de contextes de messages.
 
-Utilisez la classe `.alert-icon` pour créer une icône d’alerte personnalisée. L’icône d’alerte personnalisée comprend une section .icon et une section `.message`. Votre icône peut être ajoutée à l’icône `<div>`.
+Utilisez la classe `.alert-icon` pour créer une icône d’alerte personnalisée. L’icône d’alerte personnalisée comprend une section `.icon` et une section `.message`. Votre icône peut être ajoutée à l’icône `<div>`.
 
 <div class="alert-icon alert-danger" role="alert">
   <div class="icon" aria-hidden="true">

@@ -13,7 +13,7 @@ title: "Indicateurs de progrès"
 
 # Indicateurs de progrès
 
-Les indicateurs de progrès sont la clé pour la visibilité de l’état du système. Ils représentent une voie vers l’achèvement d’une tâche ou d’un processus particulier. Les indicateurs d’étapes aident l’utilisateur à déterminer ce qu’il a terminé dans le processus, et ce qu’il lui reste à faire.
+Les indicateurs de progrès sont la clé pour la visibilité de l’état du système. Ils représentent une voie vers la finalisation d’une tâche ou d’un processus particulier. Les indicateurs d’étapes aident l’utilisateur à déterminer ce qu’il a terminé dans le processus, et ce qu’il lui reste à faire.
 
 ## Indicateur des étapes
 
@@ -21,13 +21,13 @@ Les indicateurs d’étapes sont utilisés pour les tâches qui nécessitent de 
 
 ## Barres de progression
 
-Les barres de progression sont utilisées afin de représenter visuellement une page ou des fonctions en chargement ou en cours. Les barres de progression indiquent un pourcentage, en plus de la représentation visuelle indiquée dans la barre.
+Les barres de progression sont utilisées afin de représenter visuellement une page ou des fonctions en chargement ou en progression. Les barres de progression indiquent un pourcentage, en plus de la représentation visuelle indiquée dans la barre.
 
-Les barres de progression déterminent les niveaux de progrès, ce qui signifie qu’il y a un point d’achèvement clair. Lorsque la barre de pression est remplie et qu’elle atteint 100 %, l’application devrait terminer le processus.
+Les barres de progression déterminent les niveaux de progrès, ce qui signifie qu’il y a une fin claire. Lorsque la barre de pression est remplie et qu’elle atteint 100 %, l’application devrait terminer le processus.
 
 ## Boucles de progression
 
-Les boucles de progression sont utilisées pour indiquer le chargement d’une page ou d’une fonction. Une règle générale est d’utiliser des boucles de progression pour les processus qui durent moins de 4 secondes. Les boucles de progression indiquent des niveaux de progrès indéterminés, ce qui signifie qu’il n’y a pas d’achèvement clair et que la boucle d’animation se poursuit jusqu’à ce que le processus soit terminé.
+Les boucles de progression sont utilisées pour indiquer le chargement d’une page ou d’une fonction. En règle général on utilise des boucles de progression pour les processus qui durent moins de 4 secondes. Les boucles de progression indiquent des niveaux de progrès indéterminés, ce qui signifie qu’il n’y a pas de fin claire et que la boucle d’animation se poursuit jusqu’à ce que le processus soit terminé.
 
 <documentationtabs remove="react">
     <doctabpanel type="html">
@@ -64,7 +64,7 @@ L’indicateur d’étapes régulier est utilisé simplement comme une indicatio
 
 ### Indicateur d’étape de navigation
 
-Selon le contenu de la page, vous pouvez ajouter des liens de navigation dans l’indicateur d’étapes. Dans ce cas, votre élément `<ul>` sera inclus dans un élément `<nav>`. Vous pouvez ensuite effectuer un renvoi de votre texte à l’aide d’un élément `<a>` pour faire un lien dans l’élément de liste.
+Selon le contenu de la page, vous pouvez ajouter des liens de navigation dans l’indicateur d’étapes. Dans ce cas, votre élément `<ul>` sera inclus dans un élément `<nav>`. Vous pouvez ensuite effectuer un renvoi de votre texte à l’aide d’un élément `<a>` pour faire un lien dans la liste d'élément.
 
  <nav aria-label="progress" class="step-indicator">
       <ul class="steps">
@@ -104,20 +104,20 @@ Selon le contenu de la page, vous pouvez ajouter des liens de navigation dans l�
 
 ### Donner un sens aux technologies d’assistance
 
-L’utilisation de couleurs pour ajouter du sens fournit seulement une indication visuelle qui n’est pas transmise aux utilisateurs de technologies d’assistance, comme les lecteurs d’écran. Veillez à ce que les renseignements indiqués par la couleur se différencient de manière évidente du contenu (p. ex., le texte visible) ou qu’ils soient inclus de différentes manières, par l’ajout de texte caché avec la classe `.sr-only`, par exemple.
+La couleur aide à la compréhension de façon visuelle, ce qui n'est pas transmis aux utilisateurs de technologies d'assitance tels que les lecteurs d'écran. Veillez à ce que les renseignements indiqués par la couleur se différencient de manière évidente du contenu (p. ex., le texte visible) ou qu’ils soient inclus de différentes manières, par l’ajout de texte caché avec la classe `.sr-only`, par exemple.
 
-Vous devrez également ajouter `aria-current="true"` à l’étape active actuelle pour fournir plus de contexte.
+Vous devrez également ajouter `aria-current="true"` à l’étape active pour fournir plus de contexte.
 
 ## Barres de progression
 
-Les composantes de progrès sont conçues à l’aide de deux éléments de HTML, certains éléments de CSS pour l’établissement de la largeur et quelques attributs. On n’utilise pas l’élément `<progress>` d’HTML5 afin de veiller à ce que vous puissiez superposer des barres de progrès, les animer et y poser des étiquettes de texte.
+Les composantes de pregression sont conçues à l’aide de deux éléments de HTML, certains éléments de CSS pour l’établissement de la largeur et quelques attributs. On n’utilise pas l’élément `<progress>` d’HTML5 afin de veiller à ce que vous puissiez superposer des barres de progression, les animer et y poser des étiquettes de texte.
 
-On utilise `.progress` comme enveloppeur pour indiquer la valeur maximale de la barre de progrès. On se sert d’inner `.progress-ba`r pour indiquer le progrès réalisé. La barre .progress-bar nécessite un style en ligne, une classe utilitaire ou une feuille de style en cascade CSS personnalisée pour l’établissement de la largeur. La barre .progress-bar nécessite également certains attributs de rôle et d’aria pour être accessible. Si vous regroupez tous ces éléments, vous obtenez les exemples suivants.
+On utilise `.progress` comme enveloppeur pour indiquer la valeur maximale de la barre de pregression. On se sert de `.progress-bar` à l'interne pour indiquer le progrès réalisé. La barre `.progress-bar` nécessite un style en ligne, une classe utilitaire ou une feuille de style en cascade CSS personnalisée pour l’établissement de la largeur. La barre `.progress-bar` nécessite également certains attributs de rôle et d’aria pour être accessible. Si vous regroupez tous ces éléments, vous obtenez les exemples suivants.
 
 
 Les barres de progression devraient toujours inclure un indicateur de texte, en plus de la représentation visuelle pour donner plus de contexte. Ce texte devrait être inclus dans l’étiquette `<alt>`.
 
-Ajoutez des étiquettes à vos barres de progrès en plaçant du texte sur la barre `.progress-bar.`
+Ajoutez des étiquettes à vos barres de progression en plaçant du texte dans la barre `.progress-bar.`
           
 <div class="progress">
   <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
@@ -151,7 +151,7 @@ Ajoutez des étiquettes à vos barres de progrès en plaçant du texte sur la ba
 
 ## Boucles de progression
 
-Vous pouvez consulter la [documentation sur la police Awesome](https://fontawesome.com/how-to-use/on-the-web/styling/animating-icons) afin d’animer la boucle de pression pour démontrer le chargement d’une page ou d’une fonction.
+Vous pouvez consulter la [documentation sur la police Awesome](https://fontawesome.com/how-to-use/on-the-web/styling/animating-icons) afin d’animer l'icône pour démontrer le chargement d’une page ou d’une fonction.
 
 <i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"><span class="sr-only">Exemple d'une girouette circulaire</span></i>
 <i class="fa fa-refresh fa-spin" style="font-size:24px"><span class="sr-only">Exemple d'une girouette pour rafraîchir</span></i>
@@ -171,11 +171,11 @@ Vous pouvez consulter la [documentation sur la police Awesome](https://fontaweso
 
 Si une étiquette est requise pour votre indicateur d’étape, l’étiquette doit être placée au haut de l’élément et alignée à la gauche.
 
-Les couleurs de l’indicateur d’étapes peuvent varier, mais assurez-vous que les exigences de contraste sont respectées. Visitez la section sur les couleurs [section sur les couleurs](/component/colour) pour plus de renseignements sur le choix de couleurs accessibles.
+Les couleurs de l’indicateur d’étapes peuvent varier, mais assurez-vous que les exigences de contraste sont respectées. Visitez la [section sur les couleurs](/component/colour) pour plus de renseignements sur les choix de couleurs accessibles.
 
 Les indicateurs d’étapes sont stylisés comme suit : 
 
-Chaque cercle est de 40px avec une bordure de 4px et la couleur <badge style="background-color: #CECECE; color:black;"> #CECECE</badge>.
+Chaque cercle est de 40px avec une bordure de 4px de couleur <badge style="background-color: #CECECE; color:black;"> #CECECE</badge>.
 
 Les numéros de chaque étape utilisent le style de titre 2, « Rubik Regular » à 21 points.
 
@@ -183,11 +183,11 @@ Entre les étapes, il y a une ligne centrale d’une hauteur de 4px. Cette ligne
 
 Pour les étapes terminées, on utilise une icône de crochet au lieu du numéro et la bordure est de couleur <badge style="background-color: #0278A4"> #0278A4</badge>. On utilise également cette couleur pour la case à cocher.
 
-La ligne entre les étapes terminées et les étapes actives est également remplie à l’aide du no <badge style="background-color: #0278A4"> #0278A4</badge>.
+La ligne entre les étapes terminées et les étapes actives est également de couleur <badge style="background-color: #0278A4"> #0278A4</badge>.
 
 Pour l’étape active, on utilise toujours le numéro. De plus, le numéro et la bordure sont remplis à l’aide de la couleur <badge style="background-color: #0278A4"> #0278A4</badge>. Pour l’étape active, l’ombrage est de (x).
 
-Chaque étape devrait également comprendre du texte en dessous pour le contexte. Limitez ce texte à un ou deux mots. La police de caractères de ce texte est de 12px, alignée au centre, et le texte est entièrement en majuscule.
+Chaque étape devrait également comprendre du texte en dessous pour le contexte. Limitez ce texte à un ou deux mots. La taille de la police de caractères de ce texte est de 12px, alignée au centre, et le texte est entièrement en majuscule.
 
 
 <div role="group" aria-label="progress" class="step-indicator">
@@ -207,7 +207,7 @@ Les barres de progression peuvent être remplies de n’importe laquelle des cou
 
 Les barres de progression sont stylisées au moyen d’un rectangle d’environ 16px de hauteur et d’une largeur variable. Le rectangle possède une bordure de 1px de couleur <badge style="background-color: #ADACAC;color:black;">#ADACAC</badge>, avec un rayon de contour de 4px.
 
-Le pourcentage peut être soit aligné à la droite de la barre, soit centré dans la portion colorée de la barre.
+Le pourcentage peut être aligné à la droite de la barre ou centré dans la portion colorée de la barre.
 
 <div class="progress">
   <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
