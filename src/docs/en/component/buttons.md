@@ -198,7 +198,7 @@ Drop down buttons display a list of items when clicked. They are used for two-st
 
 ## Button Groups
 
-Button groups, are a stylized way of putting multiple buttons together.
+Button groups are a stylized way of putting multiple buttons together.
 
 Primary actions are aligned to the left, while secondary actions are placed in the middle, and warning or destructive actions are aligned to the right.
 
