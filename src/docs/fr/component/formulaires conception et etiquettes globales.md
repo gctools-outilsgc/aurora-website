@@ -133,13 +133,11 @@ La façon dont les étiquettes sont écrites a un effet sur leur lisibilité. Il
 
 ## Champs obligatoires
 
-Les saisies devraient être clairement indiquées comme facultatives ou obligatoires.
+Les saisies devraient être clairement indiquées comme facultatives ou obligatoires. Cette indicateur peut-être partie d'étiquette. 
 
 Si la plupart des champs dans le formulaire sont obligatoires, veuillez indiquer seulement les champs facultatifs.
 
 Si la plupart des champs dans le formulaire sont facultatifs, veuillez indiquer seulement les champs obligatoires.
-
-Des indications devraient être situées à côté du champ de saisie. Les termes (obligatoire) ou (facultatif) devraient être présents seulement lorsque cela est nécessaire. Le texte indicateur utilise la couleur <badge style="background-color: #252525">#252525</badge> et suit la même conception typographique que les étiquettes.
 
 
 ## Regroupement et ensembles de champs

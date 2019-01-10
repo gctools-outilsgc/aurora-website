@@ -20,8 +20,6 @@ Button labels should be clear and specific. Avoid generic terms like Save, Submi
 
 Examples of good button labels: Add a blog post, Send message, Save draft.
 
-All labels should capitalize only the first letter of the label.
-
 Label text has high contrast with the button colour. See [Colour](/component/colour) for more information about acceptable contrast.
 
 <documentationtabs remove="react">
@@ -53,7 +51,7 @@ Aurora includes various button styles, each serving its own semantic purpose.
 <button type="button" class="btn btn-dark">Dark</button>
 ```
 
-### Conveying meaning to assistive technologies
+### Accessibility Considerations
 
 Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the `.sr-only` class.
 

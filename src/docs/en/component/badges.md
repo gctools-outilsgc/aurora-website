@@ -122,11 +122,11 @@ Chips are badges with an image. Add your image to the badge using the `<img>` el
 
 They are used to show complex information (e.g. a user) in a compact space.
 
-<span class="badge badge-primary badge-chip"><img alt="small user avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 1</span>
+<span class="badge badge-primary badge-chip"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 1</span>
 <span class="badge badge-primary badge-chip"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 2</span>
 
 ```html
-<span class="badge badge-primary badge-chip"><img alt="small user avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 1</span>
+<span class="badge badge-primary badge-chip"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 1</span>
 <span class="badge badge-primary badge-chip"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 2</span>
 ```
     
@@ -212,7 +212,7 @@ Chips have 3 different variations and are displayed as follows:
 
 **User-control:** Same as normal, but there is an additional remove icon on the right. This icon is <badge style="background-color: #4D5D6C;">#4D5D6C</badge> with a transparent x, and is right-aligned. Small avatar \(26 x 26px\) aligned to the left.
 
-**Hover:** Same as the user-controlled chip but has a background colour of <badge style="background-color: #4D5D6C;">#4D5D6C</badge> and the remove icon is white with a transparent x. Small avatar \(26 x 26px\) aligned to the left.
+
 
 </doctabpanel>
     </documentationtabs>

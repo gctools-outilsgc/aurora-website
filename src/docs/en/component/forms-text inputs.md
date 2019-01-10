@@ -15,17 +15,11 @@ Input fields allow users to provide information by inputting text into a page. I
 
 ## Microcopy
 
-Microcopy is text below an input field that provides additional information about that field. Microcopy is meant to be brief sentences that instruct the user how to complete the field.
+Microcopy is text below an input field that provides additional information about that field. Microcopy is meant to be brief sentences that can instruct the user how to complete the field.
 
 ## Placeholder Text
 
-Placeholder text is used only to provide supplemental information or additional guidance on how to complete a text field. Placeholder text DOES NOT replace a label or microcopy. Placeholder text should only be used if an example of a text input improves the user experience, rather than as a replacement to other important information indicators.
-
-Placeholder text is text that appears directly in the input field. This text is not meant to be used as a label, but can provide supplemental information or an example for the user.
-
-Placeholder text is meant to help the user more accurately complete the field rather than be the primary indicator of field content. It may also be complementary to micro-copy, with placeholder text providing an example, and micro-copy providing additional information or context.
-
-As soon as the user starts typing in the field, the placeholder text should disappear.
+Placeholder text is used only to provide supplemental information or additional guidance on how to complete a text field. Placeholder text doesnot replace a label or microcopy. Placeholder text should only be used if an example of a text input improves the user experience, rather than as a replacement to other important information indicators.
 
 <documentationtabs remove="react">
       <doctabpanel type="html">
@@ -41,15 +35,35 @@ The `<input>` tag specifies an input field where the user can enter data.
 
 Be sure to use an appropriate `type` attribute on all inputs (e.g., `email` for email address or `number` for numerical information) to take advantage of newer input controls like email verification, number selection, and more.
 
-  <div class="form-group">
+<div class="form-group">
+    <label for="inputText1">Full Name</label>
+    <input type="text" class="form-control" id="inputText1">
+</div>
+
+<div class="form-group">
     <label for="inputEmail3">Email Address</label>
-    <input type="email" class="form-control" id="inputEmail3" aria-describedby="emailHelp1">
-  </div>
+    <input type="email" class="form-control" id="inputEmail3">
+</div>
+
+<div class="form-group">
+    <label for="inputNumber1">Quantity</label>
+    <input type="number" class="form-control" id="inputNumber1">
+</div>
 
 ```html
+<div class="form-group">
+    <label for="inputText1">Full Name</label>
+    <input type="text" class="form-control" id="inputText1">
+</div>
+
 <div class="form-group"> 
     <label for="inputEmail3">Email Address</label> 
-    <input type="email" class="form-control" id="inputEmail3" aria-describedby="emailHelp1"> 
+    <input type="email" class="form-control" id="inputEmail3"> 
+</div>
+
+<div class="form-group">
+    <label for="inputNumber1">Quantity</label>
+    <input type="number" class="form-control" id="inputNumber1">
 </div>
 ```
 
@@ -101,16 +115,16 @@ Help text should be explicitly associated with the form control it relates to us
 Microcopy below inputs can be styled with `.form-text`. This class includes `display: block` and adds some top margin for easy spacing from the inputs above. Inline help text can be flexibly implemented using any inline HTML element and utility classes like `.text-muted.`
 
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="sierra@example.com">
-    <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+    <label for="exampleInputNumber1">Phone Number</label>
+    <input type="text" class="form-control" id="exampleInputNumber1" aria-describedby="numberExample1" placeholder="(613) 123-3456">
+    <small id="numberExample1" class="form-text">Make sure to include your area code! </small>
   </div>
 
 ```html
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="sierra@example.com">
-    <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+    <label for="exampleInputNumber1">Phone Number</label>
+    <input type="text" class="form-control" id="exampleInputNumber1" aria-describedby="numberExample1" placeholder="(613) 123-3456">
+    <small id="numberExample1" class="form-text">Make sure to include your area code! </small>
   </div>
 ```
 
@@ -141,8 +155,8 @@ Text input fields may also include interactive elements to the right of the fiel
 Text areas have the same styling as other text inputs, but with a greater height. Text areas are used typically for open ended questions, where the user is asked to provide descriptions or additional information. 
 
   <div class="form-group">
-    <label for="exampleFormControlTextarea1">Comments</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <label for="exampleFormControlTextarea2">Comments</label>
+    <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
   </div>
 
 ## Select Field
@@ -154,8 +168,8 @@ Select fields are styled as follows:
 **Normal**: Rectangle with a height of 42px and a border radius of 4px. Stroke width of 1px coloured <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. The drop down control is right-aligned 27px from the edge of the input. The line on the edge is 1px coloured <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge> and extends until 5px from the top and bottom of the input. 15 by 27 by 15 by 12. The chevron icon is aligned with the text and is 9px from the left edge, and 18px from the top and bottom.
 
 <div class="form-group">
-    <label for="carSelect">Cars</label>
-    <select id="carSelect" class="form-control">
+    <label for="carSelect2">Cars</label>
+    <select id="carSelect2" class="form-control">
     <option value="volvo">Volvo</option>
     <option value="saab">Saab</option>
     <option value="mercedes">Mercedes</option>
@@ -181,9 +195,9 @@ Micro-copy is styled as follows:
 If there is more than one line the text wraps and has a leading of 18pts.
 
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="sierra@example.com">
-    <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+    <label for="exampleInputNumber2">Phone Number</label>
+    <input type="text" class="form-control" id="exampleInputNumber2" aria-describedby="numberExample2" placeholder="(613) 123-3456">
+    <small id="numberExample2" class="form-text">Make sure to include your area code! </small>
   </div>
 
 </doctabpanel>

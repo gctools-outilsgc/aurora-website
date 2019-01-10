@@ -11,18 +11,17 @@ title: "Erreurs et validation"
 
 # Erreurs et validation
 
-## Erreurs de saisie
-
-Les erreurs de saisie devraient être affichées de sorte qu’il est clair à l’utilisateur qu’il a fait une erreur, ce qu’est cette erreur et où elle se trouve. Pour afficher les erreurs dans un formulaire de présentation, utiliser les boîtes d’erreur et les erreurs en ligne. Pour chaque erreur, les copies utilisées à la fois pour la boîte d’erreur et l’erreur en ligne devraient être identiques.
-
-Les erreurs en ligne sont affichées sous le champ de saisie et indiquent à l’utilisateur la façon de corriger l’erreur. Les erreurs en ligne devraient être aussi concises que possible et limitées à une ligne qui tient en dessous du champ de saisie.
-
-
 ## Boîtes d’erreur
 
 La boîte d’erreur fournit un résumé des erreurs de validation. Après qu’un utilisateur a soumis un formulaire, cette boîte affichera les erreurs applicables dans les champs particuliers. La boîte d’erreur apparaît en haut du formulaire.
 
 Chaque erreur répertoriée dans la boîte constitue un lien vers le champ de saisie correspondant. Les messages d’erreur doivent être concis, mais descriptifs de l’erreur. Plus de renseignements sont fournis en ligne.
+
+## Erreurs de saisie
+
+Les erreurs de saisie devraient être affichées de sorte qu’il est clair à l’utilisateur qu’il a fait une erreur, ce qu’est cette erreur et où elle se trouve. Pour afficher les erreurs dans un formulaire de présentation, utiliser les boîtes d’erreur et les erreurs en ligne. Pour chaque erreur, les copies utilisées à la fois pour la boîte d’erreur et l’erreur en ligne devraient être identiques.
+
+Les erreurs en ligne sont affichées sous le champ de saisie et indiquent à l’utilisateur la façon de corriger l’erreur. Les erreurs en ligne devraient être aussi concises que possible et limitées à une ligne qui tient en dessous du champ de saisie.
 
 <documentationtabs remove="react">
       <doctabpanel type="html">
@@ -59,7 +58,7 @@ La boîte d’erreur utilise les classes `.alert`, `.alert-danger` et `.alert-da
 
 Pour les erreurs en ligne, utilisez la classe `.is-invalid` pour ajouter un style d’erreur à l’élément du formulaire précisé.
 
-Le texte de la microcopie qui fournit des renseignements à l’utilisateur est stylisé à l’aide de la classe `.invalid-feedback`. Utilisez `.aria-describedby` pour associer la microcopie à l’entrée invalide.
+Le texte de la microcopie qui fournit des renseignements à l’utilisateur est stylisé à l’aide de la classe `.invalid-feedback`. Utilisez `.aria-describedby` pour associer la microcopie à l’entrée invalide. Voir la page [Saisies textuelles](component/text-inputs) pour plus d'information sur la microcopie. 
 
 
 <div class="form-group">
@@ -112,11 +111,11 @@ Le texte de la microcopie qui fournit des renseignements à l’utilisateur est 
 </div>
 ```
 
-## Erreurs validées
+## Saisies validées
 
-Pour les erreurs validées, utilisez la classe `.is-valid` pour montrer que les renseignements fournis dans la saisie sont valides.
+Pour les saisies validées, utilisez la classe `.is-valid` pour montrer que les renseignements fournis dans la saisie sont valides.
 
-Le texte de la microcopie qui fournit des renseignements à l’utilisateur est stylisé à l’aide de la classe `.invalid-feedback`. Utilisez `.aria-describedby` pour associer la microcopie à l’entrée valide.
+Le texte de la microcopie qui fournit des renseignements à l’utilisateur est stylisé à l’aide de la classe `.valid-feedback`. Utilisez `.aria-describedby` pour associer la microcopie à l’entrée valide.
 
 
 <div class="form-group">
@@ -140,26 +139,22 @@ Le texte de la microcopie qui fournit des renseignements à l’utilisateur est 
 
 ```html
 <div class="form-group">
-    <label for="exampleInputText1-html">Nom d'utilisateur/label>
-    <input type="text" class="form-control is-invalid" aria-describedby="Text1Error-html" id="exampleInputText1-html" placeholder="aurora.design">
-    <small id="Text1Error-html" class="invalid-feedback">Le nom d’utilisateur existe déjà.</small>
-</div>                
+    <label for="exampleInputText2-html">Nom d'utilisateur</label>
+    <input type="text" class="form-control is-valid" aria-describedby="Text1Error-html" id="exampleInputText2-html" placeholder="aurora.design">
+</div>
 
 <div class="custom-control custom-checkbox mb-3">
-    <input type="checkbox" class="custom-control-input is-invalid" id="customCheck1-html" aria-describedby="CheckboxError-html">
-    <label class="custom-control-label" for="customCheck1-html">Accepter les conditions</label>
-    <small id="CheckboxError-html" class="invalid-feedback">Vous devez accepter les conditions.</small>
+    <input type="checkbox" class="custom-control-input is-valid" id="customCheck2-html">
+    <label class="custom-control-label" for="customCheck2-html">Case à cocher personnalisée</label>
 </div>
 
 <div class="custom-control custom-radio">
-    <input type="radio" id="customRadio1-html" name="customRadio-html" class="custom-control-input is-invalid" aria-describedby="RadioError-html">
-    <label class="custom-control-label" for="customRadio1-html">Radio personnalisée 1</label>
-</div> 
-
-<div class="custom-control custom-radio mb-3">
-    <input type="radio" id="customRadio2-html" name="customRadio-html" class="custom-control-input  is-invalid" aria-describedby="RadioError-html">
-    <label class="custom-control-label" for="customRadio2-html">Radio personnalisée 2</label>
-    <small id="RadioError-html" class="invalid-feedback">Vous devez choisir une option.</small>
+    <input type="radio" id="customRadio3-html" name="customRadio2-html" class="custom-control-input is-valid">
+    <label class="custom-control-label" for="customRadio3-html">Radio personnalisée 1</label>
+    </div>
+<div class="custom-control custom-radio">
+    <input type="radio" id="customRadio4-html" name="customRadio2-html" class="custom-control-input  is-valid">
+    <label class="custom-control-label" for="customRadio4-html">Radio personnalisée 2</label>
 </div>
 ```
 
@@ -217,11 +212,11 @@ L’icône « x » à la gauche du texte d’erreur. L’erreur est placée 10px
 </small>
 </div>
 
-## Erreurs validées
+## Saisies validées
 
 Lorsqu’un utilisateur corrige les erreurs de saisie, la boîte d’erreur disparaît et les saisies individuelles indiquent à l’utilisateur que l’erreur a été corrigée.
 
-Les styles suivants représentent les erreurs validées :  
+Les styles suivants représentent les saisies validées :  
 
 La bordure du champ de saisie est indiquée par la couleur no <badge style="background-color: #2B542C;">#2B542C</badge>. S’il y a une erreur dans la saisie de bouton, l’étiquette sera affichée à l’aide de la même couleur.
 

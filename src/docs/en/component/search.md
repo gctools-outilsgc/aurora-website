@@ -17,12 +17,6 @@ Search bars are located in the top-right of the webpage, and function similarly 
 
 Search bars in this system use placeholder text using the term _Search_
 
-## Using an icon
-
-Search bars may include a magnifying glass icon depending on the functionality of the search bar. 
-
-If completing a query leads to a new search results page, use the icon. If the search results are auto-populated below the search bar, no icon is required. 
-
 <documentationtabs remove="react">
     <doctabpanel type="html">
           

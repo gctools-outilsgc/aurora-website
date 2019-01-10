@@ -14,17 +14,11 @@ title: "Saisies textuelles"
 Les champs de saisie permettent aux utilisateurs de fournir de l’information en entrant du texte dans une page. L’information peut être entrée au moyen d’une variété de champs de saisie différents comme les champs de texte (zone de texte), les cases à cocher, les boutons radio et la saisie de données. Les champs de saisie apparaissent typiquement dans les formulaires et devraient clairement indiquer que l’utilisateur peut saisir de l’information à l’aide d’étiquettes, d’infobulles, d’espace réservé de texte et d’un style approprié.
 
 ## Microcopie
-La microcopie est le texte dessous et le champ de saisie qui fournit des renseignements supplémentaires sur ce champ. Les microcopies devraient être des phrases brèves qui indiquent à l’utilisateur comment remplir le champ.
+La microcopie est le texte dessous et le champ de saisie qui fournit des renseignements supplémentaires sur ce champ. Les microcopies devraient être des phrases brèves qui peuvent indiquent à l’utilisateur comment remplir le champ.
 
 ## Texte d’espace réservé
 
-Le texte contenu dans les espaces réservés n’est utilisé que pour fournir des renseignements supplémentaires ou des directives supplémentaires sur la façon de remplir une zone de texte. Le texte contenu dans les espaces réservés NE remplace PAS une étiquette ou une microcopie. Le texte contenu dans les espaces réservés ne devrait être utilisé que si un exemple d’entrée de texte améliore l’expérience de l’utilisateur, plutôt que pour remplacer d’autres indicateurs de renseignements importants.
-
-Le texte d’espace réservé est le texte qui apparaît directement dans le champ de saisie. Ce texte n’est pas censé être utilisé comme une étiquette, mais peut fournir des renseignements supplémentaires ou être une exemple pour l’utilisateur.
-
-Le texte d’espace réservé vise à aider l’utilisateur à remplir avec plus d’exactitude le champ au lieu d’être l’indicateur principal du contenu du champ. Il peut être complémentaire à la microcopie, avec un texte d’espace réservé donnant un exemple et une microcopie fournissant des renseignements supplémentaires ou un contexte.
-
-Dès que l’utilisateur commence à taper dans le champ, le texte d’espace réservé devrait disparaître.
+Le texte contenu dans les espaces réservés n’est utilisé que pour fournir des renseignements supplémentaires ou des directives supplémentaires sur la façon de remplir une zone de texte. Le texte contenu dans les espaces réservés ne remplace pas une étiquette ou une microcopie. Le texte contenu dans les espaces réservés ne devrait être utilisé que si un exemple d’entrée de texte améliore l’expérience de l’utilisateur, plutôt que pour remplacer d’autres indicateurs de renseignements importants.
 
 <documentationtabs remove="react">
       <doctabpanel type="html">
@@ -34,7 +28,7 @@ Dès que l’utilisateur commence à taper dans le champ, le texte d’espace r�
 
 Les contrôles de forme textuelle, comme `<input>`, `<select>`, et `<textarea>` sont stylisés à l’aide de la classe `.form-control`. On y retrouve des styles d’apparence générale, d’état accentué, de taille et plus.
 
-## Text Inputs
+## Saisies textuelles
 
 L’étiquette `<input>` précise un champ de saisie que l’utilisateur peut remplir à l’aide de données.
 
@@ -43,14 +37,34 @@ Des éléments d’`<input>` sont utilisés dans un élément `<form>` pour indi
 Assurez vous d’utiliser un attribut `type` approprié pour toutes les saisies (p. ex., `email` pour une adresse courriel ou `number` pour une information numérique) afin de tirer profit des contrôles de saisie les plus nouveaux, comme la vérification de courriel, la sélection du nombre, et plus.
 
 <div class="form-group">
+    <label for="inputText1">Nom complét</label>
+    <input type="text" class="form-control" id="inputText1">
+</div>
+
+<div class="form-group">
     <label for="inputEmail3">Adresse de courriel</label>
     <input type="email" class="form-control" id="inputEmail3" aria-describedby="emailHelp1">
 </div>
 
+<div class="form-group">
+    <label for="inputNumber1"> Quantité </label>
+    <input type="number" class="form-control" id="inputNumber1">
+</div>
+
 ```html
-<div class="form-group"> 
-    <label for="inputEmail3">Adresse de courriel</label> 
-    <input type="email" class="form-control" id="inputEmail3" aria-describedby="emailHelp1"> 
+<div class="form-group">
+    <label for="inputText1">Nom complét</label>
+    <input type="text" class="form-control" id="inputText1">
+</div>
+
+<div class="form-group">
+    <label for="inputEmail3">Adresse de courriel</label>
+    <input type="email" class="form-control" id="inputEmail3" aria-describedby="emailHelp1">
+</div>
+
+<div class="form-group">
+    <label for="inputNumber1"> Quantité </label>
+    <input type="number" class="form-control" id="inputNumber1">
 </div>
 ```
 
@@ -105,17 +119,19 @@ Le texte d’aide devrait être clairement associé au contrôle de forme auquel
 Les microcopies en dessous des données saisies peuvent être stylisées à l’aide de `.form-text`. Cette classe comprend `display: block` et ajoute un espace à la marge supérieure pour faciliter l’espacement par rapport aux données saisies du haut. Le texte d’aide en ligne peut être mis en œuvre facilement à l’aide d’un élément de HTML en ligne quelconque et de classes d’utilitaire comme `.text-muted`.
 
   <div class="form-group">
-    <label for="exampleInputEmail1">Courriel</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="sierra@example.com">
-    <small id="emailHelp" class="form-text">Votre courriel ne sera jamais divulgué à personne.</small>
+    <label for="exampleInputNumber1">Numéro de téléphone</label>
+    <input type="text" class="form-control" id="exampleInputNumber1" aria-describedby="numberExample1" placeholder="(613) 123-3456">
+    <small id="numberExample1" class="form-text">Assuerer d'inclure votre indicatif téléphonique! </small>
   </div>
+
 
   ```html
   <div class="form-group">
-    <label for="exampleInputEmail1">Courriel</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="sierra@example.com">
-    <small id="emailHelp" class="form-text">Votre courriel ne sera jamais divulgué à personne.</small>
+    <label for="exampleInputNumber1">Numéro de téléphone</label>
+    <input type="text" class="form-control" id="exampleInputNumber1" aria-describedby="numberExample1" placeholder="(613) 123-3456">
+    <small id="numberExample1" class="form-text">Assuerer d'inclure votre indicatif téléphonique! </small>
   </div>
+
 ```
           
 </doctabpanel>
@@ -145,8 +161,8 @@ Les zones de texte possèdent les mêmes éléments de style que d’autres sais
 
 
 <div class="form-group">
-    <label for="exampleFormControlTextarea1">Commentaires</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <label for="exampleFormControlTextarea2">Commentaires</label>
+    <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
 </div>
 
 ## Champ sélectionné
@@ -158,8 +174,8 @@ Les champs sélectionnés sont conçus comme suit :
 **Normal** : un rectangle ayant une hauteur de 42px et une bordure de 4px. Un trait d’une largeur de 1px avec la couleur <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. Le contrôle du menu déroulant est aligné à droite, 27px à partir du bord de la saisie. La ligne au bord est de 1px de couleur <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge> et s’étend jusqu’à 5px à partir du haut vers le bas de la saisie. De 15px par 27px par 15px par 12px. L’icône de chevron est alignée avec le texte et est de 9px à partir du bord gauche et de 18px de haut en bas.
 
 <div class="mt-2">
-    <label for="carSelect">Voitures</label>
-    <select id="carSelect" class="form-control">
+    <label for="carSelect2">Voitures</label>
+    <select id="carSelect2" class="form-control">
     <option value="volvo">Volvo</option>
     <option value="saab">Saab</option>
     <option value="mercedes">Mercedes</option>
@@ -184,13 +200,11 @@ Le style de microcopie est comme suit :
 
 S’il y a plus d’une ligne, le texte retourne à ligne et a un interlignage sur 18 points.
 
-<form>
   <div class="form-group">
-    <label for="exampleInputEmail1">Courriel</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="sierra@example.com">
-    <small id="emailHelp" class="form-text">Votre courriel ne sera jamais divulgué à personne.</small>
+    <label for="exampleInputNumber2">Numéro de téléphone</label>
+    <input type="text" class="form-control" id="exampleInputNumber2" aria-describedby="numberExample2" placeholder="(613) 123-3456">
+    <small id="numberExample2" class="form-text">Assuerer d'inclure votre indicatif téléphonique! </small>
   </div>
-<form>
 
 </doctabpanel>
     </documentationtabs>

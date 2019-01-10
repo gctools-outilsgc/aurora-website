@@ -18,7 +18,7 @@ System notifications are short messages that appear to communicate information t
 
 ## Best Practices
 
-System messages should straightforward and as short as possible, and use key words. Long messages can be unclear and may affect the sizing and readability of the message. Messages should indicate to the user what exactly has happened within the application. 
+System messages should be straightforward and as short as possible, and use key words. Long messages can be unclear and may affect the sizing and readability of the message. Messages should indicate to the user what exactly has happened within the application. 
 
 Example of a clear message: "Your profile picture has been changed successfully."
 

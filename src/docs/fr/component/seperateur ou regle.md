@@ -36,10 +36,13 @@ Lorsque des cartes sont utilisées, les séparateurs sont placés sous l’en-t�
     </div>
 </div>
 ```
-
-<p>Bonjour, je suis texte pour une paragraphe. </p>
-<hr />
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin sem augue, porttitor eleifend eros tincidunt in. Duis mattis erat orci. Fusce aliquet sapien sit amet ex suscipit, eu pellentesque est posuere.</p>
+<div class="card">
+    <div class="card-body">
+        <p>Bonjour, je suis texte pour une paragraphe. </p>
+        <hr />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin sem augue, porttitor eleifend eros tincidunt in. Duis mattis erat orci. Fusce aliquet sapien sit amet ex suscipit, eu pellentesque est posuere.</p>
+    </div>
+</div>
 
 ```html
 <p>Bonjour, je suis texte pour une paragraphe.</p>

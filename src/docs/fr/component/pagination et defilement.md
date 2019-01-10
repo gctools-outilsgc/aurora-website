@@ -23,14 +23,6 @@ Vous devriez organiser la structure de la page afin que l’information la plus 
 
 La pagination divise le contenu en plusieurs pages distinctes. Il est préférable d’utiliser la pagination lorsque l’utilisateur tente d’accomplir un objectif, par exemple pour essayer de trouver un article à partir d’une liste. Diviser le contenu de la liste en plusieurs pages empêche l’utilisateur de se sentir dépassé. Un utilisateur peut voir la taille de l’ensemble de données, de sorte qu’il sait à quel point il y a plus de contenu à examiner. La pagination permet également à l’utilisateur de se sentir plus en contrôle du contenu qu’il observe vu qu’il peut décider si, oui ou non, il cliquera vers la page suivante. Chaque clic devrait mener l’utilisateur plus près de la réalisation de son objectif.
 
-### Pratiques exemplaires
-
-Par l’intermédiaire de la pagination, un utilisateur devrait être en mesure de comprendre la quantité de contenu présent; vous devriez inclure un lien vers la dernière page du contenu dans la barre de pagination, à moins que l’ensemble de données varie en taille. Incluez également un lien menant à la première page sur chaque page.
-
-Chaque page doit contenir la même quantité d’objets, vous voudrez peut-être inclure une option pour l’utilisateur de changer la façon dont de nombreux objets sont présentés sur chaque page. Selon le type de contenu, vous pouvez vouloir permettre aux utilisateurs de filtrer et d’organiser sur quelle page les objets apparaissent.
-
-L’utilisateur doit être en mesure de dire clairement sur quelle page il se trouve. Placez ce nombre au milieu de la barre de pagination et donnez-lui le plus lourd poids visuel. L’utilisateur doit également être en mesure de voir quelles pages de contenu il a déjà vues de sorte qu’il n’a pas besoin de revoir le contenu qu’il a déjà vu. Vous pouvez montrer cela en changeant la couleur, habituellement une couleur secondaire, des pages déjà visitées et des pages que l’utilisateur n’a pas encore visitées.
-
  <documentationtabs remove="react">
     <doctabpanel type="html">
           
@@ -181,6 +173,14 @@ Le numéro de la page active est indiqué dans un rectangle avec un remplissage 
         </paginationlink>
     </paginationitem>
 </pagination>
+
+## Pratiques exemplaires
+
+Par l’intermédiaire de la pagination, un utilisateur devrait être en mesure de comprendre la quantité de contenu présent; vous devriez inclure un lien vers la dernière page du contenu dans la barre de pagination, à moins que l’ensemble de données varie en taille. Incluez également un lien menant à la première page sur chaque page.
+
+Chaque page doit contenir la même quantité d’objets, vous voudrez peut-être inclure une option pour l’utilisateur de changer la façon dont de nombreux objets sont présentés sur chaque page. Selon le type de contenu, vous pouvez vouloir permettre aux utilisateurs de filtrer et d’organiser sur quelle page les objets apparaissent.
+
+L’utilisateur doit être en mesure de dire clairement sur quelle page il se trouve. Placez ce nombre au milieu de la barre de pagination et donnez-lui le plus lourd poids visuel. L’utilisateur doit également être en mesure de voir quelles pages de contenu il a déjà vues de sorte qu’il n’a pas besoin de revoir le contenu qu’il a déjà vu. Vous pouvez montrer cela en changeant la couleur, habituellement une couleur secondaire, des pages déjà visitées et des pages que l’utilisateur n’a pas encore visitées.
 
 </doctabpanel>
     </documentationtabs>

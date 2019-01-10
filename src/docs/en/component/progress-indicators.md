@@ -42,7 +42,7 @@ See examples below:
 ### Regular step indicator
 The regular steps indicator is used simply as a visual indication of progress. The `<ul>` will be contained within a `<div>` element with the class of `.step-indicator`
 
-<div role="group" aria-label="progress" class="step-indicator">
+<div aria-label="progress" class="step-indicator">
      <ul class="steps">
          <li class="complete">login<span class="sr-only">completed</span></li>
          <li class="active" aria-current="true">choose interest</li>
@@ -52,7 +52,7 @@ The regular steps indicator is used simply as a visual indication of progress. T
  </div>
 
 ```html
-<div role="group" aria-label="progress" class="step-indicator">
+<div aria-label="progress" class="step-indicator">
      <ul class="steps">
          <li class="complete">login<span class="sr-only">completed</span></li>
          <li class="active" aria-current="true">choose interest</li>
@@ -61,7 +61,6 @@ The regular steps indicator is used simply as a visual indication of progress. T
       </ul>
  </div>
 ```
-
 
 ### Navigation step indicator
 
@@ -103,10 +102,13 @@ Depending on the page content, you may wish to add navigation links as part of y
   </nav>
 ```
 
-### Conveying meaning to assistive technologies
+### Accessibility Considerations
+
 Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the `.sr-only` class.
 
 You will also need to add `aria-current="true"` to the current active step to provide more context.  
+
+Using `.aria-label="progress"` on the element with the `.step-indicator` class helps provide context to assistive technologies. 
 
 ## Progress Bars
 
@@ -171,8 +173,6 @@ You can refer to [Font Awesome's documentation](https://fontawesome.com/how-to-u
           
 
 ## Steps Indicator
-          
-If a label is required for your step indicator, the label should be placed at the top of the element and left-aligned.
 
 Colours for the step indicator can vary to better match individual applications, but ensure that contrast requirements are met. Visit the [colour section](/component/colour) for more information on choosing accessible colours.
 
@@ -184,7 +184,7 @@ The numbers within each step use heading 2 style, Rubik Regular at 21 points.
 
 In between steps there is a centred line with a height of 4px. This line should be the same colour as the outer circle.
 
-Completed steps use a checkmark icon instead of the number and the border is coloured <badge style="background-color: #0278A4">#0278A4</badge>. The checkbox also uses this colour. 
+Completed steps use a checkmark icon instead of the number and the border is coloured <badge style="background-color: #0278A4">#0278A4</badge>. The checkmark also uses this colour. 
 
 The line between completed and active steps is also filled with <badge style="background-color: #0278A4">#0278A4</badge>.
 

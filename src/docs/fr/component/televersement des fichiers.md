@@ -61,13 +61,11 @@ Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle
 <br>
 <br>
 
-**État « pointage » :** Le bouton est de couleur <badge style="background-color: #002D42;">#002D42</badge> à une opacité de 80%, le texte est blanc et le rayon de bordure est de 4px, et l’ombrage est de 15px.
-Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle élevé de 42px ayant un rayon de bordure de 4px. La couleur de l’arrière-plan est le <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, la couleur de bordure est le <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. Le texte est aligné à gauche du champ de saisie et suit les normes sur le [texte d’espace réservé.](typographie.md) Le champ est un ombrage de 11px.
-
-
-**État « focus » :** Le bouton est de couleur <badge style="background-color: #002D42;">#002D42</badge> à une opacité de 80%, le texte est blanc et le rayon de bordure est de 4px, et l’ombrage est de 15px. Il comprend un trait droit de 3px dans la couleur primaire.
+**État « focus » :** Le bouton est de couleur <badge style="background-color: #002D42;">#002D42</badge> à une opacité de 100%, le texte est blanc et le rayon de bordure est de 4px, et l’ombrage est de 15px. Il comprend un trait droit de 3px dans la couleur primaire.
 
 Le champ de saisie est aligné à droite du bouton. Il s’agit d’un rectangle élevé de 42px ayant un rayon de bordure de 4px. La couleur de l’arrière-plan est le <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, la couleur de bordure est le <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. Le texte est aligné à gauche du champ de saisie et suit les normes sur le [texte d’espace réservé.](typographie.md) Le champ a un ombrage de 11px.
+
+*texte ici*
 
 **État « désactivé » :** Le bouton est de couleur <badge style="background-color: #002D42;">#002D42</badge> à une opacité de 50%, le texte est blanc et le rayon de bordure est de 4px, et l’ombrage est de 15px.
 

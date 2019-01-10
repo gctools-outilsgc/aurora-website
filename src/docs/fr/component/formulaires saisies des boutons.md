@@ -91,9 +91,9 @@ Par défaut, toutes les cases à cocher et les radios qui sont de parenté immé
 Afin de veiller à ce que les saisies de bouton soient alignées plutôt que superposées, ajoutez la classe `.custom-control-inline` au `.custom-control` `<div>`.
 
 
-### Utilisation des options par défaut de Bootstrap
+### Utilisation des options par défaut
 
-Si vous souhaitez utiliser les styles par défaut de Bootstrap pour les boutons de cases à cocher et de radio, consultez l’exemple ci-dessous : 
+Si vous souhaitez utiliser les styles par défaut pour les boutons de cases à cocher et de radio, consultez l’exemple ci-dessous : 
 
 <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -166,8 +166,8 @@ Les commutateurs sont des composantes personnalisées utilisées lorsque l’opt
 Les cases à cocher ont quatre états différents :
 
 <div class="custom-control custom-checkbox">
-    <input type="checkbox" class="custom-control-input" id="customCheck1">
-    <label class="custom-control-label" for="customCheck1">Vérification personnalisée</label>
+    <input type="checkbox" class="custom-control-input" id="customCheck2">
+    <label class="custom-control-label" for="customCheck2">Vérification personnalisée</label>
 </div>
 
 <br> 
@@ -183,12 +183,12 @@ Les cases à cocher ont quatre états différents :
 ## Boutons « radio »
 
 <div class="custom-control custom-radio">
-    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-    <label class="custom-control-label" for="customRadio1">Radio personnalisée 1</label>
+    <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio3">Radio personnalisée 1</label>
 </div>
 <div class="custom-control custom-radio">
-    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-    <label class="custom-control-label" for="customRadio2">Radio personnalisée 2</label>
+    <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio4">Radio personnalisée 2</label>
 </div>
 <br> 
 

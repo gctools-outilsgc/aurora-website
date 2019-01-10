@@ -90,9 +90,9 @@ By default, any number of checkboxes and radios that are immediate sibling will 
 
 To make button inputs inline instead of stacked, add the `.custom-control-inline` class to the `.custom-control` `<div>`.
 
-### Using Bootstrap Defaults
+### Using Browser Defaults
 
-If you wanted to use the Bootstrap default styles for checkboxes and radio buttons, see the example below: 
+If you wanted to use the default styles for checkboxes and radio buttons, see the example below: 
 
 <div class="form-check">
   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
@@ -169,8 +169,8 @@ Switches are a custom component used when there is only a yes/no or on/off optio
 Checkboxes have four different states:
 
 <div class="custom-control custom-checkbox">
-    <input type="checkbox" class="custom-control-input" id="customCheck1">
-    <label class="custom-control-label" for="customCheck1">Custom check</label>
+    <input type="checkbox" class="custom-control-input" id="customCheck2">
+    <label class="custom-control-label" for="customCheck2">Custom check</label>
 </div>
 
 <br>
@@ -186,12 +186,12 @@ Checkboxes have four different states:
 ## Radio Buttons
 
 <div class="custom-control custom-radio">
-    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
-    <label class="custom-control-label" for="customRadio1">Custom radio 1</label>
+    <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio3">Custom radio 1</label>
 </div>
 <div class="custom-control custom-radio">
-    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
-    <label class="custom-control-label" for="customRadio2">Custom radio 2</label>
+    <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+    <label class="custom-control-label" for="customRadio4">Custom radio 2</label>
 </div>
 <br>
 

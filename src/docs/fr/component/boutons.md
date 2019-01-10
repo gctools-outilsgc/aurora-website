@@ -21,8 +21,6 @@ Les étiquettes de boutons devraient être claires et précises. Évitez les ter
 
 Exemples de bonnes étiquettes : Ajouter une publication au blogue, Envoyer un message, Enregistrer le brouillon.
 
-Toutes les étiquettes devraient mettre seulement la première lettre en majuscule.
-
 Le texte de l’étiquette doit avoir un fort contraste avec la couleur du bouton. Voir la [section Couleurs](/component/colour) pour plus de renseignements au sujet d’un contraste acceptable.
 
 <documentationtabs remove="react">
@@ -54,7 +52,7 @@ Aurora comprend différents styles de boutons, chacun ayant son propre objectif 
 <button type="button" class="btn btn-dark">Foncé</button>
 ```
 
-### Donner un sens aux technologies d’assistance
+### Considerations d'accessibilité
 L’utilisation de couleurs pour ajouter du sens fournit seulement une indication visuelle qui n’est pas transmise aux utilisateurs de technologies d’assistance, comme les lecteurs d’écran. Veillez à ce que les renseignements indiqués par la couleur se différencient de manière évidente du contenu (p. ex., le texte visible) ou qu’ils soient inclus de différentes manières, par l’ajout de texte caché avec la classe `.sr-only`, par exemple.
 
 ## Tailles

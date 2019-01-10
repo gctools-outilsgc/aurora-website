@@ -11,17 +11,17 @@ title: "Errors and validation"
 
 # Errors and Validation
 
-## Inline Errors
-
-Inline errors should be displayed in such a way that it is clear to the user that they have made an error, and what and where that error is. To display errors in a form submission, use both error boxes and inline errors. For each error, copy used for both the error box and the inline error should be identical.
-
-Input errors are displayed underneath the input field, and tell the user how to fix the error. Inline errors should be as succinct as possible and are limited to one line that fits under the input field.
-
 ## Error Boxes
 
 The error box provides a summary of validation errors. After a user has submitted a form, this box will show applicable errors in particular fields. The error box appears at the top of the form. 
 
 Each error listed in the box is a link to that respective input field. Error messaages should be concise but descriptive of the error. More information is provided inline. 
+
+## Inline Errors
+
+Inline errors should be displayed in such a way that it is clear to the user that they have made an error, and what and where that error is. To display errors in a form submission, use both error boxes and inline errors. For each error, copy used for both the error box and the inline error should be identical.
+
+Input errors are displayed underneath the input field, and tell the user how to fix the error. Inline errors should be as succinct as possible and are limited to one line that fits under the input field.
 
 <documentationtabs remove="react">
       <doctabpanel type="html">
@@ -57,7 +57,7 @@ The error box uses the `.alert`,`.alert-danger` and `.alert-danger-banner` class
 
 Inline errors use the `.is-invalid` class to add error styling to the specified form element. 
 
-Microcopy text that provides information to the user is styled using the `.invalid-feedback` class. Use `.aria-describedby` to associate the microcopy with the invalid input. 
+Microcopy text that provides information to the user is styled using the `.invalid-feedback` class. Use `.aria-describedby` to associate the microcopy with the invalid input. Reference the [Text Inputs](component/text-inputs) page for more information on Microcopy. 
 
 <div class="form-group">
     <label for="exampleInputText1-html">Username</label>
@@ -108,11 +108,11 @@ Microcopy text that provides information to the user is styled using the `.inval
 </div>
 ```
 
-## Validated Errors
+## Validated Inputs
 
-Validated errors use the `.is-valid` class to show that the information provided in the input is valid. 
+Vaalidated inputs use the `.is-valid` class to show that the information provided in the input is valid. 
 
-Microcopy text that provides information to the user is styled using the `.invalid-feedback` class. Use `.aria-describedby` to associate the microcopy with the valid input. 
+Microcopy text that provides information to the user is styled using the `.valid-feedback` class. Use `.aria-describedby` to associate the microcopy with the valid input. 
 
 <div class="form-group">
     <label for="exampleInputText2-html">Username</label>
@@ -135,26 +135,22 @@ Microcopy text that provides information to the user is styled using the `.inval
 
 ```html
 <div class="form-group">
-    <label for="exampleInputText1-html">Username</label>
-    <input type="text" class="form-control is-invalid" aria-describedby="Text1Error-html" id="exampleInputText1-html" placeholder="aurora.design">
-    <small id="Text1Error-html" class="invalid-feedback">Username already exists</small>
-</div>                
+    <label for="exampleInputText2-html">Username</label>
+    <input type="text" class="form-control is-valid" aria-describedby="Text1Error-html" id="exampleInputText2-html" placeholder="aurora.design">
+</div>
 
 <div class="custom-control custom-checkbox mb-3">
-    <input type="checkbox" class="custom-control-input is-invalid" id="customCheck1-html" aria-describedby="CheckboxError-html">
-    <label class="custom-control-label" for="customCheck1-html">Agree to Terms and Conditions</label>
-    <small id="CheckboxError-html" class="invalid-feedback">You must agree to the Terms and Conditions</small>
+    <input type="checkbox" class="custom-control-input is-valid" id="customCheck2-html">
+    <label class="custom-control-label" for="customCheck2-html">Custom check</label>
 </div>
 
 <div class="custom-control custom-radio">
-    <input type="radio" id="customRadio1-html" name="customRadio-html" class="custom-control-input is-invalid" aria-describedby="RadioError-html">
-    <label class="custom-control-label" for="customRadio1-html">Custom radio 1</label>
-</div> 
-
-<div class="custom-control custom-radio mb-3">
-    <input type="radio" id="customRadio2-html" name="customRadio-html" class="custom-control-input  is-invalid" aria-describedby="RadioError-html">
-    <label class="custom-control-label" for="customRadio2-html">Custom radio 2</label>
-    <small id="RadioError-html" class="invalid-feedback">You must select one option</small>
+    <input type="radio" id="customRadio3-html" name="customRadio2-html" class="custom-control-input is-valid">
+    <label class="custom-control-label" for="customRadio3-html">Custom radio 1</label>
+    </div>
+<div class="custom-control custom-radio">
+    <input type="radio" id="customRadio4-html" name="customRadio2-html" class="custom-control-input  is-valid">
+    <label class="custom-control-label" for="customRadio4-html">Custom radio 2</label>
 </div>
 ```
 
@@ -211,11 +207,11 @@ Inline errors are styled as follows:
 </div>
 
 
-## Validated Errors
+## Validated Inputs
 
 When a user has corrected input errors, the error box disappears and individual inputs show the user that the error was corrected. 
 
-Validated errors are styles as follows:
+Validated Inputs are styled as follows:
 
 The input field border will be shown using the colour <badge style="background-color: #2B542C;">#2B542C</badge>. If there is an error on a button input, the label is displayed using this same colour.
 

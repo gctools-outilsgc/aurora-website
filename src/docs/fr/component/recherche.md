@@ -17,12 +17,6 @@ Les barres de recherche se trouvent dans le coin supérieur droit de la page Web
 
 Les barres de recherche dans ce système comportent un texte d’espace réservé qui indique le terme *Recherche*.
 
-## Utiliser l'icône
-
-Les barres de recherche peuvent inclure une icône d'une loupe dependant du fonctionnement de barre de recherche. 
-
-Si compléter le recherche s'ouvre un nouveau page des résultats, utilisez l'icône. Si les résultats sont suggérés en bas de la barre, l'icône n'est pas nécessaire.
-
 <documentationtabs remove="react">
     <doctabpanel type="html">
         

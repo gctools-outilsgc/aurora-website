@@ -102,11 +102,13 @@ Selon le contenu de la page, vous pouvez ajouter des liens de navigation dans l�
   </nav>
 ```
 
-### Donner un sens aux technologies d’assistance
+### Considerations d'accessibilité
 
 L’utilisation de couleurs pour ajouter du sens fournit seulement une indication visuelle qui n’est pas transmise aux utilisateurs de technologies d’assistance, comme les lecteurs d’écran. Veillez à ce que les renseignements indiqués par la couleur se différencient de manière évidente du contenu (p. ex., le texte visible) ou qu’ils soient inclus de différentes manières, par l’ajout de texte caché avec la classe `.sr-only`, par exemple.
 
 Vous devrez également ajouter `aria-current="true"` à l’étape active actuelle pour fournir plus de contexte.
+
+*texte ici*
 
 ## Barres de progression
 
@@ -169,8 +171,6 @@ Vous pouvez consulter la [documentation sur la police Awesome](https://fontaweso
 
 ## Indicateur des étapes
 
-Si une étiquette est requise pour votre indicateur d’étape, l’étiquette doit être placée au haut de l’élément et alignée à la gauche.
-
 Les couleurs de l’indicateur d’étapes peuvent varier, mais assurez-vous que les exigences de contraste sont respectées. Visitez la section sur les couleurs [section sur les couleurs](/component/colour) pour plus de renseignements sur le choix de couleurs accessibles.
 
 Les indicateurs d’étapes sont stylisés comme suit : 
@@ -181,7 +181,7 @@ Les numéros de chaque étape utilisent le style de titre 2, « Rubik Regular�
 
 Entre les étapes, il y a une ligne centrale d’une hauteur de 4px. Cette ligne devrait être de la même couleur que le cercle extérieur.
 
-Pour les étapes terminées, on utilise une icône de crochet au lieu du numéro et la bordure est de couleur <badge style="background-color: #0278A4"> #0278A4</badge>. On utilise également cette couleur pour la case à cocher.
+Pour les étapes terminées, on utilise une icône de crochet au lieu du numéro et la bordure est de couleur <badge style="background-color: #0278A4"> #0278A4</badge>. On utilise également cette couleur pour l'icône de crochet'.
 
 La ligne entre les étapes terminées et les étapes actives est également remplie à l’aide du no <badge style="background-color: #0278A4"> #0278A4</badge>.
 

@@ -126,6 +126,7 @@ L’élément `.card-img-top` permet de placer une image sur la carte.
 
 ```html
 <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
+    <img class="card-img-top" src="..." alt="Card image cap">
     <div class="card-body">
         <h3 class="card-title h5">Titre de la carte</h3>
         <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte.</p>

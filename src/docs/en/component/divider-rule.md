@@ -36,10 +36,13 @@ When used on cards, dividers are placed underneath the card heading.
     </div>
 </div>
 ```
-
-<p>Hello. I'm a little bit of body text. Plain and simple.</p>
-<hr />
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin sem augue, porttitor eleifend eros tincidunt in. Duis mattis erat orci. Fusce aliquet sapien sit amet ex suscipit, eu pellentesque est posuere.</p>
+<div class="card">
+    <div class="card-body">
+        <p>Hello. I'm a little bit of body text. Plain and simple.</p>
+        <hr />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sollicitudin sem augue, porttitor eleifend eros tincidunt in. Duis mattis erat orci. Fusce aliquet sapien sit amet ex suscipit, eu pellentesque est posuere.</p>
+    </div>
+</div>
 
 ```html
 <p>Hello. Im a little bit of body text. Plain and simple.</p>

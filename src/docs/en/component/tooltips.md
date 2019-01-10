@@ -46,7 +46,7 @@ Hover over the button below to see a tooltip:
 
 ```html
 <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
-  Tooltip on bottom
+  Tooltip
 </button>
 ```
 For more information about using tooltips, reference [Bootstrap's documentation](https://getbootstrap.com/docs/4.1/components/tooltips/).

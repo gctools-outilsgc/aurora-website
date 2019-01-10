@@ -45,7 +45,7 @@ If you want more information about customizing this component, visit [Bootstrap'
     <doctabpanel type="design">
           
           
-File upload inputs have four states:
+File upload inputs have three states:
 
 <br>
 <br>
@@ -64,13 +64,11 @@ The input field is aligned to the right of the button. It is a 42px high rectang
 <br>
 <br>
 
-**Hover state:** The button uses the colour <badge style="background-color: #002D42;">#002D42</badge> at 80% opacity, white text, with a border radius of 4px and padding of 15px.
+**Focus state:** The button uses the colour <badge style="background-color: #002D42;">#002D42</badge> at 100% opacity, white text, with a border radius of 4px and padding of 15px. Includes a 3px stroke in the primary colour.
 
 The input field is aligned to the right of the button. It is a 42px high rectangle with a border radius of 4px. The background colour is <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, border colour is <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. Text is aligned to the left of the input field and follows the standards for [placeholder text](typography.md). The field has a padding of 11px.
 
-**Focus state:** The button uses the colour <badge style="background-color: #002D42;">#002D42</badge> at 80% opacity, white text, with a border radius of 4px and padding of 15px. Includes a 3px stroke in the primary colour.
-
-The input field is aligned to the right of the button. It is a 42px high rectangle with a border radius of 4px. The background colour is <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>, border colour is <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. Text is aligned to the left of the input field and follows the standards for [placeholder text](typography.md). The field has a padding of 11px.
+Focus states have a 1 px border with the colour <badge style="background-color: #269abc;color:black;">#269abc</badge>. There is also a box shadow that uses a colour of <badge style="background-color: #002D42">#002D42</badge> with an opacity of 25% and a blur 3 px. 
 
 **Disabled state:** The button uses the colour <badge style="background-color: #002D42;">#002D42</badge> at 50% opacity, white text, with a border radius of 4px and padding of 15px.
 
