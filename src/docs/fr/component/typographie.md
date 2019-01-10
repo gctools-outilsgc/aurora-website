@@ -42,11 +42,11 @@ Certains systèmes peuvent ne pas être en mesure de télécharger ou d’affich
 
 Les titres apparaissent seulement dans le haut des pages et indiquent les points de navigation de haut niveau.
 
-Les titres sont affichés à l’aide de « Rubik Light » à 36 points de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
+Les titres sont affichés à l’aide de « Rubik Light » à 36 points de couleur <badge style="background-color: #FFFFFF;color: #252525">#252525</badge> sur un arrière-plan pâle ou <badge style="background-color: #252525; color: #FFFFFF">#FFFFFF</badge> sur un arrière-plan foncé.
 
 ### En-tête \(H2-H6)
 
-Il y a cinq différents sous-en-têtes. Tous les sous-titres sont de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
+Il y a cinq différents sous-en-têtes. Tous les sous-titres sont de couleur <badge style="background-color: #FFFFFF;color: #252525">#252525</badge> sur un arrière-plan pâle ou <badge style="background-color: #252525; color: #FFFFFF">#FFFFFF</badge> sur un arrière-plan foncé.
 
 Les en-têtes ont les styles typographiques suivants :
 
@@ -72,7 +72,7 @@ Les en-têtes ont les styles typographiques suivants :
 
 Le texte du paragraphe est utilisé pour la plupart du contenu de texte se trouvant dans l’application. Le texte du paragraphe est établi à la police « Nunito Sans Regular » à 16 points (1 em) avec un interlignage de 24 points. À moins d’indiquer un hyperlien ou un point de navigation, le texte du paragraphe ne devrait pas être mis en évidence davantage.
 
-Le texte de paragraphe est de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou de couleur <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
+Le texte de paragraphe est de couleur <badge style="background-color: #FFFFFF;color: #252525">#252525</badge> sur un arrière-plan pâle ou <badge style="background-color: #252525; color: #FFFFFF">#FFFFFF</badge> sur un arrière-plan foncé.
 
 ### Rupture de ligne
 
