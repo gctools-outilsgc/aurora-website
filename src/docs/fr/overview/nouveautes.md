@@ -13,7 +13,7 @@ title: "Nouveautés"
 
 Dernières mises à jour au système de conception Aurora. Cette liste comprend les principales mises à jour de contenu et les correctifs pour le Web. Pour une liste complète des mises à jour et des demandes d’extraction, veuillez lire nos notes de publication sur Github.
 
-Pour plus d'information sur mises à jours futurs, visitez la [page d'Aurora](https://wiki.gccollab.ca/Aurora) sur GCwiki.
+Pour plus d'information sur les mises à jours futures, visitez la [page d'Aurora](https://wiki.gccollab.ca/Aurora) sur GCwiki.
 
 ![Aurora banner](../../../img\aurora-banner-small.png)
 
@@ -26,7 +26,7 @@ de conception.
 concernées.
 * Les blocs de code figurant sous les onglets HTML ont été simplifiés, et le bouton de copie a été
 éliminé temporairement.
-* Le contenu de la page Balises, puces et pilules a été réduit, de façon à ce qu’il puisse tenir sur la
+* Le contenu de la page Balises, puces et pilules a été réduit, de façon à ce qu’il puisse s'intégrer à la
 page Badges. La page Balises, puces et pilules a été éliminée de la barre latérale.
 * Le graphisme a été corrigé dans la zone d’affichage des messages contextuels d’erreur ou de
 validation qui apparaît lors de l’activation des boutons, ainsi que sur les étiquettes, les boutons de

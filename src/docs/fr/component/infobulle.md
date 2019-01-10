@@ -13,7 +13,7 @@ title: "Infobulles"
 
 ## Utilisation
 
-Les infobulles sont des étiquettes de texte contenant du texte informatif qui apparaît lorsque des utilisateurs placent leur curseur sur un élément, effectuent un long clic sur un élément ou l’accentuent. Les infobulles fournissent un court texte descriptif au sujet de leur élément associé.
+Les infobulles sont des étiquettes de texte contenant du texte informatif qui apparaît lorsque des utilisateurs placent leur curseur sur un élément, effectuent un long clic sur un élément ou l’accentuent. Les infobulles fournissent un court texte descriptif à propos de leur élément associé.
 
 ## Pratiques exemplaires
 
@@ -29,10 +29,10 @@ Les infobulles sont toujours utilisées pour de l’information supplémentaire.
 
 Éléments importants à savoir par rapport à l’utilisation du module d’extension d’infobulle : 
 * Les infobulles se fient sur la bibliothèque de tiers [Popper.js](https://popper.js.org/) pour le positionnement. Vous devez ajouter [popper.min.js](site.cdn.popper) avant aurora.js.
-* Si vous concevez JavaScript à partir de la source, il [requires util.js](https://getbootstrap.com/docs/4.2/getting-started/javascript/#util).
-* Les infobulles sont à option d’adhésion, pour des raisons de performance, et **vous devez donc les initialiser vous-mêmes.** 
-* Les infobulles dotées de titres à longueur zéro ne sont jamais affichées. 
-* Précisez `container: ‘body'` pour éviter d’éprouver des difficultés liées au rendu d’image dans le cadre des composantes plus complexes (comme dans le cas de nos groupes d’entrées et de boutons, entre autres).
+* Si vous concevez JavaScript à partir de la source, il a besoin de [util.js](https://getbootstrap.com/docs/4.2/getting-started/javascript/#util).
+* Les infobulles sont à option d’adhésion pour des raisons de performance. **Vous devez donc les initialiser vous-mêmes.** 
+* Les infobulles dotées de titres vident ne sont jamais affichées. 
+* Précisez `container: 'body'` pour éviter d’éprouver des difficultés liées au rendu d’image dans le cadre des composantes plus complexes (comme dans le cas de nos groupes d’entrées et de boutons, entre autres).
 * L’activation d’infobulles pour des éléments cachés ne fonctionnera pas.
 * Les infobulles pour des éléments `.disabled` ou `disabled` doivent être activés par l’entremise d’un élément enveloppeur.
 * Lorsqu’elles seront activées à partir d’hyperliens longs de plusieurs lignes, les infobulles seront centrées. Utilisez `white-space: nowrap` dans vos `<a>` pour éviter ce comportement.
@@ -40,7 +40,7 @@ Les infobulles sont toujours utilisées pour de l’information supplémentaire.
 
 ## Exemple
 
-Survolez sur le bouton ci-dessous pour voir une infobulle: 
+Survolez le bouton ci-dessous pour voir une infobulle: 
 
 <tooltipexample id="html-tooltip"></tooltipexample>
 
@@ -59,7 +59,7 @@ Pour obtenir de plus amples renseignements par rapport à l’utilisation des in
 ## Style
 Dans leur état normal, les infobulles sont stylisées comme suit :
 
-Les infobulles sont placées à 5px de distance de l’élément qu’elle décrit. Les infobulles sont contenues dans un rectangle avec un remplissage de 5px par 7px, avec une bordure d’un rayon de 4px et la couleur de remplissage <badge style="background-color: #666666">#666666</badge> à 90 % d’opacité. Le texte est affiché utilisant Nunito Sans Regular à 14px de la couleur <badge style="background-color: #FFFFFF; color: black">#FFFFFF</badge>.
+Les infobulles sont placées à 5px de distance de l’élément qu’elle décrit. Les infobulles sont contenues dans un rectangle avec un remplissage de 5px par 7px, avec une bordure d’un rayon de 4px et la couleur de remplissage <badge style="background-color: #666666">#666666</badge> à 90 % d’opacité. Le texte est affiché utilisant Nunito Sans Regular à 14px de couleur <badge style="background-color: #FFFFFF; color: black">#FFFFFF</badge>.
 
 <tooltipexample id="design-tooltip"></tooltipexample>
 

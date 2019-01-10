@@ -11,9 +11,9 @@ title: "Badges"
 
 # Badges
 
-Les badges sont très polyvalents. À titre d’exemple, ils peuvent être utilisés pour montrer les avis, le contenu des étiquettes ou afficher les auteurs du contenu.
+Les badges sont très polyvalents. À titre d’exemple, ils peuvent être utilisés pour montrer les avis, le contenu des étiquettes ou afficher les auteurs de contenu.
 
-Les badges peuvent être stylisés comme des balises ou inclure des images pour créer des jetons.
+Les badges peuvent être stylisés comme des balises ou des images peuvent y être inclues pour créer des jetons.
 
 
 <documentationtabs remove="react">
@@ -25,7 +25,7 @@ Les badges utilisent la classe `.badge`. Vous pouvez ajouter des classes de modi
 <div class="mt-3 mb-3">
   <span class="badge badge-primary">Primaire</span>
   <span class="badge badge-secondary">Secondaire</span>
-  <span class="badge badge-success">Sucéss</span>
+  <span class="badge badge-success">Succès</span>
   <span class="badge badge-danger">Danger</span>
   <span class="badge badge-warning">Avertissement</span>
   <span class="badge badge-info">Info</span>
@@ -37,7 +37,7 @@ Les badges utilisent la classe `.badge`. Vous pouvez ajouter des classes de modi
 <div class="mt-3 mb-3">
   <span class="badge badge-primary">Primaire</span>
   <span class="badge badge-secondary">Secondaire</span>
-  <span class="badge badge-success">Sucéss</span>
+  <span class="badge badge-success">Succès</span>
   <span class="badge badge-danger">Danger</span>
   <span class="badge badge-warning">Avertissement</span>
   <span class="badge badge-info">Info</span>
@@ -48,9 +48,9 @@ Les badges utilisent la classe `.badge`. Vous pouvez ajouter des classes de modi
 
 ### Donner un sens aux technologies d’assistance 
 
-Lors du codage des badges, le texte alternatif qui sera lu par les lecteurs d’écran doit également inclure le contexte. Par exemple, le badge devrait indiquer « 40 courriels non lus » plutôt que « 40 » uniquement.
+Lors du codage des badges, le texte alternatif qui sera lu par les lecteurs d’écran doit également inclure le contexte. Par exemple, le badge devrait indiquer « 40 courriels non lus » plutôt qu'uniquement « 40 ».
 
-L’utilisation de couleurs pour ajouter du sens fournit seulement une indication visuelle qui n’est pas transmise aux utilisateurs de technologies d’assistance, comme les lecteurs d’écran. Veillez à ce que les renseignements indiqués par la couleur se différencient de manière évidente du contenu (p. ex., le texte visible) ou qu’ils soient inclus de différentes manières, par l’ajout de texte caché avec la classe `.sr-only`, par exemple. 
+La couleur aide à la compréhension de façon visuelle, ce qui n'est pas transmis aux utilisateurs de technologies d'assitance tels que les lecteurs d'écran.  Veillez à ce que les renseignements indiqués par la couleur se différencient de manière évidente du contenu (p. ex., le texte visible) ou qu’ils soient inclus de différentes manières, par exemple, par l’ajout de texte caché avec la classe `.sr-only`. 
 
 
 ## Badges de notification
@@ -62,14 +62,14 @@ Les badges de notification peuvent être utilisés dans des liens ou des boutons
 <div class="mt-3 mb-3">
   <a href="#">
     Profile <span class="badge badge-secondary">9</span>
-    <span class="sr-only">unread messages</span>
+    <span class="sr-only">messages non lus</span>
   </a>
 </div>
 
 ```html 
 <a href="#">
     Profile <span class="badge badge-secondary">9</span>
-    <span class="sr-only">unread messages</span>
+    <span class="sr-only">message non lus</span>
 </a>
 ```
 
@@ -148,7 +148,7 @@ Les laissez-passer ont différentes couleurs, comme on peut le voir ci-dessous. 
 <div class="mt-3 mb-3">
   <span class="badge badge-primary">Primaire</span>
   <span class="badge badge-secondary">Secondaire</span>
-  <span class="badge badge-success">Sucéss</span>
+  <span class="badge badge-success">Succès</span>
   <span class="badge badge-danger">Danger</span>
   <span class="badge badge-warning">Avertissement</span>
   <span class="badge badge-info">Info</span>
@@ -160,7 +160,7 @@ Les laissez-passer ont différentes couleurs, comme on peut le voir ci-dessous. 
     
 Les badges dans ce système de conception s’affichent comme suit :
 
-Rectangle d’une largeur de 28px et d’une hauteur de 19px. Rayon de la bordure de 8px. Couleur de l’arrière-plan no <badge style="background-color: #4D5D6C">#4D5D6C</badge>. Couleur de texte <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>. Texte centré dans le rectangle.
+Rectangle d’une largeur de 28px et d’une hauteur de 19px. Rayon de la bordure de 8px. Code couleur de l’arrière-plan no <badge style="background-color: #4D5D6C">#4D5D6C</badge>. Couleur de texte <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>. Texte centré dans le rectangle.
 
 <div class="mt-3 mb-3">
   <a href="#">
@@ -204,18 +204,18 @@ Les étiquettes sont dimensionnées de façon à correspondre à la longueur des
 
 Les jetons sont semblables à une badge ordinaire, mais avec une image. Ils sont utilisés pour afficher des renseignements complexes (p. ex., un utilisateur) dans un espace restreint.
 
-Les jetons sont de forme rectangulaire et ont un rayon de bordure de 4px. Une image d’avatar est affichée à gauche du jeton. Les jetons sont d’une dimension qui correspond à la longueur du nom du profil de l’utilisateur. Les jetons ont un remplissage de 7px sur tous les côtés.
+Les jetons sont de forme rectangulaire et ont des coins arrondis de 4px. Une image d’avatar est affichée à gauche du jeton. Les jetons sont d’une dimension qui correspond à la longueur du nom de l’utilisateur. Les jetons ont un remplissage de 7px sur tous les côtés.
 
-Les jetons ont trois différentes variations et sont affichées comme suit :
+Les jetons ont trois variations différentes et sont affichées comme suit :
 
-<span class="badge badge-primary badge-chip"><img alt="avatar petit" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 1</span>
-<span class="badge badge-primary badge-chip"><img alt="avatar petit" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 2</span>
+<span class="badge badge-primary badge-chip"><img alt="petit avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 1</span>
+<span class="badge badge-primary badge-chip"><img alt="petit avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 2</span>
 
-**Normal** : Case rectangulaire remplie avec <badge style="background-color: ##002D42">##002D42</badge>. Texte noir. Petit avatar (26px sur 26px) aligné à gauche.
+**Normal** : Case rectangulaire remplie avec la couleur <badge style="background-color: ##002D42">##002D42</badge>. Texte noir. Petit avatar (26px par 26px) aligné à gauche.
 
-**Contrôle de l’utilisateur** : Même chose que normal, mais il y a un icône de suppression supplémentaire à droite. Cette icône a la couleur <badge style="background-color: #4D5D6C">#4D5D6C</badge> ainsi qu’un « x » transparent et elle est alignée à droite. Petit avatar (26px sur 26px) aligné à gauche.
+**Contrôle de l’utilisateur** : Même chose que normal, mais il y a un icône de suppression supplémentaire à droite. Cette icône est de couleur <badge style="background-color: #4D5D6C">#4D5D6C</badge> avec un « x » transparent et elle est alignée à droite. Petit avatar (26px par 26px) aligné à gauche.
 
-**Pointage** : Même chose que la puce contrôlée par l’utilisateur, mais a une couleur d’arrière-plan <badge style="background-color: #4D5D6C">#4D5D6C</badge>, et l’icône de suppression est blanc et un « x » transparent y figure. Petit avatar (26px sur 26px) aligné à gauche.
+**Pointage** : Même chose que la puce contrôlée par l’utilisateur, mais a la couleur d’arrière-plan <badge style="background-color: #4D5D6C">#4D5D6C</badge>, l’icône de suppression est blanc et un « x » transparent y figure. Petit avatar (26px par 26px) aligné à gauche.
 
 </doctabpanel>
     </documentationtabs>
