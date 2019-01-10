@@ -41,12 +41,12 @@ Some systems may not be able to download or display the fonts in this design sys
 
 Titles appear only on the top of pages and indicate high-level navigation points.
 
-Titles are displayed using Rubik Light at 36 points  in the colour <badge style="background-color: #252525">#252525</badge> on a light background or <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge> on a dark background.
+Titles are displayed using Rubik Light at 36 points  in the colour <badge style="background-color: #252525">#252525</badge> on a dark background or <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge> on a light background.
 
 
 ## Headings \(H2-H6\)
 
-There are five different sub-headings. All sub-headings use the colours <badge style="background-color: #252525">#252525</badge> on a light background or \#FFFFFF on a dark background.
+There are five different sub-headings. All sub-headings use the colours <badge style="background-color: #252525">#252525</badge> on a dark background or \#FFFFFF on a light background.
 
 The headers use the following typographic styles:
 
@@ -73,7 +73,7 @@ The headers use the following typographic styles:
 
 Paragraph text is used for most text content found on the application. Paragraph text is set to Nunito Sans Regular at 16 points \(1em\) with a leading of 24 points. Unless indicating a hyperlink or navigation point, paragraph text should not have added emphasis.
 
-Paragraph text uses the colours <badge style="background-color: #252525">#252525</badge> on a light background or <badge style="background-color: #FFFFFF; color:black;">#FFFFFF</badge> on a dark background.
+Paragraph text uses the colours <badge style="background-color: #252525">#252525</badge> on a dark background or <badge style="background-color: #FFFFFF; color:black;">#FFFFFF</badge> on a light background.
 
 
 ### Line-Breaking
