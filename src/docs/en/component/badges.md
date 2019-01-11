@@ -208,7 +208,7 @@ Chips have 3 different variations and are displayed as follows:
 <span class="badge badge-primary badge-chip"><img alt="small user avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 1</span>
 <span class="badge badge-primary badge-chip"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> User 2</span>
 
-**Normal:** Rectangular box filled in with <badge style="background-color: ##002D42">##002D42</badge>. Black text. Small avatar \(26 x 26px\) aligned to the left.
+**Normal:** Rectangular box filled in with <badge style="background-color: #002D42">#002D42</badge>. Black text. Small avatar \(26 x 26px\) aligned to the left.
 
 **User-control:** Same as normal, but there is an additional remove icon on the right. This icon is <badge style="background-color: #4D5D6C;">#4D5D6C</badge> with a transparent x, and is right-aligned. Small avatar \(26 x 26px\) aligned to the left.
 

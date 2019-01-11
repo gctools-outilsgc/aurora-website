@@ -73,14 +73,14 @@ La composante de base d’une carte est `.card-body`. Servez-vous-en lorsque vou
 
 <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
     <div class="card-body">
-        <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte.</p>
+        <p class="card-text">Un exemple de texte.</p>
     </div>
 </div>
 
 ```html
 <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
     <div class="card-body">
-        <p class="card-text">Quelques exemples de texte pour tirer parti du titre de la carte.</p>
+        <p class="card-text">Un exemple de texte.</p>
     </div>
 </div>
 ```         
@@ -89,7 +89,7 @@ La composante de base d’une carte est `.card-body`. Servez-vous-en lorsque vou
 
 On peut utiliser des titres de carte en ajoutant `.card-title` à une balise `<h*>`. De la même manière, on peut ajouter des liens et les placer un à côté de l’autre en incluant `.card-link` à une balise `<a>`.
 
-Des sous-titres sont utilisés par l’ajout de `.card-subtitle` à une balise `<h*>`. Si les éléments `.card-title`  et `.card-subtitle` sont placés dans un élément `.card-body`, le titre et le sous-titre de la carte vont bien s’harmoniser.
+Des sous-titres sont utilisés par l’ajout de `.card-subtitle` à une balise `<h*>`. Si les classes `.card-title`  et `.card-subtitle` sont placés dans un élément ayant la classes `.card-body`, le titre et le sous-titre de la carte vont bien s’harmoniser.
 
 
 <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
@@ -136,7 +136,7 @@ L’élément `.card-img-top` permet de placer une image dans une carte.
 
 ### Boutons
 
-Les boutons n’exigent pas de classe supplémentaire et peuvent être inclus dans une carte par le simple ajout de l’élément `<button>`.
+Les boutons n’exigent pas de classe supplémentaire et peuvent être inclus dans une carte par le simple ajout de la balise `<button>`.
 
 <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
     <div class="card-body">
@@ -169,7 +169,7 @@ Les cartes ont habituellement une couleur de fond <badge style="background-color
 
 ## Modèle de carte de base
 
-Les cartes peuvent être utilisées comme contenants pour n’importe quel type d’information et varient de grosseur selon le contenu. Les cartes constituent le fondement pour des cartes plus complexes, ce qui peut comprendre toute combinaison des éléments.
+Les cartes peuvent être utilisées comme contenants pour n’importe quel type d’information et varient de grosseur selon le contenu. Les modèles de cartes de base constituent le fondement pour des cartes plus complexes, ce qui peut contenir toute combinaison des éléments.
 
 Les cartes de base sont conçues comme suit :
 
@@ -252,7 +252,6 @@ Les cartes peuvent techniquement comprendre un certain nombre de combinaisons d�
 </div>
 
 <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-    <div class="card-header">Header</div>
     <div class="card-body">
     <h3 class="card-title h5">Titre de la carte</h3>
     <div class="card-subtitle text-muted">Méta-information</div>

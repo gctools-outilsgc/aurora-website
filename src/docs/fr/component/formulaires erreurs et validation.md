@@ -177,7 +177,7 @@ Les boîtes d’erreur sont conçues comme suit :
     </ul>
 </section>
 
-Un rectangle de la même largeur que le contenant du formulaire. Une bordure de 4px et un trait d’une largeur de 1px utilisant la couleur <badge style="background-color: #923534;">#923534</badge>. La boîte a un remplissage de 15px. Dans le coin supérieur gauche, il y a un cercle rouge avec une icône « X » blanche de 25px.
+Un rectangle de la même largeur que le contenant du formulaire. Une bordure de 4px et un trait d’une largeur de 1px utilisant la couleur <badge style="background-color: #923534;">#923534</badge>. La boîte a un remplissage de 15px.
 
 L’en-tête de la boîte utilise le style d’en-tête 2 et le texte utilise le style paragraphe. Une copie d’erreur est affichée dans une liste numérotée en utilisant <badge style="background-color: #923534;">#923534</badge>. Chaque erreur a un lien qui mène l’utilisateur à l’erreur en ligne sur la page.
 
@@ -188,7 +188,7 @@ La bordure du champ de saisie sera visible à l’aide de la couleur <badge styl
 
 Les erreurs en ligne sont conçues comme suit :
 
-L’icône « x » à la gauche du texte d’erreur. L’erreur est placée 10px en dessous du champ de saisie. Le texte est dans la police Nunito sans régulier à 14px de la couleur <badge style="background-color: #923534">#923534</badge>.
+L’erreur est placée 10px en dessous du champ de saisie. Le texte est dans la police Nunito sans régulier à 14px de la couleur <badge style="background-color: #923534">#923534</badge>.
 
 <label for="exampleInputText1-design">Nom d'utilisateur</label>
 <input type="text" class="form-control is-invalid" aria-describedby="Text1Error-design" id="exampleInputText1-design" placeholder="aurora.design">

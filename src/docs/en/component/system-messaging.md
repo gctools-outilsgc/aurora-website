@@ -14,7 +14,7 @@ title: "System messaging"
 
 # System Messaging
 
-System notifications are short messages that appear to communicate information to the user. Notifications appear as pop-up banners or toast messages which need to be dismissed or timed-out. There are four levels which can be applied to system messages: error, warning, information and success.
+System notifications are short messages that appear to communicate information to the user. Notifications appear as pop-up banners or toast messages which need to be dismissed or timed-out. There are four levels of alert which can be applied to system messages: error, warning, information and success.
 
 ## Best Practices
 
@@ -81,7 +81,7 @@ Use the `.alert-link` utility class to quickly provide matching colored links wi
 
 In addition to Bootstrap default alerts, Aurora uses custom icon alerts for different types of message contexts.
 
-Use the `.alert-icon` class to create the custom icon alert. The custom icon alert includes both a `.icon` section and a `.message` section. Your icon can be added to the `<div>.icon`.
+Use the `.alert-icon` class to create the custom icon alert. The custom icon alert includes both a `.icon` section and a `.message` section. Your icon can be added to the `<div>`.
 
  <div class="alert-icon alert-danger" role="alert">
   <div class="icon" aria-hidden="true">

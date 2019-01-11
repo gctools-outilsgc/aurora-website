@@ -36,9 +36,9 @@ Les vignettes sont de petites versions d’une image qui sont utilisées comme a
 
 ## Images
 
-Les images d’Aurora s’effectuent en réaction avec `.img-fluid` `.max-width: 100%;` et `height: auto;` de sorte que l’image corresponde à l’élément parent.
+Les images d’Aurora s’effectuent en réaction avec `.img-fluid`, `max-width: 100%;` et `height: auto;` de sorte que l’image corresponde à l’élément parent.
 
-Les images en série peuvent être harmonisées à l’aide de `.float-right` `.float-left` ou `.mx-auto` (centré).
+Les images en série peuvent être harmonisées à l’aide de `.float-right`, `.float-left` ou `.mx-auto` (centré).
 
 
 <div class="mx-auto" style="max-width: 500px"> 

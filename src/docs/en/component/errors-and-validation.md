@@ -15,7 +15,7 @@ title: "Errors and validation"
 
 The error box provides a summary of validation errors. After a user has submitted a form, this box will show applicable errors in particular fields. The error box appears at the top of the form. 
 
-Each error listed in the box is a link to that respective input field. Error messaages should be concise but descriptive of the error. More information is provided inline. 
+Each error listed in the box is a link to that respective input field. Error messages should be concise but descriptive of the error. More information is provided inline. 
 
 ## Inline Errors
 
@@ -172,7 +172,7 @@ Error boxes are styled as follows:
     </ul>
 </section>
 
-Rectangle with the same width as the form container. 4px border radius and a stroke of width 1px using the colour <badge style="background-color: #923534;">#923534</badge>. The box has 15px padding. In the top left corner there is a red circle with a white "x" icon that is 25px.
+Rectangle with the same width as the form container. 4px border radius and a stroke of width 1px using the colour <badge style="background-color: #923534;">#923534</badge>.
 
 The box heading uses Heading 2 style, and the text uses the paragraph style. Error copy is displayed in a numbered list using <badge style="background-color: #923534;">#923534</badge>. Each error is a link which leads the user to the inline error on the page.  
 
@@ -182,7 +182,7 @@ The input field border will be shown using the colour <badge style="background-c
 
 Inline errors are styled as follows:
 
-"x" icon to the left of the error text. The error is placed 10px below the input field. Text is shown using Nunito Sans Regular at 14px font in <badge style="background-color: #923534;">#923534</badge>.
+The error is placed 10px below the input field. Text is shown using Nunito Sans Regular at 14px font in <badge style="background-color: #923534;">#923534</badge>.
 
 <label for="exampleInputText1-design">Username</label>
 <input type="text" class="form-control is-invalid" aria-describedby="Text1Error-design" id="exampleInputText1-design" placeholder="aurora.design">

@@ -127,12 +127,12 @@ Les jetons sont des laissez-passer avec une image. Ajoutez votre image au laisse
 
 Ils sont utilisés pour afficher des renseignements complexes (p. ex., un utilisateur) dans un espace restreint.
 
-<span class="badge badge-primary badge-chip"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 1</span>
-<span class="badge badge-primary badge-chip"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 2</span>
+<span class="badge badge-primary badge-chip"><img alt="petit avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 1</span>
+<span class="badge badge-primary badge-chip"><img alt="petit avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 2</span>
 
 ```html
-<span class="badge badge-primary badge-chip"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 1</span>
-<span class="badge badge-primary badge-chip"><img alt="small avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 2</span>
+<span class="badge badge-primary badge-chip"><img alt="petit avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 1</span>
+<span class="badge badge-primary badge-chip"><img alt="petit avatar" class="avatar avatar-sm" src="https://bit.ly/2GLjkzx"> Utilisateur 2</span>
 ```
 
 </doctabpanel>

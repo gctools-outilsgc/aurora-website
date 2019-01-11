@@ -251,7 +251,6 @@ Cards can technically include any number of component combinations. Using the ba
 </div>
 
 <div class="card mb-2 d-inline-block" style="max-width: 18rem;">
-    <div class="card-header">Header</div>
     <div class="card-body">
     <h3 class="card-title h5">Card title</h3>
     <div class="card-subtitle text-muted">Meta Information</div>

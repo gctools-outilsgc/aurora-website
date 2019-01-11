@@ -14,7 +14,7 @@ title: "Messagerie du système"
 
 # Messagerie du système
 
-Les notifications du système sont de courts messages qui apparaissent pour communiquer de l’information à l’utilisateur. Des notifications apparaissent comme des bannières en premier plan qui ont besoin d’être fermées ou qui se ferment après une période de temps. Il y a quatre types de notifications qui peuvent être utilisés : erreur, avertissement, information et succès.
+Les notifications du système sont de courts messages qui apparaissent pour communiquer de l’information à l’utilisateur. Des notifications apparaissent comme des bannières en premier plan qui ont besoin d’être fermées ou qui se ferment après une période de temps. Il y a quatre types d'alertes qui peuvent être utilisés : erreur, avertissement, information et succès.
 
 ## Pratiques exemplaires
 
@@ -26,13 +26,13 @@ Les messages du système doivent se trouver au haut de la page ou à l’endroit
 
 ### Quand utiliser
 
-**Les messages d’erreur** sont utilisées pour les pannes de système et les erreurs de l’utilisateur.Par exemple, « Votre mot de passe doit contenir au moins huit (8) caractères. »
+**Les alertes d’erreur** sont utilisées pour les pannes de système et les erreurs de l’utilisateur.Par exemple, « Votre mot de passe doit contenir au moins huit (8) caractères. »
 
-**Les messages d’avertissement** sont utilisées pour notifié les futures erreurs potentielles. Par exemple « Verr. Maj. est activé ce qui pourrait faire en sorte que vous entriez votre incorrectement mot de passe. »
+**Les alertes d’avertissement** sont utilisées pour notifié les futures erreurs potentielles. Par exemple « Verr. Maj. est activé ce qui pourrait faire en sorte que vous entriez votre incorrectement mot de passe. »
 
-**Les messages d’information** servent à fournir des renseignements supplémentaires et des notes à l’utilisateur qu’ils peuvent trouver utiles selon le contexte. Par exemple, « Vous pouvez changer votre mot de passe dans les paramètres. »
+**Les alertes d’information** servent à fournir des renseignements supplémentaires et des notes à l’utilisateur qu’ils peuvent trouver utiles selon le contexte. Par exemple, « Vous pouvez changer votre mot de passe dans les paramètres. »
 
-**Les messages de succès** sont utilisées pour confirmer qu’une tâche a été achevée avec succès. Par exemple, « Votre mot de passe a été mis à jour avec succès. »
+**Les alertes de succès** sont utilisées pour confirmer qu’une tâche a été achevée avec succès. Par exemple, « Votre mot de passe a été mis à jour avec succès. »
 
 <documentationtabs remove="react">
     <doctabpanel type="html">
@@ -258,7 +258,7 @@ La couleur du message dépend du type d’alerte. Consultez la section [Couleur]
 
 Les icônes d’alertes personnalisées sont présentées comme suit :
 
-La boîte possède la même largeur que le contenant. La hauteur du message dépend du texte. Le remplissage autour du texte est de 12px par 20px. La boîte de message a des coins arrondis de 4px.
+La boîte possède la même largeur que le contenant. La hauteur dépend du texte. Le remplissage autour du texte est de 12px par 20px. La boîte de message a des coins arrondis de 4px.
 
 La boîte de couleurs sur le côté du message possède une largeur de 60px et le coin supérieur gauche et le coin inférieur gauche sont arrondis de 4px. La couleur dépend du type d’alerte. Reportez-vous à la section [Couleur](/component/colour) pour de plus amples renseignements. 
 

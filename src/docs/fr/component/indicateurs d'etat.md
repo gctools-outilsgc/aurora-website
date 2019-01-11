@@ -168,7 +168,6 @@ Vous pouvez consulter la [documentation sur la police Awesome](https://fontaweso
 </doctabpanel>
     <doctabpanel type="design">
 
-
 ## Indicateur des étapes
 
 Les couleurs de l’indicateur d’étapes peuvent varier, mais assurez-vous que les exigences de contraste sont respectées. Visitez la [section sur les couleurs](/component/colour) pour plus de renseignements sur le choix de couleurs accessibles.
@@ -181,7 +180,7 @@ Les numéros de chaque étape utilisent le style de titre 2, « Rubik Regular�
 
 Entre les étapes, il y a une ligne centrale d’une hauteur de 4px. Cette ligne devrait être de la même couleur que le cercle extérieur.
 
-Pour les étapes terminées, on utilise une icône de crochet au lieu du numéro et la bordure est de couleur <badge style="background-color: #0278A4"> #0278A4</badge>. On utilise également cette couleur pour l'icône de crochet'.
+Pour les étapes terminées, on utilise une icône de crochet au lieu du numéro et la bordure est de couleur <badge style="background-color: #0278A4"> #0278A4</badge>. On utilise également cette couleur pour l'icône de crochet.
 
 La ligne entre les étapes terminées et les étapes actives est également de couleur <badge style="background-color: #0278A4"> #0278A4</badge>.
 

@@ -2,7 +2,7 @@
 path: "/component/avatars-and-thumbnails"
 subnav: "2/Standard/Standard/1"
 lang: "en"
-title: "Avatars and thumbnails"
+title: "Images, avatars and thumbnails"
 ---
 
 <helmet>
@@ -36,9 +36,9 @@ Thumbnails are small versions of an image that are used as previews to content. 
 
 ## Images
 
-Images in Aurora are made responsive with `.img-fluid. max-width: 100%;` and `height: auto;` so that the image scales with the parent element.
+Images in Aurora are made responsive with `.img-fluid`, `max-width: 100%;` and `height: auto;` so that the image scales with the parent element.
 
-Block images can be aligned using the `.float-right` `.float-left` or `.mx-auto` (centered).
+Block images can be aligned using the `.float-right`, `.float-left` or `.mx-auto` (centered).
 
 <div class="mx-auto" style="max-width: 500px"> 
     <img src="https://bit.ly/2LFHA5a" alt="Image sizing example" class="img-fluid mx-auto">
