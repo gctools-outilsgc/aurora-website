@@ -14,11 +14,11 @@ title: "Messagerie du système"
 
 # Messagerie du système
 
-Les notifications du système sont de courts messages qui apparaissent pour communiquer de l’information à l’utilisateur. Des notifications apparaissent comme des bannières en premier plan qui ont besoin d’être fermées ou qui se ferment après une période de temps. Il y a quatre niveaux de gravité qui peuvent être appliqués à la notification : erreur, avertissement, information et succès.
+Les notifications du système sont de courts messages qui apparaissent pour communiquer de l’information à l’utilisateur. Des notifications apparaissent comme des bannières en premier plan qui ont besoin d’être fermées ou qui se ferment après une période de temps. Il y a quatre types de notifications qui peuvent être utilisés : erreur, avertissement, information et succès.
 
 ## Pratiques exemplaires
 
-Les messages de notification devraient être simples et aussi courts que possible et devraient aussi utiliser des mots clés. Les messages longs peuvent être imprécis et peuvent avoir une incidence sur la taille et la lisibilité du message.
+Les messages de notification devraient être simples, aussi courts que possible et devraient utiliser des mots clés. Les messages longs peuvent être imprécis et peuvent avoir une incidence sur la taille et la lisibilité du message.
 
 Exemple d’une notification claire : Votre photo de profil a été modifiée avec succès.
 
@@ -28,9 +28,9 @@ Les messages du système doivent se trouver au haut de la page ou à l’endroit
 
 **Les messages d’erreur** sont utilisées pour les pannes de système et les erreurs de l’utilisateur.Par exemple, « Votre mot de passe doit contenir au moins huit (8) caractères. »
 
-**Les messages d’avertissement** sont utilisées pour les notifications d'erreurs futures potentielles. Par exemple « Verr. Maj. est activé ce qui pourrait faire en sorte que vous entriez votre mot de passe incorrectement. »
+**Les messages d’avertissement** sont utilisées pour notifié les futures erreurs potentielles. Par exemple « Verr. Maj. est activé ce qui pourrait faire en sorte que vous entriez votre incorrectement mot de passe. »
 
-**Les messages d’information** servent à fournir des renseignements supplémentaires et des notes à l’utilisateur qu’elles peuvent trouver utiles selon le contexte. Par exemple, « Vous pouvez changer votre mot de passe dans les paramètres. »
+**Les messages d’information** servent à fournir des renseignements supplémentaires et des notes à l’utilisateur qu’ils peuvent trouver utiles selon le contexte. Par exemple, « Vous pouvez changer votre mot de passe dans les paramètres. »
 
 **Les messages de succès** sont utilisées pour confirmer qu’une tâche a été achevée avec succès. Par exemple, « Votre mot de passe a été mis à jour avec succès. »
 
@@ -167,14 +167,14 @@ Utilisez la classe `.alert-icon` pour créer une icône d’alerte personnalisé
 ```
 
 ## Donner un sens aux technologies d’assistance
-L’utilisation de couleurs pour ajouter du sens fournit seulement une indication visuelle qui n’est pas transmise aux utilisateurs de technologies d’assistance, comme les lecteurs d’écran. Veillez à ce que les renseignements indiqués par la couleur se différencient de manière évidente du contenu (p. ex., le texte visible) ou qu’ils soient inclus de différentes manières, par l’ajout de texte caché avec la classe `.sr-only`, par exemple.
+La couleur aide à la compréhension de façon visuelle, ce qui n'est pas transmis aux utilisateurs de technologies d'assitance tels que les lecteurs d'écran. Veillez à ce que les renseignements indiqués par la couleur se différencient de manière évidente du contenu (p. ex., le texte visible) ou qu’ils soient inclus de différentes manières, par l’ajout de texte caché avec la classe `.sr-only`, par exemple.
 
 Ajouter `role="alert"` à votre alerte système pour fournir plus de contexte aux technologies d’assistance.
 
 ## Rejet
 
-Aurora importe automatiquement l’application Bootstrap, de JavaScript, nécessaire pour une fonctionnalité interactive. Voici la manière d’utiliser le module d’extension d’alerte de JavaScript : 
-* sur le bouton de rejet, ajoutez l’attribut `data-dismiss="alert"`, ce qui active la fonctionnalité de JavaScript et assurez-vous de l’accompagner de l’élément `<button>` pour avoir un comportement adéquat sur l’ensemble des appareils; 
+Aurora importe automatiquement le JavaScript de Bootstrap, nécessaire pour les fonctionnalités interactives. Voici la manière d’utiliser le module d’extension d’alerte de JavaScript : 
+* sur le bouton de rejet, ajoutez l’attribut `data-dismiss="alert"`, ce qui active la fonctionnalité de JavaScript. Aassurez-vous de l’accompagner de l’élément `<button>` pour avoir un comportement adéquat sur l’ensemble des appareils; 
 * pour animer les alertes lorsqu’on les rejette, assurez-vous d’ajouter les classes `.fade` et `.show`.
 
 
@@ -229,13 +229,13 @@ Les messages d’alerte par défaut sont fournis dans le Bootstrap. Aurora utili
 
 Les alertes par défaut sont présentées comme suit :
 
-Rectangle de la largeur du contenant, avec un rayon de contour 4px. La hauteur dépend de la taille du texte du message avec un remplissage de 12px par 20px.
+Rectangle de la largeur du contenant, avec les coins arrondis de 4px. La hauteur dépend de la taille du texte avec un remplissage de 12px par 20px.
 
 La boîte de message comprend un ombrage non décalé et un flou de 5px. L’ombrage est noir (<badge style="background-color: #000000"> #000000</badge>) avec 15 % d’opacité.
 
-Le texte du message utilise le style de paragraphe Aurora : Nunito Sans à 16 points.
+Le texte utilise le style de paragraphe Aurora : Nunito Sans à 16 points.
 
-La couleur du message dépend du type d’alerte. Consultez la section [Couleur](/component/colour) pour de plus amples renseignements. Les messages par défaut utilisent une couleur en sourdine pour remplir la boîte de message.
+La couleur du message dépend du type d’alerte. Consultez la section [Couleur](/component/colour) pour de plus amples renseignements. Les messages par défaut utilisent une couleur dégradée pour remplir la boîte de message.
 
 
 <Alert color="danger">
@@ -258,15 +258,15 @@ La couleur du message dépend du type d’alerte. Consultez la section [Couleur]
 
 Les icônes d’alertes personnalisées sont présentées comme suit :
 
-La boîte possède la même largeur que le contenant. La hauteur du message dépend du texte. Le remplissage autour du texte est de 12px par 20px. La boîte de message a un rayon de contour de 4px.
+La boîte possède la même largeur que le contenant. La hauteur du message dépend du texte. Le remplissage autour du texte est de 12px par 20px. La boîte de message a des coins arrondis de 4px.
 
-La boîte de couleurs sur le côté du message possède une largeur de 60px et le rayon de contour dans le coin supérieur gauche et le coin inférieur gauche est de 4px. La couleur dépend du type d’alerte. Reportez-vous à la section [Couleur](/component/colour) pour de plus amples renseignements. 
+La boîte de couleurs sur le côté du message possède une largeur de 60px et le coin supérieur gauche et le coin inférieur gauche sont arrondis de 4px. La couleur dépend du type d’alerte. Reportez-vous à la section [Couleur](/component/colour) pour de plus amples renseignements. 
 
 La boîte de message comprend un ombrage non décalé et un flou de 5px. L’ombrage est noir (<badge style="background-color: #000000"> #000000</badge>) avec 15 % d’opacité.
 
 Le titre de la notification utilise le style H5 : Nunito Sans, à 18 points. Le texte du message utilise le style de paragraphe ordinaire : Nunito Sans à 16 points.
 
-Aurora utilise Font Awesome pour les icônes de la boîte de messages, mais ces icônes sont personnalisables et servent simplement à des fins de conception. Consultez les icônes pour de plus amples renseignements. Pour les alertes personnalisées, la couleur la plus brillante est utilisée pour la boîte d’icône; le reste de la boîte de message est blanc (<badge style="background-color: #FFFFFF; color:black;"> #FFFFFF</badge>)
+Aurora utilise Font Awesome pour les icônes de la boîte de messages, mais ces icônes sont personnalisables et servent simplement à des fins de conception. Consultez les [icônes](component/icons) pour de plus amples renseignements. Pour les alertes personnalisées, la couleur la plus brillante est utilisée pour la boîte d’icône; le reste de la boîte de message est blanc (<badge style="background-color: #FFFFFF; color:black;"> #FFFFFF</badge>)
 
 <div class="alert-icon alert-danger" role="alert">
   <div class="icon" aria-hidden="true">

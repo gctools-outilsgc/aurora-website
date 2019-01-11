@@ -15,13 +15,13 @@ title: "Erreurs et validation"
 
 La boîte d’erreur fournit un résumé des erreurs de validation. Après qu’un utilisateur a soumis un formulaire, cette boîte affichera les erreurs applicables dans les champs particuliers. La boîte d’erreur apparaît en haut du formulaire.
 
-Chaque erreur répertoriée dans la boîte constitue un lien vers le champ de saisie correspondant. Les messages d’erreur doivent être concis, mais descriptifs de l’erreur. Plus de renseignements sont fournis en ligne.
+Chaque erreur répertoriée dans la boîte constitue un lien vers le champ de saisie correspondant. Les messages d’erreur doivent être précis, mais descriptifs de l’erreur. Plus de renseignements sont fournis en ligne.
 
 ## Erreurs de saisie
 
-Les erreurs de saisie devraient être affichées de sorte qu’il est clair à l’utilisateur qu’il a fait une erreur, ce qu’est cette erreur et où elle se trouve. Pour afficher les erreurs dans un formulaire de présentation, utiliser les boîtes d’erreur et les erreurs en ligne. Pour chaque erreur, les copies utilisées à la fois pour la boîte d’erreur et l’erreur en ligne devraient être identiques.
+Les erreurs de saisie devraient être affichées de sorte qu’il est clair à l’utilisateur qu’il a fait une erreur. Le message doit décrire qu'elle est l'erreur et où elle se trouve. Pour afficher les erreurs dans un formulaire de présentation, utiliser les boîtes d’erreur et les erreurs en ligne. Pour chaque erreur, celle qui se trouve dans la boîte d’erreur et dans l'erreur en ligne doivent être identiques.
 
-Les erreurs en ligne sont affichées sous le champ de saisie et indiquent à l’utilisateur la façon de corriger l’erreur. Les erreurs en ligne devraient être aussi concises que possible et limitées à une ligne qui tient en dessous du champ de saisie.
+Les erreurs en ligne sont affichées sous le champ de saisie et indiquent à l’utilisateur la façon de corriger l’erreur. Les erreurs en ligne devraient être aussi précises que possible et limitées à une ligne qui tient en dessous du champ de saisie.
 
 <documentationtabs remove="react">
       <doctabpanel type="html">
@@ -29,7 +29,7 @@ Les erreurs en ligne sont affichées sous le champ de saisie et indiquent à l�
 
 ## Boîtes d’erreur
 
-La boîte d’erreur utilise les classes `.alert`, `.alert-danger` et `.alert-danger-banner` pour créer le composant. Utilisez `.alert-link` pour appliquer le bon style aux liens d’erreur.
+La boîte d’erreur utilise les classes `.alert`, `.alert-danger` et `.alert-danger-banner` pour créer la composante. Utilisez `.alert-link` pour appliquer le bon style aux liens d’erreur.
 
 <section class="alert alert-danger alert-danger-banner">
     <h2>Erreur relative à un champ ou champ obligatoire</h2>
@@ -56,7 +56,7 @@ La boîte d’erreur utilise les classes `.alert`, `.alert-danger` et `.alert-da
 ```
 ## Erreurs en ligne
 
-Pour les erreurs en ligne, utilisez la classe `.is-invalid` pour ajouter un style d’erreur à l’élément du formulaire précisé.
+Pour les erreurs en ligne, utilisez la classe `.is-invalid` pour ajouter un style d’erreur à l’élément du formulaire.
 
 Le texte de la microcopie qui fournit des renseignements à l’utilisateur est stylisé à l’aide de la classe `.invalid-feedback`. Utilisez `.aria-describedby` pour associer la microcopie à l’entrée invalide. Voir la page [Saisies textuelles](component/text-inputs) pour plus d'information sur la microcopie. 
 
@@ -179,7 +179,7 @@ Les boîtes d’erreur sont conçues comme suit :
 
 Un rectangle de la même largeur que le contenant du formulaire. Une bordure de 4px et un trait d’une largeur de 1px utilisant la couleur <badge style="background-color: #923534;">#923534</badge>. La boîte a un remplissage de 15px. Dans le coin supérieur gauche, il y a un cercle rouge avec une icône « X » blanche de 25px.
 
-L’en-tête de la boîte utilise le style d’en-tête 2 et le texte utilise le style paragraphe. Une copie d’erreur est affichée dans une liste numérotée en utilisant <badge style="background-color: #923534;">#923534</badge>. Chaque erreur est un lien qui mène l’utilisateur à l’erreur en ligne sur la page.
+L’en-tête de la boîte utilise le style d’en-tête 2 et le texte utilise le style paragraphe. Une copie d’erreur est affichée dans une liste numérotée en utilisant <badge style="background-color: #923534;">#923534</badge>. Chaque erreur a un lien qui mène l’utilisateur à l’erreur en ligne sur la page.
 
 
 ## Erreurs en ligne
@@ -218,7 +218,7 @@ Lorsqu’un utilisateur corrige les erreurs de saisie, la boîte d’erreur disp
 
 Les styles suivants représentent les saisies validées :  
 
-La bordure du champ de saisie est indiquée par la couleur no <badge style="background-color: #2B542C;">#2B542C</badge>. S’il y a une erreur dans la saisie de bouton, l’étiquette sera affichée à l’aide de la même couleur.
+La bordure du champ de saisie est indiquée par la couleur <badge style="background-color: #2B542C;">#2B542C</badge>. S’il y a une erreur dans la saisie de bouton, l’étiquette sera affichée à l’aide de la même couleur.
 
 Le texte de renseignements sur l’erreur, situé en dessous du champ de saisie, disparaîtra.
 
