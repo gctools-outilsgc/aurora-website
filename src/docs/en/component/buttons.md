@@ -99,6 +99,14 @@ Any single `.btn` can be turned into a dropdown toggle with some markup changes.
 </div>
 ```
 
+### Accessibility Considerations
+
+The WAI ARIA standard defines an actual `role="menu"` widget, but this is specific to application-like menus which trigger actions or functions. ARIA menus can only contain menu items, checkbox menu items, radio button menu items, radio button groups, and sub-menus.
+
+Aurora’s dropdowns, on the other hand, are designed to be generic and applicable to a variety of situations and markup structures. For instance, it is possible to create dropdowns that contain additional inputs and form controls, such as search fields or login forms. For this reason, Aurora does not expect (nor automatically add) any of the `role` and `aria`- attributes required for true ARIA menus. Authors willhave to include these more specific attributes themselves.
+
+However, Aurora does add built-in support for most standard keyboard menu interactions, such as the ability to move through individual `.dropdown-item` elements using the cursor keys and close the menu with the ESC key.
+
 ## Button group
 
 Group a series of buttons together on a single line with the button group. 

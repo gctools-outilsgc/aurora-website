@@ -101,6 +101,15 @@ Tout élément `.btn` unique peut devenir un menu déroulant à bascule grâce �
 </div>
 ```
 
+### Considerations d'accessibilité
+
+La norme des applications Internet riches et accessibles (WAI-ARIA) définit un composant d’interface `role="menu "`, mais cette définition s’applique précisément aux menus de type application qui déclenchent des actions ou des fonctions. Les menus ARIA peuvent uniquement contenir des éléments de menu, des éléments de menu de cases à cocher, des éléments de menu de boutons radio, des groupes de boutons radio et des sous-menus.
+
+Les menus déroulants Aurora, par contre, sont conçus pour une utilisation plus générale et s’appliquent à diverses situations et structures de balisage. Par exemple, il est possible de créer des menus déroulants qui contiennent d’autres informations et mesures de contrôle de formulaire, par exemple des champs de recherche ou des formulaires d’ouverture de séance. Par conséquent, Aurora ne nécessite (et n’ajoute pas automatiquement) aucun `role` ou attribut `aria` nécessaire pour les menus ARIA. Les auteurs devront ajouter eux-mêmes ces attributs plus spécifiques.
+
+Cela dit, Aurora ajoute un point d’accès intégré pour la plupart des interactions de menu de clavier standard, par exemple la capacité de consulter chaque élément du `.dropdown-item` à l’aide des touches du curseur et de fermer le menu à l’aide de la touche ESC.
+
+
 ## Groupes de boutons
 
 Regroupez une série de boutons sur une seule ligne avec le groupe bouton, puis enveloppez une série de boutons `.btn` dans `.btn-group`.

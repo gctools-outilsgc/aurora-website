@@ -188,7 +188,7 @@ Completed steps use a checkmark icon instead of the number and the border is col
 
 The line between completed and active steps is also filled with <badge style="background-color: #0278A4">#0278A4</badge>.
 
-The active step still uses the number and both the number and the border is filled in with the colour <badge style="background-color: #0278A4">#0278A4</badge>. The active step has a drop shadow of (x)
+The active step still uses the number and both the number and the border is filled in with the colour <badge style="background-color: #0278A4">#0278A4</badge>. The active step has a drop shadow coloured with <badge style="background-color: #058ABC">#058ABD</badge> at 25% opacity and a 3px spread. 
 
 Each step should also include text underneath for context. Limit this text to one or two words. This text has a font size of 12px, center-aligned, and is all uppercase. 
 Each step should also include text underneath for context. Limit this text to one or two words. This text has a font size of 12px, center-aligned, and is all uppercase. 
