@@ -18,7 +18,7 @@ For more information about what might be included in future updates, visit the [
 ![Aurora banner](../../../img\aurora-banner-small.png)
 
 ## V.0.3.3
-January 11, 2019
+January 16, 2019
 
 * Components section now includes tabs on most pages. These tabs separate HTML developer documentation and design specifications. 
 * Added HTML developer documentation for all relevant components.

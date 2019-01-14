@@ -18,7 +18,7 @@ Pour plus d'information sur les mises à jours futures, visitez la [page d'Auror
 ![Aurora banner](../../../img\aurora-banner-small.png)
 
 ## V.0.3.3
-Le 11 janvier 2019
+Le 16 janvier 2019
 * La section des composantes comporte désormais des onglets à toutes les pages. Ces onglets
 permettent de garder distinctes la documentation HTML s’adressant aux développeurs et les normes
 de conception.
