@@ -184,7 +184,7 @@ Pour les étapes terminées, on utilise une icône de crochet au lieu du numéro
 
 La ligne entre les étapes terminées et les étapes actives est également de couleur <badge style="background-color: #0278A4"> #0278A4</badge>.
 
-Pour l’étape active, on utilise toujours le numéro. De plus, le numéro et la bordure sont remplis à l’aide de la couleur <badge style="background-color: #0278A4"> #0278A4</badge>. Pour l’étape active, l’ombrage est de couleur <badge style="background-color: #058ABC">#058ABD</badge> avec opacité de 25% et un tache de 3px.
+Pour l’étape active, on utilise toujours le numéro. De plus, le numéro et la bordure sont remplis à l’aide de la couleur <badge style="background-color: #0278A4"> #0278A4</badge>. Pour l’étape active, l’ombrage est de couleur <badge style="background-color: #058ABC">#058ABD</badge> avec une opacité de 25% et une portée de 3px.
 
 Chaque étape devrait également comprendre du texte en dessous pour le contexte. Limitez ce texte à un ou deux mots. La taille de la police de caractères de ce texte est de 12px, alignée au centre, et le texte est entièrement en majuscule.
 
