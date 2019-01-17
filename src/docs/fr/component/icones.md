@@ -28,7 +28,7 @@ Les icônes SVG sont recommandées plutôt que les polices d’icônes pour dive
 
 Referez-vous à [l’article des astuces de CCS](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit) pour en apprendre davantage sur les polices d’icônes par rapport aux icônes SVG.
 
-Les icônes sont utilisées pour certains boutons et sont habituellement associées à une action quelconque. Elles ajoutent également une diversité visuelle à votre page. Lorsque vous utilisez des icônes, il vaut mieux s’en tenir aux conventions bien connues, comme la corbeille pour représenter l’action Supprimer ou un engrenage pour représenter les Paramètres.
+Les icônes sont utilisées pour certains boutons et sont habituellement associées à une action quelconque. Elles ajoutent également une diversité visuelle à votre page. Lorsque vous utilisez des icônes, il vaut mieux s’en tenir aux conventions bien connues, comme la corbeille pour représenter l’action *Supprimer* ou un engrenage pour représenter les *Paramètres*.
 
 
 ## Choisir vos icônes
@@ -41,4 +41,5 @@ Afin de réduire les répercussions sur le rendement de votre application, il es
 <i class="fa fa-spinner fa-spin" style="font-size:24px"></i>
 
  [L’icône de chargement](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit) est affichée en utilisant l’icône chargement en cours de Font Awesome. Font Awesome fournit de [multiples icônes](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit) qui peuvent bien fonctionner comme icône de chargement en cours, selon votre contenu. Vous pouvez vous référer à la [documentation de Font Awesome](https://www.gitbook.com/book/gctools-outilsgc/-gcdigital-design-system/edit) pour animer l’icône afin de démontrer une page en cours de chargement.
+
 Vous pouvez également utiliser ces mêmes principes pour animer toute autre icône que vous choisissez.

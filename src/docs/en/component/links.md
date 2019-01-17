@@ -37,8 +37,3 @@ There are other colour options for visited links. Best practice for visited link
 
 
 <a href="#">This is a link</a>
-
-<codeblock html='
-    <a href="#">This is a link</a>
-' react='' />
-</codeblock>

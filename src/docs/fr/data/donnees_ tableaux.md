@@ -61,38 +61,38 @@ Cellule du tableau : l’information de la cellule du tableau est affichée en u
   </tbody>
 </table>
 
-<codeblock html='
-        <table class="table">
-        <thead>
-            <tr>
+```html
+<table class="table">
+    <thead>
+        <tr>
             <th scope="col">#</th>
             <th scope="col">Prénom</th>
             <th scope="col">Nom de famille</th>
             <th scope="col">Compte</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
             <th scope="row">1</th>
             <td>Mark</td>
             <td>Otto</td>
             <td>@mdo</td>
-            </tr>
-            <tr>
+        </tr>
+        <tr>
             <th scope="row">2</th>
             <td>Jacob</td>
             <td>Thornton</td>
             <td>@fat</td>
-            </tr>
-            <tr>
+        </tr>
+        <tr>
             <th scope="row">3</th>
             <td>Larry</td>
             <td>the Bird</td>
             <td>@twitter</td>
-            </tr>
-        </tbody>
-    </table>
-' react=''></codeblock>
+        </tr>
+    </tbody>
+</table>
+```
 
 ## Tableau rayé
 
@@ -140,38 +140,38 @@ Chaque seconde rangée a un remplissage de <badge style="background-color: #F2F5
     </tbody>
 </table>
 
-<codeblock html='
-    <table class="table table-striped">
-        <thead>
-            <tr>
+```html
+<table class="table table-striped">
+    <thead>
+        <tr>
             <th scope="col">#</th>
             <th scope="col">Prénom</th>
             <th scope="col">Nom de famille</th>
             <th scope="col">Compte</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
             <th scope="row">1</th>
             <td>Mark</td>
             <td>Otto</td>
             <td>@mdo</td>
-            </tr>
-            <tr>
+        </tr>
+        <tr>
             <th scope="row">2</th>
             <td>Jacob</td>
             <td>Thornton</td>
             <td>@fat</td>
-            </tr>
-            <tr>
+        </tr>
+        <tr>
             <th scope="row">3</th>
             <td>Larry</td>
             <td>the Bird</td>
             <td>@twitter</td>
-            </tr>
-        </tbody>
-    </table>
-' react=''></codeblock>
+        </tr>
+    </tbody>
+</table>
+```
 
 ## Tableau de données
 

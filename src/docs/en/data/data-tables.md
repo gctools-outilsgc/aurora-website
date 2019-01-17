@@ -61,38 +61,38 @@ Table Cell: Table cell information is displayed using regular text style (Nunito
   </tbody>
 </table>
 
-<codeblock html='
-        <table class="table">
-        <thead>
-            <tr>
+```html
+<table class="table">
+    <thead>
+        <tr>
             <th scope="col">#</th>
             <th scope="col">First name</th>
             <th scope="col">Last name</th>
             <th scope="col">Handle</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
             <th scope="row">1</th>
             <td>Mark</td>
             <td>Otto</td>
             <td>@mdo</td>
-            </tr>
-            <tr>
+        </tr>
+        <tr>
             <th scope="row">2</th>
             <td>Jacob</td>
             <td>Thornton</td>
             <td>@fat</td>
-            </tr>
-            <tr>
+        </tr>
+        <tr>
             <th scope="row">3</th>
             <td>Larry</td>
             <td>the Bird</td>
             <td>@twitter</td>
-            </tr>
-        </tbody>
-    </table>
-' react=''></codeblock>
+        </tr>
+    </tbody>
+</table>
+```
 
 ## Striped Table
 
@@ -140,38 +140,38 @@ Every second row has a fill of <badge style="background-color: #F2F5F6;color:bla
     </tbody>
 </table>
 
-<codeblock html='
-    <table class="table table-striped">
-        <thead>
-            <tr>
+```html
+<table class="table table-striped">
+    <thead>
+        <tr>
             <th scope="col">#</th>
             <th scope="col">First name</th>
             <th scope="col">Last name</th>
             <th scope="col">Handle</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
             <th scope="row">1</th>
             <td>Mark</td>
             <td>Otto</td>
             <td>@mdo</td>
-            </tr>
-            <tr>
+        </tr>
+        <tr>
             <th scope="row">2</th>
             <td>Jacob</td>
             <td>Thornton</td>
             <td>@fat</td>
-            </tr>
-            <tr>
+        </tr>
+        <tr>
             <th scope="row">3</th>
             <td>Larry</td>
             <td>the Bird</td>
             <td>@twitter</td>
-            </tr>
-        </tbody>
-    </table>
-' react=''></codeblock>
+        </tr>
+    </tbody>
+</table>
+```
 
 ## Interactive Data Table
 

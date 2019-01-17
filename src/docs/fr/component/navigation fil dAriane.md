@@ -19,7 +19,37 @@ Le fil d’Ariane de ce système de conception est fondé sur l’emplacement, c
 
 Le fil d’Ariane devrait être complémentaire à la navigation principale et ne devrait jamais être utilisé pour remplacer l’ensemble des éléments de navigation. Il est subtil et ne devrait pas dominer visuellement sur la page. Tous les éléments de la liste du fil d’Ariane doivent être des liens, sauf le dernier élément.
 
+<documentationtabs remove="react">
+      <doctabpanel type="html">
+          
+Le fil d’Ariane indique l’emplacement de la page actuelle dans la hiérarchie de navigation.
+
+<breadcrumb>
+    <breadcrumbitem><a href="#">Page principale</a></breadcrumbitem>
+    <breadcrumbitem><a href="#">Page secondaire</a></breadcrumbitem>
+    <breadcrumbitem active="true">Page actuelle</breadcrumbitem>
+</breadcrumb>
+
+```html
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Page principale</a></li>
+        <li class="breadcrumb-item"><a href="#">Page secondaire</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Page actuelle</li>
+    </ol>
+</nav>
+```
+
+## Considerations d'accessibilité
+
+Vu que le fil d’Ariane fournit une fonction de navigation, il peut être bon d’ajouter une étiquette utile comme `aria-label="breadcrumb"` pour décrire le type de navigation fournie dans l’élément `<nav>`, ainsi qu’`aria-current="page"` au dernier élément de l’ensemble pour indiquer qu’il représente la page actuelle.
+
+
+</doctabpanel>
+    <doctabpanel type="design">
+          
 Le fil d’Ariane dans le système de conception est comme suit :
+
 
 Chaque couche du fil d’Ariane est stylisée à l’aide du texte de lien. Le dernier élément n’est jamais un lien puisqu’il s’agit de la page actuelle et qu’il n’est pas cliquable. Le dernier élément est stylisé à l’aide du texte normal.
 
@@ -33,18 +63,7 @@ Chaque couche a un espacement de 12 px de chaque côté du chevron.
     <breadcrumbitem active="true">Page actuelle</breadcrumbitem>
 </breadcrumb>
 
-<codeblock html='
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Page principale</a></li>
-            <li class="breadcrumb-item"><a href="#">Page secondaire</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Page actuelle</li>
-        </ol>
-    </nav>
-' react='
-<Breadcrumb>
-    <BreadCrumbItem><a href="#">Page principale</a></BreadCrumbItem>
-    <BreadCrumbItem><a href="#">Page secondaire</a></BreadCrumbItem>
-    <BreadCrumbItem active="true">Page actuelle</BreadCrumbItem>
-</Breadcrumb>
-'></codeblock>
+</doctabpanel>
+    </documentationtabs>
+
+

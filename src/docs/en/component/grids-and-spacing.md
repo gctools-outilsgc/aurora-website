@@ -2,7 +2,7 @@
 path: "/component/grids-and-spacing"
 subnav: "2/Standard/Standard/7"
 lang: "en"
-title: "Grids and Spacing"
+title: "Grids and spacing"
 ---
 <helmet>
 <title> Grids and Spacing - Aurora Design System </title>
@@ -21,42 +21,34 @@ The grid framework contains 12 columns that scale according to the viewport of t
 ### Equal-width
 
 If the size of columns are not defined, they will automatically be set to equal widths.
-
+ 
 <container style="width: 100%; margin-bottom: 20px">
     <row>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 1</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 2</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 3</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 4</button></mdcol>
+        <mdcol className="mb-2 gr-example"> Column 1 </mdcol>
+        <mdcol className="mb-2 gr-example"> Column 2</mdcol>
+        <mdcol className="mb-2 gr-example"> Column 3</mdcol>
+        <mdcol className="mb-2 gr-example">Column 4</mdcol>
     </row>
 </container>
 
-<codeblock react='
-<Container style="width: 100%">
-    <Row>
-        <Col><Button color="primary" style="width: 100%">Col 1</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Col 2</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Col 3</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Col 4</Button></Col>
-    </Row>
-</Container> ' html='
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">Col 1</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">Col 2</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">Col 3</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">Col 3</button>
-            </div>
-        </div>
+```html
+<div class="container">
+  <div class="row">
+    <div class="col">
+     Column 1
     </div>
-'></codeblock>
+    <div class="col">
+      Column 2
+    </div>
+    <div class="col">
+      Column 3
+    </div>
+    <div class="col">
+      Column 4
+    </div>
+  </div>
+</div>
+```
 
 ### Unequal-width
 
@@ -64,38 +56,31 @@ When you set the size for one column, sibling columns will automatically resize.
 
 <container style="width: 100%; margin-bottom: 20px">
     <row>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 1</button></mdcol>
-        <mdcol xs="6" className="mb-2"><button outline="true" color="primary" style="width: 100%">Col 2</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 3</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 4</button></mdcol>
+        <mdcol xs="6" className="mb-2 gr-example"> Column 1 </mdcol>
+        <mdcol className="mb-2 gr-example"> Column 2</mdcol>
+        <mdcol className="mb-2 gr-example"> Column 3</mdcol>
+        <mdcol className="mb-2 gr-example">Column 4</mdcol>
     </row>
 </container>
 
-<codeblock html='
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">Col 1</button>
-            </div>
-            <div class="col-6">
-                <button type="button" class="btn btn-outline-primary btn-block">Col 2</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">Col 3</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">Col 3</button>
-            </div>
-        </div>
-    </div>' react='
-<Container style="width: 100%">
-    <Row>
-        <Col><Button color="primary" style="width: 100%">Col 1</Button></Col>
-        <Col xs="6"><Button outline="true" color="primary" style="width: 100%">Col 2</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Col 3</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Col 4</Button></Col>
-    </Row>
-</Container> '></codeblock>
+```html
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+     Column 1
+    </div>
+    <div class="col">
+      Column 2
+    </div>
+    <div class="col">
+      Column 3
+    </div>
+    <div class="col">
+      Column 4
+    </div>
+  </div>
+</div>
+```
 
 ### Variable Width Content
 
@@ -103,38 +88,31 @@ You can set columns to automatically fit the content they contain. Sibling colum
 
 <div class="container">
     <div class="row">
-        <mdcol className="mb-2"><button color="primary" class="btn-block">Col 1</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" class="btn-block">Col 2</button></mdcol>
-        <mdcol xs="auto" className="mb-2"><button color="primary" class="btn-block">This is the third and largest column due to auto-sizing</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" class="btn-block">Col 4</button></mdcol>
+        <mdcol className="mb-2 gr-example">Column 1</mdcol>
+        <mdcol className="mb-2 gr-example">Column 2</mdcol>
+        <mdcol xs="auto" className="mb-2 gr-example">This is the third and largest column due to auto-sizing</mdcol>
+        <mdcol className="mb-2 gr-example">Column 4</mdcol>
     </div>
 </div>
 
-<codeblock html='
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">Col 1</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">Col 2</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">This is the third and largest column due to auto-sizing</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">Col 4</button>
-            </div>
-        </div>
-    </div>' react='
-<Container style="width: 100%">
-    <Row>
-        <Col><Button color="primary" style="width: 100%">Col 1</Button></Col>
-        <Col xs="6"><Button outline="true" color="primary" style="width: 100%">Col 2</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Col 3</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Col 4</Button></Col>
-    </Row>
-</Container> '></codeblock>
+```html
+<div class="container">
+  <div class="row">
+    <div class="col">
+     Column 1
+    </div>
+    <div class="col">
+      Column 2
+    </div>
+    <div class="col">
+      This is the third and largest column due to auto-sizing
+    </div>
+    <div class="col">
+      Column 4
+    </div>
+  </div>
+</div>
+```
 
 ### Equal-width Multi-row
 
@@ -142,62 +120,56 @@ Multiple equal columns and rows can be set with a line break.
 
 <container style="width: 100%; margin-bottom: 20px">
     <row>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 1</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 2</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 3</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 4</button></mdcol>
+        <mdcol className="mb-2 gr-example">Column 1</mdcol>
+        <mdcol className="mb-2 gr-example">Column 2</mdcol>
+        <mdcol className="mb-2 gr-example">Column 3</mdcol>
+        <mdcol className="mb-2 gr-example">Column 4</mdcol>
     </row>
     <row style="margin-top: 10px">
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 1</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 2</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 3</button></mdcol>
-        <mdcol className="mb-2"><button color="primary" style="width: 100%">Col 4</button></mdcol>
+        <mdcol className="mb-2 gr-example">Column 1</mdcol>
+        <mdcol className="mb-2 gr-example">Column 2</mdcol>
+        <mdcol className="mb-2 gr-example">Column 3</mdcol>
+        <mdcol className="mb-2 gr-example">Column 4</mdcol>
     </row>
 </container>
 
-<codeblock html='
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">Col 1</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">Col 2</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">Col 3</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">Col 4</button>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">Col 1</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">Col 2</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">Col 3</button>
-            </div>
-            <div class="col-sm">
-                <button type="button" class="btn btn-primary btn-block">Col 4</button>
-            </div>
-        </div>
+```html
+<div class="container">
+  <div class="row">
+    <div class="col">
+     Column 1
     </div>
-' react='
-<Container style="width: 100%">
-    <Row>
-        <Col><Button color="primary" style="width: 100%">Col 1</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Col 2</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Col 3</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Col 4</Button></Col>
-    </Row>
-    <Row style="margin-top: 10px">
-        <Col><Button color="primary" style="width: 100%">Col 1</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Col 2</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Col 3</Button></Col>
-        <Col><Button color="primary" style="width: 100%">Col 4</Button></Col>
-    </Row>
-</Container> '></codeblock>
+    <div class="col">
+      Column 2
+    </div>
+    <div class="col">
+      Column 3
+    </div>
+    <div class="col">
+      Column 4
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+     Column 1
+    </div>
+    <div class="col">
+      Column 2
+    </div>
+    <div class="col">
+      Column 3
+    </div>
+    <div class="col">
+      Column 4
+    </div>
+  </div>
+</div>
+```
+
+
+          
+
+
+
+
+

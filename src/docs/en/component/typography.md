@@ -78,7 +78,7 @@ Paragraph text uses the colours <badge style="background-color: #252525">#252525
 
 ### Line-Breaking
 
-The DCD design system is consistent with the following best practices for line-breaks:
+The Aurora design system is consistent with the following best practices for line-breaks:
 
 • Avoid hyphenation at the end of a line.
 
@@ -103,10 +103,10 @@ See [_Colour_](colour.md) for more information on choosing accessible colours fo
 <p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> " What an awesome pull quote! "</p>
 </div>
 
-<codeblock html='
-    <p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> " What an awesome pull quote! "</p>
-' react=''></codeblock>
-
+```html
+<p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> " What an awesome pull quote! "</p>
+```
+   
 ## Lists
 
 There are three different types of lists:

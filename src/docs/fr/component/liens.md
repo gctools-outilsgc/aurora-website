@@ -14,6 +14,7 @@ title: "Liens"
 ## Quand utiliser un lien
 
 Les boutons et les liens servent à différentes fins : les boutons sont utilisés pour les actions, tandis que les liens servent à la navigation. Évitez d’utiliser des liens pour indiquer des actions, même si elles sont secondaires. Il faut utiliser des liens lorsqu’un utilisateur est dirigé vers une nouvelle section, une nouvelle page ou un nouveau site Web.
+
 En règle générale, si l’utilisateur apporte des changements à l’arrière ou à l’avant du site en cliquant, vous devriez utiliser un bouton. Si l’utilisateur est dirigé à une page différente, vous pouvez utiliser un lien.
 
 ## Liens externes
@@ -36,7 +37,3 @@ Il y a d’autres options de couleur pour les liens visités. Les pratiques exem
 
 <a href="#">C'est un lien</a>
 
-<codeblock html='
-    <a href="#">Cest un lien</a>
-' react='' />
-</codeblock>

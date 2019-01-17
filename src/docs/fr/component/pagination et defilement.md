@@ -23,6 +23,111 @@ Vous devriez organiser la structure de la page afin que l’information la plus 
 
 La pagination divise le contenu en plusieurs pages distinctes. Il est préférable d’utiliser la pagination lorsque l’utilisateur tente d’accomplir un objectif, par exemple pour essayer de trouver un article à partir d’une liste. Diviser le contenu de la liste en plusieurs pages empêche l’utilisateur de se sentir dépassé. Un utilisateur peut voir la taille de l’ensemble de données, de sorte qu’il sait à quel point il y a plus de contenu à examiner. La pagination permet également à l’utilisateur de se sentir plus en contrôle du contenu qu’il observe vu qu’il peut décider si, oui ou non, il cliquera vers la page suivante. Chaque clic devrait mener l’utilisateur plus près de la réalisation de son objectif.
 
+ <documentationtabs remove="react">
+    <doctabpanel type="html">
+          
+
+## Aperçu
+
+On se sert d’un bloc important de liens connectés pour la pagination, ce qui permet de veiller à ce que les liens soient difficiles à manquer et faciles à appliquer sur une échelle supérieure. De plus, cela assure une zone cible plus importante. La pagination est conçue à l’aide d’une liste d’éléments HTML afin que les lecteurs d’écran puissent indiquer le nombre de liens accessibles. Utilisez un élément enveloppeur `<nav>` pour l’identifier comme section de navigation aux lecteurs d’écran et aux autres technologies d’assistance. 
+
+De plus, vu que les pages ont probablement plus d’une telle section de navigation, il est recommandé de fournir une étiquette descriptive aria pour illustrer l’objectif de la composante `<nav>`. À titre d’exemple, si un élément de pagination est utilisé pour naviguer entre un ensemble de résultats de recherche, une étiquette adéquate pourrait être `aria-label="Search results pages "`.
+
+
+<nav aria-label="Page navigation pages">
+    <ul class="pagination">
+        <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+        </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+        </a>
+        </li>
+    </ul>
+</nav>
+
+```html
+<nav aria-label="Page navigation pages"> 
+    <ul class="pagination">
+        <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+        </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+        </a>
+        </li>
+    </ul>
+</nav>
+```
+
+Vous souhaitez utiliser une icône ou un symbole plutôt que du texte pour certains liens de pagination? Assurez vous de fournir le soutien de lecteur d’écran adéquat avec des attributs `aria` et l'utilité `.sr-only`.
+
+## États activé et désactivé
+
+Les liens de pagination sont personnalisables, afin de répondre à différentes circonstances. Utilisez `.disabled` pour des liens qui semblent impossibles à cliquer et `.active` pour indiquer la page actuelle.
+
+Bien que la classe .disabled utilise `pointer-events: none` pour essayer de désactiver la fonctionnalité de lien des `<a>`, cette propriété CSS n’est pas encore normalisée et ne tient pas compte de la navigation au clavier. Ainsi, vous devriez toujours ajouter `tabindex="-1"` aux liens désactivés et utiliser le langage JavaScript personnalisé pour complètement désactiver leur fonctionnalité. 
+
+Vous avez la possibilité d’échanger des points d’ancrage actifs et inactifs par `<span>`, ignorer le point d’ancrage dans le cas des flèches « précédent » ou « suivant » ou supprimer la fonctionnalité du clic et empêcher la cible du clavier tout en conservant les styles souhaités.
+
+
+<nav aria-label="Page navigation pages">
+    <ul class="pagination">
+        <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1" aria-label="Previous">
+            <span>Previous</span>
+        </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item active"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+            <span>Next</span>
+        </a>
+        </li>
+    </ul>
+</nav>
+
+```html
+<nav aria-label="Page navigation pages">
+    <ul class="pagination">
+        <li class="page-item disabled">
+        <a class="page-link" href="#" tabindex="-1" aria-label="Previous">
+        <span>Previous</span>
+        </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item active"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+        <span>Next</span>
+        </a>
+        </li>
+    </ul>
+</nav>
+```
+
+</doctabpanel>
+    <doctabpanel type="design">
+          
 La pagination est conçue comme suit :
 
 Le bouton secondaire sur la gauche disant « précédent ». Des nombres au milieu et un autre bouton secondaire sur la droite disant « suivant ».
@@ -69,63 +174,6 @@ Le numéro de la page active est indiqué dans un rectangle avec un remplissage 
     </paginationitem>
 </pagination>
 
-<codeblock
-    react='
-    <Pagination>
-        <PaginationItem>
-          <PaginationLink previous href="#" />
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink href="#">
-            1
-          </PaginationLink>
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink href="#">
-            2
-          </PaginationLink>
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink href="#">
-            3
-          </PaginationLink>
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink href="#">
-            4
-          </PaginationLink>
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink href="#">
-            5
-          </PaginationLink>
-        </PaginationItem>
-        <PaginationItem>
-          <PaginationLink next href="#" />
-        </PaginationItem>
-    </Pagination>'
-    html='
-    <nav>
-        <ul class="pagination">
-            <li class="page-item">
-            <a class="page-link" href="#" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-                <span class="sr-only">Previous</span>
-            </a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item">
-            <a class="page-link" href="#" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-                <span class="sr-only">Next</span>
-            </a>
-            </li>
-        </ul>
-    </nav>'>
-</codebloack>
-
 ## Pratiques exemplaires
 
 Par l’intermédiaire de la pagination, un utilisateur devrait être en mesure de comprendre la quantité de contenu présent; vous devriez inclure un lien vers la dernière page du contenu dans la barre de pagination, à moins que l’ensemble de données varie en taille. Incluez également un lien menant à la première page sur chaque page.
@@ -133,3 +181,6 @@ Par l’intermédiaire de la pagination, un utilisateur devrait être en mesure 
 Chaque page doit contenir la même quantité d’objets, vous voudrez peut-être inclure une option pour l’utilisateur de changer la façon dont de nombreux objets sont présentés sur chaque page. Selon le type de contenu, vous pouvez vouloir permettre aux utilisateurs de filtrer et d’organiser sur quelle page les objets apparaissent.
 
 L’utilisateur doit être en mesure de dire clairement sur quelle page il se trouve. Placez ce nombre au milieu de la barre de pagination et donnez-lui le plus lourd poids visuel. L’utilisateur doit également être en mesure de voir quelles pages de contenu il a déjà vues de sorte qu’il n’a pas besoin de revoir le contenu qu’il a déjà vu. Vous pouvez montrer cela en changeant la couleur, habituellement une couleur secondaire, des pages déjà visitées et des pages que l’utilisateur n’a pas encore visitées.
+
+</doctabpanel>
+    </documentationtabs>

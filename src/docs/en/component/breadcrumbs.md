@@ -19,8 +19,34 @@ The breadcrumbs in this design system are location-based, which is a representat
 
 Breadcrumbs should be complimentary to primary navigation and should never be used to replace overall navigation elements. Breadcrumbs are subtle and should not take visual prominence over the page. All items in the breadcrumb list should be links except for the last item.
 
-Breadcrumbs in this design system are as follows:
+<documentationtabs remove="react">
+      <doctabpanel type="html">
+          
+Breadcrumbs indicate the current page's location within a navigational hierarchy. 
 
+<breadcrumb>
+    <breadcrumbitem><a href="#">First Page</a></breadcrumbitem>
+    <breadcrumbitem><a href="#">Second Page</a></breadcrumbitem>
+    <breadcrumbitem active="true">Current Page</breadcrumbitem>
+</breadcrumb>
+
+```html
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">First Page</a></li>
+        <li class="breadcrumb-item"><a href="#">Second Page</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Current Page</li>
+    </ol>
+</nav>
+```
+
+## Accessibility Considerations
+Since breadcrumbs provide a navigation, it’s a good idea to add a meaningful label such as `aria-label="breadcrumb"` to describe the type of navigation provided in the `<nav>` element, as well as applying an `aria-current="page"` to the last item of the set to indicate that it represents the current page.
+
+</doctabpanel>
+    <doctabpanel type="design">
+          
+Breadcrumbs in this design system are as follows:
 
 Each layer of breadcrumbs is styled using link text. The last item is never a link since it is the current page and not clickable. The last item is styled using standard text.
 
@@ -34,18 +60,7 @@ Each layer has spacing of 12px on either side of the chevron.
     <breadcrumbitem active="true">Current Page</breadcrumbitem>
 </breadcrumb>
 
-<codeblock html='
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">First Page</a></li>
-            <li class="breadcrumb-item"><a href="#">Second Page</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Current Page</li>
-        </ol>
-    </nav>
-' react='
-<Breadcrumb>
-    <BreadCrumbItem><a href="#">First Page</a></BreadCrumbItem>
-    <BreadCrumbItem><a href="#">Page secondaire</a></BreadCrumbItem>
-    <BreadCrumbItem active="true">Second Page</BreadCrumbItem>
-</Breadcrumb>
-'></codeblock>
+</doctabpanel>
+    </documentationtabs>
+
+
