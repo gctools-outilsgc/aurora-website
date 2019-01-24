@@ -97,7 +97,7 @@ If you choose to include a secondary colour palette to your application, here ar
 
 Elements in this system use a clean and colourful palette that communicates the brand and the values of the Open and Accessible Digital Workspace. 
 
-Our primary palette uses a mix or blue and green that communicates trust but adds a colourful pop to our collaboration and productivity applications. 
+Our primary palette uses a mix of blue and green hues that communicate trust but adds a colourful pop to our collaboration and productivity applications. 
 
 The primary palette used in this system is titled **Aurora Borealis** and uses the following hex codes:
 
