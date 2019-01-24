@@ -13,13 +13,11 @@ title: "Colour"
 
 ## Palettes
 
-Colour palettes consist of an array of colours that are used consistently within your particular application. Colour palettes are designed to work harmoniously with each other often incorporating primary colours, and secondary accent colours that are used to add variety and visual appeal to your application. The colour palette starts with primary colours, and builds on hues of that colour to create a complete and usable palette.
-
-Themes enable consistent application styling through surface shades, shadow depth and ink opacity.
-
-We have created other sample colour palettes that you may wish to use in your own system. Please see each swatch for corresponding text colour.
+Colour palettes consist of an array of colours that are used consistently within your particular application. Colour palettes typically include a primary colour, a secondary colour and three accent colours. These colours are used to add variety and visual appeal to the main components of your application. 
 
 All colour palettes provided in this system meet WCAG 2.1 Standards for colour contrast if used with the correct text colours provided. 
+
+Below are some sample palettes that can be used in your application:
 
 ### Aurora Borealis
 
@@ -27,7 +25,7 @@ The colour palette used for the Government of Canada's Open, Accessible Digital 
 
 Hex codes :
 
- <badge style="background-color: #000A3D;">#000A3D</badge>, <badge style="background-color: #467B8D;">#467B8D</badge>, <badge style="background-color: #5DC1BE;color: black; ">#5DC1BE</badge>, <badge style="background-color: #55C0A3; color:black;">#55C0A3</badge>, <badge style="background-color: #ADE18D; color:black;">#ADE18D</badge>
+ <badge style="background-color: #000A3D;">#000A3D</badge>, <badge style="background-color: #137991;">#137991</badge>, <badge style="background-color: #5DC1BE;color: black; ">#5DC1BE</badge>, <badge style="background-color: #55C0A3; color:black;">#55C0A3</badge>, <badge style="background-color: #ADE18D; color:black;">#ADE18D</badge>
 
 ### Canada.ca Theme
 
@@ -71,12 +69,29 @@ Hex codes :
 
 ## Applying Your Own Palettes
 
-When creating your application or website you can apply your own colour palettes to various elements. When putting together your own colour combinations, it is recommended that you choose at least one primary colour, two or three secondary colours that are similar and an accent colour.
+When creating your application or website you can apply your own colour palettes to various elements. When putting together your own colour combinations, it is recommended that you choose at least one primary colour, a secondary colour and threee accent colours. 
 
-For Government of Canada applications it is required that all colours meet the WCAG AA accessibility level, though AAA is ideal. You can use [online contrast checkers](https://webaim.org/resources/contrastchecker/) to ensure that the colours you choose meet accessibility standards when combined with text.
+For Government of Canada applications it is required that all colours meet the WCAG AA accessibility level for contrast, though AAA is ideal. You can use [online contrast checkers](https://webaim.org/resources/contrastchecker/) to ensure that the colours you choose meet accessibility standards when combined with text.
 
 Once chosen, you can apply your own colours simply by modifying the hex codes in your CSS for various elements.
 
+### Primary Palettes
+
+Primary colour palettes are the main colours used on your application. These colours are used on all major components that make up your application including buttons, badges, progress indicators etc. You want the use of these colours to be consistent across your application. For example, all primary buttons in an application should use the same colour. 
+
+A primary colour palette typically includes 5 different hues: a primary colour, secondary colour, and three accent colours. 
+
+### Secondary or Complementary Palettes
+
+Secondary colour palettes are completely optional and may provide designers with additional colours to play with on an application. These secondary palettes are often used in small quantities to draw attention to key pieces on web pages and for visual diversity and aesthetic purposes. 
+
+These colours should only be applied to visual elements that enhance the appearance of the page. They should never be used on elements which communicate information visually, either for task completion or the structure of the page.
+
+If you choose to include a secondary colour palette to your application, here are some places where you can use these additional colours:
+- Logos or Icons
+- Images
+- Graphics
+- Other elements used for visual enhancements 
 
 ## Colours Used in This System
 
@@ -84,9 +99,12 @@ Elements in this system use a simple and neutral colour palette that works well 
 
 Throughout the design system, documentation about elements will specify which colour is used.
 
-The palette used in this system is titled **Aurora Borealis** and uses the following hex codes:
+The primary palette used in this system is titled **Aurora Borealis** and uses the following hex codes:
 
-<badge style="background-color: #000A3D;">#000A3D</badge>, <badge style="background-color: #467B8D;">#467B8D</badge>, <badge style="background-color: #5DC1BE;color:black;">#5DC1BE</badge>, <badge style="background-color: #55C0A3;color:black;">#55C0A3</badge>, <badge style="background-color: #ADE18D;color:black;">#ADE18D</badge>
+<badge style="background-color: #000A3D;">#000A3D</badge>, <badge style="background-color: #137991;">#137991</badge>, <badge style="background-color: #5DC1BE;color:black;">#5DC1BE</badge>, <badge style="background-color: #55C0A3;color:black;">#55C0A3</badge>, <badge style="background-color: #ADE18D;color:black;">#ADE18D</badge>
+
+Our secondary palette is titled (name) and includes 5 hues for additional visual diversity: 
+
 
 
 ## Text Colours
