@@ -21,7 +21,7 @@ Below are some sample palettes that can be used in your application:
 
 ### Aurora Borealis
 
-The colour palette used for the Government of Canada's Open, Accessible Digital Workspace (GCTools). 
+The colour palette used for the Government of Canada's Open and Accessible Digital Workspace (GCTools). 
 
 Hex codes :
 
@@ -93,19 +93,21 @@ If you choose to include a secondary colour palette to your application, here ar
 - Graphics
 - Other elements used for visual enhancements 
 
-## Colours Used in This System
+## Colours Used in Aurora
 
-Elements in this system use a simple and neutral colour palette that works well across multiple applications with various branding styles.
+Elements in this system use a clean and colourful palette that communicates the brand and the values of the Open and Accessible Digital Workspace. 
 
-Throughout the design system, documentation about elements will specify which colour is used.
+Our primary palette uses a mix or blue and green that communicates trust but adds a colourful pop to our collaboration and productivity applications. 
 
 The primary palette used in this system is titled **Aurora Borealis** and uses the following hex codes:
 
 <badge style="background-color: #000A3D;">#000A3D</badge>, <badge style="background-color: #137991;">#137991</badge>, <badge style="background-color: #5DC1BE;color:black;">#5DC1BE</badge>, <badge style="background-color: #55C0A3;color:black;">#55C0A3</badge>, <badge style="background-color: #ADE18D;color:black;">#ADE18D</badge>
 
-Our secondary palette is titled (name) and includes 5 hues for additional visual diversity: 
+(More about secondary palette here e.g. why did we choose these colours, what does it communicate)
 
+Our secondary palette is titled (name) and includes five additional hues for visual diversity: 
 
+(hex codes)
 
 ## Text Colours
 
