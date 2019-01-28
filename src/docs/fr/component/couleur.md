@@ -12,13 +12,11 @@ title: "Couleur"
 # Couleur
 ## Palettes
 
-Les palettes de couleurs se composent de toute une gamme de couleurs utilisées de façon uniforme dans votre application particulière. Les palettes de couleurs sont conçues pour fonctionner harmonieusement les unes avec les autres, en incorporant souvent des couleurs primaires et de contrastes secondaires, qui sont utilisées pour ajouter de la variété et de l’attrait visuel à votre application. La palette de couleurs commence avec les couleurs primaires, et s’appuie sur des teintes de couleurs pour créer une palette complète et utilisable.
-
-Des thèmes permettent une application uniforme par les nuances de surface, la profondeur d’ombre et l’opacité de l’encre.
-
-Nous avons créé d’autres échantillons de palettes de couleurs que vous pouvez utiliser dans votre propre système. Veuillez voir chaque échantillon pour la couleur de texte correspondante.
+Les palettes de couleurs se composent de toute une gamme de couleurs utilisées de façon uniforme dans votre application particulière. Les palettes de couleurs sont conçues pour fonctionner harmonieusement les unes avec les autres, en incorporant souvent une couleur primaire deux couleurs secondaires et trois coleurs d'accént. Ces couleurs sont utilisées pour ajouter de la variété et de l’attrait visuel à votre application. .
 
 Toutes les palettes de couleurs fournies dans ce système sont conformes aux Règles pour l’accessibilité des contenus Web (WCAG) 2.1 pour le contraste des couleurs si elles sont utilisées avec les bonnes couleurs de texte fournies.
+
+Voici quelques exemples de palettes qui peuvent être utilisées dans votre application :
 
 ### Aurore boréale
 
@@ -74,20 +72,46 @@ Codes hexadécimaux:
 <badge style="background-color: #0278A4; color:white">#0278A4</badge> <badge style="background-color: #4E474; color:white">#4E474</badge> <badge style="background-color: #83C3F2; color:black">#83C3F2</badge> <badge style="background-color: #C9DF61; color: black">#C9DF61</badge> <badge style="background-color: #C1D699; color: black">#C1D699</badge>
 
 ## Appliquer vos propres palettes
-Lors de la création de votre application ou site Web, vous pouvez appliquer votre propre palette de couleur à divers éléments. Lorsque vous préparez votre combinaison de couleurs, il est recommandé de choisir au moins une couleur primaire, deux ou trois couleurs secondaires qui sont semblables et une couleur de contraste.
+
+Lors de la création de votre application ou site Web, vous pouvez appliquer votre propre palette de couleur à divers éléments. Lorsque vous préparez votre combinaison de couleurs, il est recommandé de choisir au moins une couleur primaire, une couleur secondaire, et trois couleurs d'accént. 
 
 Pour les applications du gouvernement du Canada, il est exigé que toutes les couleurs répondent au niveau d’accessibilité WCAG AA, bien qu’AAA soit idéal. Vous pouvez utiliser le [vérificateur de contraste en ligne](https://webaim.org/resources/contrastchecker/) afin d’assurer que les couleurs choisies répondent aux normes d’accessibilité une fois combinées avec le texte.
 
 Vous pouvez appliquer vos propres couleurs une fois que vous les avez choisies tout simplement en modifiant les codes hexadécimaux dans votre CSS pour divers éléments.
 
-## Les couleurs utilisées dans ce système
-Les éléments dans ce système utilisent une palette de couleur simple et neutre qui fonctionne bien dans l’ensemble des applications multiples avec divers styles de l’image de marque.
+### Palettes primaires
 
-Dans tout le système de conception, de la documentation sur les éléments précisera la couleur qui est utilisée.
+Les palettes de couleurs primaires sont les principales couleurs utilisées dans votre application. Ces couleurs sont utilisées sur toutes les composantes principales de votre application, y compris les boutons, les pastilles, les indicateurs d’état, etc. 
+
+Il faut que l’utilisation de ces couleurs soit uniforme dans l’ensemble de votre application. À titre d’exemple, tous les boutons principaux d’une application doivent être de la même couleur. 
+
+Une palette de couleurs primaire comprend habituellement cinq teintes différentes : une couleur primaire, une couleur secondaire et trois couleurs accent. 
+
+### Palettes secondaires ou complémentaires
+
+Les palettes de couleurs secondaires sont entièrement facultatives et peuvent fournir aux concepteurs des couleurs supplémentaires avec lesquelles ils peuvent jouer dans une application. Ces palettes secondaires sont souvent utilisées en petites quantités pour attirer l’attention sur des éléments clés des pages Web et à des fins esthétiques et de diversité visuelle. 
+
+Ces couleurs ne doivent être appliquées qu’aux éléments visuels qui rehaussent l’apparence de la page. Ils ne doivent jamais être utilisés sur des éléments qui communiquent de l’information visuellement, que ce soit pour l’exécution des tâches ou la structure de la page.
+
+Si vous choisissez d’ajouter une palette de couleurs secondaire à votre application, voici quelques endroits où vous pouvez utiliser ces couleurs supplémentaires :
+* Logos ou icônes
+* Images
+* Graphiques
+* Autres éléments utilisés pour les améliorations visuelles 
+
+
+## Couleurs utilisées dans Aurora
+
+Les éléments de ce système utilisent une palette nette et colorée qui communique la marque et les valeurs de l’espace de travail numérique libre et accessible. 
+
+Notre palette primaire utilise un mélange de teintes de bleu et de vert qui communique la confiance, mais ajoute une touche colorée à nos applications de collaboration et de productivité
 
 La palette de couleurs utilisées dans ce système est intitulée **Aurore boréale** et utilise les codes hexadécimaux suivants :
 
 <badge style="background-color: #000A3D">#000A3D</badge> <badge style="background-color: #467B8D">#467B8D</badge>, <badge style="background-color: #5DC1BE; color:black">#5DC1BE</badge>, <badge style="background-color: #55C0A3; color:black">#55C0A3</badge>, <badge style="background-color: #ADE18D; color: black">#ADE18D</badge>
+
+Notre palette secondaire est intitulée (nom) et comprend cinq teintes pour une diversité visuelle supplémentaire : 
+(codes hex ici)
 
 ## Couleurs de texte
 
