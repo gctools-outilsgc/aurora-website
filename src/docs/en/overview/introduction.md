@@ -38,7 +38,7 @@ Aurora design system is open for anyone to use! It was originally created to hel
 
 ## How to contribute
 
-You can help us with the ongoing development of Aurora design system by contributing to our [GitHub repository!](https://github.com/gctools-outilsgc/design-system)
+You can help us with the ongoing development of Aurora design system by contributing to our [GitHub repository!](https://github.com/gctools-outilsgc/design-system-code)
 
 You can post comments with design or content suggestions via GitHub Issues.
 
