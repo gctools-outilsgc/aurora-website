@@ -20,7 +20,6 @@ Aurora is part of an ecosystem of web design resources and standards within the 
 * [Canada.ca Theme, WET](https://github.com/wet-boew/GCWeb)
 * [Canada.ca Content Style Guide](https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-style-guide.html)
 * [Canada.ca Information Architecture Specification](https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification.html)
-* [Canada.ca, Templates](https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/canada-content-information-architecture-specification/templates-detailed-specifications.html)
 * [Canada.ca Analytics](https://www.canada.ca/en/analytics.html)
 * [Canada.ca, Top tasks](https://www.canada.ca/en/government/about/top-tasks-for-canada-ca.html)
 * [Github, GCTools Organization](https://github.com/gctools-outilsgc)
