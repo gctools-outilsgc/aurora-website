@@ -35,7 +35,7 @@ N’importe qui peut se servir du système de conception Aurora! Au départ, il 
 
 ## Comment y contribuer
 
-En contribuant au répertoire GitHub, vous nous aidez à assurer l’élaboration soutenue du système de conception Aurora!
+En contribuant au [répertoire GitHub](https://github.com/gctools-outilsgc/design-system-code), vous nous aidez à assurer l’élaboration soutenue du système de conception Aurora!
 
 Vous pouvez également publier des commentaires sur la conception ou apporter des suggestions quant au contenu, par l’entremise de l’option des enjeux de GitHub (GitHub Issues).
 
