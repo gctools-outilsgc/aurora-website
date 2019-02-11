@@ -20,7 +20,6 @@ Aurora fait partie d’un écosystème de ressources et de normes en matière de
 * [Thème Canada.ca, BOEW](https://github.com/wet-boew/GCWeb)
 * [Guide de rédaction du contenu du site Canada.ca](https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/guide-redaction-contenu-canada.html)
 * [Spécficications du contenu et de l'architecture de l'information pour Canada.ca](https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/specifications-contenu-architecture-information-canada.html)
-* [Modèles de Canda.ca](https://www.canada.ca/fr/secretariat-conseil-tresor/services/communications-gouvernementales/specifications-contenu-architecture-information-canada/modeles-specifications-detailles.html)
 * [Analytiques du Canada.ca](https://www.canada.ca/fr/analytique.html)
 * [Tâches principales pour Canada.ca](https://www.canada.ca/fr/gouvernement/a-propos/taches-principales-pour-canada-ca.html)
 * [Github, Organization des OutilsGC](https://github.com/gctools-outilsgc)

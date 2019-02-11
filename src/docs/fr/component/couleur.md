@@ -18,6 +18,8 @@ Des thèmes permettent une application uniforme par les nuances de surface, la p
 
 Nous avons créé d’autres échantillons de palettes de couleurs que vous pouvez utiliser dans votre propre système. Veuillez voir chaque échantillon pour la couleur de texte correspondante.
 
+Toutes les palettes de couleurs fournies dans ce système sont conformes aux Règles pour l’accessibilité des contenus Web (WCAG) 2.1 pour le contraste des couleurs si elles sont utilisées avec les bonnes couleurs de texte fournies.
+
 ### Aurore boréale
 
 La palette de couleur utilisée pour l’espace de travail numérique, ouvert et accessible du gouvernement du Canada (OutilsGC).
@@ -74,9 +76,9 @@ Codes hexadécimaux:
 ## Appliquer vos propres palettes
 Lors de la création de votre application ou site Web, vous pouvez appliquer votre propre palette de couleur à divers éléments. Lorsque vous préparez votre combinaison de couleurs, il est recommandé de choisir au moins une couleur primaire, deux ou trois couleurs secondaires qui sont semblables et une couleur de contraste.
 
-Pour les applications du gouvernement du Canada, il est exigé que toutes les couleurs répondent au niveau d’accessibilité WCAG AA, bien qu’AAA soit idéal. Vous pouvez utiliser le vérificateur de contraste en ligne afin d’assurer que les couleurs choisies répondent aux normes d’accessibilité une fois combinées avec le texte.
+Pour les applications du gouvernement du Canada, il est exigé que toutes les couleurs répondent au niveau d’accessibilité WCAG AA, bien qu’AAA soit idéal. Vous pouvez utiliser le [vérificateur de contraste en ligne](https://webaim.org/resources/contrastchecker/) afin d’assurer que les couleurs choisies répondent aux normes d’accessibilité une fois combinées avec le texte.
 
-Vous pouvez appliquer vos propres couleurs une fois que vous les avez choisies tout simplement en modifiant les codes hexadécimaux dans votre Service de l’approvisionnement commercial (SAC) pour divers éléments.
+Vous pouvez appliquer vos propres couleurs une fois que vous les avez choisies tout simplement en modifiant les codes hexadécimaux dans votre CSS pour divers éléments.
 
 ## Les couleurs utilisées dans ce système
 Les éléments dans ce système utilisent une palette de couleur simple et neutre qui fonctionne bien dans l’ensemble des applications multiples avec divers styles de l’image de marque.
@@ -99,9 +101,9 @@ Code hexadécimal : <badge style="background-color: #252525">#252525</badge>
 
 ### Texte blanc
 
-Du texte clair dans ce système de conception est affiché dans une couleur blanc cassé. Le texte blanc peut être utilisé sur un fond sombre (voir : thème foncé) ou sur tout bouton ou élément qui utilise une couleur claire ou foncée. Lors d’ajout de texte blanc, il est essentiel de vérifier le contraste pour son accessibilité.
+Du texte clair dans ce système de conception est affiché dans une couleur blanc cassé. Le texte blanc peut être utilisé sur un fond sombre (voir : thème foncé) ou sur tout bouton ou élément qui utilise une couleur claire ou foncée. 
 
-Un grand contraste entre les couleurs de fond ou d’éléments et le texte assure la lisibilité, même pour les personnes atteintes de troubles visuels comme le daltonisme.
+Lors d’ajout de texte blanc, il est essentiel de vérifier le contraste pour son accessibilité.Un grand contraste entre les couleurs de fond ou d’éléments et le texte assure la lisibilité, même pour les personnes atteintes de troubles visuels comme le daltonisme.
 
 Veuillez consulter la [Typographie](/component/typography) pour plus de renseignements au sujet de l’utilisation de la couleur du texte.
 
@@ -120,7 +122,7 @@ Code hexadécimal : <badge style="background-color: #666666">#666666</badge>
 
 ### Thème clair
 
-Par défaut, la plupart des applications suivront le thème clair. Ce thème comprend divers tons de blanc pour différents niveaux d’arrière-plan et d’avant-plan. Pour la majorité des applications #FAFAFA est un bon ton à utiliser comme couleur de fond, avec du blanc (#FFFFFF) comme couleur du contenant ou de la carte.
+Par défaut, la plupart des applications suivront le thème clair. Ce thème comprend divers tons de blanc pour différents niveaux d’arrière-plan et d’avant-plan. Pour la majorité des applications <badge style="background-color: #FAFAFA; color: black">#FAFAFA</badge> est un bon ton à utiliser comme couleur de fond, avec du blanc (<badge style="background-color: #FFFFFF; color: black">#FFFFFF</badge>) comme couleur du contenant ou de la carte.
 
 Codes hexadécimaux : <badge style="background-color: #CCCCCC; color: black">#CCCCCC</badge>, <badge style="background-color: #F5F5F5; color: black">#F5F5F5</badge>, <badge style="background-color: #FAFAFA; color: black">#FAFAFA</badge>, <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge>
 

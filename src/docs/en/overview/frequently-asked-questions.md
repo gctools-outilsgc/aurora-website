@@ -19,7 +19,7 @@ Building a design system is a collaborative effort, and requires expertise acros
 
 ## Who created Aurora design system?
 
-Aurora design system is a collaborative effort between various designers, developers and writers across the Government of Canada. Lead by the Digital Collaboration Division at the Treasury Board of Canada Secretariat, the system was built in collaboration with the Canadian Digital Service: Talent Cloud, Immigration, Refugees and Citizenship Canada, and other individuals within Government of Canada.
+Aurora design system is a collaborative effort between various designers, developers and writers across the Government of Canada. Led by the Digital Collaboration Division at the Treasury Board of Canada Secretariat, the system was built in collaboration with the Canadian Digital Service: Talent Cloud, Immigration, Refugees and Citizenship Canada, and other individuals within Government of Canada.
 
 ## Who can use Aurora design system?
 

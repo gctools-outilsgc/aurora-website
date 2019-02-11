@@ -133,75 +133,23 @@ Labels should follow the vertical format of the form. Place labels above their r
 
 How labels are written affects their legibility. Do not write labels in all caps as this diminishes their readability. Labels should not be the same as placeholder text, they should both be separate. Don’t use symbols to represent required content.
 
-## Placeholder Text
+### Required Fields
 
-Placeholder text is used only to provide supplemental information or additional guidance on how to complete a text field. Placeholder text DOES NOT replace a label or microcopy. Placeholder text should only be used if an example of a text input improves the user experience, rather than as a replacement to other important information indicators.
+Inputs should be clearly indicated as optional or required. These indicators can be included in the label. 
 
-Placeholder text is text that appears directly in the input field. This text is not meant to be used as a label, but can provide supplemental information or an example for the user.
+If most fields in the form are required, indicate only the optional fields.
 
-Placeholder text is meant to help the user more accurately complete the field rather than be the primary indicator of field content. It may also be complementary to micro-copy, with placeholder text providing an example, and micro-copy providing additional information or context.
+If most fields in the form are optional, indicate only the required fields.
 
-As soon as the user starts typing in the field, the placeholder text should disappear.
-
-Placeholder text is styled using Nunito Sans Regular at 14px, <badge style="background-color: #666666;">#666666</badge>
-
-
-For more information about placeholder text styles, refer to the [_Typography_](typography.md) section.
-
-## Micro-Copy
-
-Microcopy is text below and input field that provides additional information about that field. Microcopy is meant to be brief sentences that instruct the user how to complete the field.
-
-Micro-copy is styled as follows:
-
-10px below the input field. The text is displayed the same as placeholder text; Nunito Sans Regular at 14px, <badge style="background-color: #666666;">#666666</badge>
-
-If there is more than one line the text wraps and has a leading of 18pts.
-
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
-  </div>
-<form>
-
-<codeblock
-    html='
-    <form>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We will never share your email with anyone else.</small>
-        </div>
-    <form>'
-    react='
-    <Form>
-       <FormGroup>
-          <Label for="exampleEmail">Email address</Label>
-          <Input />
-          <FormFeedback>You will not be able to see this</FormFeedback>
-          <FormText>We will never share your email with anyone else.</FormText>
-        </FormGroup>
-    </Form>
-    ' />
-</codeblock>
 
 ## Grouping / Field Sets
 
 To help users better understand a form, it may be useful to group inputs into categories or field sets. Field sets should be grouped visually on the page and labelled using Header 3 with a divider underneath.
 
 ## Step Indicators
-If possible, it is recommended to limit forms to one page. If a form has more than one page, use a [step indicator](..\..\docs\en\component\progress-indicators.md).
+If possible, it is recommended to limit forms to one page. If a form has more than one page, use a [step indicator](/component/progress-indicators).
 
-If a form has more than one page, it is recommended to provide the user with a visual representation of progression so that they are aware of their level of completion. Styling for step indicators is written in its own section of this documentation.
-
-![Step indicator component at step 1](../../../img\components\steps_indicator_1.png)
-
-![Step indicator component at step 2](../../../img\components\steps_indicator_2.png)
-
-![Step indicator component at step 3](../../../img\components\steps_indicator_3.png)
+If a form has more than one page, it is recommended to provide the user with a visual representation of progression so that they are aware of their level of completion. Styling for [Step Indicators](/component/progress-indicators) is written in its own section of this documentation.
 
 ## Navigation
-
 Navigation to different pages may be necessary to include in a form. If they are related to a specific field, for example "Forgot password?", include the link inline and underneath the related field. If the link is related to the entire form, for example "Register here", include the link at the bottom of the form in a way that is visually separate.

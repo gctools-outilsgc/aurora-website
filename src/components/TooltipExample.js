@@ -25,7 +25,7 @@ export default class TooltipExample extends React.Component {
     const classes = 'tooltip-inner'
     return (
       <div>
-        <Button id="TooltipExample" color="secondary">
+        <Button id={this.props.id} color="secondary">
           <I18n>
             {
               (t) => (
@@ -34,7 +34,7 @@ export default class TooltipExample extends React.Component {
             }
           </I18n>
         </Button>
-        <Tooltip placement="bottom" isOpen={this.state.tooltipOpen} target="TooltipExample" toggle={this.toggle}>
+        <Tooltip placement="bottom" isOpen={this.state.tooltipOpen} target={this.props.id} toggle={this.toggle}>
           <I18n>
             {
               (t) => (

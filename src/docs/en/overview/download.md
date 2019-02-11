@@ -25,4 +25,4 @@ Our user interface kit was built in Adobe Illustrator and is perfect for buildin
 
 The UI kit is also great for implementing Aurora styles into different types of content such as banners, documents, presentations, and promotional materials.
 
-<a class="btn btn-secondary" href="https://github.com/gctools-outilsgc/design-system/blob/master/master_ui_kit.ai" target="_blank">Download UI kit</a>
+<a class="btn btn-secondary" href="https://github.com/gctools-outilsgc/design-system/blob/master/ui_kit.ai" target="_blank">Download UI kit</a>

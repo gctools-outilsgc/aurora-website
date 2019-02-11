@@ -13,7 +13,7 @@ title: "Typographie"
 
 ## Polices
 
-La Division de la collaboration numérique (DCN) utilise deux familles de polices pour tous les produits numériques : « Rubik » et « Nunito Sans ». « Rubik » et « Nunito Sans » sont des polices de source ouverte et peuvent être téléchargés gratuitement à partir de [Google Fonts](https://fonts.google.com/).
+Aurora utilise deux familles de polices pour tous les produits numériques : « Rubik » et « Nunito Sans ». « Rubik » et « Nunito Sans » sont des polices de source ouverte et peuvent être téléchargés gratuitement à partir de [Google Fonts](https://fonts.google.com/).
 
 [Rubik](https://fonts.google.com/specimen/Rubik) est utilisé pour les titres et les en-têtes, tandis que [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) est utilisé pour le texte des sous-en-têtes, des boutons et des paragraphes.
 
@@ -44,7 +44,7 @@ Les titres apparaissent seulement dans le haut des pages et indiquent les points
 
 Les titres sont affichés à l’aide de « Rubik Light » à 36 points de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
 
-### En-tête \(H2-H6)
+## En-tête \(H2-H6)
 
 Il y a cinq différents sous-en-têtes. Tous les sous-titres sont de couleur <badge style="background-color: #252525">#252525</badge> sur un arrière-plan pâle ou <badge style="background-color: #FFFFFF; color:black">#FFFFFF</badge> sur un arrière-plan foncé.
 
@@ -76,7 +76,7 @@ Le texte de paragraphe est de couleur <badge style="background-color: #252525">#
 
 ### Rupture de ligne
 
-Le système de conception de la DCN est conforme aux pratiques exemplaires suivantes pour les ruptures de lignes :
+Le système de conception d'Aurora est conforme aux pratiques exemplaires suivantes pour les ruptures de lignes :
 * évitez les coupures de mots à la fin d’une ligne;
 * évitez de laisser des blancs ou des orphelins sur une ligne;
 * évitez des mises en retrait trop grandes.
@@ -97,9 +97,9 @@ Voir la section sur la [couleur](couleur.md) pour obtenir des renseignements sur
 <p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> « Quelle belle accroche! »</p>
 </div>
 
-<codeblock html='
-    <p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> « Quelle belle accroche! »</p>
-' react=''></codeblock>
+```html
+<p style="border-left-width: 4px; border-left-style: solid; border-left-color: #0ba7b4; padding-left: 8px; font-size: 1.25em; line-height: 200%;"> « Quelle belle accroche! »</p>
+```
 
 ## Listes
 

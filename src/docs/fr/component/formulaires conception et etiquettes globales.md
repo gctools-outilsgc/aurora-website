@@ -99,13 +99,13 @@ Pour les formulaires complexes, les renseignements doivent être publiés à l�
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="gridCheck1">
         <label class="form-check-label" for="gridCheck1">
-          exemple case à cocher
+          Exemple case à cocher
         </label>
       </div>
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="gridCheck2" disabled>
         <label class="form-check-label" for="gridCheck2">
-          exemple case à cocher désactivé
+          Exemple case à cocher désactivé
         </label>
       </div>
     </fieldset>
@@ -120,6 +120,7 @@ Pour les formulaires complexes, les renseignements doivent être publiés à l�
 ## Étiquettes
 
 Les utilisateurs doivent être en mesure de lire facilement les étiquettes et de comprendre intuitivement comment l’étiquette est liée à son champ. Le langage des étiquettes devrait concis, et elles devraient renfermer suffisamment de renseignements pour que l’utilisateur puisse inscrire les renseignements requis.
+
 Si des renseignements supplémentaires sont nécessaires au-delà de l’étiquette, ces renseignements devraient être publiés dans une infobulle ou une microcopie séparée.
 
 ### Placement des étiquettes
@@ -130,73 +131,24 @@ Les étiquettes devraient suivre le format vertical du formulaire. Placez les é
 
 La façon dont les étiquettes sont écrites a un effet sur leur lisibilité. Il ne faut pas écrire toutes les étiquettes en majuscules, car cela réduit leur lisibilité. Les étiquettes ne doivent pas être les mêmes que le texte d’espace réservé, parce les deux doivent être séparés. N’utilisez pas les symboles pour représenter le contenu requis.
 
-## Texte d’espace réservé
+## Champs obligatoires
 
-Le texte d’espace réservé est le texte qui apparaît directement dans le champ de saisie. Ce texte n’est pas censé être utilisé comme une étiquette, mais peut fournir des renseignements supplémentaires ou être une exemple pour l’utilisateur.
+Les saisies devraient être clairement indiquées comme facultatives ou obligatoires. Cette indicateur peut-être partie d'étiquette. 
 
-Le texte d’espace réservé vise à aider l’utilisateur à remplir avec plus d’exactitude le champ au lieu d’être l’indicateur principal du contenu du champ. Il peut être complémentaire à la microcopie, avec un texte d’espace réservé donnant un exemple et une microcopie fournissant des renseignements supplémentaires ou un contexte.
+Si la plupart des champs dans le formulaire sont obligatoires, veuillez indiquer seulement les champs facultatifs.
 
-Dès que l’utilisateur commence à taper dans le champ, le texte d’espace réservé devrait disparaître.
-
-Le style de police du texte d’espace réservé est le « Nunito Sans Regular », à 14 px, <badge style="background-color: #666666">#666666</badge>.
+Si la plupart des champs dans le formulaire sont facultatifs, veuillez indiquer seulement les champs obligatoires.
 
 
-Pour obtenir de plus amples renseignements sur les styles de polices du texte d’espace réservé, veuillez consulter la section sur la [_typographie_](typographie.md).
-
-
-## Microcopie
-La microcopie est le texte dessous et le champ de saisie qui fournit des renseignements supplémentaires sur ce champ. Les microcopies devraient être des phrases brèves qui indiquent à l’utilisateur comment remplir le champ.
-
-Le style des nombres est comme suit :
-10 px sous le champ de saisie. Le texte est affiché de la même façon que le texte d’espace réservé; Nunito Sans Regular à 14 px, <badge style="background-color: #666666">#666666</badge>
-
-S’il y a plus d’une ligne, le texte retourne à ligne et a un interlignage sur 18 points.
-
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Adresse e-mail
-</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="entrer l'adresse e-mail
-">
-    <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre adresse e-mail avec quiconque.</small>
-  </div>
-<form>
-
-<codeblock
-    html='
-    <form>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Adresse de courriel</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="entrer ladresse e-mail">
-            <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre adresse e-mail avec quiconque.</small>
-        </div>
-    <form>'
-    react='
-    <Form>
-       <FormGroup>
-          <Label for="exampleEmail">Adresse de courriel</Label>
-          <Input />
-          <FormFeedback>You will not be able to see this</FormFeedback>
-          <FormText>Nous ne partagerons jamais votre adresse e-mail avec quiconque.</FormText>
-        </FormGroup>
-    </Form>
-    ' />
-</codeblock>
-
-### Regroupement et ensembles de champs
+## Regroupement et ensembles de champs
 
 Pour aider les utilisateurs à mieux comprendre un formulaire, il peut s’avérer utile de regrouper des saisies dans des catégories ou des ensembles de champs. Les ensembles de champs devraient être regroupés visuellement sur la page et étiquetés à l’aide de l’en-tête 3, ainsi qu’un séparateur en dessous.
 
 ## Indicateurs d’étapes
 
-S’il est possible de le faire, il est recommandé de limiter les formulaires à une seule page. Si un formulaire compte plus d’une page, utilisez un indicateur d’étape.
-Si un formulaire compte plus d’une page, il est recommandé de fournir à l’utilisateur une représentation visuelle de progression pour qu’il connaisse son niveau d’achèvement. Le style des indicateurs d’étape est écrit dans sa propre section du présent document.
+S’il est possible de le faire, il est recommandé de limiter les formulaires à une seule page. Si un formulaire compte plus d’une page, utilisez un [indicateur d’étape](/component/progress-indicators).
 
-![Step indicator component at step 1](../../../img\components\steps_indicator_1.png)
-
-![Step indicator component at step 2](../../../img\components\steps_indicator_2.png)
-
-![Step indicator component at step 3](../../../img\components\steps_indicator_3.png)
+Si un formulaire compte plus d’une page, il est recommandé de fournir à l’utilisateur une représentation visuelle de progression pour qu’il connaisse son niveau d’achèvement. Le style des [Indicateurs d’étape](/component/progress-indicators) est écrit dans sa propre section du présent document.
 
 ## Navigation
 Il peut être nécessaire de naviguer vers différentes pages pour les inclure dans un formulaire. S’ils sont liés à un champ particulier, par exemple « J’ai oublié le mot de passe? », il faut inclure le lien en ligne et en dessous du champ connexe. Si le lien est lié à l’ensemble du formulaire, par exemple, « Inscrivez-vous ici », inscrivez le lien au bas du formulaire, séparé sur le plan visuel.
