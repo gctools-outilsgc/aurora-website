@@ -42,11 +42,11 @@ Badges use the `.badge` class. You can add modifier classes to change the colour
 <span class="badge badge-dark">Dark</span>
 ```
 
-### Accessbility considerations
+### Accessibility considerations
         
-When coding badges, the alternative text that will be read by screen readers should also include context. For example, the badge should read "40 unread emails" instead of just "40".
+When coding badges, the accessible text that will be read by screen readers should also include context. For example, the badge should read "40 unread emails" instead of just "40".
 
-Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the `.sr-only` class.
+Using colour to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies such as screen readers. Ensure that information denoted by the colour is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the `.sr-only` class.
         
 ## Notification Badges
 
