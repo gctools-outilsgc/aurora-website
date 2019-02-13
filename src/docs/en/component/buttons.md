@@ -53,7 +53,7 @@ Aurora includes various button styles, each serving its own semantic purpose.
 
 ### Accessibility Considerations
 
-Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the `.sr-only` class.
+Using colour to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies such as screen readers. Ensure that information denoted by the colour is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the `.sr-only` class.
 
 ## Sizes
 Buttons can easily be customized to be larger or smaller. Add `.btn-lg` or `.btn-sm` for additional sizes.
@@ -103,7 +103,7 @@ Any single `.btn` can be turned into a dropdown toggle with some markup changes.
 
 The WAI ARIA standard defines an actual `role="menu"` widget, but this is specific to application-like menus which trigger actions or functions. ARIA menus can only contain menu items, checkbox menu items, radio button menu items, radio button groups, and sub-menus.
 
-Aurora’s dropdowns, on the other hand, are designed to be generic and applicable to a variety of situations and markup structures. For instance, it is possible to create dropdowns that contain additional inputs and form controls, such as search fields or login forms. For this reason, Aurora does not expect (nor automatically add) any of the `role` and `aria`- attributes required for true ARIA menus. Authors willhave to include these more specific attributes themselves.
+Aurora’s dropdowns, on the other hand, are designed to be generic and applicable to a variety of situations and markup structures. For instance, it is possible to create dropdowns that contain additional inputs and form controls, such as search fields or login forms. For this reason, Aurora does not expect (nor automatically add) any of the `role` and `aria`- attributes required for true ARIA menus. Authors may include these more specific attributes themselves.
 
 However, Aurora does add built-in support for most standard keyboard menu interactions, such as the ability to move through individual `.dropdown-item` elements using the cursor keys and close the menu with the ESC key.
 
