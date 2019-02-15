@@ -33,9 +33,23 @@ Below are some sample swatch families:
 
 The main colour swatches used for the Government of Canada's Open and Accessible Digital Workspace (GCTools). 
 
-Hex codes :
-
- <badge style="background-color: #000A3D;">#000A3D</badge>, <badge style="background-color: #137991;">#137991</badge>, <badge style="background-color: #5DC1BE;color: black; ">#5DC1BE</badge>, <badge style="background-color: #55C0A3; color:black;">#55C0A3</badge>, <badge style="background-color: #ADE18D; color:black;">#ADE18D</badge>
+ <div class="mb-3 clearfix">
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #002D42; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#002D42</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #137991; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#137991</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #6DD2DA; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#6DD2DA</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #15A3A6; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#15A3A6</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #92CC6F; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#92CC6F</span></div>
+    </div>
+ </div>
 
 ### Canada.ca Theme
 
@@ -170,6 +184,63 @@ The primary swatch family used in this system is titled **Aurora Borealis** and 
 ### Full Palette
 
 Using the above swatches, Aurora Borealis was developed into a full colour palette to use in applications. This palette includes a lighter variants of the base hue, darker variants, and gradient samples. Below are also some examples of palette variations being used on an application header. 
+
+ <div class="mb-3 clearfix">
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #002D42; height: 50px; padding: 5%;"><span class="float-right">#002D42</span></div>
+        <div style="color: white; background-color: #175573; height: 35px; padding: 5%;"><span class="float-right">#175573</span></div>
+        <div style="color: black; background-color: #4285A6; height: 35px; padding: 5%;"><span class="float-right">#4285A6</span></div>
+        <div style="color: black; background-color: #82BDD9; height: 35px; padding: 5%;"><span class="float-right">#82BDD9</span></div>
+        <div style="color: black; background-color: #CCEFFF; height: 35px; padding: 5%;"><span class="float-right">#CCEFFF</span></div>
+        <div style="color: black; background-color: #F3F8FA; height: 35px; padding: 5%;"><span class="float-right">#F3F8FA</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #137991; height: 50px;">#137991</div>
+        <div style="color: white; background-color: #175573; height: 35px;">#175573</div>
+        <div style="color: white; background-color: #4285A6; height: 35px;">#4285A6</div>
+        <div style="color: white; background-color: #82BDD9; height: 35px;">#82BDD9</div>
+        <div style="color: white; background-color: #CCEFFF; height: 35px;">#CCEFFF</div>
+        <div style="color: white; background-color: #F3F8FA; height: 35px;">#F3F8FA</div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #6DD2DA; height: 50px;">#6DD2DA</div>
+        <div style="color: white; background-color: #175573; height: 35px;">#175573</div>
+        <div style="color: white; background-color: #4285A6; height: 35px;">#4285A6</div>
+        <div style="color: white; background-color: #82BDD9; height: 35px;">#82BDD9</div>
+        <div style="color: white; background-color: #CCEFFF; height: 35px;">#CCEFFF</div>
+        <div style="color: white; background-color: #F3F8FA; height: 35px;">#F3F8FA</div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #15A3A6; height: 50px;">#15A3A6</div>
+        <div style="color: white; background-color: #175573; height: 35px;">#175573</div>
+        <div style="color: white; background-color: #4285A6; height: 35px;">#4285A6</div>
+        <div style="color: white; background-color: #82BDD9; height: 35px;">#82BDD9</div>
+        <div style="color: white; background-color: #CCEFFF; height: 35px;">#CCEFFF</div>
+        <div style="color: white; background-color: #F3F8FA; height: 35px;">#F3F8FA</div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #92CC6F; height: 50px;">#92CC6F</div>
+        <div style="color: white; background-color: #175573; height: 35px;">#175573</div>
+        <div style="color: white; background-color: #4285A6; height: 35px;">#4285A6</div>
+        <div style="color: white; background-color: #82BDD9; height: 35px;">#82BDD9</div>
+        <div style="color: white; background-color: #CCEFFF; height: 35px;">#CCEFFF</div>
+        <div style="color: white; background-color: #F3F8FA; height: 35px;">#F3F8FA</div>
+    </div>
+ </div>
+
+### GRADIENTS
+
+<div class="mb-3 clearfix">
+    <div style="background: rgb(11,65,77); background: linear-gradient(76deg, rgba(11,65,77,1) 2%, rgba(19,121,145,1) 40%, rgba(247,254,255,1) 100%);">GRADIENT website https://cssgradient.io/</div>
+
+```html
+CSS
+background: rgb(11,65,77);
+background: linear-gradient(76deg, rgba(11,65,77,1) 2%, rgba(19,121,145,1) 40%, rgba(247,254,255,1) 100%);
+```
+
+</div>
+
 
 ### Creative Accent Colours
 
