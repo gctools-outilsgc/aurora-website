@@ -324,7 +324,7 @@ Info colours are used when providing additional information and notes to the use
         <div style="color: white; background-color: #245269; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#245269</span></div>
     </div>
     <div style="width:19%; float:left; margin: 0.5%;">
-        <div style="color: white; background-color: #269ABC; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#2689ABC</span></div>
+        <div style="color: black; background-color: #269ABC; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#269ABC</span></div>
     </div>
     <div style="width:19%; float:left; margin: 0.5%;">
         <div style="color: black; background-color: #D7FAFF; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#D7FAFF</span></div>
@@ -374,33 +374,33 @@ Using the above swatches, Aurora Borealis was developed into a full colour palet
     </div>
     <div style="width:19%; float:left; margin: 0.5%;">
         <div style="color: white; background-color: #137991; height: 50px; padding: 5%;"><span class="float-right">#137991</span></div>
-        <div style="color: white; background-color: #3993A8; height: 35px; padding: 5%;"><span class="float-right">#3993A8</span></div>
-        <div style="color: white; background-color: #6BB2C2; height: 35px; padding: 5%;"><span class="float-right">#6BB2C2</span></div>
-        <div style="color: white; background-color: #8ECDDB; height: 35px; padding: 5%;"><span class="float-right">#8ECDDB</span></div>
+        <div style="color: black; background-color: #3993A8; height: 35px; padding: 5%;"><span class="float-right">#3993A8</span></div>
+        <div style="color: black; background-color: #6BB2C2; height: 35px; padding: 5%;"><span class="float-right">#6BB2C2</span></div>
+        <div style="color: black; background-color: #8ECDDB; height: 35px; padding: 5%;"><span class="float-right">#8ECDDB</span></div>
         <div style="color: black; background-color: #B5E7F2; height: 35px; padding: 5%;"><span class="float-right">#B5E7F2</span></div>
         <div style="color: black; background-color: #F7FEFF; height: 35px; padding: 5%;"><span class="float-right">#F7FEFF</span></div>
     </div>
     <div style="width:19%; float:left; margin: 0.5%;">
-        <div style="color: white; background-color: #6DD2DA; height: 50px; padding: 5%;"><span class="float-right">#6DD2DA</span></div>
-        <div style="color: white; background-color: #87DAE0; height: 35px; padding: 5%;"><span class="float-right">#87DAE0</span></div>
-        <div style="color: white; background-color: #A1E1E6; height: 35px; padding: 5%;"><span class="float-right">#A1E1E6</span></div>
-        <div style="color: white; background-color: #B2E9ED; height: 35px; padding: 5%;"><span class="float-right">#B2E9ED</span></div>
+        <div style="color: black; background-color: #6DD2DA; height: 50px; padding: 5%;"><span class="float-right">#6DD2DA</span></div>
+        <div style="color: black; background-color: #87DAE0; height: 35px; padding: 5%;"><span class="float-right">#87DAE0</span></div>
+        <div style="color: black; background-color: #A1E1E6; height: 35px; padding: 5%;"><span class="float-right">#A1E1E6</span></div>
+        <div style="color: black; background-color: #B2E9ED; height: 35px; padding: 5%;"><span class="float-right">#B2E9ED</span></div>
         <div style="color: black; background-color: #C2EFF2; height: 35px; padding: 5%;"><span class="float-right">#C2EFF2</span></div>
         <div style="color: black; background-color: #F7FEFF; height: 35px; padding: 5%;"><span class="float-right">#F7FEFF</span></div>
     </div>
     <div style="width:19%; float:left; margin: 0.5%;">
-        <div style="color: white; background-color: #15A3A6; height: 50px; padding: 5%;"><span class="float-right">#15A3A6</span></div>
-        <div style="color: white; background-color: #41BCBF; height: 35px; padding: 5%;"><span class="float-right">#41BCBF</span></div>
-        <div style="color: white; background-color: #77D6D9; height: 35px; padding: 5%;"><span class="float-right">#77D6D9</span></div>
-        <div style="color: white; background-color: #B6F0F2; height: 35px; padding: 5%;"><span class="float-right">#B6F0F2</span></div>
+        <div style="color: black; background-color: #15A3A6; height: 50px; padding: 5%;"><span class="float-right">#15A3A6</span></div>
+        <div style="color: black; background-color: #41BCBF; height: 35px; padding: 5%;"><span class="float-right">#41BCBF</span></div>
+        <div style="color: black; background-color: #77D6D9; height: 35px; padding: 5%;"><span class="float-right">#77D6D9</span></div>
+        <div style="color: black; background-color: #B6F0F2; height: 35px; padding: 5%;"><span class="float-right">#B6F0F2</span></div>
         <div style="color: black; background-color: #E6FEFF; height: 35px; padding: 5%;"><span class="float-right">#E6FEFF</span></div>
         <div style="color: black; background-color: #F7FFFF; height: 35px; padding: 5%;"><span class="float-right">#F7FFFF</span></div>
     </div>
     <div style="width:19%; float:left; margin: 0.5%;">
-        <div style="color: white; background-color: #92CC6F; height: 50px; padding: 5%;"><span class="float-right">#92CC6F</span></div>
-        <div style="color: white; background-color: #9FD47F; height: 35px; padding: 5%;"><span class="float-right">#9FD47F</span></div>
-        <div style="color: white; background-color: #B2DB99; height: 35px; padding: 5%;"><span class="float-right">#B2DB99</span></div>
-        <div style="color: white; background-color: #C7E3B5; height: 35px; padding: 5%;"><span class="float-right">#C7E3B5</span></div>
+        <div style="color: black; background-color: #92CC6F; height: 50px; padding: 5%;"><span class="float-right">#92CC6F</span></div>
+        <div style="color: black; background-color: #9FD47F; height: 35px; padding: 5%;"><span class="float-right">#9FD47F</span></div>
+        <div style="color: black; background-color: #B2DB99; height: 35px; padding: 5%;"><span class="float-right">#B2DB99</span></div>
+        <div style="color: black; background-color: #C7E3B5; height: 35px; padding: 5%;"><span class="float-right">#C7E3B5</span></div>
         <div style="color: black; background-color: #DFEDD5; height: 35px; padding: 5%;"><span class="float-right">#DFEDD5</span></div>
         <div style="color: black; background-color: #FAFFF7; height: 35px; padding: 5%;"><span class="float-right">#FAFFF7</span></div>
     </div>
@@ -409,21 +409,21 @@ Using the above swatches, Aurora Borealis was developed into a full colour palet
 ### Gradient Examples
 
 <div class="mb-3 clearfix">
-    <div style="background: rgb(11,65,77); background: linear-gradient(76deg, rgba(11,65,77,1) 2%, rgba(19,121,145,1) 40%, rgba(247,254,255,1) 100%);"> Text</div>
+    <div style="height: 35px; background: rgb(11,65,77); background: linear-gradient(76deg, rgba(11,65,77,1) 2%, rgba(19,121,145,1) 40%, rgba(247,254,255,1) 100%);"></div>
     <br>
 
 <div class="mb-3 clearfix">
-    <div style="background: rgb(19,121,145); background: linear-gradient(90deg, rgba(19,121,145,1) 0%, rgba(21,163,166,1) 55%, rgba(109,210,218,1) 100%);"> Text</div>
+    <div style="height: 35px; background: rgb(19,121,145); background: linear-gradient(90deg, rgba(19,121,145,1) 0%, rgba(21,163,166,1) 55%, rgba(109,210,218,1) 100%);"></div>
     <br>
     
 <div class="mb-3 clearfix">
-    <div style="background: rgb(0,166,154);
-background: linear-gradient(90deg, rgba(0,166,154,1) 0%, rgba(105,217,163,1) 100%);"> Text</div>
+    <div style="height: 35px; background: rgb(0,166,154);
+background: linear-gradient(90deg, rgba(0,166,154,1) 0%, rgba(105,217,163,1) 100%);"></div>
 <br>
 
 <div class="mb-3 clearfix">
-    <div style="background: rgb(19,121,145);
-background: linear-gradient(90deg, rgba(19,121,145,1) 0%, rgba(21,163,166,1) 40%, rgba(146,204,111,1) 100%);"> Text</div>
+    <div style="height: 35px; background: rgb(19,121,145);
+background: linear-gradient(90deg, rgba(19,121,145,1) 0%, rgba(21,163,166,1) 40%, rgba(146,204,111,1) 100%);"></div>
 <br>
 </div>
 
