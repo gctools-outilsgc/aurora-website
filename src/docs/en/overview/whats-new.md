@@ -28,7 +28,6 @@ January 16, 2019
 * Built custom components for Custom Icon Alerts, Step Indicator, Back to Top button, and Badge Chips.
 * Cleaned up component examples and design documentation for all pages.
 * Reworked the Grids and Spacing page to better show grid examples.
-* Additional information on applying Colour palettes, including how to use a secondary palette for visual diversity
 
 ## V 0.3.2
 December 28, 2018
