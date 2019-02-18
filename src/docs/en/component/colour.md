@@ -55,41 +55,111 @@ The main colour swatches used for the Government of Canada's Open and Accessible
 
 The official hues for Canada.ca web pages and other external-facing applications. Provides lots of neutrals, and a signature blue and red used for accents , headers and footers.  
 
-Hex codes:
-
-<badge style="background-color: #333000;">#333000</badge>,<badge style="background-color: #26374a;">#26374a</badge>,<badge style="background-color: #AF3C43">#AF3C43</badge>,<badge style="background-color: #F5F5F5; color:black;">#F5F5F5</badge>, <badge style="background-color: #FFFFFF;color: black; ">#FFFFFF </badge>
+ <div class="mb-3 clearfix">
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #333000; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#333000</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #26374A; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#26374A</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #AF3C43; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#AF3C43</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #F5F5F5; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#F5F5F5</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #FFFFFF; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#FFFFFF</span></div>
+    </div>
+ </div>
 
 ### Thunder and Lightning
 
 Optional swatch family. Neutrals with a signature yellow for a small pop of colour. 
 
-Hex codes :
-
-<badge style="background-color: #002D42;">#002D42</badge>, <badge style="background-color: #4D5D6C;">#4D5D6C</badge>, <badge style="background-color: #96A8B2; color:black;">#96A8B2</badge>, <badge style="background-color: #CECECE ; color:black;">#CECECE </badge>, <badge style="background-color: #FEC04F;color:black;">#FEC04F</badge>
+ <div class="mb-3 clearfix">
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #002D42; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#002D42</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #4D5D6C; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#4D5D6C</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #96A8B2; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#96A8B2</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #CECECE; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#CECECE</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #FEC04F; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#FEC04F</span></div>
+    </div>
+ </div>
 
 ### Blue Complimentary
 
 Optional swatch family that uses a complimentary colour scheme. Blue is used to convey trust, while orange and yellow provides a small splash of colour to applications. 
 
-Hex codes :
-
-<badge style="background-color: #0D467D;">#0D467D</badge>, <badge style="background-color: #137991;">#137991</badge>, <badge style="background-color: #6DD2DA; color:black;">#6DD2DA</badge>, <badge style="background-color: #FF9F40; color:black;">#FF9F40</badge>, <badge style="background-color: #FEC04F; color:black;">#FEC04F</badge>
+ <div class="mb-3 clearfix">
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #0D467D; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#0D467D</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #137991; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#137991</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #6DD2DA; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#6DD2DA</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #FF9F40; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#FF9F40</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #FEC04F; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#FEC04F</span></div>
+    </div>
+ </div>
 
 ### Triad
 
 Optional swatch family. A versatile set of colours that provides lots of options for a colourful but sophisticated application. 
 
-Hex codes :
-
-<badge style="background-color: #7E0C33;">#7E0C33</badge>, <badge style="background-color: #024571;">#024571</badge>, <badge style="background-color: #5DC1BE; color:black;">#5DC1BE</badge>, <badge style="background-color: #F6CF22; color:black;">#F6CF22</badge>, <badge style="background-color: #EDDB7C; color:black;">#EDDB7C</badge>
+ <div class="mb-3 clearfix">
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #7E0C33; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#7E0C33</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #024571; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#024571</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #5DC1BE; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#5DC1BE</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #F6CF22; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#F6CF22</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #EDDB7C; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#EDDB7C</span></div>
+    </div>
+ </div>
 
 ### Green and Blue
 
 Optional swatch family. A bright cool-toned colour palette that provides a fresh look for web applications. 
 
-Hex codes :
-
-<badge style="background-color: #0278A4;">#0278A4</badge>, <badge style="background-color: #4E474">#4E474</badge>, <badge style="background-color: #83C3F2;color:black;">#83C3F2</badge>, <badge style="background-color: #C9DF61;color:black;">#C9DF61</badge>, <badge style="background-color: #C1D699;color:black;">#C1D699</badge>
+ <div class="mb-3 clearfix">
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #0278A4; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#0278A4</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #4E4741; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#4E4741</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #83C3F2; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#83C3F2</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #C9DF61; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#C9DF61</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #C1D699; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#C1D699</span></div>
+    </div>
+ </div>
 
 ## Secondary or Complementary swatches
 
@@ -111,7 +181,13 @@ Text in this design system is displayed in an off-black colour. Black text can b
 
 Please see [Typography](/component/typography) for more information about using text colour.
 
-Hex code: <badge style="background-color: #252525;">#252525</badge>
+ <div class="mb-3 clearfix">
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #252525; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#252525</span></div>
+    </div>
+    <br>
+    <br>
+    <br>
 
 ### White Text
 
@@ -121,7 +197,13 @@ When adding white text it is essential to check the contrast for accessibility. 
 
 Please see [Typography](/component/typography) for more information about using text colour.
 
-Hex code: <badge style="background-color: #FFFFFF; color:black;">#FFFFFF</badge>
+ <div class="mb-3 clearfix">
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #FFFFFF; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#FFFFFF</span></div>
+    </div>
+    <br>
+    <br>
+    <br>
 
 ### Muted Text
 
@@ -129,47 +211,127 @@ Muted text is used for secondary text elements such as captions, placeholder tex
 
 Please see [Typography](/component/typography) for more information about using text colour.
 
-Hex code: <badge style="background-color: #666666;">#666666</badge>
+ <div class="mb-3 clearfix">
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #666666; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#666666</span></div>
+    </div>
+    <br>
+    <br>
+    <br>
 
 ### Light Theme
 
 By default, most applications will follow the light theme. This theme includes various shades of white for different background/foreground levels. For the majority of applications #FAFAFA is a good shade to use as a background colour, with white (<badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>) as the container or card colour.
 
-Hex codes: <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>, <badge style="background-color: #F5F5F5;color:black;">#F5F5F5</badge>, <badge style="background-color: #FAFAFA;color:black;">#FAFAFA</badge>, <badge style="background-color: #FFFFFF;color:black;">#FFFFFF</badge>        
+ <div class="mb-3 clearfix">
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #CCCCCC; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#CCCCCC</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #F5F5F5; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#F5F5F5</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #FAFAFA; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#FAFAFA</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #FFFFFF; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#FFFFFF</span></div>
+    </div> 
+    <br>
+    <br>
+    <br>
 
 ### Dark Theme
 
 Some applications may wish to also incorporate a dark theme. This theme includes various shades of black and grey for different background/foreground levels.
 
-Hex codes: <badge style="background-color: #000000;">#000000</badge>, <badge style="background-color: #212121;">#212121</badge>, <badge style="background-color: #303030;">#303030</badge>, <badge style="background-color: #424242;">#424242</badge>
+ <div class="mb-3 clearfix">
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #000000; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#000000</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #212121; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#212121</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #303030; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#303030</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #424242; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#424242</span></div>
+    </div> 
+    <br>
+    <br>
+    <br>
 
 ### Error Colours
 
 Error colours are used to indicate system failures and malfunctions.
 
-Error hex codes:
-<badge style="background-color: #923534;">#923534</badge>, <badge style="background-color: #D3080C;">#D3080C</badge>, <badge style="background-color: #F3E9E8;color:black;">#F3E9E8</badge>
+ <div class="mb-3 clearfix">
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #923534; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#923534</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #D3080C; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#D3080C</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #F3E9E8; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#F3E9E8</span></div>
+    </div>
+    <br>
+    <br>
+    <br>
 
 ### Warning Colours
 
 Warning colours are used for notices that require the user’s acknowledgement.
 
-Warning hex codes:
-<badge style="background-color: #66512C;">#66512C</badge>, <badge style="background-color: #FF9900; color:black">#FF9900</badge>, <badge style="background-color: #F9F4D4;color:black;">#F9F4D4</badge>
+ <div class="mb-3 clearfix">
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #66512C; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#66512C</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #FF9900; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#FF9900</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #F9F4D4; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#F9F4D4</span></div>
+    </div>
+    <br>
+    <br>
+    <br>
 
 ### Success Colours
 
 Success colours are used when confirming that the user’s input was successful.
 
-Success hex codes:
-<badge style="background-color: #2B542C;">#2B542C</badge>, <badge style="background-color: #278400;">#278400</badge>, <badge style="background-color: #D8EECA;color:black;">#D8EECA</badge>
+ <div class="mb-3 clearfix">
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #2B542C; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#2B542C</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #278400; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#278400</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #D8EECA; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#D8EECA</span></div>
+    </div>
+    <br>
+    <br>
+    <br>
 
 ### Info Colours
 
 Info colours are used when providing additional information and notes to the user.
 
-Info hex codes:
-<badge style="background-color: #245269;">#245269</badge>, <badge style="background-color: #269ABC; color:black">#269ABC</badge>, <badge style="background-color: #D7FAFF;color:black;">#D7FAFF</badge>
+ <div class="mb-3 clearfix">
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #245269; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#245269</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #269ABC; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#2689ABC</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #D7FAFF; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#D7FAFF</span></div>
+    </div>
+    <br>
+    <br>
+    <br>
 
 ## Colours Used in Aurora
 
@@ -179,7 +341,23 @@ Our colour swatches include a mix of blue and green hues that communicate trust 
 
 The primary swatch family used in this system is titled **Aurora Borealis** and uses the following hex codes:
 
-<badge style="background-color: #000A3D;">#000A3D</badge>, <badge style="background-color: #137991;">#137991</badge>, <badge style="background-color: #5DC1BE;color:black;">#5DC1BE</badge>, <badge style="background-color: #55C0A3;color:black;">#55C0A3</badge>, <badge style="background-color: #ADE18D;color:black;">#ADE18D</badge>
+ <div class="mb-3 clearfix">
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #002D42; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#002D42</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: white; background-color: #137991; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#137991</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #6DD2DA; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#6DD2DA</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #15A3A6; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#15A3A6</span></div>
+    </div>
+    <div style="width:19%; float:left; margin: 0.5%;">
+        <div style="color: black; background-color: #92CC6F; height: 50px; border-radius: 4px; padding: 5%;"><span class="float-right">#92CC6F</span></div>
+    </div>
+ </div>
 
 ### Full Palette
 
@@ -195,52 +373,78 @@ Using the above swatches, Aurora Borealis was developed into a full colour palet
         <div style="color: black; background-color: #F3F8FA; height: 35px; padding: 5%;"><span class="float-right">#F3F8FA</span></div>
     </div>
     <div style="width:19%; float:left; margin: 0.5%;">
-        <div style="color: white; background-color: #137991; height: 50px;">#137991</div>
-        <div style="color: white; background-color: #175573; height: 35px;">#175573</div>
-        <div style="color: white; background-color: #4285A6; height: 35px;">#4285A6</div>
-        <div style="color: white; background-color: #82BDD9; height: 35px;">#82BDD9</div>
-        <div style="color: white; background-color: #CCEFFF; height: 35px;">#CCEFFF</div>
-        <div style="color: white; background-color: #F3F8FA; height: 35px;">#F3F8FA</div>
+        <div style="color: white; background-color: #137991; height: 50px; padding: 5%;"><span class="float-right">#137991</span></div>
+        <div style="color: white; background-color: #3993A8; height: 35px; padding: 5%;"><span class="float-right">#3993A8</span></div>
+        <div style="color: white; background-color: #6BB2C2; height: 35px; padding: 5%;"><span class="float-right">#6BB2C2</span></div>
+        <div style="color: white; background-color: #8ECDDB; height: 35px; padding: 5%;"><span class="float-right">#8ECDDB</span></div>
+        <div style="color: black; background-color: #B5E7F2; height: 35px; padding: 5%;"><span class="float-right">#B5E7F2</span></div>
+        <div style="color: black; background-color: #F7FEFF; height: 35px; padding: 5%;"><span class="float-right">#F7FEFF</span></div>
     </div>
     <div style="width:19%; float:left; margin: 0.5%;">
-        <div style="color: black; background-color: #6DD2DA; height: 50px;">#6DD2DA</div>
-        <div style="color: white; background-color: #175573; height: 35px;">#175573</div>
-        <div style="color: white; background-color: #4285A6; height: 35px;">#4285A6</div>
-        <div style="color: white; background-color: #82BDD9; height: 35px;">#82BDD9</div>
-        <div style="color: white; background-color: #CCEFFF; height: 35px;">#CCEFFF</div>
-        <div style="color: white; background-color: #F3F8FA; height: 35px;">#F3F8FA</div>
+        <div style="color: white; background-color: #6DD2DA; height: 50px; padding: 5%;"><span class="float-right">#6DD2DA</span></div>
+        <div style="color: white; background-color: #87DAE0; height: 35px; padding: 5%;"><span class="float-right">#87DAE0</span></div>
+        <div style="color: white; background-color: #A1E1E6; height: 35px; padding: 5%;"><span class="float-right">#A1E1E6</span></div>
+        <div style="color: white; background-color: #B2E9ED; height: 35px; padding: 5%;"><span class="float-right">#B2E9ED</span></div>
+        <div style="color: black; background-color: #C2EFF2; height: 35px; padding: 5%;"><span class="float-right">#C2EFF2</span></div>
+        <div style="color: black; background-color: #F7FEFF; height: 35px; padding: 5%;"><span class="float-right">#F7FEFF</span></div>
     </div>
     <div style="width:19%; float:left; margin: 0.5%;">
-        <div style="color: black; background-color: #15A3A6; height: 50px;">#15A3A6</div>
-        <div style="color: white; background-color: #175573; height: 35px;">#175573</div>
-        <div style="color: white; background-color: #4285A6; height: 35px;">#4285A6</div>
-        <div style="color: white; background-color: #82BDD9; height: 35px;">#82BDD9</div>
-        <div style="color: white; background-color: #CCEFFF; height: 35px;">#CCEFFF</div>
-        <div style="color: white; background-color: #F3F8FA; height: 35px;">#F3F8FA</div>
+        <div style="color: white; background-color: #15A3A6; height: 50px; padding: 5%;"><span class="float-right">#15A3A6</span></div>
+        <div style="color: white; background-color: #41BCBF; height: 35px; padding: 5%;"><span class="float-right">#41BCBF</span></div>
+        <div style="color: white; background-color: #77D6D9; height: 35px; padding: 5%;"><span class="float-right">#77D6D9</span></div>
+        <div style="color: white; background-color: #B6F0F2; height: 35px; padding: 5%;"><span class="float-right">#B6F0F2</span></div>
+        <div style="color: black; background-color: #E6FEFF; height: 35px; padding: 5%;"><span class="float-right">#E6FEFF</span></div>
+        <div style="color: black; background-color: #F7FFFF; height: 35px; padding: 5%;"><span class="float-right">#F7FFFF</span></div>
     </div>
     <div style="width:19%; float:left; margin: 0.5%;">
-        <div style="color: black; background-color: #92CC6F; height: 50px;">#92CC6F</div>
-        <div style="color: white; background-color: #175573; height: 35px;">#175573</div>
-        <div style="color: white; background-color: #4285A6; height: 35px;">#4285A6</div>
-        <div style="color: white; background-color: #82BDD9; height: 35px;">#82BDD9</div>
-        <div style="color: white; background-color: #CCEFFF; height: 35px;">#CCEFFF</div>
-        <div style="color: white; background-color: #F3F8FA; height: 35px;">#F3F8FA</div>
+        <div style="color: white; background-color: #92CC6F; height: 50px; padding: 5%;"><span class="float-right">#92CC6F</span></div>
+        <div style="color: white; background-color: #9FD47F; height: 35px; padding: 5%;"><span class="float-right">#9FD47F</span></div>
+        <div style="color: white; background-color: #B2DB99; height: 35px; padding: 5%;"><span class="float-right">#B2DB99</span></div>
+        <div style="color: white; background-color: #C7E3B5; height: 35px; padding: 5%;"><span class="float-right">#C7E3B5</span></div>
+        <div style="color: black; background-color: #DFEDD5; height: 35px; padding: 5%;"><span class="float-right">#DFEDD5</span></div>
+        <div style="color: black; background-color: #FAFFF7; height: 35px; padding: 5%;"><span class="float-right">#FAFFF7</span></div>
     </div>
  </div>
 
-### GRADIENTS
+### Gradient Examples
 
 <div class="mb-3 clearfix">
-    <div style="background: rgb(11,65,77); background: linear-gradient(76deg, rgba(11,65,77,1) 2%, rgba(19,121,145,1) 40%, rgba(247,254,255,1) 100%);">GRADIENT website https://cssgradient.io/</div>
+    <div style="background: rgb(11,65,77); background: linear-gradient(76deg, rgba(11,65,77,1) 2%, rgba(19,121,145,1) 40%, rgba(247,254,255,1) 100%);"> Text</div>
+    <br>
+
+<div class="mb-3 clearfix">
+    <div style="background: rgb(19,121,145); background: linear-gradient(90deg, rgba(19,121,145,1) 0%, rgba(21,163,166,1) 55%, rgba(109,210,218,1) 100%);"> Text</div>
+    <br>
+    
+<div class="mb-3 clearfix">
+    <div style="background: rgb(0,166,154);
+background: linear-gradient(90deg, rgba(0,166,154,1) 0%, rgba(105,217,163,1) 100%);"> Text</div>
+<br>
+
+<div class="mb-3 clearfix">
+    <div style="background: rgb(19,121,145);
+background: linear-gradient(90deg, rgba(19,121,145,1) 0%, rgba(21,163,166,1) 40%, rgba(146,204,111,1) 100%);"> Text</div>
+<br>
+</div>
 
 ```html
 CSS
+Gradient 1
 background: rgb(11,65,77);
 background: linear-gradient(76deg, rgba(11,65,77,1) 2%, rgba(19,121,145,1) 40%, rgba(247,254,255,1) 100%);
+
+Gradient 2
+background: rgb(19,121,145);
+background: linear-gradient(90deg, rgba(19,121,145,1) 0%, rgba(21,163,166,1) 55%, rgba(109,210,218,1) 100%);
+
+Gradient 3
+background: rgb(0,166,154);
+background: linear-gradient(90deg, rgba(0,166,154,1) 0%, rgba(105,217,163,1) 100%);
+
+Gradient 4
+background: rgb(19,121,145);
+background: linear-gradient(90deg, rgba(19,121,145,1) 0%, rgba(21,163,166,1) 40%, rgba(146,204,111,1) 100%);
 ```
-
-</div>
-
 
 ### Creative Accent Colours
 
