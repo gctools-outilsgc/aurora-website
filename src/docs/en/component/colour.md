@@ -263,7 +263,7 @@ Some applications may wish to also incorporate a dark theme. This theme includes
 
 ### Error Colours
 
-Error colours are used to indicate system failures and malfunctions.
+Error colours are used to indicate system failures and malfunctions.You should use colours users associate with the level of severity. Do not reuse the specific shade for error colours anywhere else on the application.
 
  <div class="mb-3 clearfix">
     <div style="width:19%; float:left; margin: 0.5%;">

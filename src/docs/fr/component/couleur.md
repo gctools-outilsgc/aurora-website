@@ -409,7 +409,7 @@ La palette de couleurs primaires utilisée dans ce système est intitulée **Aur
     </div>
  </div>
 
-### Exemples gradients
+### Exemples des gradients
 
 <div class="mb-5 clearfix">
     <div style="height: 35px; background: rgb(11,65,77); background: linear-gradient(76deg, rgba(11,65,77,1) 2%, rgba(19,121,145,1) 40%, rgba(247,254,255,1) 100%);"></div>
