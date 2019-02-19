@@ -11,11 +11,11 @@ title: "Text inputs"
 
 # Text Inputs
 
-Input fields allow users to provide information by inputting text into a page. Information can be entered through a variety of different input fields such as text fields, text area, checkboxes, radio buttons, and date inputs. Input fields typically appear in forms and should clearly indicate that users can input information through labels, tooltips, placeholder text, and appropriate styling.
+Input fields allow users to provide information by inputting text into a page. Information can be entered through a variety of different input fields such as text fields, text areas, checkboxes, radio buttons, and date inputs. Input fields typically appear in forms and should clearly indicate that users can input information through labels, tooltips, placeholder text, and appropriate styling.
 
 ## Microcopy
 
-Microcopy is text below an input field that provides additional information about that field. Microcopy is meant to be brief sentences that can instruct the user how to complete the field.
+Microcopy is text below an input field that provides additional information about that field, such as how to complete it.
 
 ## Placeholder Text
 
@@ -33,7 +33,7 @@ The `<input>` tag specifies an input field where the user can enter data.
 
 `<input>` elements are used within a `<form>` element to declare input controls that allow users to input data.
 
-Be sure to use an appropriate `type` attribute on all inputs (e.g., `email` for email address or `number` for numerical information) to take advantage of newer input controls like email verification, number selection, and more.
+Be sure to use an appropriate `type` attribute on all inputs (e.g. `email` for email address or `number` for numerical information) to take advantage of newer input controls like email verification, number selection, and more.
 
 <div class="form-group">
     <label for="inputText1">Full Name</label>
@@ -112,7 +112,7 @@ The `<option>` tags inside the `<select>` element define the available options i
 ## Microcopy
 Help text should be explicitly associated with the form control it relates to using the `aria-describedby` attribute. This will ensure that assistive technologies, such as screen readers, will announce this microcopy when the user focuses or enters the control.
 
-Microcopy below inputs can be styled with `.form-text`. This class includes `display: block` and adds some top margin for easy spacing from the inputs above. Inline help text can be flexibly implemented using any inline HTML element and utility classes like `.text-muted.`
+Microcopy below inputs can be styled with `.form-text`. This class includes `display: block` and adds some top margin for easy spacing from the inputs above. Inline help text can be flexibly implemented using any inline HTML element along with utility classes like `.text-muted.`
 
   <div class="form-group">
     <label for="exampleInputNumber1">Phone Number</label>
@@ -142,7 +142,7 @@ Text fields are styled as follows:
 
 **Normal**: Rectangle with a height of 42px, and a border radius of 4px. Stroke width of 1px with the colour <badge style="background-color: #CCCCCC;color:black;">#CCCCCC</badge>. There is 10px of padding between the field and the label. The input field a padding of 15px by 12px.
 
-**Focus**: Rectangle with a height of 42px, and a border radius of 4px. Stroke width of 1px <badge style="background-color: #269ABC;color:black;">#269ABC</badge>. There is 10px of padding between the field and the label. The input field a padding of 15px by 12px.
+**Focus**: Rectangle with a height of 42px, and a border radius of 4px. Stroke width of 1px <badge style="background-color: #269ABC;color:black;">#269ABC</badge>. There is 10px of padding between the field and the label. The input field has a padding of 15px by 12px.
 
 The text field a user has selected should be indicated visually. Outlining the selected text box in blue shows the user which field they are inputting without too much visual weight.
 
