@@ -86,7 +86,7 @@ For quantitative labels, the unit of measurement should be included in the label
 
 ### Data Increments
 
-Qualitative data values should be labelled in a logical way, such as consecutive months. For quantitative values, they should be labelled using round numbers or decimals that fit the data range. Always include an additional increment greater than the dataset. For quantitative values, axes should always start at 0.When using decimals, round to a maximum of two decimal points whenever possible.
+Qualitative data values should be labelled in a logical way, such as consecutive months. For quantitative values, they should be labelled using round numbers or decimals that fit the data range. Always include an additional increment greater than the dataset. For quantitative values, axes should always start at 0. When using decimals, round to a maximum of two decimal points whenever possible.
 
 In some visualizations with many axis points, skipping labels is an effective way to reduce visual clutter. Axis ticks should be separated with sufficient space to clearly read each label. Intervals between labels should always be consistent.
 
@@ -120,7 +120,7 @@ Some data formats should always use abbreviations:
     </tr>
     <tr>
       <td>12-hour time</td>
-      <td>1am, 2pm, 12pm etc.</td>
+      <td>1 a.m., 2 p.m., 12 p.m. etc.</td>
     </tr>
     <tr>
       <td>Standard money abbreviations</td>
@@ -132,7 +132,7 @@ Some data formats should always use abbreviations:
 
 ## Colours and Textures
 
-Graphs and visualizations should always aim to use as little colour as possible. If multiple colours are required, they should be a complimentary palette that are both distinguishable when placed in close proximity. Colour choice should avoid bias \(i.e. red or green\) unless specifically related to the data \(i.e. a decrease or increase\). Any colour is acceptable for a visualization so long as it meets contrast requirements.
+Graphs and visualizations should always aim to use as little colour as possible. If multiple colours are required, they should be a complimentary palette that are both distinguishable when placed in close proximity. Colour choice should avoid bias \(e.g. red and green\) unless specifically related to the data. Any colour is acceptable for a visualization so long as it meets contrast requirements.
 
 For increased accessibility, it is also recommended to use textures in addition to colour differences, so that variables are easier to distinguish.
 
