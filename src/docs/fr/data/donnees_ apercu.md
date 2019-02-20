@@ -83,7 +83,7 @@ Pour les étiquettes quantitatives, l’unité de mesure devrait être incluse d
 
 ### Incréments de données
 
-Les valeurs qualitatives des données devraient être étiquetées de façon logique, comme les mois consécutifs. Pour les valeurs quantitatives, elles devraient être étiquetées à l’aide de nombres arrondis qui entrent dans la plage de données. Il faut toujours inclure un incrément additionnel plus élevé que le jeu de données. En ce qui concerne les valeurs quantitatives, les axes doivent commencer par zéro. Si des décimales sont utilisées, il faut les arrondir à un maximum de deux points de décimale dans la mesure du possible.
+Les valeurs qualitatives des données devraient être étiquetées de façon logique, comme les mois consécutifs. Pour les valeurs quantitatives, elles devraient être étiquetées à l’aide de nombres arrondis qui entrent dans la plage de données. Il faut toujours inclure un incrément additionnel plus élevé que le jeu de données.
 
 Dans certaines visualisations comportant de nombreux axes, l’omission d’étiquettes est un moyen efficace de réduire l’encombrement visuel. Les lignes guides des axes doivent être séparées avec suffisamment d’espace pour lire clairement chaque étiquette. Les intervalles entre les étiquettes devraient être cohérents.
 

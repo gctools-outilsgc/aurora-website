@@ -15,7 +15,7 @@ title: "Formatting"
 
 Most capitalization in the system uses sentence case. Titles, buttons, navigation etc. all use sentence case capitalization, which means only the first letter of the first word is capitalized. Always capitalize the first letter of proper nouns.
 
-Table headings and page titles use headline style, which means the first letter of each word (with the exception of and, but, the) are capitalized.
+Headings and page titles use headline style, which means the first letter of each word (with the exception of and, but, the) are capitalized.
 
 Avoid acronyms and abbreviations. Use acronyms only if the acronym is more commonly understood than the full name (e.g. NATO).
 
@@ -25,7 +25,7 @@ Acronyms and abbreviations should always be capitalized. Acronyms do not require
 
 Spell out dates in full, starting with the full month name (e.g. September 12, 2018). For timestamps on posts, dates can be spelled out (e.g. one day ago, one week ago).
 
-Spell out numbers up to ten. Use regular digits for any other number, and round to two decimals if necessary (e.g. 2.35).
+Spell out numbers up to ten. Use regular digits for any other number, and round to one or two decimals depending on the unit. (e.g. 2.35).
 
 Addresses should always start with the building number, then street name, and the street type abbreviated (e.g. 140 O'Connor St.) If an apartment or unit number is required, it should be included before the building number and use a dash in between (i.e. 6&ndash;90 Elgin St.)
 
@@ -59,4 +59,4 @@ Slash marks are used to show alternatives (e.g. and/or). When joining conflictin
 Bold can be used to show emphasis. In this system, bold is favoured for certain header types (see headers). Avoid italics as they can be difficult to read.
 
 ## Quotation Marks
-Use quotation marks around direct quotes. Quotation marks can also be used to show that a word is being used ironically, however this should only happen within body text, not functional text or labels.
+Always use quotation marks around direct quotes. Using the `<q>` tag, you can add  curly quotation marks to the text. Curly quotation marks are better for legibility of a page. 
