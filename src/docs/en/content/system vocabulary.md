@@ -123,6 +123,6 @@ Call-to-actions (or calls-to-action) should always be placed in close proximity 
 
 **Get started:** Directs the user to an overview landing page for the application.
 
-**Learn more:** Directs the user to a page with more in-depth information about the related topic.
+**Learn more:** Directs the user to a page with more in-depth information about the related topic. 
 
 **Submit:** A call-to-action which indicates that the information the user provided will be processed and saved in the back-end of the application.

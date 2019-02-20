@@ -11,7 +11,7 @@ title: "Mise en forme du contenu"
 
 # Mise en forme du contenu
 ## Majuscules
-Toutes les majuscules utilisées par le système sont celles de la majuscule en début de phrase. Les titres, les boutons, la navigation, etc., nécessitent tous la majuscule en début de phrase, ce qui signifie que seule la première lettre du mot est en majuscule. Il faut toujours mettre la première lettre des noms propres en majuscule. Les titres d’en-têtes de tableaux et de pages doivent également utiliser la majuscule en début de phrase.
+Toutes les majuscules utilisées par le système sont celles de la majuscule en début de phrase. Les titres, les boutons, la navigation, etc., nécessitent tous la majuscule en début de phrase, ce qui signifie que seule la première lettre du mot est en majuscule. Il faut toujours mettre la première lettre des noms propres en majuscule. Les titres d’en-têtes et de pages doivent également utiliser la majuscule en début de phrase.
 
 Il faut éviter les acronymes et les abréviations. Écrire au long les acronymes et les abréviations dans la mesure du possible. Les acronymes doivent seulement être utilisés s’ils sont plus communément compris que le nom entier (c’est-à-dire, OTAN).
 
@@ -28,7 +28,7 @@ Les listes doivent comporter des phrases de structure parallèle dans la mesure 
 ## Dates, nombres et adresses
 Les dates sont toujours affichées en écrivant la date au complet (p. ex., le 12 juillet 2018). Pour les références temporelles dans les publications, les dates peuvent être décrites (c’est-à-dire, hier, il y a une semaine), jusqu’à (x) après que le contenu a été affiché.  
 
-Les nombres jusqu’à dix sont épelés, et tout autre nombre est inscrit au moyen de chiffres réguliers, et arrondi à deux décimales au besoin (p. ex., 2,35)
+Les nombres jusqu’à dix sont épelés, et tout autre nombre est inscrit au moyen de chiffres réguliers, et arrondi à une ou deux décimales dependant du contenu (p. ex., 2,35).
 
 Les adresses doivent toujours commencer par le nom de l’immeuble, puis le nom de la rue, et le type de voie de circulation abrégé (p. ex., 440 av. Laurier Ouest). S’il faut indiquer un numéro d’appartement ou d’unité, il doit être inclus avant le numéro de l’immeuble et être séparé par un trait d’union (c’est-à-dire, 6-90 rue Elgin).
 
@@ -62,4 +62,4 @@ Les barres obligatoires sont utilisées pour indiquer des choix (et/ou, etc.). P
 Le gras peut être utilisé pour une fonction de mise en évidence. Dans ce système, le gras est privilégié pour certains types d’en-têtes (voir en-têtes). L’italique doit être évité puisqu’il n’est pas facile à lire pour certains utilisateurs.
 
 ## Guillemets
-Les guillemets sont utilisé autour des citations directes. Les guillemets peuvent également être utilisés pour indiquer qu’un mot est utilisé de façon ironique; toutefois, cela doit être utilisé dans le corps du texte seulement, et jamais dans des textes fonctionnels ou des étiquettes.
+Toujours utilisez les guillemets autour des citations directes. En utilisant l'élément `<q>`, vous pouvez ajouter des guillments bouclées au texte. Les guillemets bouclées sont mieux pour la lisibilité d'un page. 

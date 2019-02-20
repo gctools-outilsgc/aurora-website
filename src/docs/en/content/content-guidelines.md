@@ -2,7 +2,7 @@
 path: "/content/content-guidelines"
 subnav: "1/Content/Contenu/1"
 lang: "en"
-title: "Content guidelines"
+title: "Content Guidelines"
 ---
 <helmet>
 <title> Content Guidelines - Aurora Design System </title>
@@ -10,7 +10,7 @@ title: "Content guidelines"
 
 # Content Guidelines
 
-## Plain language
+## Plain Language
 
 Plain language is a style of writing designed to make text easy to read and understand.
 
@@ -33,17 +33,17 @@ Plain language is achieved through several techniques:
 ## Spelling
 All language and content in the system uses **Canadian** spelling. The [Canadian Press Stylebook](http://www.thecanadianpress.com/writing-guide/stylebook/) or [Canadian Press Caps and Spelling](http://www.thecanadianpress.com/writing-guide/caps-spelling/) is a good resource for spelling, grammar and writing style in the Canadian context.
 
-## Addressing users
+## Addressing Users
 
 Speak to users as if they are the main reader. Use pronouns such as "you" and yours, and use verbs that give direction, such as "download", "submit" or "save". Never refer to users in the third person. All system messaging should focus on the user.
 
-## Referring to product owners and the Government of Canada
+## Referring to Product Owners and the Government of Canada
 
 Generally you should refer to your department or business as "us" or "we" unless it is unclear who the subject is from context, or if the documentation is official or for legal purposes. Using first person pronouns makes your product seem more personable.
 
 When referring to the Government of Canada and all departments within it, you typically should use the entire name of the department, not the department's acronym. Only use the acronym if the name appears previously in a single text and you have defined the acronym.
 
-## Useful tools
+## Useful Tools
 
 Here are some free tools and references that you can use to improve your writing:
 
