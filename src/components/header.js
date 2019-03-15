@@ -94,7 +94,7 @@ const Header = ({ path }) => {
               </div>
                 <Nav className="ml-auto" navbar>
                   <NavItem className="d-none d-md-block">
-                    <NavLink style={{"color":"black"}} target="_blank"  href="https://github.com/gctools-outilsgc/design-system-code"><FontAwesomeIcon style={{"fontSize":"1.5em"}} icon={faGithub} /><span className="sr-only">GitHub</span></NavLink>
+                    <NavLink style={{"color":"black"}} target="_blank"  href="https://github.com/gctools-outilsgc/aurora-design-system"><FontAwesomeIcon style={{"fontSize":"1.5em"}} icon={faGithub} /><span className="sr-only">GitHub</span></NavLink>
                   </NavItem>
                   <NavItem className="d-none d-md-block">
                     <Link style={{"color":"black"}} to="/overview/download" className="nav-link"><FontAwesomeIcon style={{"fontSize":"1.5em"}} icon={faDownload} /><span className="sr-only">{t("DownloadLink")}</span></Link>
