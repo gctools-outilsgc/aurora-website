@@ -20,7 +20,7 @@ For more information about what might be included in future updates, visit the [
 ## V.0.3.4
 March 19, 2019
 
-* Creation of Aurora NPM packages, which are available [on Github](https://github.com/gctools-outilsgc/aurora-design-system)
+* Creation of Aurora NPM packages, which can be accessed [from Github](https://github.com/gctools-outilsgc/aurora-design-system). aurora-css provides CSS and minified CSS files, while aurora-ds provides CSS and JavaScript files. 
 * New Colour documentation, which includes a different look for colour swatches and additional information on applying palettes, as well as a more robust Aurora Borealis palette. 
 * Documentation fixes and updates on various pages. 
 * Updated Github repos, which separates packages and design files from the documentation site. New repos have updated READMEs. 
