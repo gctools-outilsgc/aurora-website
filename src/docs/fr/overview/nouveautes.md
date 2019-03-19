@@ -17,6 +17,15 @@ Pour plus d'information sur les mises à jours futures, visitez la [page d'Auror
 
 ![Aurora banner](../../../img\aurora-banner-small.png)
 
+## V.0.3.4
+Le 19 mars 2019
+
+* Création de paquets NPM Aurora, accessibles à partir de Github. aurora-css fournit des fichiers CSS et des fichiers CSS minimisés, tandis qu’aurora-ds fournit des fichiers CSS et JavaScript. 
+* Documentation sur les nouvelles couleurs, où les touches de couleurs sont présentées de façon différente et où l’on trouve des renseignements supplémentaires sur l’application de palettes, ainsi qu’une palette plus robuste de couleurs des aurores boréales. 
+* Rustines et mises à jour de la documentation à diverses pages. 
+* Dépôts Github mis à jour, où les paquets et les fichiers de conception sont séparés du site de documentation. Les nouveaux dépôts comportent des fichiers narratifs mis à jour. 
+* Trousse d’interface-utilisateur mise à jour pour une meilleure mise en correspondance des rustines du site de documentation et des nouveaux composants personnalisés.
+
 ## V.0.3.3
 Le 16 janvier 2019
 * La section des composantes comporte désormais des onglets à toutes les pages. Ces onglets

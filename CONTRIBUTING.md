@@ -2,6 +2,8 @@
 
 ([Français](#comment-contribuer))
 
+This repository is for all Issues and comments related to the Aurora documentation website. For Issues or feedback related to development packages, individual components and design files, please refer to the [Aurora-design-system repository](https://github.com/gctools-outilsgc/aurora-design-system). 
+
 ## How to Contribute
 
 **Do not post any security issues on github!** Security vulnerabilities must be reported by creating a ticket with the Digital Enablement team [help desk](https://gccollab.ca/help/knowledgebase).
@@ -13,6 +15,8 @@ Feel free to propose changes by creating Pull Requests. If you don't have write 
 If this is your first time contributing on GitHub, don't worry! Let us know if you have any questions.
 
 ______________________
+
+Ce répertoire est destiné à toutes les questions et tous les commentaires liés au site Web de documentation Aurora. Pour les questions ou commentaires concernant les progiciels de développement, les éléments individuels et les fichiers de conception, veuillez consulter le [référentiel du système de conception Aurora](https://github.com/gctools-outilsgc/aurora-design-system). 
 
 ## Comment contribuer
 
