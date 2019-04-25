@@ -62,4 +62,6 @@ Les barres obligatoires sont utilisées pour indiquer des choix (et/ou, etc.). P
 Le gras peut être utilisé pour une fonction de mise en évidence. Dans ce système, le gras est privilégié pour certains types d’en-têtes (voir en-têtes). L’italique doit être évité puisqu’il n’est pas facile à lire pour certains utilisateurs.
 
 ## Guillemets
+
 Toujours utilisez les guillemets autour des citations directes. En utilisant l'élément `<q>`, vous pouvez ajouter des guillemets bouclées au texte. Les guillemets bouclées sont mieux pour la lisibilité d'un page. 
+
