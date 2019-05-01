@@ -2,7 +2,7 @@
 path: "/overview/checklist"
 subnav: "2/Community/Communauté/2"
 lang: "en"
-title: "Contibuting"
+title: "Contributing"
 ---
 
 <helmet>
