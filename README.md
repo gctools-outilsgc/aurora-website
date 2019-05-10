@@ -4,7 +4,7 @@
 
 ## Aurora design system - https://design.gccollab.ca/
 
-We created Aurora design system to standardize the visual language and user experience of the Digital Collaboration Division’s (GCTools) online applications and tools. 
+We created Aurora design system to standardize the visual language and user experience of the Digital Enablement Division’s (GCTools) online applications and tools. 
 
 Aurora was built by a multi-disciplinary team of developers, designers, UX researchers, writers and data scientists. Combining the expertise of all of these roles allowed us to create a design system with a wide range of elements. 
 
@@ -99,7 +99,7 @@ ______________________
 
 ## Système de conception Aurora - https://design.gccollab.ca/
 
-Nous avons créé le système de conception Aurora afin de normaliser le langage visuel et l’expérience-utilisateur des applications et des outils (OutilsGC) créés par la Division de la collaboration numérique. 
+Nous avons créé le système de conception Aurora afin de normaliser le langage visuel et l’expérience-utilisateur des applications et des outils (OutilsGC) créés par la Division de la mobilisation numérique. 
 
 Le système Aurora a été créé par une équipe multidisciplinaire composée de concepteurs, de chercheurs EU, de rédacteurs et de scientifiques des données. En combinant l’expertise de tous ces rôles, nous en sommes arrivés à un système de conception doté d’une vaste gamme d’éléments. 
 
