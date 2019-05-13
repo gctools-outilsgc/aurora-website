@@ -19,7 +19,7 @@ Building a design system is a collaborative effort, and requires expertise acros
 
 ## Who created Aurora design system?
 
-Aurora design system is a collaborative effort between various designers, developers and writers across the Government of Canada. Led by the Digital Collaboration Division at the Treasury Board of Canada Secretariat, the system was built in collaboration with the Canadian Digital Service: Talent Cloud, Immigration, Refugees and Citizenship Canada, and other individuals within Government of Canada.
+Aurora design system is a collaborative effort between various designers, developers and writers across the Government of Canada. Led by the Digital Enablement Division at the Treasury Board of Canada Secretariat, the system was built in collaboration with the Canadian Digital Service: Talent Cloud, Immigration, Refugees and Citizenship Canada, and other individuals within Government of Canada.
 
 ## Who can use Aurora design system?
 
@@ -57,11 +57,11 @@ This design system isn’t a direct alternative to WET or the Canada.ca Style Gu
 
 ## How did you build Aurora design system?
 
-The design system was built using the Digital Collaboration Division's existing agile development method. Following our two-week development sprint model, we decided to start separate design sprints on the same cycle. Every two weeks we would pick a particular theme \(i.e. typography, forms\) to work on.
+The design system was built using the Digital Enablement Division's existing agile development method. Following our two-week development sprint model, we decided to start separate design sprints on the same cycle. Every two weeks we would pick a particular theme \(i.e. typography, forms\) to work on.
 
 Pieces were first identified using a handy parts checklist and then listed as separate issues in Github. We managed tasks using an online Kanban board. When files were completed we uploaded them to our Github repository so that they were easily accessible to all members of the team and other partners.
 
-On an ongoing basis, work for the design system will be integrated into existing development cycles within the Digital Collaboration team.
+On an ongoing basis, work for the design system will be integrated into existing development cycles within the Digital Enablement team.
 
 ## Are there files I can download and use?
 

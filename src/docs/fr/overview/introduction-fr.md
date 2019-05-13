@@ -11,7 +11,7 @@ title: "Introduction"
 
 # Introduction
 
-Nous avons créé le système de conception Aurora afin de normaliser le langage visuel et l’expérience-utilisateur des applications et des outils créés par la Division de la collaboration numérique.
+Nous avons créé le système de conception Aurora afin de normaliser le langage visuel et l’expérience-utilisateur des applications et des outils créés par la Division de la mobilisation numérique.
 
 Le système Aurora a été créé par une équipe multidisciplinaire composée de concepteurs, de chercheurs EU, de rédacteurs et de scientifiques des données. En combinant l’expertise de tous ces rôles, nous en sommes arrivés à un système de conception doté d’une vaste gamme d’éléments.
 

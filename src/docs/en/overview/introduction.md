@@ -11,7 +11,7 @@ title: "Introduction"
 
 # Introduction
 
-We created Aurora design system to standardize the visual language and user experience of the Digital Collaboration Division’s online applications and tools.
+We created Aurora design system to standardize the visual language and user experience of the Digital Enablement Division’s online applications and tools.
 
 Aurora was built by a multi-disciplinary team of developers, designers, UX researchers, writers and data scientists. Combining the expertise of all of these roles allowed us to create a design system with a wide range of elements.
 
