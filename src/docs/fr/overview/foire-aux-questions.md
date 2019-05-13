@@ -19,7 +19,7 @@ La création d’un système de conception repose sur un effort de collaboration
 
 ## Qui a créé le système de conception Aurora?
 
-Le système de conception Aurora est le fruit d’un partenariat entre divers concepteurs, développeurs et rédacteurs du gouvernement du Canada. Le système a été conçu sous la direction de la Division de la collaboration numérique du Secrétariat du Conseil du Trésor en collaboration avec le Service numérique canadien: le Nuage de talents, Immigration, Réfugiés et Citoyenneté Canada ainsi que d’autres employés du gouvernement du Canada.
+Le système de conception Aurora est le fruit d’un partenariat entre divers concepteurs, développeurs et rédacteurs du gouvernement du Canada. Le système a été conçu sous la direction de la Division de la mobilisation numérique du Secrétariat du Conseil du Trésor en collaboration avec le Service numérique canadien: le Nuage de talents, Immigration, Réfugiés et Citoyenneté Canada ainsi que d’autres employés du gouvernement du Canada.
 
 ## Qui peut utiliser le système de conception Aurora?
 
@@ -53,11 +53,11 @@ Ce système de conception n’est pas une solution de rechange directe à la BOE
 
 ## Comment avez-vous construit le système de conception Aurora?
 
-Le système de conception a été conçu à l’aide la méthode de développement agile de la Division de collaboration numérique. Suite à notre modèle d’itération de développement de deux semaines, nous avons décidé de lancer des itérations de développement distinctes reposant sur le même cycle. Toutes les deux semaines, nous choisissons un thème particulier \(typographie, formes\) sur lequel nous travaillons.
+Le système de conception a été conçu à l’aide la méthode de développement agile de la Division de mobilisation numérique. Suite à notre modèle d’itération de développement de deux semaines, nous avons décidé de lancer des itérations de développement distinctes reposant sur le même cycle. Toutes les deux semaines, nous choisissons un thème particulier \(typographie, formes\) sur lequel nous travaillons.
 
 Les éléments ont d’abord été définis à l’aide d’une liste de contrôle des pièces pratiques, puis répertoriés séparément dans Github. Nous avons géré les tâches à l’aide d’un tableau Kanban en ligne. Les fichiers complétés ont été téléchargés dans notre référentiel Github afin d’être facilement accessibles à tous les membres de l’équipe et aux autres partenaires.
 
-Le travail continu pour le système de conception sera intégré aux cycles de développement actuels de l’équipe de la Collaboration numérique.
+Le travail continu pour le système de conception sera intégré aux cycles de développement actuels de l’équipe de la mobilisation numérique.
 
 ## Puis-je télécharger et utiliser des fichiers?
 

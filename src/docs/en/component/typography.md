@@ -12,7 +12,7 @@ title: "Typography"
 
 ## Fonts
 
-The Digital Collaboration Division uses two font families for all digital products: Rubik and Nunito Sans. Both Rubik and Nunito Sans are open source fonts and can be downloaded from [Google Fonts](https://fonts.google.com/) for free.
+Aurora uses two font families for all digital products: Rubik and Nunito Sans. Both Rubik and Nunito Sans are open source fonts and can be downloaded from [Google Fonts](https://fonts.google.com/) for free.
 
 [Rubik](https://fonts.google.com/specimen/Rubik) is used for titles and headings, while [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) is used for sub-headings, buttons and paragraph text.
 
