@@ -47,7 +47,7 @@ title: "Vocabulaire du système"
 
 2.	n.) Nombre de fois que les utilisateurs ont cliqué sur le bouton semblable sur un élément de contenu.
 
-**Ouvrir une session**: (v) Permet d’entrer un nom d’utilisateur et un mot de passe afin d’accéder à la version personnelle d’une application.
+**Se connecter**: (v) Permet d’entrer un nom d’utilisateur et un mot de passe afin d’accéder à la version personnelle d’une application.
 
 **Ouverture de session**:
 
