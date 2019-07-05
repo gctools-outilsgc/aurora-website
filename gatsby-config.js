@@ -1,43 +1,43 @@
 module.exports = {
-  pathPrefix: `/design-system-code`,
+  pathPrefix: '/design-system-code',
   siteMetadata: {
     title: 'Aurora',
     langs: ['en', 'fr'],
-    defaultLangKey: 'en'
+    defaultLangKey: 'en',
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: 'gatsby-plugin-google-fonts',
       options: {
         fonts: [
-          `Rubik\:400,500`,
-          `Nunito sans\:300,400,600,700` // you can also specify font weights and styles
-        ]
-      }
+          'Rubik\:400,500',
+          'Nunito sans\:300,400,600,700', // you can also specify font weights and styles
+        ],
+      },
     },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
-    `gatsby-transformer-sharp`,
+    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/docs/`,
-        name: `markdown-pages`,
+        name: 'markdown-pages',
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `img`,
-        path: `${__dirname}/src/img/`
-      }
+        name: 'img',
+        path: `${__dirname}/src/img/`,
+      },
     },
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
           {
-            resolve: `gatsby-remark-images`,
+            resolve: 'gatsby-remark-images',
             options: {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
@@ -47,9 +47,9 @@ module.exports = {
             },
           },
           {
-            resolve: `gatsby-remark-prismjs`,
+            resolve: 'gatsby-remark-prismjs',
             options: {
-              classPrefix: "language-",
+              classPrefix: 'language-',
               inlineCodeMarker: null,
               aliases: {},
               showLineNumbers: false,
@@ -60,15 +60,15 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: "UA-29015462-4",
+        trackingId: '',
         // Puts tracking script in the head instead of the body
         head: false,
         // Setting this parameter is optional
         anonymize: true,
         // Setting this parameter is also optional
-        respectDNT: true
+        respectDNT: true,
       },
     },
     /*
@@ -122,4 +122,4 @@ module.exports = {
     },
     */
   ],
-}
+};
