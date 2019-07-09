@@ -1,0 +1,74 @@
+---
+path: "/profile/logic"
+subnav: "1/Profile/Profil/6"
+lang: "en"
+title: "Business Logic"
+---
+
+<helmet>
+<title> Profile - Business Logic</title>
+</helmet>
+
+# Business Logic
+
+The user is the source of truth for information except for fields that required additional validation, such as organization, team, or supervisor.  The user that owns the team that a user is attempting to join must approve their request.  Until the approval is processed the user will continue to remain a part of the team / organization that they are currently a part of.
+
+## Supervisor
+
+There is no external validation of "supervisory" status.  Instead it is assumed that a user is a supervisor once a single user identifies them as their supervisor which creates a reporting relationship between the two users.
+
+### Teams
+
+Teams are how users are grouped in reporting relationships and allow for the dynamic creation and dispaly of reporting relationsihp graphs.
+It is important to note that the reporting relationship with your teams will follow you from team to team or organization to organization unless you explicitly transfer them to another user.
+
+**You can:**
+* Create teams
+* Modify your teams
+* Delete your teams
+* Transfer your teams
+
+**You can not:**
+* Create someone elses teams
+* Modify someone elses teams
+* Delete someone elses teams
+* Delete your default team
+
+### Approvals
+
+**You can:**
+* Approve or deny membership requests to join a team you own
+* Approve or deny informational requests of reporting user's information fields requiring validation
+
+**You can not:**
+* Approve any other requests except for users who have a direct reporting relationship with you
+
+## User
+
+Everyone is a user, even if you have supervisory status, and is responsible for ensuring their information is up to date.
+
+### Supervisor
+
+**You can:**
+* Select another user as your supervisor.  The reporting relationship will only be created once the other user has approved your request.
+
+**You can not:**
+* Select another user as your supervisor without their consent.
+
+### Organization
+
+By default everyone is a part of the "Global Organization" by when a profile is created.  This default organizaiton contains everyone who is not directly associated to an existing organization.
+
+**You can:**
+* Join an organization directly without identifying a supervisor.  This will list you as in the Organizations Default Team.
+* Join an organization by identifying another user as your supervisor who is a part of the organization you want to join
+
+**You can not:**
+* Create an organization
+* Identify a user as your supervisor but remain not part of their organization
+* Modify an organization
+* Delete an organization
+
+
+
+

@@ -62,7 +62,7 @@ const Header = ({ path }) => {
                 <img src={logo} alt="Logo" className="float-left" style={{ width: '30px', margin: '5px' }} />
                 <span className="h2 d-none d-md-block float-left font-weight-normal">
                   {' '}
-                  {'Open Accessible Digital Workspace'}{' '}
+                  {'Quantum'}{' '}
                 </span>
               </Link>
               <div className="navbar-collapse nav-holder">

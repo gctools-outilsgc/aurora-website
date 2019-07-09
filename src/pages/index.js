@@ -20,14 +20,14 @@ class IndexPage extends React.Component {
         <div>
           <I18n ns={['translation']}>
             {
-            t => (<Helmet><title>{t('Open Accessible Digital Workspace Documentation')}</title></Helmet>)
+            t => (<Helmet><title>{t('Quantum')}</title></Helmet>)
           }
           </I18n>
           <I18n ns={['translation']}>
             {
           t => (
             <main id="main-content" role="main">
-              <h1 className="sr-only">{t('OADWDocumentation')}</h1>
+              <h1 className="sr-only">{t('QuantumDocumentation')}</h1>
               <div className="hero-holder">
                 <Container>
                   <h2 className="display-5">{t('Tagline')}</h2>
@@ -35,7 +35,7 @@ class IndexPage extends React.Component {
                     {t('TopIntro')}
                   </p>
                   <div>
-                    <Link to="/component" className="mb-1 btn btn-primary btn-lg">{t('MainCTA')}</Link>
+                    <Link to="/architecture/introduction" className="mb-1 btn btn-primary btn-lg">{t('MainCTA')}</Link>
                     <div className="mb-3 mt-2">
                       <a className="ext-link-text mr-3 mt-2" href="https://github.com/gctools-outilsgc/"><FontAwesomeIcon className="mr-2" style={{ fontSize: '1.5em', width: '1em', color: 'black' }} icon={faGithub} />{t('GithubLink')}</a>
                     </div>
@@ -44,46 +44,29 @@ class IndexPage extends React.Component {
               </div>
               <Container className="home-body">
 
-                <h2 className="mt-5 mb-5" style={{ textAlign: 'center' }}>{t('AboutAurora')}</h2>
+                <h2 className="mt-5 mb-5" style={{ textAlign: 'center' }}>{t('AboutQuantum')}</h2>
 
                 <Row className="mb-5">
-                  <Col xs="12" sm="6" md="4">
+                  <Col xs="12" sm="6" md="3">
                     <h3 className="mb-3" style={{ color: '#467B8D' }}>{t('SimpleFlexible')}</h3>
                     <p>{t('SimpleFlexibleParagraph')}</p>
                   </Col>
-                  <Col xs="12" sm="6" md="4">
-                    <h3 className="mb-3" style={{ color: '#467B8D' }}>{t('FunToUse')}</h3>
-                    <p>{t('FunToUseParagraph')}</p>
-                  </Col>
-                  <Col xs="12" sm="6" md="4">
+                  <Col xs="12" sm="6" md="3">
                     <h3 className="mb-3" style={{ color: '#467B8D' }}>{t('Reusable')}</h3>
                     <p>{t('ReusableParagraph')}</p>
                   </Col>
-                  <Col xs="12" sm="6" md="4">
+                  <Col xs="12" sm="6" md="3">
                     <h3 className="mb-3" style={{ color: '#467B8D' }}>{t('Diverse')}</h3>
                     <p>{t('DiverseParagraph')}</p>
                   </Col>
-                  <Col xs="12" sm="6" md="4">
-                    <h3 className="mb-3" style={{ color: '#467B8D' }}>{t('TechnologyAgnostic')}</h3>
-                    <p>{t('TechnologyAgnosticParagraph')}</p>
-                  </Col>
-                  <Col xs="12" sm="6" md="4">
+                  <Col xs="12" sm="6" md="3">
                     <h3 className="mb-3" style={{ color: '#467B8D' }}>{t('Open')}</h3>
                     <p>{t('OpenParagraph')}</p>
                   </Col>
                 </Row>
               </Container>
               <div className="footer-holder">
-                <Container>
-                  <div>
-                    <p className="lead" style={{ display: 'inline-block', paddingBottom: '10px', textAlign: 'left' }}>
-                      {t('BottomText')}
-                      <div>
-                        <Link to="/overview/introduction" className="btn btn-primary mt-3">{t('LearnMore')}</Link>
-                      </div>
-                    </p>
-                  </div>
-                </Container>
+                <Container />
               </div>
             </main>
 
