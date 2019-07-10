@@ -13,10 +13,8 @@ title: "Introduction"
 
 The overall architecture is built around GraphQL (Prisma and Apollo), a Message Queue, and ElasticSearch.  These basic componenents provide the foundational services that enable all the applications within the Open Accessible Digital Workspace.
 
-## Solution Architecture
+The driving concept behind the architecture was that any application could be a part of the Open Accessible Digital Workspace without having been strictly built for it.  Many different levels of integration were possible with the level of integration increasing exponentially with the number of API's available for the application.
 
-![OADW System Design](../../../img/architecture/Solution-architecture.png)
+The image below was created early on in our endevour however still captures the spirit of what why trying to be achieved.
 
-## System Design
-
-![OADW Solution Architecture](../../../img/architecture/OADW_Architecture-Walkthrough.png)
+![OADW Platform Idea](../../../img/architecture/Solution-architecture.png)
