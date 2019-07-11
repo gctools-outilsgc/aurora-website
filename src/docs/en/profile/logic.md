@@ -11,7 +11,7 @@ title: "Business Logic"
 
 # Business Logic
 
-The user is the source of truth for information except for fields that required additional validation, such as organization, team, or supervisor.  The user that owns the team that a user is attempting to join must approve their request.  Until the approval is processed the user will continue to remain a part of the team / organization that they are currently a part of.
+The user is the source of truth for information except for fields that require additional validation, such as the user's organization, team, or supervisor.  The user that owns the team that a user is attempting to join must approve their request.  Until the approval is processed, the user will continue to remain a part of the team / organization that they are currently a part of.
 
 ## Supervisor
 
@@ -19,8 +19,8 @@ There is no external validation of "supervisory" status.  Instead it is assumed 
 
 ### Teams
 
-Teams are how users are grouped in reporting relationships and allow for the dynamic creation and dispaly of reporting relationsihp graphs.
-It is important to note that the reporting relationship with your teams will follow you from team to team or organization to organization unless you explicitly transfer them to another user.
+Teams are how users are grouped in reporting relationships, and allow for the dynamic creation and dispaly of reporting relationship graphs.
+It is important to note that the reporting relationship with teams will follow the user from team to team or organization to organization unless explicitly transferred to another user.
 
 **You can:**
 * Create teams
@@ -29,9 +29,9 @@ It is important to note that the reporting relationship with your teams will fol
 * Transfer your teams
 
 **You can not:**
-* Create someone elses teams
-* Modify someone elses teams
-* Delete someone elses teams
+* Create someone else's teams
+* Modify someone else's teams
+* Delete someone else's teams
 * Delete your default team
 
 ### Approvals
@@ -45,7 +45,7 @@ It is important to note that the reporting relationship with your teams will fol
 
 ## User
 
-Everyone is a user, even if you have supervisory status, and is responsible for ensuring their information is up to date.
+Everyone is a user, even if they have supervisory status, and is responsible for ensuring their information is up to date.
 
 ### Supervisor
 
@@ -57,10 +57,10 @@ Everyone is a user, even if you have supervisory status, and is responsible for 
 
 ### Organization
 
-By default everyone is a part of the "Global Organization" by when a profile is created.  This default organizaiton contains everyone who is not directly associated to an existing organization.
+By default, everyone is a part of the "Global Organization" when a profile is created.  This default organizaiton contains everyone who is not directly associated to a specific organization.
 
 **You can:**
-* Join an organization directly without identifying a supervisor.  This will list you as in the Organizations Default Team.
+* Join an organization directly without identifying a supervisor.  This will list you as in the organization's Default Team.
 * Join an organization by identifying another user as your supervisor who is a part of the organization you want to join
 
 **You can not:**

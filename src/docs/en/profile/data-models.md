@@ -17,14 +17,14 @@ title: "Data Models"
 * `name` *user's name* (string)
 * `email` *user's email* (string)
 * `avatar` *url to user's profile avatar* (url)
-* `titleEn` *user's english position title* (string)
-* `titleFr` *user's french position title* (string)
+* `titleEn` *user's English position title* (string)
+* `titleFr` *user's French position title* (string)
 * `mobilePhone` *mobile phone number* (string)
 * `officePhone` *office phone number* (string)
 * `address` *user's work address* (address object)
 * `team` *team object the user is associated to.  This object is used to find the user's current supervisor and organization* (team object)
 * `ownerOfTeams` *array of team objects that have this user as its owner. This object is used to find the user's employees* (team object array)
-* `outstandingApprovals` *array of approval objects that require the users approval or rejection* (approval object array)
+* `outstandingApprovals` *array of approval objects that require the user's approval or rejection* (approval object array)
 * `submittedApprovals` *array of approval objects that have been submitted by the user* (approval ojbect array)
 
 ## Address
@@ -39,9 +39,9 @@ title: "Data Models"
 ## Team
 
 * `id` *unique organizaitonal tier object identifier* (int)
-* `nameEn` *english name of team* (string)
-* `nameFr` *french name of team* (string)
-* `descriptionEn` *english description of team* (string)
+* `nameEn` *English name of team* (string)
+* `nameFr` *French name of team* (string)
+* `descriptionEn` *English description of team* (string)
 * `organization` *top level organization object* (organization object)
 * `owner` *profile object of the user who is listed as the owner of this team* (user object)
 * `OrgMembers` *array of user objects who are associated with this org tier* (user object array)
@@ -49,10 +49,10 @@ title: "Data Models"
 ## Organization
 
 * `id` *unique organization object identifier* (int)
-* `nameEn` *english name of organization* (string)
-* `nameFr` *french name of organization* (string)
-* `acronymEn` *english acronym of the organization* (string)
-* `acronymFr` *french acronym of the organization* (string)
+* `nameEn` *English name of organization* (string)
+* `nameFr` *French name of organization* (string)
+* `acronymEn` *English acronym of the organization* (string)
+* `acronymFr` *French acronym of the organization* (string)
 * `teams` *array of teams that are associated with this organization* (team array)
 
 ## Approval
@@ -75,8 +75,8 @@ title: "Data Models"
 * `name` *user's name* (string)
 * `email` *user's email* (string)
 * `avatar` *url to user's profile avatar* (url)
-* `titleEn` *user's english position title* (string)
-* `titleFr` *user's french position title* (string)
+* `titleEn` *user's English position title* (string)
+* `titleFr` *user's French position title* (string)
 * `mobilePhone` *mobile phone number* (string)
 * `officePhone` *office phone number* (string)
 * `address` *user's work address* (address object)

@@ -11,7 +11,7 @@ title: "Retrieving Data"
 
 # Queries
 
-Queries do not require authentication of the client through the means of an access token however the type of data returned may be filtered.  For example if the "address" field requires a certain "user role" to view then if a querying user does not have that role `null` will be returned for that field.
+Queries do not require authentication of the client through the means of an access token, however the type of data returned may be filtered.  For example if the "address" field requires a certain "user role" to view then if a querying user does not have that role `null` will be returned for that field.
 
 For more informaiton on how to utilize the graphQL query function graphl.org provides excellent [tutorails](https://graphql.org/learn/queries/).
 
@@ -99,7 +99,7 @@ For brevity `...all object fields available` has been used to reduce repetivitiy
 
 Search criteria fields can be used separately or chained together to easily filter through data.
 
-### Autocomplete Name Profile Search
+### Auto-complete name profile search
 
 Available Arguments
 
@@ -241,14 +241,13 @@ Example using all available Arguments
 
 ## Paginiation
 
-Retrieving too much data on a single request is unpractical and may even break your app. Pagination exists to solve this problem, allowing the client to specify how many items it wants.
+Retrieving too much data on a single request is not practical and may break your app. Pagination exists to solve this problem, allowing the client to specify how many items it wants.
 
 The simple way defined in the GraphQL pagination documentation is to slice the results using two parameters: `first`, which returns the first n items and `skip`, which skips the first n items.
 
 These two pagination parameters have been implemented on all of the search query functions.
 
-The example query below will search for all profiles that contain the name "Bryan" but instead of returning the complete array the query b
-elow is requesting items 2 and 3 in the array.  Skip the first item in the array and send the next 2 in the array.
+The example query below will search for all profiles that contain the name "Bryan" but instead of returning the complete array the query below is requesting items 2 and 3 in the array.  Skip the first item in the array and send the next 2 in the array.
 
 ```javascript
     query{
