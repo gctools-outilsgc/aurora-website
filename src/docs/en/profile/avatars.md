@@ -11,7 +11,7 @@ title: "Avatars"
 
 # Avatar Resource Server
 
-The Profile as a Service leverages [PictShare](https://github.com/chrisiaut/pictshare) which is a multi lingual, open source image hosting application with a simple resizing and upload API for the hosting of profile avatar images.  PictShare is licensed under the [Apache-2.0 License](https://github.com/chrisiaut/pictshare/blob/master/LICENSE)
+The Profile as a Service leverages [PictShare](https://github.com/chrisiaut/pictshare) which is a multi-lingual, Open Source image-hosting application with a simple resizing and upload API for the hosting of profile avatar images.  PictShare is licensed under the [Apache-2.0 License](https://github.com/chrisiaut/pictshare/blob/master/LICENSE)
 
 ## Features
 
@@ -83,4 +83,4 @@ You can also combine as many options as you want. Even multiple times! Want your
 
 ## Security and privacy
 
-* No exif data is stored on the server, all jpegs get cleaned on upload
+* No exif data is stored on the server, all JPGs get cleaned on upload

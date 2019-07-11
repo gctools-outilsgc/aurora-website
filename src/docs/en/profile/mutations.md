@@ -11,18 +11,18 @@ title: "Modifying Data"
 
 # Mutations
 
-Mutations do require authentication in the form of the users valid GCaccount access token.  The access token must be passed in the request header in the form `Authorization: Bearer {access token}`.
+Mutations require authentication in the form of the user's valid GCaccount access token.  The access token must be passed in the request header in the form `Authorization: Bearer {access token}`.
 
 ## Profile Mutations
 
 Available arguments to send in a mutation:
 
-* `gcId` *a users identifier* (string)
+* `gcId` *a user's identifier* (string)
 * `data` *an object with values to modify* (dict)
   * `name` *user's name* (string)
   * `email` *user's email* (string)
-  * `titleEn` *user's english position title* (string)
-  * `titleFr` *user's french position title* (string)
+  * `titleEn` *user's English position title* (string)
+  * `titleFr` *user's French position title* (string)
   * `mobilePhone` *mobile phone number* (string)
   * `officePhone` *office phone number* (string)
   * `address` *user's work address* (address object)
@@ -68,10 +68,10 @@ Example mutation using all available arguments:
 
 Available arguments to send in a mutation:
 
-* `nameEn` *english name of team* (string)
-* `nameFr` *french name of team* (string)
-* `descriptionEn` *english description of team* (string)
-* `descrtiptionFr` *french description of team* (string)
+* `nameEn` *English name of team* (string)
+* `nameFr` *French name of team* (string)
+* `descriptionEn` *English description of team* (string)
+* `descrtiptionFr` *French description of team* (string)
 * `organization` *organization object unique identifier* (organization object)
 * `owner` *unique user who owns the team. Can be identified by email or by gcID* (profile object)
 
@@ -101,10 +101,10 @@ Available arguments to send in a mutation:
 
 * `id` *unique identifier of the team to modify* (int)
 * `data` *object of information to modify* (dict)
-  * `nameEn` *english name of team* (string)
-  * `nameFr` *french name of team* (string)
-  * `descriptionEn` *english description of team* (string)
-  * `descrtiptionFr` *french description of team* (string)
+  * `nameEn` *English name of team* (string)
+  * `nameFr` *French name of team* (string)
+  * `descriptionEn` *English description of team* (string)
+  * `descrtiptionFr` *French description of team* (string)
   * `organization` *organization object unique identifier* (organization object)
   * `owner` *unique user who owns the team. Can be identified by email or by gcID* (profile object)
 
