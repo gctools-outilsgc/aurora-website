@@ -8,7 +8,7 @@ title: "Content Guidelines"
 <title> Content Guidelines - Aurora Design System </title>
 </helmet>
 
-# Content Guidelines
+# Content guidelines
 
 ## Plain Language
 
