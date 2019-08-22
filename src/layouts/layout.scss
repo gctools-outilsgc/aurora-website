@@ -63,20 +63,14 @@
 }
 
 .hero-holder {
-  background-image: url(https://png2.kisspng.com/sh/68fc92791a9d8a1feb27e779622b71f1/L0KzQYm3VMI2N5p1iZH0aYP2gLBuTgZma6V0ip92b3TofH72hr11cJYyeeZ4bT3zgrF7jB4ueaZmhuZAbT3wdbTvgf5qa6QyTdNuMEe7QLO6hsUxO2EzS6I8M0K7R4W4VcI1Pmc1SqUAMkW8Q3B3jvc=/kisspng-vector-model-of-the-atom-proton-quantum-mechanics-5ae0780b3f5030.3033287415246602352593.png);
-  background-size: 50%;
+  background-image: url("../img/quantum-background.png");
+  background-size: 40%;
   background-repeat:no-repeat;
-  background-position: right bottom;
+  background-position: right;
+  background-position-y: 60px;  
   height: 695px;
   padding: 70px 0px;
-   /*
-      Need to modify background image for different screen sizes
-      background-repeat: no-repeat;
-      padding: 70px 0px 215px 0px;
-      background-position: right;
-      background-position-y: 20px;
-      background-size: 1200px;
-   */
+  
   .lead {
       max-width: 70%;
   }

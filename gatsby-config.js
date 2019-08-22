@@ -1,7 +1,6 @@
 module.exports = {
-  pathPrefix: '/design-system-code',
   siteMetadata: {
-    title: 'Aurora',
+    title: 'Quantum',
     langs: ['en', 'fr'],
     defaultLangKey: 'en',
   },
