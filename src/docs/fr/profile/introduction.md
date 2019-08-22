@@ -4,6 +4,9 @@ subnav: "1/Profile/Profil/1"
 lang: "fr"
 title: "Profil comme Service"
 ---
+<helmet>
+<title> Profile - Introduction </title>
+</helmet>
 
 # Profile as a Service
 

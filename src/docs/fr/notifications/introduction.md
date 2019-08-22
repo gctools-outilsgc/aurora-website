@@ -1,12 +1,12 @@
 ---
-path: "/profile/introduction"
-subnav: "1/Profile/Profil/1"
-lang: "en"
-title: "Profile as a Service"
+path: "/notifications/introduction"
+subnav: "1/Notifications/Notifications/1"
+lang: "fr"
+title: "Introduction"
 ---
 
 <helmet>
-<title> Profile - Introduction </title>
+<title> Profile - Profile as a Service </title>
 </helmet>
 
 # Profile as a Service

@@ -23,6 +23,9 @@ const Header = ({ path }) => {
   /* In the v2 version if you clicked away active status was lost.
   */
   if (path) {
+    if (path.length >= 14) {
+      if (path.substr(0, 14) === '/notifications') path = '/notifications';
+    }
     if (path.length >= 13) {
       if (path.substr(0, 13) === '/architecture') path = '/architecture';
     }
@@ -80,6 +83,11 @@ const Header = ({ path }) => {
                   <NavItem>
                     <Link to="/profile/introduction" className={(path == '/profile') ? 'nav-link active-header-tab' : 'nav-link'}>
                       {t('Profile as a Service')}
+                    </Link>
+                  </NavItem>
+                  <NavItem>
+                    <Link to="/notifications/introduction" className={(path == '/notifications') ? 'nav-link active-header-tab' : 'nav-link'}>
+                      {t('Notifications as a Service')}
                     </Link>
                   </NavItem>
                 </Nav>

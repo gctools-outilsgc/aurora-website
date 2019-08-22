@@ -191,5 +191,25 @@ export const pageQuery = graphql`
           }
       }
     }
+    notifications:allMarkdownRemark(
+      filter: {
+        frontmatter: {path: {regex: "/\/notifications\//"}}
+      },
+      sort:{
+        fields:[frontmatter___subnav]
+      }
+    ){
+      totalCount
+        edges{
+          node {
+            frontmatter {
+              title
+              path
+              lang
+              subnav
+            }
+          }
+      }
+    }
   }
 `;
