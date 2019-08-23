@@ -9,7 +9,7 @@ title: "Introduction"
 <title> Architecture - Introduction </title>
 </helmet>
 
-# Architecture
+## Architecture
 
 Quantum architecture is built around GraphQL (Prisma and Apollo), a Message Queue, and ElasticSearch.  These basic components provide the foundational services that enable all applications within the Open Accessible Digital Workspace.
 

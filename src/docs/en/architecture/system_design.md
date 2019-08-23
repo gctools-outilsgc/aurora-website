@@ -8,7 +8,7 @@ title: "System Architecture"
 <title> Architecture - System Architecture </title>
 </helmet>
 
-# System Architecture
+## System Architecture
 
 The Quantum system relies on foundational micro-services, an event-driven message queue, and a JSON Web Token-based authentication provider.
 

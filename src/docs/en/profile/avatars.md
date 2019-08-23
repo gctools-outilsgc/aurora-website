@@ -9,11 +9,11 @@ title: "Avatars"
 <title> Profile - Avatars</title>
 </helmet>
 
-# Avatar Resource Server
+## Avatar Resource Server
 
 The Profile as a Service leverages [PictShare](https://github.com/chrisiaut/pictshare) which is a multi-lingual, Open Source image-hosting application with a simple resizing and upload API for the hosting of profile avatar images.  PictShare is licensed under the [Apache-2.0 License](https://github.com/chrisiaut/pictshare/blob/master/LICENSE)
 
-## Features
+### Features
 
 * Simple API to upload any image from remote servers to your instance
 * 100% file based - no database needed
@@ -25,7 +25,7 @@ The Profile as a Service leverages [PictShare](https://github.com/chrisiaut/pict
 * Duplicates don't take up space. If the exact same images is uploaded twice, the second upload will link to the first
 * Detailed traffic and view statistics of your images via [Pictshare stats](https://github.com/chrisiaut/pictshare_stats)
 
-## Smart query system
+### Smart query system
 
 PictShare images can be changed after upload just by modifying the URL. It works like this:
 
@@ -33,14 +33,14 @@ PictShare images can be changed after upload just by modifying the URL. It works
 
 For example: `https://avatar.gccollab.ca/100x100/negative/b260e36b60.jpg` will show you the uploaded Image `b260e36b60.jpg` but resize it to 100x100 pixels and apply the "negative" filter. The original image on the resource server will stay untouched.
 
-## Available options
+### Available options
 
 Original URL: `https://www.pictshare.net/b260e36b60.jpg`
 
 Note: If an option needs a value it works like this: `optionname_value`. Eg: `pixelate_10`
 If there is an option requested that's not recognized by PictShare it's simply ignored, so this will work: https://www.pictshare.net/pictshare-is-awesome/b260e36b60.jpg and also even this will work: https://www.pictshare.net/b260e36b60.jpg/how-can-this-still/work/
 
-### Resizing
+#### Resizing
 
 | Option | Parameter | Example URL
 | :---: | :---: | :--- |
@@ -48,7 +48,7 @@ If there is an option requested that's not recognized by PictShare it's simply i
 | forcecesize | -none- | `https://pictshare.net/100x400/forcesize/b260e36b60.jpg `|
 
 
-### Rotating
+#### Rotating
 
 |        Option        |   Parameter   |  Example URL |
 | :---: | :---: | :---|
@@ -56,7 +56,7 @@ If there is an option requested that's not recognized by PictShare it's simply i
 | right  | -none-   |  `https://pictshare.net/right/b260e36b60.jpg` |
 | upside |  -none-  |  `https://pictshare.net/upside/b260e36b60.jpg`  |
 
-### Filters
+#### Filters
 
 |        Option        |   Parameter      |  Example URL |
 | :---: | :---: | :---|
@@ -81,6 +81,6 @@ If there is an option requested that's not recognized by PictShare it's simply i
 You can also combine as many options as you want. Even multiple times! Want your image to be negative, resized, grayscale , with increased brightness and negate it again? No problem: `https://pictshare.net/500x500/grayscale/negative/brightness_100/negative/b260e36b60.jpg`
 
 
-## Security and privacy
+### Security and privacy
 
 * No exif data is stored on the server, all JPGs get cleaned on upload

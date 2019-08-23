@@ -26,7 +26,7 @@ The Profile as a Service is architected on Apollo server and leverages Prisma an
 
 ## How does it communicate with other services
 
-Profile as a service listens for specific events on the Service Mesh that then trigger specific functions.  For example when a new user validates their account on GCaccount a message is sent to the Service Mesh specifying that there is a new user and it provides the information that was used during registration.  Profile as a Serivce listens for this event, as well as other applications, and triggers the automatic creation of this users profile with the information that was used during GCaccount registration.
+Profile as a service listens for specific events on the Message Queue that then trigger specific functions.  For example when a new user validates their account on GCaccount a message is sent to the Message Queue specifying that there is a new user and it provides the information that was used during registration.  Profile as a Serivce listens for this event, as well as other applications, and triggers the automatic creation of this users profile with the information that was used during GCaccount registration.
 
 ## How does it handle Authentication and Authorization
 

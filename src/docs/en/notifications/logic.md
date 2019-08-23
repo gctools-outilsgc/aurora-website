@@ -9,15 +9,15 @@ title: "Business Logic"
 <title> Profile - Business Logic</title>
 </helmet>
 
-# Business Logic
+## Business Logic
 
 The user is the source of truth for information except for fields that require additional validation, such as the user's organization, team, or supervisor.  The user that owns the team that a user is attempting to join must approve their request.  Until the approval is processed, the user will continue to remain a part of the team / organization that they are currently a part of.
 
-## Supervisor
+### Supervisor
 
 There is no external validation of "supervisory" status.  Instead it is assumed that a user is a supervisor once a single user identifies them as their supervisor which creates a reporting relationship between the two users.
 
-### Teams
+#### Teams
 
 Teams are how users are grouped in reporting relationships, and allow for the dynamic creation and dispaly of reporting relationship graphs.
 It is important to note that the reporting relationship with teams will follow the user from team to team or organization to organization unless explicitly transferred to another user.

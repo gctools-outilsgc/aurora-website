@@ -6,14 +6,14 @@ title: "Modifying Data"
 ---
 
 <helmet>
-<title> Profile - Modifying Data</title>
+<title> Notifications - Modifying Data</title>
 </helmet>
 
-# Mutations
+## Mutations
 
 Mutations require authentication in the form of the user's valid GCaccount access token.  The access token must be passed in the request header in the form `Authorization: Bearer {access token}`.
 
-## Profile Mutations
+### Notification Mutations
 
 Available arguments to send in a mutation:
 
@@ -62,9 +62,9 @@ Example mutation using all available arguments:
     }
 ```
 
-## Team Mutations
+### Team Mutations
 
-### Create a Team
+#### Create a Team
 
 Available arguments to send in a mutation:
 
@@ -95,7 +95,7 @@ Example mutation to create an OrgTier:
     }
 ```
 
-### Modify a Team
+#### Modify a Team
 
 Available arguments to send in a mutation:
 
@@ -129,7 +129,7 @@ Example mutation to modify an OrgTier:
     }
 ```
 
-### Delete a Team
+#### Delete a Team
 
 Available arguments to send in a mutation:
 
@@ -145,7 +145,7 @@ Example mutation to delete an OrgTier:
     }
 ```
 
-## Approvals
+### Approvals
 
 Available arguments to send in a mutation:
 

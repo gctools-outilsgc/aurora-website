@@ -2,16 +2,14 @@
 path: "/profile/introduction"
 subnav: "1/Profile/Profil/1"
 lang: "en"
-title: "Profile as a Service"
+title: "Introduction"
 ---
 
 <helmet>
 <title> Profile - Introduction </title>
 </helmet>
 
-# Profile as a Service
-
-## About Profile-as-a-service
+## Introduction
 
 Similar to other services like Google, Facebook, and Github, the Profile-as-a-service (PAAS) allows a tell-me-once approach for setting common profile information across all Open Accessible Digital Workspace applications. Profile-as-a-service also leverages the GCaccount sign-on platform.
 
@@ -27,7 +25,7 @@ The Profile-as-a-service is architected on Apollo server and leverages Prisma an
 
 ## Communication with other services
 
-Profile-as-a-service listens for specific events on the Service Mesh that then trigger specific functions.  For example, when a new user validates their account on GCaccount, a message is sent to the Service Mesh specifying that there is a new user and it provides the information that was used during registration.  Profile-as-a-serivce listens for this event, as well as other applications, and triggers the automatic creation of this user's profile with the information that was used during GCaccount registration.
+Profile-as-a-service listens for specific events on the Message Queue that then trigger specific functions.  For example, when a new user validates their account on GCaccount, a message is sent to the Message Queue specifying that there is a new user and it provides the information that was used during registration.  Profile-as-a-serivce listens for this event, as well as other applications, and triggers the automatic creation of this user's profile with the information that was used during GCaccount registration.
 
 ## Authentication and authorization
 

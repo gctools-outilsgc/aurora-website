@@ -9,15 +9,15 @@ title: "Business Logic"
 <title> Profile - Business Logic</title>
 </helmet>
 
-# Business Logic
+## Business Logic
 
 The user is the source of truth for information except for fields that require additional validation, such as the user's organization, team, or supervisor.  The user that owns the team that a user is attempting to join must approve their request.  Until the approval is processed, the user will continue to remain a part of the team / organization that they are currently a part of.
 
-## Supervisor
+### Supervisor
 
 There is no external validation of "supervisory" status.  Instead it is assumed that a user is a supervisor once a single user identifies them as their supervisor which creates a reporting relationship between the two users.
 
-### Teams
+#### Teams
 
 Teams are how users are grouped in reporting relationships, and allow for the dynamic creation and dispaly of reporting relationship graphs.
 It is important to note that the reporting relationship with teams will follow the user from team to team or organization to organization unless explicitly transferred to another user.
@@ -34,7 +34,7 @@ It is important to note that the reporting relationship with teams will follow t
 * Delete someone else's teams
 * Delete your default team
 
-### Approvals
+#### Approvals
 
 **You can:**
 * Approve or deny membership requests to join a team you own
@@ -43,11 +43,11 @@ It is important to note that the reporting relationship with teams will follow t
 **You can not:**
 * Approve any other requests except for users who have a direct reporting relationship with you
 
-## User
+### User
 
 Everyone is a user, even if they have supervisory status, and is responsible for ensuring their information is up to date.
 
-### Supervisor
+#### Supervisor
 
 **You can:**
 * Select another user as your supervisor.  The reporting relationship will only be created once the other user has approved your request.
@@ -55,7 +55,7 @@ Everyone is a user, even if they have supervisory status, and is responsible for
 **You can not:**
 * Select another user as your supervisor without their consent.
 
-### Organization
+#### Organization
 
 By default, everyone is a part of the "Global Organization" when a profile is created.  This default organizaiton contains everyone who is not directly associated to a specific organization.
 

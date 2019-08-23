@@ -9,13 +9,13 @@ title: "Retrieving Data"
 <title> Profile - Retreiving Data</title>
 </helmet>
 
-# Queries
+## Queries
 
 Queries do not require authentication of the client through the means of an access token, however the type of data returned may be filtered.  For example if the "address" field requires a certain "user role" to view then if a querying user does not have that role `null` will be returned for that field.
 
-For more informaiton on how to utilize the graphQL query function graphl.org provides excellent [tutorails](https://graphql.org/learn/queries/).
+For more information on how to utilize the graphQL query function graphl.org provides excellent [tutorails](https://graphql.org/learn/queries/).
 
-## Query that would return all available information of users without search criteria
+### Query that would return all available information of users without search criteria
 
 For brevity `...all object fields available` has been used to reduce repetivitiy.
 
@@ -95,11 +95,11 @@ For brevity `...all object fields available` has been used to reduce repetivitiy
     }
 ```
 
-## Query search criteria
+### Query search criteria
 
 Search criteria fields can be used separately or chained together to easily filter through data.
 
-### Auto-complete name profile search
+#### Auto-complete name profile search
 
 Available Arguments
 
@@ -115,7 +115,7 @@ Example:
     }
 ```
 
-### Profile
+#### Profile
 
 Available Arguments:
 
@@ -143,7 +143,7 @@ Example with all available arguments:
     }
 ```
 
-### Addresses
+#### Addresses
 
 Available arguments:
 
@@ -169,7 +169,7 @@ Example with all available arguments
     }
 ```
 
-### Teams
+#### Teams
 
 Available arguments:
 
@@ -189,7 +189,7 @@ Example with all available arguments:
     }
 ```
 
-### Organizations
+#### Organizations
 
 Available arguments:
 
@@ -211,7 +211,7 @@ Available arguments:
     }
 ```
 
-### Approvals
+#### Approvals
 
 Available Arguments:
 
@@ -239,7 +239,7 @@ Example using all available Arguments
     }
 ```
 
-## Paginiation
+### Pagination
 
 Retrieving too much data on a single request is not practical and may break your app. Pagination exists to solve this problem, allowing the client to specify how many items it wants.
 

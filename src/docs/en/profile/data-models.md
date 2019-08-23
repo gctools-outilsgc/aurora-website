@@ -9,9 +9,9 @@ title: "Data Models"
 <title> Profile - Data Models </title>
 </helmet>
 
-# Object Data Models
+## Object Data Models
 
-## Profile
+### Profile
 
 * `gcId` *a unique user identifier* (string)
 * `name` *user's name* (string)
@@ -27,7 +27,7 @@ title: "Data Models"
 * `outstandingApprovals` *array of approval objects that require the user's approval or rejection* (approval object array)
 * `submittedApprovals` *array of approval objects that have been submitted by the user* (approval ojbect array)
 
-## Address
+### Address
 
 * `id` *unique address object identifier* (int)
 * `streetAddress` (string)
@@ -36,7 +36,7 @@ title: "Data Models"
 * `postalCode` (string)
 * `country` (string)
 
-## Team
+### Team
 
 * `id` *unique organizaitonal tier object identifier* (int)
 * `nameEn` *English name of team* (string)
@@ -46,7 +46,7 @@ title: "Data Models"
 * `owner` *profile object of the user who is listed as the owner of this team* (user object)
 * `OrgMembers` *array of user objects who are associated with this org tier* (user object array)
 
-## Organization
+### Organization
 
 * `id` *unique organization object identifier* (int)
 * `nameEn` *English name of organization* (string)
@@ -55,9 +55,9 @@ title: "Data Models"
 * `acronymFr` *French acronym of the organization* (string)
 * `teams` *array of teams that are associated with this organization* (team array)
 
-## Approval
+### Approval
 
-### Approval Object
+#### Approval Object
 
 * `id` *unique approval object identifier* (int)
 * `gcIDApprover` *profile object of the user who is listed as being able to approve or deny this request* (profile object)
@@ -69,7 +69,7 @@ title: "Data Models"
 * `status` *enum that can be either `Pending`, `Approved`, or `Denied` to describe the state of the approval* (enum)
 * `changeType` *enum that can be either `Membership` or `Informational` to describe the nature of the change being requested* (enum)
 
-### Requested Change Object
+#### Requested Change Object
 
 * `id` *unique requestedChange object identifier(int)
 * `name` *user's name* (string)
