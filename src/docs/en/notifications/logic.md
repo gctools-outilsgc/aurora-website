@@ -11,15 +11,16 @@ title: "Business Logic"
 
 ## Business Logic
 
-The user is the source of truth for information except for fields that require additional validation, such as the user's organization, team, or supervisor.  The user that owns the team that a user is attempting to join must approve their request.  Until the approval is processed, the user will continue to remain a part of the team / organization that they are currently a part of.
+The user is the source of truth for their information, except for fields that require additional validation, such as the user's organization, team, or supervisor.  The user that owns the team must approve their request to join the team.  Until the approval is processed, the user will continue to remain a part of the team / organization that they are currently a part of.
 
 ### Supervisor
 
-There is no external validation of "supervisory" status.  Instead it is assumed that a user is a supervisor once a single user identifies them as their supervisor which creates a reporting relationship between the two users.
+There is no external validation of "supervisory" status.  Instead, it is assumed that a user is a supervisor once a single user identifies them as their supervisor. This creates a reporting relationship between the two users.
 
 #### Teams
 
-Teams are how users are grouped in reporting relationships, and allow for the dynamic creation and dispaly of reporting relationship graphs.
+Teams are how users are grouped in reporting relationships and allow for the dynamic creation and display of reporting relationship graphs.
+
 It is important to note that the reporting relationship with teams will follow the user from team to team or organization to organization unless explicitly transferred to another user.
 
 **You can:**
@@ -45,7 +46,7 @@ It is important to note that the reporting relationship with teams will follow t
 
 ## User
 
-Everyone is a user, even if they have supervisory status, and is responsible for ensuring their information is up to date.
+Everyone is a user, even if they have supervisory status, and is responsible for ensuring their own information is up to date.
 
 ### Supervisor
 
@@ -53,11 +54,11 @@ Everyone is a user, even if they have supervisory status, and is responsible for
 * Select another user as your supervisor.  The reporting relationship will only be created once the other user has approved your request.
 
 **You can not:**
-* Select another user as your supervisor without their consent.
+* List another user as your supervisor without their approval.
 
 ### Organization
 
-By default, everyone is a part of the "Global Organization" when a profile is created.  This default organizaiton contains everyone who is not directly associated to a specific organization.
+By default, everyone is a part of the "Global Organization" when a profile is created.  This default organizaiton contains everyone who is not directly a member of a specific organization.
 
 **You can:**
 * Join an organization directly without identifying a supervisor.  This will list you as in the organization's Default Team.
@@ -65,7 +66,7 @@ By default, everyone is a part of the "Global Organization" when a profile is cr
 
 **You can not:**
 * Create an organization
-* Identify a user as your supervisor but remain not part of their organization
+* Identify a user as your supervisor and not join their organization
 * Modify an organization
 * Delete an organization
 
