@@ -9,7 +9,7 @@ title: "Business Logic"
 <title> Profile - Business Logic</title>
 </helmet>
 
-## Business Logic
+## Business logic
 
 The user is the source of truth for their information, except for fields that require additional validation, such as the user's organization, team, or supervisor.  The user that owns the team must approve their request to join the team.  Until the approval is processed, the user will continue to remain a part of the team / organization that they are currently a part of.
 

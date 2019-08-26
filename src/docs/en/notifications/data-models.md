@@ -9,7 +9,7 @@ title: "Data Models"
 <title> Notifications - Data Models </title>
 </helmet>
 
-## Object Data Models
+## Object data models
 
 ### Notification
 
@@ -32,7 +32,7 @@ title: "Data Models"
 * `descriptionFr` *French description/body of online notification*(string)
 * `viewed` *boolean describing if online notification has been viewed*(boolean)
 
-### Email Object
+### Email object
 
 * `from` *email address of from user/system* (string)
 * `to` *email address of receiver* (string)
