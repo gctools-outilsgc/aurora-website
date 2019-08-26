@@ -11,9 +11,9 @@ title: "Retrieving Data"
 
 ## Queries
 
-Queries do require authentication of the client through the means of an access token.  If the token is validated by GCaccount as being current, and consent authorized for the applicaiton, Notificaiton-as-a-service will return the data requested for the user the token was generated for.
+Queries require authentication of the client through an access token.  If the token is validated by GCaccount as being current, and consent authorized for the applicaiton, Notificaiton-as-a-Service will return the data requested for the user the token was generated for.
 
-For more information on how to utilize the graphQL query function graphl.org provides excellent [tutorails](https://graphql.org/learn/queries/).
+For more information on how to utilize the graphQL query function graphl.org provides excellent [tutorials](https://graphql.org/learn/queries/).
 
 ### Query that would return all available information of notifications for a specific user as identified in an access token
 
@@ -95,7 +95,7 @@ Example with all available arguments:
 
 ### Pagination
 
-Retrieving too much data on a single request is not practical and may break your app. Pagination exists to solve this problem, allowing the client to specify how many items it wants.
+Retrieving too much data on a single request is not practical and may break your application. Pagination solves this problem, allowing the client to specify how many items it wants.
 
 The simple way defined in the GraphQL pagination documentation is to slice the results using two parameters: `first`, which returns the first n items and `skip`, which skips the first n items.
 
