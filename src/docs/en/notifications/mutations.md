@@ -13,7 +13,7 @@ title: "Modifying Data"
 
 Mutations require authentication in the form of the user's valid GCaccount access token.  The access token must be passed in the request header in the form `Authorization: Bearer {access token}`.
 
-### Notification Mutations
+### Notification mutations
 
 Available arguments to send in a mutation:
 
@@ -62,9 +62,9 @@ Example mutation using all available arguments:
     }
 ```
 
-### Team Mutations
+### Team mutations
 
-#### Create a Team
+#### Create a team
 
 Available arguments to send in a mutation:
 
@@ -95,7 +95,7 @@ Example mutation to create an OrgTier:
     }
 ```
 
-#### Modify a Team
+#### Modify a team
 
 Available arguments to send in a mutation:
 
@@ -129,7 +129,7 @@ Example mutation to modify an OrgTier:
     }
 ```
 
-#### Delete a Team
+#### Delete a team
 
 Available arguments to send in a mutation:
 
@@ -152,7 +152,7 @@ Available arguments to send in a mutation:
 * `id` *unique identifier of the approval to modify* (int)
 * `data` *object that contains changes to apply*
   * `status` *enum of either `Pending`, `Approved`, or `Denied` (enum)
-  * `deniedComment` *reaseon for setting status to `Denied` (string)
+  * `deniedComment` *reason for setting status to `Denied` (string)
 
 Example mutation to modify Approval:
 
