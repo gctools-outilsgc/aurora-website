@@ -15,9 +15,9 @@ title: "Progress indicators"
 
 Progress indicators are key for visibility of system status. They visually represent a path to completion of a particular task or process. Step indicators help the user identify how much of the process the user has completed, and how much is still left.
 
-## Steps Indicator
+## Step Indicators
 
-Step indicators are used for tasks that require multiple steps. To visually represent a page or element that is loading, use a spinner or progress bar rather than a steps indicator.
+Step indicators are used for tasks that require multiple steps. To visually represent a page or element that is loading, use a spinner or progress bar rather than a step indicator.
 
 ## Progress Bars
 
