@@ -142,7 +142,7 @@ Plutôt que d’appliquer des classes de tailles de bouton à chaque bouton d’
 
 Les boutons ne sont pas des objets ayant un seul état. La plupart des utilisateurs reconnaissent un bouton en raison de son état stationnaire et son état actif. Les divers états offrent également de la rétroaction à l’utilisateur à chaque étape de l’exécution de l’action.
 
-Les boutons devraient comprendre les états normal, sensitif, accentué, actif et désactivé :
+Les boutons devraient comprendre les états normal, sensitif, accentué et désactivé :
 
 **Normal** : même dans son état normal, un bouton doit ressembler à un bouton! Avant d’être stationnaire, un utilisateur devrait être capable de dire si un élément est cliquable.
 
