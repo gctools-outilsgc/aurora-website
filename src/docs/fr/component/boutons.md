@@ -146,11 +146,11 @@ Les boutons devraient comprendre les états normal, sensitif, accentué, actif e
 
 **Normal** : même dans son état normal, un bouton doit ressembler à un bouton! Avant d’être stationnaire, un utilisateur devrait être capable de dire si un élément est cliquable.
 
-**Sensitif** : habituellement indiqué par un changement de couleur ou une animation, l’état sensitif indique à l’utilisateur que l’élément est cliquable.
+**Stationnaire** : habituellement indiqué par un changement de couleur ou une animation, l’état stationnaire indique à l’utilisateur que l’élément est cliquable.
 
 **Accentué**: semblable à l’état sensitif, l’état accentué indique que l’utilisateur a placé son curseur sur le bouton précis.
 
-**Actif ou appuyé**: habituellement indiqué par un changement de couleur ou une animation, cela indique que l’utilisateur a cliqué ou appuyé sur un bouton.
+<!--**Actif ou appuyé**: habituellement indiqué par un changement de couleur ou une animation, cela indique que l’utilisateur a cliqué ou appuyé sur un bouton.-->
 
 **Désactivé** : habituellement une version fantôme de l’état normal, cela indique à l’utilisateur que l’action n’est pas disponible.
 
