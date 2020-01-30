@@ -142,15 +142,15 @@ Plutôt que d’appliquer des classes de tailles de bouton à chaque bouton d’
 
 Les boutons ne sont pas des objets ayant un seul état. La plupart des utilisateurs reconnaissent un bouton en raison de son état stationnaire et son état actif. Les divers états offrent également de la rétroaction à l’utilisateur à chaque étape de l’exécution de l’action.
 
-Les boutons devraient comprendre les états normal, sensitif, accentué, actif et désactivé :
+Les boutons devraient comprendre les états normal, stationnaire, accentué et désactivé :
 
 **Normal** : même dans son état normal, un bouton doit ressembler à un bouton! Avant d’être stationnaire, un utilisateur devrait être capable de dire si un élément est cliquable.
 
-**Sensitif** : habituellement indiqué par un changement de couleur ou une animation, l’état sensitif indique à l’utilisateur que l’élément est cliquable.
+**Stationnaire** : habituellement indiqué par un changement de couleur ou une animation, l’état stationnaire indique à l’utilisateur que l’élément est cliquable.
 
 **Accentué**: semblable à l’état sensitif, l’état accentué indique que l’utilisateur a placé son curseur sur le bouton précis.
 
-**Actif ou appuyé**: habituellement indiqué par un changement de couleur ou une animation, cela indique que l’utilisateur a cliqué ou appuyé sur un bouton.
+<!--**Actif ou appuyé**: habituellement indiqué par un changement de couleur ou une animation, cela indique que l’utilisateur a cliqué ou appuyé sur un bouton.-->
 
 **Désactivé** : habituellement une version fantôme de l’état normal, cela indique à l’utilisateur que l’action n’est pas disponible.
 
