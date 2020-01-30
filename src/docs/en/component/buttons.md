@@ -140,15 +140,15 @@ Instead of applying button sizing classes to every button in a group, just add `
 
 Buttons are not one-state objects. Most users will recognize a button because of its hover and active states. Varying states also provide feedback to the user at each stage of performing the action.
 
-Buttons should include normal, hover, focus, active and disabled states:
+Buttons should include regular, hover, focus and disabled states:
 
-**Normal:** Even in its normal state, a button should look like a button! Before hovering, a user should be able to tell that an element is clickable.
+**Regular:** Even in its regular state, a button should look like a button! Before hovering, a user should be able to tell that an element is clickable.
 
 **Hover:** Usually indicated by a change in colour or animation, hover states indicate to the user that the element is clickable.
 
 **Focus:** Similar to hover states, focus states indicate that the user has tabbed to the specific button.
 
-**Active/Pressed:** Usually indicated by a change in colour or animation, this indicates that the user has clicked or pressed a button
+<!--**Active/Pressed:** Usually indicated by a change in colour or animation, this indicates that the user has clicked or pressed a button-->
 
 **Disabled:** Usually a ghosted version of the normal state, this indicates to the user that the action is unavailable.
 
