@@ -36,7 +36,8 @@
     "react-i18next": "^7.12.0",
     "react-prism": "~4.3.2",
     "reactstrap": "^6.4.0",
-    "rehype-react": "~3.0.2"
+    "rehype-react": "~3.0.2",
+    "snyk": "^1.316.1"
   },
   "keywords": [
     "gatsby"
@@ -49,7 +50,9 @@
     "format": "prettier --write 'src/**/*.js'",
     "test": "eslint src/",
     "lint-fix": "eslint src/ --fix",
-    "deploy": "rm -rf .cache/* && gatsby build && cp ./src/CNAME public/ && gh-pages -d public"
+    "deploy": "rm -rf .cache/* && gatsby build && cp ./src/CNAME public/ && gh-pages -d public",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "devDependencies": {
     "eslint": "^5.0.1",
@@ -68,5 +71,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gctools-outilsgc/design-system-code"
-  }
+  },
+  "snyk": true
 }
