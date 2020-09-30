@@ -1,4 +1,4 @@
-# README
+# README - An Amazing Project
 
 ([Français](#système-de-conception-aurora))
 
