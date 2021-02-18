@@ -23,7 +23,7 @@
     "gatsby-source-filesystem": "latest",
     "gatsby-transformer-remark": "latest",
     "gatsby-transformer-sharp": "latest",
-    "i18next": "^11.9.0",
+    "i18next": "^19.8.5",
     "lunr": "^2.3.3",
     "popper.js": "^1.14.4",
     "prismjs": "^1.15.0",
