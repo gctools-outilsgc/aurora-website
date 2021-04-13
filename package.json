@@ -21,7 +21,7 @@
     "gatsby-remark-images": "latest",
     "gatsby-remark-prismjs": "^3.1.4",
     "gatsby-source-filesystem": "latest",
-    "gatsby-transformer-remark": "latest",
+    "gatsby-transformer-remark": "4.0.0",
     "gatsby-transformer-sharp": "latest",
     "i18next": "^11.9.0",
     "lunr": "^2.3.3",
