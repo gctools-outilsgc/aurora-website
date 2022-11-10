@@ -58,7 +58,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.10.0",
     "gh-pages": "^1.2.0",
-    "loader-utils": "^1.1.0",
+    "loader-utils": "^1.4.1",
     "prettier": "^1.13.7"
   },
   "eslintConfig": {
