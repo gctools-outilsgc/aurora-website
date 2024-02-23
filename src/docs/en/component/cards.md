@@ -230,7 +230,7 @@ A second divider is placed 12px below the content. Actionable items (i.e. button
 Cards can technically include any number of component combinations. Using the base styles above, components such as placeholder text (metadata), avatars, icon buttons, buttons can be added below the header, or within the actionable section below the main content.
 
 <div class="card card-profile mb-2 d-inline-block" style="max-width: 18rem;">  
-    <img class="card-img-top" style="height: 100px;" src="http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg" alt="placeholder image">
+    <img class="card-img-top" style="height: 100px;" src="https://web.archive.org/web/20131221155650if_/http://coverpixs.com/images/items/itm_2013-01-27_11-36-29_1.jpg" alt="placeholder image">
     <div class="card-body">
         <img alt="..." class="avatar avatar-lg" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Wayfarers&hairColor=Black&facialHairType=Blank&clotheType=BlazerSweater&eyeType=Default&eyebrowType=RaisedExcitedNatural&mouthType=Default&skinColor=Yellow">
         <div>
